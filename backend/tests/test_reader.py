@@ -7,7 +7,7 @@ def test_reader_page_is_installable(client):
     page = client.get("/app/")
     assert page.status_code == 200
     assert "text/html" in page.headers["content-type"]
-    assert "Ghana Education News" in page.text
+    assert "Education Lens" in page.text
     assert 'href="/app/manifest.webmanifest"' in page.text
     assert "Saved" in page.text
 
@@ -15,7 +15,8 @@ def test_reader_page_is_installable(client):
     body = manifest.json()
     assert manifest.status_code == 200
     assert "manifest" in manifest.headers["content-type"]
-    assert body["name"] == "Ghana Education News"
+    assert body["name"] == "Education Lens"
+    assert body["short_name"] == "Ed Lens"
     assert body["display"] == "standalone"
     assert body["start_url"] == "/app/"
     assert body["icons"]

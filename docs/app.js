@@ -176,7 +176,8 @@ function renderList(stories, { heading, more } = {}) {
   clear(main);
   if (heading) main.append(el("p", "meta", heading));
   if (!stories.length) {
-    main.append(el("p", "notice", "No stories in this list."));
+    const empty = heading && heading.startsWith("Results") ? "No stories match that search." : "No stories in this list.";
+    main.append(el("p", "notice", empty));
     return;
   }
   for (const story of stories) main.append(storyCard(story));

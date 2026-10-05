@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#1c3d2e">
-  <title>Ghana Education News</title>
+  <meta name="description" content="Education stories with a short summary and a link to the publisher.">
+  <meta name="apple-mobile-web-app-title" content="Education Lens">
+  <title>Education Lens</title>
   <link rel="manifest" href="/app/manifest.webmanifest">
   <link rel="icon" href="/app/icon-192.png">
   <link rel="apple-touch-icon" href="/app/icon-192.png">
@@ -13,7 +15,7 @@
 <body>
   <header>
     <div class="bar">
-      <a class="brand" href="#/">Ghana Education News</a>
+      <a class="brand" href="#/">Education Lens</a>
       <nav>
         <a id="nav-latest" href="#/">Latest</a>
         <a id="nav-saved" href="#/saved">Saved</a>
@@ -21,10 +23,11 @@
     </div>
     <form id="search" role="search">
       <input id="search-input" type="search" name="q" placeholder="Search headlines" enterkeyhint="search" aria-label="Search headlines">
+      <button type="submit">Search</button>
     </form>
     <div id="categories" class="categories"></div>
   </header>
-  <main id="main"></main>
+  <main id="main"><p class="notice">Loading stories…</p></main>
   <script src="/app/app.js"></script>
 </body>
 </html>

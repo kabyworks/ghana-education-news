@@ -1,7 +1,7 @@
 {
-  "name": "Ghana Education News",
-  "short_name": "Ghana Ed",
-  "description": "Education stories from Ghana, with a short summary and a link to the publisher.",
+  "name": "Education Lens",
+  "short_name": "Ed Lens",
+  "description": "Education stories with a short summary and a link to the publisher.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
