@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T21:11:01Z",
+  "generated_at": "2026-10-05T21:40:40Z",
   "categories": [
     {
       "name": "higher_education",
@@ -269,12 +269,13 @@
       "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
       "summary": "The Ministry of Education has commended teachers across Ghana for their dedication and sacrifice as the country joins the global community to mark World Teachers’ Day 2026.",
       "category": "teachers",
-      "published_at": "2026-10-05T21:01:37Z",
-      "source_count": 1,
+      "published_at": "2026-10-05T21:38:51Z",
+      "source_count": 2,
       "sources": [
+        "3News",
         "Adom Online Education"
       ],
-      "rank": 0.767,
+      "rank": 0.867,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -282,6 +283,13 @@
           "url": "https://www.adomonline.com/education-ministry-salutes-ghanaian-teachers-on-world-teachers-day/",
           "published_at": "2026-10-05T21:01:37Z",
           "excerpt": "The Ministry of Education has commended teachers across Ghana for their dedication and sacrifice as the country joins the global community to mark World Teachers’ Day 2026. In a statement, the Ministry described teachers as being at the heart of Ghana’s education system and credited them with playing a critical role in shaping the minds, […]"
+        },
+        {
+          "source_name": "3News",
+          "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
+          "url": "https://3news.com/news/education-ministry-salutes-ghanaian-teachers-on-world-teachers-day",
+          "published_at": "2026-10-05T21:38:51Z",
+          "excerpt": "In a statement, the Ministry described teachers as being “at the heart of Ghana’s education system,” noting their important role in shaping the minds, character and future of children across the country."
         }
       ]
     },
