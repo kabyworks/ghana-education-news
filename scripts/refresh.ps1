@@ -48,13 +48,9 @@ if ($LASTEXITCODE -ne 0) {
     Write-Log "Could not commit the phone copy."
     exit $LASTEXITCODE
 }
-$Gh = "C:\Program Files\GitHub CLI\gh.exe"
-$token = & $Gh auth token 2>$null
-if (-not $token) {
-    Write-Log "Commit succeeded, but GitHub is not signed in, so the phone still has the previous copy."
-    exit 1
-}
-git -c credential.helper= -c "http.extraheader=AUTHORIZATION: bearer $token" push origin HEAD
+$env:Path = "C:\Program Files\GitHub CLI;" + $env:Path
+$env:GIT_TERMINAL_PROMPT = "0"
+git -c credential.helper= -c "credential.helper=!gh auth git-credential" push origin HEAD
 if ($LASTEXITCODE -ne 0) {
     Write-Log "Commit succeeded, but the push did not. The phone still has the previous copy."
     exit $LASTEXITCODE
