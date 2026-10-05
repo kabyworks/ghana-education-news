@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T19:40:42Z",
+  "generated_at": "2026-10-05T20:10:38Z",
   "categories": [
     {
       "name": "higher_education",
@@ -18,11 +18,11 @@
       "story_count": 5
     },
     {
-      "name": "examinations",
-      "story_count": 1
+      "name": "general",
+      "story_count": 2
     },
     {
-      "name": "general",
+      "name": "examinations",
       "story_count": 1
     },
     {
@@ -34,16 +34,16 @@
     {
       "id": 13,
       "title": "Education Ministry to meet teacher unions amidst strike action",
-      "summary": "The National Council of Parent-Teacher Associations (NCPTAs) has appealed to the leadership of the Ghana National Association of Teachers (GNAT), National Association of Graduate Teachers (NAGRAT) and Private Education Teachers Association (PRETAG) to call off their strike and return to the classroom.",
+      "summary": "The Fair Wages and Salaries Commission (FWSC) is expected to meet the leadership of the three striking teacher unions on Tuesday, October 6, to negotiate their concerns over conditions of service.",
       "category": "teachers",
-      "published_at": "2026-10-05T15:45:09Z",
+      "published_at": "2026-10-05T19:42:05Z",
       "source_count": 3,
       "sources": [
         "3News",
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9089,
+      "rank": 0.9497,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -254,6 +254,13 @@
           "url": "https://www.myjoyonline.com/deputy-education-minister-appeals-to-striking-teachers-to-return-to-classrooms/",
           "published_at": "2026-10-05T15:45:09Z",
           "excerpt": "Deputy Minister of Education Dr Clement Apaak has appealed to striking pre-tertiary teachers to return to the classroom while the government works to resolve their outstanding concerns."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "FWSC to meet striking teacher unions on Tuesday",
+          "url": "https://www.myjoyonline.com/fwsc-to-meet-striking-teacher-unions-on-tuesday/",
+          "published_at": "2026-10-05T19:42:05Z",
+          "excerpt": "The Fair Wages and Salaries Commission (FWSC) is expected to meet the leadership of the three striking teacher unions on Tuesday, October 6, to negotiate their concerns over conditions of service. The meeting follows renewed calls by Education Minister Haruna Iddrisu for the teachers to call off their nationwide strike and return to the classroom. […]"
         }
       ]
     },
@@ -267,7 +274,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.767,
+      "rank": 0.7563,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -288,7 +295,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.767,
+      "rank": 0.754,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -309,7 +316,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.767,
+      "rank": 0.7526,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -317,6 +324,27 @@
           "url": "https://www.myjoyonline.com/gtec-directs-uds-to-immediately-cease-unauthorised-mode-of-delivering-accredited-llb-programme/",
           "published_at": "2026-10-05T19:01:55Z",
           "excerpt": "The Ghana Tertiary Education Commission (GTEC) has directed the University of Development Studies (UDS) to cease with immediate effect, the delivery of the accredited evening LLB programme as a weekend programme and to restore the programme to its duly approved evening mode of delivery."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "AIT President Prof Clement Dzidonu urges lifelong learning as AI reshapes work and education",
+      "summary": "The President of the Accra Institute of Technology (AIT), Professor Clement K.",
+      "category": "general",
+      "published_at": "2026-10-05T19:43:20Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7448,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "AIT President Prof Clement Dzidonu urges lifelong learning as AI reshapes work and education",
+          "url": "https://www.myjoyonline.com/ait-president-prof-clement-dzidonu-urges-lifelong-learning-as-ai-reshapes-work-and-education/",
+          "published_at": "2026-10-05T19:43:20Z",
+          "excerpt": "The President of the Accra Institute of Technology (AIT), Professor Clement K. Dzidonu, has called for a fundamental shift in how individuals, educational institutions and society think about learning in the age of Artificial Intelligence (AI), arguing that graduation can no longer be regarded as the end of the learning journey. Professor Dzidonu is advocating what he describes as the Sovereign Lifelong Learner — the \"Sovereign Triple-L\": an individual who takes ownership of continuing learning and assumes personal responsibility for continually renewing, deepening and extending their capabilities throughout professional and personal life. According to the AIT President, the traditional model in which people undergo intensive education, graduate, enter a profession and rely for many years on much of the knowledge acquired during formal education is rapidly becoming unsustainable."
         }
       ]
     },
@@ -330,7 +358,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7298,
+      "rank": 0.7169,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -351,7 +379,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7073,
+      "rank": 0.6954,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -372,7 +400,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.703,
+      "rank": 0.6905,
       "articles": [
         {
           "source_name": "3News",
@@ -393,7 +421,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.686,
+      "rank": 0.6743,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -414,7 +442,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6706,
+      "rank": 0.6597,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -435,7 +463,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6638,
+      "rank": 0.6532,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -456,7 +484,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.6095,
+      "rank": 0.6012,
       "articles": [
         {
           "source_name": "3News",
@@ -477,7 +505,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5303,
+      "rank": 0.5254,
       "articles": [
         {
           "source_name": "3News",
@@ -498,7 +526,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3445,
+      "rank": 0.3437,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -519,7 +547,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3369,
+      "rank": 0.3362,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -540,7 +568,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3221,
+      "rank": 0.3214,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -561,7 +589,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3216,
+      "rank": 0.3209,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -582,7 +610,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.32,
+      "rank": 0.3194,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -603,7 +631,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3169,
+      "rank": 0.3162,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -624,7 +652,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3111,
+      "rank": 0.3107,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -645,7 +673,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3057,
+      "rank": 0.3051,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -666,7 +694,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3032,
+      "rank": 0.3027,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -687,7 +715,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3021,
+      "rank": 0.3018,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -708,7 +736,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2951,
+      "rank": 0.2946,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -729,7 +757,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2933,
+      "rank": 0.293,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -750,7 +778,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2929,
+      "rank": 0.2925,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -771,7 +799,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2924,
+      "rank": 0.2921,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -792,7 +820,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.291,
+      "rank": 0.2906,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -813,7 +841,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2889,
+      "rank": 0.2886,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -834,7 +862,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2861,
+      "rank": 0.2858,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -855,7 +883,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2847,
+      "rank": 0.2845,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -876,7 +904,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2847,
+      "rank": 0.2845,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -897,7 +925,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.274,
+      "rank": 0.2737,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -918,7 +946,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2739,
+      "rank": 0.2737,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -939,7 +967,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2712,
+      "rank": 0.2709,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -960,7 +988,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2697,
+      "rank": 0.2694,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -981,7 +1009,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2696,
+      "rank": 0.2693,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1002,7 +1030,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2695,
+      "rank": 0.2693,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1023,7 +1051,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.269,
+      "rank": 0.2688,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1128,7 +1156,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2363,
+      "rank": 0.2362,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
