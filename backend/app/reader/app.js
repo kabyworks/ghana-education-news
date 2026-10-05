@@ -192,9 +192,11 @@ function renderList(stories, { heading, more } = {}) {
 function renderStory(story, { offline = false } = {}) {
   clear(main);
   const article = el("article", "story");
-  const back = el("a", "meta", "Latest");
+  const back = el("a", "back", "Back");
   back.href = "#/";
+  back.setAttribute("aria-label", "Back to latest");
   article.append(back);
+  document.title = story.title ? `${story.title} · Education Lens` : "Education Lens";
   article.append(el("p", "kicker", `${label(story.category)} · ${formatWhen(story.published_at)} · ${publishers(story.source_count)}`));
   article.append(el("h2", "", story.title));
   article.append(el("p", "summary", story.summary));
@@ -320,6 +322,7 @@ function markNav(current) {
 
 async function draw() {
   const current = route();
+  document.title = "Education Lens";
   markNav(current);
   searchInput.value = current.q || "";
   try {

@@ -172,15 +172,22 @@ h2 {
 
 .story h2 { font-size: 1.6rem; }
 
-.story > a.meta {
+.back {
   display: inline-flex;
   align-items: center;
+  gap: 0.35rem;
   min-height: 44px;
-  margin-bottom: 0.2rem;
+  margin: 0 0 0.9rem;
+  padding: 0 0.95rem;
+  border: 1px solid var(--green);
+  border-radius: 999px;
+  background: #fff;
   color: var(--green);
   font-weight: 650;
   text-decoration: none;
 }
+
+.back::before { content: "←"; }
 
 .actions {
   display: flex;
