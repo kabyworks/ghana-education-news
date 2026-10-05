@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-05T18:40:42Z",
+  "generated_at": "2026-10-05T19:40:42Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 16
+      "story_count": 18
     },
     {
       "name": "teachers",
@@ -15,7 +15,7 @@
     },
     {
       "name": "policy",
-      "story_count": 4
+      "story_count": 5
     },
     {
       "name": "examinations",
@@ -43,7 +43,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9221,
+      "rank": 0.9089,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -258,6 +258,69 @@
       ]
     },
     {
+      "id": 47,
+      "title": "GTEC orders UDS to restore LLB programme to approved evening delivery mode",
+      "summary": "The Ghana Tertiary Education Commission (GTEC) has directed the University of Development Studies (UDS) to cease with immediate effect, the delivery of the accredited evening LLB programme as a weekend programme and to restore the programme to its duly approved evening mode of delivery.",
+      "category": "higher_education",
+      "published_at": "2026-10-05T19:17:11Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "GTEC orders UDS to restore LLB programme to approved evening delivery mode",
+          "url": "https://www.adomonline.com/gtec-orders-uds-to-restore-llb-programme-to-approved-evening-delivery-mode/",
+          "published_at": "2026-10-05T19:17:11Z",
+          "excerpt": "The Ghana Tertiary Education Commission (GTEC) has directed the University of Development Studies (UDS) to cease with immediate effect, the delivery of the accredited evening LLB programme as a weekend programme and to restore the programme to its duly approved evening mode of delivery. Subsequently, GTEC has directed UDS to immediately discontinue any arrangement requiring […]"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "GES digitalisation already exists; restore discontinued platforms – Adutwum spokesperson",
+      "summary": "A spokesperson for former Education Minister Dr Yaw Osei Adutwum has challenged claims that the Ghana Education Service (GES) still relies heavily on manual processes, insisting that several digital platforms to address such challenges were introduced years ago.",
+      "category": "policy",
+      "published_at": "2026-10-05T19:07:46Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GES digitalisation already exists; restore discontinued platforms – Adutwum spokesperson",
+          "url": "https://www.myjoyonline.com/ges-digitalisation-already-exists-restore-discontinued-platforms-adutwum-spokesperson/",
+          "published_at": "2026-10-05T19:07:46Z",
+          "excerpt": "A spokesperson for former Education Minister Dr Yaw Osei Adutwum has challenged claims that the Ghana Education Service (GES) still relies heavily on manual processes, insisting that several digital platforms to address such challenges were introduced years ago."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "GTEC directs UDS to immediately cease unauthorised mode of delivering accredited LLB programme",
+      "summary": "The Ghana Tertiary Education Commission (GTEC) has directed the University of Development Studies (UDS) to cease with immediate effect, the delivery of the accredited evening LLB programme as a weekend programme and to restore the programme to its duly approved evening mode of delivery.",
+      "category": "higher_education",
+      "published_at": "2026-10-05T19:01:55Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GTEC directs UDS to immediately cease unauthorised mode of delivering accredited LLB programme",
+          "url": "https://www.myjoyonline.com/gtec-directs-uds-to-immediately-cease-unauthorised-mode-of-delivering-accredited-llb-programme/",
+          "published_at": "2026-10-05T19:01:55Z",
+          "excerpt": "The Ghana Tertiary Education Commission (GTEC) has directed the University of Development Studies (UDS) to cease with immediate effect, the delivery of the accredited evening LLB programme as a weekend programme and to restore the programme to its duly approved evening mode of delivery."
+        }
+      ]
+    },
+    {
       "id": 44,
       "title": "Photos: Vice President Jane Naana Opoku-Agyemang at the Ghana Teacher Prize 2026",
       "summary": "Vice President Jane Naana Opoku-Agyemang has reaffirmed the Government’s commitment to improving the working conditions of teachers while strengthening Ghana’s education system.",
@@ -267,7 +330,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7435,
+      "rank": 0.7298,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -288,7 +351,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7197,
+      "rank": 0.7073,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -309,7 +372,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.7162,
+      "rank": 0.703,
       "articles": [
         {
           "source_name": "3News",
@@ -330,7 +393,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6983,
+      "rank": 0.686,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -351,7 +414,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6821,
+      "rank": 0.6706,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -372,7 +435,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.675,
+      "rank": 0.6638,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -393,7 +456,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.6182,
+      "rank": 0.6095,
       "articles": [
         {
           "source_name": "3News",
@@ -414,7 +477,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5353,
+      "rank": 0.5303,
       "articles": [
         {
           "source_name": "3News",
@@ -435,7 +498,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3454,
+      "rank": 0.3445,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -456,7 +519,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3377,
+      "rank": 0.3369,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -477,7 +540,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3229,
+      "rank": 0.3221,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -498,7 +561,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3224,
+      "rank": 0.3216,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -519,7 +582,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3205,
+      "rank": 0.32,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -540,7 +603,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3176,
+      "rank": 0.3169,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -561,7 +624,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3116,
+      "rank": 0.3111,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -582,7 +645,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3062,
+      "rank": 0.3057,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -603,7 +666,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3038,
+      "rank": 0.3032,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -624,7 +687,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3025,
+      "rank": 0.3021,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -645,7 +708,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2955,
+      "rank": 0.2951,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -666,7 +729,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2936,
+      "rank": 0.2933,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -687,7 +750,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2933,
+      "rank": 0.2929,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -708,7 +771,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2926,
+      "rank": 0.2924,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -729,7 +792,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2914,
+      "rank": 0.291,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -750,7 +813,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2891,
+      "rank": 0.2889,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -771,7 +834,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2865,
+      "rank": 0.2861,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -792,7 +855,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2849,
+      "rank": 0.2847,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -813,7 +876,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2849,
+      "rank": 0.2847,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -834,7 +897,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2742,
+      "rank": 0.274,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -855,7 +918,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2742,
+      "rank": 0.2739,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -876,7 +939,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2714,
+      "rank": 0.2712,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -897,7 +960,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2699,
+      "rank": 0.2697,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -918,7 +981,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2698,
+      "rank": 0.2696,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -939,7 +1002,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2698,
+      "rank": 0.2695,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -960,7 +1023,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2692,
+      "rank": 0.269,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -981,7 +1044,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2588,
+      "rank": 0.2587,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1044,7 +1107,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2368,
+      "rank": 0.2367,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
