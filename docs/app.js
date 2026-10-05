@@ -303,6 +303,8 @@ async function showStory(id) {
     if (!saved) throw error;
     renderStory(saved, { offline: true });
   }
+  window.scrollTo(0, 0);
+  requestAnimationFrame(() => window.scrollTo(0, 0));
 }
 
 function showFailure(error) {
@@ -331,6 +333,7 @@ async function draw() {
     else await showLatest(current);
   } catch (error) {
     showFailure(error);
+    if (current.name === "story") window.scrollTo(0, 0);
   }
 }
 
