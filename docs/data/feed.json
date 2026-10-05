@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T21:40:40Z",
+  "generated_at": "2026-10-05T22:10:37Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 15
+      "story_count": 16
     },
     {
       "name": "basic_schools",
@@ -43,7 +43,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9351,
+      "rank": 0.9212,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -275,7 +275,7 @@
         "3News",
         "Adom Online Education"
       ],
-      "rank": 0.867,
+      "rank": 0.8617,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -294,6 +294,27 @@
       ]
     },
     {
+      "id": 50,
+      "title": "No education reform can succeed without teachers – Education Ministry",
+      "summary": "The Ministry of Education has reaffirmed the critical role of teachers in Ghana’s education system, saying no meaningful education reform can succeed without their active involvement.",
+      "category": "teachers",
+      "published_at": "2026-10-05T22:04:11Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "No education reform can succeed without teachers – Education Ministry",
+          "url": "https://www.myjoyonline.com/no-education-reform-can-succeed-without-teachers-education-ministry/",
+          "published_at": "2026-10-05T22:04:11Z",
+          "excerpt": "The Ministry of Education has reaffirmed the critical role of teachers in Ghana’s education system, saying no meaningful education reform can succeed without their active involvement."
+        }
+      ]
+    },
+    {
       "id": 47,
       "title": "GTEC orders UDS to restore LLB programme to approved evening delivery mode",
       "summary": "The Ghana Tertiary Education Commission (GTEC) has directed the University of Development Studies (UDS) to cease with immediate effect, the delivery of the accredited evening LLB programme as a weekend programme and to restore the programme to its duly approved evening mode of delivery.",
@@ -303,7 +324,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.742,
+      "rank": 0.7284,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -324,7 +345,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7398,
+      "rank": 0.7264,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -345,7 +366,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7385,
+      "rank": 0.7251,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -366,7 +387,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7301,
+      "rank": 0.7163,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -387,7 +408,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7046,
+      "rank": 0.6929,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -408,7 +429,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6841,
+      "rank": 0.6734,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -429,7 +450,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.6786,
+      "rank": 0.6673,
       "articles": [
         {
           "source_name": "3News",
@@ -450,7 +471,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6632,
+      "rank": 0.6526,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -471,7 +492,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6492,
+      "rank": 0.6392,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -492,7 +513,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.643,
+      "rank": 0.6332,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -513,7 +534,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5932,
+      "rank": 0.5855,
       "articles": [
         {
           "source_name": "3News",
@@ -534,7 +555,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5207,
+      "rank": 0.5161,
       "articles": [
         {
           "source_name": "3News",
@@ -555,7 +576,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3429,
+      "rank": 0.3421,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -576,7 +597,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3355,
+      "rank": 0.3348,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -597,7 +618,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3206,
+      "rank": 0.3199,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -618,7 +639,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3201,
+      "rank": 0.3194,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -639,7 +660,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3189,
+      "rank": 0.3184,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -660,7 +681,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3156,
+      "rank": 0.3149,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -681,7 +702,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3103,
+      "rank": 0.3098,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -702,7 +723,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3045,
+      "rank": 0.304,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -723,7 +744,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3021,
+      "rank": 0.3016,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -744,7 +765,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3014,
+      "rank": 0.301,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -765,7 +786,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2941,
+      "rank": 0.2937,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -786,7 +807,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2927,
+      "rank": 0.2924,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -794,27 +815,6 @@
           "url": "https://gtec.edu.gh/nigerian-parliamentary-delegation-engages-gtec-over-certificate-racketeering-concerns/",
           "published_at": "2026-09-26T11:29:34Z",
           "excerpt": "A Joint Committee consisting of members of the Committee on Education, Interior, Foreign Affairs, Youth Development and Federal Polytechnics from the House of Representatives of the Federal Republic of Nigeria and the Federal Ministry of Education as well as some clerks of Parliament, has on Thursday, 24th September, 2026 engaged the Ghana Tertiary Education Commission […] The post Nigerian Parliamentary Delegation Engages GTEC Over Certificate Racketeering Concerns appeared first on GTEC."
-        }
-      ]
-    },
-    {
-      "id": 26,
-      "title": "‘Teachers should not suffer for someone’s responsibility’ – CAGD",
-      "summary": "The Controller and Accountant-General’s Department (CAGD) has urged the Ghana Education Service (GES) to expedite the submission of documents needed to process outstanding teacher promotion payments, saying affected teachers should not bear the consequences of administrative delays.",
-      "category": "teachers",
-      "published_at": "2026-09-28T12:07:36Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "rank": 0.292,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "‘Teachers should not suffer for someone’s responsibility’ – CAGD",
-          "url": "https://www.adomonline.com/teachers-should-not-suffer-for-someones-responsibility-cagd/",
-          "published_at": "2026-09-28T12:07:36Z",
-          "excerpt": "The Controller and Accountant-General’s Department (CAGD) has urged the Ghana Education Service (GES) to expedite the submission of documents needed to process outstanding teacher promotion payments, saying affected teachers should not bear the consequences of administrative delays. Head of Public Affairs at CAGD, Cephas Dosu, said the department has received fewer than 7,000 completed cases […]"
         }
       ]
     },
@@ -828,7 +828,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2919,
+      "rank": 0.2917,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -836,6 +836,27 @@
           "url": "https://www.adomonline.com/ncpta-challenges-ges-directive-on-pta-dues-cites-high-court-injunction/",
           "published_at": "2026-09-24T20:37:33Z",
           "excerpt": "The National Council of Parent-Teacher Associations (NCPTA) has clarified that a recent directive by the Ghana Education Service (GES) on the collection of Parent-Teacher Association (PTA) dues does not, in its view, apply to its branches operating in schools. The clarification follows a September 23 directive from the GES ordering heads of Senior High Schools […]"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "‘Teachers should not suffer for someone’s responsibility’ – CAGD",
+      "summary": "The Controller and Accountant-General’s Department (CAGD) has urged the Ghana Education Service (GES) to expedite the submission of documents needed to process outstanding teacher promotion payments, saying affected teachers should not bear the consequences of administrative delays.",
+      "category": "teachers",
+      "published_at": "2026-09-28T12:07:36Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.2916,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "‘Teachers should not suffer for someone’s responsibility’ – CAGD",
+          "url": "https://www.adomonline.com/teachers-should-not-suffer-for-someones-responsibility-cagd/",
+          "published_at": "2026-09-28T12:07:36Z",
+          "excerpt": "The Controller and Accountant-General’s Department (CAGD) has urged the Ghana Education Service (GES) to expedite the submission of documents needed to process outstanding teacher promotion payments, saying affected teachers should not bear the consequences of administrative delays. Head of Public Affairs at CAGD, Cephas Dosu, said the department has received fewer than 7,000 completed cases […]"
         }
       ]
     },
@@ -849,7 +870,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2901,
+      "rank": 0.2897,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -870,7 +891,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2883,
+      "rank": 0.2881,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -891,7 +912,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2854,
+      "rank": 0.285,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -912,7 +933,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2842,
+      "rank": 0.284,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -933,7 +954,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2842,
+      "rank": 0.284,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -954,7 +975,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2734,
+      "rank": 0.2731,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -975,7 +996,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2734,
+      "rank": 0.2731,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -996,7 +1017,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2707,
+      "rank": 0.2704,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1017,7 +1038,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2692,
+      "rank": 0.2689,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1038,7 +1059,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2691,
+      "rank": 0.2688,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1059,7 +1080,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.269,
+      "rank": 0.2688,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1080,7 +1101,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2685,
+      "rank": 0.2683,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1101,7 +1122,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2586,
+      "rank": 0.2585,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
