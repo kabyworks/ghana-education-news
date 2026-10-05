@@ -1,0 +1,183 @@
+:root {
+  color-scheme: light;
+  --ink: #1d1a16;
+  --muted: #5c564c;
+  --paper: #f3efe6;
+  --card: #fffdf8;
+  --line: #ddd4c6;
+  --green: #1c3d2e;
+  --green-soft: #e7f0eb;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--green);
+  color: var(--paper);
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1rem 0.4rem;
+}
+
+.brand {
+  color: inherit;
+  font-family: Georgia, "Iowan Old Style", serif;
+  font-size: 1.15rem;
+  text-decoration: none;
+}
+
+nav { display: flex; gap: 0.4rem; }
+
+nav a {
+  color: var(--paper);
+  text-decoration: none;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.7rem;
+  border-radius: 999px;
+}
+
+nav a[aria-current="page"] { background: rgba(255, 255, 255, 0.16); }
+
+#search { padding: 0 1rem 0.7rem; }
+
+#search-input {
+  width: 100%;
+  min-height: 44px;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.55rem 0.9rem;
+  font: inherit;
+}
+
+.categories {
+  display: flex;
+  gap: 0.45rem;
+  overflow-x: auto;
+  padding: 0 1rem 0.8rem;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.categories a {
+  flex: 0 0 auto;
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+
+.categories a[aria-current="true"] {
+  background: var(--green);
+  color: var(--paper);
+  border-color: var(--green);
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0.4rem 1rem 3rem;
+}
+
+.story-card, .story, .notice {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.95rem 1rem;
+  margin-top: 0.75rem;
+}
+
+.story-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.kicker, .meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+h2 {
+  font-family: Georgia, "Iowan Old Style", serif;
+  font-size: 1.35rem;
+  line-height: 1.25;
+  margin: 0.25rem 0 0.45rem;
+}
+
+.summary {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.story-card .summary {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.story h2 { font-size: 1.6rem; }
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+}
+
+button, .link-button {
+  min-height: 44px;
+  font: inherit;
+  border-radius: 999px;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--green);
+  background: var(--green);
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+button.secondary, a.secondary {
+  background: #fff;
+  color: var(--green);
+}
+
+.source {
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
+}
+
+.source h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+}
+
+.more { margin-top: 0.9rem; }
+
+.notice { color: var(--muted); }

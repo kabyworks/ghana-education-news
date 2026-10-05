@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Review desk — Ghana Education News</title>
+  <style>
+    :root { color-scheme: light; }
+    body { margin: 0; font-family: Georgia, "Iowan Old Style", serif; background: #f3efe6; color: #1d1a16; }
+    header { background: #1c3d2e; color: #f3efe6; padding: 1.25rem 1.5rem; }
+    header p { margin: 0.35rem 0 0; max-width: 40rem; font-family: "Segoe UI", sans-serif; font-size: 0.95rem; }
+    main { max-width: 46rem; margin: 0 auto; padding: 1.25rem 1rem 3rem; }
+    h2 { font-size: 1.25rem; margin: 1.5rem 0 0.75rem; }
+    .card { background: #fff; border: 1px solid #ddd4c6; padding: 0.9rem 1rem; margin-bottom: 0.75rem; }
+    .card.hidden { background: #f7f4ee; }
+    .meta { font-family: "Segoe UI", sans-serif; font-size: 0.85rem; color: #5c564c; margin: 0.2rem 0 0.6rem; }
+    .excerpt { margin: 0.4rem 0 0.8rem; }
+    label { display: block; font-family: "Segoe UI", sans-serif; font-size: 0.8rem; margin-top: 0.55rem; }
+    input, textarea { width: 100%; box-sizing: border-box; font: inherit; padding: 0.4rem; }
+    textarea { min-height: 4.5rem; }
+    .actions { margin-top: 0.7rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    button { font-family: "Segoe UI", sans-serif; font-size: 0.9rem; padding: 0.4rem 0.7rem; border: 1px solid #1c3d2e; background: #1c3d2e; color: #fff; }
+    button.secondary { background: #fff; color: #1c3d2e; }
+    button:disabled { opacity: 0.5; }
+    .status { font-family: "Segoe UI", sans-serif; min-height: 1.2rem; }
+    a { color: #1c3d2e; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Review desk</h1>
+    <p>This page stays on this computer. Approve a held article to let it become a story. Hide a story to take it off the reader feed. A saved title or summary stays when new articles are fetched. Rebuilding every story from scratch clears those edits.</p>
+  </header>
+  <main>
+    <p class="status" id="status" role="status"></p>
+    <h2>Waiting for a decision</h2>
+    <div id="queue"></div>
+    <h2>Stories</h2>
+    <div id="stories"></div>
+    <h2>Sources</h2>
+    <div id="sources"></div>
+  </main>
+  <script>
+    const status = document.querySelector("#status");
+
+    function note(message) {
+      status.textContent = message;
+    }
+
+    async function call(url, options) {
+      const response = await fetch(url, { headers: { "Content-Type": "application/json" }, ...options });
+      if (!response.ok) {
+        let detail = response.statusText;
+        try { detail = (await response.json()).detail || detail; } catch (error) { /* keep status text */ }
+        throw new Error(detail);
+      }
+      return response.status === 204 ? null : response.json();
+    }
+
+    function button(label, className, action) {
+      const element = document.createElement("button");
+      element.type = "button";
+      element.textContent = label;
+      if (className) element.className = className;
+      element.addEventListener("click", async () => {
+        element.disabled = true;
+        try {
+          await action();
+          await load();
+        } catch (error) {
+          note(error.message);
+          element.disabled = false;
+        }
+      });
+      return element;
+    }
+
+    function renderQueue(items) {
+      const root = document.querySelector("#queue");
+      root.replaceChildren();
+      if (!items.length) {
+        root.textContent = "Nothing is waiting.";
+        return;
+      }
+      for (const item of items) {
+        const card = document.createElement("article");
+        card.className = "card";
+        const title = document.createElement("strong");
+        title.textContent = item.title;
+        const meta = document.createElement("p");
+        meta.className = "meta";
+        meta.textContent = item.source_name;
+        const excerpt = document.createElement("p");
+        excerpt.className = "excerpt";
+        excerpt.textContent = item.excerpt || "";
+        const link = document.createElement("a");
+        link.href = item.url;
+        link.textContent = "Open original";
+        link.target = "_blank";
+        link.rel = "noreferrer";
+        const actions = document.createElement("div");
+        actions.className = "actions";
+        actions.append(
+          button("Approve", "", () => call(`/review/articles/${item.id}/approve`, { method: "POST" })),
+          button("Reject", "secondary", () => call(`/review/articles/${item.id}/reject`, { method: "POST" })),
+          link
+        );
+        card.append(title, meta, excerpt, actions);
+        root.append(card);
+      }
+    }
+
+    function renderStories(items) {
+      const root = document.querySelector("#stories");
+      root.replaceChildren();
+      if (!items.length) {
+        root.textContent = "No stories yet.";
+        return;
+      }
+      for (const item of items) {
+        const card = document.createElement("article");
+        card.className = item.reader_visible ? "card" : "card hidden";
+        const meta = document.createElement("p");
+        meta.className = "meta";
+        meta.textContent = `${item.category} · ${item.article_count} article${item.article_count === 1 ? "" : "s"} · ${item.reader_visible ? "on the feed" : "hidden"}`;
+        const titleLabel = document.createElement("label");
+        titleLabel.textContent = "Title";
+        const title = document.createElement("input");
+        title.type = "text";
+        title.value = item.title;
+        title.maxLength = 500;
+        const summaryLabel = document.createElement("label");
+        summaryLabel.textContent = "Summary";
+        const summary = document.createElement("textarea");
+        summary.value = item.summary;
+        summary.maxLength = 1000;
+        const actions = document.createElement("div");
+        actions.className = "actions";
+        actions.append(
+          button("Save edit", "", () => call(`/review/stories/${item.id}`, {
+            method: "PATCH",
+            body: JSON.stringify({ title: title.value, summary: summary.value })
+          })),
+          item.reader_visible
+            ? button("Hide from feed", "secondary", () => call(`/review/stories/${item.id}/hide`, { method: "POST" }))
+            : button("Show on feed", "", () => call(`/review/stories/${item.id}/show`, { method: "POST" }))
+        );
+        card.append(meta, titleLabel, title, summaryLabel, summary, actions);
+        root.append(card);
+      }
+    }
+
+    function renderSources(items) {
+      const root = document.querySelector("#sources");
+      root.replaceChildren();
+      for (const item of items) {
+        const card = document.createElement("article");
+        card.className = "card";
+        const title = document.createElement("strong");
+        title.textContent = item.name;
+        const meta = document.createElement("p");
+        meta.className = "meta";
+        meta.textContent = item.active ? "Fetching is on" : "Fetching is off";
+        const actions = document.createElement("div");
+        actions.className = "actions";
+        const label = item.active ? "Disable source" : "Enable source";
+        actions.append(button(label, item.active ? "secondary" : "", () => call(`/sources/${item.id}`, {
+          method: "PATCH",
+          body: JSON.stringify({ active: !item.active })
+        })));
+        card.append(title, meta, actions);
+        root.append(card);
+      }
+    }
+
+    async function load() {
+      const [queue, stories, sources] = await Promise.all([
+        call("/review/queue"),
+        call("/review/stories"),
+        call("/sources")
+      ]);
+      renderQueue(queue);
+      renderStories(stories);
+      renderSources(sources);
+      note("");
+    }
+
+    load().catch((error) => note(error.message));
+  </script>
+</body>
+</html>

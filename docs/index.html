@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-feed="static">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c3d2e">
+  <title>Ghana Education News</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="brand" href="#/">Ghana Education News</a>
+      <nav>
+        <a id="nav-latest" href="#/">Latest</a>
+        <a id="nav-saved" href="#/saved">Saved</a>
+      </nav>
+    </div>
+    <form id="search" role="search">
+      <input id="search-input" type="search" name="q" placeholder="Search headlines" enterkeyhint="search" aria-label="Search headlines">
+    </form>
+    <div id="categories" class="categories"></div>
+  </header>
+  <main id="main"></main>
+  <script src="app.js"></script>
+</body>
+</html>
