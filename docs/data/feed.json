@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-06T18:40:40Z",
+  "generated_at": "2026-10-06T19:10:52Z",
   "categories": [
     {
       "name": "teachers",
-      "story_count": 25
+      "story_count": 26
     },
     {
       "name": "higher_education",
-      "story_count": 23
+      "story_count": 24
     },
     {
       "name": "basic_schools",
@@ -36,14 +36,14 @@
       "title": "Education Ministry to meet teacher unions amidst strike action",
       "summary": "Vice President Professor Jane Naana Opoku-Agyemang has expressed optimism that the ongoing strike by teacher unions will be resolved soon, saying negotiations between government and the unions have reached an advanced stage.",
       "category": "teachers",
-      "published_at": "2026-10-06T18:01:05Z",
+      "published_at": "2026-10-06T19:03:12Z",
       "source_count": 3,
       "sources": [
         "3News",
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9534,
+      "rank": 0.9533,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -331,6 +331,13 @@
           "url": "https://www.myjoyonline.com/teachers-strike-you-cannot-negotiate-while-holding-the-other-party-in-handcuffs-austin-gamey/",
           "published_at": "2026-10-06T18:01:05Z",
           "excerpt": "Labour Consultant Austin Gamey has criticised the decision by pre-tertiary teacher unions to maintain their nationwide strike while negotiations with government are ongoing."
+        },
+        {
+          "source_name": "3News",
+          "title": "Teachers’ strike: It is not a fair approach to stay on strike during negotiations - Austin Gamey",
+          "url": "https://3news.com/news/teachers-strike-it-is-not-a-fair-approach-to-stay-on-strike-during-negotiations-austin-gamey",
+          "published_at": "2026-10-06T19:03:12Z",
+          "excerpt": "Labour Consultant, Austin Gamey has questioned the teacher unions' decision to stay on strike while negotiating with government."
         }
       ]
     },
@@ -346,7 +353,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.7784,
+      "rank": 0.7719,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -381,7 +388,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7657,
+      "rank": 0.7509,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -389,6 +396,48 @@
           "url": "https://www.myjoyonline.com/ges-should-consider-regional-processing-of-teacher-promotions-fwsc-ceo/",
           "published_at": "2026-10-06T17:54:45Z",
           "excerpt": "The Chief Executive Officer of the Fair Wages and Salaries Commission (FWSC), Dr George Smith-Graham, has proposed a regional approach to processing teacher promotions to prevent delays in the payment of promotion-related arrears."
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "FWSC CEO proposes regional processing of teacher promotions to speed up payment of arrears",
+      "summary": "The Chief Executive Officer of the Fair Wages and Salaries Commission (FWSC), Dr George Smith-Graham, has proposed a regional approach to processing teacher promotions to prevent delays in the payment of promotion-related arrears.",
+      "category": "teachers",
+      "published_at": "2026-10-06T19:05:50Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "FWSC CEO proposes regional processing of teacher promotions to speed up payment of arrears",
+          "url": "https://www.adomonline.com/fwsc-ceo-proposes-regional-processing-of-teacher-promotions-to-speed-up-payment-of-arrears/",
+          "published_at": "2026-10-06T19:05:50Z",
+          "excerpt": "The Chief Executive Officer of the Fair Wages and Salaries Commission (FWSC), Dr George Smith-Graham, has proposed a regional approach to processing teacher promotions to prevent delays in the payment of promotion-related arrears. According to him, processing promotion data for teachers across the entire country at once creates a significant administrative burden and can contribute […]"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "From selling body splash to Best Female Graduating Student at UDS – Hamdia’s inspiring journey",
+      "summary": "Hamdia Issahaku has emerged as the Best Female Graduating Student at the School of Nursing and Midwifery of the University for Development Studies (UDS), after overcoming significant financial challenges that once forced her to sell body splash between hostels to support her education.",
+      "category": "higher_education",
+      "published_at": "2026-10-06T18:39:28Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7438,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "From selling body splash to Best Female Graduating Student at UDS – Hamdia’s inspiring journey",
+          "url": "https://www.myjoyonline.com/from-selling-body-splash-to-best-female-graduating-student-at-uds-hamdias-inspiring-journey/",
+          "published_at": "2026-10-06T18:39:28Z",
+          "excerpt": "Hamdia Issahaku has emerged as the Best Female Graduating Student at the School of Nursing and Midwifery of the University for Development Studies (UDS), after overcoming significant financial challenges that once forced her to sell body splash between hostels to support her education."
         }
       ]
     },
@@ -402,7 +451,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7374,
+      "rank": 0.7232,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -423,7 +472,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7367,
+      "rank": 0.7225,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -444,7 +493,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7365,
+      "rank": 0.7223,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -465,7 +514,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7278,
+      "rank": 0.715,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -486,7 +535,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7211,
+      "rank": 0.7077,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -507,7 +556,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.717,
+      "rank": 0.7038,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -528,7 +577,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7133,
+      "rank": 0.7002,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -549,7 +598,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.7119,
+      "rank": 0.6998,
       "articles": [
         {
           "source_name": "3News",
@@ -570,7 +619,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6996,
+      "rank": 0.6873,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -591,7 +640,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6881,
+      "rank": 0.6766,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -612,7 +661,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6868,
+      "rank": 0.6759,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -633,7 +682,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6794,
+      "rank": 0.668,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -654,7 +703,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6763,
+      "rank": 0.665,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -675,7 +724,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6745,
+      "rank": 0.6633,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -683,27 +732,6 @@
           "url": "https://www.adomonline.com/he-is-not-underage-he-is-16-years-old-adanwomase-shs-housemaster-speaks-on-viral-video-of-first-year-student/",
           "published_at": "2026-10-06T12:21:19Z",
           "excerpt": "The Adanwomase SHS authorities have clarified that the viral video of one of their male ‘smallish’ boarding students is not an underage person but a 16-year-old who is qualified to be in school. The authorities said he wrote the BECE with a qualifying grade from WAEC and was posted to the school to study. Senior […]"
-        }
-      ]
-    },
-    {
-      "id": 66,
-      "title": "KTU partners NAYT Consult to equip students for employment opportunities in Germany",
-      "summary": "Koforidua Technical University (KTU) has signed a Memorandum of Understanding (MoU) with international recruitment agency NAYT Consult Ltd to equip students with German language skills and cultural knowledge to enhance their access to legitimate employment opportunities in Europe, particularly Germany.",
-      "category": "higher_education",
-      "published_at": "2026-10-06T12:07:00Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.6717,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "KTU partners NAYT Consult to equip students for employment opportunities in Germany",
-          "url": "https://www.myjoyonline.com/ktu-partners-nayt-consult-to-equip-students-for-employment-opportunities-in-germany/",
-          "published_at": "2026-10-06T12:07:00Z",
-          "excerpt": "Koforidua Technical University (KTU) has signed a Memorandum of Understanding (MoU) with international recruitment agency NAYT Consult Ltd to equip students with German language skills and cultural knowledge to enhance their access to legitimate employment opportunities in Europe, particularly Germany."
         }
       ]
     },
@@ -717,7 +745,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.6714,
+      "rank": 0.6612,
       "articles": [
         {
           "source_name": "3News",
@@ -725,6 +753,27 @@
           "url": "https://3news.com/education/gtec-orders-uds-to-halt-unauthorised-weekend-delivery-of-evening-llb-programme",
           "published_at": "2026-10-06T10:25:45Z",
           "excerpt": "GTEC directs the University for Development Studies to immediately halt its weekend LLB delivery and restore the approved evening programme."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "KTU partners NAYT Consult to equip students for employment opportunities in Germany",
+      "summary": "Koforidua Technical University (KTU) has signed a Memorandum of Understanding (MoU) with international recruitment agency NAYT Consult Ltd to equip students with German language skills and cultural knowledge to enhance their access to legitimate employment opportunities in Europe, particularly Germany.",
+      "category": "higher_education",
+      "published_at": "2026-10-06T12:07:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.6607,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "KTU partners NAYT Consult to equip students for employment opportunities in Germany",
+          "url": "https://www.myjoyonline.com/ktu-partners-nayt-consult-to-equip-students-for-employment-opportunities-in-germany/",
+          "published_at": "2026-10-06T12:07:00Z",
+          "excerpt": "Koforidua Technical University (KTU) has signed a Memorandum of Understanding (MoU) with international recruitment agency NAYT Consult Ltd to equip students with German language skills and cultural knowledge to enhance their access to legitimate employment opportunities in Europe, particularly Germany."
         }
       ]
     },
@@ -738,7 +787,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6598,
+      "rank": 0.6496,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -759,7 +808,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6588,
+      "rank": 0.6484,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -780,7 +829,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6465,
+      "rank": 0.6366,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -801,7 +850,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6444,
+      "rank": 0.6346,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -822,7 +871,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6359,
+      "rank": 0.6265,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -843,7 +892,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6029,
+      "rank": 0.5949,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -864,7 +913,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5564,
+      "rank": 0.5501,
       "articles": [
         {
           "source_name": "3News",
@@ -885,7 +934,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5559,
+      "rank": 0.5496,
       "articles": [
         {
           "source_name": "3News",
@@ -893,27 +942,6 @@
           "url": "https://3news.com/news/veep-opoku-agyemang-urges-swift-resolution-of-teachers-concerns",
           "published_at": "2026-10-05T22:31:22Z",
           "excerpt": "She made the appeal as she commended teachers across the country for their contribution to national development."
-        }
-      ]
-    },
-    {
-      "id": 51,
-      "title": "NGO inaugurates 2-Unit classroom block with sanitation facilities Ogome Anglican Basic School",
-      "summary": "In an address, the Yilo Krobo Municipal Director of Education, Mr. John Gasu, mentioned some of the challenges facing the municipality, including inadequate infrastructure and inadequate teachers.",
-      "category": "teachers",
-      "published_at": "2026-10-05T22:20:54Z",
-      "source_count": 1,
-      "sources": [
-        "3News"
-      ],
-      "rank": 0.5548,
-      "articles": [
-        {
-          "source_name": "3News",
-          "title": "NGO inaugurates 2-Unit classroom block with sanitation facilities Ogome Anglican Basic School",
-          "url": "https://3news.com/news/ngo-inaugurates-2-unit-classroom-block-with-sanitation-facilities-ogome-anglican-basic-school",
-          "published_at": "2026-10-05T22:20:54Z",
-          "excerpt": "In an address, the Yilo Krobo Municipal Director of Education, Mr. John Gasu, mentioned some of the challenges facing the municipality, including inadequate infrastructure and inadequate teachers."
         }
       ]
     },
@@ -927,7 +955,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5542,
+      "rank": 0.5486,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -935,6 +963,27 @@
           "url": "https://www.adomonline.com/gtec-orders-uds-to-restore-llb-programme-to-approved-evening-delivery-mode/",
           "published_at": "2026-10-05T19:17:11Z",
           "excerpt": "The Ghana Tertiary Education Commission (GTEC) has directed the University of Development Studies (UDS) to cease with immediate effect, the delivery of the accredited evening LLB programme as a weekend programme and to restore the programme to its duly approved evening mode of delivery. Subsequently, GTEC has directed UDS to immediately discontinue any arrangement requiring […]"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "NGO inaugurates 2-Unit classroom block with sanitation facilities Ogome Anglican Basic School",
+      "summary": "In an address, the Yilo Krobo Municipal Director of Education, Mr. John Gasu, mentioned some of the challenges facing the municipality, including inadequate infrastructure and inadequate teachers.",
+      "category": "teachers",
+      "published_at": "2026-10-05T22:20:54Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "rank": 0.5485,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "NGO inaugurates 2-Unit classroom block with sanitation facilities Ogome Anglican Basic School",
+          "url": "https://3news.com/news/ngo-inaugurates-2-unit-classroom-block-with-sanitation-facilities-ogome-anglican-basic-school",
+          "published_at": "2026-10-05T22:20:54Z",
+          "excerpt": "In an address, the Yilo Krobo Municipal Director of Education, Mr. John Gasu, mentioned some of the challenges facing the municipality, including inadequate infrastructure and inadequate teachers."
         }
       ]
     },
@@ -948,7 +997,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5533,
+      "rank": 0.5477,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -956,27 +1005,6 @@
           "url": "https://www.myjoyonline.com/ges-digitalisation-already-exists-restore-discontinued-platforms-adutwum-spokesperson/",
           "published_at": "2026-10-05T19:07:46Z",
           "excerpt": "A spokesperson for former Education Minister Dr Yaw Osei Adutwum has challenged claims that the Ghana Education Service (GES) still relies heavily on manual processes, insisting that several digital platforms to address such challenges were introduced years ago."
-        }
-      ]
-    },
-    {
-      "id": 50,
-      "title": "No education reform can succeed without teachers – Education Ministry",
-      "summary": "The Ministry of Education has reaffirmed the critical role of teachers in Ghana’s education system, saying no meaningful education reform can succeed without their active involvement.",
-      "category": "teachers",
-      "published_at": "2026-10-05T22:04:11Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.553,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "No education reform can succeed without teachers – Education Ministry",
-          "url": "https://www.myjoyonline.com/no-education-reform-can-succeed-without-teachers-education-ministry/",
-          "published_at": "2026-10-05T22:04:11Z",
-          "excerpt": "The Ministry of Education has reaffirmed the critical role of teachers in Ghana’s education system, saying no meaningful education reform can succeed without their active involvement."
         }
       ]
     },
@@ -990,7 +1018,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5528,
+      "rank": 0.5472,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1002,23 +1030,23 @@
       ]
     },
     {
-      "id": 48,
-      "title": "AIT President Prof Clement Dzidonu urges lifelong learning as AI reshapes work and education",
-      "summary": "The President of the Accra Institute of Technology (AIT), Professor Clement K.",
-      "category": "general",
-      "published_at": "2026-10-05T19:43:20Z",
+      "id": 50,
+      "title": "No education reform can succeed without teachers – Education Ministry",
+      "summary": "The Ministry of Education has reaffirmed the critical role of teachers in Ghana’s education system, saying no meaningful education reform can succeed without their active involvement.",
+      "category": "teachers",
+      "published_at": "2026-10-05T22:04:11Z",
       "source_count": 1,
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5388,
+      "rank": 0.5468,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
-          "title": "AIT President Prof Clement Dzidonu urges lifelong learning as AI reshapes work and education",
-          "url": "https://www.myjoyonline.com/ait-president-prof-clement-dzidonu-urges-lifelong-learning-as-ai-reshapes-work-and-education/",
-          "published_at": "2026-10-05T19:43:20Z",
-          "excerpt": "The President of the Accra Institute of Technology (AIT), Professor Clement K. Dzidonu, has called for a fundamental shift in how individuals, educational institutions and society think about learning in the age of Artificial Intelligence (AI), arguing that graduation can no longer be regarded as the end of the learning journey. Professor Dzidonu is advocating what he describes as the Sovereign Lifelong Learner — the \"Sovereign Triple-L\": an individual who takes ownership of continuing learning and assumes personal responsibility for continually renewing, deepening and extending their capabilities throughout professional and personal life. According to the AIT President, the traditional model in which people undergo intensive education, graduate, enter a profession and rely for many years on much of the knowledge acquired during formal education is rapidly becoming unsustainable."
+          "title": "No education reform can succeed without teachers – Education Ministry",
+          "url": "https://www.myjoyonline.com/no-education-reform-can-succeed-without-teachers-education-ministry/",
+          "published_at": "2026-10-05T22:04:11Z",
+          "excerpt": "The Ministry of Education has reaffirmed the critical role of teachers in Ghana’s education system, saying no meaningful education reform can succeed without their active involvement."
         }
       ]
     },
@@ -1032,7 +1060,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5384,
+      "rank": 0.5332,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1040,6 +1068,27 @@
           "url": "https://www.myjoyonline.com/photos-vice-president-jane-naana-opoku-agyemang-at-the-ghana-teacher-prize-2026/",
           "published_at": "2026-10-05T16:23:25Z",
           "excerpt": "Vice President Jane Naana Opoku-Agyemang has reaffirmed the Government’s commitment to improving the working conditions of teachers while strengthening Ghana’s education system."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "AIT President Prof Clement Dzidonu urges lifelong learning as AI reshapes work and education",
+      "summary": "The President of the Accra Institute of Technology (AIT), Professor Clement K.",
+      "category": "general",
+      "published_at": "2026-10-05T19:43:20Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.533,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "AIT President Prof Clement Dzidonu urges lifelong learning as AI reshapes work and education",
+          "url": "https://www.myjoyonline.com/ait-president-prof-clement-dzidonu-urges-lifelong-learning-as-ai-reshapes-work-and-education/",
+          "published_at": "2026-10-05T19:43:20Z",
+          "excerpt": "The President of the Accra Institute of Technology (AIT), Professor Clement K. Dzidonu, has called for a fundamental shift in how individuals, educational institutions and society think about learning in the age of Artificial Intelligence (AI), arguing that graduation can no longer be regarded as the end of the learning journey. Professor Dzidonu is advocating what he describes as the Sovereign Lifelong Learner — the \"Sovereign Triple-L\": an individual who takes ownership of continuing learning and assumes personal responsibility for continually renewing, deepening and extending their capabilities throughout professional and personal life. According to the AIT President, the traditional model in which people undergo intensive education, graduate, enter a profession and rely for many years on much of the knowledge acquired during formal education is rapidly becoming unsustainable."
         }
       ]
     },
@@ -1053,7 +1102,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5294,
+      "rank": 0.5245,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1074,7 +1123,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5169,
+      "rank": 0.5119,
       "articles": [
         {
           "source_name": "3News",
@@ -1095,7 +1144,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5101,
+      "rank": 0.5052,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1116,7 +1165,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5037,
+      "rank": 0.4991,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1137,7 +1186,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5008,
+      "rank": 0.4963,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1158,7 +1207,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.477,
+      "rank": 0.4731,
       "articles": [
         {
           "source_name": "3News",
@@ -1179,7 +1228,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4467,
+      "rank": 0.4441,
       "articles": [
         {
           "source_name": "3News",
@@ -1200,7 +1249,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3281,
+      "rank": 0.3275,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1221,7 +1270,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3223,
+      "rank": 0.3217,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1242,7 +1291,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.309,
+      "rank": 0.3085,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1263,7 +1312,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3067,
+      "rank": 0.3061,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1284,7 +1333,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3063,
+      "rank": 0.3058,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1305,7 +1354,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3027,
+      "rank": 0.3022,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1326,7 +1375,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3019,
+      "rank": 0.3015,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1347,7 +1396,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2945,
+      "rank": 0.2942,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1368,7 +1417,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2939,
+      "rank": 0.2935,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1389,7 +1438,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.292,
+      "rank": 0.2915,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1410,7 +1459,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2876,
+      "rank": 0.2874,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1431,7 +1480,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2871,
+      "rank": 0.2868,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1452,7 +1501,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2854,
+      "rank": 0.285,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1473,7 +1522,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2837,
+      "rank": 0.2833,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1494,7 +1543,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2833,
+      "rank": 0.2831,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1515,7 +1564,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2821,
+      "rank": 0.2818,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1536,7 +1585,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2798,
+      "rank": 0.2796,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1557,7 +1606,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2797,
+      "rank": 0.2796,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1578,7 +1627,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2781,
+      "rank": 0.2778,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1599,7 +1648,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.268,
+      "rank": 0.2677,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1620,7 +1669,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2679,
+      "rank": 0.2677,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1641,7 +1690,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2656,
+      "rank": 0.2654,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1662,7 +1711,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2643,
+      "rank": 0.2641,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1683,7 +1732,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2642,
+      "rank": 0.264,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1704,7 +1753,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2642,
+      "rank": 0.264,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1725,7 +1774,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2637,
+      "rank": 0.2635,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1746,7 +1795,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2568,
+      "rank": 0.2567,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
