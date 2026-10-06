@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T12:10:39Z",
+  "generated_at": "2026-10-06T12:40:36Z",
   "categories": [
     {
       "name": "teachers",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 8
+      "story_count": 9
     },
     {
       "name": "policy",
@@ -23,7 +23,7 @@
     },
     {
       "name": "examinations",
-      "story_count": 1
+      "story_count": 2
     },
     {
       "name": "scholarships",
@@ -36,14 +36,14 @@
       "title": "Education Ministry to meet teacher unions amidst strike action",
       "summary": "Vice President Professor Jane Naana Opoku-Agyemang has expressed optimism that the ongoing strike by teacher unions will be resolved soon, saying negotiations between government and the unions have reached an advanced stage.",
       "category": "teachers",
-      "published_at": "2026-10-06T08:53:50Z",
+      "published_at": "2026-10-06T12:32:18Z",
       "source_count": 3,
       "sources": [
         "3News",
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9099,
+      "rank": 0.9534,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -296,6 +296,13 @@
           "url": "https://www.myjoyonline.com/cpps-kwame-nkrumah-botsio-calls-for-legally-binding-mou-to-end-teacher-strike/",
           "published_at": "2026-10-06T08:53:50Z",
           "excerpt": "General Secretary of the Convention People’s Party (CPP), Kwame Nkrumah Botsio, has criticised the treatment of teachers in Ghana, saying the profession has not received the recognition and support it deserves despite the sacrifices teachers make to educate the country’s children."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Gender Minister urges dialogue as teachers’ strike threatens School Feeding Programme",
+          "url": "https://www.myjoyonline.com/gender-minister-urges-dialogue-as-teachers-strike-threatens-school-feeding-programme/",
+          "published_at": "2026-10-06T12:32:18Z",
+          "excerpt": "Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has expressed concern that the ongoing strike by teacher unions is adversely affecting the Ghana School Feeding Programme. She said the closure of schools was not only disrupting teaching and learning but also putting perishable foodstuffs purchased by school feeding caterers at risk, […]"
         }
       ]
     },
@@ -354,6 +361,48 @@
           "url": "https://www.myjoyonline.com/central-regional-gnat-chairman-calls-for-13th-month-salary-for-teachers/",
           "published_at": "2026-10-06T11:51:14Z",
           "excerpt": "The Central Regional Chairman of the Ghana National Association of Teachers (GNAT), Godwin Yaw Andam, has called for the introduction of a 13th-month salary for teachers, arguing that improved remuneration is necessary to motivate, retain and recognise educators for their contribution to national development. Speaking at the 2026 World Teachers’ Day celebration in Assin Fosu, […]"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Diminutive SHS 1 student in viral video is 16, not underage – Adanwomase SHS clarifies",
+      "summary": "The Adanwomase SHS authorities have clarified that the viral video of one of their male 'smallish' boarding students is not an underage, but a 16-year-old who is qualified to be in school.",
+      "category": "basic_schools",
+      "published_at": "2026-10-06T12:30:53Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Diminutive SHS 1 student in viral video is 16, not underage – Adanwomase SHS clarifies",
+          "url": "https://www.myjoyonline.com/diminutive-shs-1-student-in-viral-video-is-16-not-underage-adanwomase-shs-clarifies/",
+          "published_at": "2026-10-06T12:30:53Z",
+          "excerpt": "The Adanwomase SHS authorities have clarified that the viral video of one of their male 'smallish' boarding students is not an underage, but a 16-year-old who is qualified to be in school."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "He is not underage; he is 16 years old – Adanwomase SHS housemaster speaks on viral video of first-year student",
+      "summary": "The Adanwomase SHS authorities have clarified that the viral video of one of their male ‘smallish’ boarding students is not an underage person but a 16-year-old who is qualified to be in school. The authorities said he wrote the BECE with a qualifying grade from WAEC and was posted to the school to study.",
+      "category": "examinations",
+      "published_at": "2026-10-06T12:21:19Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "He is not underage; he is 16 years old – Adanwomase SHS housemaster speaks on viral video of first-year student",
+          "url": "https://www.adomonline.com/he-is-not-underage-he-is-16-years-old-adanwomase-shs-housemaster-speaks-on-viral-video-of-first-year-student/",
+          "published_at": "2026-10-06T12:21:19Z",
+          "excerpt": "The Adanwomase SHS authorities have clarified that the viral video of one of their male ‘smallish’ boarding students is not an underage person but a 16-year-old who is qualified to be in school. The authorities said he wrote the BECE with a qualifying grade from WAEC and was posted to the school to study. Senior […]"
         }
       ]
     },
