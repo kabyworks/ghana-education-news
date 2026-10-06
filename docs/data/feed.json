@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T23:10:38Z",
+  "generated_at": "2026-10-06T00:10:36Z",
   "categories": [
     {
       "name": "teachers",
@@ -32,6 +32,43 @@
   ],
   "stories": [
     {
+      "id": 49,
+      "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
+      "summary": "The Ministry of Education has commended teachers across Ghana for their dedication, professionalism and sacrifices as the country joins the international community to celebrate World Teachers’ Day 2026.",
+      "category": "teachers",
+      "published_at": "2026-10-05T23:12:35Z",
+      "source_count": 3,
+      "sources": [
+        "3News",
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.9552,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
+          "url": "https://www.adomonline.com/education-ministry-salutes-ghanaian-teachers-on-world-teachers-day/",
+          "published_at": "2026-10-05T21:01:37Z",
+          "excerpt": "The Ministry of Education has commended teachers across Ghana for their dedication and sacrifice as the country joins the global community to mark World Teachers’ Day 2026. In a statement, the Ministry described teachers as being at the heart of Ghana’s education system and credited them with playing a critical role in shaping the minds, […]"
+        },
+        {
+          "source_name": "3News",
+          "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
+          "url": "https://3news.com/news/education-ministry-salutes-ghanaian-teachers-on-world-teachers-day",
+          "published_at": "2026-10-05T21:38:51Z",
+          "excerpt": "In a statement, the Ministry described teachers as being “at the heart of Ghana’s education system,” noting their important role in shaping the minds, character and future of children across the country."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Education Ministry commends Ghanaian teachers on World Teachers’ Day 2026",
+          "url": "https://www.myjoyonline.com/education-ministry-commends-ghanaian-teachers-on-world-teachers-day-2026/",
+          "published_at": "2026-10-05T23:12:35Z",
+          "excerpt": "The Ministry of Education has commended teachers across Ghana for their dedication, professionalism and sacrifices as the country joins the international community to celebrate World Teachers’ Day 2026."
+        }
+      ]
+    },
+    {
       "id": 13,
       "title": "Education Ministry to meet teacher unions amidst strike action",
       "summary": "The Fair Wages and Salaries Commission (FWSC) is expected to meet the leadership of the three striking teacher unions on Tuesday, October 6, to negotiate their concerns over conditions of service.",
@@ -43,7 +80,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9081,
+      "rank": 0.8956,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -265,35 +302,6 @@
       ]
     },
     {
-      "id": 49,
-      "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
-      "summary": "The Ministry of Education has commended teachers across Ghana for their dedication and sacrifice as the country joins the global community to mark World Teachers’ Day 2026.",
-      "category": "teachers",
-      "published_at": "2026-10-05T21:38:51Z",
-      "source_count": 2,
-      "sources": [
-        "3News",
-        "Adom Online Education"
-      ],
-      "rank": 0.8471,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
-          "url": "https://www.adomonline.com/education-ministry-salutes-ghanaian-teachers-on-world-teachers-day/",
-          "published_at": "2026-10-05T21:01:37Z",
-          "excerpt": "The Ministry of Education has commended teachers across Ghana for their dedication and sacrifice as the country joins the global community to mark World Teachers’ Day 2026. In a statement, the Ministry described teachers as being at the heart of Ghana’s education system and credited them with playing a critical role in shaping the minds, […]"
-        },
-        {
-          "source_name": "3News",
-          "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
-          "url": "https://3news.com/news/education-ministry-salutes-ghanaian-teachers-on-world-teachers-day",
-          "published_at": "2026-10-05T21:38:51Z",
-          "excerpt": "In a statement, the Ministry described teachers as being “at the heart of Ghana’s education system,” noting their important role in shaping the minds, character and future of children across the country."
-        }
-      ]
-    },
-    {
       "id": 53,
       "title": "Haruna Iddrisu announces October 16 timeline for payment of teachers' promotion arrears",
       "summary": "He said government has committed to paying promotion arrears owed to all eligible teachers from January 2020.",
@@ -303,7 +311,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.743,
+      "rank": 0.7284,
       "articles": [
         {
           "source_name": "3News",
@@ -324,7 +332,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.7418,
+      "rank": 0.7273,
       "articles": [
         {
           "source_name": "3News",
@@ -345,7 +353,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.7392,
+      "rank": 0.7249,
       "articles": [
         {
           "source_name": "3News",
@@ -366,7 +374,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7351,
+      "rank": 0.721,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -387,7 +395,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7156,
+      "rank": 0.7033,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -408,7 +416,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7136,
+      "rank": 0.7015,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -429,7 +437,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7124,
+      "rank": 0.7003,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -450,7 +458,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7031,
+      "rank": 0.6906,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -471,7 +479,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6817,
+      "rank": 0.671,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -492,7 +500,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6631,
+      "rank": 0.6533,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -513,7 +521,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.6564,
+      "rank": 0.6461,
       "articles": [
         {
           "source_name": "3News",
@@ -534,7 +542,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6424,
+      "rank": 0.6327,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -555,7 +563,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6296,
+      "rank": 0.6204,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -576,7 +584,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6239,
+      "rank": 0.615,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -597,7 +605,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5781,
+      "rank": 0.571,
       "articles": [
         {
           "source_name": "3News",
@@ -618,7 +626,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5116,
+      "rank": 0.5073,
       "articles": [
         {
           "source_name": "3News",
@@ -639,7 +647,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3413,
+      "rank": 0.3406,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -660,7 +668,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3341,
+      "rank": 0.3334,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -681,7 +689,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3191,
+      "rank": 0.3184,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -702,7 +710,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3187,
+      "rank": 0.318,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -723,7 +731,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3179,
+      "rank": 0.3174,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -744,7 +752,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3142,
+      "rank": 0.3135,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -765,7 +773,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3094,
+      "rank": 0.309,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -786,7 +794,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3034,
+      "rank": 0.3029,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -807,7 +815,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3011,
+      "rank": 0.3006,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -828,7 +836,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3007,
+      "rank": 0.3003,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -849,7 +857,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2932,
+      "rank": 0.2928,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -870,7 +878,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2921,
+      "rank": 0.2919,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -891,7 +899,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2915,
+      "rank": 0.2913,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -912,7 +920,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2911,
+      "rank": 0.2907,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -933,7 +941,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2893,
+      "rank": 0.2889,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -954,7 +962,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2878,
+      "rank": 0.2876,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -975,7 +983,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2846,
+      "rank": 0.2843,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -996,7 +1004,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2838,
+      "rank": 0.2836,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1017,7 +1025,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2838,
+      "rank": 0.2835,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1038,7 +1046,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2728,
+      "rank": 0.2726,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1059,7 +1067,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2728,
+      "rank": 0.2726,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1080,7 +1088,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2701,
+      "rank": 0.2699,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1101,7 +1109,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2687,
+      "rank": 0.2684,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1122,7 +1130,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2686,
+      "rank": 0.2683,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1143,7 +1151,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2686,
+      "rank": 0.2683,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1164,7 +1172,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.268,
+      "rank": 0.2678,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1185,7 +1193,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2584,
+      "rank": 0.2583,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1248,7 +1256,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2367,
+      "rank": 0.2366,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
