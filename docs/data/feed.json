@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T22:10:48Z",
+  "generated_at": "2026-10-06T22:40:43Z",
   "categories": [
     {
       "name": "teachers",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 25
+      "story_count": 26
     },
     {
       "name": "basic_schools",
@@ -410,6 +410,27 @@
           "url": "https://www.myjoyonline.com/education-ministry-commends-ghanaian-teachers-on-world-teachers-day-2026/",
           "published_at": "2026-10-05T23:12:35Z",
           "excerpt": "The Ministry of Education has commended teachers across Ghana for their dedication, professionalism and sacrifices as the country joins the international community to celebrate World Teachers’ Day 2026."
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Tear gas in Paris and Marseille as school protests grow across France",
+      "summary": "Hundreds of thousands of people have taken to the streets across France, as a wave of protests by high-school pupils spread to their parents, university students and unions.",
+      "category": "higher_education",
+      "published_at": "2026-10-06T22:24:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Tear gas in Paris and Marseille as school protests grow across France",
+          "url": "https://www.myjoyonline.com/tear-gas-in-paris-and-marseille-as-school-protests-grow-across-france/",
+          "published_at": "2026-10-06T22:24:00Z",
+          "excerpt": "Hundreds of thousands of people have taken to the streets across France, as a wave of protests by high-school pupils spread to their parents, university students and unions."
         }
       ]
     },
