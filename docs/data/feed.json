@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-06T13:10:35Z",
+  "generated_at": "2026-10-06T15:43:04Z",
   "categories": [
     {
       "name": "teachers",
-      "story_count": 22
+      "story_count": 23
     },
     {
       "name": "higher_education",
-      "story_count": 20
+      "story_count": 22
     },
     {
       "name": "basic_schools",
-      "story_count": 9
+      "story_count": 11
     },
     {
       "name": "policy",
@@ -36,14 +36,14 @@
       "title": "Education Ministry to meet teacher unions amidst strike action",
       "summary": "Vice President Professor Jane Naana Opoku-Agyemang has expressed optimism that the ongoing strike by teacher unions will be resolved soon, saying negotiations between government and the unions have reached an advanced stage.",
       "category": "teachers",
-      "published_at": "2026-10-06T12:32:18Z",
+      "published_at": "2026-10-06T14:06:40Z",
       "source_count": 3,
       "sources": [
         "3News",
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9464,
+      "rank": 0.9405,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -303,6 +303,13 @@
           "url": "https://www.myjoyonline.com/gender-minister-urges-dialogue-as-teachers-strike-threatens-school-feeding-programme/",
           "published_at": "2026-10-06T12:32:18Z",
           "excerpt": "Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has expressed concern that the ongoing strike by teacher unions is adversely affecting the Ghana School Feeding Programme. She said the closure of schools was not only disrupting teaching and learning but also putting perishable foodstuffs purchased by school feeding caterers at risk, […]"
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Teacher unions maintain strike as FWSC, GES negotiations yield no deal",
+          "url": "https://www.myjoyonline.com/teacher-unions-maintain-strike-as-fwsc-ges-negotiations-yield-no-deal/",
+          "published_at": "2026-10-06T14:06:40Z",
+          "excerpt": "The nationwide strike by pre-tertiary teachers remains in force after renewed negotiations between the Fair Wages and Salaries Commission (FWSC), the Ghana Education Service (GES) and the teacher unions ended without an agreement."
         }
       ]
     },
@@ -318,7 +325,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.8147,
+      "rank": 0.7993,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -344,6 +351,90 @@
       ]
     },
     {
+      "id": 69,
+      "title": "Government must clarify fate of 29,000 teachers awaiting promotion – NAGRAT",
+      "summary": "The National Association of Graduate Teachers (NAGRAT) is demanding clarity from government on the status and timeline for processing the promotions of about 29,000 teachers still awaiting clearance.",
+      "category": "teachers",
+      "published_at": "2026-10-06T15:14:22Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Government must clarify fate of 29,000 teachers awaiting promotion – NAGRAT",
+          "url": "https://www.myjoyonline.com/government-must-clarify-fate-of-29000-teachers-awaiting-promotion-nagrat/",
+          "published_at": "2026-10-06T15:14:22Z",
+          "excerpt": "The National Association of Graduate Teachers (NAGRAT) is demanding clarity from government on the status and timeline for processing the promotions of about 29,000 teachers still awaiting clearance."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Ghana School Feeding Programme tightens data systems ahead of expansion",
+      "summary": "The Ghana School Feeding Programme is strengthening its data management, monitoring, and collaboration with the Ghana Education Service (GES) as part of efforts to improve service delivery and prepare for future expansion.",
+      "category": "basic_schools",
+      "published_at": "2026-10-06T13:59:17Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "rank": 0.752,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Ghana School Feeding Programme tightens data systems ahead of expansion",
+          "url": "https://3news.com/news/ghana-school-feeding-programme-tightens-data-systems-ahead-of-expansion",
+          "published_at": "2026-10-06T13:59:17Z",
+          "excerpt": "The Ghana School Feeding Programme is strengthening its data management, monitoring, and collaboration with the Ghana Education Service (GES) as part of efforts to improve service delivery and prepare for future expansion."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "GNFS to integrate fire safety education into basic school curriculum",
+      "summary": "The Ghana National Fire Service (GNFS), in collaboration with the Ghana Education Service (GES), the National Council for Curriculum and Assessment (NaCCA) and Ulster University, is working to integrate fire safety education into Ghana’s basic school curriculum.",
+      "category": "higher_education",
+      "published_at": "2026-10-06T15:29:52Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "GNFS to integrate fire safety education into basic school curriculum",
+          "url": "https://www.adomonline.com/gnfs-to-integrate-fire-safety-education-into-basic-school-curriculum/",
+          "published_at": "2026-10-06T15:29:52Z",
+          "excerpt": "The Ghana National Fire Service (GNFS), in collaboration with the Ghana Education Service (GES), the National Council for Curriculum and Assessment (NaCCA) and Ulster University, is working to integrate fire safety education into Ghana’s basic school curriculum. The initiative is aimed at equipping children with practical knowledge on fire prevention, safe behaviour and the appropriate […]"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Dilapidated classroom block poses danger to Berekum school community",
+      "summary": "Concern is growing over the safety of an abandoned and deteriorating classroom block at the Y. B.",
+      "category": "basic_schools",
+      "published_at": "2026-10-06T14:26:59Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.7407,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Dilapidated classroom block poses danger to Berekum school community",
+          "url": "https://www.adomonline.com/dilapidated-classroom-block-poses-danger-to-berekum-school-community/",
+          "published_at": "2026-10-06T14:26:59Z",
+          "excerpt": "Concern is growing over the safety of an abandoned and deteriorating classroom block at the Y. B. Demonstration C Basic School in Berekum, with calls for its immediate demolition to prevent a possible disaster. The classroom block was ripped off by a heavy thunderstorm in 2017 and has remained abandoned since then. Nearly a decade […]"
+        }
+      ]
+    },
+    {
       "id": 65,
       "title": "Techiman-Krobo Nursing School principal was ‘saving humanity’ – Health Ministry Spokesperson",
       "summary": "The Ministry of Health says the Principal of the Techiman-Krobo Nursing and Midwifery Training College, Hellen Dwamena, was justified in taking a firm approach to academic discipline because of the potential consequences of allowing poorly performing students to progress into the healthcare system.",
@@ -353,7 +444,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.755,
+      "rank": 0.7263,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -374,7 +465,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.75,
+      "rank": 0.7228,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -395,7 +486,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7458,
+      "rank": 0.7171,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -416,7 +507,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7417,
+      "rank": 0.7135,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -437,7 +528,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7393,
+      "rank": 0.7114,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -445,6 +536,27 @@
           "url": "https://www.adomonline.com/he-is-not-underage-he-is-16-years-old-adanwomase-shs-housemaster-speaks-on-viral-video-of-first-year-student/",
           "published_at": "2026-10-06T12:21:19Z",
           "excerpt": "The Adanwomase SHS authorities have clarified that the viral video of one of their male ‘smallish’ boarding students is not an underage person but a 16-year-old who is qualified to be in school. The authorities said he wrote the BECE with a qualifying grade from WAEC and was posted to the school to study. Senior […]"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "title": "KTU partners NAYT Consult to equip students for employment opportunities in Germany",
+      "summary": "Koforidua Technical University (KTU) has signed a Memorandum of Understanding (MoU) with international recruitment agency NAYT Consult Ltd to equip students with German language skills and cultural knowledge to enhance their access to legitimate employment opportunities in Europe, particularly Germany.",
+      "category": "higher_education",
+      "published_at": "2026-10-06T12:07:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7082,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "KTU partners NAYT Consult to equip students for employment opportunities in Germany",
+          "url": "https://www.myjoyonline.com/ktu-partners-nayt-consult-to-equip-students-for-employment-opportunities-in-germany/",
+          "published_at": "2026-10-06T12:07:00Z",
+          "excerpt": "Koforidua Technical University (KTU) has signed a Memorandum of Understanding (MoU) with international recruitment agency NAYT Consult Ltd to equip students with German language skills and cultural knowledge to enhance their access to legitimate employment opportunities in Europe, particularly Germany."
         }
       ]
     },
@@ -458,7 +570,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.7303,
+      "rank": 0.705,
       "articles": [
         {
           "source_name": "3News",
@@ -466,27 +578,6 @@
           "url": "https://3news.com/education/gtec-orders-uds-to-halt-unauthorised-weekend-delivery-of-evening-llb-programme",
           "published_at": "2026-10-06T10:25:45Z",
           "excerpt": "GTEC directs the University for Development Studies to immediately halt its weekend LLB delivery and restore the approved evening programme."
-        }
-      ]
-    },
-    {
-      "id": 60,
-      "title": "Gender Minister highlights increased investment, reforms in School Feeding Programme",
-      "summary": "Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has highlighted increased government investment and reforms in the Ghana School Feeding Programme under the administration of President John Dramani Mahama.",
-      "category": "basic_schools",
-      "published_at": "2026-10-06T10:56:27Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.7192,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Gender Minister highlights increased investment, reforms in School Feeding Programme",
-          "url": "https://www.myjoyonline.com/gender-minister-highlights-increased-investment-reforms-in-school-feeding-programme/",
-          "published_at": "2026-10-06T10:56:27Z",
-          "excerpt": "Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has highlighted increased government investment and reforms in the Ghana School Feeding Programme under the administration of President John Dramani Mahama. More than 4.5 million children are enrolled in the programme and receive one hot meal every school day. Government funding for the […]"
         }
       ]
     },
@@ -500,7 +591,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7188,
+      "rank": 0.6935,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -508,6 +599,27 @@
           "url": "https://www.adomonline.com/health-ministry-announces-reopening-of-techiman-krobo-nursing-training-school-after-months-of-closure/",
           "published_at": "2026-10-06T10:28:01Z",
           "excerpt": "The Techiman-Krobo Nursing and Midwifery School in the Bono East region is expected to reopen in the coming weeks after months of closure following a demonstration by students over concerns at the institution. Spokesperson for the Ministry of Health, Tony Goodman, said efforts to resolve the issues that triggered the students’ protest had progressed significantly, […]"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Gender Minister highlights increased investment, reforms in School Feeding Programme",
+      "summary": "Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has highlighted increased government investment and reforms in the Ghana School Feeding Programme under the administration of President John Dramani Mahama.",
+      "category": "basic_schools",
+      "published_at": "2026-10-06T10:56:27Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.6933,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Gender Minister highlights increased investment, reforms in School Feeding Programme",
+          "url": "https://www.myjoyonline.com/gender-minister-highlights-increased-investment-reforms-in-school-feeding-programme/",
+          "published_at": "2026-10-06T10:56:27Z",
+          "excerpt": "Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has highlighted increased government investment and reforms in the Ghana School Feeding Programme under the administration of President John Dramani Mahama. More than 4.5 million children are enrolled in the programme and receive one hot meal every school day. Government funding for the […]"
         }
       ]
     },
@@ -521,7 +633,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7035,
+      "rank": 0.679,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -542,7 +654,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7008,
+      "rank": 0.6766,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -563,7 +675,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6901,
+      "rank": 0.6669,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -584,7 +696,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6488,
+      "rank": 0.6293,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -605,7 +717,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5919,
+      "rank": 0.5769,
       "articles": [
         {
           "source_name": "3News",
@@ -626,7 +738,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5913,
+      "rank": 0.5763,
       "articles": [
         {
           "source_name": "3News",
@@ -647,7 +759,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5899,
+      "rank": 0.5751,
       "articles": [
         {
           "source_name": "3News",
@@ -668,7 +780,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5878,
+      "rank": 0.5731,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -689,7 +801,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5856,
+      "rank": 0.5724,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -710,7 +822,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5845,
+      "rank": 0.5714,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -731,7 +843,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5839,
+      "rank": 0.5708,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -752,7 +864,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5706,
+      "rank": 0.5572,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -773,7 +885,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5668,
+      "rank": 0.5548,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -794,7 +906,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5561,
+      "rank": 0.5449,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -815,7 +927,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5446,
+      "rank": 0.533,
       "articles": [
         {
           "source_name": "3News",
@@ -836,7 +948,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5366,
+      "rank": 0.5254,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -857,7 +969,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5291,
+      "rank": 0.5184,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -878,7 +990,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5257,
+      "rank": 0.5153,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -899,7 +1011,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.498,
+      "rank": 0.4892,
       "articles": [
         {
           "source_name": "3News",
@@ -920,7 +1032,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4608,
+      "rank": 0.455,
       "articles": [
         {
           "source_name": "3News",
@@ -941,7 +1053,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3313,
+      "rank": 0.33,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -962,7 +1074,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3251,
+      "rank": 0.324,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -983,7 +1095,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3112,
+      "rank": 0.3103,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1004,7 +1116,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3097,
+      "rank": 0.3085,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1025,7 +1137,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3093,
+      "rank": 0.3081,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1046,7 +1158,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3055,
+      "rank": 0.3044,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1067,7 +1179,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3037,
+      "rank": 0.303,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1075,27 +1187,6 @@
           "url": "https://www.adomonline.com/teachers-funded-the-survey-so-why-the-delayed-implementation-pretag-questions-ges-over-deprived-area-allowance/",
           "published_at": "2026-09-28T12:40:49Z",
           "excerpt": "The Vice President of the Pre-Tertiary Education Teachers Association of Ghana (PRETAG), Adokwei Ayikwei Awulley, has questioned the delay by the Ghana Education Service (GES) in implementing the deprived-area allowance for teachers. According to him, the issue has repeatedly been raised by the President, the Education Minister and the GES, despite the allowance already being […]"
-        }
-      ]
-    },
-    {
-      "id": 31,
-      "title": "Kpandai MP commissions classroom block, renovated CHPS compound to improve education and healthcare",
-      "summary": "The Member of Parliament for Kpandai Constituency, Mathew Nyindam has commissioned and handed over a three-unit classroom block at Meme E/P Junior High School and a renovated CHPS compound at Kabonwule in the Kpandai District.",
-      "category": "basic_schools",
-      "published_at": "2026-09-29T13:22:28Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "rank": 0.2962,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "Kpandai MP commissions classroom block, renovated CHPS compound to improve education and healthcare",
-          "url": "https://www.adomonline.com/kpandai-mp-commissions-classroom-block-renovated-chps-compound-to-improve-education-and-healthcare/",
-          "published_at": "2026-09-29T13:22:28Z",
-          "excerpt": "The Member of Parliament for Kpandai Constituency, Mathew Nyindam has commissioned and handed over a three-unit classroom block at Meme E/P Junior High School and a renovated CHPS compound at Kabonwule in the Kpandai District. The projects form part of efforts by the MP to address critical infrastructure gaps in education and healthcare and improve […]"
         }
       ]
     },
@@ -1109,7 +1200,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.296,
+      "rank": 0.2954,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1117,6 +1208,27 @@
           "url": "https://www.adomonline.com/education-ministry-moves-to-institutionalise-ghanaian-sign-language/",
           "published_at": "2026-09-27T14:24:04Z",
           "excerpt": "The government has announced plans to develop a sustainable policy for the development and use of Ghanaian Sign Language (GSL) in the country’s education system. The Minister of Education, Haruna Iddrisu, said the Ministry would collaborate with stakeholders to formally recognise and institutionalise GSL. At a dialogue on “Strengthening Quality Multilingual Inclusive Education for Deaf […]"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Kpandai MP commissions classroom block, renovated CHPS compound to improve education and healthcare",
+      "summary": "The Member of Parliament for Kpandai Constituency, Mathew Nyindam has commissioned and handed over a three-unit classroom block at Meme E/P Junior High School and a renovated CHPS compound at Kabonwule in the Kpandai District.",
+      "category": "basic_schools",
+      "published_at": "2026-09-29T13:22:28Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.2953,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Kpandai MP commissions classroom block, renovated CHPS compound to improve education and healthcare",
+          "url": "https://www.adomonline.com/kpandai-mp-commissions-classroom-block-renovated-chps-compound-to-improve-education-and-healthcare/",
+          "published_at": "2026-09-29T13:22:28Z",
+          "excerpt": "The Member of Parliament for Kpandai Constituency, Mathew Nyindam has commissioned and handed over a three-unit classroom block at Meme E/P Junior High School and a renovated CHPS compound at Kabonwule in the Kpandai District. The projects form part of efforts by the MP to address critical infrastructure gaps in education and healthcare and improve […]"
         }
       ]
     },
@@ -1130,7 +1242,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2942,
+      "rank": 0.2933,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1151,7 +1263,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2886,
+      "rank": 0.2882,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1172,7 +1284,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2883,
+      "rank": 0.2878,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1193,7 +1305,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2874,
+      "rank": 0.2866,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1214,7 +1326,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2855,
+      "rank": 0.2848,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1235,7 +1347,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2845,
+      "rank": 0.284,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1256,7 +1368,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2839,
+      "rank": 0.2832,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1277,7 +1389,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2808,
+      "rank": 0.2804,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1298,7 +1410,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2808,
+      "rank": 0.2804,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1319,7 +1431,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2798,
+      "rank": 0.2791,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1340,7 +1452,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2692,
+      "rank": 0.2687,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1361,7 +1473,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2692,
+      "rank": 0.2687,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1382,7 +1494,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2667,
+      "rank": 0.2663,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1403,7 +1515,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2654,
+      "rank": 0.265,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1424,7 +1536,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2653,
+      "rank": 0.2649,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1445,7 +1557,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2653,
+      "rank": 0.2649,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1466,7 +1578,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2648,
+      "rank": 0.2644,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1487,7 +1599,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2572,
+      "rank": 0.257,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1508,7 +1620,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.239,
+      "rank": 0.2389,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1634,7 +1746,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2257,
+      "rank": 0.2256,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
