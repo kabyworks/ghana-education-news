@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T12:40:36Z",
+  "generated_at": "2026-10-06T13:10:35Z",
   "categories": [
     {
       "name": "teachers",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 19
+      "story_count": 20
     },
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "policy",
-      "story_count": 6
+      "story_count": 7
     },
     {
       "name": "general",
@@ -43,7 +43,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9534,
+      "rank": 0.9464,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -318,7 +318,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.8228,
+      "rank": 0.8147,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -344,6 +344,27 @@
       ]
     },
     {
+      "id": 65,
+      "title": "Techiman-Krobo Nursing School principal was ‘saving humanity’ – Health Ministry Spokesperson",
+      "summary": "The Ministry of Health says the Principal of the Techiman-Krobo Nursing and Midwifery Training College, Hellen Dwamena, was justified in taking a firm approach to academic discipline because of the potential consequences of allowing poorly performing students to progress into the healthcare system.",
+      "category": "higher_education",
+      "published_at": "2026-10-06T13:01:03Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.755,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Techiman-Krobo Nursing School principal was ‘saving humanity’ – Health Ministry Spokesperson",
+          "url": "https://www.adomonline.com/techiman-krobo-nursing-school-principal-was-saving-humanity-health-ministry-spokesperson/",
+          "published_at": "2026-10-06T13:01:03Z",
+          "excerpt": "The Ministry of Health says the Principal of the Techiman-Krobo Nursing and Midwifery Training College, Hellen Dwamena, was justified in taking a firm approach to academic discipline because of the potential consequences of allowing poorly performing students to progress into the healthcare system. According to the Ministry’s spokesperson, Tony Goodman, although some of the concerns […]"
+        }
+      ]
+    },
+    {
       "id": 61,
       "title": "Central Regional GNAT Chairman calls for 13th-month salary for teachers",
       "summary": "The Central Regional Chairman of the Ghana National Association of Teachers (GNAT), Godwin Yaw Andam, has called for the introduction of a 13th-month salary for teachers, arguing that improved remuneration is necessary to motivate, retain and recognise educators for their contribution to national development.",
@@ -353,7 +374,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7648,
+      "rank": 0.75,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -361,6 +382,27 @@
           "url": "https://www.myjoyonline.com/central-regional-gnat-chairman-calls-for-13th-month-salary-for-teachers/",
           "published_at": "2026-10-06T11:51:14Z",
           "excerpt": "The Central Regional Chairman of the Ghana National Association of Teachers (GNAT), Godwin Yaw Andam, has called for the introduction of a 13th-month salary for teachers, arguing that improved remuneration is necessary to motivate, retain and recognise educators for their contribution to national development. Speaking at the 2026 World Teachers’ Day celebration in Assin Fosu, […]"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Techiman-Krobo Nursing Training principal to remain at post despite calls for her removal",
+      "summary": "The Ministry’s spokesperson, Tony Goodman, said the decision is based on the findings and recommendations of a committee set up to investigate the concerns that led to months of disruption at the school.",
+      "category": "policy",
+      "published_at": "2026-10-06T12:47:10Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7458,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Techiman-Krobo Nursing Training principal to remain at post despite calls for her removal",
+          "url": "https://www.myjoyonline.com/techiman-krobo-nursing-training-principal-to-remain-at-post-despite-calls-for-her-removal/",
+          "published_at": "2026-10-06T12:47:10Z",
+          "excerpt": "The Ministry’s spokesperson, Tony Goodman, said the decision is based on the findings and recommendations of a committee set up to investigate the concerns that led to months of disruption at the school. Speaking on Adom FM’s Dwaso Nsem, Mr Goodman said although the committee acknowledged concerns about the principal’s approach to students, it did […]"
         }
       ]
     },
@@ -374,7 +416,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.749,
+      "rank": 0.7417,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -395,7 +437,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.749,
+      "rank": 0.7393,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -416,7 +458,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.744,
+      "rank": 0.7303,
       "articles": [
         {
           "source_name": "3News",
@@ -437,7 +479,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7333,
+      "rank": 0.7192,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -458,7 +500,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7325,
+      "rank": 0.7188,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -479,7 +521,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7167,
+      "rank": 0.7035,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -500,7 +542,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7138,
+      "rank": 0.7008,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -521,7 +563,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7026,
+      "rank": 0.6901,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -542,7 +584,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6593,
+      "rank": 0.6488,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -563,7 +605,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5998,
+      "rank": 0.5919,
       "articles": [
         {
           "source_name": "3News",
@@ -584,7 +626,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5992,
+      "rank": 0.5913,
       "articles": [
         {
           "source_name": "3News",
@@ -605,7 +647,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5978,
+      "rank": 0.5899,
       "articles": [
         {
           "source_name": "3News",
@@ -626,7 +668,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5956,
+      "rank": 0.5878,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -647,7 +689,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5926,
+      "rank": 0.5856,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -668,7 +710,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5915,
+      "rank": 0.5845,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -689,7 +731,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5908,
+      "rank": 0.5839,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -710,7 +752,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5777,
+      "rank": 0.5706,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -731,7 +773,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5731,
+      "rank": 0.5668,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -752,7 +794,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.562,
+      "rank": 0.5561,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -773,7 +815,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5508,
+      "rank": 0.5446,
       "articles": [
         {
           "source_name": "3News",
@@ -794,7 +836,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5424,
+      "rank": 0.5366,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -815,7 +857,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5347,
+      "rank": 0.5291,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -836,7 +878,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5312,
+      "rank": 0.5257,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -857,7 +899,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5025,
+      "rank": 0.498,
       "articles": [
         {
           "source_name": "3News",
@@ -878,7 +920,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4639,
+      "rank": 0.4608,
       "articles": [
         {
           "source_name": "3News",
@@ -899,7 +941,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3319,
+      "rank": 0.3313,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -920,7 +962,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3257,
+      "rank": 0.3251,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -941,7 +983,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3116,
+      "rank": 0.3112,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -962,7 +1004,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3103,
+      "rank": 0.3097,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -983,7 +1025,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.31,
+      "rank": 0.3093,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1004,7 +1046,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3061,
+      "rank": 0.3055,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1025,7 +1067,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3041,
+      "rank": 0.3037,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1046,7 +1088,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2967,
+      "rank": 0.2962,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1067,7 +1109,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2963,
+      "rank": 0.296,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1088,7 +1130,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2947,
+      "rank": 0.2942,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1109,7 +1151,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2888,
+      "rank": 0.2886,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1130,7 +1172,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2886,
+      "rank": 0.2883,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1151,7 +1193,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2877,
+      "rank": 0.2874,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1172,7 +1214,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2859,
+      "rank": 0.2855,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1193,7 +1235,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2847,
+      "rank": 0.2845,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1214,7 +1256,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2843,
+      "rank": 0.2839,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1235,7 +1277,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.281,
+      "rank": 0.2808,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1256,7 +1298,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.281,
+      "rank": 0.2808,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1277,7 +1319,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2801,
+      "rank": 0.2798,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1298,7 +1340,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2694,
+      "rank": 0.2692,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1319,7 +1361,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2694,
+      "rank": 0.2692,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1340,7 +1382,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.267,
+      "rank": 0.2667,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1361,7 +1403,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2656,
+      "rank": 0.2654,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1382,7 +1424,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2655,
+      "rank": 0.2653,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1403,7 +1445,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2655,
+      "rank": 0.2653,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1424,7 +1466,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.265,
+      "rank": 0.2648,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1445,7 +1487,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2573,
+      "rank": 0.2572,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
