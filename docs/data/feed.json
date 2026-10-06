@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-06T02:40:36Z",
+  "generated_at": "2026-10-06T12:10:39Z",
   "categories": [
     {
       "name": "teachers",
-      "story_count": 19
+      "story_count": 22
     },
     {
       "name": "higher_education",
-      "story_count": 18
+      "story_count": 19
     },
     {
       "name": "basic_schools",
-      "story_count": 7
+      "story_count": 8
     },
     {
       "name": "policy",
-      "story_count": 5
+      "story_count": 6
     },
     {
       "name": "general",
-      "story_count": 2
+      "story_count": 4
     },
     {
       "name": "examinations",
@@ -32,55 +32,18 @@
   ],
   "stories": [
     {
-      "id": 49,
-      "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
-      "summary": "The Ministry of Education has commended teachers across Ghana for their dedication, professionalism and sacrifices as the country joins the international community to celebrate World Teachers’ Day 2026.",
-      "category": "teachers",
-      "published_at": "2026-10-05T23:12:35Z",
-      "source_count": 3,
-      "sources": [
-        "3News",
-        "Adom Online Education",
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.9274,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
-          "url": "https://www.adomonline.com/education-ministry-salutes-ghanaian-teachers-on-world-teachers-day/",
-          "published_at": "2026-10-05T21:01:37Z",
-          "excerpt": "The Ministry of Education has commended teachers across Ghana for their dedication and sacrifice as the country joins the global community to mark World Teachers’ Day 2026. In a statement, the Ministry described teachers as being at the heart of Ghana’s education system and credited them with playing a critical role in shaping the minds, […]"
-        },
-        {
-          "source_name": "3News",
-          "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
-          "url": "https://3news.com/news/education-ministry-salutes-ghanaian-teachers-on-world-teachers-day",
-          "published_at": "2026-10-05T21:38:51Z",
-          "excerpt": "In a statement, the Ministry described teachers as being “at the heart of Ghana’s education system,” noting their important role in shaping the minds, character and future of children across the country."
-        },
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Education Ministry commends Ghanaian teachers on World Teachers’ Day 2026",
-          "url": "https://www.myjoyonline.com/education-ministry-commends-ghanaian-teachers-on-world-teachers-day-2026/",
-          "published_at": "2026-10-05T23:12:35Z",
-          "excerpt": "The Ministry of Education has commended teachers across Ghana for their dedication, professionalism and sacrifices as the country joins the international community to celebrate World Teachers’ Day 2026."
-        }
-      ]
-    },
-    {
       "id": 13,
       "title": "Education Ministry to meet teacher unions amidst strike action",
-      "summary": "The Fair Wages and Salaries Commission (FWSC) is expected to meet the leadership of the three striking teacher unions on Tuesday, October 6, to negotiate their concerns over conditions of service.",
+      "summary": "Vice President Professor Jane Naana Opoku-Agyemang has expressed optimism that the ongoing strike by teacher unions will be resolved soon, saying negotiations between government and the unions have reached an advanced stage.",
       "category": "teachers",
-      "published_at": "2026-10-05T19:42:05Z",
+      "published_at": "2026-10-06T08:53:50Z",
       "source_count": 3,
       "sources": [
         "3News",
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.8723,
+      "rank": 0.9099,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -298,6 +261,246 @@
           "url": "https://www.myjoyonline.com/fwsc-to-meet-striking-teacher-unions-on-tuesday/",
           "published_at": "2026-10-05T19:42:05Z",
           "excerpt": "The Fair Wages and Salaries Commission (FWSC) is expected to meet the leadership of the three striking teacher unions on Tuesday, October 6, to negotiate their concerns over conditions of service. The meeting follows renewed calls by Education Minister Haruna Iddrisu for the teachers to call off their nationwide strike and return to the classroom. […]"
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Deputy Education Minister appeals to striking teachers to return to classrooms",
+          "url": "https://www.myjoyonline.com/deputy-education-minister-appeals-to-striking-teachers-to-return-to-classrooms-2/",
+          "published_at": "2026-10-06T05:18:00Z",
+          "excerpt": "Dr Clement Apaak, a Deputy Minister of Education, has appealed to striking pre-tertiary teachers to return to the classroom while government works to resolve their outstanding concerns."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Promotion arrears alone cannot end teachers’ strike — PRETAG",
+          "url": "https://www.myjoyonline.com/promotion-arrears-alone-cannot-end-teachers-strike-pretag/",
+          "published_at": "2026-10-06T05:56:00Z",
+          "excerpt": "The Pre-Tertiary Teachers Association of Ghana (PRETAG) says the government’s commitment to clear outstanding promotion arrears will not, on its own, be enough to bring an end to the nationwide teachers’ strike."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "Fair Wages and Salaries Commission to make striking teachers today",
+          "url": "https://www.adomonline.com/fair-wages-and-salaries-commission-to-make-striking-teachers-today/",
+          "published_at": "2026-10-06T06:43:58Z",
+          "excerpt": "The government is set to engage the three teacher unions leading the nationwide strike as the Fair Wages and Salaries Commission (FWSC) meets their leadership on Tuesday, October 6, to discuss their concerns over conditions of service. The meeting follows renewed appeals by Education Minister Haruna Iddrisu for the teachers to suspend the strike and […]"
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Vice President hopeful of swift end to teacher strike",
+          "url": "https://www.myjoyonline.com/vice-president-hopeful-of-swift-end-to-teacher-strike/",
+          "published_at": "2026-10-06T08:50:32Z",
+          "excerpt": "Vice President Professor Jane Naana Opoku-Agyemang has expressed optimism that the ongoing strike by teacher unions will be resolved soon, saying negotiations between government and the unions have reached an advanced stage. Speaking at the 2026 Ghana Teacher Prize ceremony in Accra, she said she was encouraged by the progress made in the discussions and expressed hope that the engagements would bring an end to the impasse. “I’m, however, encouraged by the progress made so far. Talks between government and the unions are well advanced and I am hopeful that the constructive engagements we have seen will lead us to a resolution very soon,” she said. The Vice President also highlighted the critical role teachers play in the country’s education system, describing teaching as “one of our most important professions.”"
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "CPP’s Kwame Nkrumah Botsio calls for legally binding MOU to end teacher strike",
+          "url": "https://www.myjoyonline.com/cpps-kwame-nkrumah-botsio-calls-for-legally-binding-mou-to-end-teacher-strike/",
+          "published_at": "2026-10-06T08:53:50Z",
+          "excerpt": "General Secretary of the Convention People’s Party (CPP), Kwame Nkrumah Botsio, has criticised the treatment of teachers in Ghana, saying the profession has not received the recognition and support it deserves despite the sacrifices teachers make to educate the country’s children."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
+      "summary": "The Ministry of Education has commended teachers across Ghana for their dedication, professionalism and sacrifices as the country joins the international community to celebrate World Teachers’ Day 2026.",
+      "category": "teachers",
+      "published_at": "2026-10-05T23:12:35Z",
+      "source_count": 3,
+      "sources": [
+        "3News",
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.8228,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
+          "url": "https://www.adomonline.com/education-ministry-salutes-ghanaian-teachers-on-world-teachers-day/",
+          "published_at": "2026-10-05T21:01:37Z",
+          "excerpt": "The Ministry of Education has commended teachers across Ghana for their dedication and sacrifice as the country joins the global community to mark World Teachers’ Day 2026. In a statement, the Ministry described teachers as being at the heart of Ghana’s education system and credited them with playing a critical role in shaping the minds, […]"
+        },
+        {
+          "source_name": "3News",
+          "title": "Education Ministry salutes Ghanaian teachers on World Teachers’ Day",
+          "url": "https://3news.com/news/education-ministry-salutes-ghanaian-teachers-on-world-teachers-day",
+          "published_at": "2026-10-05T21:38:51Z",
+          "excerpt": "In a statement, the Ministry described teachers as being “at the heart of Ghana’s education system,” noting their important role in shaping the minds, character and future of children across the country."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Education Ministry commends Ghanaian teachers on World Teachers’ Day 2026",
+          "url": "https://www.myjoyonline.com/education-ministry-commends-ghanaian-teachers-on-world-teachers-day-2026/",
+          "published_at": "2026-10-05T23:12:35Z",
+          "excerpt": "The Ministry of Education has commended teachers across Ghana for their dedication, professionalism and sacrifices as the country joins the international community to celebrate World Teachers’ Day 2026."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Central Regional GNAT Chairman calls for 13th-month salary for teachers",
+      "summary": "The Central Regional Chairman of the Ghana National Association of Teachers (GNAT), Godwin Yaw Andam, has called for the introduction of a 13th-month salary for teachers, arguing that improved remuneration is necessary to motivate, retain and recognise educators for their contribution to national development.",
+      "category": "teachers",
+      "published_at": "2026-10-06T11:51:14Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7648,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Central Regional GNAT Chairman calls for 13th-month salary for teachers",
+          "url": "https://www.myjoyonline.com/central-regional-gnat-chairman-calls-for-13th-month-salary-for-teachers/",
+          "published_at": "2026-10-06T11:51:14Z",
+          "excerpt": "The Central Regional Chairman of the Ghana National Association of Teachers (GNAT), Godwin Yaw Andam, has called for the introduction of a 13th-month salary for teachers, arguing that improved remuneration is necessary to motivate, retain and recognise educators for their contribution to national development. Speaking at the 2026 World Teachers’ Day celebration in Assin Fosu, […]"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "GTEC orders UDS to halt unauthorised weekend delivery of evening LLB programme",
+      "summary": "GTEC directs the University for Development Studies to immediately halt its weekend LLB delivery and restore the approved evening programme.",
+      "category": "higher_education",
+      "published_at": "2026-10-06T10:25:45Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "rank": 0.744,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "GTEC orders UDS to halt unauthorised weekend delivery of evening LLB programme",
+          "url": "https://3news.com/education/gtec-orders-uds-to-halt-unauthorised-weekend-delivery-of-evening-llb-programme",
+          "published_at": "2026-10-06T10:25:45Z",
+          "excerpt": "GTEC directs the University for Development Studies to immediately halt its weekend LLB delivery and restore the approved evening programme."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Gender Minister highlights increased investment, reforms in School Feeding Programme",
+      "summary": "Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has highlighted increased government investment and reforms in the Ghana School Feeding Programme under the administration of President John Dramani Mahama.",
+      "category": "basic_schools",
+      "published_at": "2026-10-06T10:56:27Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7333,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Gender Minister highlights increased investment, reforms in School Feeding Programme",
+          "url": "https://www.myjoyonline.com/gender-minister-highlights-increased-investment-reforms-in-school-feeding-programme/",
+          "published_at": "2026-10-06T10:56:27Z",
+          "excerpt": "Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has highlighted increased government investment and reforms in the Ghana School Feeding Programme under the administration of President John Dramani Mahama. More than 4.5 million children are enrolled in the programme and receive one hot meal every school day. Government funding for the […]"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Health Ministry announces reopening of Techiman-Krobo Nursing Training School after months of closure",
+      "summary": "The Techiman-Krobo Nursing and Midwifery School in the Bono East region is expected to reopen in the coming weeks after months of closure following a demonstration by students over concerns at the institution.",
+      "category": "policy",
+      "published_at": "2026-10-06T10:28:01Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.7325,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Health Ministry announces reopening of Techiman-Krobo Nursing Training School after months of closure",
+          "url": "https://www.adomonline.com/health-ministry-announces-reopening-of-techiman-krobo-nursing-training-school-after-months-of-closure/",
+          "published_at": "2026-10-06T10:28:01Z",
+          "excerpt": "The Techiman-Krobo Nursing and Midwifery School in the Bono East region is expected to reopen in the coming weeks after months of closure following a demonstration by students over concerns at the institution. Spokesperson for the Ministry of Health, Tony Goodman, said efforts to resolve the issues that triggered the students’ protest had progressed significantly, […]"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "We’ll no longer accept verbal assurances; we expect a detailed roadmap – TUTAG tells gov’t amidst strike",
+      "summary": "The Technical University Teachers’ Association of Ghana (TUTAG) says it will not call off its ongoing strike based on verbal assurances from government, insisting on a comprehensive, written, and signed roadmap to address its concerns. National President of TUTAG, Professor Deodat E.",
+      "category": "teachers",
+      "published_at": "2026-10-06T09:45:11Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.7167,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "We’ll no longer accept verbal assurances; we expect a detailed roadmap – TUTAG tells gov’t amidst strike",
+          "url": "https://www.adomonline.com/well-no-longer-accept-verbal-assurances-we-expect-a-detailed-roadmap-tutag-tells-govt-amidst-strike/",
+          "published_at": "2026-10-06T09:45:11Z",
+          "excerpt": "The Technical University Teachers’ Association of Ghana (TUTAG) says it will not call off its ongoing strike based on verbal assurances from government, insisting on a comprehensive, written, and signed roadmap to address its concerns. National President of TUTAG, Professor Deodat E. Adenutsi, said members had lost confidence in verbal commitments after previous assurances failed […]"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Humanity Haven Foundation supports 100 pupils in Wiamoase with educational supplies",
+      "summary": "Humanity Haven Foundation (HHF), an Ashanti Region-based non-governmental organization, has presented essential educational supplies to 100 basic school pupils in Wiamoase, located within the Sekyere South Municipality.",
+      "category": "general",
+      "published_at": "2026-10-06T09:32:29Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7138,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Humanity Haven Foundation supports 100 pupils in Wiamoase with educational supplies",
+          "url": "https://www.myjoyonline.com/humanity-haven-foundation-supports-100-pupils-in-wiamoase-with-educational-supplies/",
+          "published_at": "2026-10-06T09:32:29Z",
+          "excerpt": "Humanity Haven Foundation (HHF), an Ashanti Region-based non-governmental organization, has presented essential educational supplies to 100 basic school pupils in Wiamoase, located within the Sekyere South Municipality."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Humanity Haven Foundation provides educational items to vulnerable pupils in Wiamoase",
+      "summary": "Humanity Haven Foundation (HHF), an Ashanti Region-based non-governmental organization, has presented essential educational supplies to 100 basic school pupils in Wiamoase, located within the Sekyere South Municipality.",
+      "category": "general",
+      "published_at": "2026-10-06T08:40:58Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.7026,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Humanity Haven Foundation provides educational items to vulnerable pupils in Wiamoase",
+          "url": "https://www.adomonline.com/humanity-haven-foundation-provides-educational-items-to-vulnerable-pupils-in-wiamoase/",
+          "published_at": "2026-10-06T08:40:58Z",
+          "excerpt": "Humanity Haven Foundation (HHF), an Ashanti Region-based non-governmental organization, has presented essential educational supplies to 100 basic school pupils in Wiamoase, located within the Sekyere South Municipality. The items, which included school bags, exercise books, pens, pencils, and mathematical sets were handed over to selected beneficiaries during a brief ceremony held on Friday morning at […]"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Government committed to resolving teachers’ concerns - Vice President",
+      "summary": "Vice President Professor Naana Jane Opoku-Agyemang says ongoing engagements with teacher unions are making progress towards resolving concerns that triggered industrial action.",
+      "category": "teachers",
+      "published_at": "2026-10-06T04:59:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.6593,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Government committed to resolving teachers’ concerns - Vice President",
+          "url": "https://www.myjoyonline.com/government-committed-to-resolving-teachers-concerns-vice-president/",
+          "published_at": "2026-10-06T04:59:00Z",
+          "excerpt": "Vice President Professor Naana Jane Opoku-Agyemang says ongoing engagements with teacher unions are making progress towards resolving concerns that triggered industrial action."
         }
       ]
     },
@@ -311,7 +514,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.7016,
+      "rank": 0.5998,
       "articles": [
         {
           "source_name": "3News",
@@ -332,7 +535,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.7006,
+      "rank": 0.5992,
       "articles": [
         {
           "source_name": "3News",
@@ -353,7 +556,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.6983,
+      "rank": 0.5978,
       "articles": [
         {
           "source_name": "3News",
@@ -374,7 +577,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6949,
+      "rank": 0.5956,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -395,7 +598,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6806,
+      "rank": 0.5926,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -416,7 +619,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6789,
+      "rank": 0.5915,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -437,7 +640,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6778,
+      "rank": 0.5908,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -458,7 +661,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6673,
+      "rank": 0.5777,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -479,7 +682,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6511,
+      "rank": 0.5731,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -500,7 +703,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6349,
+      "rank": 0.562,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -521,7 +724,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.6268,
+      "rank": 0.5508,
       "articles": [
         {
           "source_name": "3News",
@@ -542,7 +745,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6145,
+      "rank": 0.5424,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -563,7 +766,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6032,
+      "rank": 0.5347,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -584,7 +787,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5982,
+      "rank": 0.5312,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -605,7 +808,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5575,
+      "rank": 0.5025,
       "articles": [
         {
           "source_name": "3News",
@@ -626,7 +829,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4991,
+      "rank": 0.4639,
       "articles": [
         {
           "source_name": "3News",
@@ -647,7 +850,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.339,
+      "rank": 0.3319,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -668,7 +871,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3321,
+      "rank": 0.3257,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -676,6 +879,27 @@
           "url": "https://www.adomonline.com/ghana-urges-evidence-based-investment-in-education-for-children-affected-by-emergencies/",
           "published_at": "2026-09-30T09:55:13Z",
           "excerpt": "Ghana has urged West African countries, policymakers and development partners to prioritise evidence-based investments in education to ensure children affected by conflicts, disasters, displacement and other emergencies do not lose access to learning. The call was made by Deputy Education Minister Dr Clement Apaak on behalf of Education Minister Haruna Iddrisu at the Second High-Level […]"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Delayed promotions put teachers’ retirement benefits at risk – GNAT",
+      "summary": "The Ghana National Association of Teachers (GNAT) has warned that delays in processing teacher promotions could affect the retirement benefits of teachers who are nearing the end of their careers.",
+      "category": "teachers",
+      "published_at": "2026-09-29T06:42:47Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.3116,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Delayed promotions put teachers’ retirement benefits at risk – GNAT",
+          "url": "https://www.adomonline.com/delayed-promotions-put-teachers-retirement-benefits-at-risk-gnat/",
+          "published_at": "2026-09-29T06:42:47Z",
+          "excerpt": "The Ghana National Association of Teachers (GNAT) has warned that delays in processing teacher promotions could affect the retirement benefits of teachers who are nearing the end of their careers. National President of GNAT, Prosper Tackie, said that promotions directly affect teachers’ retirement benefits, making the delays a major concern for the union. “You see, […]"
         }
       ]
     },
@@ -689,7 +913,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.317,
+      "rank": 0.3103,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -710,7 +934,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3165,
+      "rank": 0.31,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -718,27 +942,6 @@
           "url": "https://www.adomonline.com/kpandai-mp-supports-166-tertiary-students-with-gh%c2%a2166000-from-common-fund/",
           "published_at": "2026-09-30T13:33:09Z",
           "excerpt": "The Member of Parliament for Kpandai in the Northern Region Mathew Nyindam has supported 166 tertiary students in the constituency with a total amount of GH¢166,000 from his MP’s Common Fund. Each beneficiary received a cheque to support their education and ease the financial burden on their families. Speaking to Adom News after presenting the […]"
-        }
-      ]
-    },
-    {
-      "id": 29,
-      "title": "Delayed promotions put teachers’ retirement benefits at risk – GNAT",
-      "summary": "The Ghana National Association of Teachers (GNAT) has warned that delays in processing teacher promotions could affect the retirement benefits of teachers who are nearing the end of their careers.",
-      "category": "teachers",
-      "published_at": "2026-09-29T06:42:47Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "rank": 0.3164,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "Delayed promotions put teachers’ retirement benefits at risk – GNAT",
-          "url": "https://www.adomonline.com/delayed-promotions-put-teachers-retirement-benefits-at-risk-gnat/",
-          "published_at": "2026-09-29T06:42:47Z",
-          "excerpt": "The Ghana National Association of Teachers (GNAT) has warned that delays in processing teacher promotions could affect the retirement benefits of teachers who are nearing the end of their careers. National President of GNAT, Prosper Tackie, said that promotions directly affect teachers’ retirement benefits, making the delays a major concern for the union. “You see, […]"
         }
       ]
     },
@@ -752,7 +955,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3122,
+      "rank": 0.3061,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -773,7 +976,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3081,
+      "rank": 0.3041,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -794,7 +997,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3018,
+      "rank": 0.2967,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -815,7 +1018,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2996,
+      "rank": 0.2963,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -836,7 +1039,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2995,
+      "rank": 0.2947,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -844,48 +1047,6 @@
           "url": "https://www.adomonline.com/over-50-of-53000-unplaced-jhs-graduates-complete-self-placement-education-ministry/",
           "published_at": "2026-09-29T09:01:57Z",
           "excerpt": "The pressure on Ghana’s secondary school placement resolution centres is easing, with more than half of the over 53,000 students initially left without automatic placement now completing the self-placement process. Press Secretary to Education Minister Haruna Iddrisu, Hashmin Mohammed, said the development has significantly reduced the number of parents and students reporting to the ministry’s […]"
-        }
-      ]
-    },
-    {
-      "id": 28,
-      "title": "Desks rotting in abandoned Kintampo South E-Block: A decade of neglect and a waste of state resources",
-      "summary": "In the quiet farming community of Anyima, in the Kintampo South District of the Bono East Region, a grim monument to broken promises stands silently.",
-      "category": "basic_schools",
-      "published_at": "2026-09-28T16:53:40Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "rank": 0.2919,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "Desks rotting in abandoned Kintampo South E-Block: A decade of neglect and a waste of state resources",
-          "url": "https://www.adomonline.com/desks-rotting-in-abandoned-kintampo-south-e-block-a-decade-of-neglect-and-a-waste-of-state-resources/",
-          "published_at": "2026-09-28T16:53:40Z",
-          "excerpt": "In the quiet farming community of Anyima, in the Kintampo South District of the Bono East Region, a grim monument to broken promises stands silently. The Community Day Senior High School, initiated under the Mahama-led National Democratic Congress (NDC) government in 2016 as part of the ambitious E-Blocks project, remains unfinished ten years after construction […]"
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "title": "Nigerian Parliamentary Delegation Engages GTEC Over Certificate Racketeering Concerns",
-      "summary": "A Joint Committee consisting of members of the Committee on Education, Interior, Foreign Affairs, Youth Development and Federal Polytechnics from the House of Representatives of the Federal Republic of Nigeria and the Federal Ministry of Education as well as some clerks of Parliament, has on Thursday, 24th September...",
-      "category": "higher_education",
-      "published_at": "2026-09-26T11:29:34Z",
-      "source_count": 1,
-      "sources": [
-        "Ghana Tertiary Education Commission"
-      ],
-      "rank": 0.2913,
-      "articles": [
-        {
-          "source_name": "Ghana Tertiary Education Commission",
-          "title": "Nigerian Parliamentary Delegation Engages GTEC Over Certificate Racketeering Concerns",
-          "url": "https://gtec.edu.gh/nigerian-parliamentary-delegation-engages-gtec-over-certificate-racketeering-concerns/",
-          "published_at": "2026-09-26T11:29:34Z",
-          "excerpt": "A Joint Committee consisting of members of the Committee on Education, Interior, Foreign Affairs, Youth Development and Federal Polytechnics from the House of Representatives of the Federal Republic of Nigeria and the Federal Ministry of Education as well as some clerks of Parliament, has on Thursday, 24th September, 2026 engaged the Ghana Tertiary Education Commission […] The post Nigerian Parliamentary Delegation Engages GTEC Over Certificate Racketeering Concerns appeared first on GTEC."
         }
       ]
     },
@@ -899,7 +1060,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2908,
+      "rank": 0.2888,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -907,6 +1068,48 @@
           "url": "https://www.adomonline.com/ncpta-challenges-ges-directive-on-pta-dues-cites-high-court-injunction/",
           "published_at": "2026-09-24T20:37:33Z",
           "excerpt": "The National Council of Parent-Teacher Associations (NCPTA) has clarified that a recent directive by the Ghana Education Service (GES) on the collection of Parent-Teacher Association (PTA) dues does not, in its view, apply to its branches operating in schools. The clarification follows a September 23 directive from the GES ordering heads of Senior High Schools […]"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Nigerian Parliamentary Delegation Engages GTEC Over Certificate Racketeering Concerns",
+      "summary": "A Joint Committee consisting of members of the Committee on Education, Interior, Foreign Affairs, Youth Development and Federal Polytechnics from the House of Representatives of the Federal Republic of Nigeria and the Federal Ministry of Education as well as some clerks of Parliament, has on Thursday, 24th September...",
+      "category": "higher_education",
+      "published_at": "2026-09-26T11:29:34Z",
+      "source_count": 1,
+      "sources": [
+        "Ghana Tertiary Education Commission"
+      ],
+      "rank": 0.2886,
+      "articles": [
+        {
+          "source_name": "Ghana Tertiary Education Commission",
+          "title": "Nigerian Parliamentary Delegation Engages GTEC Over Certificate Racketeering Concerns",
+          "url": "https://gtec.edu.gh/nigerian-parliamentary-delegation-engages-gtec-over-certificate-racketeering-concerns/",
+          "published_at": "2026-09-26T11:29:34Z",
+          "excerpt": "A Joint Committee consisting of members of the Committee on Education, Interior, Foreign Affairs, Youth Development and Federal Polytechnics from the House of Representatives of the Federal Republic of Nigeria and the Federal Ministry of Education as well as some clerks of Parliament, has on Thursday, 24th September, 2026 engaged the Ghana Tertiary Education Commission […] The post Nigerian Parliamentary Delegation Engages GTEC Over Certificate Racketeering Concerns appeared first on GTEC."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Desks rotting in abandoned Kintampo South E-Block: A decade of neglect and a waste of state resources",
+      "summary": "In the quiet farming community of Anyima, in the Kintampo South District of the Bono East Region, a grim monument to broken promises stands silently.",
+      "category": "basic_schools",
+      "published_at": "2026-09-28T16:53:40Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.2877,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Desks rotting in abandoned Kintampo South E-Block: A decade of neglect and a waste of state resources",
+          "url": "https://www.adomonline.com/desks-rotting-in-abandoned-kintampo-south-e-block-a-decade-of-neglect-and-a-waste-of-state-resources/",
+          "published_at": "2026-09-28T16:53:40Z",
+          "excerpt": "In the quiet farming community of Anyima, in the Kintampo South District of the Bono East Region, a grim monument to broken promises stands silently. The Community Day Senior High School, initiated under the Mahama-led National Democratic Congress (NDC) government in 2016 as part of the ambitious E-Blocks project, remains unfinished ten years after construction […]"
         }
       ]
     },
@@ -920,7 +1123,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2899,
+      "rank": 0.2859,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -928,27 +1131,6 @@
           "url": "https://www.adomonline.com/teachers-should-not-suffer-for-someones-responsibility-cagd/",
           "published_at": "2026-09-28T12:07:36Z",
           "excerpt": "The Controller and Accountant-General’s Department (CAGD) has urged the Ghana Education Service (GES) to expedite the submission of documents needed to process outstanding teacher promotion payments, saying affected teachers should not bear the consequences of administrative delays. Head of Public Affairs at CAGD, Cephas Dosu, said the department has received fewer than 7,000 completed cases […]"
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "title": "CAGD processes and pays promotion arrears to 6,079 teachers",
-      "summary": "The Controller and Accountant-General’s Department (CAGD) says 6,079 teachers have so far received salary adjustments and arrears arising from promotions and upgrades submitted by the Ghana Education Service (GES).",
-      "category": "teachers",
-      "published_at": "2026-09-28T07:45:37Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "rank": 0.2881,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "CAGD processes and pays promotion arrears to 6,079 teachers",
-          "url": "https://www.adomonline.com/cagd-processes-and-pays-promotion-arrears-to-6079-teachers/",
-          "published_at": "2026-09-28T07:45:37Z",
-          "excerpt": "The Controller and Accountant-General’s Department (CAGD) says 6,079 teachers have so far received salary adjustments and arrears arising from promotions and upgrades submitted by the Ghana Education Service (GES). The payments, including arrears dating back to January 1, 2026, were reflected in the September 2026 salaries, according to CAGD. In a statement issued on Sunday, […]"
         }
       ]
     },
@@ -962,7 +1144,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2871,
+      "rank": 0.2847,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -974,23 +1156,23 @@
       ]
     },
     {
-      "id": 24,
-      "title": "CAGD explains process for paying promoted teachers",
-      "summary": "The Controller and Accountant-General’s Department (CAGD) has clarified that the processing of salary adjustments and arrears for promoted or upgraded teachers depends on the submission of the required documents by the Ghana Education Service (GES).",
+      "id": 25,
+      "title": "CAGD processes and pays promotion arrears to 6,079 teachers",
+      "summary": "The Controller and Accountant-General’s Department (CAGD) says 6,079 teachers have so far received salary adjustments and arrears arising from promotions and upgrades submitted by the Ghana Education Service (GES).",
       "category": "teachers",
-      "published_at": "2026-09-27T19:48:02Z",
+      "published_at": "2026-09-28T07:45:37Z",
       "source_count": 1,
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2835,
+      "rank": 0.2843,
       "articles": [
         {
           "source_name": "Adom Online Education",
-          "title": "CAGD explains process for paying promoted teachers",
-          "url": "https://www.adomonline.com/cagd-explains-process-for-paying-promoted-teachers/",
-          "published_at": "2026-09-27T19:48:02Z",
-          "excerpt": "The Controller and Accountant-General’s Department (CAGD) has clarified that the processing of salary adjustments and arrears for promoted or upgraded teachers depends on the submission of the required documents by the Ghana Education Service (GES). The clarification follows concerns raised by the Ghana National Association of Teachers (GNAT), National Association of Graduate Teachers (NAGRAT) and […]"
+          "title": "CAGD processes and pays promotion arrears to 6,079 teachers",
+          "url": "https://www.adomonline.com/cagd-processes-and-pays-promotion-arrears-to-6079-teachers/",
+          "published_at": "2026-09-28T07:45:37Z",
+          "excerpt": "The Controller and Accountant-General’s Department (CAGD) says 6,079 teachers have so far received salary adjustments and arrears arising from promotions and upgrades submitted by the Ghana Education Service (GES). The payments, including arrears dating back to January 1, 2026, were reflected in the September 2026 salaries, according to CAGD. In a statement issued on Sunday, […]"
         }
       ]
     },
@@ -1004,7 +1186,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2831,
+      "rank": 0.281,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1025,7 +1207,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2831,
+      "rank": 0.281,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1033,6 +1215,27 @@
           "url": "https://www.adomonline.com/ghana-tvet-service-engages-bog-governor-on-skills-development-and-economic-transformation/",
           "published_at": "2026-09-25T02:27:12Z",
           "excerpt": "The management of the Ghana TVET Service, led by its Director-General, Engr. Dr Eric Kofi Adzroe, paid a courtesy call on the Governor of the Bank of Ghana, Dr Johnson Pandit Asiama, at the Bank’s headquarters in Accra to advance discussions on the country’s skills development agenda and explore a strategic partnership that places technical […]"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "CAGD explains process for paying promoted teachers",
+      "summary": "The Controller and Accountant-General’s Department (CAGD) has clarified that the processing of salary adjustments and arrears for promoted or upgraded teachers depends on the submission of the required documents by the Ghana Education Service (GES).",
+      "category": "teachers",
+      "published_at": "2026-09-27T19:48:02Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.2801,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "CAGD explains process for paying promoted teachers",
+          "url": "https://www.adomonline.com/cagd-explains-process-for-paying-promoted-teachers/",
+          "published_at": "2026-09-27T19:48:02Z",
+          "excerpt": "The Controller and Accountant-General’s Department (CAGD) has clarified that the processing of salary adjustments and arrears for promoted or upgraded teachers depends on the submission of the required documents by the Ghana Education Service (GES). The clarification follows concerns raised by the Ghana National Association of Teachers (GNAT), National Association of Graduate Teachers (NAGRAT) and […]"
         }
       ]
     },
@@ -1046,7 +1249,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.272,
+      "rank": 0.2694,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1067,7 +1270,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.272,
+      "rank": 0.2694,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1088,7 +1291,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2694,
+      "rank": 0.267,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1109,7 +1312,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.268,
+      "rank": 0.2656,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1130,7 +1333,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2678,
+      "rank": 0.2655,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1151,7 +1354,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2678,
+      "rank": 0.2655,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1172,7 +1375,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2673,
+      "rank": 0.265,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1193,7 +1396,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2581,
+      "rank": 0.2573,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1214,7 +1417,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2391,
+      "rank": 0.239,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1235,7 +1438,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2369,
+      "rank": 0.2367,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1256,7 +1459,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2366,
+      "rank": 0.2364,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1277,7 +1480,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2361,
+      "rank": 0.2359,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1298,7 +1501,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2353,
+      "rank": 0.2352,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1319,7 +1522,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2278,
+      "rank": 0.2277,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
