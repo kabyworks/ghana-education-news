@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-06T17:40:41Z",
+  "generated_at": "2026-10-06T18:10:42Z",
   "categories": [
     {
       "name": "teachers",
-      "story_count": 24
+      "story_count": 25
     },
     {
       "name": "higher_education",
@@ -36,14 +36,14 @@
       "title": "Education Ministry to meet teacher unions amidst strike action",
       "summary": "Vice President Professor Jane Naana Opoku-Agyemang has expressed optimism that the ongoing strike by teacher unions will be resolved soon, saying negotiations between government and the unions have reached an advanced stage.",
       "category": "teachers",
-      "published_at": "2026-10-06T16:51:01Z",
+      "published_at": "2026-10-06T18:01:05Z",
       "source_count": 3,
       "sources": [
         "3News",
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9512,
+      "rank": 0.9534,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -324,6 +324,13 @@
           "url": "https://www.myjoyonline.com/strike-is-the-only-language-government-understands-ifest-backs-teachers/",
           "published_at": "2026-10-06T16:51:01Z",
           "excerpt": "Executive Director of the Institute for Education Studies (IFEST), Dr Peter Anti, has backed the decision by pre-tertiary teacher unions to maintain their nationwide strike, arguing that industrial action is necessary to compel government to address their outstanding concerns."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Teachers strike: You cannot negotiate while holding the other party in handcuffs – Austin Gamey",
+          "url": "https://www.myjoyonline.com/teachers-strike-you-cannot-negotiate-while-holding-the-other-party-in-handcuffs-austin-gamey/",
+          "published_at": "2026-10-06T18:01:05Z",
+          "excerpt": "Labour Consultant Austin Gamey has criticised the decision by pre-tertiary teacher unions to maintain their nationwide strike while negotiations with government are ongoing."
         }
       ]
     },
@@ -339,7 +346,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.7851,
+      "rank": 0.7784,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -365,6 +372,27 @@
       ]
     },
     {
+      "id": 76,
+      "title": "GES should consider regional processing of teacher promotions – FWSC CEO",
+      "summary": "The Chief Executive Officer of the Fair Wages and Salaries Commission (FWSC), Dr George Smith-Graham, has proposed a regional approach to processing teacher promotions to prevent delays in the payment of promotion-related arrears.",
+      "category": "teachers",
+      "published_at": "2026-10-06T17:54:45Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7657,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GES should consider regional processing of teacher promotions – FWSC CEO",
+          "url": "https://www.myjoyonline.com/ges-should-consider-regional-processing-of-teacher-promotions-fwsc-ceo/",
+          "published_at": "2026-10-06T17:54:45Z",
+          "excerpt": "The Chief Executive Officer of the Fair Wages and Salaries Commission (FWSC), Dr George Smith-Graham, has proposed a regional approach to processing teacher promotions to prevent delays in the payment of promotion-related arrears."
+        }
+      ]
+    },
+    {
       "id": 75,
       "title": "We didn’t deliberately delay negotiations with teacher unions – FWSC",
       "summary": "The Chief Executive Officer of the Fair Wages and Salaries Commission (FWSC), Dr George Smith-Graham, has rejected claims that government failed to engage pre-tertiary teacher unions with urgency over their concerns.",
@@ -374,7 +402,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.749,
+      "rank": 0.7374,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -395,7 +423,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.749,
+      "rank": 0.7367,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -416,7 +444,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.749,
+      "rank": 0.7365,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -437,7 +465,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7414,
+      "rank": 0.7278,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -458,7 +486,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7352,
+      "rank": 0.7211,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -479,7 +507,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7309,
+      "rank": 0.717,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -500,7 +528,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.727,
+      "rank": 0.7133,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -521,7 +549,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.7245,
+      "rank": 0.7119,
       "articles": [
         {
           "source_name": "3News",
@@ -542,7 +570,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7126,
+      "rank": 0.6996,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -563,7 +591,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7002,
+      "rank": 0.6881,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -584,7 +612,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6982,
+      "rank": 0.6868,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -605,7 +633,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6914,
+      "rank": 0.6794,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -626,7 +654,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6881,
+      "rank": 0.6763,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -647,7 +675,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6861,
+      "rank": 0.6745,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -668,7 +696,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6833,
+      "rank": 0.6717,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -689,7 +717,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.6821,
+      "rank": 0.6714,
       "articles": [
         {
           "source_name": "3News",
@@ -710,7 +738,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6705,
+      "rank": 0.6598,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -731,7 +759,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6698,
+      "rank": 0.6588,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -752,7 +780,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6568,
+      "rank": 0.6465,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -773,7 +801,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6546,
+      "rank": 0.6444,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -794,7 +822,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6458,
+      "rank": 0.6359,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -815,7 +843,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6114,
+      "rank": 0.6029,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -836,7 +864,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.563,
+      "rank": 0.5564,
       "articles": [
         {
           "source_name": "3News",
@@ -857,7 +885,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5625,
+      "rank": 0.5559,
       "articles": [
         {
           "source_name": "3News",
@@ -878,7 +906,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5613,
+      "rank": 0.5548,
       "articles": [
         {
           "source_name": "3News",
@@ -899,7 +927,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5601,
+      "rank": 0.5542,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -907,27 +935,6 @@
           "url": "https://www.adomonline.com/gtec-orders-uds-to-restore-llb-programme-to-approved-evening-delivery-mode/",
           "published_at": "2026-10-05T19:17:11Z",
           "excerpt": "The Ghana Tertiary Education Commission (GTEC) has directed the University of Development Studies (UDS) to cease with immediate effect, the delivery of the accredited evening LLB programme as a weekend programme and to restore the programme to its duly approved evening mode of delivery. Subsequently, GTEC has directed UDS to immediately discontinue any arrangement requiring […]"
-        }
-      ]
-    },
-    {
-      "id": 50,
-      "title": "No education reform can succeed without teachers – Education Ministry",
-      "summary": "The Ministry of Education has reaffirmed the critical role of teachers in Ghana’s education system, saying no meaningful education reform can succeed without their active involvement.",
-      "category": "teachers",
-      "published_at": "2026-10-05T22:04:11Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.5595,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "No education reform can succeed without teachers – Education Ministry",
-          "url": "https://www.myjoyonline.com/no-education-reform-can-succeed-without-teachers-education-ministry/",
-          "published_at": "2026-10-05T22:04:11Z",
-          "excerpt": "The Ministry of Education has reaffirmed the critical role of teachers in Ghana’s education system, saying no meaningful education reform can succeed without their active involvement."
         }
       ]
     },
@@ -941,7 +948,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5591,
+      "rank": 0.5533,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -949,6 +956,27 @@
           "url": "https://www.myjoyonline.com/ges-digitalisation-already-exists-restore-discontinued-platforms-adutwum-spokesperson/",
           "published_at": "2026-10-05T19:07:46Z",
           "excerpt": "A spokesperson for former Education Minister Dr Yaw Osei Adutwum has challenged claims that the Ghana Education Service (GES) still relies heavily on manual processes, insisting that several digital platforms to address such challenges were introduced years ago."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "No education reform can succeed without teachers – Education Ministry",
+      "summary": "The Ministry of Education has reaffirmed the critical role of teachers in Ghana’s education system, saying no meaningful education reform can succeed without their active involvement.",
+      "category": "teachers",
+      "published_at": "2026-10-05T22:04:11Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.553,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "No education reform can succeed without teachers – Education Ministry",
+          "url": "https://www.myjoyonline.com/no-education-reform-can-succeed-without-teachers-education-ministry/",
+          "published_at": "2026-10-05T22:04:11Z",
+          "excerpt": "The Ministry of Education has reaffirmed the critical role of teachers in Ghana’s education system, saying no meaningful education reform can succeed without their active involvement."
         }
       ]
     },
@@ -962,7 +990,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5586,
+      "rank": 0.5528,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -983,7 +1011,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5447,
+      "rank": 0.5388,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1004,7 +1032,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5437,
+      "rank": 0.5384,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1025,7 +1053,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5344,
+      "rank": 0.5294,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1046,7 +1074,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5221,
+      "rank": 0.5169,
       "articles": [
         {
           "source_name": "3News",
@@ -1067,7 +1095,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.515,
+      "rank": 0.5101,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1088,7 +1116,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5085,
+      "rank": 0.5037,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1109,7 +1137,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5055,
+      "rank": 0.5008,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1130,7 +1158,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4809,
+      "rank": 0.477,
       "articles": [
         {
           "source_name": "3News",
@@ -1151,7 +1179,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4494,
+      "rank": 0.4467,
       "articles": [
         {
           "source_name": "3News",
@@ -1172,7 +1200,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3287,
+      "rank": 0.3281,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1193,7 +1221,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3228,
+      "rank": 0.3223,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1214,7 +1242,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3094,
+      "rank": 0.309,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1235,7 +1263,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3073,
+      "rank": 0.3067,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1256,7 +1284,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3069,
+      "rank": 0.3063,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1277,7 +1305,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3033,
+      "rank": 0.3027,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1298,7 +1326,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3022,
+      "rank": 0.3019,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1319,7 +1347,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2948,
+      "rank": 0.2945,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1340,7 +1368,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2944,
+      "rank": 0.2939,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1361,7 +1389,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2924,
+      "rank": 0.292,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1382,7 +1410,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2878,
+      "rank": 0.2876,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1403,7 +1431,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2873,
+      "rank": 0.2871,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1424,7 +1452,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2858,
+      "rank": 0.2854,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1445,7 +1473,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.284,
+      "rank": 0.2837,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1466,7 +1494,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2836,
+      "rank": 0.2833,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1487,7 +1515,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2825,
+      "rank": 0.2821,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1508,7 +1536,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.28,
+      "rank": 0.2798,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1529,7 +1557,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2799,
+      "rank": 0.2797,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1550,7 +1578,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2785,
+      "rank": 0.2781,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1571,7 +1599,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2682,
+      "rank": 0.268,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1592,7 +1620,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2682,
+      "rank": 0.2679,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1613,7 +1641,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2658,
+      "rank": 0.2656,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1634,7 +1662,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2645,
+      "rank": 0.2643,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1655,7 +1683,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2644,
+      "rank": 0.2642,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1676,7 +1704,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2644,
+      "rank": 0.2642,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1697,7 +1725,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2639,
+      "rank": 0.2637,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1718,7 +1746,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2569,
+      "rank": 0.2568,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1802,7 +1830,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2359,
+      "rank": 0.2358,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
