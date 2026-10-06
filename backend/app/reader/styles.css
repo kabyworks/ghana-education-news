@@ -19,6 +19,27 @@ body {
   padding-bottom: env(safe-area-inset-bottom);
 }
 
+html {
+  overflow-y: scroll;
+  scrollbar-color: var(--green) #d5cbbd;
+  scrollbar-width: auto;
+}
+
+html::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #d5cbbd;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--green);
+  border-radius: 999px;
+  min-height: 48px;
+}
+
 a:focus-visible, button:focus-visible, input:focus-visible {
   outline: 3px solid #e6c56a;
   outline-offset: 2px;

@@ -21,23 +21,23 @@ body {
 
 html {
   overflow-y: scroll;
-  scrollbar-color: var(--green) #e4ddd0;
+  scrollbar-color: var(--green) #d5cbbd;
   scrollbar-width: auto;
 }
 
 html::-webkit-scrollbar {
   -webkit-appearance: none;
-  width: 14px;
+  width: 12px;
 }
 
 html::-webkit-scrollbar-track {
-  background: #e4ddd0;
+  background: #d5cbbd;
 }
 
 html::-webkit-scrollbar-thumb {
   background: var(--green);
-  border: 3px solid #e4ddd0;
   border-radius: 999px;
+  min-height: 48px;
 }
 
 a:focus-visible, button:focus-visible, input:focus-visible {
