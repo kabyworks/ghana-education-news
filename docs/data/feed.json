@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-06T21:10:43Z",
+  "generated_at": "2026-10-06T21:40:40Z",
   "categories": [
     {
       "name": "teachers",
-      "story_count": 28
+      "story_count": 29
     },
     {
       "name": "higher_education",
-      "story_count": 24
+      "story_count": 25
     },
     {
       "name": "basic_schools",
@@ -19,7 +19,7 @@
     },
     {
       "name": "general",
-      "story_count": 5
+      "story_count": 6
     },
     {
       "name": "examinations",
@@ -36,14 +36,14 @@
       "title": "Education Ministry to meet teacher unions amidst strike action",
       "summary": "Vice President Professor Jane Naana Opoku-Agyemang has expressed optimism that the ongoing strike by teacher unions will be resolved soon, saying negotiations between government and the unions have reached an advanced stage.",
       "category": "teachers",
-      "published_at": "2026-10-06T20:32:35Z",
+      "published_at": "2026-10-06T21:14:39Z",
       "source_count": 3,
       "sources": [
         "3News",
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9464,
+      "rank": 0.9532,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -366,6 +366,13 @@
           "url": "https://www.myjoyonline.com/teacher-strike-fwsc-blames-new-allowance-demand-for-deadlock-with-teacher-unions/",
           "published_at": "2026-10-06T20:32:35Z",
           "excerpt": "The Chief Executive Officer of the Fair Wages and Salaries Commission (FWSC), Dr George Smith-Graham, says that negotiations between the commission and the striking pre-tertiary teacher unions have stalled over a demand for the introduction of a new allowance."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "PTA backs teachers’ strike, threatens street protest if gov’t misses October 30 deadline",
+          "url": "https://www.myjoyonline.com/pta-backs-teachers-strike-threatens-street-protest-if-govt-misses-october-30-deadline/",
+          "published_at": "2026-10-06T21:14:39Z",
+          "excerpt": "The National Council of Parents Teachers Association (PTA) has backed the concerns of striking pre-tertiary teachers, warning that parents will join the unions in street protests if the government fails to meet its October 30 deadline for resolving outstanding issues."
         }
       ]
     },
@@ -743,6 +750,27 @@
       ]
     },
     {
+      "id": 81,
+      "title": "Emeritus Professor Kwame Akon Ninsin: The man who mentored a department",
+      "summary": "On October 1, 2026, the Department of Political Science, University of Ghana, gathered to honour one of its pillars – Emeritus Professor Kwame Akon Ninsin. Political scientist, statesman, avowed Nkrumahist, activist.",
+      "category": "higher_education",
+      "published_at": "2026-10-06T15:41:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.6542,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Emeritus Professor Kwame Akon Ninsin: The man who mentored a department",
+          "url": "https://www.myjoyonline.com/emeritus-professor-kwame-akon-ninsin-the-man-who-mentored-a-department/",
+          "published_at": "2026-10-06T15:41:00Z",
+          "excerpt": "On October 1, 2026, the Department of Political Science, University of Ghana, gathered to honour one of its pillars – Emeritus Professor Kwame Akon Ninsin. Political scientist, statesman, avowed Nkrumahist, activist. True to his influence, the room was full. Emeritus Professor Atsu Ayee and many faculty members were present. So were leading civil society figures […]"
+        }
+      ]
+    },
+    {
       "id": 64,
       "title": "Techiman-Krobo Nursing Training principal to remain at post despite calls for her removal",
       "summary": "The Ministry’s spokesperson, Tony Goodman, said the decision is based on the findings and recommendations of a committee set up to investigate the concerns that led to months of disruption at the school.",
@@ -848,6 +876,27 @@
       ]
     },
     {
+      "id": 82,
+      "title": "Professor Dzidonu calls for a fundamental shift in how individuals, educational institutions and society think about learning in the age of AI",
+      "summary": "Professor Clement K. Dzidonu says graduation must mark a new phase of lifelong learning as AI and rapid technological change reshape professional capability and the world of work",
+      "category": "general",
+      "published_at": "2026-10-06T14:11:22Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "rank": 0.6375,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Professor Dzidonu calls for a fundamental shift in how individuals, educational institutions and society think about learning in the age of AI",
+          "url": "https://3news.com/news/professor-dzidonu-calls-for-a-fundamental-shift-in-how-individuals-educational-institutions-and-society-think-about-learning-in-the-age-of-ai",
+          "published_at": "2026-10-06T14:11:22Z",
+          "excerpt": "Professor Clement K. Dzidonu says graduation must mark a new phase of lifelong learning as AI and rapid technological change reshape professional capability and the world of work"
+        }
+      ]
+    },
+    {
       "id": 59,
       "title": "Health Ministry announces reopening of Techiman-Krobo Nursing Training School after months of closure",
       "summary": "The Techiman-Krobo Nursing and Midwifery School in the Bono East region is expected to reopen in the coming weeks after months of closure following a demonstration by students over concerns at the institution.",
@@ -949,6 +998,27 @@
           "url": "https://www.adomonline.com/humanity-haven-foundation-provides-educational-items-to-vulnerable-pupils-in-wiamoase/",
           "published_at": "2026-10-06T08:40:58Z",
           "excerpt": "Humanity Haven Foundation (HHF), an Ashanti Region-based non-governmental organization, has presented essential educational supplies to 100 basic school pupils in Wiamoase, located within the Sekyere South Municipality. The items, which included school bags, exercise books, pens, pencils, and mathematical sets were handed over to selected beneficiaries during a brief ceremony held on Friday morning at […]"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "We’ve been measured in our decision – GAUA says as it resumes strike action",
+      "summary": "The Ghana Association of University Administrators (GAUA) has resumed its industrial action, citing the government’s failure to resolve concerns that have remained outstanding since 2020.",
+      "category": "teachers",
+      "published_at": "2026-10-06T09:55:20Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.5956,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "We’ve been measured in our decision – GAUA says as it resumes strike action",
+          "url": "https://www.adomonline.com/weve-been-measured-in-our-decision-gaua-says-as-it-resumes-strike-action/",
+          "published_at": "2026-10-06T09:55:20Z",
+          "excerpt": "The Ghana Association of University Administrators (GAUA) has resumed its industrial action, citing the government’s failure to resolve concerns that have remained outstanding since 2020. General Secretary of GAUA, Charles Kwadwo Aidoo, said the association had repeatedly raised the issues with government but had seen little progress, despite several engagements. Speaking on Adom FM’s Dwaso […]"
         }
       ]
     },
