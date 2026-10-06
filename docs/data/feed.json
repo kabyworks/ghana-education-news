@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-06T19:40:36Z",
+  "generated_at": "2026-10-06T20:10:34Z",
   "categories": [
     {
       "name": "teachers",
-      "story_count": 26
+      "story_count": 28
     },
     {
       "name": "higher_education",
@@ -43,7 +43,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9532,
+      "rank": 0.9425,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -360,7 +360,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.7719,
+      "rank": 0.7657,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -386,6 +386,48 @@
       ]
     },
     {
+      "id": 80,
+      "title": "24 years, two national honours: The remarkable journey of Daniel Payne",
+      "summary": "From the classroom to educational leadership, Daniel Payne’s 24-year journey is a story of service, reinvention, faith and an enduring belief that the work of a teacher extends far beyond the classroom.",
+      "category": "teachers",
+      "published_at": "2026-10-06T20:03:02Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "24 years, two national honours: The remarkable journey of Daniel Payne",
+          "url": "https://www.adomonline.com/24-years-two-national-honours-the-remarkable-journey-of-daniel-payne/",
+          "published_at": "2026-10-06T20:03:02Z",
+          "excerpt": "From the classroom to educational leadership, Daniel Payne’s 24-year journey is a story of service, reinvention, faith and an enduring belief that the work of a teacher extends far beyond the classroom. When Daniel Payne stepped onto the national stage in 2026 to receive another Ghana Teacher Prize honour, he was carrying far more than […]"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Innovative Teachers threatens legal action over exclusion from Collective Bargaining Agreement negotiations",
+      "summary": "A dispute has emerged between the Innovative Teachers Union and the Ghana National Association of Teachers (GNAT) over the former’s exclusion from negotiations for the 2026 Collective Bargaining Agreement covering teaching staff of the Ghana Education Service.",
+      "category": "teachers",
+      "published_at": "2026-10-06T19:53:56Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7475,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Innovative Teachers threatens legal action over exclusion from Collective Bargaining Agreement negotiations",
+          "url": "https://www.myjoyonline.com/innovative-teachers-threatens-legal-action-over-exclusion-from-collective-bargaining-agreement-negotiations/",
+          "published_at": "2026-10-06T19:53:56Z",
+          "excerpt": "A dispute has emerged between the Innovative Teachers Union and the Ghana National Association of Teachers (GNAT) over the former’s exclusion from negotiations for the 2026 Collective Bargaining Agreement covering teaching staff of the Ghana Education Service. Innovative Teachers, through its lawyers, has issued a demand notice to the Attorney General and other stakeholders, threatening […]"
+        }
+      ]
+    },
+    {
       "id": 76,
       "title": "GES should consider regional processing of teacher promotions – FWSC CEO",
       "summary": "The Chief Executive Officer of the Fair Wages and Salaries Commission (FWSC), Dr George Smith-Graham, has proposed a regional approach to processing teacher promotions to prevent delays in the payment of promotion-related arrears.",
@@ -395,7 +437,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7509,
+      "rank": 0.7369,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -416,7 +458,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.749,
+      "rank": 0.7355,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -437,7 +479,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7438,
+      "rank": 0.7292,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -458,7 +500,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7232,
+      "rank": 0.7097,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -479,7 +521,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7225,
+      "rank": 0.709,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -500,7 +542,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7223,
+      "rank": 0.7089,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -521,7 +563,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.715,
+      "rank": 0.7028,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -542,7 +584,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7077,
+      "rank": 0.6949,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -563,7 +605,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7038,
+      "rank": 0.6913,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -571,27 +613,6 @@
           "url": "https://www.myjoyonline.com/im-16-passed-my-bece-and-want-to-become-a-lawyer-adanwomase-smallish-shs-boy/",
           "published_at": "2026-10-06T15:46:42Z",
           "excerpt": "The boy in a viral video from Adanwomase SHS in the Ashanti Region has broken his silence about his age, saying he is 16 years old and passed his BECE with Grade 18, qualifying him for admission to the school."
-        }
-      ]
-    },
-    {
-      "id": 70,
-      "title": "GNFS to integrate fire safety education into basic school curriculum",
-      "summary": "The Ghana National Fire Service (GNFS), in collaboration with the Ghana Education Service (GES), the National Council for Curriculum and Assessment (NaCCA) and Ulster University, is working to integrate fire safety education into Ghana’s basic school curriculum.",
-      "category": "higher_education",
-      "published_at": "2026-10-06T15:29:52Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "rank": 0.7002,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "GNFS to integrate fire safety education into basic school curriculum",
-          "url": "https://www.adomonline.com/gnfs-to-integrate-fire-safety-education-into-basic-school-curriculum/",
-          "published_at": "2026-10-06T15:29:52Z",
-          "excerpt": "The Ghana National Fire Service (GNFS), in collaboration with the Ghana Education Service (GES), the National Council for Curriculum and Assessment (NaCCA) and Ulster University, is working to integrate fire safety education into Ghana’s basic school curriculum. The initiative is aimed at equipping children with practical knowledge on fire prevention, safe behaviour and the appropriate […]"
         }
       ]
     },
@@ -605,7 +626,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.6998,
+      "rank": 0.6883,
       "articles": [
         {
           "source_name": "3News",
@@ -613,6 +634,27 @@
           "url": "https://3news.com/news/ghana-school-feeding-programme-tightens-data-systems-ahead-of-expansion",
           "published_at": "2026-10-06T13:59:17Z",
           "excerpt": "The Ghana School Feeding Programme is strengthening its data management, monitoring, and collaboration with the Ghana Education Service (GES) as part of efforts to improve service delivery and prepare for future expansion."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "title": "GNFS to integrate fire safety education into basic school curriculum",
+      "summary": "The Ghana National Fire Service (GNFS), in collaboration with the Ghana Education Service (GES), the National Council for Curriculum and Assessment (NaCCA) and Ulster University, is working to integrate fire safety education into Ghana’s basic school curriculum.",
+      "category": "higher_education",
+      "published_at": "2026-10-06T15:29:52Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.6879,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "GNFS to integrate fire safety education into basic school curriculum",
+          "url": "https://www.adomonline.com/gnfs-to-integrate-fire-safety-education-into-basic-school-curriculum/",
+          "published_at": "2026-10-06T15:29:52Z",
+          "excerpt": "The Ghana National Fire Service (GNFS), in collaboration with the Ghana Education Service (GES), the National Council for Curriculum and Assessment (NaCCA) and Ulster University, is working to integrate fire safety education into Ghana’s basic school curriculum. The initiative is aimed at equipping children with practical knowledge on fire prevention, safe behaviour and the appropriate […]"
         }
       ]
     },
@@ -626,7 +668,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6873,
+      "rank": 0.6755,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -647,7 +689,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6766,
+      "rank": 0.6657,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -668,7 +710,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6759,
+      "rank": 0.6655,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -689,7 +731,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.668,
+      "rank": 0.6572,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -710,7 +752,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.665,
+      "rank": 0.6543,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -731,7 +773,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6633,
+      "rank": 0.6527,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -752,7 +794,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.6612,
+      "rank": 0.6515,
       "articles": [
         {
           "source_name": "3News",
@@ -773,7 +815,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6607,
+      "rank": 0.6502,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -794,7 +836,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6496,
+      "rank": 0.6398,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -815,7 +857,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6484,
+      "rank": 0.6384,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -836,7 +878,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6366,
+      "rank": 0.6271,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -857,7 +899,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6346,
+      "rank": 0.6252,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -878,7 +920,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6265,
+      "rank": 0.6175,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -899,7 +941,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5949,
+      "rank": 0.5871,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -920,7 +962,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5501,
+      "rank": 0.544,
       "articles": [
         {
           "source_name": "3News",
@@ -941,7 +983,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5496,
+      "rank": 0.5435,
       "articles": [
         {
           "source_name": "3News",
@@ -962,7 +1004,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5486,
+      "rank": 0.5431,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -983,7 +1025,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5485,
+      "rank": 0.5424,
       "articles": [
         {
           "source_name": "3News",
@@ -1004,7 +1046,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5477,
+      "rank": 0.5423,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1025,7 +1067,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5472,
+      "rank": 0.5418,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1046,7 +1088,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5468,
+      "rank": 0.5408,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1067,7 +1109,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5332,
+      "rank": 0.5283,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1088,7 +1130,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.533,
+      "rank": 0.5275,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1109,7 +1151,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5245,
+      "rank": 0.5198,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1130,7 +1172,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5119,
+      "rank": 0.507,
       "articles": [
         {
           "source_name": "3News",
@@ -1151,7 +1193,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5052,
+      "rank": 0.5006,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1172,7 +1214,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4991,
+      "rank": 0.4946,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1193,7 +1235,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4963,
+      "rank": 0.4919,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1214,7 +1256,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4731,
+      "rank": 0.4694,
       "articles": [
         {
           "source_name": "3News",
@@ -1235,7 +1277,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4441,
+      "rank": 0.4415,
       "articles": [
         {
           "source_name": "3News",
@@ -1256,7 +1298,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3275,
+      "rank": 0.3268,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1277,7 +1319,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3217,
+      "rank": 0.3212,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1298,7 +1340,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3085,
+      "rank": 0.3081,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1319,7 +1361,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3061,
+      "rank": 0.3056,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1340,7 +1382,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3058,
+      "rank": 0.3052,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1361,7 +1403,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3022,
+      "rank": 0.3017,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1382,7 +1424,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3015,
+      "rank": 0.3011,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1403,7 +1445,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2942,
+      "rank": 0.2939,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1424,7 +1466,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2935,
+      "rank": 0.293,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1445,7 +1487,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2915,
+      "rank": 0.2911,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1466,7 +1508,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2874,
+      "rank": 0.2872,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1487,7 +1529,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2868,
+      "rank": 0.2866,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1508,7 +1550,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.285,
+      "rank": 0.2847,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1529,7 +1571,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2833,
+      "rank": 0.2829,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1550,7 +1592,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2831,
+      "rank": 0.2829,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1571,7 +1613,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2818,
+      "rank": 0.2814,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1592,7 +1634,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2796,
+      "rank": 0.2794,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1613,7 +1655,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2796,
+      "rank": 0.2794,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1634,7 +1676,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2778,
+      "rank": 0.2775,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1655,7 +1697,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2677,
+      "rank": 0.2675,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1676,7 +1718,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2677,
+      "rank": 0.2675,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1697,7 +1739,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2654,
+      "rank": 0.2651,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1718,7 +1760,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2641,
+      "rank": 0.2639,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1739,7 +1781,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.264,
+      "rank": 0.2638,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1760,7 +1802,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.264,
+      "rank": 0.2638,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1781,7 +1823,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2635,
+      "rank": 0.2633,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1802,7 +1844,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2567,
+      "rank": 0.2566,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
