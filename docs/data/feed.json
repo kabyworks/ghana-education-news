@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-06T17:10:38Z",
+  "generated_at": "2026-10-06T17:40:41Z",
   "categories": [
     {
       "name": "teachers",
-      "story_count": 23
+      "story_count": 24
     },
     {
       "name": "higher_education",
-      "story_count": 22
+      "story_count": 23
     },
     {
       "name": "basic_schools",
-      "story_count": 11
+      "story_count": 12
     },
     {
       "name": "policy",
@@ -361,6 +361,69 @@
           "url": "https://www.myjoyonline.com/education-ministry-commends-ghanaian-teachers-on-world-teachers-day-2026/",
           "published_at": "2026-10-05T23:12:35Z",
           "excerpt": "The Ministry of Education has commended teachers across Ghana for their dedication, professionalism and sacrifices as the country joins the international community to celebrate World Teachers’ Day 2026."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "We didn’t deliberately delay negotiations with teacher unions – FWSC",
+      "summary": "The Chief Executive Officer of the Fair Wages and Salaries Commission (FWSC), Dr George Smith-Graham, has rejected claims that government failed to engage pre-tertiary teacher unions with urgency over their concerns.",
+      "category": "teachers",
+      "published_at": "2026-10-06T17:13:36Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "We didn’t deliberately delay negotiations with teacher unions – FWSC",
+          "url": "https://www.myjoyonline.com/we-didnt-deliberately-delay-negotiations-with-teacher-unions-fwsc/",
+          "published_at": "2026-10-06T17:13:36Z",
+          "excerpt": "The Chief Executive Officer of the Fair Wages and Salaries Commission (FWSC), Dr George Smith-Graham, has rejected claims that government failed to engage pre-tertiary teacher unions with urgency over their concerns."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Kaerbo For Africa hands over three-classroom block to Gomoa Nyanyano SHS",
+      "summary": "Denmark-based non-governmental organisation KEARBO FOR AFRICA has handed over a three-classroom block to the Gomoa Nyanyano Secondary Technical School in the Central Region.",
+      "category": "basic_schools",
+      "published_at": "2026-10-06T17:10:36Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Kaerbo For Africa hands over three-classroom block to Gomoa Nyanyano SHS",
+          "url": "https://www.myjoyonline.com/kaerbo-for-africa-hands-over-three-classroom-block-to-gomoa-nyanyano-shs/",
+          "published_at": "2026-10-06T17:10:36Z",
+          "excerpt": "Denmark-based non-governmental organisation KEARBO FOR AFRICA has handed over a three-classroom block to the Gomoa Nyanyano Secondary Technical School in the Central Region."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "KNUST students win Pan African AI Summit Hack-AI-Thon with cocoa waste solution",
+      "summary": "A student-led team from the Kwame Nkrumah University of Science and Technology (KNUST) has emerged as the winner of the 2026 Pan African AI Summit Hack-AI-Thon with an artificial intelligence-powered solution designed to help cocoa farmers turn discarded cocoa pod husks into an additional source of income.",
+      "category": "higher_education",
+      "published_at": "2026-10-06T17:09:57Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "KNUST students win Pan African AI Summit Hack-AI-Thon with cocoa waste solution",
+          "url": "https://www.myjoyonline.com/knust-students-win-pan-african-ai-summit-hack-ai-thon-with-cocoa-waste-solution/",
+          "published_at": "2026-10-06T17:09:57Z",
+          "excerpt": "A student-led team from the Kwame Nkrumah University of Science and Technology (KNUST) has emerged as the winner of the 2026 Pan African AI Summit Hack-AI-Thon with an artificial intelligence-powered solution designed to help cocoa farmers turn discarded cocoa pod husks into an additional source of income."
         }
       ]
     },
