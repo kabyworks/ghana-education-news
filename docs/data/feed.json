@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-07T11:29:14Z",
+  "generated_at": "2026-10-07T12:08:17Z",
   "categories": [
     {
       "name": "teachers",
-      "story_count": 31
+      "story_count": 33
     },
     {
       "name": "higher_education",
@@ -33,17 +33,17 @@
   "stories": [
     {
       "id": 13,
-      "title": "Education Ministry to meet teacher unions amidst strike action",
+      "title": "Over 2,000 teachers in Dormaa comply with strike",
       "summary": "Vice President Professor Jane Naana Opoku-Agyemang has expressed optimism that the ongoing strike by teacher unions will be resolved soon, saying negotiations between government and the unions have reached an advanced stage.",
       "category": "teachers",
-      "published_at": "2026-10-07T09:42:23Z",
+      "published_at": "2026-10-07T11:42:10Z",
       "source_count": 3,
       "sources": [
         "3News",
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9339,
+      "rank": 0.9484,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -394,6 +394,55 @@
           "url": "https://3news.com/news/government-to-take-further-action-if-teachers-strike-continues-beyond-friday-fwsc",
           "published_at": "2026-10-07T09:42:23Z",
           "excerpt": "The government is expected to take further action if striking teachers fail to suspend their industrial action by Friday, October 9."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Haruna Iddrisu vows to resolve teachers’ strike within days",
+          "url": "https://www.myjoyonline.com/haruna-iddrisu-vows-to-resolve-teachers-strike-within-days/",
+          "published_at": "2026-10-07T11:42:10Z",
+          "excerpt": "Education Minister Haruna Iddrisu has assured striking teachers that the government will work to resolve their concerns within the coming days and secure their return to the classroom."
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Some basic schools have just 2 or 3 teachers despite needing 9 – Right To Play",
+      "summary": "Severe teacher shortages in some remote communities are threatening efforts to keep children in school and protect those vulnerable to child labour, according to Right To Play Ghana.",
+      "category": "teachers",
+      "published_at": "2026-10-07T11:52:30Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7471,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Some basic schools have just 2 or 3 teachers despite needing 9 – Right To Play",
+          "url": "https://www.myjoyonline.com/some-basic-schools-have-just-2-or-3-teachers-despite-needing-9-right-to-play/",
+          "published_at": "2026-10-07T11:52:30Z",
+          "excerpt": "Severe teacher shortages in some remote communities are threatening efforts to keep children in school and protect those vulnerable to child labour, according to Right To Play Ghana."
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "‘Standing with teachers means supporting them in classrooms’ – NTC Registrar",
+      "summary": "The Registrar of the National Teaching Council (NTC), Dr Christian Addai-Poku, has called for greater recognition and sustained support for teachers, stressing their critical role in shaping Ghana’s future.",
+      "category": "teachers",
+      "published_at": "2026-10-07T11:43:28Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7448,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "‘Standing with teachers means supporting them in classrooms’ – NTC Registrar",
+          "url": "https://www.myjoyonline.com/standing-with-teachers-means-supporting-them-in-classrooms-ntc-registrar/",
+          "published_at": "2026-10-07T11:43:28Z",
+          "excerpt": "The Registrar of the National Teaching Council (NTC), Dr Christian Addai-Poku, has called for greater recognition and sustained support for teachers, stressing their critical role in shaping Ghana’s future. He made the call at the Ghana Teacher Prize 2026 Grand Durbar, held to celebrate teachers for their contribution to education and national development. Dr Addai-Poku said teachers’ responsibilities extend beyond classroom instruction, as they help learners develop the knowledge, values and confidence needed to navigate life."
         }
       ]
     },
@@ -407,7 +456,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.749,
+      "rank": 0.7351,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -428,7 +477,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7381,
+      "rank": 0.7238,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -449,7 +498,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7261,
+      "rank": 0.7124,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -470,7 +519,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7213,
+      "rank": 0.7082,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -493,7 +542,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.6928,
+      "rank": 0.689,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -528,7 +577,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6775,
+      "rank": 0.6662,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -549,7 +598,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6765,
+      "rank": 0.6652,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -570,7 +619,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6714,
+      "rank": 0.6604,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -591,7 +640,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6064,
+      "rank": 0.5982,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -612,7 +661,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.59,
+      "rank": 0.5831,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -633,7 +682,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5876,
+      "rank": 0.5801,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -654,7 +703,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5865,
+      "rank": 0.579,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -675,7 +724,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5805,
+      "rank": 0.5733,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -696,7 +745,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5773,
+      "rank": 0.5702,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -717,7 +766,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5721,
+      "rank": 0.5658,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -738,7 +787,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5672,
+      "rank": 0.5605,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -759,7 +808,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5669,
+      "rank": 0.5602,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -780,7 +829,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5668,
+      "rank": 0.5601,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -801,7 +850,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5643,
+      "rank": 0.5583,
       "articles": [
         {
           "source_name": "3News",
@@ -822,7 +871,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5595,
+      "rank": 0.553,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -843,7 +892,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5576,
+      "rank": 0.5512,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -864,7 +913,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5557,
+      "rank": 0.5494,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -885,7 +934,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5518,
+      "rank": 0.5462,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -906,7 +955,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5491,
+      "rank": 0.543,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -927,7 +976,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5465,
+      "rank": 0.5407,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -948,7 +997,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5439,
+      "rank": 0.5386,
       "articles": [
         {
           "source_name": "3News",
@@ -969,7 +1018,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5391,
+      "rank": 0.5334,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -990,7 +1039,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5375,
+      "rank": 0.5319,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1011,7 +1060,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5366,
+      "rank": 0.531,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1032,7 +1081,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5353,
+      "rank": 0.5296,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1040,27 +1089,6 @@
           "url": "https://www.myjoyonline.com/ktu-partners-nayt-consult-to-equip-students-for-employment-opportunities-in-germany/",
           "published_at": "2026-10-06T12:07:00Z",
           "excerpt": "Koforidua Technical University (KTU) has signed a Memorandum of Understanding (MoU) with international recruitment agency NAYT Consult Ltd to equip students with German language skills and cultural knowledge to enhance their access to legitimate employment opportunities in Europe, particularly Germany."
-        }
-      ]
-    },
-    {
-      "id": 81,
-      "title": "Emeritus Professor Kwame Akon Ninsin: The man who mentored a department",
-      "summary": "On October 1, 2026, the Department of Political Science, University of Ghana, gathered to honour one of its pillars – Emeritus Professor Kwame Akon Ninsin. Political scientist, statesman, avowed Nkrumahist, activist.",
-      "category": "higher_education",
-      "published_at": "2026-10-06T15:41:00Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.5329,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Emeritus Professor Kwame Akon Ninsin: The man who mentored a department",
-          "url": "https://www.myjoyonline.com/emeritus-professor-kwame-akon-ninsin-the-man-who-mentored-a-department/",
-          "published_at": "2026-10-06T15:41:00Z",
-          "excerpt": "On October 1, 2026, the Department of Political Science, University of Ghana, gathered to honour one of its pillars – Emeritus Professor Kwame Akon Ninsin. Political scientist, statesman, avowed Nkrumahist, activist. True to his influence, the room was full. Emeritus Professor Atsu Ayee and many faculty members were present. So were leading civil society figures […]"
         }
       ]
     },
@@ -1074,7 +1102,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5321,
+      "rank": 0.5268,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1082,6 +1110,27 @@
           "url": "https://www.adomonline.com/health-ministry-announces-reopening-of-techiman-krobo-nursing-training-school-after-months-of-closure/",
           "published_at": "2026-10-06T10:28:01Z",
           "excerpt": "The Techiman-Krobo Nursing and Midwifery School in the Bono East region is expected to reopen in the coming weeks after months of closure following a demonstration by students over concerns at the institution. Spokesperson for the Ministry of Health, Tony Goodman, said efforts to resolve the issues that triggered the students’ protest had progressed significantly, […]"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Emeritus Professor Kwame Akon Ninsin: The man who mentored a department",
+      "summary": "On October 1, 2026, the Department of Political Science, University of Ghana, gathered to honour one of its pillars – Emeritus Professor Kwame Akon Ninsin. Political scientist, statesman, avowed Nkrumahist, activist.",
+      "category": "higher_education",
+      "published_at": "2026-10-06T15:41:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.5266,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Emeritus Professor Kwame Akon Ninsin: The man who mentored a department",
+          "url": "https://www.myjoyonline.com/emeritus-professor-kwame-akon-ninsin-the-man-who-mentored-a-department/",
+          "published_at": "2026-10-06T15:41:00Z",
+          "excerpt": "On October 1, 2026, the Department of Political Science, University of Ghana, gathered to honour one of its pillars – Emeritus Professor Kwame Akon Ninsin. Political scientist, statesman, avowed Nkrumahist, activist. True to his influence, the room was full. Emeritus Professor Atsu Ayee and many faculty members were present. So were leading civil society figures […]"
         }
       ]
     },
@@ -1095,7 +1144,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5287,
+      "rank": 0.5233,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1116,7 +1165,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5235,
+      "rank": 0.5175,
       "articles": [
         {
           "source_name": "3News",
@@ -1137,7 +1186,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5223,
+      "rank": 0.5171,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1158,7 +1207,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5212,
+      "rank": 0.516,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1179,7 +1228,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5167,
+      "rank": 0.5117,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1187,27 +1236,6 @@
           "url": "https://www.adomonline.com/humanity-haven-foundation-provides-educational-items-to-vulnerable-pupils-in-wiamoase/",
           "published_at": "2026-10-06T08:40:58Z",
           "excerpt": "Humanity Haven Foundation (HHF), an Ashanti Region-based non-governmental organization, has presented essential educational supplies to 100 basic school pupils in Wiamoase, located within the Sekyere South Municipality. The items, which included school bags, exercise books, pens, pencils, and mathematical sets were handed over to selected beneficiaries during a brief ceremony held on Friday morning at […]"
-        }
-      ]
-    },
-    {
-      "id": 83,
-      "title": "We’ve been measured in our decision – GAUA says as it resumes strike action",
-      "summary": "The Ghana Association of University Administrators (GAUA) has resumed its industrial action, citing the government’s failure to resolve concerns that have remained outstanding since 2020.",
-      "category": "teachers",
-      "published_at": "2026-10-06T09:55:20Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "rank": 0.4992,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "We’ve been measured in our decision – GAUA says as it resumes strike action",
-          "url": "https://www.adomonline.com/weve-been-measured-in-our-decision-gaua-says-as-it-resumes-strike-action/",
-          "published_at": "2026-10-06T09:55:20Z",
-          "excerpt": "The Ghana Association of University Administrators (GAUA) has resumed its industrial action, citing the government’s failure to resolve concerns that have remained outstanding since 2020. General Secretary of GAUA, Charles Kwadwo Aidoo, said the association had repeatedly raised the issues with government but had seen little progress, despite several engagements. Speaking on Adom FM’s Dwaso […]"
         }
       ]
     },
@@ -1221,7 +1249,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4989,
+      "rank": 0.4944,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1229,6 +1257,27 @@
           "url": "https://www.myjoyonline.com/government-committed-to-resolving-teachers-concerns-vice-president/",
           "published_at": "2026-10-06T04:59:00Z",
           "excerpt": "Vice President Professor Naana Jane Opoku-Agyemang says ongoing engagements with teacher unions are making progress towards resolving concerns that triggered industrial action."
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "We’ve been measured in our decision – GAUA says as it resumes strike action",
+      "summary": "The Ghana Association of University Administrators (GAUA) has resumed its industrial action, citing the government’s failure to resolve concerns that have remained outstanding since 2020.",
+      "category": "teachers",
+      "published_at": "2026-10-06T09:55:20Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.494,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "We’ve been measured in our decision – GAUA says as it resumes strike action",
+          "url": "https://www.adomonline.com/weve-been-measured-in-our-decision-gaua-says-as-it-resumes-strike-action/",
+          "published_at": "2026-10-06T09:55:20Z",
+          "excerpt": "The Ghana Association of University Administrators (GAUA) has resumed its industrial action, citing the government’s failure to resolve concerns that have remained outstanding since 2020. General Secretary of GAUA, Charles Kwadwo Aidoo, said the association had repeatedly raised the issues with government but had seen little progress, despite several engagements. Speaking on Adom FM’s Dwaso […]"
         }
       ]
     },
@@ -1242,7 +1291,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4785,
+      "rank": 0.4751,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1263,7 +1312,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.478,
+      "rank": 0.4746,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1284,7 +1333,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4776,
+      "rank": 0.4742,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1305,7 +1354,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4725,
+      "rank": 0.4688,
       "articles": [
         {
           "source_name": "3News",
@@ -1326,7 +1375,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4722,
+      "rank": 0.4685,
       "articles": [
         {
           "source_name": "3News",
@@ -1347,7 +1396,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4715,
+      "rank": 0.4678,
       "articles": [
         {
           "source_name": "3News",
@@ -1368,7 +1417,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4705,
+      "rank": 0.4668,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1389,7 +1438,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4689,
+      "rank": 0.4657,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1410,7 +1459,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4633,
+      "rank": 0.4603,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1431,7 +1480,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.462,
+      "rank": 0.4586,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1452,7 +1501,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4487,
+      "rank": 0.4456,
       "articles": [
         {
           "source_name": "3News",
@@ -1473,7 +1522,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4445,
+      "rank": 0.4415,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1494,7 +1543,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4405,
+      "rank": 0.4376,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1515,7 +1564,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4387,
+      "rank": 0.4358,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1536,7 +1585,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4234,
+      "rank": 0.4209,
       "articles": [
         {
           "source_name": "3News",
@@ -1557,7 +1606,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4089,
+      "rank": 0.407,
       "articles": [
         {
           "source_name": "3News",
@@ -1578,7 +1627,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3184,
+      "rank": 0.3179,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1599,7 +1648,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3135,
+      "rank": 0.3131,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1620,7 +1669,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3022,
+      "rank": 0.3019,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1641,7 +1690,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2976,
+      "rank": 0.2971,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1662,7 +1711,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2973,
+      "rank": 0.2968,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1683,7 +1732,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2961,
+      "rank": 0.2958,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1704,7 +1753,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2942,
+      "rank": 0.2938,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1725,7 +1774,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2896,
+      "rank": 0.2894,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1746,7 +1795,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2868,
+      "rank": 0.2864,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1767,7 +1816,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2851,
+      "rank": 0.2847,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1788,7 +1837,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2845,
+      "rank": 0.2843,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1809,7 +1858,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2831,
+      "rank": 0.2829,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1830,7 +1879,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2798,
+      "rank": 0.2796,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1851,7 +1900,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2795,
+      "rank": 0.2791,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1872,7 +1921,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2779,
+      "rank": 0.2776,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1880,27 +1929,6 @@
           "url": "https://www.adomonline.com/teachers-should-not-suffer-for-someones-responsibility-cagd/",
           "published_at": "2026-09-28T12:07:36Z",
           "excerpt": "The Controller and Accountant-General’s Department (CAGD) has urged the Ghana Education Service (GES) to expedite the submission of documents needed to process outstanding teacher promotion payments, saying affected teachers should not bear the consequences of administrative delays. Head of Public Affairs at CAGD, Cephas Dosu, said the department has received fewer than 7,000 completed cases […]"
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "title": "CAGD processes and pays promotion arrears to 6,079 teachers",
-      "summary": "The Controller and Accountant-General’s Department (CAGD) says 6,079 teachers have so far received salary adjustments and arrears arising from promotions and upgrades submitted by the Ghana Education Service (GES).",
-      "category": "teachers",
-      "published_at": "2026-09-28T07:45:37Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "rank": 0.2766,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "CAGD processes and pays promotion arrears to 6,079 teachers",
-          "url": "https://www.adomonline.com/cagd-processes-and-pays-promotion-arrears-to-6079-teachers/",
-          "published_at": "2026-09-28T07:45:37Z",
-          "excerpt": "The Controller and Accountant-General’s Department (CAGD) says 6,079 teachers have so far received salary adjustments and arrears arising from promotions and upgrades submitted by the Ghana Education Service (GES). The payments, including arrears dating back to January 1, 2026, were reflected in the September 2026 salaries, according to CAGD. In a statement issued on Sunday, […]"
         }
       ]
     },
@@ -1914,7 +1942,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2766,
+      "rank": 0.2764,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1935,7 +1963,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2765,
+      "rank": 0.2764,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1943,6 +1971,27 @@
           "url": "https://www.adomonline.com/ghana-tvet-service-engages-bog-governor-on-skills-development-and-economic-transformation/",
           "published_at": "2026-09-25T02:27:12Z",
           "excerpt": "The management of the Ghana TVET Service, led by its Director-General, Engr. Dr Eric Kofi Adzroe, paid a courtesy call on the Governor of the Bank of Ghana, Dr Johnson Pandit Asiama, at the Bank’s headquarters in Accra to advance discussions on the country’s skills development agenda and explore a strategic partnership that places technical […]"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "CAGD processes and pays promotion arrears to 6,079 teachers",
+      "summary": "The Controller and Accountant-General’s Department (CAGD) says 6,079 teachers have so far received salary adjustments and arrears arising from promotions and upgrades submitted by the Ghana Education Service (GES).",
+      "category": "teachers",
+      "published_at": "2026-09-28T07:45:37Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.2763,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "CAGD processes and pays promotion arrears to 6,079 teachers",
+          "url": "https://www.adomonline.com/cagd-processes-and-pays-promotion-arrears-to-6079-teachers/",
+          "published_at": "2026-09-28T07:45:37Z",
+          "excerpt": "The Controller and Accountant-General’s Department (CAGD) says 6,079 teachers have so far received salary adjustments and arrears arising from promotions and upgrades submitted by the Ghana Education Service (GES). The payments, including arrears dating back to January 1, 2026, were reflected in the September 2026 salaries, according to CAGD. In a statement issued on Sunday, […]"
         }
       ]
     },
@@ -1956,7 +2005,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2731,
+      "rank": 0.2728,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1977,7 +2026,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2641,
+      "rank": 0.2639,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1998,7 +2047,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2641,
+      "rank": 0.2639,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2019,7 +2068,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.262,
+      "rank": 0.2618,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2040,7 +2089,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2608,
+      "rank": 0.2607,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2061,7 +2110,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2608,
+      "rank": 0.2606,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2082,7 +2131,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2607,
+      "rank": 0.2606,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2103,7 +2152,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2603,
+      "rank": 0.2601,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2124,7 +2173,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2555,
+      "rank": 0.2554,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
