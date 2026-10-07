@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-07T05:10:42Z",
+  "generated_at": "2026-10-07T05:40:40Z",
   "categories": [
     {
       "name": "teachers",
-      "story_count": 29
+      "story_count": 31
     },
     {
       "name": "higher_education",
@@ -14,12 +14,12 @@
       "story_count": 12
     },
     {
-      "name": "policy",
+      "name": "general",
       "story_count": 7
     },
     {
-      "name": "general",
-      "story_count": 6
+      "name": "policy",
+      "story_count": 7
     },
     {
       "name": "examinations",
@@ -373,6 +373,69 @@
           "url": "https://www.myjoyonline.com/pta-backs-teachers-strike-threatens-street-protest-if-govt-misses-october-30-deadline/",
           "published_at": "2026-10-06T21:14:39Z",
           "excerpt": "The National Council of Parents Teachers Association (PTA) has backed the concerns of striking pre-tertiary teachers, warning that parents will join the unions in street protests if the government fails to meet its October 30 deadline for resolving outstanding issues."
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Mother of four and Jasikan teacher among new Telecel M’ahitti Promo winners",
+      "summary": "Since its launch in June this year, the Telecel M’ahitti Promo has brought economic hope to thousands of people across Ghana. More than GH¢2 million has been awarded through one GH¢1 million monthly prize, as well as daily and weekly prizes",
+      "category": "teachers",
+      "published_at": "2026-10-07T05:37:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Mother of four and Jasikan teacher among new Telecel M’ahitti Promo winners",
+          "url": "https://www.myjoyonline.com/mother-of-four-and-jasikan-teacher-among-new-telecel-mahitti-promo-winners/",
+          "published_at": "2026-10-07T05:37:00Z",
+          "excerpt": "Since its launch in June this year, the Telecel M’ahitti Promo has brought economic hope to thousands of people across Ghana. More than GH¢2 million has been awarded through one GH¢1 million monthly prize, as well as daily and weekly prizes"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Gov’t is committed to addressing teachers’ conditions of service, deprived-area allowance – Education Minister",
+      "summary": "Haruna Iddrisu, the Minister of Education, on Monday reaffirmed the Government’s commitment to resolving outstanding grievances of teachers, including the payment of promotion arrears and the implementation of the deprived-area allowance.",
+      "category": "teachers",
+      "published_at": "2026-10-07T05:32:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Gov’t is committed to addressing teachers’ conditions of service, deprived-area allowance – Education Minister",
+          "url": "https://www.myjoyonline.com/govt-is-committed-to-addressing-teachers-conditions-of-service-deprived-area-allowance-education-minister/",
+          "published_at": "2026-10-07T05:32:00Z",
+          "excerpt": "Haruna Iddrisu, the Minister of Education, on Monday reaffirmed the Government’s commitment to resolving outstanding grievances of teachers, including the payment of promotion arrears and the implementation of the deprived-area allowance."
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Christian Council calls for protection of mission schools’ religious identity‎",
+      "summary": "The Christian Council of Ghana (CCG) has called for reforms to protect students’ religious freedoms while preserving the legitimate ethos of mission-founded schools.‎",
+      "category": "general",
+      "published_at": "2026-10-07T05:05:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Christian Council calls for protection of mission schools’ religious identity‎",
+          "url": "https://www.myjoyonline.com/christian-council-calls-for-protection-of-mission-schools-religious-identity/",
+          "published_at": "2026-10-07T05:05:00Z",
+          "excerpt": "The Christian Council of Ghana (CCG) has called for reforms to protect students’ religious freedoms while preserving the legitimate ethos of mission-founded schools.‎"
         }
       ]
     },
