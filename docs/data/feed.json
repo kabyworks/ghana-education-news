@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:10:44Z",
+  "generated_at": "2026-10-07T11:29:14Z",
   "categories": [
     {
       "name": "teachers",
@@ -7,15 +7,15 @@
     },
     {
       "name": "higher_education",
-      "story_count": 26
+      "story_count": 27
     },
     {
       "name": "basic_schools",
-      "story_count": 12
+      "story_count": 13
     },
     {
       "name": "general",
-      "story_count": 7
+      "story_count": 9
     },
     {
       "name": "policy",
@@ -36,14 +36,14 @@
       "title": "Education Ministry to meet teacher unions amidst strike action",
       "summary": "Vice President Professor Jane Naana Opoku-Agyemang has expressed optimism that the ongoing strike by teacher unions will be resolved soon, saying negotiations between government and the unions have reached an advanced stage.",
       "category": "teachers",
-      "published_at": "2026-10-06T21:14:39Z",
+      "published_at": "2026-10-07T09:42:23Z",
       "source_count": 3,
       "sources": [
         "3News",
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.8456,
+      "rank": 0.9339,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -373,69 +373,111 @@
           "url": "https://www.myjoyonline.com/pta-backs-teachers-strike-threatens-street-protest-if-govt-misses-october-30-deadline/",
           "published_at": "2026-10-06T21:14:39Z",
           "excerpt": "The National Council of Parents Teachers Association (PTA) has backed the concerns of striking pre-tertiary teachers, warning that parents will join the unions in street protests if the government fails to meet its October 30 deadline for resolving outstanding issues."
-        }
-      ]
-    },
-    {
-      "id": 87,
-      "title": "Mother of four and Jasikan teacher among new Telecel M’ahitti Promo winners",
-      "summary": "Since its launch in June this year, the Telecel M’ahitti Promo has brought economic hope to thousands of people across Ghana. More than GH¢2 million has been awarded through one GH¢1 million monthly prize, as well as daily and weekly prizes",
-      "category": "teachers",
-      "published_at": "2026-10-07T05:37:00Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.7432,
-      "articles": [
+        },
         {
-          "source_name": "MyJoyOnline Education",
-          "title": "Mother of four and Jasikan teacher among new Telecel M’ahitti Promo winners",
-          "url": "https://www.myjoyonline.com/mother-of-four-and-jasikan-teacher-among-new-telecel-mahitti-promo-winners/",
-          "published_at": "2026-10-07T05:37:00Z",
-          "excerpt": "Since its launch in June this year, the Telecel M’ahitti Promo has brought economic hope to thousands of people across Ghana. More than GH¢2 million has been awarded through one GH¢1 million monthly prize, as well as daily and weekly prizes"
-        }
-      ]
-    },
-    {
-      "id": 86,
-      "title": "Gov’t is committed to addressing teachers’ conditions of service, deprived-area allowance – Education Minister",
-      "summary": "Haruna Iddrisu, the Minister of Education, on Monday reaffirmed the Government’s commitment to resolving outstanding grievances of teachers, including the payment of promotion arrears and the implementation of the deprived-area allowance.",
-      "category": "teachers",
-      "published_at": "2026-10-07T05:32:00Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.742,
-      "articles": [
+          "source_name": "Adom Online Education",
+          "title": "Teachers’ strike: You can’t negotiate while holding the other party in handcuffs – Austin Gamey",
+          "url": "https://www.adomonline.com/teachers-strike-you-cant-negotiate-while-holding-the-other-party-in-handcuffs-austin-gamey/",
+          "published_at": "2026-10-07T06:25:54Z",
+          "excerpt": "Labour consultant Austin Gamey has criticised the decision by pre-tertiary teacher unions to maintain their nationwide strike while negotiations with government are ongoing. Speaking on JoyNews’ The Pulse, Mr Gamey said the unions should consider suspending the industrial action now that government has begun validating outstanding promotion claims and both sides are engaging in negotiations. […]"
+        },
         {
-          "source_name": "MyJoyOnline Education",
-          "title": "Gov’t is committed to addressing teachers’ conditions of service, deprived-area allowance – Education Minister",
-          "url": "https://www.myjoyonline.com/govt-is-committed-to-addressing-teachers-conditions-of-service-deprived-area-allowance-education-minister/",
-          "published_at": "2026-10-07T05:32:00Z",
-          "excerpt": "Haruna Iddrisu, the Minister of Education, on Monday reaffirmed the Government’s commitment to resolving outstanding grievances of teachers, including the payment of promotion arrears and the implementation of the deprived-area allowance."
+          "source_name": "3News",
+          "title": "FWSC warns striking teachers of salary deductions over illegal industrial action",
+          "url": "https://3news.com/news/fwsc-warns-striking-teachers-of-salary-deductions-over-illegal-industrial-action",
+          "published_at": "2026-10-07T09:00:39Z",
+          "excerpt": "The Fair Wages and Salaries Commission (FWSC) has warned striking Ghanaian teachers of potential salary deductions if their industrial action continues past the government's deadline."
+        },
+        {
+          "source_name": "3News",
+          "title": "Government to take further action if teachers' strike continues beyond Friday - FWSC",
+          "url": "https://3news.com/news/government-to-take-further-action-if-teachers-strike-continues-beyond-friday-fwsc",
+          "published_at": "2026-10-07T09:42:23Z",
+          "excerpt": "The government is expected to take further action if striking teachers fail to suspend their industrial action by Friday, October 9."
         }
       ]
     },
     {
-      "id": 85,
-      "title": "Christian Council calls for protection of mission schools’ religious identity‎",
-      "summary": "The Christian Council of Ghana (CCG) has called for reforms to protect students’ religious freedoms while preserving the legitimate ethos of mission-founded schools.‎",
+      "id": 91,
+      "title": "France halts use of stun grenades after boy’s hand blown off in student protests",
+      "summary": "France has suspended the use of stun grenades for policing student protests that have swept the country, after a 15-year-old's hand was blown off earlier this week.",
       "category": "general",
-      "published_at": "2026-10-07T05:05:00Z",
+      "published_at": "2026-10-07T11:04:05Z",
       "source_count": 1,
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7353,
+      "rank": 0.749,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
-          "title": "Christian Council calls for protection of mission schools’ religious identity‎",
-          "url": "https://www.myjoyonline.com/christian-council-calls-for-protection-of-mission-schools-religious-identity/",
-          "published_at": "2026-10-07T05:05:00Z",
-          "excerpt": "The Christian Council of Ghana (CCG) has called for reforms to protect students’ religious freedoms while preserving the legitimate ethos of mission-founded schools.‎"
+          "title": "France halts use of stun grenades after boy’s hand blown off in student protests",
+          "url": "https://www.myjoyonline.com/france-halts-use-of-stun-grenades-after-boys-hand-blown-off-in-student-protests/",
+          "published_at": "2026-10-07T11:04:05Z",
+          "excerpt": "France has suspended the use of stun grenades for policing student protests that have swept the country, after a 15-year-old's hand was blown off earlier this week."
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Wa West DCE, MP hand over and commission health, education, and hospitality projects",
+      "summary": "The Wa West District Assembly, in partnership with the Member of Parliament for the area, has handed over and commissioned a series of socio-economic infrastructure projects spanning education, primary healthcare, and local governance across multiple communities.",
+      "category": "basic_schools",
+      "published_at": "2026-10-07T10:16:16Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7381,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Wa West DCE, MP hand over and commission health, education, and hospitality projects",
+          "url": "https://www.myjoyonline.com/wa-west-dce-mp-hand-over-and-commission-health-education-and-hospitality-projects/",
+          "published_at": "2026-10-07T10:16:16Z",
+          "excerpt": "The Wa West District Assembly, in partnership with the Member of Parliament for the area, has handed over and commissioned a series of socio-economic infrastructure projects spanning education, primary healthcare, and local governance across multiple communities."
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Lack of basic learning materials fueling absenteeism in Sekyere South basic schools – Education Directorate",
+      "summary": "The Sekyere South Education Directorate has raised concerns over increasing absenteeism among pupils in basic schools, particularly in the Wiamoase community, blaming the situation partly on families’ inability to provide essential learning materials.",
+      "category": "general",
+      "published_at": "2026-10-07T09:26:08Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.7261,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Lack of basic learning materials fueling absenteeism in Sekyere South basic schools – Education Directorate",
+          "url": "https://www.adomonline.com/lack-of-basic-learning-materials-fueling-absenteeism-in-sekyere-south-basic-schools-education-directorate/",
+          "published_at": "2026-10-07T09:26:08Z",
+          "excerpt": "The Sekyere South Education Directorate has raised concerns over increasing absenteeism among pupils in basic schools, particularly in the Wiamoase community, blaming the situation partly on families’ inability to provide essential learning materials. The Directorate says some pupils are compelled to stay away from school because they lack basic items such as school uniforms, sandals, […]"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Ghana Embassy in Washington pays tribute to late academic Dr Kofi Akamani",
+      "summary": "The Embassy of Ghana in Washington, D.C., has paid tribute to the late Dr Kofi Akamani, a Ghanaian-born academic and Assistant Professor of Forest Recreation and Conservation Social Science at Southern Illinois University, following his death on September 19, 2026.",
+      "category": "higher_education",
+      "published_at": "2026-10-07T08:39:10Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7213,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ghana Embassy in Washington pays tribute to late academic Dr Kofi Akamani",
+          "url": "https://www.myjoyonline.com/ghana-embassy-in-washington-pays-tribute-to-late-academic-dr-kofi-akamani/",
+          "published_at": "2026-10-07T08:39:10Z",
+          "excerpt": "The Embassy of Ghana in Washington, D.C., has paid tribute to the late Dr Kofi Akamani, a Ghanaian-born academic and Assistant Professor of Forest Recreation and Conservation Social Science at Southern Illinois University, following his death on September 19, 2026. A funeral Mass in his memory was held on October 2 at St Andrew Catholic […]"
         }
       ]
     },
@@ -451,7 +493,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.7135,
+      "rank": 0.6928,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -477,6 +519,69 @@
       ]
     },
     {
+      "id": 87,
+      "title": "Mother of four and Jasikan teacher among new Telecel M’ahitti Promo winners",
+      "summary": "Since its launch in June this year, the Telecel M’ahitti Promo has brought economic hope to thousands of people across Ghana. More than GH¢2 million has been awarded through one GH¢1 million monthly prize, as well as daily and weekly prizes",
+      "category": "teachers",
+      "published_at": "2026-10-07T05:37:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.6775,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Mother of four and Jasikan teacher among new Telecel M’ahitti Promo winners",
+          "url": "https://www.myjoyonline.com/mother-of-four-and-jasikan-teacher-among-new-telecel-mahitti-promo-winners/",
+          "published_at": "2026-10-07T05:37:00Z",
+          "excerpt": "Since its launch in June this year, the Telecel M’ahitti Promo has brought economic hope to thousands of people across Ghana. More than GH¢2 million has been awarded through one GH¢1 million monthly prize, as well as daily and weekly prizes"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Gov’t is committed to addressing teachers’ conditions of service, deprived-area allowance – Education Minister",
+      "summary": "Haruna Iddrisu, the Minister of Education, on Monday reaffirmed the Government’s commitment to resolving outstanding grievances of teachers, including the payment of promotion arrears and the implementation of the deprived-area allowance.",
+      "category": "teachers",
+      "published_at": "2026-10-07T05:32:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.6765,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Gov’t is committed to addressing teachers’ conditions of service, deprived-area allowance – Education Minister",
+          "url": "https://www.myjoyonline.com/govt-is-committed-to-addressing-teachers-conditions-of-service-deprived-area-allowance-education-minister/",
+          "published_at": "2026-10-07T05:32:00Z",
+          "excerpt": "Haruna Iddrisu, the Minister of Education, on Monday reaffirmed the Government’s commitment to resolving outstanding grievances of teachers, including the payment of promotion arrears and the implementation of the deprived-area allowance."
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Christian Council calls for protection of mission schools’ religious identity‎",
+      "summary": "The Christian Council of Ghana (CCG) has called for reforms to protect students’ religious freedoms while preserving the legitimate ethos of mission-founded schools.‎",
+      "category": "general",
+      "published_at": "2026-10-07T05:05:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.6714,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Christian Council calls for protection of mission schools’ religious identity‎",
+          "url": "https://www.myjoyonline.com/christian-council-calls-for-protection-of-mission-schools-religious-identity/",
+          "published_at": "2026-10-07T05:05:00Z",
+          "excerpt": "The Christian Council of Ghana (CCG) has called for reforms to protect students’ religious freedoms while preserving the legitimate ethos of mission-founded schools.‎"
+        }
+      ]
+    },
+    {
       "id": 84,
       "title": "Tear gas in Paris and Marseille as school protests grow across France",
       "summary": "Hundreds of thousands of people have taken to the streets across France, as a wave of protests by high-school pupils spread to their parents, university students and unions.",
@@ -486,7 +591,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6531,
+      "rank": 0.6064,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -494,27 +599,6 @@
           "url": "https://www.myjoyonline.com/tear-gas-in-paris-and-marseille-as-school-protests-grow-across-france/",
           "published_at": "2026-10-06T22:24:00Z",
           "excerpt": "Hundreds of thousands of people have taken to the streets across France, as a wave of protests by high-school pupils spread to their parents, university students and unions."
-        }
-      ]
-    },
-    {
-      "id": 80,
-      "title": "24 years, two national honours: The remarkable journey of Daniel Payne",
-      "summary": "From the classroom to educational leadership, Daniel Payne’s 24-year journey is a story of service, reinvention, faith and an enduring belief that the work of a teacher extends far beyond the classroom.",
-      "category": "teachers",
-      "published_at": "2026-10-06T20:03:02Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "rank": 0.6299,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "24 years, two national honours: The remarkable journey of Daniel Payne",
-          "url": "https://www.adomonline.com/24-years-two-national-honours-the-remarkable-journey-of-daniel-payne/",
-          "published_at": "2026-10-06T20:03:02Z",
-          "excerpt": "From the classroom to educational leadership, Daniel Payne’s 24-year journey is a story of service, reinvention, faith and an enduring belief that the work of a teacher extends far beyond the classroom. When Daniel Payne stepped onto the national stage in 2026 to receive another Ghana Teacher Prize honour, he was carrying far more than […]"
         }
       ]
     },
@@ -528,7 +612,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6287,
+      "rank": 0.59,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -536,6 +620,27 @@
           "url": "https://www.myjoyonline.com/ges-should-consider-regional-processing-of-teacher-promotions-fwsc-ceo/",
           "published_at": "2026-10-06T17:54:45Z",
           "excerpt": "The Chief Executive Officer of the Fair Wages and Salaries Commission (FWSC), Dr George Smith-Graham, has proposed a regional approach to processing teacher promotions to prevent delays in the payment of promotion-related arrears."
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "24 years, two national honours: The remarkable journey of Daniel Payne",
+      "summary": "From the classroom to educational leadership, Daniel Payne’s 24-year journey is a story of service, reinvention, faith and an enduring belief that the work of a teacher extends far beyond the classroom.",
+      "category": "teachers",
+      "published_at": "2026-10-06T20:03:02Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.5876,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "24 years, two national honours: The remarkable journey of Daniel Payne",
+          "url": "https://www.adomonline.com/24-years-two-national-honours-the-remarkable-journey-of-daniel-payne/",
+          "published_at": "2026-10-06T20:03:02Z",
+          "excerpt": "From the classroom to educational leadership, Daniel Payne’s 24-year journey is a story of service, reinvention, faith and an enduring belief that the work of a teacher extends far beyond the classroom. When Daniel Payne stepped onto the national stage in 2026 to receive another Ghana Teacher Prize honour, he was carrying far more than […]"
         }
       ]
     },
@@ -549,7 +654,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6285,
+      "rank": 0.5865,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -570,7 +675,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6211,
+      "rank": 0.5805,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -591,7 +696,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6172,
+      "rank": 0.5773,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -612,7 +717,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6071,
+      "rank": 0.5721,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -633,7 +738,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.605,
+      "rank": 0.5672,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -654,7 +759,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6045,
+      "rank": 0.5669,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -675,7 +780,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6045,
+      "rank": 0.5668,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -696,7 +801,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5977,
+      "rank": 0.5643,
       "articles": [
         {
           "source_name": "3News",
@@ -717,7 +822,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5956,
+      "rank": 0.5595,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -738,7 +843,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5933,
+      "rank": 0.5576,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -759,7 +864,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5911,
+      "rank": 0.5557,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -767,27 +872,6 @@
           "url": "https://www.adomonline.com/gnfs-to-integrate-fire-safety-education-into-basic-school-curriculum/",
           "published_at": "2026-10-06T15:29:52Z",
           "excerpt": "The Ghana National Fire Service (GNFS), in collaboration with the Ghana Education Service (GES), the National Council for Curriculum and Assessment (NaCCA) and Ulster University, is working to integrate fire safety education into Ghana’s basic school curriculum. The initiative is aimed at equipping children with practical knowledge on fire prevention, safe behaviour and the appropriate […]"
-        }
-      ]
-    },
-    {
-      "id": 68,
-      "title": "Dilapidated classroom block poses danger to Berekum school community",
-      "summary": "Concern is growing over the safety of an abandoned and deteriorating classroom block at the Y. B.",
-      "category": "basic_schools",
-      "published_at": "2026-10-06T14:26:59Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "rank": 0.5831,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "Dilapidated classroom block poses danger to Berekum school community",
-          "url": "https://www.adomonline.com/dilapidated-classroom-block-poses-danger-to-berekum-school-community/",
-          "published_at": "2026-10-06T14:26:59Z",
-          "excerpt": "Concern is growing over the safety of an abandoned and deteriorating classroom block at the Y. B. Demonstration C Basic School in Berekum, with calls for its immediate demolition to prevent a possible disaster. The classroom block was ripped off by a heavy thunderstorm in 2017 and has remained abandoned since then. Nearly a decade […]"
         }
       ]
     },
@@ -801,7 +885,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5827,
+      "rank": 0.5518,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -809,6 +893,27 @@
           "url": "https://www.myjoyonline.com/central-regional-gnat-chairman-calls-for-13th-month-salary-for-teachers/",
           "published_at": "2026-10-06T11:51:14Z",
           "excerpt": "The Central Regional Chairman of the Ghana National Association of Teachers (GNAT), Godwin Yaw Andam, has called for the introduction of a 13th-month salary for teachers, arguing that improved remuneration is necessary to motivate, retain and recognise educators for their contribution to national development. Speaking at the 2026 World Teachers’ Day celebration in Assin Fosu, […]"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Dilapidated classroom block poses danger to Berekum school community",
+      "summary": "Concern is growing over the safety of an abandoned and deteriorating classroom block at the Y. B.",
+      "category": "basic_schools",
+      "published_at": "2026-10-06T14:26:59Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.5491,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Dilapidated classroom block poses danger to Berekum school community",
+          "url": "https://www.adomonline.com/dilapidated-classroom-block-poses-danger-to-berekum-school-community/",
+          "published_at": "2026-10-06T14:26:59Z",
+          "excerpt": "Concern is growing over the safety of an abandoned and deteriorating classroom block at the Y. B. Demonstration C Basic School in Berekum, with calls for its immediate demolition to prevent a possible disaster. The classroom block was ripped off by a heavy thunderstorm in 2017 and has remained abandoned since then. Nearly a decade […]"
         }
       ]
     },
@@ -822,7 +927,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5787,
+      "rank": 0.5465,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -843,7 +948,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5733,
+      "rank": 0.5439,
       "articles": [
         {
           "source_name": "3News",
@@ -864,7 +969,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5711,
+      "rank": 0.5391,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -885,7 +990,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5692,
+      "rank": 0.5375,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -893,27 +998,6 @@
           "url": "https://www.myjoyonline.com/diminutive-shs-1-student-in-viral-video-is-16-not-underage-adanwomase-shs-clarifies/",
           "published_at": "2026-10-06T12:30:53Z",
           "excerpt": "The Adanwomase SHS authorities have clarified that the viral video of one of their male 'smallish' boarding students is not an underage, but a 16-year-old who is qualified to be in school."
-        }
-      ]
-    },
-    {
-      "id": 81,
-      "title": "Emeritus Professor Kwame Akon Ninsin: The man who mentored a department",
-      "summary": "On October 1, 2026, the Department of Political Science, University of Ghana, gathered to honour one of its pillars – Emeritus Professor Kwame Akon Ninsin. Political scientist, statesman, avowed Nkrumahist, activist.",
-      "category": "higher_education",
-      "published_at": "2026-10-06T15:41:00Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.5685,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Emeritus Professor Kwame Akon Ninsin: The man who mentored a department",
-          "url": "https://www.myjoyonline.com/emeritus-professor-kwame-akon-ninsin-the-man-who-mentored-a-department/",
-          "published_at": "2026-10-06T15:41:00Z",
-          "excerpt": "On October 1, 2026, the Department of Political Science, University of Ghana, gathered to honour one of its pillars – Emeritus Professor Kwame Akon Ninsin. Political scientist, statesman, avowed Nkrumahist, activist. True to his influence, the room was full. Emeritus Professor Atsu Ayee and many faculty members were present. So were leading civil society figures […]"
         }
       ]
     },
@@ -927,7 +1011,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5681,
+      "rank": 0.5366,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -948,7 +1032,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5665,
+      "rank": 0.5353,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -956,6 +1040,27 @@
           "url": "https://www.myjoyonline.com/ktu-partners-nayt-consult-to-equip-students-for-employment-opportunities-in-germany/",
           "published_at": "2026-10-06T12:07:00Z",
           "excerpt": "Koforidua Technical University (KTU) has signed a Memorandum of Understanding (MoU) with international recruitment agency NAYT Consult Ltd to equip students with German language skills and cultural knowledge to enhance their access to legitimate employment opportunities in Europe, particularly Germany."
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Emeritus Professor Kwame Akon Ninsin: The man who mentored a department",
+      "summary": "On October 1, 2026, the Department of Political Science, University of Ghana, gathered to honour one of its pillars – Emeritus Professor Kwame Akon Ninsin. Political scientist, statesman, avowed Nkrumahist, activist.",
+      "category": "higher_education",
+      "published_at": "2026-10-06T15:41:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.5329,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Emeritus Professor Kwame Akon Ninsin: The man who mentored a department",
+          "url": "https://www.myjoyonline.com/emeritus-professor-kwame-akon-ninsin-the-man-who-mentored-a-department/",
+          "published_at": "2026-10-06T15:41:00Z",
+          "excerpt": "On October 1, 2026, the Department of Political Science, University of Ghana, gathered to honour one of its pillars – Emeritus Professor Kwame Akon Ninsin. Political scientist, statesman, avowed Nkrumahist, activist. True to his influence, the room was full. Emeritus Professor Atsu Ayee and many faculty members were present. So were leading civil society figures […]"
         }
       ]
     },
@@ -969,7 +1074,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5615,
+      "rank": 0.5321,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -990,7 +1095,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5586,
+      "rank": 0.5287,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1011,7 +1116,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5572,
+      "rank": 0.5235,
       "articles": [
         {
           "source_name": "3News",
@@ -1032,7 +1137,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.551,
+      "rank": 0.5223,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1053,7 +1158,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5497,
+      "rank": 0.5212,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1074,7 +1179,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5444,
+      "rank": 0.5167,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1095,7 +1200,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5281,
+      "rank": 0.4992,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1116,7 +1221,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5235,
+      "rank": 0.4989,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1137,7 +1242,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.497,
+      "rank": 0.4785,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1158,7 +1263,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4964,
+      "rank": 0.478,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1179,7 +1284,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.496,
+      "rank": 0.4776,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1200,7 +1305,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4928,
+      "rank": 0.4725,
       "articles": [
         {
           "source_name": "3News",
@@ -1221,7 +1326,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4924,
+      "rank": 0.4722,
       "articles": [
         {
           "source_name": "3News",
@@ -1242,7 +1347,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4917,
+      "rank": 0.4715,
       "articles": [
         {
           "source_name": "3News",
@@ -1263,7 +1368,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4905,
+      "rank": 0.4705,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1284,7 +1389,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.486,
+      "rank": 0.4689,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1292,27 +1397,6 @@
           "url": "https://www.myjoyonline.com/photos-vice-president-jane-naana-opoku-agyemang-at-the-ghana-teacher-prize-2026/",
           "published_at": "2026-10-05T16:23:25Z",
           "excerpt": "Vice President Jane Naana Opoku-Agyemang has reaffirmed the Government’s commitment to improving the working conditions of teachers while strengthening Ghana’s education system."
-        }
-      ]
-    },
-    {
-      "id": 48,
-      "title": "AIT President Prof Clement Dzidonu urges lifelong learning as AI reshapes work and education",
-      "summary": "The President of the Accra Institute of Technology (AIT), Professor Clement K.",
-      "category": "general",
-      "published_at": "2026-10-05T19:43:20Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.4807,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "AIT President Prof Clement Dzidonu urges lifelong learning as AI reshapes work and education",
-          "url": "https://www.myjoyonline.com/ait-president-prof-clement-dzidonu-urges-lifelong-learning-as-ai-reshapes-work-and-education/",
-          "published_at": "2026-10-05T19:43:20Z",
-          "excerpt": "The President of the Accra Institute of Technology (AIT), Professor Clement K. Dzidonu, has called for a fundamental shift in how individuals, educational institutions and society think about learning in the age of Artificial Intelligence (AI), arguing that graduation can no longer be regarded as the end of the learning journey. Professor Dzidonu is advocating what he describes as the Sovereign Lifelong Learner — the \"Sovereign Triple-L\": an individual who takes ownership of continuing learning and assumes personal responsibility for continually renewing, deepening and extending their capabilities throughout professional and personal life. According to the AIT President, the traditional model in which people undergo intensive education, graduate, enter a profession and rely for many years on much of the knowledge acquired during formal education is rapidly becoming unsustainable."
         }
       ]
     },
@@ -1326,7 +1410,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4797,
+      "rank": 0.4633,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1334,6 +1418,27 @@
           "url": "https://www.adomonline.com/world-teachers-day-gnecc-urges-government-to-prioritise-teacher-welfare/",
           "published_at": "2026-10-05T14:36:55Z",
           "excerpt": "The Ghana National Education Campaign Coalition (GNECC) has called on the government to prioritise teacher welfare and intensify negotiations with pre-tertiary teacher unions to resolve the ongoing industrial action. The call forms part of GNECC’s message to mark World Teachers’ Day 2026, being observed under the theme “Prioritizing Teacher Welfare for Quality Education.” GNECC said […]"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "AIT President Prof Clement Dzidonu urges lifelong learning as AI reshapes work and education",
+      "summary": "The President of the Accra Institute of Technology (AIT), Professor Clement K.",
+      "category": "general",
+      "published_at": "2026-10-05T19:43:20Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.462,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "AIT President Prof Clement Dzidonu urges lifelong learning as AI reshapes work and education",
+          "url": "https://www.myjoyonline.com/ait-president-prof-clement-dzidonu-urges-lifelong-learning-as-ai-reshapes-work-and-education/",
+          "published_at": "2026-10-05T19:43:20Z",
+          "excerpt": "The President of the Accra Institute of Technology (AIT), Professor Clement K. Dzidonu, has called for a fundamental shift in how individuals, educational institutions and society think about learning in the age of Artificial Intelligence (AI), arguing that graduation can no longer be regarded as the end of the learning journey. Professor Dzidonu is advocating what he describes as the Sovereign Lifelong Learner — the \"Sovereign Triple-L\": an individual who takes ownership of continuing learning and assumes personal responsibility for continually renewing, deepening and extending their capabilities throughout professional and personal life. According to the AIT President, the traditional model in which people undergo intensive education, graduate, enter a profession and rely for many years on much of the knowledge acquired during formal education is rapidly becoming unsustainable."
         }
       ]
     },
@@ -1347,7 +1452,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4655,
+      "rank": 0.4487,
       "articles": [
         {
           "source_name": "3News",
@@ -1368,7 +1473,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4607,
+      "rank": 0.4445,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1389,7 +1494,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4562,
+      "rank": 0.4405,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1410,7 +1515,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4542,
+      "rank": 0.4387,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1431,7 +1536,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4369,
+      "rank": 0.4234,
       "articles": [
         {
           "source_name": "3News",
@@ -1452,7 +1557,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4186,
+      "rank": 0.4089,
       "articles": [
         {
           "source_name": "3News",
@@ -1473,7 +1578,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3211,
+      "rank": 0.3184,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1494,7 +1599,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.316,
+      "rank": 0.3135,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1515,7 +1620,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3041,
+      "rank": 0.3022,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1536,7 +1641,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3001,
+      "rank": 0.2976,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1557,7 +1662,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2998,
+      "rank": 0.2973,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1578,7 +1683,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2977,
+      "rank": 0.2961,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1599,7 +1704,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2966,
+      "rank": 0.2942,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1620,7 +1725,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.291,
+      "rank": 0.2896,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1641,7 +1746,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2887,
+      "rank": 0.2868,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1662,7 +1767,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.287,
+      "rank": 0.2851,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1683,7 +1788,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2854,
+      "rank": 0.2845,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1704,7 +1809,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2842,
+      "rank": 0.2831,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -1712,27 +1817,6 @@
           "url": "https://gtec.edu.gh/nigerian-parliamentary-delegation-engages-gtec-over-certificate-racketeering-concerns/",
           "published_at": "2026-09-26T11:29:34Z",
           "excerpt": "A Joint Committee consisting of members of the Committee on Education, Interior, Foreign Affairs, Youth Development and Federal Polytechnics from the House of Representatives of the Federal Republic of Nigeria and the Federal Ministry of Education as well as some clerks of Parliament, has on Thursday, 24th September, 2026 engaged the Ghana Tertiary Education Commission […] The post Nigerian Parliamentary Delegation Engages GTEC Over Certificate Racketeering Concerns appeared first on GTEC."
-        }
-      ]
-    },
-    {
-      "id": 28,
-      "title": "Desks rotting in abandoned Kintampo South E-Block: A decade of neglect and a waste of state resources",
-      "summary": "In the quiet farming community of Anyima, in the Kintampo South District of the Bono East Region, a grim monument to broken promises stands silently.",
-      "category": "basic_schools",
-      "published_at": "2026-09-28T16:53:40Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "rank": 0.2811,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "Desks rotting in abandoned Kintampo South E-Block: A decade of neglect and a waste of state resources",
-          "url": "https://www.adomonline.com/desks-rotting-in-abandoned-kintampo-south-e-block-a-decade-of-neglect-and-a-waste-of-state-resources/",
-          "published_at": "2026-09-28T16:53:40Z",
-          "excerpt": "In the quiet farming community of Anyima, in the Kintampo South District of the Bono East Region, a grim monument to broken promises stands silently. The Community Day Senior High School, initiated under the Mahama-led National Democratic Congress (NDC) government in 2016 as part of the ambitious E-Blocks project, remains unfinished ten years after construction […]"
         }
       ]
     },
@@ -1746,7 +1830,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2808,
+      "rank": 0.2798,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1754,6 +1838,27 @@
           "url": "https://www.adomonline.com/nagrat-calls-for-audit-of-school-feeding-enrolment-figures/",
           "published_at": "2026-09-25T19:29:01Z",
           "excerpt": "The National Association of Graduate Teachers (NAGRAT) has called for an audit of enrolment figures used to determine allocations under the School Feeding Programme, following allegations that some head teachers inflate pupil numbers to secure higher funding. President of the Association, Jacob Anaba, said the call follows concerns raised by the programme’s National Coordinator, Hajia […]"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Desks rotting in abandoned Kintampo South E-Block: A decade of neglect and a waste of state resources",
+      "summary": "In the quiet farming community of Anyima, in the Kintampo South District of the Bono East Region, a grim monument to broken promises stands silently.",
+      "category": "basic_schools",
+      "published_at": "2026-09-28T16:53:40Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.2795,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Desks rotting in abandoned Kintampo South E-Block: A decade of neglect and a waste of state resources",
+          "url": "https://www.adomonline.com/desks-rotting-in-abandoned-kintampo-south-e-block-a-decade-of-neglect-and-a-waste-of-state-resources/",
+          "published_at": "2026-09-28T16:53:40Z",
+          "excerpt": "In the quiet farming community of Anyima, in the Kintampo South District of the Bono East Region, a grim monument to broken promises stands silently. The Community Day Senior High School, initiated under the Mahama-led National Democratic Congress (NDC) government in 2016 as part of the ambitious E-Blocks project, remains unfinished ten years after construction […]"
         }
       ]
     },
@@ -1767,7 +1872,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2795,
+      "rank": 0.2779,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1788,7 +1893,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2781,
+      "rank": 0.2766,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1809,7 +1914,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2775,
+      "rank": 0.2766,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1830,7 +1935,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2774,
+      "rank": 0.2765,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1851,7 +1956,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2745,
+      "rank": 0.2731,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1872,7 +1977,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2652,
+      "rank": 0.2641,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1893,7 +1998,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2652,
+      "rank": 0.2641,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1914,7 +2019,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.263,
+      "rank": 0.262,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1935,7 +2040,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2618,
+      "rank": 0.2608,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1956,7 +2061,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2617,
+      "rank": 0.2608,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1977,7 +2082,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2617,
+      "rank": 0.2607,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1998,7 +2103,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2613,
+      "rank": 0.2603,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2019,7 +2124,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2559,
+      "rank": 0.2555,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -2061,7 +2166,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2364,
+      "rank": 0.2363,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -2082,7 +2187,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2361,
+      "rank": 0.236,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -2103,7 +2208,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2356,
+      "rank": 0.2355,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -2187,7 +2292,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2249,
+      "rank": 0.2248,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
