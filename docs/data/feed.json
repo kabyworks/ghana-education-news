@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T19:10:51Z",
+  "generated_at": "2026-10-07T19:58:27Z",
   "categories": [
     {
       "name": "teachers",
@@ -7,15 +7,15 @@
     },
     {
       "name": "higher_education",
-      "story_count": 27
+      "story_count": 28
     },
     {
       "name": "basic_schools",
-      "story_count": 15
+      "story_count": 16
     },
     {
       "name": "general",
-      "story_count": 13
+      "story_count": 14
     },
     {
       "name": "policy",
@@ -476,6 +476,27 @@
       ]
     },
     {
+      "id": 104,
+      "title": "Education Minister disputes Bawumia’s claims of decline in Free SHS",
+      "summary": "Education Minister Haruna Iddrisu has challenged claims by New Patriotic Party (NPP) flagbearer Dr Mahamudu Bawumia that the Free Senior High School (Free SHS) programme has deteriorated under the current National Democratic Congress (NDC) administration.",
+      "category": "basic_schools",
+      "published_at": "2026-10-07T19:44:24Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Education Minister disputes Bawumia’s claims of decline in Free SHS",
+          "url": "https://www.adomonline.com/education-minister-disputes-bawumias-claims-of-decline-in-free-shs/",
+          "published_at": "2026-10-07T19:44:24Z",
+          "excerpt": "Education Minister Haruna Iddrisu has challenged claims by New Patriotic Party (NPP) flagbearer Dr Mahamudu Bawumia that the Free Senior High School (Free SHS) programme has deteriorated under the current National Democratic Congress (NDC) administration. Dr Bawumia raised concerns about the implementation of the programme while addressing the NPP’s National Delegates Conference in Kumasi, arguing […]"
+        }
+      ]
+    },
+    {
       "id": 101,
       "title": "Police investigate alleged child-stealing involving two pupils in Ashanti Region",
       "summary": "The Airport District Police Commander in the Ashanti Region, Superintendent Kingsley Kawodie, has confirmed that investigations are underway into an alleged child-stealing incident involving two pupils of Happy Royal International School.",
@@ -493,6 +514,48 @@
           "url": "https://www.myjoyonline.com/police-investigate-alleged-child-stealing-involving-two-pupils-in-ashanti-region/",
           "published_at": "2026-10-07T17:54:01Z",
           "excerpt": "The Airport District Police Commander in the Ashanti Region, Superintendent Kingsley Kawodie, has confirmed that investigations are underway into an alleged child-stealing incident involving two pupils of Happy Royal International School."
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Abuse case: Nana Akua’s husband Harold unable to appear in court after hospital admission – Police",
+      "summary": "Harold Norman, who is at the centre of domestic abuse allegations involving his wife Rosemond Akua Adobea, popularly known as Nana Akua, was unable to appear before court on Wednesday, October 7, 2026, because he had been admitted to hospital.",
+      "category": "higher_education",
+      "published_at": "2026-10-07T19:35:27Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Abuse case: Nana Akua’s husband Harold unable to appear in court after hospital admission – Police",
+          "url": "https://www.myjoyonline.com/abuse-case-nana-akuas-husband-harold-unable-to-appear-in-court-after-hospital-admission-police/",
+          "published_at": "2026-10-07T19:35:27Z",
+          "excerpt": "Harold Norman, who is at the centre of domestic abuse allegations involving his wife Rosemond Akua Adobea, popularly known as Nana Akua, was unable to appear before court on Wednesday, October 7, 2026, because he had been admitted to hospital. According to the Criminal Investigations Department (CID) of the Ghana Police Service, Mr Norman was […]"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "title": "KNUST Career Services pioneer Selina Doe Angmor named among 2026 40 Under 40 honourees",
+      "summary": "Mrs Selina Doe Angmor, pioneer and first Director of the KNUST Career Services Centre, has been recognised among the 2026 40 Under 40 honourees in the Human Resources category. She received the recognition at a ceremony held at the Kempinski Hotel in Accra on September 12, 2026.",
+      "category": "general",
+      "published_at": "2026-10-07T19:27:33Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "KNUST Career Services pioneer Selina Doe Angmor named among 2026 40 Under 40 honourees",
+          "url": "https://www.myjoyonline.com/knust-career-services-pioneer-selina-doe-angmor-named-among-2026-40-under-40-honourees/",
+          "published_at": "2026-10-07T19:27:33Z",
+          "excerpt": "Mrs Selina Doe Angmor, pioneer and first Director of the KNUST Career Services Centre, has been recognised among the 2026 40 Under 40 honourees in the Human Resources category. She received the recognition at a ceremony held at the Kempinski Hotel in Accra on September 12, 2026. The award recognises her work in human resources, higher education, workforce development and career services, particularly her contribution to connecting students and graduates with opportunities in the world of work."
         }
       ]
     },
