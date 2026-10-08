@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-08T13:40:43Z",
+  "generated_at": "2026-10-08T14:12:08Z",
   "categories": [
     {
       "name": "teachers",
-      "story_count": 37
+      "story_count": 38
     },
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 17
+      "story_count": 18
     },
     {
       "name": "general",
@@ -43,7 +43,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.9324,
+      "rank": 0.9186,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -461,6 +461,35 @@
       ]
     },
     {
+      "id": 114,
+      "title": "GAUA strike leaves some KNUST administrative offices operating below capacity",
+      "summary": "The ongoing strike by the Ghana Association of University Administrators (GAUA) has begun to disrupt administrative services at the Kwame Nkrumah University of Science and Technology (KNUST), with some students and national service personnel being asked to return at a later date to access services.",
+      "category": "teachers",
+      "published_at": "2026-10-08T13:42:35Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.8446,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GAUA strike leaves some KNUST administrative offices operating below capacity",
+          "url": "https://www.myjoyonline.com/gaua-strike-leaves-some-knust-administrative-offices-operating-below-capacity/",
+          "published_at": "2026-10-08T12:26:35Z",
+          "excerpt": "The ongoing strike by the Ghana Association of University Administrators (GAUA) has begun to disrupt administrative services at the Kwame Nkrumah University of Science and Technology (KNUST), with some students and national service personnel being asked to return at a later date to access services."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "Some KNUST administrative offices operating below capacity amidst GAUA strike",
+          "url": "https://www.adomonline.com/some-knust-administrative-offices-operating-below-capacity-amidst-gaua-strike/",
+          "published_at": "2026-10-08T13:42:35Z",
+          "excerpt": "The ongoing strike by the Ghana Association of University Administrators (GAUA) has begun to disrupt administrative services at the Kwame Nkrumah University of Science and Technology (KNUST), with some students and national service personnel being asked to return at a later date to access services. Some offices, including those responsible for payroll and auditing, have […]"
+        }
+      ]
+    },
+    {
       "id": 106,
       "title": "Government spends GH¢917m on No-Fees-Stress policy for 321,807 students",
       "summary": "The government has so far spent GH¢917 million to support students under the No-Fees-Stress Policy, the Minister of Education, Haruna Iddrisu, has revealed.",
@@ -471,7 +500,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.8142,
+      "rank": 0.8012,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -490,6 +519,48 @@
       ]
     },
     {
+      "id": 116,
+      "title": "GAUA strike disrupts student registration at University of Ghana",
+      "summary": "The ongoing strike by the Ghana Association of University Administrators (GAUA) is disrupting administrative services at public universities, with students facing difficulties completing registration and other admission-related processes.",
+      "category": "teachers",
+      "published_at": "2026-10-08T13:39:31Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7618,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GAUA strike disrupts student registration at University of Ghana",
+          "url": "https://www.myjoyonline.com/gaua-strike-disrupts-student-registration-at-university-of-ghana/",
+          "published_at": "2026-10-08T13:39:31Z",
+          "excerpt": "The ongoing strike by the Ghana Association of University Administrators (GAUA) is disrupting administrative services at public universities, with students facing difficulties completing registration and other admission-related processes."
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "title": "Peki SHS old students to break ground for new entrance gate",
+      "summary": "The Peki Senior High School Old Students’ Association (PESCOSA) will hold a sod-cutting ceremony on Friday, 9 October 2026, to begin the construction of a new entrance gate for the school.",
+      "category": "basic_schools",
+      "published_at": "2026-10-08T13:59:17Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.7488,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Peki SHS old students to break ground for new entrance gate",
+          "url": "https://www.myjoyonline.com/peki-shs-old-students-to-break-ground-for-new-entrance-gate/",
+          "published_at": "2026-10-08T13:59:17Z",
+          "excerpt": "The Peki Senior High School Old Students’ Association (PESCOSA) will hold a sod-cutting ceremony on Friday, 9 October 2026, to begin the construction of a new entrance gate for the school."
+        }
+      ]
+    },
+    {
       "id": 115,
       "title": "We’re not threatening you, but engage us within two weeks – Free SHS suppliers tell gov’t over GH¢250m debt",
       "summary": "Suppliers under the Free Senior High School (Free SHS) programme have issued a two-week window for the government to begin discussions about GH¢250 million in outstanding payments.",
@@ -499,7 +570,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.7609,
+      "rank": 0.7464,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -520,7 +591,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7476,
+      "rank": 0.7338,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -528,27 +599,6 @@
           "url": "https://www.myjoyonline.com/the-fallen-noble-profession-the-sad-tale-of-the-ghanaian-teacher/",
           "published_at": "2026-10-08T11:41:02Z",
           "excerpt": "For years, it was a noble profession. To be a teacher was to be respected. Today, it has become an object of ridicule. The Ghanaian teacher, who holds the future of this country in a chalk-stained hand, is now the punchline of jokes in tro-tros, markets, and family gatherings. It is a painful irony that the one who teaches others to become rich is unable to escape poverty himself."
-        }
-      ]
-    },
-    {
-      "id": 114,
-      "title": "GAUA strike leaves some KNUST administrative offices operating below capacity",
-      "summary": "The ongoing strike by the Ghana Association of University Administrators (GAUA) has begun to disrupt administrative services at the Kwame Nkrumah University of Science and Technology (KNUST), with some students and national service personnel being asked to return at a later date to access services.",
-      "category": "teachers",
-      "published_at": "2026-10-08T12:26:35Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.7406,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "GAUA strike leaves some KNUST administrative offices operating below capacity",
-          "url": "https://www.myjoyonline.com/gaua-strike-leaves-some-knust-administrative-offices-operating-below-capacity/",
-          "published_at": "2026-10-08T12:26:35Z",
-          "excerpt": "The ongoing strike by the Ghana Association of University Administrators (GAUA) has begun to disrupt administrative services at the Kwame Nkrumah University of Science and Technology (KNUST), with some students and national service personnel being asked to return at a later date to access services."
         }
       ]
     },
@@ -562,7 +612,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7348,
+      "rank": 0.7207,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -583,7 +633,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7343,
+      "rank": 0.7202,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -604,7 +654,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7205,
+      "rank": 0.7071,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -625,7 +675,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7089,
+      "rank": 0.6961,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -646,7 +696,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7079,
+      "rank": 0.6952,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -667,7 +717,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.7022,
+      "rank": 0.6897,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -688,7 +738,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6845,
+      "rank": 0.6729,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -710,7 +760,7 @@
         "3News",
         "MyJoyOnline Education"
       ],
-      "rank": 0.6749,
+      "rank": 0.6686,
       "articles": [
         {
           "source_name": "3News",
@@ -740,7 +790,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.6195,
+      "rank": 0.6174,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -775,7 +825,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5888,
+      "rank": 0.5819,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -796,7 +846,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5763,
+      "rank": 0.5699,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -817,7 +867,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5697,
+      "rank": 0.5629,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -838,7 +888,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5688,
+      "rank": 0.562,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -859,7 +909,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5571,
+      "rank": 0.5508,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -880,7 +930,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5484,
+      "rank": 0.543,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -901,7 +951,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.5356,
+      "rank": 0.5299,
       "articles": [
         {
           "source_name": "3News",
@@ -929,7 +979,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5309,
+      "rank": 0.5254,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -950,7 +1000,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5271,
+      "rank": 0.5217,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -971,7 +1021,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5269,
+      "rank": 0.5215,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -992,7 +1042,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5229,
+      "rank": 0.5177,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1013,7 +1063,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5221,
+      "rank": 0.5169,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1034,7 +1084,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5187,
+      "rank": 0.5136,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1055,7 +1105,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5146,
+      "rank": 0.5097,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1076,7 +1126,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5127,
+      "rank": 0.508,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1097,7 +1147,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5105,
+      "rank": 0.5057,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1118,7 +1168,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4928,
+      "rank": 0.4885,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1139,7 +1189,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4925,
+      "rank": 0.4882,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1160,7 +1210,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4905,
+      "rank": 0.4863,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1181,7 +1231,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4674,
+      "rank": 0.4642,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1202,7 +1252,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4644,
+      "rank": 0.4609,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1223,7 +1273,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4592,
+      "rank": 0.4562,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1244,7 +1294,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4563,
+      "rank": 0.453,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1252,27 +1302,6 @@
           "url": "https://www.adomonline.com/24-years-two-national-honours-the-remarkable-journey-of-daniel-payne/",
           "published_at": "2026-10-06T20:03:02Z",
           "excerpt": "From the classroom to educational leadership, Daniel Payne’s 24-year journey is a story of service, reinvention, faith and an enduring belief that the work of a teacher extends far beyond the classroom. When Daniel Payne stepped onto the national stage in 2026 to receive another Ghana Teacher Prize honour, he was carrying far more than […]"
-        }
-      ]
-    },
-    {
-      "id": 79,
-      "title": "Innovative Teachers threatens legal action over exclusion from Collective Bargaining Agreement negotiations",
-      "summary": "A dispute has emerged between the Innovative Teachers Union and the Ghana National Association of Teachers (GNAT) over the former’s exclusion from negotiations for the 2026 Collective Bargaining Agreement covering teaching staff of the Ghana Education Service.",
-      "category": "teachers",
-      "published_at": "2026-10-06T19:53:56Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.4558,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Innovative Teachers threatens legal action over exclusion from Collective Bargaining Agreement negotiations",
-          "url": "https://www.myjoyonline.com/innovative-teachers-threatens-legal-action-over-exclusion-from-collective-bargaining-agreement-negotiations/",
-          "published_at": "2026-10-06T19:53:56Z",
-          "excerpt": "A dispute has emerged between the Innovative Teachers Union and the Ghana National Association of Teachers (GNAT) over the former’s exclusion from negotiations for the 2026 Collective Bargaining Agreement covering teaching staff of the Ghana Education Service. Innovative Teachers, through its lawyers, has issued a demand notice to the Attorney General and other stakeholders, threatening […]"
         }
       ]
     },
@@ -1286,7 +1315,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4555,
+      "rank": 0.4527,
       "articles": [
         {
           "source_name": "3News",
@@ -1294,6 +1323,27 @@
           "url": "https://3news.com/news/ghana-school-feeding-programme-tightens-data-systems-ahead-of-expansion",
           "published_at": "2026-10-06T13:59:17Z",
           "excerpt": "The Ghana School Feeding Programme is strengthening its data management, monitoring, and collaboration with the Ghana Education Service (GES) as part of efforts to improve service delivery and prepare for future expansion."
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Innovative Teachers threatens legal action over exclusion from Collective Bargaining Agreement negotiations",
+      "summary": "A dispute has emerged between the Innovative Teachers Union and the Ghana National Association of Teachers (GNAT) over the former’s exclusion from negotiations for the 2026 Collective Bargaining Agreement covering teaching staff of the Ghana Education Service.",
+      "category": "teachers",
+      "published_at": "2026-10-06T19:53:56Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.4525,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Innovative Teachers threatens legal action over exclusion from Collective Bargaining Agreement negotiations",
+          "url": "https://www.myjoyonline.com/innovative-teachers-threatens-legal-action-over-exclusion-from-collective-bargaining-agreement-negotiations/",
+          "published_at": "2026-10-06T19:53:56Z",
+          "excerpt": "A dispute has emerged between the Innovative Teachers Union and the Ghana National Association of Teachers (GNAT) over the former’s exclusion from negotiations for the 2026 Collective Bargaining Agreement covering teaching staff of the Ghana Education Service. Innovative Teachers, through its lawyers, has issued a demand notice to the Attorney General and other stakeholders, threatening […]"
         }
       ]
     },
@@ -1307,7 +1357,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4532,
+      "rank": 0.4499,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1328,7 +1378,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4517,
+      "rank": 0.4486,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1349,7 +1399,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4495,
+      "rank": 0.4468,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1370,7 +1420,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4472,
+      "rank": 0.4441,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1391,7 +1441,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.447,
+      "rank": 0.444,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1412,7 +1462,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.447,
+      "rank": 0.4439,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1433,7 +1483,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4457,
+      "rank": 0.4431,
       "articles": [
         {
           "source_name": "3News",
@@ -1454,7 +1504,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4437,
+      "rank": 0.4407,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1475,7 +1525,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4428,
+      "rank": 0.4398,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1496,7 +1546,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4419,
+      "rank": 0.439,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1517,7 +1567,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4408,
+      "rank": 0.438,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1538,7 +1588,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4389,
+      "rank": 0.436,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1559,7 +1609,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4341,
+      "rank": 0.4314,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1580,7 +1630,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4338,
+      "rank": 0.4312,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1601,7 +1651,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4334,
+      "rank": 0.4306,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1622,7 +1672,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4329,
+      "rank": 0.4302,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1643,7 +1693,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4323,
+      "rank": 0.4295,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1664,7 +1714,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4291,
+      "rank": 0.4264,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1685,7 +1735,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4259,
+      "rank": 0.4234,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1706,7 +1756,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4254,
+      "rank": 0.4228,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1727,7 +1777,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4232,
+      "rank": 0.4207,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1748,7 +1798,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4185,
+      "rank": 0.4155,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1769,7 +1819,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4142,
+      "rank": 0.4119,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1790,7 +1840,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4141,
+      "rank": 0.4112,
       "articles": [
         {
           "source_name": "3News",
@@ -1811,7 +1861,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4117,
+      "rank": 0.4098,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1832,7 +1882,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4114,
+      "rank": 0.4095,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1853,7 +1903,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4112,
+      "rank": 0.4093,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1874,7 +1924,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4063,
+      "rank": 0.4045,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1895,7 +1945,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4031,
+      "rank": 0.4014,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1916,7 +1966,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4024,
+      "rank": 0.3998,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1937,7 +1987,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4002,
+      "rank": 0.3982,
       "articles": [
         {
           "source_name": "3News",
@@ -1958,7 +2008,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4001,
+      "rank": 0.398,
       "articles": [
         {
           "source_name": "3News",
@@ -1979,7 +2029,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.3997,
+      "rank": 0.3977,
       "articles": [
         {
           "source_name": "3News",
@@ -2000,7 +2050,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3991,
+      "rank": 0.3971,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2021,7 +2071,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3945,
+      "rank": 0.3926,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2042,7 +2092,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.3871,
+      "rank": 0.3853,
       "articles": [
         {
           "source_name": "3News",
@@ -2063,7 +2113,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3846,
+      "rank": 0.3829,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2084,7 +2134,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3824,
+      "rank": 0.3807,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2105,7 +2155,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3813,
+      "rank": 0.3797,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2126,7 +2176,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.3723,
+      "rank": 0.3708,
       "articles": [
         {
           "source_name": "3News",
@@ -2147,7 +2197,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.3703,
+      "rank": 0.3691,
       "articles": [
         {
           "source_name": "3News",
@@ -2168,7 +2218,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3065,
+      "rank": 0.3061,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2189,7 +2239,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3027,
+      "rank": 0.3023,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2210,7 +2260,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2937,
+      "rank": 0.2934,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2231,7 +2281,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2887,
+      "rank": 0.2884,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2252,7 +2302,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2863,
+      "rank": 0.2859,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2273,7 +2323,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2861,
+      "rank": 0.2857,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2294,7 +2344,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2837,
+      "rank": 0.2833,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2315,7 +2365,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2833,
+      "rank": 0.2831,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2336,7 +2386,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2803,
+      "rank": 0.2802,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2357,7 +2407,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2778,
+      "rank": 0.2776,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -2378,7 +2428,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2777,
+      "rank": 0.2774,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2399,7 +2449,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2764,
+      "rank": 0.2761,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2420,7 +2470,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.275,
+      "rank": 0.2748,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2441,7 +2491,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2722,
+      "rank": 0.2721,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2462,7 +2512,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2722,
+      "rank": 0.2721,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2483,7 +2533,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2718,
+      "rank": 0.2715,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2504,7 +2554,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2705,
+      "rank": 0.2703,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2525,7 +2575,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2694,
+      "rank": 0.2692,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2546,7 +2596,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2665,
+      "rank": 0.2663,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2567,7 +2617,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.259,
+      "rank": 0.2588,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2588,7 +2638,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.259,
+      "rank": 0.2588,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2609,7 +2659,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2572,
+      "rank": 0.257,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2630,7 +2680,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2562,
+      "rank": 0.256,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2651,7 +2701,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2561,
+      "rank": 0.256,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2672,7 +2722,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2561,
+      "rank": 0.256,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2693,7 +2743,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2558,
+      "rank": 0.2556,
       "articles": [
         {
           "source_name": "Adom Online Education",
