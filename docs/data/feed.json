@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T21:40:40Z",
+  "generated_at": "2026-10-08T22:10:50Z",
   "categories": [
     {
       "name": "teachers",
@@ -43,7 +43,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.8389,
+      "rank": 0.8295,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -471,7 +471,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.7564,
+      "rank": 0.7461,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -490,27 +490,6 @@
       ]
     },
     {
-      "id": 123,
-      "title": "Promoted teachers could be paid by October 16 as CAGD verifies 52,000 records",
-      "summary": "The Controller and Accountant-General’s Department (CAGD) says it will finish verifying the promotions of 52,000 teachers next week, clearing the way for the payment of their salary adjustments and arrears.",
-      "category": "teachers",
-      "published_at": "2026-10-08T19:31:14Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "rank": 0.7273,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "Promoted teachers could be paid by October 16 as CAGD verifies 52,000 records",
-          "url": "https://www.adomonline.com/promoted-teachers-could-be-paid-by-october-16-as-cagd-verifies-52000-records/",
-          "published_at": "2026-10-08T19:31:14Z",
-          "excerpt": "The Controller and Accountant-General’s Department (CAGD) says it will finish verifying the promotions of 52,000 teachers next week, clearing the way for the payment of their salary adjustments and arrears. The Controller and Accountant-General, Kwasi Agyei, in an interview on Eyewitness News on Thursday, October 8, said the Ghana Education Service (GES) has now submitted all […]"
-        }
-      ]
-    },
-    {
       "id": 106,
       "title": "Government spends GH¢917m on No-Fees-Stress policy for 321,807 students",
       "summary": "The government has so far spent GH¢917 million to support students under the No-Fees-Stress Policy, the Minister of Education, Haruna Iddrisu, has revealed.",
@@ -521,7 +500,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.7255,
+      "rank": 0.7165,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -540,6 +519,27 @@
       ]
     },
     {
+      "id": 123,
+      "title": "Promoted teachers could be paid by October 16 as CAGD verifies 52,000 records",
+      "summary": "The Controller and Accountant-General’s Department (CAGD) says it will finish verifying the promotions of 52,000 teachers next week, clearing the way for the payment of their salary adjustments and arrears.",
+      "category": "teachers",
+      "published_at": "2026-10-08T19:31:14Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "rank": 0.7136,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Promoted teachers could be paid by October 16 as CAGD verifies 52,000 records",
+          "url": "https://www.adomonline.com/promoted-teachers-could-be-paid-by-october-16-as-cagd-verifies-52000-records/",
+          "published_at": "2026-10-08T19:31:14Z",
+          "excerpt": "The Controller and Accountant-General’s Department (CAGD) says it will finish verifying the promotions of 52,000 teachers next week, clearing the way for the payment of their salary adjustments and arrears. The Controller and Accountant-General, Kwasi Agyei, in an interview on Eyewitness News on Thursday, October 8, said the Ghana Education Service (GES) has now submitted all […]"
+        }
+      ]
+    },
+    {
       "id": 121,
       "title": "People are sick and need money – Free SHS suppliers tell gov’t",
       "summary": "President of the Free Senior High School (SHS) Suppliers Association, Agnes Abedua, has appealed to the government to urgently settle outstanding debts owed them, saying some members are now battling illness, financial hardship, and even deaths in their families.",
@@ -549,7 +549,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6925,
+      "rank": 0.6813,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -570,7 +570,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6898,
+      "rank": 0.678,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -591,7 +591,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6738,
+      "rank": 0.6635,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -612,7 +612,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6735,
+      "rank": 0.6624,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -633,7 +633,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6671,
+      "rank": 0.6563,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -654,7 +654,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.666,
+      "rank": 0.6553,
       "articles": [
         {
           "source_name": "3News",
@@ -675,7 +675,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.6629,
+      "rank": 0.6531,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -696,7 +696,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6593,
+      "rank": 0.6489,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -717,7 +717,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6539,
+      "rank": 0.6445,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -738,7 +738,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6395,
+      "rank": 0.6299,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -759,7 +759,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6391,
+      "rank": 0.6296,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -767,27 +767,6 @@
           "url": "https://www.myjoyonline.com/wa-west-mp-commissions-education-and-health-infrastructure-projects-across-rural-communities/",
           "published_at": "2026-10-08T12:00:51Z",
           "excerpt": "The Member of Parliament for Wa West, Peter Lanchene Toobu, alongside officials of the Wa West District Assembly, has commissioned and handed over several completed educational and health infrastructure projects across rural communities in the district."
-        }
-      ]
-    },
-    {
-      "id": 110,
-      "title": "Caretaker killed and two teachers injured in knife attack at Poland school",
-      "summary": "A 37-year-old caretaker has died after being stabbed by a former pupil at a school in Poland, police have said.",
-      "category": "teachers",
-      "published_at": "2026-10-08T11:02:06Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.6298,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Caretaker killed and two teachers injured in knife attack at Poland school",
-          "url": "https://www.myjoyonline.com/caretaker-killed-and-two-teachers-injured-in-knife-attack-at-poland-school/",
-          "published_at": "2026-10-08T11:02:06Z",
-          "excerpt": "A 37-year-old caretaker has died after being stabbed by a former pupil at a school in Poland, police have said."
         }
       ]
     },
@@ -802,7 +781,7 @@
         "3News",
         "MyJoyOnline Education"
       ],
-      "rank": 0.6297,
+      "rank": 0.6248,
       "articles": [
         {
           "source_name": "3News",
@@ -821,6 +800,27 @@
       ]
     },
     {
+      "id": 110,
+      "title": "Caretaker killed and two teachers injured in knife attack at Poland school",
+      "summary": "A 37-year-old caretaker has died after being stabbed by a former pupil at a school in Poland, police have said.",
+      "category": "teachers",
+      "published_at": "2026-10-08T11:02:06Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.6206,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Caretaker killed and two teachers injured in knife attack at Poland school",
+          "url": "https://www.myjoyonline.com/caretaker-killed-and-two-teachers-injured-in-knife-attack-at-poland-school/",
+          "published_at": "2026-10-08T11:02:06Z",
+          "excerpt": "A 37-year-old caretaker has died after being stabbed by a former pupil at a school in Poland, police have said."
+        }
+      ]
+    },
+    {
       "id": 109,
       "title": "Bokpin cautions Ghana against abandoning existing partnerships over BRICS membership",
       "summary": "Professor of Finance at the University of Ghana Business School and Economist, Professor Godfred Bokpin, has cautioned the government against pursuing Ghana’s proposed membership of BRICS as a strategy to abandon its existing international partnerships or align itself exclusively with a particular political bloc.",
@@ -830,7 +830,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6218,
+      "rank": 0.6129,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -851,7 +851,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6211,
+      "rank": 0.6123,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -872,7 +872,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.6171,
+      "rank": 0.6085,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -880,27 +880,6 @@
           "url": "https://www.myjoyonline.com/brics-membership-wont-transform-ghanas-economy-without-domestic-reforms-bokpin/",
           "published_at": "2026-10-08T09:38:53Z",
           "excerpt": "Professor of Finance at the University of Ghana Business School and Economist, Professor Godfred Bokpin, has cautioned that Ghana’s decision to join the BRICS economic bloc should not be seen as a substitute for the domestic reforms needed to transform the country’s economy."
-        }
-      ]
-    },
-    {
-      "id": 105,
-      "title": "MAA, KSrelief sign joint implementation programme for 20 solar-powered boreholes in Ghana",
-      "summary": "MAA and KSrelief sign Joint Implementation Programme for 20 solar-powered boreholes in Ghana Markaz Aleawn Alyaqin Humanitarian Services (MAA) and the King Salman Humanitarian Aid and Relief Centre (KSrelief) have signed a Joint Implementation Programme (JIP) for the construction of 20 solar-powered boreholes across...",
-      "category": "higher_education",
-      "published_at": "2026-10-08T08:13:00Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "rank": 0.6049,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "MAA, KSrelief sign joint implementation programme for 20 solar-powered boreholes in Ghana",
-          "url": "https://www.myjoyonline.com/maa-ksrelief-sign-joint-implementation-programme-for-20-solar-powered-boreholes-in-ghana/",
-          "published_at": "2026-10-08T08:13:00Z",
-          "excerpt": "MAA and KSrelief sign Joint Implementation Programme for 20 solar-powered boreholes in Ghana Markaz Aleawn Alyaqin Humanitarian Services (MAA) and the King Salman Humanitarian Aid and Relief Centre (KSrelief) have signed a Joint Implementation Programme (JIP) for the construction of 20 solar-powered boreholes across five regions of Ghana. The JIP was signed at the KSrelief headquarters in Riyadh and will be implemented over a period of eight months, benefiting an estimated 76,555 people in schools and communities. The beneficiary locations include Asawase M/A Cluster of Schools, Sepe Cluster of Schools, Akrom Cluster of Schools, Garden City Special School, Sakafia Islamic Senior High School, Parkoso Senior High School, Kumasi Academy, New Konkrompe Senior High School and the University of Energy and Natural Resources (UENR). Other beneficiary communities include Techimantia, Vea, Bongo Gurigo, Kudorogo, Kofiase, Bepoase, Sawua, Kokoado, Homabenase, Badaase and Aboabo No. 1–4, among oth"
         }
       ]
     },
@@ -916,7 +895,7 @@
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "rank": 0.6042,
+      "rank": 0.6024,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -942,6 +921,27 @@
       ]
     },
     {
+      "id": 105,
+      "title": "MAA, KSrelief sign joint implementation programme for 20 solar-powered boreholes in Ghana",
+      "summary": "MAA and KSrelief sign Joint Implementation Programme for 20 solar-powered boreholes in Ghana Markaz Aleawn Alyaqin Humanitarian Services (MAA) and the King Salman Humanitarian Aid and Relief Centre (KSrelief) have signed a Joint Implementation Programme (JIP) for the construction of 20 solar-powered boreholes across...",
+      "category": "higher_education",
+      "published_at": "2026-10-08T08:13:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "rank": 0.5967,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "MAA, KSrelief sign joint implementation programme for 20 solar-powered boreholes in Ghana",
+          "url": "https://www.myjoyonline.com/maa-ksrelief-sign-joint-implementation-programme-for-20-solar-powered-boreholes-in-ghana/",
+          "published_at": "2026-10-08T08:13:00Z",
+          "excerpt": "MAA and KSrelief sign Joint Implementation Programme for 20 solar-powered boreholes in Ghana Markaz Aleawn Alyaqin Humanitarian Services (MAA) and the King Salman Humanitarian Aid and Relief Centre (KSrelief) have signed a Joint Implementation Programme (JIP) for the construction of 20 solar-powered boreholes across five regions of Ghana. The JIP was signed at the KSrelief headquarters in Riyadh and will be implemented over a period of eight months, benefiting an estimated 76,555 people in schools and communities. The beneficiary locations include Asawase M/A Cluster of Schools, Sepe Cluster of Schools, Akrom Cluster of Schools, Garden City Special School, Sakafia Islamic Senior High School, Parkoso Senior High School, Kumasi Academy, New Konkrompe Senior High School and the University of Energy and Natural Resources (UENR). Other beneficiary communities include Techimantia, Vea, Bongo Gurigo, Kudorogo, Kofiase, Bepoase, Sawua, Kokoado, Homabenase, Badaase and Aboabo No. 1–4, among oth"
+        }
+      ]
+    },
+    {
       "id": 104,
       "title": "Education Minister disputes Bawumia’s claims of decline in Free SHS",
       "summary": "Education Minister Haruna Iddrisu has challenged claims by New Patriotic Party (NPP) flagbearer Dr Mahamudu Bawumia that the Free Senior High School (Free SHS) programme has deteriorated under the current National Democratic Congress (NDC) administration.",
@@ -951,7 +951,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.5402,
+      "rank": 0.535,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -972,7 +972,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5308,
+      "rank": 0.5259,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -993,7 +993,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5214,
+      "rank": 0.5163,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1014,7 +1014,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5207,
+      "rank": 0.5156,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1035,7 +1035,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5119,
+      "rank": 0.507,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1056,7 +1056,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.5093,
+      "rank": 0.505,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1077,7 +1077,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4953,
+      "rank": 0.4909,
       "articles": [
         {
           "source_name": "3News",
@@ -1105,7 +1105,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4916,
+      "rank": 0.4874,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1126,7 +1126,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4887,
+      "rank": 0.4845,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1147,7 +1147,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4885,
+      "rank": 0.4843,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1168,7 +1168,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4854,
+      "rank": 0.4814,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1189,7 +1189,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4848,
+      "rank": 0.4807,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1210,7 +1210,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4821,
+      "rank": 0.4781,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1231,7 +1231,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4789,
+      "rank": 0.475,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1252,7 +1252,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4787,
+      "rank": 0.4749,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1273,7 +1273,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4757,
+      "rank": 0.4719,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1294,7 +1294,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4617,
+      "rank": 0.4582,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1315,7 +1315,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4614,
+      "rank": 0.4579,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1336,7 +1336,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4598,
+      "rank": 0.4564,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1357,7 +1357,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4444,
+      "rank": 0.4418,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1378,7 +1378,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4387,
+      "rank": 0.4358,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1399,7 +1399,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4376,
+      "rank": 0.4352,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1420,7 +1420,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4346,
+      "rank": 0.4322,
       "articles": [
         {
           "source_name": "3News",
@@ -1441,7 +1441,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4321,
+      "rank": 0.4294,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1462,7 +1462,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4317,
+      "rank": 0.429,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1483,7 +1483,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4296,
+      "rank": 0.4273,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1504,7 +1504,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4295,
+      "rank": 0.4268,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1525,7 +1525,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4283,
+      "rank": 0.4257,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1546,7 +1546,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.4264,
+      "rank": 0.4242,
       "articles": [
         {
           "source_name": "3News",
@@ -1567,7 +1567,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4246,
+      "rank": 0.422,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1588,7 +1588,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4245,
+      "rank": 0.4219,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1609,7 +1609,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4244,
+      "rank": 0.4219,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1630,7 +1630,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4217,
+      "rank": 0.4192,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1651,7 +1651,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4209,
+      "rank": 0.4185,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1672,7 +1672,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4203,
+      "rank": 0.4179,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1693,7 +1693,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4202,
+      "rank": 0.4178,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1714,7 +1714,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4177,
+      "rank": 0.4153,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1735,7 +1735,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4145,
+      "rank": 0.4123,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1756,7 +1756,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4137,
+      "rank": 0.4114,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1777,7 +1777,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4131,
+      "rank": 0.4108,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1798,7 +1798,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4127,
+      "rank": 0.4104,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1819,7 +1819,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4122,
+      "rank": 0.4099,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1840,7 +1840,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4095,
+      "rank": 0.4073,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1861,7 +1861,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4069,
+      "rank": 0.4047,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1882,7 +1882,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.4064,
+      "rank": 0.4043,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1903,7 +1903,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.4046,
+      "rank": 0.4025,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1924,7 +1924,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3975,
+      "rank": 0.3958,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1945,7 +1945,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3972,
+      "rank": 0.3956,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1966,7 +1966,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3971,
+      "rank": 0.3954,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1987,7 +1987,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.397,
+      "rank": 0.395,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2008,7 +2008,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3967,
+      "rank": 0.3942,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2016,27 +2016,6 @@
           "url": "https://www.myjoyonline.com/emeritus-professor-kwame-akon-ninsin-the-man-who-mentored-a-department/",
           "published_at": "2026-10-06T15:41:00Z",
           "excerpt": "On October 1, 2026, the Department of Political Science, University of Ghana, gathered to honour one of its pillars – Emeritus Professor Kwame Akon Ninsin. Political scientist, statesman, avowed Nkrumahist, activist. True to his influence, the room was full. Emeritus Professor Atsu Ayee and many faculty members were present. So were leading civil society figures […]"
-        }
-      ]
-    },
-    {
-      "id": 82,
-      "title": "Professor Dzidonu calls for a fundamental shift in how individuals, educational institutions and society think about learning in the age of AI",
-      "summary": "Professor Clement K. Dzidonu says graduation must mark a new phase of lifelong learning as AI and rapid technological change reshape professional capability and the world of work",
-      "category": "general",
-      "published_at": "2026-10-06T14:11:22Z",
-      "source_count": 1,
-      "sources": [
-        "3News"
-      ],
-      "rank": 0.393,
-      "articles": [
-        {
-          "source_name": "3News",
-          "title": "Professor Dzidonu calls for a fundamental shift in how individuals, educational institutions and society think about learning in the age of AI",
-          "url": "https://3news.com/news/professor-dzidonu-calls-for-a-fundamental-shift-in-how-individuals-educational-institutions-and-society-think-about-learning-in-the-age-of-ai",
-          "published_at": "2026-10-06T14:11:22Z",
-          "excerpt": "Professor Clement K. Dzidonu says graduation must mark a new phase of lifelong learning as AI and rapid technological change reshape professional capability and the world of work"
         }
       ]
     },
@@ -2050,7 +2029,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3928,
+      "rank": 0.3913,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2058,6 +2037,27 @@
           "url": "https://www.myjoyonline.com/photos-vice-president-jane-naana-opoku-agyemang-at-the-ghana-teacher-prize-2026/",
           "published_at": "2026-10-05T16:23:25Z",
           "excerpt": "Vice President Jane Naana Opoku-Agyemang has reaffirmed the Government’s commitment to improving the working conditions of teachers while strengthening Ghana’s education system."
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Professor Dzidonu calls for a fundamental shift in how individuals, educational institutions and society think about learning in the age of AI",
+      "summary": "Professor Clement K. Dzidonu says graduation must mark a new phase of lifelong learning as AI and rapid technological change reshape professional capability and the world of work",
+      "category": "general",
+      "published_at": "2026-10-06T14:11:22Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "rank": 0.3907,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Professor Dzidonu calls for a fundamental shift in how individuals, educational institutions and society think about learning in the age of AI",
+          "url": "https://3news.com/news/professor-dzidonu-calls-for-a-fundamental-shift-in-how-individuals-educational-institutions-and-society-think-about-learning-in-the-age-of-ai",
+          "published_at": "2026-10-06T14:11:22Z",
+          "excerpt": "Professor Clement K. Dzidonu says graduation must mark a new phase of lifelong learning as AI and rapid technological change reshape professional capability and the world of work"
         }
       ]
     },
@@ -2071,7 +2071,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3901,
+      "rank": 0.3886,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2092,7 +2092,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.3851,
+      "rank": 0.3834,
       "articles": [
         {
           "source_name": "3News",
@@ -2113,7 +2113,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.385,
+      "rank": 0.3832,
       "articles": [
         {
           "source_name": "3News",
@@ -2134,7 +2134,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.3847,
+      "rank": 0.3829,
       "articles": [
         {
           "source_name": "3News",
@@ -2155,7 +2155,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3842,
+      "rank": 0.3825,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2176,7 +2176,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3833,
+      "rank": 0.3811,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2197,7 +2197,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3802,
+      "rank": 0.3785,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2218,7 +2218,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.3738,
+      "rank": 0.3723,
       "articles": [
         {
           "source_name": "3News",
@@ -2239,7 +2239,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3717,
+      "rank": 0.3702,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2260,7 +2260,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3697,
+      "rank": 0.3683,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2281,7 +2281,7 @@
       "sources": [
         "MyJoyOnline Education"
       ],
-      "rank": 0.3688,
+      "rank": 0.3674,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2302,7 +2302,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.3613,
+      "rank": 0.3603,
       "articles": [
         {
           "source_name": "3News",
@@ -2323,7 +2323,7 @@
       "sources": [
         "3News"
       ],
-      "rank": 0.361,
+      "rank": 0.3597,
       "articles": [
         {
           "source_name": "3News",
@@ -2344,7 +2344,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.3034,
+      "rank": 0.303,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2365,7 +2365,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2998,
+      "rank": 0.2995,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2386,7 +2386,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2914,
+      "rank": 0.2911,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2407,7 +2407,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2866,
+      "rank": 0.2864,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2428,7 +2428,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2833,
+      "rank": 0.283,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2449,7 +2449,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2831,
+      "rank": 0.2827,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2470,7 +2470,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2816,
+      "rank": 0.2814,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2491,7 +2491,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2809,
+      "rank": 0.2805,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2512,7 +2512,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2792,
+      "rank": 0.279,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2533,7 +2533,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2764,
+      "rank": 0.2762,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -2554,7 +2554,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2753,
+      "rank": 0.275,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2575,7 +2575,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.274,
+      "rank": 0.2737,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2596,7 +2596,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2736,
+      "rank": 0.2735,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2617,7 +2617,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.271,
+      "rank": 0.2709,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2638,7 +2638,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.271,
+      "rank": 0.2709,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2659,7 +2659,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2697,
+      "rank": 0.2694,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2680,7 +2680,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2685,
+      "rank": 0.2683,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2701,7 +2701,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2675,
+      "rank": 0.2672,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2722,7 +2722,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2647,
+      "rank": 0.2645,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2743,7 +2743,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2576,
+      "rank": 0.2574,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2764,7 +2764,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2575,
+      "rank": 0.2574,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2785,7 +2785,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2558,
+      "rank": 0.2557,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2806,7 +2806,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2549,
+      "rank": 0.2547,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2827,7 +2827,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2548,
+      "rank": 0.2547,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2848,7 +2848,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2548,
+      "rank": 0.2547,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2869,7 +2869,7 @@
       "sources": [
         "Adom Online Education"
       ],
-      "rank": 0.2545,
+      "rank": 0.2543,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2890,7 +2890,7 @@
       "sources": [
         "Ghana Tertiary Education Commission"
       ],
-      "rank": 0.2531,
+      "rank": 0.253,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
