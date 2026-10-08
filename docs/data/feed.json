@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-08T14:12:08Z",
+  "generated_at": "2026-10-08T14:40:44Z",
   "categories": [
     {
       "name": "teachers",
-      "story_count": 38
+      "story_count": 39
     },
     {
       "name": "higher_education",
@@ -536,6 +536,27 @@
           "url": "https://www.myjoyonline.com/gaua-strike-disrupts-student-registration-at-university-of-ghana/",
           "published_at": "2026-10-08T13:39:31Z",
           "excerpt": "The ongoing strike by the Ghana Association of University Administrators (GAUA) is disrupting administrative services at public universities, with students facing difficulties completing registration and other admission-related processes."
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "title": "The Ntikuma Project hands over first computer lab to Akim Asafo Presbyterian Basic School",
+      "summary": "Deployment One equips an Eastern Region school, where 40 pupils per class shared a single teacher-owned laptop, with 14 new Windows 11 compute rs, a printer and offline learning content.",
+      "category": "teachers",
+      "published_at": "2026-10-08T14:36:10Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "The Ntikuma Project hands over first computer lab to Akim Asafo Presbyterian Basic School",
+          "url": "https://3news.com/news/the-ntikuma-project-hands-over-first-computer-lab-to-akim-asafo-presbyterian-basic-school",
+          "published_at": "2026-10-08T14:36:10Z",
+          "excerpt": "Deployment One equips an Eastern Region school, where 40 pupils per class shared a single teacher-owned laptop, with 14 new Windows 11 compute rs, a printer and offline learning content."
         }
       ]
     },
