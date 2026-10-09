@@ -13,6 +13,8 @@
 
 body {
   margin: 0;
+  max-width: 100%;
+  overflow-x: clip;
   font-family: "Segoe UI", sans-serif;
   background: var(--paper);
   color: var(--ink);
@@ -59,12 +61,17 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  width: 100%;
+  min-width: 0;
   padding: 0.85rem 1rem 0.4rem;
 }
 
 .brand {
   display: inline-flex;
   align-items: center;
+  flex: 0 0 auto;
+  min-width: 0;
+  max-width: 7.5rem;
   min-height: 44px;
   padding: 0.15rem 0.35rem;
   border-radius: 12px;
@@ -74,8 +81,9 @@ header {
 }
 
 .brand img {
-  height: 56px;
+  height: 44px;
   width: auto;
+  max-width: 6.5rem;
   display: block;
 }
 
