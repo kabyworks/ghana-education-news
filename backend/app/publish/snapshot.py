@@ -20,6 +20,7 @@ const SHELL = [
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
+  "./logo.svg",
   "./data/feed.json",
 ];
 
@@ -135,7 +136,7 @@ def _write_shell(destination: Path) -> None:
     html = html.replace("/app/", "")
     html = html.replace('<html lang="en">', '<html lang="en" data-feed="static">', 1)
     (destination / "index.html").write_text(html, encoding="utf-8")
-    for name in ("styles.css", "app.js", "icon-192.png", "icon-512.png"):
+    for name in ("styles.css", "app.js", "icon-192.png", "icon-512.png", "logo.svg"):
         shutil.copyfile(READER_DIR / name, destination / name)
     manifest = json.loads((READER_DIR / "manifest.webmanifest").read_text(encoding="utf-8"))
     manifest["start_url"] = "./"

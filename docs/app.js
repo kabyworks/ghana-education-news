@@ -196,7 +196,7 @@ function renderStory(story, { offline = false } = {}) {
   back.href = "#/";
   back.setAttribute("aria-label", "Back to latest");
   article.append(back);
-  document.title = story.title ? `${story.title} · Education Lens` : "Education Lens";
+  document.title = story.title ? `${story.title} · Edulens360` : "Edulens360";
   article.append(el("p", "kicker", `${label(story.category)} · ${formatWhen(story.published_at)} · ${publishers(story.source_count)}`));
   article.append(el("h2", "", story.title));
   article.append(el("p", "summary", story.summary));
@@ -324,7 +324,7 @@ function markNav(current) {
 
 async function draw() {
   const current = route();
-  document.title = "Education Lens";
+  document.title = "Edulens360";
   markNav(current);
   searchInput.value = current.q || "";
   try {

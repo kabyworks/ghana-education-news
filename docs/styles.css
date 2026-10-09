@@ -63,15 +63,20 @@ header {
 }
 
 .brand {
-  color: inherit;
-  font-family: Georgia, "Iowan Old Style", serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  text-decoration: none;
-  min-height: 44px;
   display: inline-flex;
   align-items: center;
+  min-height: 44px;
+  padding: 0.15rem 0.35rem;
+  border-radius: 12px;
+  background: #fff;
+  line-height: 0;
+  text-decoration: none;
+}
+
+.brand img {
+  height: 56px;
+  width: auto;
+  display: block;
 }
 
 nav { display: flex; gap: 0.4rem; }
