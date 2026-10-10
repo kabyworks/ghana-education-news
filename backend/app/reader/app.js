@@ -350,7 +350,7 @@ function renderStory(story, { offline = false } = {}) {
   article.append(back);
   document.title = story.title ? `${story.title} · Edulens360` : "Edulens360";
   article.append(el("p", "kicker", `${label(story.category)} · ${formatWhen(story.published_at)} · ${publishers(story.source_count)}`));
-  article.append(el("h2", "", story.title));
+  article.append(headline(story));
   article.append(el("p", "summary", story.summary));
   if (offline) article.append(el("p", "meta", "Saved on this device."));
   const actions = el("div", "actions");
