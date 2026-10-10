@@ -161,6 +161,13 @@ nav button[aria-expanded="true"] { background: var(--green-soft); }
   border-color: var(--green);
 }
 
+.cat-pair {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.45rem;
+}
+
 .categories button.more-cats {
   flex: 0 0 auto;
   min-width: 40px;
