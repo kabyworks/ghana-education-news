@@ -120,7 +120,7 @@ function updatedHeading() {
   const date = new Date(catalog.generated_at);
   if (Number.isNaN(date.getTime())) return "";
   const when = date.toLocaleString(undefined, { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
-  return `Updated ${when}`;
+  return `Latest update ${when}`;
 }
 
 async function fetchJson(url) {
@@ -144,6 +144,25 @@ function el(tag, className, text) {
   return node;
 }
 
+function categoryLink(name, active) {
+  const link = el("a", "", label(name));
+  link.href = `#/category/${encodeURIComponent(name)}`;
+  if (name === active) link.setAttribute("aria-current", "true");
+  return link;
+}
+
+function moreButton(active) {
+  const more = el("button", "more-cats", categoriesExpanded ? "–" : "+");
+  more.type = "button";
+  more.setAttribute("aria-expanded", categoriesExpanded ? "true" : "false");
+  more.setAttribute("aria-label", categoriesExpanded ? "Show fewer categories" : "Show more categories");
+  more.addEventListener("click", () => {
+    categoriesExpanded = !categoriesExpanded;
+    renderCategories(active);
+  });
+  return more;
+}
+
 function renderCategories(active) {
   clear(categoriesEl);
   const current = route();
@@ -153,25 +172,22 @@ function renderCategories(active) {
   latest.href = "#/";
   if (current.name === "latest" && !active) latest.setAttribute("aria-current", "true");
   categoriesEl.append(latest);
-  const shown = categoriesExpanded ? categoryNames : categoryNames.slice(0, 2);
-  if (!categoriesExpanded && active && !shown.includes(active)) shown.push(active);
-  for (const name of shown) {
-    const link = el("a", "", label(name));
-    link.href = `#/category/${encodeURIComponent(name)}`;
-    if (name === active) link.setAttribute("aria-current", "true");
-    categoriesEl.append(link);
+  const ranked = categoryNames.slice();
+  if (!categoriesExpanded && active && !ranked.slice(0, 2).includes(active)) {
+    ranked.splice(2, 0, active);
   }
-  if (categoryNames.length > 2) {
-    const more = el("button", "more-cats", categoriesExpanded ? "–" : "+");
-    more.type = "button";
-    more.setAttribute("aria-expanded", categoriesExpanded ? "true" : "false");
-    more.setAttribute("aria-label", categoriesExpanded ? "Show fewer categories" : "Show more categories");
-    more.addEventListener("click", () => {
-      categoriesExpanded = !categoriesExpanded;
-      renderCategories(active);
-    });
-    categoriesEl.append(more);
+  const lead = ranked.slice(0, Math.min(2, ranked.length));
+  const rest = categoriesExpanded ? ranked.slice(lead.length) : [];
+  for (const name of lead.slice(0, 1)) categoriesEl.append(categoryLink(name, active));
+  if (lead[1]) {
+    const pair = el("span", "cat-pair");
+    pair.append(categoryLink(lead[1], active));
+    if (categoryNames.length > 2) pair.append(moreButton(active));
+    categoriesEl.append(pair);
+  } else if (categoryNames.length > 2) {
+    categoriesEl.append(moreButton(active));
   }
+  for (const name of rest) categoriesEl.append(categoryLink(name, active));
   const saved = el("a", "", "Saved");
   saved.href = "#/saved";
   if (current.name === "saved") saved.setAttribute("aria-current", "true");
