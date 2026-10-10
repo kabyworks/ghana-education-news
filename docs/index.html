@@ -17,11 +17,17 @@
     <div class="bar">
       <a class="brand" href="#/"><img src="logo.svg" alt="Edulens360" width="64" height="56"></a>
       <nav>
-        <a id="nav-latest" href="#/">Latest</a>
+        <button id="search-toggle" type="button" aria-expanded="false" aria-controls="search">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+            <circle cx="10.5" cy="10.5" r="6.25" fill="none" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M15.2 15.2L20.5 20.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+          Search
+        </button>
         <a id="nav-saved" href="#/saved">Saved</a>
       </nav>
     </div>
-    <form id="search" role="search">
+    <form id="search" role="search" hidden>
       <input id="search-input" type="search" name="q" placeholder="Search headlines" enterkeyhint="search" aria-label="Search headlines">
       <button type="submit">Search</button>
     </form>

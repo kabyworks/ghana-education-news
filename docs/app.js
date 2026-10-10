@@ -18,8 +18,9 @@ const main = document.querySelector("#main");
 const categoriesEl = document.querySelector("#categories");
 const searchForm = document.querySelector("#search");
 const searchInput = document.querySelector("#search-input");
-const navLatest = document.querySelector("#nav-latest");
+const searchToggle = document.querySelector("#search-toggle");
 const navSaved = document.querySelector("#nav-saved");
+let searchOpen = false;
 
 let categoryNames = [];
 
@@ -147,9 +148,8 @@ function renderCategories(active) {
   clear(categoriesEl);
   const current = route();
   categoriesEl.hidden = current.name !== "latest";
-  searchForm.hidden = current.name !== "latest";
   if (current.name !== "latest") return;
-  const all = el("a", "", "All");
+  const all = el("a", "", "Latest");
   all.href = "#/";
   if (!active) all.setAttribute("aria-current", "true");
   categoriesEl.append(all);
@@ -272,7 +272,6 @@ async function showLatest(current, offset = 0) {
 
 function showSaved() {
   categoriesEl.hidden = true;
-  searchForm.hidden = true;
   const stories = savedStories();
   if (!stories.length) {
     renderMessage("Stories you save stay on this device.");
@@ -283,7 +282,6 @@ function showSaved() {
 
 async function showStory(id) {
   categoriesEl.hidden = true;
-  searchForm.hidden = true;
   try {
     let story;
     if (STATIC) {
@@ -316,16 +314,23 @@ function showFailure(error) {
 }
 
 function markNav(current) {
-  if (current.name === "latest") navLatest.setAttribute("aria-current", "page");
-  else navLatest.removeAttribute("aria-current");
   if (current.name === "saved") navSaved.setAttribute("aria-current", "page");
   else navSaved.removeAttribute("aria-current");
+}
+
+function syncSearch(current) {
+  if (current.name !== "latest") searchOpen = false;
+  const open = searchOpen && current.name === "latest";
+  searchForm.hidden = !open;
+  searchToggle.setAttribute("aria-expanded", open ? "true" : "false");
+  if (open) searchInput.focus();
 }
 
 async function draw() {
   const current = route();
   document.title = "Edulens360";
   markNav(current);
+  if (current.q) searchOpen = true;
   searchInput.value = current.q || "";
   try {
     if (current.name === "saved") showSaved();
@@ -335,6 +340,7 @@ async function draw() {
     showFailure(error);
     if (current.name === "story") window.scrollTo(0, 0);
   }
+  syncSearch(current);
 }
 
 async function loadCategories() {
@@ -350,6 +356,17 @@ async function loadCategories() {
     categoryNames = [];
   }
 }
+
+searchToggle.addEventListener("click", () => {
+  const current = route();
+  if (current.name !== "latest") {
+    searchOpen = true;
+    location.hash = "#/";
+    return;
+  }
+  searchOpen = !searchOpen;
+  syncSearch(current);
+});
 
 searchForm.addEventListener("submit", (event) => {
   event.preventDefault();

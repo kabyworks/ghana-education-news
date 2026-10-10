@@ -87,25 +87,32 @@ header {
   display: block;
 }
 
-nav { display: flex; gap: 0.4rem; }
+nav { display: flex; gap: 0.4rem; align-items: center; }
 
-nav a {
+nav a, nav button {
   color: var(--paper);
+  background: transparent;
+  border: 0;
   text-decoration: none;
   min-height: 44px;
   display: inline-flex;
   align-items: center;
+  gap: 0.35rem;
   padding: 0 0.7rem;
   border-radius: 999px;
+  font: inherit;
+  cursor: pointer;
 }
 
-nav a[aria-current="page"] { background: rgba(255, 255, 255, 0.16); }
+nav a[aria-current="page"], nav button[aria-expanded="true"] { background: rgba(255, 255, 255, 0.16); }
 
 #search {
   display: flex;
   gap: 0.45rem;
   padding: 0 1rem 0.75rem;
 }
+
+#search[hidden] { display: none; }
 
 #search-input {
   flex: 1;
