@@ -151,58 +151,92 @@ function categoryLink(name, active) {
   return link;
 }
 
-function moreButton(active) {
-  const more = el("button", "more-cats", categoriesExpanded ? "–" : "+");
-  more.type = "button";
-  more.setAttribute("aria-expanded", categoriesExpanded ? "true" : "false");
-  more.setAttribute("aria-label", categoriesExpanded ? "Show fewer categories" : "Show more categories");
-  more.addEventListener("click", () => {
-    categoriesExpanded = !categoriesExpanded;
-    renderCategories(active);
-  });
-  return more;
-}
-
 function renderCategories(active) {
   clear(categoriesEl);
   const current = route();
   categoriesEl.hidden = current.name === "story";
   if (current.name === "story") return;
-  const latest = el("a", "", "Latest");
-  latest.href = "#/";
-  if (current.name === "latest" && !active) latest.setAttribute("aria-current", "true");
-  categoriesEl.append(latest);
-  const ranked = categoryNames.slice();
-  if (!categoriesExpanded && active && !ranked.slice(0, 2).includes(active)) {
-    ranked.splice(2, 0, active);
-  }
-  const lead = ranked.slice(0, Math.min(2, ranked.length));
-  const rest = categoriesExpanded ? ranked.slice(lead.length) : [];
-  for (const name of lead.slice(0, 1)) categoriesEl.append(categoryLink(name, active));
-  if (lead[1]) {
-    const pair = el("span", "cat-pair");
-    pair.append(categoryLink(lead[1], active));
-    if (categoryNames.length > 2) pair.append(moreButton(active));
-    categoriesEl.append(pair);
-  } else if (categoryNames.length > 2) {
-    categoriesEl.append(moreButton(active));
-  }
-  for (const name of rest) categoriesEl.append(categoryLink(name, active));
+
+  const bar = el("div", "cat-bar");
+  const toggle = el("button", active ? "categories-toggle is-filtering" : "categories-toggle", "Categories");
+  toggle.type = "button";
+  toggle.setAttribute("aria-expanded", categoriesExpanded ? "true" : "false");
+  toggle.setAttribute("aria-controls", "category-list");
+  toggle.addEventListener("click", () => {
+    categoriesExpanded = !categoriesExpanded;
+    renderCategories(active);
+  });
   const saved = el("a", "", "Saved");
   saved.href = "#/saved";
   if (current.name === "saved") saved.setAttribute("aria-current", "true");
-  categoriesEl.append(saved);
+  bar.append(toggle, saved);
+  categoriesEl.append(bar);
+
+  if (!categoriesExpanded) return;
+  const list = el("div", "category-list");
+  list.id = "category-list";
+  const latest = el("a", "", "Latest");
+  latest.href = "#/";
+  if (current.name === "latest" && !active) latest.setAttribute("aria-current", "true");
+  list.append(latest);
+  for (const name of categoryNames) list.append(categoryLink(name, active));
+  categoriesEl.append(list);
+}
+
+function bookmarkIcon() {
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("viewBox", "0 0 24 24");
+  svg.setAttribute("width", "18");
+  svg.setAttribute("height", "18");
+  svg.setAttribute("aria-hidden", "true");
+  svg.setAttribute("focusable", "false");
+  const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  path.setAttribute("d", "M6.5 3.5h11a1 1 0 0 1 1 1V20.5l-6.5-3.4-6.5 3.4V4.5a1 1 0 0 1 1-1z");
+  svg.append(path);
+  return svg;
+}
+
+function paintSave(button, on) {
+  button.classList.toggle("saved", on);
+  button.setAttribute("aria-pressed", on ? "true" : "false");
+  button.setAttribute("aria-label", on ? "Remove save" : "Save");
 }
 
 function storyCard(story) {
-  const card = el("a", "story-card");
-  card.href = `#/story/${story.id}`;
+  const card = el("article", "story-card");
   card.dataset.id = String(story.id);
-  card.append(el("p", "kicker", `${label(story.category)} · ${formatWhen(story.published_at)}`));
-  card.append(el("h2", "", story.title));
-  card.append(el("p", "summary", story.summary));
-  card.append(el("p", "meta", publishers(story.source_count)));
+  const link = el("a", "story-link");
+  link.href = `#/story/${story.id}`;
+  link.append(el("p", "kicker", `${label(story.category)} · ${formatWhen(story.published_at)}`));
+  link.append(el("h2", "", story.title));
+  link.append(el("p", "summary", story.summary));
+  link.append(el("p", "meta", publishers(story.source_count)));
+  const save = el("button", "card-save");
+  save.type = "button";
+  save.append(bookmarkIcon());
+  paintSave(save, isSaved(story.id));
+  save.addEventListener("click", () => {
+    const removing = isSaved(story.id);
+    const apply = (item) => {
+      toggleSaved(item);
+      if (route().name === "saved") {
+        showSaved();
+        return;
+      }
+      paintSave(save, isSaved(item.id));
+    };
+    if (!removing && !itemHasArticles(story) && !STATIC) {
+      fetchJson(`/feed/${story.id}`).then(apply).catch(() => apply(story));
+      return;
+    }
+    apply(story);
+  });
+  card.append(link, save);
   return card;
+}
+
+function itemHasArticles(story) {
+  return Array.isArray(story.articles) && story.articles.length > 0;
 }
 
 function renderList(stories, { heading, more } = {}) {
@@ -402,6 +436,7 @@ searchForm.addEventListener("submit", (event) => {
 });
 
 window.addEventListener("hashchange", () => {
+  categoriesExpanded = false;
   draw();
 });
 

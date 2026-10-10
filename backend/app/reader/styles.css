@@ -161,26 +161,33 @@ nav button[aria-expanded="true"] { background: var(--green-soft); }
   border-color: var(--green);
 }
 
-.cat-pair {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  align-items: center;
+.cat-bar, .category-list {
+  display: flex;
+  flex-wrap: wrap;
   gap: 0.45rem;
+  width: 100%;
 }
 
-.categories button.more-cats {
+.categories button.categories-toggle {
   flex: 0 0 auto;
-  min-width: 40px;
   min-height: 40px;
-  padding: 0 0.7rem;
+  padding: 0 0.8rem;
   border-radius: 999px;
   border: 1px solid var(--line);
   background: var(--card);
   color: var(--ink);
   font: inherit;
-  font-size: 1.15rem;
-  font-weight: 700;
-  line-height: 1;
+  font-size: 0.92rem;
+  font-weight: 650;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.categories button.categories-toggle[aria-expanded="true"],
+.categories button.categories-toggle.is-filtering {
+  background: var(--green);
+  color: var(--paper);
+  border-color: var(--green);
 }
 
 main {
@@ -198,9 +205,51 @@ main {
 }
 
 .story-card {
+  position: relative;
+  display: block;
+}
+
+.story-link {
   display: block;
   color: inherit;
   text-decoration: none;
+}
+
+.story-card .meta {
+  padding-right: 2.6rem;
+}
+
+.story-card button.card-save {
+  position: absolute;
+  right: 0.55rem;
+  bottom: 0.55rem;
+  width: 36px;
+  height: 36px;
+  min-height: 36px;
+  padding: 0;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--green);
+  justify-content: center;
+  box-shadow: none;
+}
+
+.story-card button.card-save path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linejoin: round;
+}
+
+.story-card button.card-save.saved {
+  background: var(--green);
+  color: #fff;
+  border-color: var(--green);
+}
+
+.story-card button.card-save.saved path {
+  fill: currentColor;
 }
 
 .kicker, .meta {
