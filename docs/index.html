@@ -10,7 +10,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon-192.png">
   <link rel="apple-touch-icon" href="icon-192.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
   <header>
@@ -33,6 +33,16 @@
     <div id="categories" class="categories"></div>
   </header>
   <main id="main"><p class="notice">Loading stories…</p></main>
-  <script src="app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      let refreshing = false;
+      navigator.serviceWorker.addEventListener("controllerchange", () => {
+        if (refreshing) return;
+        refreshing = true;
+        location.reload();
+      });
+    }
+  </script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>

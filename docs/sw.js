@@ -1,8 +1,8 @@
-const CACHE = "ghanaed-phone-1";
+const CACHE = "ghanaed-phone-2";
 const SHELL = [
   "./index.html",
-  "./styles.css",
-  "./app.js",
+  "./styles.css?v=2",
+  "./app.js?v=2",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -26,7 +26,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (event.request.method !== "GET" || url.origin !== self.location.origin) return;
   event.respondWith(
-    fetch(event.request)
+    fetch(new Request(event.request, { cache: "reload" }))
       .then((response) => {
         if (response.ok) {
           const copy = response.clone();
