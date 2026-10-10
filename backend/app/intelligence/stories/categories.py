@@ -5,14 +5,28 @@ import re
 CATEGORIES: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("examinations", ("bece", "wassce", "waec", "examination", "examinations")),
     ("scholarships", ("scholarship", "scholarships")),
-    ("teachers", ("teacher", "teachers", "gnat", "nagrat", "pretag", "tewu", "headteacher", "strike", "striking")),
+    ("teachers", ("teacher", "teachers", "gnat", "nagrat", "pretag", "tewu", "headteacher")),
     (
         "higher_education",
-        ("university", "universities", "gtec", "tvet", "tertiary", "admission", "admissions", "college"),
+        ("university", "universities", "gtec", "tvet", "tertiary", "college", "knust", "ucc", "uew"),
     ),
     (
         "basic_schools",
-        ("shs", "jhs", "kindergarten", "classroom", "classrooms", "primary", "school feeding", "senior high", "junior high", "e-block"),
+        (
+            "shs",
+            "jhs",
+            "kindergarten",
+            "classroom",
+            "classrooms",
+            "primary",
+            "school feeding",
+            "senior high",
+            "junior high",
+            "e-block",
+            "basic school",
+            "basic schools",
+            "mission school",
+        ),
     ),
     ("policy", ("ministry", "minister", "curriculum", "sign language")),
 )

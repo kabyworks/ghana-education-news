@@ -25,6 +25,9 @@ def test_categories_follow_the_strongest_topic():
     assert categorize("The MP commissioned a kindergarten classroom block") == "basic_schools"
     assert categorize("Desks are rotting in an abandoned E-Block senior high") == "basic_schools"
     assert categorize("A note about the weather") == "general"
+    assert categorize("GAUA strike disrupts registration at the University of Ghana") == "higher_education"
+    assert categorize("Harold was in hospital after admission") == "general"
+    assert categorize("Materials are short in Sekyere South basic schools") == "basic_schools"
 
 
 def test_summary_is_taken_from_the_excerpt_only():

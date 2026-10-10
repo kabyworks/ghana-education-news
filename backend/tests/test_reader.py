@@ -9,7 +9,7 @@ def test_reader_page_is_installable(client):
     assert "text/html" in page.headers["content-type"]
     assert "Edulens360" in page.text
     assert 'href="/app/manifest.webmanifest"' in page.text
-    assert "Saved" in page.text
+    assert "Search" in page.text
 
     manifest = client.get("/app/manifest.webmanifest")
     body = manifest.json()
@@ -24,6 +24,7 @@ def test_reader_page_is_installable(client):
     script = client.get("/app/app.js")
     assert script.status_code == 200
     assert "ghanaed.saved.v1" in script.text
+    assert "Saved" in script.text
     assert "/feed" in script.text
 
     worker = client.get("/app/sw.js")

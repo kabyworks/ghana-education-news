@@ -19,8 +19,8 @@ const categoriesEl = document.querySelector("#categories");
 const searchForm = document.querySelector("#search");
 const searchInput = document.querySelector("#search-input");
 const searchToggle = document.querySelector("#search-toggle");
-const navSaved = document.querySelector("#nav-saved");
 let searchOpen = false;
+let categoriesExpanded = false;
 
 let categoryNames = [];
 
@@ -147,18 +147,35 @@ function el(tag, className, text) {
 function renderCategories(active) {
   clear(categoriesEl);
   const current = route();
-  categoriesEl.hidden = current.name !== "latest";
-  if (current.name !== "latest") return;
-  const all = el("a", "", "Latest");
-  all.href = "#/";
-  if (!active) all.setAttribute("aria-current", "true");
-  categoriesEl.append(all);
-  for (const name of categoryNames) {
+  categoriesEl.hidden = current.name === "story";
+  if (current.name === "story") return;
+  const latest = el("a", "", "Latest");
+  latest.href = "#/";
+  if (current.name === "latest" && !active) latest.setAttribute("aria-current", "true");
+  categoriesEl.append(latest);
+  const shown = categoriesExpanded ? categoryNames : categoryNames.slice(0, 2);
+  if (!categoriesExpanded && active && !shown.includes(active)) shown.push(active);
+  for (const name of shown) {
     const link = el("a", "", label(name));
     link.href = `#/category/${encodeURIComponent(name)}`;
     if (name === active) link.setAttribute("aria-current", "true");
     categoriesEl.append(link);
   }
+  if (categoryNames.length > 2) {
+    const more = el("button", "more-cats", categoriesExpanded ? "–" : "+");
+    more.type = "button";
+    more.setAttribute("aria-expanded", categoriesExpanded ? "true" : "false");
+    more.setAttribute("aria-label", categoriesExpanded ? "Show fewer categories" : "Show more categories");
+    more.addEventListener("click", () => {
+      categoriesExpanded = !categoriesExpanded;
+      renderCategories(active);
+    });
+    categoriesEl.append(more);
+  }
+  const saved = el("a", "", "Saved");
+  saved.href = "#/saved";
+  if (current.name === "saved") saved.setAttribute("aria-current", "true");
+  categoriesEl.append(saved);
 }
 
 function storyCard(story) {
@@ -271,7 +288,7 @@ async function showLatest(current, offset = 0) {
 }
 
 function showSaved() {
-  categoriesEl.hidden = true;
+  renderCategories("");
   const stories = savedStories();
   if (!stories.length) {
     renderMessage("Stories you save stay on this device.");
@@ -313,11 +330,6 @@ function showFailure(error) {
   renderMessage("The feed is not reachable. Saved stories are still on this device.");
 }
 
-function markNav(current) {
-  if (current.name === "saved") navSaved.setAttribute("aria-current", "page");
-  else navSaved.removeAttribute("aria-current");
-}
-
 function syncSearch(current) {
   if (current.name !== "latest") searchOpen = false;
   const open = searchOpen && current.name === "latest";
@@ -329,7 +341,6 @@ function syncSearch(current) {
 async function draw() {
   const current = route();
   document.title = "Edulens360";
-  markNav(current);
   if (current.q) searchOpen = true;
   searchInput.value = current.q || "";
   try {
