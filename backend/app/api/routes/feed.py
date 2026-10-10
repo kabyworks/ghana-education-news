@@ -6,7 +6,15 @@ from sqlalchemy.orm import Session
 from app.db.database import get_db
 from app.intelligence.stories.categories import CATEGORY_NAMES
 from app.schemas.feed import FeedArticleRead, FeedCategoryRead, FeedDetailRead, FeedStoryRead
-from app.services.feed_service import FeedStory, get_feed_story, list_categories, list_feed, search_feed, search_terms
+from app.services.feed_service import (
+    FeedStory,
+    get_feed_story,
+    list_categories,
+    list_feed,
+    search_feed,
+    search_terms,
+    story_image,
+)
 from app.services.story_service import StoryNotFoundError
 
 router = APIRouter(prefix="/feed", tags=["feed"])
@@ -79,5 +87,6 @@ def _story_read(story: FeedStory) -> FeedStoryRead:
         published_at=story.published_at,
         source_count=story.source_count,
         sources=story.sources,
+        image_url=story_image(story.articles),
         rank=story.rank,
     )

@@ -13,6 +13,7 @@ class FeedStoryRead(BaseModel):
     published_at: datetime | None
     source_count: int
     sources: list[str]
+    image_url: str | None = None
     rank: float
 
     @field_serializer("published_at")

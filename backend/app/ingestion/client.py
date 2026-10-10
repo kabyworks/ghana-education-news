@@ -30,7 +30,7 @@ class HttpxFeedClient:
         self._robots: dict[str, str | None] = {}
 
     def get_feed(self, url: str) -> bytes:
-        robots_body = self._robots_text(url)
+        robots_body = self.robots_text(url)
         if not feed_is_allowed(robots_body, url, USER_AGENT):
             raise FeedNotAllowedError(f"robots.txt disallows {url}")
         delay = crawl_delay_seconds(robots_body, USER_AGENT)
@@ -40,7 +40,25 @@ class HttpxFeedClient:
         response.raise_for_status()
         return response.content
 
-    def _robots_text(self, url: str) -> str | None:
+    def get_page(self, url: str) -> str | None:
+        """Read an article page when the feed did not include a picture."""
+        try:
+            robots_body = self.robots_text(url)
+        except FeedNotAllowedError:
+            return None
+        if not feed_is_allowed(robots_body, url, USER_AGENT):
+            return None
+        delay = crawl_delay_seconds(robots_body, USER_AGENT)
+        if delay > 0:
+            time.sleep(delay)
+        try:
+            response = self._get(url)
+            response.raise_for_status()
+        except httpx2.HTTPError:
+            return None
+        return response.text
+
+    def robots_text(self, url: str) -> str | None:
         robots_url = robots_url_for(url)
         if robots_url in self._robots:
             return self._robots[robots_url]

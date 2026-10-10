@@ -8,7 +8,7 @@ from pathlib import Path
 from sqlalchemy.orm import Session
 
 from app.schemas.feed import FeedArticleRead, FeedCategoryRead, FeedDetailRead
-from app.services.feed_service import list_categories, list_feed
+from app.services.feed_service import list_categories, list_feed, story_image
 
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
@@ -102,6 +102,7 @@ def _story_payload(story) -> dict:
         published_at=story.published_at,
         source_count=story.source_count,
         sources=story.sources,
+        image_url=story_image(story.articles),
         rank=story.rank,
         articles=[
             FeedArticleRead(

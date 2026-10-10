@@ -313,6 +313,28 @@ h2 {
   margin: 0.25rem 0 0.45rem;
 }
 
+.headline {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  margin: 0.25rem 0 0.45rem;
+}
+
+.headline h2 {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+}
+
+.card-photo {
+  width: 4.5rem;
+  height: 4.5rem;
+  flex: 0 0 auto;
+  object-fit: cover;
+  border-radius: 10px;
+  background: var(--line);
+}
+
 .summary {
   margin: 0;
   line-height: 1.5;

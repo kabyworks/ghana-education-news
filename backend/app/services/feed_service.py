@@ -145,6 +145,21 @@ def _matches(story: FeedStory, terms: list[str]) -> bool:
     return all(re.search(rf"\b{re.escape(term)}\b", haystack) is not None for term in terms)
 
 
+def story_image(articles: list[tuple[Article, str]]) -> str | None:
+    """One publisher picture for the card, preferring the newest illustrated article."""
+    chosen: str | None = None
+    chosen_at: datetime | None = None
+    for article, _name in articles:
+        url = (article.image_url or "").strip()
+        if not url.startswith(("http://", "https://")) or len(url) > 1000:
+            continue
+        when = article.published_at
+        if chosen is None or (when is not None and (chosen_at is None or when >= chosen_at)):
+            chosen = url
+            chosen_at = when
+    return chosen
+
+
 def _latest_published(articles: list[tuple[Article, str]]) -> datetime | None:
     times = [article.published_at for article, _name in articles if article.published_at is not None]
     if not times:

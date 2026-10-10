@@ -1,5 +1,6 @@
 """Read RSS and Atom entries into plain article fields."""
 
+import re
 from dataclasses import dataclass
 from datetime import datetime, timezone
 
@@ -115,4 +116,21 @@ def _image_url(entry: feedparser.FeedParserDict) -> str | None:
             if isinstance(candidate, str) and candidate.startswith(("http://", "https://")):
                 if len(candidate) <= URL_LIMIT:
                     return candidate
+    return None
+
+
+def og_image(html: str) -> str | None:
+    """The picture a publisher names for the page, when the feed itself has none."""
+    if not html:
+        return None
+    for pattern in (
+        r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+    ):
+        match = re.search(pattern, html, re.IGNORECASE)
+        if match is None:
+            continue
+        candidate = match.group(1).strip()
+        if candidate.startswith(("http://", "https://")) and len(candidate) <= URL_LIMIT:
+            return candidate
     return None

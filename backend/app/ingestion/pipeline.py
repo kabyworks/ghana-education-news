@@ -4,7 +4,7 @@ import hashlib
 import logging
 import threading
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import datetime, timedelta, timezone
 
 from sqlalchemy import select
@@ -12,7 +12,7 @@ from sqlalchemy.orm import Session
 
 from app.db.models.article import Article
 from app.db.models.source import Source
-from app.ingestion.parser import parse_feed
+from app.ingestion.parser import og_image, parse_feed
 from app.intelligence.relevance.service import apply_relevance
 from app.intelligence.stories.service import build_stories
 from app.services.source_service import record_source_check
@@ -110,7 +110,8 @@ def _process_target(session: Session, client, target: _Target, *, now: datetime,
     try:
         payload = client.get_feed(target.feed_url)
         document = parse_feed(payload)
-        stored, duplicates = _store_articles(session, target.id, document.articles, discovered_at=now)
+        articles = [_with_page_image(client, article) for article in document.articles]
+        stored, duplicates = _store_articles(session, target.id, articles, discovered_at=now)
         record_source_check(session, target.id, success=True)
     except Exception as exc:
         session.rollback()
@@ -144,6 +145,20 @@ def _process_target(session: Session, client, target: _Target, *, now: datetime,
         entries_ignored=document.entries_ignored,
         duration_seconds=duration,
     )
+
+
+def _with_page_image(client, article):
+    if article.image_url or not hasattr(client, "get_page"):
+        return article
+    try:
+        html = client.get_page(article.url)
+    except Exception:
+        logger.info("Could not read a picture from %s", article.url)
+        return article
+    found = og_image(html or "")
+    if not found:
+        return article
+    return replace(article, image_url=found)
 
 
 def _store_articles(session: Session, source_id: int, articles, *, discovered_at: datetime) -> tuple[int, int]:

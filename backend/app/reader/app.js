@@ -60,6 +60,7 @@ function toggleSaved(story) {
     published_at: story.published_at,
     source_count: story.source_count,
     sources: story.sources || [],
+    image_url: story.image_url || null,
     articles: (story.articles || []).map((article) => ({
       source_name: article.source_name,
       title: article.title,
@@ -255,13 +256,44 @@ function paintSave(button, on) {
   button.setAttribute("aria-label", on ? "Remove save" : "Save");
 }
 
+function storyImage(story) {
+  const direct = typeof story.image_url === "string" ? story.image_url.trim() : "";
+  if (direct.startsWith("http://") || direct.startsWith("https://")) return direct;
+  for (const article of story.articles || []) {
+    const url = typeof article.image_url === "string" ? article.image_url.trim() : "";
+    if (url.startsWith("http://") || url.startsWith("https://")) return url;
+  }
+  return "";
+}
+
+function headline(story) {
+  const title = el("h2", "", story.title);
+  const src = storyImage(story);
+  if (!src) return title;
+  const row = el("div", "headline");
+  const img = document.createElement("img");
+  img.className = "card-photo";
+  img.alt = "";
+  img.referrerPolicy = "no-referrer";
+  try {
+    img.src = new URL(src).href;
+  } catch {
+    img.src = src;
+  }
+  img.addEventListener("error", () => {
+    row.replaceWith(title);
+  });
+  row.append(img, title);
+  return row;
+}
+
 function storyCard(story) {
   const card = el("article", "story-card");
   card.dataset.id = String(story.id);
   const link = el("a", "story-link");
   link.href = `#/story/${story.id}`;
   link.append(el("p", "kicker", `${label(story.category)} · ${formatWhen(story.published_at)}`));
-  link.append(el("h2", "", story.title));
+  link.append(headline(story));
   link.append(el("p", "summary", story.summary));
   link.append(cardMeta(story));
   const save = el("button", "card-save");
