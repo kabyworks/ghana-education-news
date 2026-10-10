@@ -3,7 +3,7 @@ const PAGE_SIZE = 20;
 
 const CATEGORY_LABELS = {
   teachers: "Teachers",
-  higher_education: "Higher education",
+  higher_education: "University",
   basic_schools: "Basic schools",
   examinations: "Examinations",
   scholarships: "Scholarships",
@@ -283,7 +283,7 @@ function headline(story) {
   img.addEventListener("error", () => {
     row.replaceWith(title);
   });
-  row.append(img, title);
+  row.append(title, img);
   return row;
 }
 
