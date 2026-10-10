@@ -215,17 +215,18 @@ main {
   text-decoration: none;
 }
 
+.story-card .summary,
 .story-card .meta {
-  padding-right: 2.6rem;
+  padding-right: 1.6rem;
 }
 
 .story-card button.card-save {
   position: absolute;
-  right: 0.55rem;
-  bottom: 0.55rem;
-  width: 36px;
-  height: 36px;
-  min-height: 36px;
+  right: 0.45rem;
+  bottom: 0.45rem;
+  width: 26px;
+  height: 26px;
+  min-height: 26px;
   padding: 0;
   border-radius: 999px;
   border: 1px solid var(--line);

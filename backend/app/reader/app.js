@@ -158,6 +158,9 @@ function renderCategories(active) {
   if (current.name === "story") return;
 
   const bar = el("div", "cat-bar");
+  const latest = el("a", "", "Latest");
+  latest.href = "#/";
+  if (current.name === "latest" && !active) latest.setAttribute("aria-current", "true");
   const toggle = el("button", active ? "categories-toggle is-filtering" : "categories-toggle", "Categories");
   toggle.type = "button";
   toggle.setAttribute("aria-expanded", categoriesExpanded ? "true" : "false");
@@ -169,16 +172,12 @@ function renderCategories(active) {
   const saved = el("a", "", "Saved");
   saved.href = "#/saved";
   if (current.name === "saved") saved.setAttribute("aria-current", "true");
-  bar.append(toggle, saved);
+  bar.append(latest, toggle, saved);
   categoriesEl.append(bar);
 
   if (!categoriesExpanded) return;
   const list = el("div", "category-list");
   list.id = "category-list";
-  const latest = el("a", "", "Latest");
-  latest.href = "#/";
-  if (current.name === "latest" && !active) latest.setAttribute("aria-current", "true");
-  list.append(latest);
   for (const name of categoryNames) list.append(categoryLink(name, active));
   categoriesEl.append(list);
 }
@@ -186,8 +185,8 @@ function renderCategories(active) {
 function bookmarkIcon() {
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   svg.setAttribute("viewBox", "0 0 24 24");
-  svg.setAttribute("width", "18");
-  svg.setAttribute("height", "18");
+  svg.setAttribute("width", "14");
+  svg.setAttribute("height", "14");
   svg.setAttribute("aria-hidden", "true");
   svg.setAttribute("focusable", "false");
   const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -436,7 +435,6 @@ searchForm.addEventListener("submit", (event) => {
 });
 
 window.addEventListener("hashchange", () => {
-  categoriesExpanded = false;
   draw();
 });
 
