@@ -93,6 +93,60 @@ function publishers(count) {
   return count === 1 ? "1 publisher" : `${count} publishers`;
 }
 
+const SOURCE_DOMAINS = {
+  "3News": "3news.com",
+  "Adom Online Education": "adomonline.com",
+  "Ghana Tertiary Education Commission": "gtec.edu.gh",
+  "MyJoyOnline Education": "myjoyonline.com",
+};
+
+function sourceNames(story) {
+  if (Array.isArray(story.sources) && story.sources.length) return story.sources;
+  const names = [];
+  for (const article of story.articles || []) {
+    if (article.source_name && !names.includes(article.source_name)) names.push(article.source_name);
+  }
+  return names;
+}
+
+function sourceInitials(name) {
+  const words = name.replace(/[^A-Za-z0-9 ]/g, " ").split(/\s+/).filter(Boolean);
+  const skip = new Set(["of", "the", "and", "online", "education"]);
+  const picked = words.filter((word) => !skip.has(word.toLowerCase()));
+  return (picked.length ? picked : words).slice(0, 2).map((word) => word[0].toUpperCase()).join("");
+}
+
+function sourceMark(name) {
+  const mark = el("span", "source-mark");
+  mark.title = name;
+  mark.setAttribute("aria-label", name);
+  const domain = SOURCE_DOMAINS[name];
+  if (!domain) {
+    mark.textContent = sourceInitials(name);
+    return mark;
+  }
+  const img = document.createElement("img");
+  img.alt = "";
+  img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64`;
+  img.addEventListener("error", () => {
+    img.remove();
+    mark.textContent = sourceInitials(name);
+  });
+  mark.append(img);
+  return mark;
+}
+
+function cardMeta(story) {
+  const row = el("p", "meta");
+  row.append(el("span", "", publishers(story.source_count)));
+  const names = sourceNames(story);
+  if (!names.length) return row;
+  const marks = el("span", "source-marks");
+  for (const name of names) marks.append(sourceMark(name));
+  row.append(marks);
+  return row;
+}
+
 function searchTerms(query) {
   return (query.toLowerCase().match(/[a-z0-9]+/g) || []).filter((term) => term.length >= 2);
 }
@@ -209,7 +263,7 @@ function storyCard(story) {
   link.append(el("p", "kicker", `${label(story.category)} · ${formatWhen(story.published_at)}`));
   link.append(el("h2", "", story.title));
   link.append(el("p", "summary", story.summary));
-  link.append(el("p", "meta", publishers(story.source_count)));
+  link.append(cardMeta(story));
   const save = el("button", "card-save");
   save.type = "button";
   save.append(bookmarkIcon());

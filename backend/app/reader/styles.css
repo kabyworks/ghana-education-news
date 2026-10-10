@@ -220,6 +220,47 @@ main {
   padding-right: 1.6rem;
 }
 
+.story-card .meta {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.source-marks {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.source-mark {
+  width: 22px;
+  height: 22px;
+  margin-left: -7px;
+  border-radius: 999px;
+  border: 2px solid var(--card);
+  background: #fff;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  color: var(--green);
+  font-size: 0.58rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.source-marks .source-mark:first-child {
+  margin-left: 0;
+}
+
+.source-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
 .story-card button.card-save {
   position: absolute;
   right: 0.45rem;

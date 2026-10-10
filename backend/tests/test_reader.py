@@ -27,6 +27,7 @@ def test_reader_page_is_installable(client):
     assert "Saved" in script.text
     assert "Categories" in script.text
     assert "card-save" in script.text
+    assert "source-mark" in script.text
     assert "/feed" in script.text
 
     worker = client.get("/app/sw.js")
