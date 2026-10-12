@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-12T14:10:11Z",
+  "generated_at": "2026-10-12T14:40:27Z",
   "categories": [
     {
       "name": "teachers",
-      "story_count": 54
+      "story_count": 55
     },
     {
       "name": "higher_education",
-      "story_count": 49
+      "story_count": 52
     },
     {
       "name": "basic_schools",
@@ -19,7 +19,7 @@
     },
     {
       "name": "policy",
-      "story_count": 9
+      "story_count": 10
     },
     {
       "name": "examinations",
@@ -32,71 +32,19 @@
   ],
   "stories": [
     {
-      "id": 131,
-      "title": "KNUST postpones 2026/2027 academic year reopening indefinitely amid GAUA strike",
-      "summary": "The Kwame Nkrumah University of Science and Technology (KNUST) has postponed the reopening of the 2026/2027 academic year indefinitely due to the ongoing strike by the Ghana Association of University Administrators (GAUA).",
-      "category": "higher_education",
-      "published_at": "2026-10-12T10:14:14Z",
-      "source_count": 3,
-      "sources": [
-        "3News",
-        "Adom Online Education",
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://media.3news.com/UG-2-1200x534.webp",
-      "rank": 0.9042,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "KNUST postpones 2026/2027 academic year reopening indefinitely amid GAUA strike",
-          "url": "https://www.myjoyonline.com/knust-postpones-2026-2027-academic-year-reopening-indefinitely-amid-gaua-strike/",
-          "published_at": "2026-10-09T18:47:09Z",
-          "excerpt": "The Kwame Nkrumah University of Science and Technology (KNUST) has postponed the reopening of the 2026/2027 academic year indefinitely due to the ongoing strike by the Ghana Association of University Administrators (GAUA)."
-        },
-        {
-          "source_name": "Adom Online Education",
-          "title": "KNUST postpones reopening for 2026/2027 academic year indefinitely",
-          "url": "https://www.adomonline.com/knust-postpones-reopening-for-2026-2027-academic-year-indefinitely/",
-          "published_at": "2026-10-09T19:26:53Z",
-          "excerpt": "The Kwame Nkrumah University of Science and Technology (KNUST) has postponed the reopening of the university for the 2026/2027 academic year indefinitely due to the ongoing strike by the Ghana Association of University Administrators (GAUA). The reopening, initially scheduled for Tuesday, October 13, 2026, has been put on hold because of the strike’s impact on […]"
-        },
-        {
-          "source_name": "3News",
-          "title": "KNUST postpones re-opening for 2026/2027 academic year indefinitely over GAUA strike",
-          "url": "https://3news.com/education/knust-postpones-re-opening-for-2026-2027-academic-year-indefinitely-over-gaua-strike",
-          "published_at": "2026-10-11T09:12:40Z",
-          "excerpt": "KNUST has postponed indefinitely its re-opening for the 2026/2027 academic year, set for 13 October, over the ongoing strike by university administrators."
-        },
-        {
-          "source_name": "Adom Online Education",
-          "title": "GAUA strike: University of Ghana postpones reopening for 2026/2027 academic year",
-          "url": "https://www.adomonline.com/gaua-strike-university-of-ghana-postpones-reopening-for-2026-2027-academic-year/",
-          "published_at": "2026-10-11T14:46:22Z",
-          "excerpt": "The University of Ghana has postponed the reopening of the university for the 2026/2027 academic year, which was scheduled for Monday, October 12, 2026. In a notice signed by Professor Gordon A. Awandare, Pro Vice-Chancellor for Academic and Student Affairs on Saturday, October 10, the university’s management said a new date for the reopening would […]"
-        },
-        {
-          "source_name": "3News",
-          "title": "University of Ghana postpones reopening for 2026/2027 academic year",
-          "url": "https://3news.com/education/university-of-ghana-postpones-reopening-for-2026-2027-academic-year",
-          "published_at": "2026-10-12T10:14:14Z",
-          "excerpt": "The University of Ghana has postponed its 2026/2027 academic year reopening, originally set for October 12, 2026, with a new date to be announced soon."
-        }
-      ]
-    },
-    {
       "id": 13,
       "title": "Education Ministry welcomes suspension of teachers’ strike",
       "summary": "Vice President Professor Jane Naana Opoku-Agyemang has expressed optimism that the ongoing strike by teacher unions will be resolved soon, saying negotiations between government and the unions have reached an advanced stage.",
       "category": "examinations",
-      "published_at": "2026-10-12T06:49:14Z",
+      "published_at": "2026-10-12T14:33:28Z",
       "source_count": 3,
       "sources": [
         "3News",
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "image_url": "https://www.adomonline.com/wp-content/uploads/2021/05/59576-Copy.jpg",
-      "rank": 0.8609,
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-06.52.49-1024x603.jpeg",
+      "rank": 0.9523,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -706,6 +654,175 @@
           "url": "https://www.adomonline.com/teachers-to-resume-work-today-after-strike-suspension/",
           "published_at": "2026-10-12T06:49:14Z",
           "excerpt": "Public basic schools across the country are expected to resume academic activities today, Monday, October 12, following the suspension of a nationwide strike by pre-tertiary teacher unions over outstanding allowances and arrears. The resumption is expected to restore classroom teaching and learning after days of disruption caused by the industrial action, which affected public schools […]"
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "Dichemso M/A School teachers go house-to-house to get pupils back to class after strike suspension",
+          "url": "https://www.adomonline.com/dichemso-m-a-school-teachers-go-house-to-house-to-get-pupils-back-to-class-after-strike-suspension/",
+          "published_at": "2026-10-12T14:33:28Z",
+          "excerpt": "The Headmistress of Dichemso M/A School, Helena Amponsah, says teachers are going house-to-house in the Dichemso suburb of Kumasi to encourage pupils to return to the classroom following the suspension of the teachers’ strike. According to her, although teachers reported to school in full on the first day after the suspension, pupil attendance remained low. […]"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "title": "KNUST postpones 2026/2027 academic year reopening indefinitely amid GAUA strike",
+      "summary": "The Kwame Nkrumah University of Science and Technology (KNUST) has postponed the reopening of the 2026/2027 academic year indefinitely due to the ongoing strike by the Ghana Association of University Administrators (GAUA).",
+      "category": "higher_education",
+      "published_at": "2026-10-12T10:14:14Z",
+      "source_count": 3,
+      "sources": [
+        "3News",
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://media.3news.com/UG-2-1200x534.webp",
+      "rank": 0.9042,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "KNUST postpones 2026/2027 academic year reopening indefinitely amid GAUA strike",
+          "url": "https://www.myjoyonline.com/knust-postpones-2026-2027-academic-year-reopening-indefinitely-amid-gaua-strike/",
+          "published_at": "2026-10-09T18:47:09Z",
+          "excerpt": "The Kwame Nkrumah University of Science and Technology (KNUST) has postponed the reopening of the 2026/2027 academic year indefinitely due to the ongoing strike by the Ghana Association of University Administrators (GAUA)."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "KNUST postpones reopening for 2026/2027 academic year indefinitely",
+          "url": "https://www.adomonline.com/knust-postpones-reopening-for-2026-2027-academic-year-indefinitely/",
+          "published_at": "2026-10-09T19:26:53Z",
+          "excerpt": "The Kwame Nkrumah University of Science and Technology (KNUST) has postponed the reopening of the university for the 2026/2027 academic year indefinitely due to the ongoing strike by the Ghana Association of University Administrators (GAUA). The reopening, initially scheduled for Tuesday, October 13, 2026, has been put on hold because of the strike’s impact on […]"
+        },
+        {
+          "source_name": "3News",
+          "title": "KNUST postpones re-opening for 2026/2027 academic year indefinitely over GAUA strike",
+          "url": "https://3news.com/education/knust-postpones-re-opening-for-2026-2027-academic-year-indefinitely-over-gaua-strike",
+          "published_at": "2026-10-11T09:12:40Z",
+          "excerpt": "KNUST has postponed indefinitely its re-opening for the 2026/2027 academic year, set for 13 October, over the ongoing strike by university administrators."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "GAUA strike: University of Ghana postpones reopening for 2026/2027 academic year",
+          "url": "https://www.adomonline.com/gaua-strike-university-of-ghana-postpones-reopening-for-2026-2027-academic-year/",
+          "published_at": "2026-10-11T14:46:22Z",
+          "excerpt": "The University of Ghana has postponed the reopening of the university for the 2026/2027 academic year, which was scheduled for Monday, October 12, 2026. In a notice signed by Professor Gordon A. Awandare, Pro Vice-Chancellor for Academic and Student Affairs on Saturday, October 10, the university’s management said a new date for the reopening would […]"
+        },
+        {
+          "source_name": "3News",
+          "title": "University of Ghana postpones reopening for 2026/2027 academic year",
+          "url": "https://3news.com/education/university-of-ghana-postpones-reopening-for-2026-2027-academic-year",
+          "published_at": "2026-10-12T10:14:14Z",
+          "excerpt": "The University of Ghana has postponed its 2026/2027 academic year reopening, originally set for October 12, 2026, with a new date to be announced soon."
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "title": "National Defence University to strengthen Ghana’s response to emerging security threats – Haruna Iddrisu",
+      "summary": "Education Minister Haruna Iddrisu says the establishment of the National Defence University of Ghana is intended to strengthen the country’s capacity to respond to emerging security threats, including terrorism, cyberattacks, violent extremism and climate-related risks.",
+      "category": "higher_education",
+      "published_at": "2026-10-12T14:20:34Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/gaua-strike-govt-moves-to-protec.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "National Defence University to strengthen Ghana’s response to emerging security threats – Haruna Iddrisu",
+          "url": "https://www.myjoyonline.com/national-defence-university-to-strengthen-ghanas-response-to-emerging-security-threats-haruna-iddrisu/",
+          "published_at": "2026-10-12T14:20:34Z",
+          "excerpt": "Education Minister Haruna Iddrisu says the establishment of the National Defence University of Ghana is intended to strengthen the country’s capacity to respond to emerging security threats, including terrorism, cyberattacks, violent extremism and climate-related risks. He said the changing nature of security threats required highly trained professionals with the intellectual depth and strategic judgement to […]"
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "title": "Haruna Iddrisu hails Ghana’s academic calendar as best in a decade",
+      "summary": "Education Minister Haruna Iddrisu has called for the protection of Ghana’s improved academic calendar, saying the country has not enjoyed such a well-aligned schedule in the past decade.",
+      "category": "policy",
+      "published_at": "2026-10-12T14:26:31Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1200.png",
+      "rank": 0.755,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Haruna Iddrisu hails Ghana’s academic calendar as best in a decade",
+          "url": "https://www.myjoyonline.com/haruna-iddrisu-hails-ghanas-academic-calendar-as-best-in-a-decade/",
+          "published_at": "2026-10-12T14:26:31Z",
+          "excerpt": "Education Minister Haruna Iddrisu has called for the protection of Ghana’s improved academic calendar, saying the country has not enjoyed such a well-aligned schedule in the past decade."
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "title": "Appeals will not end strike, FWSC must negotiate – GAUA General Secretary",
+      "summary": "The General Secretary of the Ghana Association of University Administrators (GAUA), Charles Jojo Aidoo, has insisted that appeals from the Education Minister will not resolve the ongoing strike by university administrators.",
+      "category": "higher_education",
+      "published_at": "2026-10-12T14:27:22Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/charles-862x424-1.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Appeals will not end strike, FWSC must negotiate – GAUA General Secretary",
+          "url": "https://www.myjoyonline.com/appeals-will-not-end-strike-fwsc-must-negotiate-gaua-general-secretary/",
+          "published_at": "2026-10-12T14:27:22Z",
+          "excerpt": "The General Secretary of the Ghana Association of University Administrators (GAUA), Charles Jojo Aidoo, has insisted that appeals from the Education Minister will not resolve the ongoing strike by university administrators."
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "title": "Education Minister Haruna Iddrisu demands merit-based admissions, appointments at Defence University",
+      "summary": "The Minister for Education, Haruna Iddrisu, has charged the governing council of the National Defence University of Ghana to make meritocracy and non-discrimination the basis for student admissions, graduation and staff appointments.",
+      "category": "higher_education",
+      "published_at": "2026-10-12T14:23:41Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/gaua-strike-govt-moves-to-protec-2.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Education Minister Haruna Iddrisu demands merit-based admissions, appointments at Defence University",
+          "url": "https://www.myjoyonline.com/education-minister-haruna-iddrisu-demands-merit-based-admissions-appointments-at-defence-university/",
+          "published_at": "2026-10-12T14:23:41Z",
+          "excerpt": "The Minister for Education, Haruna Iddrisu, has charged the governing council of the National Defence University of Ghana to make meritocracy and non-discrimination the basis for student admissions, graduation and staff appointments. He said the institution must uphold the values of fairness, professionalism and discipline associated with the Ghana Armed Forces as it develops into […]"
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "title": "Pupil arrested after two teachers shot at French school",
+      "summary": "A student has been arrested after a principal and teacher were shot at a school in southernFrance on Monday morning.",
+      "category": "teachers",
+      "published_at": "2026-10-12T14:13:42Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1198.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Pupil arrested after two teachers shot at French school",
+          "url": "https://www.myjoyonline.com/pupil-arrested-after-two-teachers-shot-at-french-school/",
+          "published_at": "2026-10-12T14:13:42Z",
+          "excerpt": "A student has been arrested after a principal and teacher were shot at a school in southernFrance on Monday morning."
         }
       ]
     },
