@@ -44,6 +44,8 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
         publish_snapshot(session, destination)
 
     page = (destination / "index.html").read_text(encoding="utf-8")
+    assert "Edulens360 — Ghana education news" in page
+    assert "Ghana education news" in page
     assert 'data-feed="static"' in page
     assert 'href="manifest.webmanifest"' in page
     assert "/app/" not in page
@@ -52,7 +54,7 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
     assert "data/feed.json" in (destination / "app.js").read_text(encoding="utf-8")
 
     worker = (destination / "sw.js").read_text(encoding="utf-8")
-    assert "ghanaed-phone-2" in worker
+    assert "ghanaed-phone-3" in worker
     assert "./data/feed.json" in worker
 
     manifest = json.loads((destination / "manifest.webmanifest").read_text(encoding="utf-8"))
@@ -79,6 +81,21 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
             assert len(article["excerpt"]) <= 1000
             assert "<" not in article["excerpt"]
 
+    assert strike["path"].startswith(f"story/{strike['id']}/")
+    assert strike["title"] in page
+    assert f'href="{strike["path"]}"' in page
+    story_page = destination / strike["path"] / "index.html"
+    assert story_page.is_file()
+    story_html = story_page.read_text(encoding="utf-8")
+    assert strike["title"] in story_html
+    assert strike["summary"] in story_html
+    assert f'https://edulens360.com/{strike["path"]}' in story_html
+    assert (destination / "robots.txt").read_text(encoding="utf-8").count("sitemap.xml") == 1
+    sitemap = (destination / "sitemap.xml").read_text(encoding="utf-8")
+    assert f"https://edulens360.com/{strike['path']}" in sitemap
+    redirect = (destination / "story" / str(strike["id"]) / "index.html").read_text(encoding="utf-8")
+    assert strike["path"].rsplit("/", 2)[-2] in redirect
+
     story_id = strike["id"]
     edited = client.patch(f"/review/stories/{story_id}", json={"title": "Edited for the phone"})
     assert edited.status_code == 200
@@ -86,6 +103,10 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
         publish_snapshot(session, destination)
     updated = json.loads((destination / "data" / "feed.json").read_text(encoding="utf-8"))
     assert updated["stories"][0]["title"] == "Edited for the phone"
+    edited_path = updated["stories"][0]["path"]
+    assert (destination / edited_path / "index.html").is_file()
+    assert "Edited for the phone" in (destination / "index.html").read_text(encoding="utf-8")
+    assert not (destination / strike["path"]).exists()
 
     for story in updated["stories"]:
         assert client.post(f"/review/stories/{story['id']}/hide").status_code == 200

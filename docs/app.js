@@ -61,6 +61,7 @@ function toggleSaved(story) {
     source_count: story.source_count,
     sources: story.sources || [],
     image_url: story.image_url || null,
+    path: story.path || "",
     articles: (story.articles || []).map((article) => ({
       source_name: article.source_name,
       title: article.title,
@@ -391,11 +392,16 @@ function headline(story) {
   return row;
 }
 
+function storyHref(story) {
+  if (STATIC && story.path) return story.path;
+  return `#/story/${story.id}`;
+}
+
 function storyCard(story) {
   const card = el("article", "story-card");
   card.dataset.id = String(story.id);
   const link = el("a", "story-link");
-  link.href = `#/story/${story.id}`;
+  link.href = storyHref(story);
   const when = formatWhen(story.published_at);
   if (when) link.append(el("p", "kicker", when));
   link.append(headline(story));
@@ -572,7 +578,7 @@ function showFailure(error) {
 
 async function draw() {
   const current = route();
-  document.title = "Edulens360";
+  document.title = "Edulens360 — Ghana education news";
   searchInput.value = current.q || "";
   try {
     if (current.name === "saved") showSaved();
@@ -624,5 +630,12 @@ if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register(STATIC ? "sw.js" : "/app/sw.js").catch(() => {});
 }
 
+function adoptSearchQuery() {
+  const text = (new URLSearchParams(location.search).get("q") || "").trim();
+  if (!text || (location.hash && location.hash !== "#" && location.hash !== "#/")) return;
+  history.replaceState(null, "", `${location.pathname}#/search/${encodeURIComponent(text)}`);
+}
+
+adoptSearchQuery();
 startVisit();
 loadCategories().then(draw);
