@@ -133,6 +133,7 @@ nav button[aria-expanded="true"] { background: var(--green-soft); }
 }
 
 .categories {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem;
@@ -166,6 +167,29 @@ nav button[aria-expanded="true"] { background: var(--green-soft); }
   flex-wrap: wrap;
   gap: 0.45rem;
   width: 100%;
+}
+
+.cat-bar a {
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+.category-menu {
+  position: absolute;
+  z-index: 5;
+}
+
+.category-menu button {
+  min-height: 36px;
+  padding: 0 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.88rem;
+  box-shadow: 0 6px 16px rgba(40, 32, 22, 0.16);
+  cursor: pointer;
 }
 
 .categories button.categories-toggle {

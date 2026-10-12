@@ -215,19 +215,96 @@ function pinCategory(name) {
   localStorage.setItem(PINNED_KEY, JSON.stringify([...pinnedCategories(), name]));
 }
 
+function unpinCategory(name) {
+  localStorage.setItem(PINNED_KEY, JSON.stringify(pinnedCategories().filter((item) => item !== name)));
+}
+
+let removeMenu = null;
+
+function closeRemoveMenu() {
+  if (!removeMenu) return;
+  removeMenu.remove();
+  removeMenu = null;
+}
+
+function showRemoveMenu(anchor, name) {
+  closeRemoveMenu();
+  const menu = el("div", "category-menu");
+  const button = el("button", "", "Remove");
+  button.type = "button";
+  button.addEventListener("click", (event) => {
+    event.preventDefault();
+    unpinCategory(name);
+    closeRemoveMenu();
+    if (route().category === name) {
+      location.hash = "#/";
+      return;
+    }
+    renderCategories(route().category || "");
+  });
+  menu.append(button);
+  categoriesEl.append(menu);
+  const host = categoriesEl.getBoundingClientRect();
+  const box = anchor.getBoundingClientRect();
+  const width = menu.offsetWidth;
+  const left = Math.min(Math.max(0, box.left - host.left), Math.max(0, host.width - width));
+  menu.style.left = `${left}px`;
+  menu.style.top = `${box.bottom - host.top + 6}px`;
+  removeMenu = menu;
+}
+
+function holdToRemove(link, name) {
+  let timer = 0;
+  let held = false;
+  let startX = 0;
+  let startY = 0;
+  const cancel = () => window.clearTimeout(timer);
+  link.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0) return;
+    held = false;
+    startX = event.clientX;
+    startY = event.clientY;
+    cancel();
+    timer = window.setTimeout(() => {
+      held = true;
+      showRemoveMenu(link, name);
+    }, 500);
+  });
+  link.addEventListener("pointermove", (event) => {
+    if (Math.hypot(event.clientX - startX, event.clientY - startY) > 10) cancel();
+  });
+  link.addEventListener("pointerup", cancel);
+  link.addEventListener("pointercancel", cancel);
+  link.addEventListener("click", (event) => {
+    if (!held) return;
+    event.preventDefault();
+    held = false;
+  });
+  link.addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+    showRemoveMenu(link, name);
+  });
+}
+
+document.addEventListener("pointerdown", (event) => {
+  if (removeMenu && !removeMenu.contains(event.target)) closeRemoveMenu();
+});
+
 function visibleCategories() {
   const known = new Set(categoryNames);
   return pinnedCategories().filter((name) => !known.size || known.has(name));
 }
 
-function categoryLink(name, active) {
+function categoryLink(name, active, pinned) {
   const link = el("a", "", label(name));
   link.href = `#/category/${encodeURIComponent(name)}`;
   if (name === active) link.setAttribute("aria-current", "true");
+  if (pinned) holdToRemove(link, name);
   return link;
 }
 
 function renderCategories(active) {
+  closeRemoveMenu();
   clear(categoriesEl);
   const current = route();
   categoriesEl.hidden = current.name === "story";
@@ -248,9 +325,9 @@ function renderCategories(active) {
   const saved = el("a", "", "Saved");
   saved.href = "#/saved";
   if (current.name === "saved") saved.setAttribute("aria-current", "true");
-  bar.append(latest);
-  for (const name of visibleCategories()) bar.append(categoryLink(name, active));
-  bar.append(toggle, saved);
+  bar.append(latest, toggle);
+  for (const name of visibleCategories()) bar.append(categoryLink(name, active, true));
+  bar.append(saved);
   categoriesEl.append(bar);
 
   if (!categoriesExpanded) return;

@@ -27,6 +27,7 @@ def test_reader_page_is_installable(client):
     assert "ghanaed.categories.v1" in script.text
     assert "Saved" in script.text
     assert "Categories" in script.text
+    assert "Remove" in script.text
     assert "card-save" in script.text
     assert "source-mark" in script.text
     assert "card-photo" in script.text
