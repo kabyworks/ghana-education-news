@@ -13,5 +13,12 @@ backend/data/refresh.log
 
 .idea/
 .vscode/
+
+android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
+android/keystore/
+*.jks
 Thumbs.db
 .DS_Store
