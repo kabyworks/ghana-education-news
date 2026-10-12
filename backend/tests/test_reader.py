@@ -24,6 +24,7 @@ def test_reader_page_is_installable(client):
     script = client.get("/app/app.js")
     assert script.status_code == 200
     assert "ghanaed.saved.v1" in script.text
+    assert "ghanaed.categories.v1" in script.text
     assert "Saved" in script.text
     assert "Categories" in script.text
     assert "card-save" in script.text

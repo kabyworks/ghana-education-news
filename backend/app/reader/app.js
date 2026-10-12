@@ -1,4 +1,6 @@
 const SAVED_KEY = "ghanaed.saved.v1";
+const PINNED_KEY = "ghanaed.categories.v1";
+const VISIT_KEY = "ghanaed.visit.v1";
 const PAGE_SIZE = 20;
 
 const CATEGORY_LABELS = {
@@ -199,6 +201,25 @@ function el(tag, className, text) {
   return node;
 }
 
+function pinnedCategories() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(PINNED_KEY) || "[]");
+    return Array.isArray(parsed) ? parsed.filter((name) => typeof name === "string" && name) : [];
+  } catch {
+    return [];
+  }
+}
+
+function pinCategory(name) {
+  if (!name || pinnedCategories().includes(name)) return;
+  localStorage.setItem(PINNED_KEY, JSON.stringify([...pinnedCategories(), name]));
+}
+
+function visibleCategories() {
+  const known = new Set(categoryNames);
+  return pinnedCategories().filter((name) => !known.size || known.has(name));
+}
+
 function categoryLink(name, active) {
   const link = el("a", "", label(name));
   link.href = `#/category/${encodeURIComponent(name)}`;
@@ -216,7 +237,7 @@ function renderCategories(active) {
   const latest = el("a", "", "Latest");
   latest.href = "#/";
   if (current.name === "latest" && !active) latest.setAttribute("aria-current", "true");
-  const toggle = el("button", active ? "categories-toggle is-filtering" : "categories-toggle", "Categories");
+  const toggle = el("button", "categories-toggle", "Categories");
   toggle.type = "button";
   toggle.setAttribute("aria-expanded", categoriesExpanded ? "true" : "false");
   toggle.setAttribute("aria-controls", "category-list");
@@ -227,13 +248,17 @@ function renderCategories(active) {
   const saved = el("a", "", "Saved");
   saved.href = "#/saved";
   if (current.name === "saved") saved.setAttribute("aria-current", "true");
-  bar.append(latest, toggle, saved);
+  bar.append(latest);
+  for (const name of visibleCategories()) bar.append(categoryLink(name, active));
+  bar.append(toggle, saved);
   categoriesEl.append(bar);
 
   if (!categoriesExpanded) return;
+  const hidden = categoryNames.filter((name) => !visibleCategories().includes(name));
+  if (!hidden.length) return;
   const list = el("div", "category-list");
   list.id = "category-list";
-  for (const name of categoryNames) list.append(categoryLink(name, active));
+  for (const name of hidden) list.append(categoryLink(name, active));
   categoriesEl.append(list);
 }
 
@@ -292,7 +317,8 @@ function storyCard(story) {
   card.dataset.id = String(story.id);
   const link = el("a", "story-link");
   link.href = `#/story/${story.id}`;
-  link.append(el("p", "kicker", `${label(story.category)} · ${formatWhen(story.published_at)}`));
+  const when = formatWhen(story.published_at);
+  if (when) link.append(el("p", "kicker", when));
   link.append(headline(story));
   link.append(el("p", "summary", story.summary));
   link.append(cardMeta(story));
@@ -520,7 +546,19 @@ searchForm.addEventListener("submit", (event) => {
   location.hash = query ? `#/search/${encodeURIComponent(query)}` : "#/";
 });
 
+function startVisit() {
+  const returning = !sessionStorage.getItem(VISIT_KEY);
+  sessionStorage.setItem(VISIT_KEY, "1");
+  const current = route();
+  if (returning && current.category) {
+    pinCategory(current.category);
+    history.replaceState(null, "", `${location.pathname}${location.search}#/`);
+  }
+}
+
 window.addEventListener("hashchange", () => {
+  const current = route();
+  if (current.category) pinCategory(current.category);
   draw();
 });
 
@@ -528,4 +566,5 @@ if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register(STATIC ? "sw.js" : "/app/sw.js").catch(() => {});
 }
 
+startVisit();
 loadCategories().then(draw);
