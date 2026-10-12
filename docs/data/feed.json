@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-12T18:10:22Z",
+  "generated_at": "2026-10-12T18:40:24Z",
   "categories": [
+    {
+      "name": "higher_education",
+      "story_count": 56
+    },
     {
       "name": "teachers",
       "story_count": 56
     },
     {
-      "name": "higher_education",
-      "story_count": 55
-    },
-    {
       "name": "basic_schools",
-      "story_count": 24
+      "story_count": 25
     },
     {
       "name": "general",
-      "story_count": 22
+      "story_count": 23
     },
     {
       "name": "policy",
@@ -768,6 +768,50 @@
       ]
     },
     {
+      "id": 177,
+      "title": "GAUA to communicate decision on strike suspension after Tuesday",
+      "summary": "The Ghana Association of University Administrators (GAUA) says it will consult its members on the outcome of talks with the Education Ministry before deciding whether to suspend its two-month-long strike.",
+      "category": "higher_education",
+      "published_at": "2026-10-12T18:30:55Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-20.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GAUA to communicate decision on strike suspension after Tuesday",
+          "url": "https://www.myjoyonline.com/gaua-to-communicate-decision-on-strike-suspension-after-tuesday/",
+          "published_at": "2026-10-12T18:30:55Z",
+          "excerpt": "The Ghana Association of University Administrators (GAUA) says it will consult its members on the outcome of talks with the Education Ministry before deciding whether to suspend its two-month-long strike. The association is expected to communicate its decision after Tuesday, October 13, 2026, although it has not announced a specific date for the consultation. The position follows a meeting on Monday at the Ministry of Education in Accra involving GAUA leadership, the Technical University Senior Administrators Association of Ghana (TUSAAG), the Ghana Tertiary Education Commission (GTEC) and the Education Minister, Haruna Iddrisu."
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "title": "Three-term Amenfi West NDC Secretary eyes Western Regional Deputy Secretary position",
+      "summary": "Mr Oppong possesses a strong academic background, with qualifications spanning public administration, education, political science and political leadership.",
+      "category": "general",
+      "published_at": "2026-10-12T18:26:56Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-12 at 11.36.51-720x562.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Three-term Amenfi West NDC Secretary eyes Western Regional Deputy Secretary position",
+          "url": "https://3news.com/news/three-term-amenfi-west-ndc-secretary-eyes-western-regional-deputy-secretary-position",
+          "published_at": "2026-10-12T18:26:56Z",
+          "excerpt": "Mr Oppong possesses a strong academic background, with qualifications spanning public administration, education, political science and political leadership."
+        }
+      ]
+    },
+    {
       "id": 174,
       "title": "Education Minister urges public universities to prepare for reopening amid GAUA strike",
       "summary": "Education Minister Haruna Iddrisu has asked the Ghana Tertiary Education Commission (GTEC) to direct public universities to communicate their reopening dates by the weekend as government works to resolve the ongoing strike by the Ghana Association of University Administrators (GAUA).",
@@ -786,6 +830,28 @@
           "url": "https://www.adomonline.com/education-minister-urges-public-universities-to-prepare-for-reopening-amid-gaua-strike/",
           "published_at": "2026-10-12T18:02:54Z",
           "excerpt": "Education Minister Haruna Iddrisu has asked the Ghana Tertiary Education Commission (GTEC) to direct public universities to communicate their reopening dates by the weekend as government works to resolve the ongoing strike by the Ghana Association of University Administrators (GAUA). He said he was hopeful that the industrial action would be suspended within days to […]"
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "title": "Fidelity Bank completes 15th School under its Orange Impact Initiative with inauguration of Ogome Anglican Basic School",
+      "summary": "Fidelity Bank Ghana has fulfilled its commitment to build or renovate 15 basic schools in underserved communities across Ghana, inaugurating newly constructed and renovated facilities at Ogome Anglican Basic School in the Yilo Krobo Municipality.",
+      "category": "basic_schools",
+      "published_at": "2026-10-12T16:53:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1221-1024x732.png",
+      "rank": 0.7325,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Fidelity Bank completes 15th School under its Orange Impact Initiative with inauguration of Ogome Anglican Basic School",
+          "url": "https://www.myjoyonline.com/fidelity-bank-completes-15th-school-under-its-orange-impact-initiative-with-inauguration-of-ogome-anglican-basic-school/",
+          "published_at": "2026-10-12T16:53:00Z",
+          "excerpt": "Fidelity Bank Ghana has fulfilled its commitment to build or renovate 15 basic schools in underserved communities across Ghana, inaugurating newly constructed and renovated facilities at Ogome Anglican Basic School in the Yilo Krobo Municipality."
         }
       ]
     },
