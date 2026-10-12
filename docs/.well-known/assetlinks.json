@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.edulens360.app",
+      "sha256_cert_fingerprints": [
+        "2D:5B:AD:C4:3B:D2:CE:CB:0C:5B:E2:16:D8:09:70:EF:CF:FC:C5:2B:C3:55:C9:30:B6:48:0D:4B:81:C9:35:D2"
+      ]
+    }
+  }
+]
