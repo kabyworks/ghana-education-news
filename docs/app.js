@@ -20,8 +20,6 @@ const main = document.querySelector("#main");
 const categoriesEl = document.querySelector("#categories");
 const searchForm = document.querySelector("#search");
 const searchInput = document.querySelector("#search-input");
-const searchToggle = document.querySelector("#search-toggle");
-let searchOpen = false;
 let categoriesExpanded = false;
 
 let categoryNames = [];
@@ -139,9 +137,13 @@ function sourceMark(name) {
   return mark;
 }
 
+function sourceLabel(count) {
+  return count === 1 ? "1 source" : `${count} sources`;
+}
+
 function cardMeta(story) {
   const row = el("p", "meta");
-  row.append(el("span", "", publishers(story.source_count)));
+  row.append(el("span", "", sourceLabel(story.source_count)));
   const names = sourceNames(story);
   if (!names.length) return row;
   const marks = el("span", "source-marks");
@@ -568,18 +570,9 @@ function showFailure(error) {
   renderMessage("The feed is not reachable. Saved stories are still on this device.");
 }
 
-function syncSearch(current) {
-  if (current.name !== "latest") searchOpen = false;
-  const open = searchOpen && current.name === "latest";
-  searchForm.hidden = !open;
-  searchToggle.setAttribute("aria-expanded", open ? "true" : "false");
-  if (open) searchInput.focus();
-}
-
 async function draw() {
   const current = route();
   document.title = "Edulens360";
-  if (current.q) searchOpen = true;
   searchInput.value = current.q || "";
   try {
     if (current.name === "saved") showSaved();
@@ -589,7 +582,6 @@ async function draw() {
     showFailure(error);
     if (current.name === "story") window.scrollTo(0, 0);
   }
-  syncSearch(current);
 }
 
 async function loadCategories() {
@@ -605,17 +597,6 @@ async function loadCategories() {
     categoryNames = [];
   }
 }
-
-searchToggle.addEventListener("click", () => {
-  const current = route();
-  if (current.name !== "latest") {
-    searchOpen = true;
-    location.hash = "#/";
-    return;
-  }
-  searchOpen = !searchOpen;
-  syncSearch(current);
-});
 
 searchForm.addEventListener("submit", (event) => {
   event.preventDefault();

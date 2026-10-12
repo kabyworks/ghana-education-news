@@ -9,6 +9,7 @@ def test_reader_page_is_installable(client):
     assert "text/html" in page.headers["content-type"]
     assert "Edulens360" in page.text
     assert 'href="/app/manifest.webmanifest"' in page.text
+    assert '<form id="search" role="search">' in page.text
     assert "Search" in page.text
 
     manifest = client.get("/app/manifest.webmanifest")
@@ -31,6 +32,7 @@ def test_reader_page_is_installable(client):
     assert "card-save" in script.text
     assert "source-mark" in script.text
     assert "card-photo" in script.text
+    assert "1 source" in script.text
     assert "/feed" in script.text
 
     worker = client.get("/app/sw.js")
