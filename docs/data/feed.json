@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-13T11:10:08Z",
+  "generated_at": "2026-10-13T11:40:14Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 60
+      "story_count": 61
     },
     {
       "name": "teachers",
       "story_count": 59
     },
     {
-      "name": "general",
+      "name": "basic_schools",
       "story_count": 26
     },
     {
-      "name": "basic_schools",
-      "story_count": 25
+      "name": "general",
+      "story_count": 26
     },
     {
       "name": "policy",
@@ -36,15 +36,15 @@
       "title": "Education Ministry welcomes suspension of teachers’ strike",
       "summary": "Vice President Professor Jane Naana Opoku-Agyemang has expressed optimism that the ongoing strike by teacher unions will be resolved soon, saying negotiations between government and the unions have reached an advanced stage.",
       "category": "examinations",
-      "published_at": "2026-10-13T04:46:19Z",
+      "published_at": "2026-10-13T11:10:13Z",
       "source_count": 3,
       "sources": [
         "3News",
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-13-at-4.31.02-AM-1024x594.png",
-      "rank": 0.8713,
+      "image_url": "https://media.3news.com/strike-1-600x400.webp",
+      "rank": 0.9524,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -675,6 +675,13 @@
           "url": "https://www.myjoyonline.com/greater-accra-teachers-resume-work-after-strike-suspension/",
           "published_at": "2026-10-13T04:46:19Z",
           "excerpt": "Public pre-tertiary school teachers in the Greater Accra Region have resumed teaching following the suspension of a two-week nationwide strike over outstanding allowances and promotion arrears."
+        },
+        {
+          "source_name": "3News",
+          "title": "Teachers’ Strike: Offinso North MP pushes for learning recovery plan",
+          "url": "https://3news.com/news/teachers-strike-offinso-north-mp-pushes-for-learning-recovery-plan",
+          "published_at": "2026-10-13T11:10:13Z",
+          "excerpt": "“There should be a learning recovery plan from the government to aid the students so that what the schools have lost, we can recover,” he said."
         }
       ],
       "path": "story/13/education-ministry-welcomes-suspension-of-teachers-strike/"
@@ -709,6 +716,29 @@
         }
       ],
       "path": "story/180/education-minister-inaugurates-ndu-governing-council-announces-25m-seed-funding/"
+    },
+    {
+      "id": 190,
+      "title": "GAUA strike disrupts academic plans at University of Ghana as students, parents express frustration",
+      "summary": "The ongoing strike by the Ghana Association of University Administrators (GAUA) is disrupting academic activities at the University of Ghana, with students and parents expressing frustration over the uncertainty surrounding the start of the new academic year.",
+      "category": "higher_education",
+      "published_at": "2026-10-13T11:19:49Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1298.png",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GAUA strike disrupts academic plans at University of Ghana as students, parents express frustration",
+          "url": "https://www.myjoyonline.com/gaua-strike-disrupts-academic-plans-at-university-of-ghana-as-students-parents-express-frustration/",
+          "published_at": "2026-10-13T11:19:49Z",
+          "excerpt": "The ongoing strike by the Ghana Association of University Administrators (GAUA) is disrupting academic activities at the University of Ghana, with students and parents expressing frustration over the uncertainty surrounding the start of the new academic year."
+        }
+      ],
+      "path": "story/190/gaua-strike-disrupts-academic-plans-at-university-of-ghana-as-students-parents/"
     },
     {
       "id": 187,
@@ -755,6 +785,29 @@
         }
       ],
       "path": "story/186/education-is-critical-to-ghanas-future-and-development-haruna-iddrisu/"
+    },
+    {
+      "id": 189,
+      "title": "Mahama approves Integrated Basic Education Model, with funding expected in 2027 under GETFund formula",
+      "summary": "Education Minister Haruna Iddrisu says President John Dramani Mahama has approved plans to introduce an Integrated Basic Education Model that will bring kindergarten, primary and junior high school education together within a single school environment.",
+      "category": "basic_schools",
+      "published_at": "2026-10-13T11:10:09Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Haruna-Iddrisu.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Mahama approves Integrated Basic Education Model, with funding expected in 2027 under GETFund formula",
+          "url": "https://www.myjoyonline.com/mahama-approves-integrated-basic-education-model-with-funding-expected-in-2027-under-getfund-formula/",
+          "published_at": "2026-10-13T11:10:09Z",
+          "excerpt": "Education Minister Haruna Iddrisu says President John Dramani Mahama has approved plans to introduce an Integrated Basic Education Model that will bring kindergarten, primary and junior high school education together within a single school environment."
+        }
+      ],
+      "path": "story/189/mahama-approves-integrated-basic-education-model-with-funding-expected-in-2027/"
     },
     {
       "id": 188,
