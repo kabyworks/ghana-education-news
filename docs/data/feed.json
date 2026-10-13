@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-13T14:10:12Z",
+  "generated_at": "2026-10-13T14:40:13Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 61
+      "story_count": 62
     },
     {
       "name": "teachers",
@@ -723,6 +723,29 @@
         }
       ],
       "path": "story/180/education-minister-inaugurates-ndu-governing-council-announces-25m-seed-funding/"
+    },
+    {
+      "id": 192,
+      "title": "USTED dean warns GAUA strike could disrupt Ghana’s restored academic calendar",
+      "summary": "The Dean of the Faculty of Applied Sciences and Mathematics Education at the University of Skills Training and Entrepreneurial Development (USTED), Prof.",
+      "category": "higher_education",
+      "published_at": "2026-10-13T14:21:04Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1311-1024x569.png",
+      "rank": 0.755,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "USTED dean warns GAUA strike could disrupt Ghana’s restored academic calendar",
+          "url": "https://www.myjoyonline.com/usted-dean-warns-gaua-strike-could-disrupt-ghanas-restored-academic-calendar/",
+          "published_at": "2026-10-13T14:21:04Z",
+          "excerpt": "The Dean of the Faculty of Applied Sciences and Mathematics Education at the University of Skills Training and Entrepreneurial Development (USTED), Prof. Yarhands Dissou Arthur, has made a passionate appeal to the government to urgently address the concerns of the striking Ghana Association of University Administrators (GAUA)."
+        }
+      ],
+      "path": "story/192/usted-dean-warns-gaua-strike-could-disrupt-ghanas-restored-academic-calendar/"
     },
     {
       "id": 191,
