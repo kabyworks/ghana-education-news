@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-13T15:10:13Z",
+  "generated_at": "2026-10-13T15:56:23Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 62
+      "story_count": 63
     },
     {
       "name": "teachers",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 26
+      "story_count": 27
     },
     {
       "name": "general",
@@ -723,6 +723,52 @@
         }
       ],
       "path": "story/180/education-minister-inaugurates-ndu-governing-council-announces-25m-seed-funding/"
+    },
+    {
+      "id": 194,
+      "title": "UPSA students lament high fees at private hostels, call for government intervention",
+      "summary": "Students living around the University of Professional Studies, Accra (UPSA), are expressing concern over the rising cost of accommodation, particularly at private hostels, and are calling on the government to intervene to make housing more affordable.",
+      "category": "higher_education",
+      "published_at": "2026-10-13T15:46:38Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/02/UPSA.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "UPSA students lament high fees at private hostels, call for government intervention",
+          "url": "https://www.myjoyonline.com/upsa-students-lament-high-fees-at-private-hostels-call-for-government-intervention/",
+          "published_at": "2026-10-13T15:46:38Z",
+          "excerpt": "Students living around the University of Professional Studies, Accra (UPSA), are expressing concern over the rising cost of accommodation, particularly at private hostels, and are calling on the government to intervene to make housing more affordable."
+        }
+      ],
+      "path": "story/194/upsa-students-lament-high-fees-at-private-hostels-call-for-government/"
+    },
+    {
+      "id": 193,
+      "title": "Old students of Peki SHS break ground to give 70-year-old school infrastructure a facelift",
+      "summary": "One of the oldest secondary schools in the country is the Peki Secondary School in the South Dayi District of the Volta Region.",
+      "category": "basic_schools",
+      "published_at": "2026-10-13T15:22:22Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1326-1024x1024.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Old students of Peki SHS break ground to give 70-year-old school infrastructure a facelift",
+          "url": "https://www.myjoyonline.com/old-students-of-peki-shs-break-ground-to-give-70-year-old-school-infrastructure-a-facelift/",
+          "published_at": "2026-10-13T15:22:22Z",
+          "excerpt": "One of the oldest secondary schools in the country is the Peki Secondary School in the South Dayi District of the Volta Region."
+        }
+      ],
+      "path": "story/193/old-students-of-peki-shs-break-ground-to-give-70-year-old-school-infrastructure/"
     },
     {
       "id": 192,
