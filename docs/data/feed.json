@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T20:10:45Z",
+  "generated_at": "2026-10-14T20:40:16Z",
   "categories": [
     {
       "name": "higher_education",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 27
+      "story_count": 28
     },
     {
       "name": "policy",
@@ -759,6 +759,29 @@
         }
       ],
       "path": "story/13/education-ministry-welcomes-suspension-of-teachers-strike/"
+    },
+    {
+      "id": 221,
+      "title": "GES asks applicants to check status of 2026 promotion applications on October 15",
+      "summary": "The Ghana Education Service (GES) has directed all eligible applicants in its 2026 promotion exercise to check the status of their applications on Thursday, October 15, 2026.",
+      "category": "general",
+      "published_at": "2026-10-14T20:19:26Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/teachers.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GES asks applicants to check status of 2026 promotion applications on October 15",
+          "url": "https://www.myjoyonline.com/ges-asks-applicants-to-check-status-of-2026-promotion-applications-on-october-15/",
+          "published_at": "2026-10-14T20:19:26Z",
+          "excerpt": "The Ghana Education Service (GES) has directed all eligible applicants in its 2026 promotion exercise to check the status of their applications on Thursday, October 15, 2026."
+        }
+      ],
+      "path": "story/221/ges-asks-applicants-to-check-status-of-2026-promotion-applications-on-october-15/"
     },
     {
       "id": 219,
