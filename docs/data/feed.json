@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-14T19:10:27Z",
+  "generated_at": "2026-10-14T19:50:31Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 70
+      "story_count": 72
     },
     {
       "name": "teachers",
@@ -11,11 +11,11 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 36
+      "story_count": 37
     },
     {
       "name": "general",
-      "story_count": 26
+      "story_count": 27
     },
     {
       "name": "policy",
@@ -761,6 +761,52 @@
       "path": "story/13/education-ministry-welcomes-suspension-of-teachers-strike/"
     },
     {
+      "id": 219,
+      "title": "Surviving campus: Top 5 tips for first-year university students in Ghana",
+      "summary": "Starting university? Here are 5 essential tips every fresher needs to know about handling freedom, studies, friendships, and campus opportunities.",
+      "category": "higher_education",
+      "published_at": "2026-10-14T19:44:34Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/Screenshot 2026-10-14 at 7.37.07 PM-1200x1350.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Surviving campus: Top 5 tips for first-year university students in Ghana",
+          "url": "https://3news.com/education/surviving-campus-top-5-tips-for-first-year-university-students-in-ghana",
+          "published_at": "2026-10-14T19:44:34Z",
+          "excerpt": "Starting university? Here are 5 essential tips every fresher needs to know about handling freedom, studies, friendships, and campus opportunities."
+        }
+      ],
+      "path": "story/219/surviving-campus-top-5-tips-for-first-year-university-students-in-ghana/"
+    },
+    {
+      "id": 217,
+      "title": "Four University of Ghana unions demand halt to campus security outsourcing",
+      "summary": "Four labour unions at the University of Ghana are demanding an immediate halt to plans to outsource campus security services to a private firm, Possibility Security.",
+      "category": "higher_education",
+      "published_at": "2026-10-14T19:14:56Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/TEWU-1200x671.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Four University of Ghana unions demand halt to campus security outsourcing",
+          "url": "https://3news.com/education/four-university-of-ghana-unions-demand-halt-to-campus-security-outsourcing",
+          "published_at": "2026-10-14T19:14:56Z",
+          "excerpt": "Four labour unions at the University of Ghana are demanding an immediate halt to plans to outsource campus security services to a private firm, Possibility Security."
+        }
+      ],
+      "path": "story/217/four-university-of-ghana-unions-demand-halt-to-campus-security-outsourcing/"
+    },
+    {
       "id": 197,
       "title": "GTEC directs Ghana’s public universities to reopen by October 16 and begin lectures on October 19",
       "summary": "The Ghana Tertiary Education Commission (GTEC) has directed all public universities to reopen their campuses for the 2026/2027 academic year by Friday, October 16, despite any earlier decisions to postpone reopening. In a letter dated October 13, 2026, and signed by Deputy Director-General Prof.",
@@ -790,6 +836,29 @@
         }
       ],
       "path": "story/197/gtec-directs-ghanas-public-universities-to-reopen-by-october-16-and-begin/"
+    },
+    {
+      "id": 218,
+      "title": "Caveman Watches partners with Mfantsipim School for 150th anniversary",
+      "summary": "Ghanaian watch brand Caveman Watches has partnered with Mfantsipim School to mark the institution’s 150th anniversary, celebrating its history of academic excellence, leadership and service.",
+      "category": "general",
+      "published_at": "2026-10-14T19:40:27Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-19.27.05-1024x675.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Caveman Watches partners with Mfantsipim School for 150th anniversary",
+          "url": "https://www.myjoyonline.com/caveman-watches-partners-with-mfantsipim-school-for-150th-anniversary/",
+          "published_at": "2026-10-14T19:40:27Z",
+          "excerpt": "Ghanaian watch brand Caveman Watches has partnered with Mfantsipim School to mark the institution’s 150th anniversary, celebrating its history of academic excellence, leadership and service. The partnership brings together the Accra-based watchmaker and the Cape Coast school, which was established in 1876 and is marking 150 years of educating generations of students who have contributed to Ghana and beyond. In a press release dated October 14, 2026, Caveman Watches said the collaboration reflects a shared appreciation for heritage, precision, excellence and lasting impact."
+        }
+      ],
+      "path": "story/218/caveman-watches-partners-with-mfantsipim-school-for-150th-anniversary/"
     },
     {
       "id": 215,
@@ -1027,6 +1096,29 @@
         }
       ],
       "path": "story/206/nacoc-educates-450-koforidua-shs-students-on-dangers-of-drug-abuse/"
+    },
+    {
+      "id": 216,
+      "title": "Mfantsipim’s Musical memory gets a new lease of life in 150th Anniversary anthology",
+      "summary": "For 150 years, Mfantsipim School has built a legacy that extends beyond its classrooms. Its songs and hymns have accompanied generations of students, marked institutional milestones and preserved memories of people who helped shape its history.",
+      "category": "basic_schools",
+      "published_at": "2026-10-14T15:09:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-14.40.17-2-1024x665.jpeg",
+      "rank": 0.6959,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Mfantsipim’s Musical memory gets a new lease of life in 150th Anniversary anthology",
+          "url": "https://www.myjoyonline.com/mfantsipims-musical-memory-gets-a-new-lease-of-life-in-150th-anniversary-anthology/",
+          "published_at": "2026-10-14T15:09:00Z",
+          "excerpt": "For 150 years, Mfantsipim School has built a legacy that extends beyond its classrooms. Its songs and hymns have accompanied generations of students, marked institutional milestones and preserved memories of people who helped shape its history. Now, the Mfantsipim Old Boys Association (MOBA) has brought many of those compositions together in a 14-track collection, the Mfantsipim Sesquicentennial Anthology, launched as part of the school’s 150th anniversary celebrations. The project, recorded and produced by lawyer Ace Anan Ankomah (MOBA ’84) and sound engineer Herbert Ebenezer Crassie, combines new recordings with the reconstruction of historic works, some of which required painstaking research and recollection. Its origins were modest."
+        }
+      ],
+      "path": "story/216/mfantsipims-musical-memory-gets-a-new-lease-of-life-in-150th-anniversary/"
     },
     {
       "id": 207,
