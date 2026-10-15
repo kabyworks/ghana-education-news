@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T12:10:15Z",
+  "generated_at": "2026-10-15T12:40:10Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 38
+      "story_count": 39
     },
     {
       "name": "general",
@@ -90,6 +90,29 @@
         }
       ],
       "path": "story/131/knust-postpones-reopening-for-2026-2027-academic-year-indefinitely/"
+    },
+    {
+      "id": 228,
+      "title": "Obuasi SHTS: Number of students alleging sexual abuse rises to 16",
+      "summary": "JoyNews Investigative journalist Manasseh Azure Awuni says the number of female students alleging sexual abuse by the headmaster of Obuasi Senior High Technical School rose from 14 to 16 during his investigation.",
+      "category": "basic_schools",
+      "published_at": "2026-10-15T12:19:23Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/threats-victim-blaming-more-how-.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS: Number of students alleging sexual abuse rises to 16",
+          "url": "https://www.myjoyonline.com/obuasi-shts-number-of-students-alleging-sexual-abuse-rises-to-16/",
+          "published_at": "2026-10-15T12:19:23Z",
+          "excerpt": "JoyNews Investigative journalist Manasseh Azure Awuni says the number of female students alleging sexual abuse by the headmaster of Obuasi Senior High Technical School rose from 14 to 16 during his investigation."
+        }
+      ],
+      "path": "story/228/obuasi-shts-number-of-students-alleging-sexual-abuse-rises-to-16/"
     },
     {
       "id": 13,
