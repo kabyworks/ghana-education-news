@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:10:22Z",
+  "generated_at": "2026-10-15T15:40:18Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,11 +11,11 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 42
+      "story_count": 43
     },
     {
       "name": "general",
-      "story_count": 29
+      "story_count": 31
     },
     {
       "name": "policy",
@@ -68,6 +68,75 @@
         }
       ],
       "path": "story/235/ges-recommended-reposting-of-obuasi-shts-headmaster-after-august-2026-campus/"
+    },
+    {
+      "id": 239,
+      "title": "GloMeF CEO urges intensified public education on new road traffic regulations",
+      "summary": "The Chief Executive Officer of the Global Media Foundation (GloMeF), Raphael Godlove, has called for intensified public education on the new Road Traffic Regulations 2026 (L.I. 2519).",
+      "category": "general",
+      "published_at": "2026-10-15T15:38:32Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Social-NGO-Regulation-e1792077647927-1024x712.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GloMeF CEO urges intensified public education on new road traffic regulations",
+          "url": "https://www.myjoyonline.com/glomef-ceo-urges-intensified-public-education-on-new-road-traffic-regulations/",
+          "published_at": "2026-10-15T15:38:32Z",
+          "excerpt": "The Chief Executive Officer of the Global Media Foundation (GloMeF), Raphael Godlove, has called for intensified public education on the new Road Traffic Regulations 2026 (L.I. 2519)."
+        }
+      ],
+      "path": "story/239/glomef-ceo-urges-intensified-public-education-on-new-road-traffic-regulations/"
+    },
+    {
+      "id": 238,
+      "title": "Akim Swedru MP opposes ChatGPT tax, says it threatens education and innovation",
+      "summary": "The Member of Parliament for Akim Swedru, Kennedy Osei Nyarko, has opposed calls to introduce a tax on ChatGPT, arguing that such a move could undermine education and innovation.",
+      "category": "general",
+      "published_at": "2026-10-15T15:35:04Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-2.00.11-PM-e1792077665799.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Akim Swedru MP opposes ChatGPT tax, says it threatens education and innovation",
+          "url": "https://www.myjoyonline.com/akim-swedru-mp-opposes-chatgpt-tax-says-it-threatens-education-and-innovation/",
+          "published_at": "2026-10-15T15:35:04Z",
+          "excerpt": "The Member of Parliament for Akim Swedru, Kennedy Osei Nyarko, has opposed calls to introduce a tax on ChatGPT, arguing that such a move could undermine education and innovation."
+        }
+      ],
+      "path": "story/238/akim-swedru-mp-opposes-chatgpt-tax-says-it-threatens-education-and-innovation/"
+    },
+    {
+      "id": 237,
+      "title": "Obuasi SHTS sexual abuse scandal exposes systemic failure in child protection – Moving Masculinity",
+      "summary": "Creator of Moving Masculinity, Esther Amarh, has described the alleged sexual abuse of female students at Obuasi Senior High Technical School as evidence of a systemic failure in Ghana’s child protection system.",
+      "category": "basic_schools",
+      "published_at": "2026-10-15T15:34:26Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/esther-1.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS sexual abuse scandal exposes systemic failure in child protection – Moving Masculinity",
+          "url": "https://www.myjoyonline.com/obuasi-shts-sexual-abuse-scandal-exposes-systemic-failure-in-child-protection-moving-masculinity/",
+          "published_at": "2026-10-15T15:34:26Z",
+          "excerpt": "Creator of Moving Masculinity, Esther Amarh, has described the alleged sexual abuse of female students at Obuasi Senior High Technical School as evidence of a systemic failure in Ghana’s child protection system."
+        }
+      ],
+      "path": "story/237/obuasi-shts-sexual-abuse-scandal-exposes-systemic-failure-in-child-protection/"
     },
     {
       "id": 236,
