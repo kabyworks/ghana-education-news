@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T20:10:16Z",
+  "generated_at": "2026-10-15T20:40:18Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 80
+      "story_count": 81
     },
     {
       "name": "teachers",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 47
+      "story_count": 48
     },
     {
       "name": "general",
@@ -61,6 +61,44 @@
         }
       ],
       "path": "story/247/ges-declares-october-30-cpd-day-for-private-school-teachers-learners-to-observe/"
+    },
+    {
+      "id": 254,
+      "title": "Parliament’s Human Rights Committee demands swift justice in Obuasi SHTS sexual abuse case",
+      "summary": "Parliament’s Committee on Human Rights has called for swift justice in the alleged sexual abuse case at Obuasi Senior High Technical School (SHTS), urging authorities to ensure accountability and strengthen safeguards for students.",
+      "category": "basic_schools",
+      "published_at": "2026-10-15T20:36:17Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/images-1.jpg",
+      "rank": 0.849,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "‘Protect Our Children’ – Parliament’s Human Rights Committee demands swift justice in Obuasi SHTS case",
+          "url": "https://www.myjoyonline.com/protect-our-children-parliaments-human-rights-committee-demands-swift-justice-in-obuasi-shts-case/",
+          "published_at": "2026-10-15T20:04:15Z",
+          "excerpt": "Parliament’s Committee on Human Rights has called for swift justice in the alleged sexual abuse case at Obuasi Senior High Technical School (SHTS), urging authorities to ensure accountability and strengthen safeguards for students. In a statement issued on Thursday, October 15, the Committee said it had taken note of a JoyNews investigation detailing allegations of sexual abuse at the school and the subsequent suspension of its headmaster, Zakaria Abdulali. The Committee condemned the alleged conduct and said it was monitoring the investigation and prosecution of the case as part of its parliamentary oversight responsibilities."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Parliament’s Human Rights Committee demands swift justice in Obuasi SHTS sexual abuse case",
+          "url": "https://www.myjoyonline.com/parliaments-human-rights-committee-demands-swift-justice-in-obuasi-shts-sexual-abuse-case/",
+          "published_at": "2026-10-15T20:04:15Z",
+          "excerpt": "Parliament’s Committee on Human Rights has called for swift justice in the alleged sexual abuse case at Obuasi Senior High Technical School (SHTS), urging authorities to ensure accountability and strengthen safeguards for students. In a statement issued on Thursday, October 15, the Committee said it had taken note of a JoyNews investigation detailing allegations of sexual abuse at the school and the subsequent suspension of its headmaster, Zakaria Abdulali. The Committee condemned the alleged conduct and said it was monitoring the investigation and prosecution of the case as part of its parliamentary oversight responsibilities."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "Parliament’s Human Rights Committee condemns alleged sexual abuse at Obuasi SHTS",
+          "url": "https://www.adomonline.com/parliaments-human-rights-committee-condemns-alleged-sexual-abuse-at-obuasi-shts/",
+          "published_at": "2026-10-15T20:36:17Z",
+          "excerpt": "The Parliamentary Committee on Human Rights has condemned allegations of sexual abuse at Obuasi Senior High Technical School (SHTS), calling for the speedy prosecution of the case and the maximum sentence if the accused is found guilty. In a statement signed by the Kumawu Member of Parliament and Chairman of the Committee on Human Rights, […]"
+        }
+      ],
+      "path": "story/254/parliaments-human-rights-committee-demands-swift-justice-in-obuasi-shts-sexual/"
     },
     {
       "id": 244,
@@ -163,27 +201,50 @@
       "path": "story/241/teach-consent-and-sexual-boundaries-from-pre-school-to-prevent-abuse-gender/"
     },
     {
-      "id": 254,
-      "title": "‘Protect Our Children’ – Parliament’s Human Rights Committee demands swift justice in Obuasi SHTS case",
-      "summary": "Parliament’s Committee on Human Rights has called for swift justice in the alleged sexual abuse case at Obuasi Senior High Technical School (SHTS), urging authorities to ensure accountability and strengthen safeguards for students.",
-      "category": "basic_schools",
-      "published_at": "2026-10-15T20:04:15Z",
+      "id": 255,
+      "title": "Ghana Russia Centre signs ICT cooperation agreement with Moscow University",
+      "summary": "The Ghana Russia Centre for Commerce and Relations has signed a cooperation agreement with the Moscow Technical University of Communications and Informatics (MTUCI) to explore partnerships in digital technology, education and professional development.",
+      "category": "higher_education",
+      "published_at": "2026-10-15T20:20:03Z",
       "source_count": 1,
       "sources": [
         "MyJoyOnline Education"
       ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/obuasisectech-1.jpg",
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-5.13.22-PM-1024x682.jpeg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ghana Russia Centre signs ICT cooperation agreement with Moscow University",
+          "url": "https://www.myjoyonline.com/ghana-russia-centre-signs-ict-cooperation-agreement-with-moscow-university/",
+          "published_at": "2026-10-15T20:20:03Z",
+          "excerpt": "The Ghana Russia Centre for Commerce and Relations has signed a cooperation agreement with the Moscow Technical University of Communications and Informatics (MTUCI) to explore partnerships in digital technology, education and professional development."
+        }
+      ],
+      "path": "story/255/ghana-russia-centre-signs-ict-cooperation-agreement-with-moscow-university/"
+    },
+    {
+      "id": 256,
+      "title": "Engage Now Africa to construct a 10-unit classroom block for struggling Navrongo Vocational Training Centre",
+      "summary": "Students of the Navrongo Vocational Training Centre, also known as the Technology Solutions Centre, in the Kassena-Nankana Municipality of the Upper East Region, are studying under difficult conditions due to inadequate infrastructure.",
+      "category": "basic_schools",
+      "published_at": "2026-10-15T20:28:50Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1551-1024x576.png",
       "rank": 0.749,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
-          "title": "‘Protect Our Children’ – Parliament’s Human Rights Committee demands swift justice in Obuasi SHTS case",
-          "url": "https://www.myjoyonline.com/protect-our-children-parliaments-human-rights-committee-demands-swift-justice-in-obuasi-shts-case/",
-          "published_at": "2026-10-15T20:04:15Z",
-          "excerpt": "Parliament’s Committee on Human Rights has called for swift justice in the alleged sexual abuse case at Obuasi Senior High Technical School (SHTS), urging authorities to ensure accountability and strengthen safeguards for students. In a statement issued on Thursday, October 15, the Committee said it had taken note of a JoyNews investigation detailing allegations of sexual abuse at the school and the subsequent suspension of its headmaster, Zakaria Abdulali. The Committee condemned the alleged conduct and said it was monitoring the investigation and prosecution of the case as part of its parliamentary oversight responsibilities."
+          "title": "Engage Now Africa to construct a 10-unit classroom block for struggling Navrongo Vocational Training Centre",
+          "url": "https://www.myjoyonline.com/engage-now-africa-to-construct-a-10-unit-classroom-block-for-struggling-navrongo-vocational-training-centre/",
+          "published_at": "2026-10-15T20:28:50Z",
+          "excerpt": "Students of the Navrongo Vocational Training Centre, also known as the Technology Solutions Centre, in the Kassena-Nankana Municipality of the Upper East Region, are studying under difficult conditions due to inadequate infrastructure."
         }
       ],
-      "path": "story/254/protect-our-children-parliaments-human-rights-committee-demands-swift-justice/"
+      "path": "story/256/engage-now-africa-to-construct-a-10-unit-classroom-block-for-struggling/"
     },
     {
       "id": 249,
