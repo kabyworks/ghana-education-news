@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:10:18Z",
+  "generated_at": "2026-10-15T19:40:24Z",
   "categories": [
     {
       "name": "higher_education",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 36
+      "story_count": 37
     },
     {
       "name": "policy",
@@ -184,6 +184,29 @@
         }
       ],
       "path": "story/249/gnecc-calls-for-stronger-child-protection-in-schools-backs-education-ministers/"
+    },
+    {
+      "id": 253,
+      "title": "PZ Cussons Ghana promotes hand washing among schoolchildren through Camel campaign",
+      "summary": "Z Cussons Ghana Limited is promoting hand-washing education among schoolchildren, saying habits developed early in life can help prevent infections and improve public health.",
+      "category": "general",
+      "published_at": "2026-10-15T19:18:14Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-15-201135-1024x461.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "PZ Cussons Ghana promotes hand washing among schoolchildren through Camel campaign",
+          "url": "https://www.myjoyonline.com/pz-cussons-ghana-promotes-hand-washing-among-schoolchildren-through-camel-campaign/",
+          "published_at": "2026-10-15T19:18:14Z",
+          "excerpt": "Z Cussons Ghana Limited is promoting hand-washing education among schoolchildren, saying habits developed early in life can help prevent infections and improve public health. The company used its Camel brand to educate pupils at Christ the King School on proper hand-washing techniques as part of activities marking Global Handwashing Day. The engagement featured practical demonstrations and interactive sessions aimed at helping pupils understand the importance of washing their hands with soap and making the practice part of their daily routines."
+        }
+      ],
+      "path": "story/253/pz-cussons-ghana-promotes-hand-washing-among-schoolchildren-through-camel/"
     },
     {
       "id": 252,
