@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:10:12Z",
+  "generated_at": "2026-10-15T14:40:19Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 41
+      "story_count": 42
     },
     {
       "name": "general",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 235,
+      "title": "GES recommended reposting of Obuasi SHTS headmaster after August 2026 campus riot",
+      "summary": "The Ghana Education Service (GES) has recommended that the headmaster of Obuasi Senior High Technical School (SHTS), Abdulai Zakaria, and other staff implicated in a violent campus disturbance be reposted to different institutions or duty stations.",
+      "category": "basic_schools",
+      "published_at": "2026-10-15T14:22:24Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1518.png",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GES recommended reposting of Obuasi SHTS headmaster after August 2026 campus riot",
+          "url": "https://www.myjoyonline.com/ges-recommended-reposting-of-obuasi-shts-headmaster-after-august-2026-campus-riot/",
+          "published_at": "2026-10-15T14:22:24Z",
+          "excerpt": "The Ghana Education Service (GES) has recommended that the headmaster of Obuasi Senior High Technical School (SHTS), Abdulai Zakaria, and other staff implicated in a violent campus disturbance be reposted to different institutions or duty stations. The recommendation follows a committee’s investigation into the August 5, 2026, riot during which some students attacked the headmaster and vandalised property at his bungalow. Deputy Director-General of GES in charge of Quality and Access, Dr Issahaque Munawaru, disclosed the recommendation in a radio interview on Joy FM on Thursday, October 15, 2026. He said the committee’s report reached GES headquarters the previous week and that the Director-General had assigned officials to review its findings."
+        }
+      ],
+      "path": "story/235/ges-recommended-reposting-of-obuasi-shts-headmaster-after-august-2026-campus/"
+    },
     {
       "id": 231,
       "title": "Pay attention to teachers and give them what is due – Ho District GNAT tells government",
