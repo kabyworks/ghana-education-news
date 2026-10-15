@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T16:10:15Z",
+  "generated_at": "2026-10-15T16:40:18Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 43
+      "story_count": 44
     },
     {
       "name": "general",
@@ -68,6 +68,37 @@
         }
       ],
       "path": "story/235/ges-recommended-reposting-of-obuasi-shts-headmaster-after-august-2026-campus/"
+    },
+    {
+      "id": 241,
+      "title": "Teach consent and sexual boundaries from pre-school to prevent abuse – Gender advocate",
+      "summary": "Educator and gender advocate, Dr Abena Nyarkoa, has called for education on sexual consent from the basic school level to help combat sexual abuse in schools.",
+      "category": "basic_schools",
+      "published_at": "2026-10-15T16:19:03Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/abena-nyarkoa-1024x538.jpeg",
+      "rank": 0.849,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Teach consent and sexual boundaries from pre-school to prevent abuse – Gender advocate",
+          "url": "https://www.myjoyonline.com/teach-consent-and-sexual-boundaries-from-pre-school-to-prevent-abuse-gender-advocate/",
+          "published_at": "2026-10-15T16:11:08Z",
+          "excerpt": "Educator and gender advocate, Dr Abena Nyarkoa, has called for education on sexual consent from the basic school level to help combat sexual abuse in schools."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "Teach consent and sexual boundaries from pre-school to prevent abuse – Gender advocate",
+          "url": "https://www.adomonline.com/teach-consent-and-sexual-boundaries-from-pre-school-to-prevent-abuse-gender-advocate/",
+          "published_at": "2026-10-15T16:19:03Z",
+          "excerpt": "Educator and gender advocate, Dr Abena Nyarkoa, has called for education on sexual consent from the basic school level to help combat sexual abuse in schools. Speaking on JoyNews’ The Pulse on Thursday, October 15, she said educating children about consent should form part of efforts to protect them from abuse. According to her, “I […]"
+        }
+      ],
+      "path": "story/241/teach-consent-and-sexual-boundaries-from-pre-school-to-prevent-abuse-gender/"
     },
     {
       "id": 240,
