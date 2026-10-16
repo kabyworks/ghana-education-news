@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T11:10:04Z",
+  "generated_at": "2026-10-16T11:40:25Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 50
+      "story_count": 51
     },
     {
       "name": "general",
@@ -53,6 +53,29 @@
         }
       ],
       "path": "story/264/ghana-germany-explore-stronger-cooperation-in-tvet/"
+    },
+    {
+      "id": 265,
+      "title": "NUGS condemns alleged sexual abuse by suspended Obuasi SHS headmaster",
+      "summary": "The National Union of Ghana Students (NUGS) has condemned the alleged sexual abuse of a female student by the headmaster of Obuasi Senior High Technical School, calling for a swift and impartial investigation into the matter.",
+      "category": "basic_schools",
+      "published_at": "2026-10-16T11:27:55Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/image-2026-08-07T042641.024.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "NUGS condemns alleged sexual abuse by suspended Obuasi SHS headmaster",
+          "url": "https://www.adomonline.com/nugs-condemns-alleged-sexual-abuse-by-suspended-obuasi-shs-headmaster/",
+          "published_at": "2026-10-16T11:27:55Z",
+          "excerpt": "The National Union of Ghana Students (NUGS) has condemned the alleged sexual abuse of a female student by the headmaster of Obuasi Senior High Technical School, calling for a swift and impartial investigation into the matter. In a press statement, NUGS described the allegation as deeply troubling, stressing that school authorities have a responsibility to […]"
+        }
+      ],
+      "path": "story/265/nugs-condemns-alleged-sexual-abuse-by-suspended-obuasi-shs-headmaster/"
     },
     {
       "id": 261,
