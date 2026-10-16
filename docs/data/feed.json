@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-16T16:10:15Z",
+  "generated_at": "2026-10-16T16:40:20Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 85
+      "story_count": 86
     },
     {
       "name": "teachers",
-      "story_count": 71
+      "story_count": 72
     },
     {
       "name": "basic_schools",
@@ -63,6 +63,29 @@
       "path": "story/265/nugs-condemns-alleged-sexual-abuse-by-obuasi-shts-headmaster-calls-for/"
     },
     {
+      "id": 277,
+      "title": "GES pays promotion arrears to 56,003 teachers",
+      "summary": "The Ghana Education Service (GES) has confirmed that 56,003 teachers have received promotion-related salary adjustments and arrears, with outstanding cases awaiting validation and payment by the Controller and Accountant-General’s Department (CAGD).",
+      "category": "teachers",
+      "published_at": "2026-10-16T16:25:09Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2024/10/Private-school-teachers.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GES pays promotion arrears to 56,003 teachers",
+          "url": "https://www.myjoyonline.com/ges-pays-promotion-arrears-to-56003-teachers/",
+          "published_at": "2026-10-16T16:25:09Z",
+          "excerpt": "The Ghana Education Service (GES) has confirmed that 56,003 teachers have received promotion-related salary adjustments and arrears, with outstanding cases awaiting validation and payment by the Controller and Accountant-General’s Department (CAGD)."
+        }
+      ],
+      "path": "story/277/ges-pays-promotion-arrears-to-56-003-teachers/"
+    },
+    {
       "id": 264,
       "title": "Ghana, Germany explore stronger cooperation in TVET",
       "summary": "Education Minister Haruna Iddrisu has held discussions with German Ambassador to Ghana Frederik Landshöft on strengthening bilateral cooperation in education, with particular emphasis on Technical and Vocational Education and Training (TVET).",
@@ -114,6 +137,29 @@
         }
       ],
       "path": "story/275/free-shs-students-now-eat-nutritious-meals-not-rice-with-coloured-water-deputy/"
+    },
+    {
+      "id": 276,
+      "title": "UG Communication HOD warns insults in student politics could shape future leaders",
+      "summary": "The Head of the Department of Communication at the University of Ghana, Professor Abena Animwaa Yeboah-Banin, has warned that the normalisation of insults in student politics could influence the conduct of future political leaders and reinforce abusive practices in national politics.",
+      "category": "higher_education",
+      "published_at": "2026-10-16T16:15:43Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-1-1024x576.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "UG Communication HOD warns insults in student politics could shape future leaders",
+          "url": "https://www.myjoyonline.com/ug-communication-hod-warns-insults-in-student-politics-could-shape-future-leaders/",
+          "published_at": "2026-10-16T16:15:43Z",
+          "excerpt": "The Head of the Department of Communication at the University of Ghana, Professor Abena Animwaa Yeboah-Banin, has warned that the normalisation of insults in student politics could influence the conduct of future political leaders and reinforce abusive practices in national politics."
+        }
+      ],
+      "path": "story/276/ug-communication-hod-warns-insults-in-student-politics-could-shape-future/"
     },
     {
       "id": 274,
