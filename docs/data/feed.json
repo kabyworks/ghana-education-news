@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T21:10:39Z",
+  "generated_at": "2026-10-16T21:40:14Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 74
+      "story_count": 75
     },
     {
       "name": "basic_schools",
@@ -61,6 +61,29 @@
         }
       ],
       "path": "story/281/university-of-ghana-to-reopen-october-19-after-gaua-suspends-strike/"
+    },
+    {
+      "id": 284,
+      "title": "Church of Pentecost warns teachers against sexual abuse and harassment of female students",
+      "summary": "The Church of Pentecost’s Schools Outreach Ministry has warned teachers against sexually abusing, harassing or bullying female students, urging educators to uphold professional ethics and protect children in their care.",
+      "category": "teachers",
+      "published_at": "2026-10-16T21:07:16Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-16-at-20.17.11-1024x576.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Church of Pentecost warns teachers against sexual abuse and harassment of female students",
+          "url": "https://www.myjoyonline.com/church-of-pentecost-warns-teachers-against-sexual-abuse-and-harassment-of-female-students/",
+          "published_at": "2026-10-16T21:07:16Z",
+          "excerpt": "The Church of Pentecost’s Schools Outreach Ministry has warned teachers against sexually abusing, harassing or bullying female students, urging educators to uphold professional ethics and protect children in their care. The warning comes amid findings by the JoyNews Research Team, which has tracked at least 44 cases of sexual abuse involving teachers since 2015. School heads accounted for 40 per cent of recent cases identified by the team. Speaking at an event organised in collaboration with the Ghana Education Service (GES) to mark the International Day of the Girl Child, the ministry’s chairman, Rev. Joseph Buertey, condemned the conduct and said it contradicted the fundamental responsibilities of teachers."
+        }
+      ],
+      "path": "story/284/church-of-pentecost-warns-teachers-against-sexual-abuse-and-harassment-of/"
     },
     {
       "id": 265,
