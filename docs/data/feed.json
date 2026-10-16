@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T09:10:09Z",
+  "generated_at": "2026-10-16T09:40:06Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 68
+      "story_count": 69
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 261,
+      "title": "Controller and Accountant-General pays promotion arrears to 56,003 GES teachers ahead of deadline",
+      "summary": "The Controller and Accountant-General’s Department (CAGD) has paid promotion-related salary adjustments and arrears to 56,003 Ghana Education Service (GES) teachers, completing the payments ahead of the October 16 deadline agreed between the Government and teacher unions.",
+      "category": "teachers",
+      "published_at": "2026-10-16T09:14:30Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1594.png",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Controller and Accountant-General pays promotion arrears to 56,003 GES teachers ahead of deadline",
+          "url": "https://www.myjoyonline.com/controller-and-accountant-general-pays-promotion-arrears-to-56003-ges-teachers-ahead-of-deadline/",
+          "published_at": "2026-10-16T09:14:30Z",
+          "excerpt": "The Controller and Accountant-General’s Department (CAGD) has paid promotion-related salary adjustments and arrears to 56,003 Ghana Education Service (GES) teachers, completing the payments ahead of the October 16 deadline agreed between the Government and teacher unions."
+        }
+      ],
+      "path": "story/261/controller-and-accountant-general-pays-promotion-arrears-to-56-003-ges-teachers/"
+    },
     {
       "id": 260,
       "title": "International Day of the Girl: Central Region Education Directorate calls for action to tackle child marriage, teenage pregnancy",
