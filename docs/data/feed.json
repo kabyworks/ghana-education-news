@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-16T20:10:29Z",
+  "generated_at": "2026-10-16T20:40:28Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 89
+      "story_count": 90
     },
     {
       "name": "teachers",
@@ -92,6 +92,29 @@
         }
       ],
       "path": "story/265/nugs-condemns-alleged-sexual-abuse-by-obuasi-shts-headmaster-calls-for/"
+    },
+    {
+      "id": 283,
+      "title": "UG sets October 19 reporting date following GAUA strike suspension",
+      "summary": "The University of Ghana has announced its reopening schedule for the 2026/2027 academic year, with students expected to begin reporting to their halls of residence from October 19, 2026.",
+      "category": "higher_education",
+      "published_at": "2026-10-16T20:35:07Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/UG-2-1200x534.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "UG sets October 19 reporting date following GAUA strike suspension",
+          "url": "https://3news.com/news/ug-sets-october-19-reporting-date-following-gaua-strike-suspension",
+          "published_at": "2026-10-16T20:35:07Z",
+          "excerpt": "The University of Ghana has announced its reopening schedule for the 2026/2027 academic year, with students expected to begin reporting to their halls of residence from October 19, 2026."
+        }
+      ],
+      "path": "story/283/ug-sets-october-19-reporting-date-following-gaua-strike-suspension/"
     },
     {
       "id": 282,
