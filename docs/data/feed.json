@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-16T12:10:12Z",
+  "generated_at": "2026-10-16T12:40:17Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 83
+      "story_count": 84
     },
     {
       "name": "teachers",
-      "story_count": 69
+      "story_count": 71
     },
     {
       "name": "basic_schools",
-      "story_count": 53
+      "story_count": 55
     },
     {
       "name": "general",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 269,
+      "title": "Ghana Association of University Administrators suspends nationwide strike",
+      "summary": "The Ghana Association of University Administrators (GAUA) has suspended its nationwide strike, effective Friday, October 16.",
+      "category": "higher_education",
+      "published_at": "2026-10-16T12:10:39Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1-2-1024x576.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ghana Association of University Administrators suspends nationwide strike",
+          "url": "https://www.myjoyonline.com/ghana-association-of-university-administrators-suspends-nationwide-strike/",
+          "published_at": "2026-10-16T12:10:39Z",
+          "excerpt": "The Ghana Association of University Administrators (GAUA) has suspended its nationwide strike, effective Friday, October 16."
+        }
+      ],
+      "path": "story/269/ghana-association-of-university-administrators-suspends-nationwide-strike/"
+    },
     {
       "id": 268,
       "title": "GES announces dates for 2026 staff promotion examinations",
@@ -53,6 +76,98 @@
         }
       ],
       "path": "story/268/ges-announces-dates-for-2026-staff-promotion-examinations/"
+    },
+    {
+      "id": 273,
+      "title": "Stop Obuasi SHTS head from contesting Juaben chairmanship amid sexual abuse allegations – Kojo Asante to NDC",
+      "summary": "The Director of Policy Engagement and Partnerships at the Centre for Democratic Development (CDD-Ghana), Dr Kojo Asante, has urged the National Democratic Congress (NDC) to prevent the headmaster of Obuasi Senior High Technical School from contesting the Juaben constituency chairmanship amid allegations of sexual mi...",
+      "category": "basic_schools",
+      "published_at": "2026-10-16T12:27:05Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1620.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Stop Obuasi SHTS head from contesting Juaben chairmanship amid sexual abuse allegations – Kojo Asante to NDC",
+          "url": "https://www.myjoyonline.com/stop-obuasi-shts-head-from-contesting-juaben-chairmanship-amid-sexual-abuse-allegations-kojo-asante-to-ndc/",
+          "published_at": "2026-10-16T12:27:05Z",
+          "excerpt": "The Director of Policy Engagement and Partnerships at the Centre for Democratic Development (CDD-Ghana), Dr Kojo Asante, has urged the National Democratic Congress (NDC) to prevent the headmaster of Obuasi Senior High Technical School from contesting the Juaben constituency chairmanship amid allegations of sexual misconduct."
+        }
+      ],
+      "path": "story/273/stop-obuasi-shts-head-from-contesting-juaben-chairmanship-amid-sexual-abuse/"
+    },
+    {
+      "id": 272,
+      "title": "Obuasi SHTS scandal: Kojo Asante calls for taskforce to review protocols for handling sexual abuse in schools",
+      "summary": "The Director of Policy Engagement and Partnerships at the Centre for Democratic Development (CDD-Ghana), Dr Kojo Asante, has called for a taskforce to review protocols for handling sexual abuse allegations in schools, following reports of alleged sexual misconduct at Obuasi Senior High Technical School.",
+      "category": "basic_schools",
+      "published_at": "2026-10-16T12:24:58Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1622.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS scandal: Kojo Asante calls for taskforce to review protocols for handling sexual abuse in schools",
+          "url": "https://www.myjoyonline.com/obuasi-shts-scandal-kojo-asante-calls-for-taskforce-to-review-protocols-for-handling-sexual-abuse-in-schools/",
+          "published_at": "2026-10-16T12:24:58Z",
+          "excerpt": "The Director of Policy Engagement and Partnerships at the Centre for Democratic Development (CDD-Ghana), Dr Kojo Asante, has called for a taskforce to review protocols for handling sexual abuse allegations in schools, following reports of alleged sexual misconduct at Obuasi Senior High Technical School."
+        }
+      ],
+      "path": "story/272/obuasi-shts-scandal-kojo-asante-calls-for-taskforce-to-review-protocols-for/"
+    },
+    {
+      "id": 271,
+      "title": "Government pays promotion arrears to 56,003 teachers, remaining payments due by end of October",
+      "summary": "Government pays promotion arrears to 56,003 teachers, remaining payments due by end of October",
+      "category": "teachers",
+      "published_at": "2026-10-16T12:21:21Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/Haruna Idrissu-1200x675.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Government pays promotion arrears to 56,003 teachers, remaining payments due by end of October",
+          "url": "https://3news.com/news/government-pays-promotion-arrears-to-56-003-teachers-remaining-payments-due-by-end-of-october",
+          "published_at": "2026-10-16T12:21:21Z",
+          "excerpt": "Government pays promotion arrears to 56,003 teachers, remaining payments due by end of October"
+        }
+      ],
+      "path": "story/271/government-pays-promotion-arrears-to-56-003-teachers-remaining-payments-due-by/"
+    },
+    {
+      "id": 270,
+      "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
+      "summary": "A 16-year-old has shot dead three children and a teacher at a primary school in the US state of Oregon before he was killed by a bystander, police said.",
+      "category": "teachers",
+      "published_at": "2026-10-16T12:20:50Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1627-1024x576.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
+          "url": "https://www.myjoyonline.com/children-aged-5-8-and-11-killed-in-us-school-shooting-before-suspect-shot-by-bystander/",
+          "published_at": "2026-10-16T12:20:50Z",
+          "excerpt": "A 16-year-old has shot dead three children and a teacher at a primary school in the US state of Oregon before he was killed by a bystander, police said."
+        }
+      ],
+      "path": "story/270/children-aged-5-8-and-11-killed-in-us-school-shooting-before-suspect-shot-by/"
     },
     {
       "id": 264,
