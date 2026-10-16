@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T19:00:18Z",
+  "generated_at": "2026-10-16T19:10:21Z",
   "categories": [
     {
       "name": "higher_education",
@@ -31,6 +31,37 @@
     }
   ],
   "stories": [
+    {
+      "id": 281,
+      "title": "University of Ghana to reopen October 19 after GAUA suspends strike",
+      "summary": "The University of Ghana will reopen for the 2026/2027 academic year on October 19, following the suspension of the strike by the Ghana Association of University Administrators (GAUA).",
+      "category": "higher_education",
+      "published_at": "2026-10-16T19:07:56Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/06/university-of-ghana.jpg",
+      "rank": 0.867,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "University of Ghana to reopen October 19 after GAUA suspends strike",
+          "url": "https://www.myjoyonline.com/university-of-ghana-to-reopen-october-19-after-gaua-suspends-strike/",
+          "published_at": "2026-10-16T17:58:44Z",
+          "excerpt": "The University of Ghana will reopen for the 2026/2027 academic year on October 19, following the suspension of the strike by the Ghana Association of University Administrators (GAUA)."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "University of Ghana to reopen October 19 after GAUA suspends strike",
+          "url": "https://www.adomonline.com/university-of-ghana-to-reopen-october-19-after-gaua-suspends-strike/",
+          "published_at": "2026-10-16T19:07:56Z",
+          "excerpt": "The University of Ghana will reopen for the 2026/2027 academic year on October 19, following the suspension of the strike by the Ghana Association of University Administrators (GAUA). In a notice dated October 16, 2026, the University said students would begin reporting to their halls of residence from October 19, while lectures are scheduled to […]"
+        }
+      ],
+      "path": "story/281/university-of-ghana-to-reopen-october-19-after-gaua-suspends-strike/"
+    },
     {
       "id": 265,
       "title": "NUGS condemns alleged sexual abuse by Obuasi SHTS headmaster, calls for prosecution",
@@ -84,29 +115,6 @@
         }
       ],
       "path": "story/282/bees-for-development-ghana-trains-teachers-to-launch-beekeeping-clubs-in-basic/"
-    },
-    {
-      "id": 281,
-      "title": "University of Ghana to reopen October 19 after GAUA suspends strike",
-      "summary": "The University of Ghana will reopen for the 2026/2027 academic year on October 19, following the suspension of the strike by the Ghana Association of University Administrators (GAUA).",
-      "category": "higher_education",
-      "published_at": "2026-10-16T17:58:44Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/University-of-Ghana-696x464-1.webp",
-      "rank": 0.7518,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "University of Ghana to reopen October 19 after GAUA suspends strike",
-          "url": "https://www.myjoyonline.com/university-of-ghana-to-reopen-october-19-after-gaua-suspends-strike/",
-          "published_at": "2026-10-16T17:58:44Z",
-          "excerpt": "The University of Ghana will reopen for the 2026/2027 academic year on October 19, following the suspension of the strike by the Ghana Association of University Administrators (GAUA)."
-        }
-      ],
-      "path": "story/281/university-of-ghana-to-reopen-october-19-after-gaua-suspends-strike/"
     },
     {
       "id": 280,
