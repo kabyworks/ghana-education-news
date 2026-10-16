@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T17:10:14Z",
+  "generated_at": "2026-10-16T17:53:02Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 72
+      "story_count": 73
     },
     {
       "name": "basic_schools",
@@ -61,6 +61,29 @@
         }
       ],
       "path": "story/265/nugs-condemns-alleged-sexual-abuse-by-obuasi-shts-headmaster-calls-for/"
+    },
+    {
+      "id": 280,
+      "title": "GES clears promotion arrears for more than 56,000 teachers",
+      "summary": "The Ghana Education Service (GES) says it has paid promotion-related salary adjustments and arrears to 56,003 teachers, following concerns over delays in payments to promoted staff.",
+      "category": "teachers",
+      "published_at": "2026-10-16T17:22:15Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2024/06/Teacher-648x424-1.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "GES clears promotion arrears for more than 56,000 teachers",
+          "url": "https://www.adomonline.com/ges-clears-promotion-arrears-for-more-than-56000-teachers/",
+          "published_at": "2026-10-16T17:22:15Z",
+          "excerpt": "The Ghana Education Service (GES) says it has paid promotion-related salary adjustments and arrears to 56,003 teachers, following concerns over delays in payments to promoted staff. In a statement issued on Friday, October 16, 2026, the Service said 49,725 teachers received their payments on Thursday, October 15, together with arrears dating back to January 1, […]"
+        }
+      ],
+      "path": "story/280/ges-clears-promotion-arrears-for-more-than-56-000-teachers/"
     },
     {
       "id": 277,
