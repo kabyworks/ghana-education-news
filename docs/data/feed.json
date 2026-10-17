@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:10:39Z",
+  "generated_at": "2026-10-17T11:54:04Z",
   "categories": [
     {
       "name": "higher_education",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 39
+      "story_count": 40
     },
     {
       "name": "policy",
@@ -84,6 +84,29 @@
         }
       ],
       "path": "story/281/university-of-ghana-to-reopen-october-19-after-gaua-suspends-strike/"
+    },
+    {
+      "id": 288,
+      "title": "Akra Reads 2026: SSB Memorial School wins Ladé Wosornu Students Poetry Contest",
+      "summary": "The contest featured participants, mainly students drawn from Accra, in thrilling and exciting sessions.",
+      "category": "general",
+      "published_at": "2026-10-17T06:00:00Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-14 at 19.21.04-1200x800.webp",
+      "rank": 0.6819,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Akra Reads 2026: SSB Memorial School wins Ladé Wosornu Students Poetry Contest",
+          "url": "https://3news.com/news/akra-reads-2026-ssb-memorial-school-wins-lad-wosornu-students-poetry-contest",
+          "published_at": "2026-10-17T06:00:00Z",
+          "excerpt": "The contest featured participants, mainly students drawn from Accra, in thrilling and exciting sessions."
+        }
+      ],
+      "path": "story/288/akra-reads-2026-ssb-memorial-school-wins-lad-wosornu-students-poetry-contest/"
     },
     {
       "id": 265,
