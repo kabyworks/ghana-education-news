@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:10:34Z",
+  "generated_at": "2026-10-17T12:40:20Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 75
+      "story_count": 76
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 289,
+      "title": "Ghana, US Virgin Islands agree to sign an MoU in November to recruit nurses and teachers",
+      "summary": "Ghana and the United States Virgin Islands have reached an agreement to formalise a partnership in November to facilitate the recruitment of Ghanaian nurses and teachers to address critical staff shortages in the territory.",
+      "category": "teachers",
+      "published_at": "2026-10-17T12:16:36Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1716-1024x682.png",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ghana, US Virgin Islands agree to sign an MoU in November to recruit nurses and teachers",
+          "url": "https://www.myjoyonline.com/ghana-us-virgin-islands-agree-to-sign-an-mou-in-november-to-recruit-nurses-and-teachers/",
+          "published_at": "2026-10-17T12:16:36Z",
+          "excerpt": "Ghana and the United States Virgin Islands have reached an agreement to formalise a partnership in November to facilitate the recruitment of Ghanaian nurses and teachers to address critical staff shortages in the territory."
+        }
+      ],
+      "path": "story/289/ghana-us-virgin-islands-agree-to-sign-an-mou-in-november-to-recruit-nurses-and/"
+    },
     {
       "id": 287,
       "title": "Skills Labs key to making Competency-Based Curriculum meaningful - Nursing Educators",
