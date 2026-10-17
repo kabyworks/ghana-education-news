@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T17:10:16Z",
+  "generated_at": "2026-10-17T17:40:14Z",
   "categories": [
     {
       "name": "higher_education",
@@ -19,7 +19,7 @@
     },
     {
       "name": "policy",
-      "story_count": 16
+      "story_count": 17
     },
     {
       "name": "examinations",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 292,
+      "title": "No more cover-ups – Zonta demands action against sexual abuse in schools",
+      "summary": "The Zonta Clubs of Ghana have called on the Ministry of Education to take urgent action against sexual abuse in schools, demanding swift investigations, accountability and protection for survivors.",
+      "category": "policy",
+      "published_at": "2026-10-17T17:01:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2021/02/Gang-rape.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "No more cover-ups – Zonta demands action against sexual abuse in schools",
+          "url": "https://www.myjoyonline.com/no-more-cover-ups-zonta-demands-action-against-sexual-abuse-in-schools/",
+          "published_at": "2026-10-17T17:01:00Z",
+          "excerpt": "The Zonta Clubs of Ghana have called on the Ministry of Education to take urgent action against sexual abuse in schools, demanding swift investigations, accountability and protection for survivors."
+        }
+      ],
+      "path": "story/292/no-more-cover-ups-zonta-demands-action-against-sexual-abuse-in-schools/"
+    },
     {
       "id": 291,
       "title": "Fanaka International University & GISI sign MoU to enhance professional capital market training",
