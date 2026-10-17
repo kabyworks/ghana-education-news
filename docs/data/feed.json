@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-17T15:10:24Z",
+  "generated_at": "2026-10-17T15:40:18Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 90
+      "story_count": 91
     },
     {
       "name": "teachers",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 57
+      "story_count": 58
     },
     {
       "name": "general",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 291,
+      "title": "Fanaka International University & GISI sign MoU to enhance professional capital market training",
+      "summary": "Fanaka International University College and the Ghana Investment and Securities Institute (GISI) have signed a Memorandum of Understanding to integrate professional capital market training into Fanaka’s Master of Science in Finance programme.",
+      "category": "higher_education",
+      "published_at": "2026-10-17T15:29:13Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1720-1024x570.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Fanaka International University & GISI sign MoU to enhance professional capital market training",
+          "url": "https://www.myjoyonline.com/fanaka-international-university-gisi-sign-mou-to-enhance-professional-capital-market-training/",
+          "published_at": "2026-10-17T15:29:13Z",
+          "excerpt": "Fanaka International University College and the Ghana Investment and Securities Institute (GISI) have signed a Memorandum of Understanding to integrate professional capital market training into Fanaka’s Master of Science in Finance programme."
+        }
+      ],
+      "path": "story/291/fanaka-international-university-gisi-sign-mou-to-enhance-professional-capital/"
+    },
+    {
+      "id": 290,
+      "title": "Disqualify Obuasi SHTS headmaster from Juaben NDC chairmanship race – Former NDC MP urges party",
+      "summary": "Former Member of Parliament for Amenfi Central, Peter Kwakye Ackah, has called on the National Democratic Congress (NDC) to disqualify the headmaster of Obuasi Senior High Technical School, Zakaria Abdulai, from contesting the party’s upcoming constituency elections, saying his candidacy would bring disgrace to the...",
+      "category": "basic_schools",
+      "published_at": "2026-10-17T15:09:19Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1-68-e1792250312462-1024x704.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Disqualify Obuasi SHTS headmaster from Juaben NDC chairmanship race – Former NDC MP urges party",
+          "url": "https://www.myjoyonline.com/disqualify-obuasi-shts-headmaster-from-juaben-ndc-chairmanship-race-former-ndc-mp-urges-party/",
+          "published_at": "2026-10-17T15:09:19Z",
+          "excerpt": "Former Member of Parliament for Amenfi Central, Peter Kwakye Ackah, has called on the National Democratic Congress (NDC) to disqualify the headmaster of Obuasi Senior High Technical School, Zakaria Abdulai, from contesting the party’s upcoming constituency elections, saying his candidacy would bring disgrace to the party."
+        }
+      ],
+      "path": "story/290/disqualify-obuasi-shts-headmaster-from-juaben-ndc-chairmanship-race-former-ndc/"
+    },
     {
       "id": 289,
       "title": "Ghana, US Virgin Islands agree to sign an MoU in November to recruit nurses and teachers",
