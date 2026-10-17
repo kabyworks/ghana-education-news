@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T20:10:17Z",
+  "generated_at": "2026-10-17T20:40:20Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 59
+      "story_count": 60
     },
     {
       "name": "general",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 295,
+      "title": "Trunk sellers count losses as SHS students embrace suitcases",
+      "summary": "Locally made metal trunk sellers in Accra say their businesses are going through a difficult period as more senior high school (SHS) students opt for suitcases, leaving traders with unsold stock.",
+      "category": "basic_schools",
+      "published_at": "2026-10-17T20:26:45Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1733.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Trunk sellers count losses as SHS students embrace suitcases",
+          "url": "https://www.myjoyonline.com/trunk-sellers-count-losses-as-shs-students-embrace-suitcases/",
+          "published_at": "2026-10-17T20:26:45Z",
+          "excerpt": "Locally made metal trunk sellers in Accra say their businesses are going through a difficult period as more senior high school (SHS) students opt for suitcases, leaving traders with unsold stock."
+        }
+      ],
+      "path": "story/295/trunk-sellers-count-losses-as-shs-students-embrace-suitcases/"
+    },
     {
       "id": 294,
       "title": "NDC must dissociate itself from Obuasi SHTS head over sexual abuse allegations – Vicky Bright",
