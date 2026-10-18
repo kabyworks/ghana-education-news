@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T14:09:37Z",
+  "generated_at": "2026-10-18T15:44:51Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 76
+      "story_count": 77
     },
     {
       "name": "basic_schools",
@@ -32,6 +32,29 @@
   ],
   "stories": [
     {
+      "id": 301,
+      "title": "Playback: The Law examined enforcement of laws on teacher sexual abuse",
+      "summary": "This Sunday’s edition of JoyNews’ The Law will examine the enforcement of laws on teacher sexual abuse in the country.",
+      "category": "teachers",
+      "published_at": "2026-10-18T14:13:37Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/teacher-sexual-abuse-enforcing-t.jpg",
+      "rank": 0.7374,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Playback: The Law examined enforcement of laws on teacher sexual abuse",
+          "url": "https://www.myjoyonline.com/playback-the-law-examined-enforcement-of-laws-on-teacher-sexual-abuse/",
+          "published_at": "2026-10-18T14:13:37Z",
+          "excerpt": "This Sunday’s edition of JoyNews’ The Law will examine the enforcement of laws on teacher sexual abuse in the country."
+        }
+      ],
+      "path": "story/301/playback-the-law-examined-enforcement-of-laws-on-teacher-sexual-abuse/"
+    },
+    {
       "id": 300,
       "title": "Assisi Girls SHS launches 70th anniversary as Joyce Bawah Mogtari, stakeholders champion girl-child education",
       "summary": "Hundreds of alumnae, traditional authorities, educators, and students converged on the campus of St. Francis of Assisi Girls’ Senior High School in Jirapa on Saturday, October 17, to mark the institution’s 67th birthday, launch its upcoming 70th anniversary celebrations, and hold its annual Speech and Prize Giving Day.",
@@ -42,7 +65,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-17-at-19.29.43-1024x576.jpeg",
-      "rank": 0.6881,
+      "rank": 0.6763,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -65,7 +88,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/image-447.png",
-      "rank": 0.6839,
+      "rank": 0.6723,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -88,7 +111,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/image-448.png",
-      "rank": 0.6836,
+      "rank": 0.6721,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -111,7 +134,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1737.png",
-      "rank": 0.6822,
+      "rank": 0.6707,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -134,7 +157,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG-20261017-WA0087-1024x576.jpg",
-      "rank": 0.643,
+      "rank": 0.6333,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -145,29 +168,6 @@
         }
       ],
       "path": "story/296/joyce-bawah-mogtari-shares-o-level-setback-and-success-story-at-assisi-girls/"
-    },
-    {
-      "id": 295,
-      "title": "Trunk sellers count losses as SHS students embrace suitcases",
-      "summary": "Locally made metal trunk sellers in Accra say their businesses are going through a difficult period as more senior high school (SHS) students opt for suitcases, leaving traders with unsold stock.",
-      "category": "basic_schools",
-      "published_at": "2026-10-17T20:26:45Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1733.png",
-      "rank": 0.5687,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Trunk sellers count losses as SHS students embrace suitcases",
-          "url": "https://www.myjoyonline.com/trunk-sellers-count-losses-as-shs-students-embrace-suitcases/",
-          "published_at": "2026-10-17T20:26:45Z",
-          "excerpt": "Locally made metal trunk sellers in Accra say their businesses are going through a difficult period as more senior high school (SHS) students opt for suitcases, leaving traders with unsold stock."
-        }
-      ],
-      "path": "story/295/trunk-sellers-count-losses-as-shs-students-embrace-suitcases/"
     },
     {
       "id": 281,
@@ -181,7 +181,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/06/university-of-ghana.jpg",
-      "rank": 0.5681,
+      "rank": 0.5649,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -201,6 +201,29 @@
       "path": "story/281/university-of-ghana-to-reopen-october-19-after-gaua-suspends-strike/"
     },
     {
+      "id": 295,
+      "title": "Trunk sellers count losses as SHS students embrace suitcases",
+      "summary": "Locally made metal trunk sellers in Accra say their businesses are going through a difficult period as more senior high school (SHS) students opt for suitcases, leaving traders with unsold stock.",
+      "category": "basic_schools",
+      "published_at": "2026-10-17T20:26:45Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1733.png",
+      "rank": 0.5619,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Trunk sellers count losses as SHS students embrace suitcases",
+          "url": "https://www.myjoyonline.com/trunk-sellers-count-losses-as-shs-students-embrace-suitcases/",
+          "published_at": "2026-10-17T20:26:45Z",
+          "excerpt": "Locally made metal trunk sellers in Accra say their businesses are going through a difficult period as more senior high school (SHS) students opt for suitcases, leaving traders with unsold stock."
+        }
+      ],
+      "path": "story/295/trunk-sellers-count-losses-as-shs-students-embrace-suitcases/"
+    },
+    {
       "id": 131,
       "title": "KNUST postpones reopening for 2026/2027 academic year indefinitely",
       "summary": "The Kwame Nkrumah University of Science and Technology (KNUST) has postponed the reopening of the 2026/2027 academic year indefinitely due to the ongoing strike by the Ghana Association of University Administrators (GAUA).",
@@ -213,7 +236,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/03/7646c2d3-ade3-403c-a988-79f86601542f-1024x573.jpg",
-      "rank": 0.5556,
+      "rank": 0.5544,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -261,52 +284,6 @@
       "path": "story/131/knust-postpones-reopening-for-2026-2027-academic-year-indefinitely/"
     },
     {
-      "id": 294,
-      "title": "NDC must dissociate itself from Obuasi SHTS head over sexual abuse allegations – Vicky Bright",
-      "summary": "International corporate lawyer Victoria Bright has urged the National Democratic Congress (NDC) to dissociate itself from the head of Obuasi Senior High Technical School (SHTS), who is reportedly seeking political office, amid sexual abuse allegations against him.",
-      "category": "basic_schools",
-      "published_at": "2026-10-17T18:02:00Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/Screenshot-2026-01-05-at-07.25.38-1024x578.png",
-      "rank": 0.5528,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "NDC must dissociate itself from Obuasi SHTS head over sexual abuse allegations – Vicky Bright",
-          "url": "https://www.myjoyonline.com/ndc-must-dissociate-itself-from-obuasi-shts-head-over-sexual-abuse-allegations-vicky-bright/",
-          "published_at": "2026-10-17T18:02:00Z",
-          "excerpt": "International corporate lawyer Victoria Bright has urged the National Democratic Congress (NDC) to dissociate itself from the head of Obuasi Senior High Technical School (SHTS), who is reportedly seeking political office, amid sexual abuse allegations against him."
-        }
-      ],
-      "path": "story/294/ndc-must-dissociate-itself-from-obuasi-shts-head-over-sexual-abuse-allegations/"
-    },
-    {
-      "id": 293,
-      "title": "Akosua Manu calls for a proper protection framework for sexually abused children",
-      "summary": "Special Adviser on Gender and Social Protection to former Vice-President Dr Mahamudu Bawumia, Akosua Manu, has called for a proper national child protection framework to safeguard pupils who suffer sexual abuse in schools.",
-      "category": "general",
-      "published_at": "2026-10-17T18:00:00Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/09/image-1914-e1758627398358.png",
-      "rank": 0.5526,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Akosua Manu calls for a proper protection framework for sexually abused children",
-          "url": "https://www.myjoyonline.com/akosua-manu-calls-for-a-proper-protection-framework-for-sexually-abused-children/",
-          "published_at": "2026-10-17T18:00:00Z",
-          "excerpt": "Special Adviser on Gender and Social Protection to former Vice-President Dr Mahamudu Bawumia, Akosua Manu, has called for a proper national child protection framework to safeguard pupils who suffer sexual abuse in schools."
-        }
-      ],
-      "path": "story/293/akosua-manu-calls-for-a-proper-protection-framework-for-sexually-abused-children/"
-    },
-    {
       "id": 13,
       "title": "Education Ministry welcomes suspension of teachers’ strike",
       "summary": "The Minority Caucus in Parliament has welcomed the suspension of the nationwide teachers’ strike by the Ghana National Association of Teachers (GNAT), the National Association of Graduate Teachers (NAGRAT) and the Pre-Tertiary Teachers Association of Ghana (PRETAG), while urging the government to honour its commitme...",
@@ -319,7 +296,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-08.20.27-820x1024.jpeg",
-      "rank": 0.548,
+      "rank": 0.547,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -976,6 +953,52 @@
       "path": "story/13/education-ministry-welcomes-suspension-of-teachers-strike/"
     },
     {
+      "id": 294,
+      "title": "NDC must dissociate itself from Obuasi SHTS head over sexual abuse allegations – Vicky Bright",
+      "summary": "International corporate lawyer Victoria Bright has urged the National Democratic Congress (NDC) to dissociate itself from the head of Obuasi Senior High Technical School (SHTS), who is reportedly seeking political office, amid sexual abuse allegations against him.",
+      "category": "basic_schools",
+      "published_at": "2026-10-17T18:02:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/Screenshot-2026-01-05-at-07.25.38-1024x578.png",
+      "rank": 0.5466,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "NDC must dissociate itself from Obuasi SHTS head over sexual abuse allegations – Vicky Bright",
+          "url": "https://www.myjoyonline.com/ndc-must-dissociate-itself-from-obuasi-shts-head-over-sexual-abuse-allegations-vicky-bright/",
+          "published_at": "2026-10-17T18:02:00Z",
+          "excerpt": "International corporate lawyer Victoria Bright has urged the National Democratic Congress (NDC) to dissociate itself from the head of Obuasi Senior High Technical School (SHTS), who is reportedly seeking political office, amid sexual abuse allegations against him."
+        }
+      ],
+      "path": "story/294/ndc-must-dissociate-itself-from-obuasi-shts-head-over-sexual-abuse-allegations/"
+    },
+    {
+      "id": 293,
+      "title": "Akosua Manu calls for a proper protection framework for sexually abused children",
+      "summary": "Special Adviser on Gender and Social Protection to former Vice-President Dr Mahamudu Bawumia, Akosua Manu, has called for a proper national child protection framework to safeguard pupils who suffer sexual abuse in schools.",
+      "category": "general",
+      "published_at": "2026-10-17T18:00:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/09/image-1914-e1758627398358.png",
+      "rank": 0.5464,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Akosua Manu calls for a proper protection framework for sexually abused children",
+          "url": "https://www.myjoyonline.com/akosua-manu-calls-for-a-proper-protection-framework-for-sexually-abused-children/",
+          "published_at": "2026-10-17T18:00:00Z",
+          "excerpt": "Special Adviser on Gender and Social Protection to former Vice-President Dr Mahamudu Bawumia, Akosua Manu, has called for a proper national child protection framework to safeguard pupils who suffer sexual abuse in schools."
+        }
+      ],
+      "path": "story/293/akosua-manu-calls-for-a-proper-protection-framework-for-sexually-abused-children/"
+    },
+    {
       "id": 292,
       "title": "No more cover-ups – Zonta demands action against sexual abuse in schools",
       "summary": "The Zonta Clubs of Ghana have called on the Ministry of Education to take urgent action against sexual abuse in schools, demanding swift investigations, accountability and protection for survivors.",
@@ -986,7 +1009,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2021/02/Gang-rape.jpg",
-      "rank": 0.5465,
+      "rank": 0.5405,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1009,7 +1032,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1716-1024x682.png",
-      "rank": 0.5378,
+      "rank": 0.5327,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1032,7 +1055,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1720-1024x570.png",
-      "rank": 0.5374,
+      "rank": 0.5317,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1055,7 +1078,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1-68-e1792250312462-1024x704.jpg",
-      "rank": 0.5355,
+      "rank": 0.5299,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1079,7 +1102,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1343-1024x517.png",
-      "rank": 0.5313,
+      "rank": 0.5286,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1099,29 +1122,6 @@
       "path": "story/265/nugs-condemns-alleged-sexual-abuse-by-obuasi-shts-headmaster-calls-for/"
     },
     {
-      "id": 287,
-      "title": "Skills Labs key to making Competency-Based Curriculum meaningful - Nursing Educators",
-      "summary": "The Nursing and Midwifery Council introduced the revised competency-based curriculum to training institutions across the country in February 2026. It shifts training from theory alone to ensuring students can demonstrate clinical skills.",
-      "category": "policy",
-      "published_at": "2026-10-17T10:38:10Z",
-      "source_count": 1,
-      "sources": [
-        "3News"
-      ],
-      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-17 at 07.35.00-1200x684.webp",
-      "rank": 0.5115,
-      "articles": [
-        {
-          "source_name": "3News",
-          "title": "Skills Labs key to making Competency-Based Curriculum meaningful - Nursing Educators",
-          "url": "https://3news.com/news/skills-labs-key-to-making-competency-based-curriculum-meaningful-nursing-educators",
-          "published_at": "2026-10-17T10:38:10Z",
-          "excerpt": "The Nursing and Midwifery Council introduced the revised competency-based curriculum to training institutions across the country in February 2026. It shifts training from theory alone to ensuring students can demonstrate clinical skills."
-        }
-      ],
-      "path": "story/287/skills-labs-key-to-making-competency-based-curriculum-meaningful-nursing/"
-    },
-    {
       "id": 247,
       "title": "GES declares October 30 CPD day for private school teachers; learners to observe holiday",
       "summary": "The Ghana Education Service (GES) has approved Friday, October 30, 2026, as a National Continuous Professional Development (CPD) Day for private school teachers, with learners expected to observe a holiday.",
@@ -1133,7 +1133,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2024/04/GES-office-750x375-Copy.jpg",
-      "rank": 0.5093,
+      "rank": 0.5075,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1153,6 +1153,29 @@
       "path": "story/247/ges-declares-october-30-cpd-day-for-private-school-teachers-learners-to-observe/"
     },
     {
+      "id": 287,
+      "title": "Skills Labs key to making Competency-Based Curriculum meaningful - Nursing Educators",
+      "summary": "The Nursing and Midwifery Council introduced the revised competency-based curriculum to training institutions across the country in February 2026. It shifts training from theory alone to ensuring students can demonstrate clinical skills.",
+      "category": "policy",
+      "published_at": "2026-10-17T10:38:10Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-17 at 07.35.00-1200x684.webp",
+      "rank": 0.5066,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Skills Labs key to making Competency-Based Curriculum meaningful - Nursing Educators",
+          "url": "https://3news.com/news/skills-labs-key-to-making-competency-based-curriculum-meaningful-nursing-educators",
+          "published_at": "2026-10-17T10:38:10Z",
+          "excerpt": "The Nursing and Midwifery Council introduced the revised competency-based curriculum to training institutions across the country in February 2026. It shifts training from theory alone to ensuring students can demonstrate clinical skills."
+        }
+      ],
+      "path": "story/287/skills-labs-key-to-making-competency-based-curriculum-meaningful-nursing/"
+    },
+    {
       "id": 235,
       "title": "GES recommended reposting of Obuasi SHTS headmaster after August 2026 campus riot",
       "summary": "The Ghana Education Service (GES) has recommended that the headmaster of Obuasi Senior High Technical School (SHTS), Abdulai Zakaria, and other staff implicated in a violent campus disturbance be reposted to different institutions or duty stations.",
@@ -1164,7 +1187,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/Obuasi-SHTS-Headmaster.png",
-      "rank": 0.5019,
+      "rank": 0.5002,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1202,7 +1225,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/images-1.jpg",
-      "rank": 0.4943,
+      "rank": 0.4924,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1229,29 +1252,6 @@
       "path": "story/254/parliaments-human-rights-committee-demands-swift-justice-in-obuasi-shts-sexual/"
     },
     {
-      "id": 288,
-      "title": "Akra Reads 2026: SSB Memorial School wins Ladé Wosornu Students Poetry Contest",
-      "summary": "The contest featured participants, mainly students drawn from Accra, in thrilling and exciting sessions.",
-      "category": "general",
-      "published_at": "2026-10-17T06:00:00Z",
-      "source_count": 1,
-      "sources": [
-        "3News"
-      ],
-      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-14 at 19.21.04-1200x800.webp",
-      "rank": 0.4902,
-      "articles": [
-        {
-          "source_name": "3News",
-          "title": "Akra Reads 2026: SSB Memorial School wins Ladé Wosornu Students Poetry Contest",
-          "url": "https://3news.com/news/akra-reads-2026-ssb-memorial-school-wins-lad-wosornu-students-poetry-contest",
-          "published_at": "2026-10-17T06:00:00Z",
-          "excerpt": "The contest featured participants, mainly students drawn from Accra, in thrilling and exciting sessions."
-        }
-      ],
-      "path": "story/288/akra-reads-2026-ssb-memorial-school-wins-lad-wosornu-students-poetry-contest/"
-    },
-    {
       "id": 244,
       "title": "44 teacher sexual abuse cases tracked since 2015; school heads feature in 40% of recent cases — JoyNews Research",
       "summary": "A JoyNews Research review has tracked at least 44 cases of teachers and heads of schools accused of sexually abusing students since January 2015, with heads of schools now behind four in every ten new cases. The review drew on news reports, court records and statements from the Ghana Education Service (GES).",
@@ -1263,7 +1263,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/q5yhahe.jpg-754x424-1.jpeg",
-      "rank": 0.4899,
+      "rank": 0.4881,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1283,6 +1283,29 @@
       "path": "story/244/44-teacher-sexual-abuse-cases-tracked-since-2015-school-heads-feature-in-40-of/"
     },
     {
+      "id": 288,
+      "title": "Akra Reads 2026: SSB Memorial School wins Ladé Wosornu Students Poetry Contest",
+      "summary": "The contest featured participants, mainly students drawn from Accra, in thrilling and exciting sessions.",
+      "category": "general",
+      "published_at": "2026-10-17T06:00:00Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-14 at 19.21.04-1200x800.webp",
+      "rank": 0.486,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Akra Reads 2026: SSB Memorial School wins Ladé Wosornu Students Poetry Contest",
+          "url": "https://3news.com/news/akra-reads-2026-ssb-memorial-school-wins-lad-wosornu-students-poetry-contest",
+          "published_at": "2026-10-17T06:00:00Z",
+          "excerpt": "The contest featured participants, mainly students drawn from Accra, in thrilling and exciting sessions."
+        }
+      ],
+      "path": "story/288/akra-reads-2026-ssb-memorial-school-wins-lad-wosornu-students-poetry-contest/"
+    },
+    {
       "id": 241,
       "title": "Teach consent and sexual boundaries from pre-school to prevent abuse – Gender advocate",
       "summary": "Educator and gender advocate, Dr Abena Nyarkoa, has called for education on sexual consent from the basic school level to help combat sexual abuse in schools.",
@@ -1294,7 +1317,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/abena-nyarkoa-1024x538.jpeg",
-      "rank": 0.4864,
+      "rank": 0.4846,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1326,7 +1349,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/image-932-768x1024.png",
-      "rank": 0.4754,
+      "rank": 0.4753,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1364,7 +1387,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2024/04/GES-office-750x375-Copy.jpg",
-      "rank": 0.4751,
+      "rank": 0.4738,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1384,29 +1407,6 @@
       "path": "story/221/ges-asks-applicants-to-check-status-of-2026-promotion-applications-on-october-15/"
     },
     {
-      "id": 286,
-      "title": "Debate, leadership and governance drew me to politics – Ekua Amoakoh",
-      "summary": "Spokesperson for NPP flagbearer Dr Mahamudu Bawumia and the New Patriotic Party’s (NPP) Health Committee, Dr Ekua Amoakoh, says her lifelong interest in debate, governance and leadership inspired her to pursue a career in politics.",
-      "category": "general",
-      "published_at": "2026-10-17T00:22:02Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-225410-1-1024x526.png",
-      "rank": 0.4679,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Debate, leadership and governance drew me to politics – Ekua Amoakoh",
-          "url": "https://www.myjoyonline.com/debate-leadership-and-governance-drew-me-to-politics-ekua-amoakoh/",
-          "published_at": "2026-10-17T00:22:02Z",
-          "excerpt": "Spokesperson for NPP flagbearer Dr Mahamudu Bawumia and the New Patriotic Party’s (NPP) Health Committee, Dr Ekua Amoakoh, says her lifelong interest in debate, governance and leadership inspired her to pursue a career in politics. In a personality profile interview on JoyNews’ PM Express with Emefa Adeti, she said she had always been vocal about how institutions and society should be run and wanted to contribute to decisions affecting Ghana’s development. “I always enjoyed debates and, you know, governance. And I always had opinions on stuff. So I think that's why I wanted to be a politician. I always had opinions on what to do, how everything should be run,” she said. Dr Amoakoh said she frequently found herself in leadership positions during her education, from junior secondary school through senior secondary school."
-        }
-      ],
-      "path": "story/286/debate-leadership-and-governance-drew-me-to-politics-ekua-amoakoh/"
-    },
-    {
       "id": 197,
       "title": "GTEC directs Ghana’s public universities to reopen by October 16 and begin lectures on October 19",
       "summary": "The Ghana Tertiary Education Commission (GTEC) has directed all public universities to reopen their campuses for the 2026/2027 academic year by Friday, October 16, despite any earlier decisions to postpone reopening. In a letter dated October 13, 2026, and signed by Deputy Director-General Prof.",
@@ -1418,7 +1418,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/Screenshot 2026-10-14 at 9.20.51 AM-800x606.webp",
-      "rank": 0.4664,
+      "rank": 0.4654,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1438,6 +1438,29 @@
       "path": "story/197/gtec-directs-ghanas-public-universities-to-reopen-by-october-16-and-begin/"
     },
     {
+      "id": 286,
+      "title": "Debate, leadership and governance drew me to politics – Ekua Amoakoh",
+      "summary": "Spokesperson for NPP flagbearer Dr Mahamudu Bawumia and the New Patriotic Party’s (NPP) Health Committee, Dr Ekua Amoakoh, says her lifelong interest in debate, governance and leadership inspired her to pursue a career in politics.",
+      "category": "general",
+      "published_at": "2026-10-17T00:22:02Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-225410-1-1024x526.png",
+      "rank": 0.4643,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Debate, leadership and governance drew me to politics – Ekua Amoakoh",
+          "url": "https://www.myjoyonline.com/debate-leadership-and-governance-drew-me-to-politics-ekua-amoakoh/",
+          "published_at": "2026-10-17T00:22:02Z",
+          "excerpt": "Spokesperson for NPP flagbearer Dr Mahamudu Bawumia and the New Patriotic Party’s (NPP) Health Committee, Dr Ekua Amoakoh, says her lifelong interest in debate, governance and leadership inspired her to pursue a career in politics. In a personality profile interview on JoyNews’ PM Express with Emefa Adeti, she said she had always been vocal about how institutions and society should be run and wanted to contribute to decisions affecting Ghana’s development. “I always enjoyed debates and, you know, governance. And I always had opinions on stuff. So I think that's why I wanted to be a politician. I always had opinions on what to do, how everything should be run,” she said. Dr Amoakoh said she frequently found herself in leadership positions during her education, from junior secondary school through senior secondary school."
+        }
+      ],
+      "path": "story/286/debate-leadership-and-governance-drew-me-to-politics-ekua-amoakoh/"
+    },
+    {
       "id": 282,
       "title": "Bees for Development Ghana trains teachers to launch Beekeeping Clubs in basic schools",
       "summary": "Dozens of selected teachers from across Ghana have completed a five-day intensive training workshop in the Techiman Municipality, equipping them with the skills to run Buzz Clubs, school-based beekeeping and conservation programs, in their respective basic schools.",
@@ -1448,7 +1471,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1655-1024x576.png",
-      "rank": 0.4653,
+      "rank": 0.4622,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1471,7 +1494,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2024/06/Teacher-648x424-1.jpg",
-      "rank": 0.4626,
+      "rank": 0.4596,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1494,7 +1517,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2024/10/Private-school-teachers.jpg",
-      "rank": 0.4597,
+      "rank": 0.4568,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1517,7 +1540,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-16-at-22.01.42-1024x1024.jpeg",
-      "rank": 0.4586,
+      "rank": 0.4553,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1540,7 +1563,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/849663929_1427961462854975_5505985830479892771_n-1024x617.jpg",
-      "rank": 0.4578,
+      "rank": 0.4549,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1570,7 +1593,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-16-at-20.17.11-1024x576.jpeg",
-      "rank": 0.4565,
+      "rank": 0.4532,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1593,7 +1616,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/IMG_3797.jpg-1024x683.jpeg",
-      "rank": 0.4554,
+      "rank": 0.4526,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1616,7 +1639,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/UG-2-1200x534.webp",
-      "rank": 0.4548,
+      "rank": 0.4515,
       "articles": [
         {
           "source_name": "3News",
@@ -1639,7 +1662,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/849663929_1427961462854975_5505985830479892771_n-1024x617.jpg",
-      "rank": 0.4496,
+      "rank": 0.4469,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1662,7 +1685,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1-2-1024x576.webp",
-      "rank": 0.4477,
+      "rank": 0.4451,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1685,7 +1708,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2020/11/Ghana-Education-Service-GES-Copy-1024x585.png",
-      "rank": 0.4471,
+      "rank": 0.4444,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1708,7 +1731,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-162215.png",
-      "rank": 0.4433,
+      "rank": 0.4403,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1731,7 +1754,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-1-1024x576.png",
-      "rank": 0.4412,
+      "rank": 0.4383,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1754,7 +1777,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1594.png",
-      "rank": 0.4401,
+      "rank": 0.4376,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1777,7 +1800,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG_2807-1024x910.jpeg",
-      "rank": 0.4342,
+      "rank": 0.4314,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1790,6 +1813,37 @@
       "path": "story/278/mahamas-big-push-is-creating-jobs-across-constituencies-osman-ayariga/"
     },
     {
+      "id": 196,
+      "title": "Minister orders suspension of Obuasi SHS headmaster over alleged sexual misconduct following JoyNews investigation",
+      "summary": "The Minister of Education has directed the immediate suspension of the Headmaster of Obuasi Senior High Technical School, Zakaria Abdulai, over allegations of sexual misconduct involving a female student.",
+      "category": "basic_schools",
+      "published_at": "2026-10-13T18:53:18Z",
+      "source_count": 2,
+      "sources": [
+        "3News",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://media.3news.com/safeimagekit-Obuasi Snr High Tech School-1200x675.webp",
+      "rank": 0.4292,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Minister orders suspension of Obuasi SHS headmaster over alleged sexual misconduct following JoyNews investigation",
+          "url": "https://www.myjoyonline.com/minister-orders-suspension-of-obuasi-shs-headmaster-over-alleged-sexual-misconduct-following-joynews-investigation/",
+          "published_at": "2026-10-13T17:54:12Z",
+          "excerpt": "The Minister of Education has directed the immediate suspension of the Headmaster of Obuasi Senior High Technical School, Zakaria Abdulai, over allegations of sexual misconduct involving a female student. According to a statement issued by the Ministry of Education, the directive follows an investigation by JoyNews and Manasseh Azure Awuni into the allegations against the […]"
+        },
+        {
+          "source_name": "3News",
+          "title": "Education Minister orders suspension, investigation of Obuasi SHS Headmaster over alleged sexual misconduct",
+          "url": "https://3news.com/news/education-minister-orders-suspension-investigation-of-obuasi-shs-headmaster-over-alleged-sexual-misconduct",
+          "published_at": "2026-10-13T18:53:18Z",
+          "excerpt": "The Minister of Education, Haruna Iddrisu has directed the immediate suspension of the Headmaster of Obuasi Senior High Technical School in the Ashanti Region, Zakaria Abdulai, pending investigations into allegations of sexual misconduct involving a female student."
+        }
+      ],
+      "path": "story/196/minister-orders-suspension-of-obuasi-shs-headmaster-over-alleged-sexual/"
+    },
+    {
       "id": 273,
       "title": "Stop Obuasi SHTS head from contesting Juaben chairmanship amid sexual abuse allegations – Kojo Asante to NDC",
       "summary": "The Director of Policy Engagement and Partnerships at the Centre for Democratic Development (CDD-Ghana), Dr Kojo Asante, has urged the National Democratic Congress (NDC) to prevent the headmaster of Obuasi Senior High Technical School from contesting the Juaben constituency chairmanship amid allegations of sexual mi...",
@@ -1800,7 +1854,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1620.png",
-      "rank": 0.4304,
+      "rank": 0.4278,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1823,7 +1877,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1622.png",
-      "rank": 0.4304,
+      "rank": 0.4277,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1836,6 +1890,29 @@
       "path": "story/272/obuasi-shts-scandal-kojo-asante-calls-for-taskforce-to-review-protocols-for/"
     },
     {
+      "id": 259,
+      "title": "Government to increase Free SHS feeding allowance in 2027 Budget – Haruna Iddrisu",
+      "summary": "Haruna Iddrisu, Minister for Education, has announced plans to increase the GHS15 per-student feeding allocation under the Free Senior High School (Free SHS) programme in the 2027 Budget.",
+      "category": "basic_schools",
+      "published_at": "2026-10-16T04:58:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-at-2.18.01-AM-1024x616.png",
+      "rank": 0.4276,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Government to increase Free SHS feeding allowance in 2027 Budget – Haruna Iddrisu",
+          "url": "https://www.myjoyonline.com/government-to-increase-free-shs-feeding-allowance-in-2027-budget-haruna-iddrisu/",
+          "published_at": "2026-10-16T04:58:00Z",
+          "excerpt": "Haruna Iddrisu, Minister for Education, has announced plans to increase the GHS15 per-student feeding allocation under the Free Senior High School (Free SHS) programme in the 2027 Budget."
+        }
+      ],
+      "path": "story/259/government-to-increase-free-shs-feeding-allowance-in-2027-budget-haruna-iddrisu/"
+    },
+    {
       "id": 271,
       "title": "Government pays promotion arrears to 56,003 teachers, remaining payments due by end of October",
       "summary": "Government pays promotion arrears to 56,003 teachers, remaining payments due by end of October",
@@ -1846,7 +1923,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Haruna Idrissu-1200x675.webp",
-      "rank": 0.4302,
+      "rank": 0.4275,
       "articles": [
         {
           "source_name": "3News",
@@ -1869,7 +1946,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1627-1024x576.png",
-      "rank": 0.4302,
+      "rank": 0.4275,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1882,60 +1959,6 @@
       "path": "story/270/children-aged-5-8-and-11-killed-in-us-school-shooting-before-suspect-shot-by/"
     },
     {
-      "id": 196,
-      "title": "Minister orders suspension of Obuasi SHS headmaster over alleged sexual misconduct following JoyNews investigation",
-      "summary": "The Minister of Education has directed the immediate suspension of the Headmaster of Obuasi Senior High Technical School, Zakaria Abdulai, over allegations of sexual misconduct involving a female student.",
-      "category": "basic_schools",
-      "published_at": "2026-10-13T18:53:18Z",
-      "source_count": 2,
-      "sources": [
-        "3News",
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://media.3news.com/safeimagekit-Obuasi Snr High Tech School-1200x675.webp",
-      "rank": 0.43,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Minister orders suspension of Obuasi SHS headmaster over alleged sexual misconduct following JoyNews investigation",
-          "url": "https://www.myjoyonline.com/minister-orders-suspension-of-obuasi-shs-headmaster-over-alleged-sexual-misconduct-following-joynews-investigation/",
-          "published_at": "2026-10-13T17:54:12Z",
-          "excerpt": "The Minister of Education has directed the immediate suspension of the Headmaster of Obuasi Senior High Technical School, Zakaria Abdulai, over allegations of sexual misconduct involving a female student. According to a statement issued by the Ministry of Education, the directive follows an investigation by JoyNews and Manasseh Azure Awuni into the allegations against the […]"
-        },
-        {
-          "source_name": "3News",
-          "title": "Education Minister orders suspension, investigation of Obuasi SHS Headmaster over alleged sexual misconduct",
-          "url": "https://3news.com/news/education-minister-orders-suspension-investigation-of-obuasi-shs-headmaster-over-alleged-sexual-misconduct",
-          "published_at": "2026-10-13T18:53:18Z",
-          "excerpt": "The Minister of Education, Haruna Iddrisu has directed the immediate suspension of the Headmaster of Obuasi Senior High Technical School in the Ashanti Region, Zakaria Abdulai, pending investigations into allegations of sexual misconduct involving a female student."
-        }
-      ],
-      "path": "story/196/minister-orders-suspension-of-obuasi-shs-headmaster-over-alleged-sexual/"
-    },
-    {
-      "id": 259,
-      "title": "Government to increase Free SHS feeding allowance in 2027 Budget – Haruna Iddrisu",
-      "summary": "Haruna Iddrisu, Minister for Education, has announced plans to increase the GHS15 per-student feeding allocation under the Free Senior High School (Free SHS) programme in the 2027 Budget.",
-      "category": "basic_schools",
-      "published_at": "2026-10-16T04:58:00Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-at-2.18.01-AM-1024x616.png",
-      "rank": 0.4298,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Government to increase Free SHS feeding allowance in 2027 Budget – Haruna Iddrisu",
-          "url": "https://www.myjoyonline.com/government-to-increase-free-shs-feeding-allowance-in-2027-budget-haruna-iddrisu/",
-          "published_at": "2026-10-16T04:58:00Z",
-          "excerpt": "Haruna Iddrisu, Minister for Education, has announced plans to increase the GHS15 per-student feeding allocation under the Free Senior High School (Free SHS) programme in the 2027 Budget."
-        }
-      ],
-      "path": "story/259/government-to-increase-free-shs-feeding-allowance-in-2027-budget-haruna-iddrisu/"
-    },
-    {
       "id": 267,
       "title": "Obuasi SHS rape case: Akosua Manu demands decisive action from Gender, Education M inisters",
       "summary": "Akosua Manu has called on Ghana's Gender and Education Ministers for urgent action and accountability regarding rape allegations against the Obuasi SHS headmaster.",
@@ -1946,7 +1969,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/IMG_5116.JPG-1200x1248.webp",
-      "rank": 0.4291,
+      "rank": 0.4264,
       "articles": [
         {
           "source_name": "3News",
@@ -1969,7 +1992,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/The-Late-Daniel-Boateng-Mintah.jpg",
-      "rank": 0.4288,
+      "rank": 0.4262,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1992,7 +2015,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/images-1.jpg",
-      "rank": 0.4241,
+      "rank": 0.4216,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2015,7 +2038,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/image-2026-10-16T025715.983.png",
-      "rank": 0.4239,
+      "rank": 0.4214,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2039,7 +2062,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/National-Defence-University.png",
-      "rank": 0.4219,
+      "rank": 0.4211,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2069,7 +2092,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/3-29-e1792141420956-1024x907.jpg",
-      "rank": 0.4216,
+      "rank": 0.4192,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2092,7 +2115,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-5.13.22-PM-1024x682.jpeg",
-      "rank": 0.4118,
+      "rank": 0.4099,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2115,7 +2138,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-12-at-13.22.57_b122e91a.jpg",
-      "rank": 0.4086,
+      "rank": 0.4068,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2138,7 +2161,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Pay-attention-to-teachers-and-give-them-what-is-due-Ho-District-GNAT-tells-government-3-1024x576.png",
-      "rank": 0.3993,
+      "rank": 0.3977,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2161,7 +2184,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-19.38.52-1024x628.jpeg",
-      "rank": 0.3957,
+      "rank": 0.3938,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2184,7 +2207,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Dr Angsongna B-800x920.webp",
-      "rank": 0.3953,
+      "rank": 0.3934,
       "articles": [
         {
           "source_name": "3News",
@@ -2207,7 +2230,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1551-1024x576.png",
-      "rank": 0.394,
+      "rank": 0.3921,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2220,29 +2243,6 @@
       "path": "story/256/engage-now-africa-to-construct-a-10-unit-classroom-block-for-struggling/"
     },
     {
-      "id": 253,
-      "title": "PZ Cussons Ghana promotes hand washing among schoolchildren through Camel campaign",
-      "summary": "Z Cussons Ghana Limited is promoting hand-washing education among schoolchildren, saying habits developed early in life can help prevent infections and improve public health.",
-      "category": "general",
-      "published_at": "2026-10-15T19:18:14Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-15-201135-1024x461.png",
-      "rank": 0.3918,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "PZ Cussons Ghana promotes hand washing among schoolchildren through Camel campaign",
-          "url": "https://www.myjoyonline.com/pz-cussons-ghana-promotes-hand-washing-among-schoolchildren-through-camel-campaign/",
-          "published_at": "2026-10-15T19:18:14Z",
-          "excerpt": "Z Cussons Ghana Limited is promoting hand-washing education among schoolchildren, saying habits developed early in life can help prevent infections and improve public health. The company used its Camel brand to educate pupils at Christ the King School on proper hand-washing techniques as part of activities marking Global Handwashing Day. The engagement featured practical demonstrations and interactive sessions aimed at helping pupils understand the importance of washing their hands with soap and making the practice part of their daily routines."
-        }
-      ],
-      "path": "story/253/pz-cussons-ghana-promotes-hand-washing-among-schoolchildren-through-camel/"
-    },
-    {
       "id": 225,
       "title": "University of Ghana dismisses viral notice on reopening date, hall fees",
       "summary": "The University of Ghana (UG) has cautioned students and the general public against a fake notice circulating on social media regarding reopening dates and hall allocation fees for the 2026/2027 academic year.",
@@ -2253,7 +2253,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2020/03/University-of-Ghana.jpg",
-      "rank": 0.3916,
+      "rank": 0.3901,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2266,6 +2266,29 @@
       "path": "story/225/university-of-ghana-dismisses-viral-notice-on-reopening-date-hall-fees/"
     },
     {
+      "id": 253,
+      "title": "PZ Cussons Ghana promotes hand washing among schoolchildren through Camel campaign",
+      "summary": "Z Cussons Ghana Limited is promoting hand-washing education among schoolchildren, saying habits developed early in life can help prevent infections and improve public health.",
+      "category": "general",
+      "published_at": "2026-10-15T19:18:14Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-15-201135-1024x461.png",
+      "rank": 0.3899,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "PZ Cussons Ghana promotes hand washing among schoolchildren through Camel campaign",
+          "url": "https://www.myjoyonline.com/pz-cussons-ghana-promotes-hand-washing-among-schoolchildren-through-camel-campaign/",
+          "published_at": "2026-10-15T19:18:14Z",
+          "excerpt": "Z Cussons Ghana Limited is promoting hand-washing education among schoolchildren, saying habits developed early in life can help prevent infections and improve public health. The company used its Camel brand to educate pupils at Christ the King School on proper hand-washing techniques as part of activities marking Global Handwashing Day. The engagement featured practical demonstrations and interactive sessions aimed at helping pupils understand the importance of washing their hands with soap and making the practice part of their daily routines."
+        }
+      ],
+      "path": "story/253/pz-cussons-ghana-promotes-hand-washing-among-schoolchildren-through-camel/"
+    },
+    {
       "id": 252,
       "title": "UPSA launches laptop assembly plant, requiring new students to assemble their own devices",
       "summary": "The University of Professional Studies, Accra (UPSA), has taken a major step towards technology-enabled learning with the official launch of its laptop assembly plant at the AFOA ATA Building.",
@@ -2276,7 +2299,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1556-1024x572.png",
-      "rank": 0.3912,
+      "rank": 0.3893,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2299,7 +2322,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/4-15-1024x682.jpg",
-      "rank": 0.3911,
+      "rank": 0.3893,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2322,7 +2345,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-17.42.24-1-1024x573.jpeg",
-      "rank": 0.3908,
+      "rank": 0.389,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2345,7 +2368,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Rev.-Fr.-Stephen-Owusu-Sekyere.png",
-      "rank": 0.3905,
+      "rank": 0.3887,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2368,7 +2391,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1541.png",
-      "rank": 0.39,
+      "rank": 0.3882,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2391,7 +2414,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/akosua-achiaa-sarpong-esq-reveal-1.jpg",
-      "rank": 0.3881,
+      "rank": 0.3863,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2414,7 +2437,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/DSC00299-joy-header.JPG-1024x683.jpeg",
-      "rank": 0.3878,
+      "rank": 0.3861,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2437,7 +2460,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/akosua-achiaa-sarpong-esq-reveal.jpg",
-      "rank": 0.3873,
+      "rank": 0.3855,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2450,6 +2473,37 @@
       "path": "story/243/i-was-filled-with-disbelief-akosua-achia-sarpong-esq-shares-her-first-reaction/"
     },
     {
+      "id": 137,
+      "title": "UTAG-UG threatens strike on October 19 over unpaid allowance",
+      "summary": "The University of Ghana branch of the University Teachers Association of Ghana (UTAG-UG) has threatened to withdraw teaching and related services from Monday, October 19, 2026, if the government fails to pay its members’ 2026 Book and Research Allowance.",
+      "category": "teachers",
+      "published_at": "2026-10-10T09:54:20Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2022/08/University-of-Ghana-Legon-646x424-Copy.jpg",
+      "rank": 0.3839,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "UTAG-UG threatens strike on October 19 over unpaid allowance",
+          "url": "https://www.myjoyonline.com/utag-ug-threatens-strike-on-october-19-over-unpaid-allowance/",
+          "published_at": "2026-10-10T07:33:16Z",
+          "excerpt": "The University of Ghana branch of the University Teachers Association of Ghana (UTAG-UG) has threatened to withdraw teaching and related services from Monday, October 19, 2026, if the government fails to pay its members’ 2026 Book and Research Allowance."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "UTAG-UG threatens strike over unpaid allowance",
+          "url": "https://www.adomonline.com/utag-ug-threatens-strike-over-unpaid-allowance/",
+          "published_at": "2026-10-10T09:54:20Z",
+          "excerpt": "The University of Ghana branch of the University Teachers Association of Ghana (UTAG-UG) has given the government until October 16 to pay its members’ outstanding 2026 Book and Research Allowance or face an industrial action. The association says its members will withdraw teaching and related services from Monday, October 19, if the payment is not […]"
+        }
+      ],
+      "path": "story/137/utag-ug-threatens-strike-on-october-19-over-unpaid-allowance/"
+    },
+    {
       "id": 240,
       "title": "Obuasi SHTS scandal: Eduwatch calls for sex offenders’ register and mandatory background checks for teachers",
       "summary": "The Executive Director of Africa Education Watch (Eduwatch), Kofi Asare, has called on the Ghana Education Service (GES) to introduce standardised safeguarding procedures, a sex offenders’ register and mandatory criminal background checks for teachers to address what he describes as systemic gaps in handling miscond...",
@@ -2460,7 +2514,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/04/Kofi-Asare-Africa-Education-Watch-596x424-1.jpg",
-      "rank": 0.3855,
+      "rank": 0.3838,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2473,6 +2527,37 @@
       "path": "story/240/obuasi-shts-scandal-eduwatch-calls-for-sex-offenders-register-and-mandatory/"
     },
     {
+      "id": 99,
+      "title": "Haruna Iddrisu rejects Bawumia’s claims of Free SHS setbacks",
+      "summary": "Education Minister Haruna Iddrisu has rejected claims by New Patriotic Party (NPP) flagbearer Dr Mahamudu Bawumia that the Free Senior High School (Free SHS) programme has suffered significant setbacks under the current National Democratic Congress (NDC) administration.",
+      "category": "basic_schools",
+      "published_at": "2026-10-07T17:40:53Z",
+      "source_count": 2,
+      "sources": [
+        "3News",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/04/Mr-Haruna-Iddrisu.webp",
+      "rank": 0.3836,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Haruna Iddrisu responds to Bawumia's claims on Free SHS",
+          "url": "https://3news.com/news/haruna-iddrisu-responds-to-bawumias-claims-on-free-shs",
+          "published_at": "2026-10-07T15:31:37Z",
+          "excerpt": "Education Minister, Haruna Iddrisu has rejected claims by New Patriotic Party (NPP) flagbearer, Dr Mahamudu Bawumia that Ghana's Free Senior High School (Free SHS) programme is facing significant challenges."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Haruna Iddrisu rejects Bawumia’s claims of Free SHS setbacks",
+          "url": "https://www.myjoyonline.com/haruna-iddrisu-rejects-bawumias-claims-of-free-shs-setbacks/",
+          "published_at": "2026-10-07T17:40:53Z",
+          "excerpt": "Education Minister Haruna Iddrisu has rejected claims by New Patriotic Party (NPP) flagbearer Dr Mahamudu Bawumia that the Free Senior High School (Free SHS) programme has suffered significant setbacks under the current National Democratic Congress (NDC) administration. Dr Bawumia, speaking at the NPP’s National Delegates Conference in Kumasi, criticised the implementation of the programme and […]"
+        }
+      ],
+      "path": "story/99/haruna-iddrisu-rejects-bawumias-claims-of-free-shs-setbacks/"
+    },
+    {
       "id": 239,
       "title": "GloMeF CEO urges intensified public education on new road traffic regulations",
       "summary": "The Chief Executive Officer of the Global Media Foundation (GloMeF), Raphael Godlove, has called for intensified public education on the new Road Traffic Regulations 2026 (L.I. 2519).",
@@ -2483,7 +2568,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Social-NGO-Regulation-e1792077647927-1024x712.jpg",
-      "rank": 0.3852,
+      "rank": 0.3834,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2506,7 +2591,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-2.00.11-PM-e1792077665799.jpeg",
-      "rank": 0.3851,
+      "rank": 0.3833,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2536,7 +2621,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/esther-1.jpg",
-      "rank": 0.385,
+      "rank": 0.3833,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2549,68 +2634,6 @@
       "path": "story/237/obuasi-shts-sexual-abuse-scandal-exposes-systemic-failure-in-child-protection/"
     },
     {
-      "id": 137,
-      "title": "UTAG-UG threatens strike on October 19 over unpaid allowance",
-      "summary": "The University of Ghana branch of the University Teachers Association of Ghana (UTAG-UG) has threatened to withdraw teaching and related services from Monday, October 19, 2026, if the government fails to pay its members’ 2026 Book and Research Allowance.",
-      "category": "teachers",
-      "published_at": "2026-10-10T09:54:20Z",
-      "source_count": 2,
-      "sources": [
-        "Adom Online Education",
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.adomonline.com/wp-content/uploads/2022/08/University-of-Ghana-Legon-646x424-Copy.jpg",
-      "rank": 0.3843,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "UTAG-UG threatens strike on October 19 over unpaid allowance",
-          "url": "https://www.myjoyonline.com/utag-ug-threatens-strike-on-october-19-over-unpaid-allowance/",
-          "published_at": "2026-10-10T07:33:16Z",
-          "excerpt": "The University of Ghana branch of the University Teachers Association of Ghana (UTAG-UG) has threatened to withdraw teaching and related services from Monday, October 19, 2026, if the government fails to pay its members’ 2026 Book and Research Allowance."
-        },
-        {
-          "source_name": "Adom Online Education",
-          "title": "UTAG-UG threatens strike over unpaid allowance",
-          "url": "https://www.adomonline.com/utag-ug-threatens-strike-over-unpaid-allowance/",
-          "published_at": "2026-10-10T09:54:20Z",
-          "excerpt": "The University of Ghana branch of the University Teachers Association of Ghana (UTAG-UG) has given the government until October 16 to pay its members’ outstanding 2026 Book and Research Allowance or face an industrial action. The association says its members will withdraw teaching and related services from Monday, October 19, if the payment is not […]"
-        }
-      ],
-      "path": "story/137/utag-ug-threatens-strike-on-october-19-over-unpaid-allowance/"
-    },
-    {
-      "id": 99,
-      "title": "Haruna Iddrisu rejects Bawumia’s claims of Free SHS setbacks",
-      "summary": "Education Minister Haruna Iddrisu has rejected claims by New Patriotic Party (NPP) flagbearer Dr Mahamudu Bawumia that the Free Senior High School (Free SHS) programme has suffered significant setbacks under the current National Democratic Congress (NDC) administration.",
-      "category": "basic_schools",
-      "published_at": "2026-10-07T17:40:53Z",
-      "source_count": 2,
-      "sources": [
-        "3News",
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/04/Mr-Haruna-Iddrisu.webp",
-      "rank": 0.3838,
-      "articles": [
-        {
-          "source_name": "3News",
-          "title": "Haruna Iddrisu responds to Bawumia's claims on Free SHS",
-          "url": "https://3news.com/news/haruna-iddrisu-responds-to-bawumias-claims-on-free-shs",
-          "published_at": "2026-10-07T15:31:37Z",
-          "excerpt": "Education Minister, Haruna Iddrisu has rejected claims by New Patriotic Party (NPP) flagbearer, Dr Mahamudu Bawumia that Ghana's Free Senior High School (Free SHS) programme is facing significant challenges."
-        },
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Haruna Iddrisu rejects Bawumia’s claims of Free SHS setbacks",
-          "url": "https://www.myjoyonline.com/haruna-iddrisu-rejects-bawumias-claims-of-free-shs-setbacks/",
-          "published_at": "2026-10-07T17:40:53Z",
-          "excerpt": "Education Minister Haruna Iddrisu has rejected claims by New Patriotic Party (NPP) flagbearer Dr Mahamudu Bawumia that the Free Senior High School (Free SHS) programme has suffered significant setbacks under the current National Democratic Congress (NDC) administration. Dr Bawumia, speaking at the NPP’s National Delegates Conference in Kumasi, criticised the implementation of the programme and […]"
-        }
-      ],
-      "path": "story/99/haruna-iddrisu-rejects-bawumias-claims-of-free-shs-setbacks/"
-    },
-    {
       "id": 236,
       "title": "Jimmy Aglah’s ‘When the River Testified’ approved by NaCCA as Supplementary Reader",
       "summary": "Ghanaian author and media executive Jimmy Aglah has reached a major milestone in his literary career following the approval of his novel, When the River Testified, by the National Council for Curriculum and Assessment (NaCCA) as a supplementary reader for Ghana’s pre-tertiary education system.",
@@ -2621,7 +2644,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Jimmy_Aglah_When-the-river-testified-1024x1024.jpeg",
-      "rank": 0.3838,
+      "rank": 0.3821,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2644,7 +2667,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1343-839x424-3.webp",
-      "rank": 0.3819,
+      "rank": 0.3802,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2667,7 +2690,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-1.40.19-pm-1024x636.png",
-      "rank": 0.3818,
+      "rank": 0.3802,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2690,7 +2713,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-05-at-04.10.07-683x1024.jpeg",
-      "rank": 0.3815,
+      "rank": 0.3798,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2713,7 +2736,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1343-839x424-2.webp",
-      "rank": 0.3812,
+      "rank": 0.3795,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2736,7 +2759,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1517-1024x795.png",
-      "rank": 0.381,
+      "rank": 0.3794,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2759,7 +2782,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/threats-victim-blaming-more-how-.jpg",
-      "rank": 0.3795,
+      "rank": 0.3779,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2770,52 +2793,6 @@
         }
       ],
       "path": "story/228/obuasi-shts-number-of-students-alleging-sexual-abuse-rises-to-16/"
-    },
-    {
-      "id": 227,
-      "title": "Digital innovation could widen Africa’s inequalities if people are left out – Sam Jonah",
-      "summary": "Business leader Sir Sam Jonah has warned that digital innovation could widen inequality in Africa if its benefits are concentrated among people who already have access to technology, education and economic opportunities.",
-      "category": "higher_education",
-      "published_at": "2026-10-15T09:58:48Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/CTX7073.jpg",
-      "rank": 0.3758,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Digital innovation could widen Africa’s inequalities if people are left out – Sam Jonah",
-          "url": "https://www.myjoyonline.com/digital-innovation-could-widen-africas-inequalities-if-people-are-left-out-sam-jonah/",
-          "published_at": "2026-10-15T09:58:48Z",
-          "excerpt": "Business leader Sir Sam Jonah has warned that digital innovation could widen inequality in Africa if its benefits are concentrated among people who already have access to technology, education and economic opportunities. He said governments, universities and businesses must ensure that digital policies and platforms do not exclude people who lack reliable internet access, electricity or the resources to participate in the digital economy. “Every digital policy, every new platform, must ask a simple question: who is left out?” he said. Sir Sam was speaking at Methodist University Ghana’s international conference in Accra on Thursday, October 15, where he delivered the keynote address for the university’s 25th anniversary celebrations. He argued that a child in Dansoman with a laptop and reliable internet access has substantially different opportunities from a child in a village without electricity."
-        }
-      ],
-      "path": "story/227/digital-innovation-could-widen-africas-inequalities-if-people-are-left-out-sam/"
-    },
-    {
-      "id": 222,
-      "title": "GTEC’s letter directing public universities to reopen by October 16 is unprofessional – GAUA",
-      "summary": "The Ghana Association of University Administrators (GAUA) has criticised the tone of a directive by the Ghana Tertiary Education Commission (GTEC) ordering public universities to reopen by Friday and resume academic work by Monday at the latest.",
-      "category": "higher_education",
-      "published_at": "2026-10-14T20:47:24Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/University-of-Ghana-696x464-1.webp",
-      "rank": 0.3751,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "GTEC’s letter directing public universities to reopen by October 16 is unprofessional – GAUA",
-          "url": "https://www.myjoyonline.com/gtecs-letter-directing-public-universities-to-reopen-by-october-16-is-unprofessional-gaua/",
-          "published_at": "2026-10-14T20:47:24Z",
-          "excerpt": "The Ghana Association of University Administrators (GAUA) has criticised the tone of a directive by the Ghana Tertiary Education Commission (GTEC) ordering public universities to reopen by Friday and resume academic work by Monday at the latest."
-        }
-      ],
-      "path": "story/222/gtecs-letter-directing-public-universities-to-reopen-by-october-16-is/"
     },
     {
       "id": 119,
@@ -2829,7 +2806,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/01/IMG_2276.jpg-1024x683.jpeg",
-      "rank": 0.375,
+      "rank": 0.3747,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2860,7 +2837,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/image-2026-10-08T215510.615.jpg",
-      "rank": 0.3749,
+      "rank": 0.3746,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2880,6 +2857,52 @@
       "path": "story/66/ktu-partners-nayt-consult-to-equip-students-for-employment-opportunities-in/"
     },
     {
+      "id": 227,
+      "title": "Digital innovation could widen Africa’s inequalities if people are left out – Sam Jonah",
+      "summary": "Business leader Sir Sam Jonah has warned that digital innovation could widen inequality in Africa if its benefits are concentrated among people who already have access to technology, education and economic opportunities.",
+      "category": "higher_education",
+      "published_at": "2026-10-15T09:58:48Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/CTX7073.jpg",
+      "rank": 0.3742,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Digital innovation could widen Africa’s inequalities if people are left out – Sam Jonah",
+          "url": "https://www.myjoyonline.com/digital-innovation-could-widen-africas-inequalities-if-people-are-left-out-sam-jonah/",
+          "published_at": "2026-10-15T09:58:48Z",
+          "excerpt": "Business leader Sir Sam Jonah has warned that digital innovation could widen inequality in Africa if its benefits are concentrated among people who already have access to technology, education and economic opportunities. He said governments, universities and businesses must ensure that digital policies and platforms do not exclude people who lack reliable internet access, electricity or the resources to participate in the digital economy. “Every digital policy, every new platform, must ask a simple question: who is left out?” he said. Sir Sam was speaking at Methodist University Ghana’s international conference in Accra on Thursday, October 15, where he delivered the keynote address for the university’s 25th anniversary celebrations. He argued that a child in Dansoman with a laptop and reliable internet access has substantially different opportunities from a child in a village without electricity."
+        }
+      ],
+      "path": "story/227/digital-innovation-could-widen-africas-inequalities-if-people-are-left-out-sam/"
+    },
+    {
+      "id": 222,
+      "title": "GTEC’s letter directing public universities to reopen by October 16 is unprofessional – GAUA",
+      "summary": "The Ghana Association of University Administrators (GAUA) has criticised the tone of a directive by the Ghana Tertiary Education Commission (GTEC) ordering public universities to reopen by Friday and resume academic work by Monday at the latest.",
+      "category": "higher_education",
+      "published_at": "2026-10-14T20:47:24Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/University-of-Ghana-696x464-1.webp",
+      "rank": 0.3739,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GTEC’s letter directing public universities to reopen by October 16 is unprofessional – GAUA",
+          "url": "https://www.myjoyonline.com/gtecs-letter-directing-public-universities-to-reopen-by-october-16-is-unprofessional-gaua/",
+          "published_at": "2026-10-14T20:47:24Z",
+          "excerpt": "The Ghana Association of University Administrators (GAUA) has criticised the tone of a directive by the Ghana Tertiary Education Commission (GTEC) ordering public universities to reopen by Friday and resume academic work by Monday at the latest."
+        }
+      ],
+      "path": "story/222/gtecs-letter-directing-public-universities-to-reopen-by-october-16-is/"
+    },
+    {
       "id": 226,
       "title": "Obuasi SHTS head accused of sexually abusing students is NDC Juaben secretary seeking chairmanship",
       "summary": "Investigative journalist Manasseh Azure Awuni says the headmaster of Obuasi Senior High Technical School in the Ashanti Region, who faces allegations of sexually assaulting female students, is a serving constituency secretary of the National Democratic Congress (NDC) and an aspirant for the constituency chairmanship.",
@@ -2890,7 +2913,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/threats-victim-blaming-more-how-1-1.jpg",
-      "rank": 0.3745,
+      "rank": 0.373,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2913,7 +2936,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Screenshot 2026-10-14 at 7.37.07 PM-1200x1350.webp",
-      "rank": 0.3738,
+      "rank": 0.3726,
       "articles": [
         {
           "source_name": "3News",
@@ -2936,7 +2959,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/TEWU-1200x671.webp",
-      "rank": 0.3732,
+      "rank": 0.372,
       "articles": [
         {
           "source_name": "3News",
@@ -2959,7 +2982,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/University-of-Ghana-696x387-1.jpg",
-      "rank": 0.3725,
+      "rank": 0.371,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2982,7 +3005,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-00.24.37-1024x768.jpeg",
-      "rank": 0.372,
+      "rank": 0.3705,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3006,7 +3029,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2020/03/image-231.png",
-      "rank": 0.3707,
+      "rank": 0.3704,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3037,7 +3060,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/image-35.jpg",
-      "rank": 0.3699,
+      "rank": 0.3696,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3067,7 +3090,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1398-1024x634.png",
-      "rank": 0.3691,
+      "rank": 0.368,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3090,7 +3113,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/image-2026-08-07T042641.024.jpg",
-      "rank": 0.3682,
+      "rank": 0.3671,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3113,7 +3136,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2025/08/image-28.png",
-      "rank": 0.368,
+      "rank": 0.3668,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3143,7 +3166,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-09.31.03-1-1-1024x640.jpeg",
-      "rank": 0.3675,
+      "rank": 0.3664,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3166,7 +3189,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1415-1024x708.png",
-      "rank": 0.3595,
+      "rank": 0.3583,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3189,7 +3212,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/First-phase-of-arrears-for-promoted-teachers-to-be-paid-on-Friday-Haruna-Iddrisu-announces-1024x576.png",
-      "rank": 0.3562,
+      "rank": 0.3549,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3212,7 +3235,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-19.27.05-1024x675.jpeg",
-      "rank": 0.3557,
+      "rank": 0.3545,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3235,7 +3258,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1446.png",
-      "rank": 0.3545,
+      "rank": 0.3533,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3258,7 +3281,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-5.56.10-AM.jpeg",
-      "rank": 0.3543,
+      "rank": 0.3531,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3281,7 +3304,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-14-at-4.29.17-pm.png",
-      "rank": 0.3529,
+      "rank": 0.3517,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3304,7 +3327,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/Haruna-Iddrisu6-1024x555.jpg",
-      "rank": 0.3525,
+      "rank": 0.3513,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3327,7 +3350,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/safeimagekit-KNUST CAMPUS-1200x675.webp",
-      "rank": 0.3521,
+      "rank": 0.3509,
       "articles": [
         {
           "source_name": "3News",
@@ -3350,7 +3373,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-14.40.17-2-1024x665.jpeg",
-      "rank": 0.3503,
+      "rank": 0.3492,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3373,7 +3396,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/08/Knust.jpg",
-      "rank": 0.3495,
+      "rank": 0.3484,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3396,7 +3419,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1343-839x424-1.webp",
-      "rank": 0.3495,
+      "rank": 0.3483,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3419,7 +3442,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/04/ZUWERA_MOHAMMED_IBRAHIMAH_top.jpg",
-      "rank": 0.3492,
+      "rank": 0.3481,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3442,7 +3465,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/2-22-784x1024.jpg",
-      "rank": 0.3475,
+      "rank": 0.3464,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3465,7 +3488,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/image-2026-08-07T042641.024.jpg",
-      "rank": 0.3456,
+      "rank": 0.3445,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3488,7 +3511,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Obuasi SecTec-720x378.webp",
-      "rank": 0.3437,
+      "rank": 0.3426,
       "articles": [
         {
           "source_name": "3News",
@@ -3511,7 +3534,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1298.png",
-      "rank": 0.3418,
+      "rank": 0.341,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3534,7 +3557,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2020/11/Ghana-Education-Service-GES.png",
-      "rank": 0.3409,
+      "rank": 0.3401,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3557,7 +3580,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Haruna-Iddrisu-1.jpeg",
-      "rank": 0.3407,
+      "rank": 0.34,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3580,7 +3603,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/image-295-1024x768.png",
-      "rank": 0.3383,
+      "rank": 0.3376,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3603,7 +3626,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-01.03.48-808x1024.jpeg",
-      "rank": 0.3359,
+      "rank": 0.335,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3626,7 +3649,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1311-1024x569.png",
-      "rank": 0.3322,
+      "rank": 0.3314,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3649,7 +3672,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-13.14.17-e1791924040467-1024x774.jpeg",
-      "rank": 0.3317,
+      "rank": 0.3308,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3672,7 +3695,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/29A2188-910x1024.jpg",
-      "rank": 0.3294,
+      "rank": 0.3288,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3695,7 +3718,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-174349.png",
-      "rank": 0.3287,
+      "rank": 0.3281,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3718,7 +3741,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/02/UPSA.jpg",
-      "rank": 0.3274,
+      "rank": 0.3266,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3741,7 +3764,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/gaua-strike-govt-moves-to-protec.jpg",
-      "rank": 0.3272,
+      "rank": 0.3266,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3764,7 +3787,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1326-1024x1024.png",
-      "rank": 0.327,
+      "rank": 0.3262,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3787,7 +3810,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/03/Haruna-Iddrisu.jpg",
-      "rank": 0.327,
+      "rank": 0.3262,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3810,7 +3833,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-10.51.52-682x1024.jpeg",
-      "rank": 0.326,
+      "rank": 0.3254,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3833,7 +3856,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1297.png",
-      "rank": 0.3258,
+      "rank": 0.325,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3856,7 +3879,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Haruna Idrissu-1200x675.webp",
-      "rank": 0.3248,
+      "rank": 0.3242,
       "articles": [
         {
           "source_name": "3News",
@@ -3879,7 +3902,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1184.png",
-      "rank": 0.3247,
+      "rank": 0.3241,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3902,7 +3925,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Haruna-Iddrisu.jpeg",
-      "rank": 0.3237,
+      "rank": 0.3229,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3925,7 +3948,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/06/image-795-1024x731.png",
-      "rank": 0.3231,
+      "rank": 0.3223,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3948,7 +3971,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2025/07/Haruna-Iddrisu-1024x896.jpg",
-      "rank": 0.3228,
+      "rank": 0.3223,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3971,7 +3994,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/07/HNwa5mxWkAA8FkY.jpg-e1784805701248-1024x731.jpeg",
-      "rank": 0.3218,
+      "rank": 0.3211,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3994,7 +4017,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-5.06.46-AM-1024x645.jpeg",
-      "rank": 0.3215,
+      "rank": 0.3209,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4017,7 +4040,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-13-at-4.29.14-AM-1024x604.png",
-      "rank": 0.319,
+      "rank": 0.3183,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4040,7 +4063,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/02/Teachers.avif",
-      "rank": 0.319,
+      "rank": 0.3183,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4063,7 +4086,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-13-at-4.27.21-AM-1024x615.png",
-      "rank": 0.3188,
+      "rank": 0.3181,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4086,7 +4109,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1200.png",
-      "rank": 0.3153,
+      "rank": 0.3147,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4109,7 +4132,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-12 at 21.53.03-600x400.webp",
-      "rank": 0.3141,
+      "rank": 0.3134,
       "articles": [
         {
           "source_name": "3News",
@@ -4132,7 +4155,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/University-of-Ghana-696x464-1.webp",
-      "rank": 0.3138,
+      "rank": 0.3133,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4155,7 +4178,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-6.40.52-PM-1024x576.jpeg",
-      "rank": 0.3125,
+      "rank": 0.3119,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4178,7 +4201,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-20.jpg",
-      "rank": 0.3118,
+      "rank": 0.3112,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4201,7 +4224,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-12 at 11.36.51-720x562.webp",
-      "rank": 0.3118,
+      "rank": 0.3111,
       "articles": [
         {
           "source_name": "3News",
@@ -4214,29 +4237,6 @@
       "path": "story/176/three-term-amenfi-west-ndc-secretary-eyes-western-regional-deputy-secretary/"
     },
     {
-      "id": 174,
-      "title": "Education Minister urges public universities to prepare for reopening amid GAUA strike",
-      "summary": "Education Minister Haruna Iddrisu has asked the Ghana Tertiary Education Commission (GTEC) to direct public universities to communicate their reopening dates by the weekend as government works to resolve the ongoing strike by the Ghana Association of University Administrators (GAUA).",
-      "category": "higher_education",
-      "published_at": "2026-10-12T18:02:54Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-5.56.10-AM.jpeg",
-      "rank": 0.3115,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "Education Minister urges public universities to prepare for reopening amid GAUA strike",
-          "url": "https://www.adomonline.com/education-minister-urges-public-universities-to-prepare-for-reopening-amid-gaua-strike/",
-          "published_at": "2026-10-12T18:02:54Z",
-          "excerpt": "Education Minister Haruna Iddrisu has asked the Ghana Tertiary Education Commission (GTEC) to direct public universities to communicate their reopening dates by the weekend as government works to resolve the ongoing strike by the Ghana Association of University Administrators (GAUA). He said he was hopeful that the industrial action would be suspended within days to […]"
-        }
-      ],
-      "path": "story/174/education-minister-urges-public-universities-to-prepare-for-reopening-amid-gaua/"
-    },
-    {
       "id": 151,
       "title": "Ghana Water Ladies Association constructs new washroom facilities for Bamang JHS to improve sanitation",
       "summary": "The Ghana Water Ladies Association provides new washroom facilities and refurbishes existing toilets at Bamang JHS in the Ejisu Municipality, boosting student hygiene and attendance.",
@@ -4247,7 +4247,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-10 at 1.21.57 PM-800x460.webp",
-      "rank": 0.3115,
+      "rank": 0.3111,
       "articles": [
         {
           "source_name": "3News",
@@ -4260,6 +4260,29 @@
       "path": "story/151/ghana-water-ladies-association-constructs-new-washroom-facilities-for-bamang/"
     },
     {
+      "id": 174,
+      "title": "Education Minister urges public universities to prepare for reopening amid GAUA strike",
+      "summary": "Education Minister Haruna Iddrisu has asked the Ghana Tertiary Education Commission (GTEC) to direct public universities to communicate their reopening dates by the weekend as government works to resolve the ongoing strike by the Ghana Association of University Administrators (GAUA).",
+      "category": "higher_education",
+      "published_at": "2026-10-12T18:02:54Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-5.56.10-AM.jpeg",
+      "rank": 0.3109,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Education Minister urges public universities to prepare for reopening amid GAUA strike",
+          "url": "https://www.adomonline.com/education-minister-urges-public-universities-to-prepare-for-reopening-amid-gaua-strike/",
+          "published_at": "2026-10-12T18:02:54Z",
+          "excerpt": "Education Minister Haruna Iddrisu has asked the Ghana Tertiary Education Commission (GTEC) to direct public universities to communicate their reopening dates by the weekend as government works to resolve the ongoing strike by the Ghana Association of University Administrators (GAUA). He said he was hopeful that the industrial action would be suspended within days to […]"
+        }
+      ],
+      "path": "story/174/education-minister-urges-public-universities-to-prepare-for-reopening-amid-gaua/"
+    },
+    {
       "id": 175,
       "title": "Fidelity Bank completes 15th School under its Orange Impact Initiative with inauguration of Ogome Anglican Basic School",
       "summary": "Fidelity Bank Ghana has fulfilled its commitment to build or renovate 15 basic schools in underserved communities across Ghana, inaugurating newly constructed and renovated facilities at Ogome Anglican Basic School in the Yilo Krobo Municipality.",
@@ -4270,7 +4293,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1221-1024x732.png",
-      "rank": 0.3108,
+      "rank": 0.3102,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4293,7 +4316,7 @@
         "Ghana Tertiary Education Commission"
       ],
       "image_url": "https://gtec.edu.gh/wp-content/uploads/2026/10/CoE-img.jpeg",
-      "rank": 0.3105,
+      "rank": 0.3101,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -4316,7 +4339,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-12 at 15.13.14 (1)-800x436.webp",
-      "rank": 0.3102,
+      "rank": 0.3096,
       "articles": [
         {
           "source_name": "3News",
@@ -4339,7 +4362,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/TUTAG-750x375-1.png",
-      "rank": 0.3098,
+      "rank": 0.3092,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -4362,7 +4385,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/charles-862x424-1.webp",
-      "rank": 0.3093,
+      "rank": 0.3087,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4385,7 +4408,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/gaua-strike-govt-moves-to-protec-2.jpg",
-      "rank": 0.3092,
+      "rank": 0.3086,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4408,7 +4431,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1198.png",
-      "rank": 0.3091,
+      "rank": 0.3085,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4431,7 +4454,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/okyeame-kwame-ft-jahlead-big-up-.jpg",
-      "rank": 0.3089,
+      "rank": 0.3083,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4454,7 +4477,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Napo 1-1200x960.webp",
-      "rank": 0.3087,
+      "rank": 0.3081,
       "articles": [
         {
           "source_name": "3News",
@@ -4477,7 +4500,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1191-1024x768.png",
-      "rank": 0.3078,
+      "rank": 0.3072,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4500,7 +4523,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1-46-e1791804969491-1024x847.jpg",
-      "rank": 0.3076,
+      "rank": 0.307,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4523,7 +4546,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/03/strike_1540x1050-696x475-1-621x424-1.jpg",
-      "rank": 0.3044,
+      "rank": 0.3038,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4546,7 +4569,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2022/07/WhatsApp-Image-2022-07-06-at-12.03.49-PM-1-768x1024.jpeg",
-      "rank": 0.3036,
+      "rank": 0.3032,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4569,7 +4592,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/02/Teachers.avif",
-      "rank": 0.3034,
+      "rank": 0.3029,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4592,7 +4615,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1042-1024x576.png",
-      "rank": 0.3026,
+      "rank": 0.3022,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4615,7 +4638,7 @@
         "Ghana Tertiary Education Commission"
       ],
       "image_url": "https://gtec.edu.gh/wp-content/uploads/2026/10/Umat-image.jpeg",
-      "rank": 0.3015,
+      "rank": 0.3011,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -4638,7 +4661,7 @@
         "Ghana Tertiary Education Commission"
       ],
       "image_url": "https://gtec.edu.gh/wp-content/uploads/2026/10/IAA-image.jpeg",
-      "rank": 0.3015,
+      "rank": 0.3011,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -4661,7 +4684,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Ziope-undertakes-initiative-to-build-a-technologically-inclined-community-commissions-self-help-ICT-lab-1024x576.jpeg",
-      "rank": 0.2988,
+      "rank": 0.2983,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4684,7 +4707,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/03/strike_1540x1050-696x475-1-621x424-1.jpg",
-      "rank": 0.2971,
+      "rank": 0.2968,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4707,7 +4730,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Ablakwa and china-1200x800.webp",
-      "rank": 0.2933,
+      "rank": 0.293,
       "articles": [
         {
           "source_name": "3News",
@@ -4730,7 +4753,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/court.jpg",
-      "rank": 0.2923,
+      "rank": 0.2919,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4753,7 +4776,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/BCI.jpg",
-      "rank": 0.2922,
+      "rank": 0.2917,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4776,7 +4799,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-10.39.26-pm.png",
-      "rank": 0.2896,
+      "rank": 0.2893,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4799,7 +4822,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/Mahama-housing-1024x531.png",
-      "rank": 0.2891,
+      "rank": 0.2888,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -4822,7 +4845,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Lab 1-800x494.webp",
-      "rank": 0.2888,
+      "rank": 0.2884,
       "articles": [
         {
           "source_name": "3News",
@@ -4845,7 +4868,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/03/strike_1540x1050-696x475-1-621x424-1.jpg",
-      "rank": 0.2887,
+      "rank": 0.2884,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4868,7 +4891,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2025/11/Screenshot-2025-11-19-152151.png",
-      "rank": 0.2884,
+      "rank": 0.2881,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -4881,29 +4904,6 @@
       "path": "story/115/were-not-threatening-you-but-engage-us-within-two-weeks-free-shs-suppliers-tell/"
     },
     {
-      "id": 148,
-      "title": "How 10-mile walks for basic education birthed a 50-year legal career for Justice Korbieh",
-      "summary": "Long before he donned the judicial robes of the Court of Appeal or occupied a seat in Parliament, retired Justice Francis Gyafiiry Korbieh was simply a young boy in the Upper West Region, trekking 10 miles on foot just to acquire a basic primary education.",
-      "category": "basic_schools",
-      "published_at": "2026-10-10T20:03:00Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/justice-francis-korbieh-reveals-.jpg",
-      "rank": 0.2882,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "How 10-mile walks for basic education birthed a 50-year legal career for Justice Korbieh",
-          "url": "https://www.myjoyonline.com/how-10-mile-walks-for-basic-education-birthed-a-50-year-legal-career-for-justice-korbieh/",
-          "published_at": "2026-10-10T20:03:00Z",
-          "excerpt": "Long before he donned the judicial robes of the Court of Appeal or occupied a seat in Parliament, retired Justice Francis Gyafiiry Korbieh was simply a young boy in the Upper West Region, trekking 10 miles on foot just to acquire a basic primary education."
-        }
-      ],
-      "path": "story/148/how-10-mile-walks-for-basic-education-birthed-a-50-year-legal-career-for/"
-    },
-    {
       "id": 111,
       "title": "The fallen noble profession: The sad tale of the Ghanaian teacher",
       "summary": "For years, it was a noble profession. To be a teacher was to be respected.",
@@ -4914,7 +4914,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-857.png",
-      "rank": 0.2881,
+      "rank": 0.2879,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4927,6 +4927,29 @@
       "path": "story/111/the-fallen-noble-profession-the-sad-tale-of-the-ghanaian-teacher/"
     },
     {
+      "id": 148,
+      "title": "How 10-mile walks for basic education birthed a 50-year legal career for Justice Korbieh",
+      "summary": "Long before he donned the judicial robes of the Court of Appeal or occupied a seat in Parliament, retired Justice Francis Gyafiiry Korbieh was simply a young boy in the Upper West Region, trekking 10 miles on foot just to acquire a basic primary education.",
+      "category": "basic_schools",
+      "published_at": "2026-10-10T20:03:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/justice-francis-korbieh-reveals-.jpg",
+      "rank": 0.2878,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "How 10-mile walks for basic education birthed a 50-year legal career for Justice Korbieh",
+          "url": "https://www.myjoyonline.com/how-10-mile-walks-for-basic-education-birthed-a-50-year-legal-career-for-justice-korbieh/",
+          "published_at": "2026-10-10T20:03:00Z",
+          "excerpt": "Long before he donned the judicial robes of the Court of Appeal or occupied a seat in Parliament, retired Justice Francis Gyafiiry Korbieh was simply a young boy in the Upper West Region, trekking 10 miles on foot just to acquire a basic primary education."
+        }
+      ],
+      "path": "story/148/how-10-mile-walks-for-basic-education-birthed-a-50-year-legal-career-for/"
+    },
+    {
       "id": 146,
       "title": "Almighty International School marks 30 years of excellence, calls for support to expand facilities",
       "summary": "Almighty International School in the Krachi West Municipality of the Oti Region has marked 30 years of academic excellence and community empowerment through quality education.",
@@ -4937,7 +4960,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/IMG-20261010-WA0003-1024x454.jpg",
-      "rank": 0.2868,
+      "rank": 0.2864,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -4960,7 +4983,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1063.png",
-      "rank": 0.286,
+      "rank": 0.2856,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4983,7 +5006,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1062-1024x575.png",
-      "rank": 0.2857,
+      "rank": 0.2853,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5006,7 +5029,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/07/Bokpin.png",
-      "rank": 0.2856,
+      "rank": 0.2852,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5029,7 +5052,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/06/free-shs-1-750x375-1.jpeg",
-      "rank": 0.2843,
+      "rank": 0.2841,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5052,7 +5075,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/03/Police-1-636x424-1.jpg",
-      "rank": 0.2839,
+      "rank": 0.2836,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5075,7 +5098,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/live-newsfile-10-10-26-visa-scan.jpg",
-      "rank": 0.2837,
+      "rank": 0.2834,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5105,7 +5128,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-746-1024x768.png",
-      "rank": 0.2828,
+      "rank": 0.2826,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5128,7 +5151,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-10-at-00.04.17-1024x576.jpeg",
-      "rank": 0.2806,
+      "rank": 0.2803,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5151,7 +5174,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-10-at-00.02.46-1024x768.jpeg",
-      "rank": 0.2805,
+      "rank": 0.2802,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5174,7 +5197,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-09-at-6.57.41-PM-781x1024.jpeg",
-      "rank": 0.2795,
+      "rank": 0.2792,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5187,29 +5210,6 @@
       "path": "story/133/education-ministry-pledges-to-address-outstanding-concerns-after-strike/"
     },
     {
-      "id": 130,
-      "title": "ECOM-SMS Ghana launches ‘Agriculture Our Future Clubs’ to address threat of ageing farmer population",
-      "summary": "As part of efforts to inspire the next generation to embrace agriculture and secure the future of the sector, the Sustainable Management Services (SMS) under the auspices of ECOM Ghana has launched the Agriculture Our Future Clubs initiative in basic schools within its operational areas.",
-      "category": "general",
-      "published_at": "2026-10-09T18:24:23Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1033-1024x771.png",
-      "rank": 0.279,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "ECOM-SMS Ghana launches ‘Agriculture Our Future Clubs’ to address threat of ageing farmer population",
-          "url": "https://www.myjoyonline.com/ecom-sms-ghana-launches-agriculture-our-future-clubs-to-address-threat-of-ageing-farmer-population/",
-          "published_at": "2026-10-09T18:24:23Z",
-          "excerpt": "As part of efforts to inspire the next generation to embrace agriculture and secure the future of the sector, the Sustainable Management Services (SMS) under the auspices of ECOM Ghana has launched the Agriculture Our Future Clubs initiative in basic schools within its operational areas."
-        }
-      ],
-      "path": "story/130/ecom-sms-ghana-launches-agriculture-our-future-clubs-to-address-threat-of/"
-    },
-    {
       "id": 76,
       "title": "GES should consider regional processing of teacher promotions – FWSC CEO",
       "summary": "The Chief Executive Officer of the Fair Wages and Salaries Commission (FWSC), Dr George Smith-Graham, has proposed a regional approach to processing teacher promotions to prevent delays in the payment of promotion-related arrears.",
@@ -5220,7 +5220,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/teachers-strike-ges-should-consi.jpg",
-      "rank": 0.2789,
+      "rank": 0.2787,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5233,6 +5233,29 @@
       "path": "story/76/ges-should-consider-regional-processing-of-teacher-promotions-fwsc-ceo/"
     },
     {
+      "id": 130,
+      "title": "ECOM-SMS Ghana launches ‘Agriculture Our Future Clubs’ to address threat of ageing farmer population",
+      "summary": "As part of efforts to inspire the next generation to embrace agriculture and secure the future of the sector, the Sustainable Management Services (SMS) under the auspices of ECOM Ghana has launched the Agriculture Our Future Clubs initiative in basic schools within its operational areas.",
+      "category": "general",
+      "published_at": "2026-10-09T18:24:23Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1033-1024x771.png",
+      "rank": 0.2786,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "ECOM-SMS Ghana launches ‘Agriculture Our Future Clubs’ to address threat of ageing farmer population",
+          "url": "https://www.myjoyonline.com/ecom-sms-ghana-launches-agriculture-our-future-clubs-to-address-threat-of-ageing-farmer-population/",
+          "published_at": "2026-10-09T18:24:23Z",
+          "excerpt": "As part of efforts to inspire the next generation to embrace agriculture and secure the future of the sector, the Sustainable Management Services (SMS) under the auspices of ECOM Ghana has launched the Agriculture Our Future Clubs initiative in basic schools within its operational areas."
+        }
+      ],
+      "path": "story/130/ecom-sms-ghana-launches-agriculture-our-future-clubs-to-address-threat-of/"
+    },
+    {
       "id": 129,
       "title": "Alhaji Iddrisu Mustapha: The educated professional seeking to bring experience to NDC Western Region leadership",
       "summary": "Alhaji Iddrisu Mustapha (AIM), an aspirant for the position of Western Regional Vice Chairman of the National Democratic Congress (NDC), is seeking to draw on his background in education, energy policy and corporate affairs in his bid for the party position.",
@@ -5243,7 +5266,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1-39-731x1024.jpg",
-      "rank": 0.2785,
+      "rank": 0.2782,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5266,7 +5289,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2024/03/NAGRAT-1024x585.jpg",
-      "rank": 0.2783,
+      "rank": 0.2782,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5289,7 +5312,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Ghana School Feeding-800x436.webp",
-      "rank": 0.2781,
+      "rank": 0.2779,
       "articles": [
         {
           "source_name": "3News",
@@ -5312,7 +5335,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1-23-e1791287426227-1024x741.jpg",
-      "rank": 0.2777,
+      "rank": 0.2775,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5335,7 +5358,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/UDS-696x363.webp",
-      "rank": 0.2774,
+      "rank": 0.2773,
       "articles": [
         {
           "source_name": "3News",
@@ -5358,7 +5381,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/OIP-2026-10-08T175413.737.webp",
-      "rank": 0.2751,
+      "rank": 0.2748,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5381,7 +5404,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-09-at-17.20.20.jpeg",
-      "rank": 0.275,
+      "rank": 0.2747,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5404,7 +5427,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2024/02/7f57ae72dfec2cb646e63e4bf47465bd-719x375-Copy.jpg",
-      "rank": 0.2748,
+      "rank": 0.2746,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5427,7 +5450,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-05-at-5.36.56-PM.jpeg",
-      "rank": 0.2747,
+      "rank": 0.2746,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5450,7 +5473,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/04/679118adb9cd1854c8d678aeccb8f309.jpg",
-      "rank": 0.2747,
+      "rank": 0.2746,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5473,7 +5496,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-511-1014x1024.png",
-      "rank": 0.2743,
+      "rank": 0.2741,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5496,7 +5519,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-08-at-21.57.50-1.jpeg",
-      "rank": 0.2742,
+      "rank": 0.2739,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5519,7 +5542,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2023/10/mepe-teacher-693x424-1.png",
-      "rank": 0.274,
+      "rank": 0.2738,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5542,7 +5565,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/Kwesi-Agyei-CAGD.jpg",
-      "rank": 0.2722,
+      "rank": 0.2719,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5565,7 +5588,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-17.jpg",
-      "rank": 0.2714,
+      "rank": 0.2712,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5588,7 +5611,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/charles-1024x504.jpg",
-      "rank": 0.2711,
+      "rank": 0.2708,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5611,7 +5634,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-08 at 14.12.03-1-1200x900.webp",
-      "rank": 0.2709,
+      "rank": 0.2706,
       "articles": [
         {
           "source_name": "3News",
@@ -5634,7 +5657,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-13-e1791467881222.jpeg",
-      "rank": 0.2707,
+      "rank": 0.2705,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5657,7 +5680,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Tanko Musah-785x484.webp",
-      "rank": 0.2705,
+      "rank": 0.2703,
       "articles": [
         {
           "source_name": "3News",
@@ -5680,7 +5703,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/02/Teachers.avif",
-      "rank": 0.2702,
+      "rank": 0.27,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5703,7 +5726,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-871-1024x768.png",
-      "rank": 0.2702,
+      "rank": 0.27,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5726,7 +5749,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": null,
-      "rank": 0.27,
+      "rank": 0.2697,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5739,29 +5762,6 @@
       "path": "story/110/caretaker-killed-and-two-teachers-injured-in-knife-attack-at-poland-school/"
     },
     {
-      "id": 109,
-      "title": "Bokpin cautions Ghana against abandoning existing partnerships over BRICS membership",
-      "summary": "Professor of Finance at the University of Ghana Business School and Economist, Professor Godfred Bokpin, has cautioned the government against pursuing Ghana’s proposed membership of BRICS as a strategy to abandon its existing international partnerships or align itself exclusively with a particular political bloc.",
-      "category": "higher_education",
-      "published_at": "2026-10-08T10:10:01Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/ghana-joining-brics-geopolitical-1.jpg",
-      "rank": 0.2698,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Bokpin cautions Ghana against abandoning existing partnerships over BRICS membership",
-          "url": "https://www.myjoyonline.com/bokpin-cautions-ghana-against-abandoning-existing-partnerships-over-brics-membership/",
-          "published_at": "2026-10-08T10:10:01Z",
-          "excerpt": "Professor of Finance at the University of Ghana Business School and Economist, Professor Godfred Bokpin, has cautioned the government against pursuing Ghana’s proposed membership of BRICS as a strategy to abandon its existing international partnerships or align itself exclusively with a particular political bloc."
-        }
-      ],
-      "path": "story/109/bokpin-cautions-ghana-against-abandoning-existing-partnerships-over-brics/"
-    },
-    {
       "id": 88,
       "title": "Ghana Embassy in Washington pays tribute to late academic Dr Kofi Akamani",
       "summary": "The Embassy of Ghana in Washington, D.C., has paid tribute to the late Dr Kofi Akamani, a Ghanaian-born academic and Assistant Professor of Forest Recreation and Conservation Social Science at Southern Illinois University, following his death on September 19, 2026.",
@@ -5772,7 +5772,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/5-4-1024x768.jpg",
-      "rank": 0.2698,
+      "rank": 0.2696,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5785,6 +5785,29 @@
       "path": "story/88/ghana-embassy-in-washington-pays-tribute-to-late-academic-dr-kofi-akamani/"
     },
     {
+      "id": 109,
+      "title": "Bokpin cautions Ghana against abandoning existing partnerships over BRICS membership",
+      "summary": "Professor of Finance at the University of Ghana Business School and Economist, Professor Godfred Bokpin, has cautioned the government against pursuing Ghana’s proposed membership of BRICS as a strategy to abandon its existing international partnerships or align itself exclusively with a particular political bloc.",
+      "category": "higher_education",
+      "published_at": "2026-10-08T10:10:01Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/ghana-joining-brics-geopolitical-1.jpg",
+      "rank": 0.2695,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Bokpin cautions Ghana against abandoning existing partnerships over BRICS membership",
+          "url": "https://www.myjoyonline.com/bokpin-cautions-ghana-against-abandoning-existing-partnerships-over-brics-membership/",
+          "published_at": "2026-10-08T10:10:01Z",
+          "excerpt": "Professor of Finance at the University of Ghana Business School and Economist, Professor Godfred Bokpin, has cautioned the government against pursuing Ghana’s proposed membership of BRICS as a strategy to abandon its existing international partnerships or align itself exclusively with a particular political bloc."
+        }
+      ],
+      "path": "story/109/bokpin-cautions-ghana-against-abandoning-existing-partnerships-over-brics/"
+    },
+    {
       "id": 108,
       "title": "VSA and VIA crown 18th anniversary with full scholarships for three brilliant students",
       "summary": "Virtual Security Africa Limited (VSA) and Virtual Infosec Africa Limited (VIA) have awarded full scholarships to three brilliant but needy students to pursue university education at the Kwame Nkrumah University of Science and Technology (KNUST).",
@@ -5795,7 +5818,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-844.png",
-      "rank": 0.2697,
+      "rank": 0.2695,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5818,7 +5841,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/ghana-joining-brics-geopolitical.jpg",
-      "rank": 0.2696,
+      "rank": 0.2694,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5841,7 +5864,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-835.png",
-      "rank": 0.2693,
+      "rank": 0.269,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5864,7 +5887,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/imagesss.jpg",
-      "rank": 0.2663,
+      "rank": 0.266,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5887,7 +5910,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-7-1024x1024.jpeg",
-      "rank": 0.2662,
+      "rank": 0.266,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5910,7 +5933,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-27-at-1.46.58-PM-434x1024.jpeg",
-      "rank": 0.2659,
+      "rank": 0.2657,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5933,7 +5956,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-797.png",
-      "rank": 0.2658,
+      "rank": 0.2656,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5956,7 +5979,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/image-151.png",
-      "rank": 0.2655,
+      "rank": 0.2653,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5979,7 +6002,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Haruna Iddrisu-800x483.webp",
-      "rank": 0.265,
+      "rank": 0.2648,
       "articles": [
         {
           "source_name": "3News",
@@ -6009,7 +6032,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/03/General-mosquito-1024x721.png",
-      "rank": 0.2649,
+      "rank": 0.2646,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6032,7 +6055,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-05-at-11.20.08-PM-1024x571.jpeg",
-      "rank": 0.2647,
+      "rank": 0.2645,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6055,7 +6078,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/3-13-1024x576.jpg",
-      "rank": 0.2647,
+      "rank": 0.2645,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6078,7 +6101,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-737-1024x683.png",
-      "rank": 0.2645,
+      "rank": 0.2643,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6101,7 +6124,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-12.17.09-1024x565.jpeg",
-      "rank": 0.2645,
+      "rank": 0.2643,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6124,7 +6147,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-731-1024x576.png",
-      "rank": 0.2644,
+      "rank": 0.2641,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6147,7 +6170,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-705-1024x576.png",
-      "rank": 0.2642,
+      "rank": 0.264,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6170,7 +6193,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-01.06.30-1024x568.jpeg",
-      "rank": 0.264,
+      "rank": 0.2638,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6193,7 +6216,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-07-at-5.34.48-am.png",
-      "rank": 0.2632,
+      "rank": 0.263,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6216,7 +6239,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/07/image-2370-1024x682.png",
-      "rank": 0.2632,
+      "rank": 0.263,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6239,7 +6262,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-07-at-4.59.24-AM-1024x630.png",
-      "rank": 0.2631,
+      "rank": 0.2629,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6262,7 +6285,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/09/image-3804-1024x576.png",
-      "rank": 0.2617,
+      "rank": 0.2615,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6285,7 +6308,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/IMG-20261006-WA0006-1024x768.jpg",
-      "rank": 0.2613,
+      "rank": 0.2611,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6308,7 +6331,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-633-1024x481.png",
-      "rank": 0.2612,
+      "rank": 0.261,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6331,7 +6354,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2024/06/Teacher-648x424-1.jpg",
-      "rank": 0.2611,
+      "rank": 0.2609,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6354,7 +6377,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-12.18.49-1-e1791309957667-1024x700.jpeg",
-      "rank": 0.261,
+      "rank": 0.2608,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6377,7 +6400,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/08/Dr-George-Smith-Graham-1024x682.jpg",
-      "rank": 0.2607,
+      "rank": 0.2605,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6400,7 +6423,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-4.05.46-PM-1024x576.jpeg",
-      "rank": 0.2607,
+      "rank": 0.2605,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6423,7 +6446,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-659.png",
-      "rank": 0.2607,
+      "rank": 0.2605,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6446,7 +6469,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot_20261006_150601_WhatsApp.jpg",
-      "rank": 0.2605,
+      "rank": 0.2603,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6469,7 +6492,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Adanwomase-SHS-boys.jpg",
-      "rank": 0.2604,
+      "rank": 0.2603,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6492,7 +6515,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/839594689_2733774290371088_4329097266163868572_n-1024x683.jpg",
-      "rank": 0.2604,
+      "rank": 0.2602,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6515,7 +6538,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-07.02.38-1024x666.jpeg",
-      "rank": 0.2602,
+      "rank": 0.26,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6538,7 +6561,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-592.png",
-      "rank": 0.2599,
+      "rank": 0.2597,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6551,6 +6574,29 @@
       "path": "story/64/techiman-krobo-nursing-training-principal-to-remain-at-post-despite-calls-for/"
     },
     {
+      "id": 36,
+      "title": "GTEC directs Colleges of Education to begin 2026/2027 admissions",
+      "summary": "The Ghana Tertiary Education Commission (GTEC) has directed Colleges of Education across the country to commence admissions for the 2026/2027 academic year with immediate effect, despite delays in approving the new fees structure.",
+      "category": "higher_education",
+      "published_at": "2026-09-30T19:44:32Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2024/08/Prof-Ahmed-Jinapor-Abdulai-Acting-Director-General-of-the-Ghana-Tertiary-Education-Commission-GTEC-703x424-Copy.jpg",
+      "rank": 0.2597,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "GTEC directs Colleges of Education to begin 2026/2027 admissions",
+          "url": "https://www.adomonline.com/gtec-directs-colleges-of-education-to-begin-2026-2027-admissions/",
+          "published_at": "2026-09-30T19:44:32Z",
+          "excerpt": "The Ghana Tertiary Education Commission (GTEC) has directed Colleges of Education across the country to commence admissions for the 2026/2027 academic year with immediate effect, despite delays in approving the new fees structure. In a letter dated September 30, 2026, and addressed to principals of the colleges, the Commission said it had observed that admissions […]"
+        }
+      ],
+      "path": "story/36/gtec-directs-colleges-of-education-to-begin-2026-2027-admissions/"
+    },
+    {
       "id": 63,
       "title": "Diminutive SHS 1 student in viral video is 16, not underage – Adanwomase SHS clarifies",
       "summary": "The Adanwomase SHS authorities have clarified that the viral video of one of their male 'smallish' boarding students is not an underage, but a 16-year-old who is qualified to be in school.",
@@ -6561,7 +6607,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-587-1024x576.png",
-      "rank": 0.2598,
+      "rank": 0.2596,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6584,7 +6630,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-05.16.21.jpeg",
-      "rank": 0.2598,
+      "rank": 0.2596,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6597,29 +6643,6 @@
       "path": "story/62/he-is-not-underage-he-is-16-years-old-adanwomase-shs-housemaster-speaks-on/"
     },
     {
-      "id": 36,
-      "title": "GTEC directs Colleges of Education to begin 2026/2027 admissions",
-      "summary": "The Ghana Tertiary Education Commission (GTEC) has directed Colleges of Education across the country to commence admissions for the 2026/2027 academic year with immediate effect, despite delays in approving the new fees structure.",
-      "category": "higher_education",
-      "published_at": "2026-09-30T19:44:32Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "image_url": "https://www.adomonline.com/wp-content/uploads/2024/08/Prof-Ahmed-Jinapor-Abdulai-Acting-Director-General-of-the-Ghana-Tertiary-Education-Commission-GTEC-703x424-Copy.jpg",
-      "rank": 0.2598,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "GTEC directs Colleges of Education to begin 2026/2027 admissions",
-          "url": "https://www.adomonline.com/gtec-directs-colleges-of-education-to-begin-2026-2027-admissions/",
-          "published_at": "2026-09-30T19:44:32Z",
-          "excerpt": "The Ghana Tertiary Education Commission (GTEC) has directed Colleges of Education across the country to commence admissions for the 2026/2027 academic year with immediate effect, despite delays in approving the new fees structure. In a letter dated September 30, 2026, and addressed to principals of the colleges, the Commission said it had observed that admissions […]"
-        }
-      ],
-      "path": "story/36/gtec-directs-colleges-of-education-to-begin-2026-2027-admissions/"
-    },
-    {
       "id": 60,
       "title": "Gender Minister highlights increased investment, reforms in School Feeding Programme",
       "summary": "Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has highlighted increased government investment and reforms in the Ghana School Feeding Programme under the administration of President John Dramani Mahama.",
@@ -6630,7 +6653,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/3-6-1024x556.jpg",
-      "rank": 0.2595,
+      "rank": 0.2594,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6653,7 +6676,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/TUTAG.jpg",
-      "rank": 0.2593,
+      "rank": 0.2591,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6676,7 +6699,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-563-1024x576.png",
-      "rank": 0.2593,
+      "rank": 0.2591,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6699,7 +6722,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-01.25.37-1024x576.jpeg",
-      "rank": 0.2591,
+      "rank": 0.2589,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6768,7 +6791,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-06-at-4.50.16-AM-1024x614.png",
-      "rank": 0.2585,
+      "rank": 0.2583,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6791,7 +6814,7 @@
         "3News"
       ],
       "image_url": "https://uploads.files.3news.com/assets/default_featured.png",
-      "rank": 0.2573,
+      "rank": 0.2572,
       "articles": [
         {
           "source_name": "3News",
@@ -6814,7 +6837,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-09-28 at 18.55.34-800x533.webp",
-      "rank": 0.2573,
+      "rank": 0.2572,
       "articles": [
         {
           "source_name": "3News",
@@ -6837,7 +6860,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-05 at 11.04.33-800x600.webp",
-      "rank": 0.2573,
+      "rank": 0.2571,
       "articles": [
         {
           "source_name": "3News",
@@ -6860,7 +6883,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/teachers.jpg",
-      "rank": 0.2572,
+      "rank": 0.2571,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6883,7 +6906,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG_0300.jpg-1024x851.jpeg",
-      "rank": 0.2568,
+      "rank": 0.2567,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6906,7 +6929,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/promotions-have-a-consequent-eff.jpg",
-      "rank": 0.2567,
+      "rank": 0.2566,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6929,7 +6952,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Togbe-Afede-XIV-speaks-GFA-800x480.webp",
-      "rank": 0.2562,
+      "rank": 0.256,
       "articles": [
         {
           "source_name": "3News",
@@ -6952,7 +6975,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-496-1024x742.png",
-      "rank": 0.256,
+      "rank": 0.2558,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6975,7 +6998,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-05-at-12.39.25-PM.jpeg",
-      "rank": 0.2557,
+      "rank": 0.2556,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6998,7 +7021,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/07/1-18-e1752000830476.jpg",
-      "rank": 0.2556,
+      "rank": 0.2555,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7021,7 +7044,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/05/image-558.png",
-      "rank": 0.2553,
+      "rank": 0.2552,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7044,7 +7067,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Russai-800x449.webp",
-      "rank": 0.2547,
+      "rank": 0.2546,
       "articles": [
         {
           "source_name": "3News",
@@ -7067,7 +7090,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/Education-Deaf-Learners-Language-1-565x424-1.jpg",
-      "rank": 0.2537,
+      "rank": 0.2536,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7090,7 +7113,7 @@
         "Ghana Tertiary Education Commission"
       ],
       "image_url": "https://gtec.edu.gh/wp-content/uploads/2026/09/image.jpg",
-      "rank": 0.252,
+      "rank": 0.2519,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -7113,7 +7136,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2020/11/1126201915229-h40o2s6fey-school-feeding-Copy.jpg",
-      "rank": 0.251,
+      "rank": 0.2509,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7205,7 +7228,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/news.jpg",
-      "rank": 0.2413,
+      "rank": 0.2412,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7228,7 +7251,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-9.59.22-PM-1024x768.jpeg",
-      "rank": 0.2413,
+      "rank": 0.2412,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7251,7 +7274,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-11.55.05-1024x576.jpeg",
-      "rank": 0.2407,
+      "rank": 0.2406,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7274,7 +7297,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-28-at-2.11.24-PM-1024x576.jpeg",
-      "rank": 0.2392,
+      "rank": 0.2391,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7320,7 +7343,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/Kintampo-E-Block.png",
-      "rank": 0.2376,
+      "rank": 0.2375,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7356,29 +7379,6 @@
       "path": "story/26/teachers-should-not-suffer-for-someones-responsibility-cagd/"
     },
     {
-      "id": 25,
-      "title": "CAGD processes and pays promotion arrears to 6,079 teachers",
-      "summary": "The Controller and Accountant-General’s Department (CAGD) says 6,079 teachers have so far received salary adjustments and arrears arising from promotions and upgrades submitted by the Ghana Education Service (GES).",
-      "category": "teachers",
-      "published_at": "2026-09-28T07:45:37Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/07/image-672.png",
-      "rank": 0.2369,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "CAGD processes and pays promotion arrears to 6,079 teachers",
-          "url": "https://www.adomonline.com/cagd-processes-and-pays-promotion-arrears-to-6079-teachers/",
-          "published_at": "2026-09-28T07:45:37Z",
-          "excerpt": "The Controller and Accountant-General’s Department (CAGD) says 6,079 teachers have so far received salary adjustments and arrears arising from promotions and upgrades submitted by the Ghana Education Service (GES). The payments, including arrears dating back to January 1, 2026, were reflected in the September 2026 salaries, according to CAGD. In a statement issued on Sunday, […]"
-        }
-      ],
-      "path": "story/25/cagd-processes-and-pays-promotion-arrears-to-6-079-teachers/"
-    },
-    {
       "id": 5,
       "title": "GTEC Director-General Urges Ghanaians to Choose Accredited Local Universities",
       "summary": "The Director-General of the Ghana Tertiary Education Commission (GTEC), Professor Ahmed Abdulai Jinapor, has called on Ghanaians to place greater confidence in the country’s accredited tertiary education institutions, emphasising that Ghanaian universities possess the academic excellence, research capacity and infra...",
@@ -7402,6 +7402,29 @@
       "path": "story/5/gtec-director-general-urges-ghanaians-to-choose-accredited-local-universities/"
     },
     {
+      "id": 25,
+      "title": "CAGD processes and pays promotion arrears to 6,079 teachers",
+      "summary": "The Controller and Accountant-General’s Department (CAGD) says 6,079 teachers have so far received salary adjustments and arrears arising from promotions and upgrades submitted by the Ghana Education Service (GES).",
+      "category": "teachers",
+      "published_at": "2026-09-28T07:45:37Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/07/image-672.png",
+      "rank": 0.2368,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "CAGD processes and pays promotion arrears to 6,079 teachers",
+          "url": "https://www.adomonline.com/cagd-processes-and-pays-promotion-arrears-to-6079-teachers/",
+          "published_at": "2026-09-28T07:45:37Z",
+          "excerpt": "The Controller and Accountant-General’s Department (CAGD) says 6,079 teachers have so far received salary adjustments and arrears arising from promotions and upgrades submitted by the Ghana Education Service (GES). The payments, including arrears dating back to January 1, 2026, were reflected in the September 2026 salaries, according to CAGD. In a statement issued on Sunday, […]"
+        }
+      ],
+      "path": "story/25/cagd-processes-and-pays-promotion-arrears-to-6-079-teachers/"
+    },
+    {
       "id": 81,
       "title": "Emeritus Professor Kwame Akon Ninsin: The man who mentored a department",
       "summary": "On October 1, 2026, the Department of Political Science, University of Ghana, gathered to honour one of its pillars – Emeritus Professor Kwame Akon Ninsin. Political scientist, statesman, avowed Nkrumahist, activist.",
@@ -7412,7 +7435,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1-26-1024x742.jpg",
-      "rank": 0.2364,
+      "rank": 0.2362,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7435,7 +7458,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Dzidonu-800x502.webp",
-      "rank": 0.2361,
+      "rank": 0.236,
       "articles": [
         {
           "source_name": "3News",
@@ -7458,7 +7481,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2022/10/Controller-and-Accountant-Generals-Department-CAGD.jpg",
-      "rank": 0.2361,
+      "rank": 0.236,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7481,7 +7504,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2022/11/strike_1540x1050-1024x698.jpg",
-      "rank": 0.2354,
+      "rank": 0.2352,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7527,7 +7550,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/Screenshot-2026-09-25-084949.png",
-      "rank": 0.2337,
+      "rank": 0.2336,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7550,7 +7573,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-24-at-07.52.13.jpeg",
-      "rank": 0.2337,
+      "rank": 0.2336,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7573,7 +7596,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2025/05/image-89-1024x458.png",
-      "rank": 0.2331,
+      "rank": 0.233,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7619,7 +7642,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-25-at-03.52.08.jpeg",
-      "rank": 0.2327,
+      "rank": 0.2326,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7642,7 +7665,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/edupack.jpg",
-      "rank": 0.2327,
+      "rank": 0.2326,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7665,7 +7688,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/image-2026-09-25T045213.464.png",
-      "rank": 0.2326,
+      "rank": 0.2325,
       "articles": [
         {
           "source_name": "Adom Online Education",
