@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T22:10:18Z",
+  "generated_at": "2026-10-18T22:56:53Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 69
+      "story_count": 71
     },
     {
       "name": "general",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 308,
+      "title": "Obuasi SHTS abuse allegations: Reported cases rise to 19",
+      "summary": "The number of students who have come forward with allegations of sexual abuse involving the suspended headmaster of Obuasi Senior High Technical School has risen from 16 to 19, JoyNews Investigative Journalist Manasseh Azure Awuni has disclosed.",
+      "category": "basic_schools",
+      "published_at": "2026-10-18T22:28:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1343-1024x517.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS abuse allegations: Reported cases rise to 19",
+          "url": "https://www.myjoyonline.com/obuasi-shts-abuse-allegations-reported-cases-rise-to-19/",
+          "published_at": "2026-10-18T22:28:00Z",
+          "excerpt": "The number of students who have come forward with allegations of sexual abuse involving the suspended headmaster of Obuasi Senior High Technical School has risen from 16 to 19, JoyNews Investigative Journalist Manasseh Azure Awuni has disclosed."
+        }
+      ],
+      "path": "story/308/obuasi-shts-abuse-allegations-reported-cases-rise-to-19/"
+    },
+    {
+      "id": 307,
+      "title": "Withdraw from Juaben chairmanship race or face disqualification – NDC tells Obuasi SHTS headmaster",
+      "summary": "The National Democratic Congress (NDC) has directed the suspended headmaster of Obuasi Senior High Technical School, Zakaria Abdulai, to withdraw his bid for the party’s Juaben constituency chairmanship or face disqualification.",
+      "category": "basic_schools",
+      "published_at": "2026-10-18T22:16:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/ndc-gives-obuasi-shts-headmaster.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Withdraw from Juaben chairmanship race or face disqualification – NDC tells Obuasi SHTS headmaster",
+          "url": "https://www.myjoyonline.com/withdraw-from-juaben-chairmanship-race-or-face-disqualification-ndc-tells-obuasi-shts-headmaster/",
+          "published_at": "2026-10-18T22:16:00Z",
+          "excerpt": "The National Democratic Congress (NDC) has directed the suspended headmaster of Obuasi Senior High Technical School, Zakaria Abdulai, to withdraw his bid for the party’s Juaben constituency chairmanship or face disqualification."
+        }
+      ],
+      "path": "story/307/withdraw-from-juaben-chairmanship-race-or-face-disqualification-ndc-tells/"
+    },
     {
       "id": 304,
       "title": "Adutwum’s spokesperson demands GES Director-General’s accountability over Obuasi SHTS rape cases",
