@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:11:41Z",
+  "generated_at": "2026-10-18T18:40:25Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 66
+      "story_count": 68
     },
     {
       "name": "general",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 304,
+      "title": "Adutwum’s spokesperson demands GES Director-General’s accountability over Obuasi SHTS rape cases",
+      "summary": "The spokesperson for former Education Minister Dr Yaw Osei Adutwum has called on the Director-General of the Ghana Education Service (GES) to account for the delay in interdicting the headmaster of Obuasi Senior High Technical School over reported rape cases.",
+      "category": "basic_schools",
+      "published_at": "2026-10-18T18:20:42Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-18-at-16.08.07-682x1024.jpeg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Adutwum’s spokesperson demands GES Director-General’s accountability over Obuasi SHTS rape cases",
+          "url": "https://www.myjoyonline.com/adutwums-spokesperson-demands-ges-director-generals-accountability-over-obuasi-shts-rape-cases/",
+          "published_at": "2026-10-18T18:20:42Z",
+          "excerpt": "The spokesperson for former Education Minister Dr Yaw Osei Adutwum has called on the Director-General of the Ghana Education Service (GES) to account for the delay in interdicting the headmaster of Obuasi Senior High Technical School over reported rape cases."
+        }
+      ],
+      "path": "story/304/adutwums-spokesperson-demands-ges-director-generals-accountability-over-obuasi/"
+    },
+    {
+      "id": 305,
+      "title": "CHASS raises concerns over indiscipline in schools, backs sanctions",
+      "summary": "The Conference of Heads of Second Cycle Schools (CHASS) has expressed deep concern about the rising cases of indiscipline among students and staff in senior high schools.",
+      "category": "basic_schools",
+      "published_at": "2026-10-18T18:22:35Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1797.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "CHASS raises concerns over indiscipline in schools, backs sanctions",
+          "url": "https://www.myjoyonline.com/chass-raises-concerns-over-indiscipline-in-schools-backs-sanctions/",
+          "published_at": "2026-10-18T18:22:35Z",
+          "excerpt": "The Conference of Heads of Second Cycle Schools (CHASS) has expressed deep concern about the rising cases of indiscipline among students and staff in senior high schools."
+        }
+      ],
+      "path": "story/305/chass-raises-concerns-over-indiscipline-in-schools-backs-sanctions/"
+    },
     {
       "id": 303,
       "title": "Obuasi SHTS abuse: Culture of tolerance enabled sexual abuse – Rev. Apprey",
