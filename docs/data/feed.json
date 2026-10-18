@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T17:10:21Z",
+  "generated_at": "2026-10-18T17:40:22Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 65
+      "story_count": 66
     },
     {
       "name": "general",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 303,
+      "title": "Obuasi SHTS abuse: Culture of tolerance enabled sexual abuse – Rev. Apprey",
+      "summary": "Lady Rev. Amesika Apprey has condemned what she describes as a culture of tolerance and enablement that allowed alleged sexual abuse at Obuasi Senior High Technical School to persist despite complaints from victims.",
+      "category": "basic_schools",
+      "published_at": "2026-10-18T17:30:47Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1343-839x424-4.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS abuse: Culture of tolerance enabled sexual abuse – Rev. Apprey",
+          "url": "https://www.myjoyonline.com/obuasi-shts-abuse-culture-of-tolerance-enabled-sexual-abuse-rev-apprey/",
+          "published_at": "2026-10-18T17:30:47Z",
+          "excerpt": "Lady Rev. Amesika Apprey has condemned what she describes as a culture of tolerance and enablement that allowed alleged sexual abuse at Obuasi Senior High Technical School to persist despite complaints from victims."
+        }
+      ],
+      "path": "story/303/obuasi-shts-abuse-culture-of-tolerance-enabled-sexual-abuse-rev-apprey/"
+    },
     {
       "id": 302,
       "title": "Obuasi SHTS abuse: Adults who knew but failed to act are also guilty – Mariam Darlington",
