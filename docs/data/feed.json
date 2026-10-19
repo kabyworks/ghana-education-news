@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-19T13:30:21Z",
+  "generated_at": "2026-10-19T13:40:37Z",
   "categories": [
     {
       "name": "higher_education",
       "story_count": 92
     },
     {
-      "name": "basic_schools",
-      "story_count": 77
+      "name": "teachers",
+      "story_count": 78
     },
     {
-      "name": "teachers",
+      "name": "basic_schools",
       "story_count": 77
     },
     {
@@ -84,6 +84,29 @@
         }
       ],
       "path": "story/316/ges-directs-districts-to-disburse-2026-2027-capitation-grant-by-october-30/"
+    },
+    {
+      "id": 317,
+      "title": "UTAG-UG gives gov’t October 20 ultimatum to avert strike over unpaid allowances",
+      "summary": "The University of Ghana branch of the University Teachers Association of Ghana (UTAG-UG) has given the government until Tuesday, October 20, 2026, to demonstrate its commitment to paying lecturers’ Book and Research Allowances (BRA) or risk a possible strike.",
+      "category": "teachers",
+      "published_at": "2026-10-19T13:35:46Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Dr-Jerry-Joe-Harrison.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "UTAG-UG gives gov’t October 20 ultimatum to avert strike over unpaid allowances",
+          "url": "https://www.myjoyonline.com/utag-ug-gives-govt-october-20-ultimatum-to-avert-strike-over-unpaid-allowances/",
+          "published_at": "2026-10-19T13:35:46Z",
+          "excerpt": "The University of Ghana branch of the University Teachers Association of Ghana (UTAG-UG) has given the government until Tuesday, October 20, 2026, to demonstrate its commitment to paying lecturers’ Book and Research Allowances (BRA) or risk a possible strike."
+        }
+      ],
+      "path": "story/317/utag-ug-gives-govt-october-20-ultimatum-to-avert-strike-over-unpaid-allowances/"
     },
     {
       "id": 312,
