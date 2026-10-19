@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-19T14:10:22Z",
+  "generated_at": "2026-10-19T14:40:22Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 92
+      "story_count": 93
+    },
+    {
+      "name": "basic_schools",
+      "story_count": 78
     },
     {
       "name": "teachers",
       "story_count": 78
     },
     {
-      "name": "basic_schools",
-      "story_count": 77
-    },
-    {
       "name": "general",
-      "story_count": 42
+      "story_count": 44
     },
     {
       "name": "policy",
@@ -61,6 +61,75 @@
         }
       ],
       "path": "story/306/15-year-old-ada-shs-student-dies-after-collapsing-during-school-sporting/"
+    },
+    {
+      "id": 321,
+      "title": "La Dade-Kotopon Education Director declares 'Zero Tolerance' for Child Marriage",
+      "summary": "She said child marriage deprived girls of their childhood, disrupted their education and undermined their chances of achieving their aspirations, with lasting consequences for their future.",
+      "category": "general",
+      "published_at": "2026-10-19T14:36:53Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/IDGC 3.jfif-1200x801.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "La Dade-Kotopon Education Director declares 'Zero Tolerance' for Child Marriage",
+          "url": "https://3news.com/news/la-dade-kotopon-education-director-declares-zero-tolerance-for-child-marriage",
+          "published_at": "2026-10-19T14:36:53Z",
+          "excerpt": "She said child marriage deprived girls of their childhood, disrupted their education and undermined their chances of achieving their aspirations, with lasting consequences for their future."
+        }
+      ],
+      "path": "story/321/la-dade-kotopon-education-director-declares-zero-tolerance-for-child-marriage/"
+    },
+    {
+      "id": 320,
+      "title": "Obuasi SHTS: Victim B recounts alleged abuse and death threats by headmaster",
+      "summary": "One of the students who have accused the headmaster of Obuasi SHTS of sexually abusing them has recounted her ordeal.",
+      "category": "general",
+      "published_at": "2026-10-19T14:29:44Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/obuasi-shts-victim-b-recounts-al.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Obuasi SHTS: Victim B recounts alleged abuse and death threats by headmaster",
+          "url": "https://www.adomonline.com/obuasi-shts-victim-b-recounts-alleged-abuse-and-death-threats-by-headmaster/",
+          "published_at": "2026-10-19T14:29:44Z",
+          "excerpt": "One of the students who have accused the headmaster of Obuasi SHTS of sexually abusing them has recounted her ordeal. In a conversation with investigative journalist Azure Awuni Manasseh in JoyNews’ latest Hotline Documentary, Inside The Dreaded Headmaster’s Bungalow, the first-year student of said that, like the others, her nightmare happened at the headmaster’s official […]"
+        }
+      ],
+      "path": "story/320/obuasi-shts-victim-b-recounts-alleged-abuse-and-death-threats-by-headmaster/"
+    },
+    {
+      "id": 319,
+      "title": "Akosua Manu calls on Vice President to intervene in Obuasi SHTS abuse case",
+      "summary": "The Advisor on Gender and Social Protection to Dr Mahamudu Bawumia, Akosua Manu, has called on Vice President Prof. Jane Naana Opoku-Agyemang to use her office and influence to ensure justice for students at Obuasi Senior High Technical School (SHTS) following allegations of sexual abuse.",
+      "category": "basic_schools",
+      "published_at": "2026-10-19T14:26:05Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1911-1024x682.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Akosua Manu calls on Vice President to intervene in Obuasi SHTS abuse case",
+          "url": "https://www.myjoyonline.com/akosua-manu-calls-on-vice-president-to-intervene-in-obuasi-shts-abuse-case/",
+          "published_at": "2026-10-19T14:26:05Z",
+          "excerpt": "The Advisor on Gender and Social Protection to Dr Mahamudu Bawumia, Akosua Manu, has called on Vice President Prof. Jane Naana Opoku-Agyemang to use her office and influence to ensure justice for students at Obuasi Senior High Technical School (SHTS) following allegations of sexual abuse."
+        }
+      ],
+      "path": "story/319/akosua-manu-calls-on-vice-president-to-intervene-in-obuasi-shts-abuse-case/"
     },
     {
       "id": 317,
@@ -222,6 +291,29 @@
         }
       ],
       "path": "story/311/asante-youth-association-condemns-alleged-sexual-assault-at-obuasi-shts-demands/"
+    },
+    {
+      "id": 318,
+      "title": "University of Ghana Basic School wins CSIR World Food Day Quiz",
+      "summary": "The school secured 70 points to finish ahead of Christ the King School, which scored 63 points, Ridge Church School with 50 points, and Forces Basic School, which recorded 47 points.",
+      "category": "higher_education",
+      "published_at": "2026-10-19T07:00:00Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-19 at 10.50.53 (1)-800x747.webp",
+      "rank": 0.6775,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "University of Ghana Basic School wins CSIR World Food Day Quiz",
+          "url": "https://3news.com/news/university-of-ghana-basic-school-wins-csir-world-food-day-quiz",
+          "published_at": "2026-10-19T07:00:00Z",
+          "excerpt": "The school secured 70 points to finish ahead of Christ the King School, which scored 63 points, Ridge Church School with 50 points, and Forces Basic School, which recorded 47 points."
+        }
+      ],
+      "path": "story/318/university-of-ghana-basic-school-wins-csir-world-food-day-quiz/"
     },
     {
       "id": 310,
