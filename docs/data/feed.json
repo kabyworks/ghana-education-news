@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T17:10:22Z",
+  "generated_at": "2026-10-19T17:40:14Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 78
+      "story_count": 79
     },
     {
       "name": "general",
@@ -23,7 +23,7 @@
     },
     {
       "name": "examinations",
-      "story_count": 7
+      "story_count": 8
     },
     {
       "name": "scholarships",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 327,
+      "title": "GES announces November 2026 teachers’ promotion exams dates, study areas",
+      "summary": "The Ghana Education Service (GES) has announced November 2 to 4, 2026, as the dates for its teachers’ promotion examinations, with candidates scheduled to sit for the papers according to their respective ranks. In a notice dated October 19, 2026, the Service said the examinations would be held daily from 9:00 a.m.",
+      "category": "examinations",
+      "published_at": "2026-10-19T17:20:09Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2023/06/licensure-exams_1680x840-1024x512.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "GES announces November 2026 teachers’ promotion exams dates, study areas",
+          "url": "https://www.adomonline.com/ges-announces-november-2026-teachers-promotion-exams-dates-study-areas/",
+          "published_at": "2026-10-19T17:20:09Z",
+          "excerpt": "The Ghana Education Service (GES) has announced November 2 to 4, 2026, as the dates for its teachers’ promotion examinations, with candidates scheduled to sit for the papers according to their respective ranks. In a notice dated October 19, 2026, the Service said the examinations would be held daily from 9:00 a.m. to 11:00 a.m. […]"
+        }
+      ],
+      "path": "story/327/ges-announces-november-2026-teachers-promotion-exams-dates-study-areas/"
+    },
+    {
+      "id": 326,
+      "title": "Obuasi SHTS abuse: Salaga South MP questions why headteacher has not been arrested",
+      "summary": "The Member of Parliament for Salaga South has questioned why the headteacher of Obuasi Senior High Technical School (SHTS), who has been accused of sexually abusing students, has not been arrested despite reports of alleged abuse.",
+      "category": "teachers",
+      "published_at": "2026-10-19T17:09:36Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/08/Obuasi-SHS.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS abuse: Salaga South MP questions why headteacher has not been arrested",
+          "url": "https://www.myjoyonline.com/obuasi-shts-abuse-salaga-south-mp-questions-why-headteacher-has-not-been-arrested/",
+          "published_at": "2026-10-19T17:09:36Z",
+          "excerpt": "The Member of Parliament for Salaga South has questioned why the headteacher of Obuasi Senior High Technical School (SHTS), who has been accused of sexually abusing students, has not been arrested despite reports of alleged abuse."
+        }
+      ],
+      "path": "story/326/obuasi-shts-abuse-salaga-south-mp-questions-why-headteacher-has-not-been/"
+    },
     {
       "id": 325,
       "title": "UHAS receives 200 laptops under One Million Coders Programme",
