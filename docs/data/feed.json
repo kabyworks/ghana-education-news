@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T23:10:22Z",
+  "generated_at": "2026-10-19T23:40:21Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 86
+      "story_count": 88
     },
     {
       "name": "teachers",
@@ -94,6 +94,29 @@
       "path": "story/328/obuasi-shts-abuse-pta-association-calls-for-action-against-alleged-perpetrators/"
     },
     {
+      "id": 342,
+      "title": "‘An unacceptable breach’ – Hawa Koomson warns over alleged failure to act on Obuasi SHTS abuse complaints",
+      "summary": "NPP National Women’s Organiser has warned that school authorities’ alleged failure to act on sexual abuse complaints at Obuasi Senior High Technical School would amount to “an unacceptable breach” of their responsibility to protect students, if established.",
+      "category": "basic_schools",
+      "published_at": "2026-10-19T23:02:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/09/Hawa-Koomson-6-1024x683.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "‘An unacceptable breach’ – Hawa Koomson warns over alleged failure to act on Obuasi SHTS abuse complaints",
+          "url": "https://www.myjoyonline.com/an-unacceptable-breach-hawa-koomson-warns-over-alleged-failure-to-act-on-obuasi-shts-abuse-complaints/",
+          "published_at": "2026-10-19T23:02:00Z",
+          "excerpt": "NPP National Women’s Organiser has warned that school authorities’ alleged failure to act on sexual abuse complaints at Obuasi Senior High Technical School would amount to “an unacceptable breach” of their responsibility to protect students, if established."
+        }
+      ],
+      "path": "story/342/an-unacceptable-breach-hawa-koomson-warns-over-alleged-failure-to-act-on-obuasi/"
+    },
+    {
       "id": 340,
       "title": "Hawa Koomson demands independent probe into alleged abuse of 19 Obuasi SHS girls",
       "summary": "The National Women’s Organiser of the New Patriotic Party (NPP), Mavis Hawa Koomson, has called for a swift, independent and transparent investigation into allegations of sexual abuse involving 19 female students of Obuasi Senior High School (SHS).",
@@ -115,6 +138,29 @@
         }
       ],
       "path": "story/340/hawa-koomson-demands-independent-probe-into-alleged-abuse-of-19-obuasi-shs-girls/"
+    },
+    {
+      "id": 341,
+      "title": "Obuasi SHTS: NDC reverses withdrawal directive, allows embattled chairman aspirant to contest",
+      "summary": "The National Democratic Congress (NDC) has reversed its directive, asking embattled Obuasi Senior High Technical School headmaster Zakaria Abdulai to withdraw from the constituency chairmanship race.",
+      "category": "basic_schools",
+      "published_at": "2026-10-19T22:40:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/the-ndc-is-very-committed-to-the.jpg",
+      "rank": 0.744,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS: NDC reverses withdrawal directive, allows embattled chairman aspirant to contest",
+          "url": "https://www.myjoyonline.com/obuasi-shts-ndc-reverses-withdrawal-directive-allows-embattled-chairman-aspirant-to-contest/",
+          "published_at": "2026-10-19T22:40:00Z",
+          "excerpt": "The National Democratic Congress (NDC) has reversed its directive, asking embattled Obuasi Senior High Technical School headmaster Zakaria Abdulai to withdraw from the constituency chairmanship race."
+        }
+      ],
+      "path": "story/341/obuasi-shts-ndc-reverses-withdrawal-directive-allows-embattled-chairman/"
     },
     {
       "id": 339,
