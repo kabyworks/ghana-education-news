@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T17:10:15Z",
+  "generated_at": "2026-10-20T17:40:11Z",
   "categories": [
     {
       "name": "higher_education",
@@ -23,7 +23,7 @@
     },
     {
       "name": "examinations",
-      "story_count": 10
+      "story_count": 11
     },
     {
       "name": "scholarships",
@@ -100,6 +100,37 @@
         }
       ],
       "path": "story/375/university-of-ghana-opens-2026-2027-first-semester-registration-for-freshers/"
+    },
+    {
+      "id": 368,
+      "title": "The future of the youth is too important for waste — Ato Forson",
+      "summary": "Finance Minister Dr. Cassiel Ato Forson has placed value for money at the heart of the New Economy agenda, saying Ghana cannot afford to waste resources needed to create opportunities for its young people.",
+      "category": "higher_education",
+      "published_at": "2026-10-20T17:33:46Z",
+      "source_count": 2,
+      "sources": [
+        "3News",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-12.22.33-1024x731.jpeg",
+      "rank": 0.849,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "The future of young people is too important for waste — Ato Forson",
+          "url": "https://3news.com/news/the-future-of-young-people-is-too-important-for-waste-ato-forson",
+          "published_at": "2026-10-20T14:28:11Z",
+          "excerpt": "Finance Minister Ato Forson tells University of Ghana students every New Economy project must pass five value-for-money tests on jobs, exports and growth."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "The future of the youth is too important for waste — Ato Forson",
+          "url": "https://www.myjoyonline.com/the-future-of-the-youth-is-too-important-for-waste-ato-forson/",
+          "published_at": "2026-10-20T17:33:46Z",
+          "excerpt": "Finance Minister Dr. Cassiel Ato Forson has placed value for money at the heart of the New Economy agenda, saying Ghana cannot afford to waste resources needed to create opportunities for its young people. Addressing faculty and students at the University of Ghana, Dr Forson said the programme’s investments must be judged by their ability […]"
+        }
+      ],
+      "path": "story/368/the-future-of-the-youth-is-too-important-for-waste-ato-forson/"
     },
     {
       "id": 377,
@@ -301,6 +332,29 @@
         }
       ],
       "path": "story/374/ges-protecting-schools-reputation-over-children-child-rights-international/"
+    },
+    {
+      "id": 381,
+      "title": "Labone sexual harassment case adjourned to November 16 for continuation of cross-examination",
+      "summary": "A 45-year-old Labone Senior High School French teacher standing trial for indecent assault, Godwin Adigbli, has challenged the prosecution's handling of an alleged blood-stained exhibit.",
+      "category": "examinations",
+      "published_at": "2026-10-20T17:16:30Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/court verdict.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Labone sexual harassment case adjourned to November 16 for continuation of cross-examination",
+          "url": "https://3news.com/news/labone-sexual-harassment-case-adjourned-to-november-16-for-continuation-of-cross-examination",
+          "published_at": "2026-10-20T17:16:30Z",
+          "excerpt": "A 45-year-old Labone Senior High School French teacher standing trial for indecent assault, Godwin Adigbli, has challenged the prosecution's handling of an alleged blood-stained exhibit."
+        }
+      ],
+      "path": "story/381/labone-sexual-harassment-case-adjourned-to-november-16-for-continuation-of/"
     },
     {
       "id": 333,
@@ -539,29 +593,6 @@
         }
       ],
       "path": "story/369/how-artificial-intelligence-supports-education-for-the-world-of-work/"
-    },
-    {
-      "id": 368,
-      "title": "The future of young people is too important for waste — Ato Forson",
-      "summary": "Finance Minister Ato Forson tells University of Ghana students every New Economy project must pass five value-for-money tests on jobs, exports and growth.",
-      "category": "higher_education",
-      "published_at": "2026-10-20T14:28:11Z",
-      "source_count": 1,
-      "sources": [
-        "3News"
-      ],
-      "image_url": "https://media.3news.com/840976084_1444474120886618_5385200295283563506_n.png-1200x800.webp",
-      "rank": 0.7129,
-      "articles": [
-        {
-          "source_name": "3News",
-          "title": "The future of young people is too important for waste — Ato Forson",
-          "url": "https://3news.com/news/the-future-of-young-people-is-too-important-for-waste-ato-forson",
-          "published_at": "2026-10-20T14:28:11Z",
-          "excerpt": "Finance Minister Ato Forson tells University of Ghana students every New Economy project must pass five value-for-money tests on jobs, exports and growth."
-        }
-      ],
-      "path": "story/368/the-future-of-young-people-is-too-important-for-waste-ato-forson/"
     },
     {
       "id": 361,
