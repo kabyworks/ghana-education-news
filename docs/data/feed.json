@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-20T15:10:14Z",
+  "generated_at": "2026-10-20T15:40:16Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 103
+      "story_count": 104
     },
     {
       "name": "basic_schools",
@@ -193,6 +193,29 @@
         }
       ],
       "path": "story/352/no-witness-saw-obuasi-shts-headmaster-bury-a-foetus-on-school-compound/"
+    },
+    {
+      "id": 373,
+      "title": "East-West Seed Foundation opens University of Ghana Learning Farm to provide hands-on agricultural training",
+      "summary": "The East-West Seed Knowledge Transfer Foundation has opened a learning farm at the University of Ghana in Accra to provide students and local farmers with practical training in vegetable production and give partners an opportunity to observe its work.",
+      "category": "higher_education",
+      "published_at": "2026-10-20T15:11:04Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/20261020_121133-1024x1024.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "East-West Seed Foundation opens University of Ghana Learning Farm to provide hands-on agricultural training",
+          "url": "https://www.myjoyonline.com/east-west-seed-foundation-opens-university-of-ghana-learning-farm-to-provide-hands-on-agricultural-training/",
+          "published_at": "2026-10-20T15:11:04Z",
+          "excerpt": "The East-West Seed Knowledge Transfer Foundation has opened a learning farm at the University of Ghana in Accra to provide students and local farmers with practical training in vegetable production and give partners an opportunity to observe its work."
+        }
+      ],
+      "path": "story/373/east-west-seed-foundation-opens-university-of-ghana-learning-farm-to-provide/"
     },
     {
       "id": 333,
