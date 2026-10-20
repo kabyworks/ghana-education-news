@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:10:09Z",
+  "generated_at": "2026-10-20T13:40:10Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 97
+      "story_count": 99
     },
     {
       "name": "teachers",
@@ -31,6 +31,68 @@
     }
   ],
   "stories": [
+    {
+      "id": 365,
+      "title": "GES directs Ashanti Regional and Obuasi Municipal education directors to step aside over Obuasi SHTS probe",
+      "summary": "The Ghana Education Service (GES) has directed the Ashanti Regional Director of Education, Dr William Amankrah Appiah, and the Obuasi Municipal Director of Education, Kwamena Owusu-Nketiah, to step aside with immediate effect as investigations continue into allegations of sexual misconduct involving the headmaster o...",
+      "category": "basic_schools",
+      "published_at": "2026-10-20T13:14:45Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/image-2026-08-07T042641.024.jpg",
+      "rank": 0.876,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GES directs Ashanti Regional and Obuasi Municipal education directors to step aside over Obuasi SHTS probe",
+          "url": "https://www.myjoyonline.com/ges-directs-ashanti-regional-and-obuasi-municipal-education-directors-to-step-aside-over-obuasi-shts-probe/",
+          "published_at": "2026-10-20T13:09:57Z",
+          "excerpt": "The Ghana Education Service (GES) has directed the Ashanti Regional Director of Education, Dr William Amankrah Appiah, and the Obuasi Municipal Director of Education, Kwamena Owusu-Nketiah, to step aside with immediate effect as investigations continue into allegations of sexual misconduct involving the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai. In a statement issued on Tuesday, October 20, 2026, and signed by its Head of Public Relations, Daniel Fenyi, the GES said the directive was intended to ensure the investigation proceeds without interference or the perception of interference. The two directors have been instructed to hand over their offices and all state property in their possession to the Deputy Ashanti Regional Director of Education, Thomas Kwame Boateng."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "GES directs Ashanti Regional, Obuasi Municipal Education Directors to step aside over Obuasi SHTS case",
+          "url": "https://www.adomonline.com/ges-directs-ashanti-regional-obuasi-municipal-education-directors-to-step-aside-over-obuasi-shts-case/",
+          "published_at": "2026-10-20T13:14:45Z",
+          "excerpt": "The Ghana Education Service (GES) has directed the Ashanti Regional Director of Education, Dr William Amankrah Appiah, and the Obuasi Municipal Director of Education, Kwamena Owusu-Nketiah, to step aside with immediate effect amid ongoing investigations into alleged sexual misconduct at Obuasi Senior High Technical School (SHTS). The directive, announced in a statement dated October 20, […]"
+        }
+      ],
+      "path": "story/365/ges-directs-ashanti-regional-and-obuasi-municipal-education-directors-to-step/"
+    },
+    {
+      "id": 357,
+      "title": "GES report identifies teacher divisions, student gangs as factors in Obuasi SHTS unrest",
+      "summary": "Ashanti Regional Directorate of the Ghana Education Service (GES) committee that investigated the August 2026 protest at Obuasi Senior High Technical School has found that factions among teachers and student gangs are undermining discipline, staff cohesion and the administration of the school.",
+      "category": "teachers",
+      "published_at": "2026-10-20T13:26:25Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/images-1.jpg",
+      "rank": 0.867,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GES report identifies teacher divisions, student gangs as factors in Obuasi SHTS unrest",
+          "url": "https://www.myjoyonline.com/ges-report-identifies-teacher-divisions-student-gangs-as-factors-in-obuasi-shts-unrest/",
+          "published_at": "2026-10-20T09:55:51Z",
+          "excerpt": "Ashanti Regional Directorate of the Ghana Education Service (GES) committee that investigated the August 2026 protest at Obuasi Senior High Technical School has found that factions among teachers and student gangs are undermining discipline, staff cohesion and the administration of the school."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "GES report identifies teacher divisions, student gangs as factors in Obuasi SHTS unrest",
+          "url": "https://www.adomonline.com/ges-report-identifies-teacher-divisions-student-gangs-as-factors-in-obuasi-shts-unrest/",
+          "published_at": "2026-10-20T13:26:25Z",
+          "excerpt": "Ashanti Regional Directorate of the Ghana Education Service (GES) committee that investigated the August 2026 protest at Obuasi Senior High Technical School found that teacher factions and student gangs are undermining discipline, staff cohesion, and the school’s administration. The report identified teacher groupings known as “Parliament”, “Caucus” and “Man never is”, alongside student groups called […]"
+        }
+      ],
+      "path": "story/357/ges-report-identifies-teacher-divisions-student-gangs-as-factors-in-obuasi-shts/"
+    },
     {
       "id": 360,
       "title": "NDC directs accused Obuasi SHTS headmaster to step aside from Juaben chairmanship race",
@@ -148,6 +210,29 @@
       "path": "story/361/child-rights-international-blames-ges-silence-for-rising-school-sexual-abuse/"
     },
     {
+      "id": 366,
+      "title": "I’ll pursue all lawful avenues to clear my name – Embattled Obuasi SHTS headmaster",
+      "summary": "The headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, says he will devote his attention and resources to clearing his name following allegations of sexual abuse involving female students at the school.",
+      "category": "basic_schools",
+      "published_at": "2026-10-20T13:15:19Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/hotline-documentary-inside-the-d.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "I’ll pursue all lawful avenues to clear my name – Embattled Obuasi SHTS headmaster",
+          "url": "https://www.myjoyonline.com/ill-pursue-all-lawful-avenues-to-clear-my-name-embattled-obuasi-shts-headmaster/",
+          "published_at": "2026-10-20T13:15:19Z",
+          "excerpt": "The headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, says he will devote his attention and resources to clearing his name following allegations of sexual abuse involving female students at the school. Mr Abdulai said this as he resigned as Secretary of the National Democratic Congress (NDC) in the Juaben Constituency and withdrew […]"
+        }
+      ],
+      "path": "story/366/ill-pursue-all-lawful-avenues-to-clear-my-name-embattled-obuasi-shts-headmaster/"
+    },
+    {
       "id": 358,
       "title": "Obuasi SHTS sex scandal: NAGRAT demands dismissal of headmaster, district GES officials",
       "summary": "The President of the National Association of Graduate Teachers (NAGRAT), Jacob Anaba, has called for the immediate dismissal of the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, and officials of the Ghana Education Service (GES) in the area in relation to allegations of sexual abuse of f...",
@@ -261,29 +346,6 @@
         }
       ],
       "path": "story/359/ccc-to-honour-teachers-as-part-of-its-october-commission-offers-free-medical/"
-    },
-    {
-      "id": 357,
-      "title": "GES report identifies teacher divisions, student gangs as factors in Obuasi SHTS unrest",
-      "summary": "Ashanti Regional Directorate of the Ghana Education Service (GES) committee that investigated the August 2026 protest at Obuasi Senior High Technical School has found that factions among teachers and student gangs are undermining discipline, staff cohesion and the administration of the school.",
-      "category": "teachers",
-      "published_at": "2026-10-20T09:55:51Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1343-839x424-5.webp",
-      "rank": 0.7238,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "GES report identifies teacher divisions, student gangs as factors in Obuasi SHTS unrest",
-          "url": "https://www.myjoyonline.com/ges-report-identifies-teacher-divisions-student-gangs-as-factors-in-obuasi-shts-unrest/",
-          "published_at": "2026-10-20T09:55:51Z",
-          "excerpt": "Ashanti Regional Directorate of the Ghana Education Service (GES) committee that investigated the August 2026 protest at Obuasi Senior High Technical School has found that factions among teachers and student gangs are undermining discipline, staff cohesion and the administration of the school."
-        }
-      ],
-      "path": "story/357/ges-report-identifies-teacher-divisions-student-gangs-as-factors-in-obuasi-shts/"
     },
     {
       "id": 356,
