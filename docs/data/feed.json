@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T20:02:42Z",
+  "generated_at": "2026-10-20T20:10:20Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -23,7 +23,7 @@
     },
     {
       "name": "examinations",
-      "story_count": 11
+      "story_count": 12
     },
     {
       "name": "scholarships",
@@ -355,6 +355,29 @@
         }
       ],
       "path": "story/360/ndc-directs-accused-obuasi-shts-headmaster-to-step-aside-from-juaben/"
+    },
+    {
+      "id": 386,
+      "title": "FGMSA, Graduating Medical and Dental Students drag MDC to court over Common Registration Examination",
+      "summary": "The Federation of Ghana Medical Students’ Associations (FGMSA) and affected graduating medical and dental students have taken legal action against the Medical and Dental Council (MDC), seeking to halt the implementation of the Common Registration Examination (CRE).",
+      "category": "examinations",
+      "published_at": "2026-10-20T20:07:37Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/court verdict.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "FGMSA, Graduating Medical and Dental Students drag MDC to court over Common Registration Examination",
+          "url": "https://3news.com/news/fgmsa-graduating-medical-and-dental-students-drag-mdc-to-court-over-common-registration-examination",
+          "published_at": "2026-10-20T20:07:37Z",
+          "excerpt": "The Federation of Ghana Medical Students’ Associations (FGMSA) and affected graduating medical and dental students have taken legal action against the Medical and Dental Council (MDC), seeking to halt the implementation of the Common Registration Examination (CRE)."
+        }
+      ],
+      "path": "story/386/fgmsa-graduating-medical-and-dental-students-drag-mdc-to-court-over-common/"
     },
     {
       "id": 385,
