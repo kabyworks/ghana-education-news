@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T01:10:12Z",
+  "generated_at": "2026-10-20T01:40:16Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 88
+      "story_count": 89
     },
     {
       "name": "teachers",
@@ -92,6 +92,29 @@
         }
       ],
       "path": "story/328/obuasi-shts-abuse-pta-association-calls-for-action-against-alleged-perpetrators/"
+    },
+    {
+      "id": 344,
+      "title": "Obuasi SHTS sexual abuse: Big insult to victims and Ghanaians if headmaster claims GES exonerated him",
+      "summary": "Investigative journalist Manasseh Azure Awuni has challenged reports that the Ashanti Regional office of the Ghana Education Service (GES) has exonerated the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, over allegations of sexual abuse involving female students.",
+      "category": "basic_schools",
+      "published_at": "2026-10-20T00:02:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/12/image-752-e1785587166679.png",
+      "rank": 0.7616,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS sexual abuse: Big insult to victims and Ghanaians if headmaster claims GES exonerated him",
+          "url": "https://www.myjoyonline.com/obuasi-shts-sexual-abuse-big-insult-to-victims-and-ghanaians-if-headmaster-claims-ges-exonerated-him/",
+          "published_at": "2026-10-20T00:02:00Z",
+          "excerpt": "Investigative journalist Manasseh Azure Awuni has challenged reports that the Ashanti Regional office of the Ghana Education Service (GES) has exonerated the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, over allegations of sexual abuse involving female students."
+        }
+      ],
+      "path": "story/344/obuasi-shts-sexual-abuse-big-insult-to-victims-and-ghanaians-if-headmaster/"
     },
     {
       "id": 343,
