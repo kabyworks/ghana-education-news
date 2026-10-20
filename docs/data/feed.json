@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:10:08Z",
+  "generated_at": "2026-10-20T22:40:20Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -23,7 +23,7 @@
     },
     {
       "name": "examinations",
-      "story_count": 12
+      "story_count": 13
     },
     {
       "name": "scholarships",
@@ -386,6 +386,29 @@
         }
       ],
       "path": "story/360/ndc-directs-accused-obuasi-shts-headmaster-to-step-aside-from-juaben/"
+    },
+    {
+      "id": 388,
+      "title": "From a year at home to Pharmacy distinction: Thompson Kombat’s journey",
+      "summary": "Thompson Kawoktu Kombat spent a year at home after completing the West African Senior School Certificate Examination (WASSCE) in 2018 because his family could not afford his university admission fees.",
+      "category": "examinations",
+      "published_at": "2026-10-20T20:29:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-15.31.05-683x1024.jpeg",
+      "rank": 0.7268,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "From a year at home to Pharmacy distinction: Thompson Kombat’s journey",
+          "url": "https://www.myjoyonline.com/from-a-year-at-home-to-pharmacy-distinction-thompson-kombats-journey/",
+          "published_at": "2026-10-20T20:29:00Z",
+          "excerpt": "Thompson Kawoktu Kombat spent a year at home after completing the West African Senior School Certificate Examination (WASSCE) in 2018 because his family could not afford his university admission fees."
+        }
+      ],
+      "path": "story/388/from-a-year-at-home-to-pharmacy-distinction-thompson-kombats-journey/"
     },
     {
       "id": 386,
