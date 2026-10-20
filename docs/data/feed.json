@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-20T16:10:10Z",
+  "generated_at": "2026-10-20T16:40:15Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 105
+      "story_count": 106
     },
     {
       "name": "basic_schools",
-      "story_count": 100
+      "story_count": 101
     },
     {
       "name": "teachers",
@@ -69,6 +69,37 @@
         }
       ],
       "path": "story/365/ges-directs-ashanti-regional-and-obuasi-municipal-education-directors-to-step/"
+    },
+    {
+      "id": 375,
+      "title": "University of Ghana opens 2026/2027 first-semester registration for freshers, continuing students",
+      "summary": "The University of Ghana (UG) has opened academic registration for undergraduate freshers and continuing students for the first semester of the 2026/2027 academic year, urging them to complete the process within their respective deadlines.",
+      "category": "higher_education",
+      "published_at": "2026-10-20T16:23:01Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/06/university-of-ghana.jpg",
+      "rank": 0.867,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "University of Ghana opens 2026/2027 first-semester registration for freshers, continuing students",
+          "url": "https://www.myjoyonline.com/university-of-ghana-opens-2026-2027-first-semester-registration-for-freshers-continuing-students/",
+          "published_at": "2026-10-20T15:50:40Z",
+          "excerpt": "The University of Ghana (UG) has opened academic registration for undergraduate freshers and continuing students for the first semester of the 2026/2027 academic year, urging them to complete the process within their respective deadlines."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "University of Ghana opens first semester registration for 2026/2027 academic year",
+          "url": "https://www.adomonline.com/university-of-ghana-opens-first-semester-registration-for-2026-2027-academic-year/",
+          "published_at": "2026-10-20T16:23:01Z",
+          "excerpt": "The University of Ghana (UG) has opened academic registration for undergraduate continuing students and freshmen for the first semester of the 2026/2027 academic year. In a notice issued on October 19, 2026, the university’s Academic Affairs Directorate urged students to complete their registration through the Management Information System (MIS) web portal. The directorate advised students […]"
+        }
+      ],
+      "path": "story/375/university-of-ghana-opens-2026-2027-first-semester-registration-for-freshers/"
     },
     {
       "id": 354,
@@ -195,29 +226,6 @@
       "path": "story/352/no-witness-saw-obuasi-shts-headmaster-bury-a-foetus-on-school-compound/"
     },
     {
-      "id": 375,
-      "title": "University of Ghana opens 2026/2027 first-semester registration for freshers, continuing students",
-      "summary": "The University of Ghana (UG) has opened academic registration for undergraduate freshers and continuing students for the first semester of the 2026/2027 academic year, urging them to complete the process within their respective deadlines.",
-      "category": "higher_education",
-      "published_at": "2026-10-20T15:50:40Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2029.png",
-      "rank": 0.7646,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "University of Ghana opens 2026/2027 first-semester registration for freshers, continuing students",
-          "url": "https://www.myjoyonline.com/university-of-ghana-opens-2026-2027-first-semester-registration-for-freshers-continuing-students/",
-          "published_at": "2026-10-20T15:50:40Z",
-          "excerpt": "The University of Ghana (UG) has opened academic registration for undergraduate freshers and continuing students for the first semester of the 2026/2027 academic year, urging them to complete the process within their respective deadlines."
-        }
-      ],
-      "path": "story/375/university-of-ghana-opens-2026-2027-first-semester-registration-for-freshers/"
-    },
-    {
       "id": 374,
       "title": "GES protecting schools' reputation over children - Child Rights International",
       "summary": "Child Rights International accuses the GES of prioritizing school reputation over student safety, calling for a complete overhaul of safeguarding policies.",
@@ -339,6 +347,52 @@
         }
       ],
       "path": "story/371/admission-world-fairs-marks-its-fifth-anniversary-with-a-successful-edu-fair/"
+    },
+    {
+      "id": 378,
+      "title": "19-year-old amputee begins SHS journey at Wa Technical Institute, appeals for standard wheelchair, laptop",
+      "summary": "Kofi David has no legs. He has no father.",
+      "category": "basic_schools",
+      "published_at": "2026-10-20T16:22:54Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/440f7596-62af-46a0-be8d-7eb569ed8633-1024x576.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "19-year-old amputee begins SHS journey at Wa Technical Institute, appeals for standard wheelchair, laptop",
+          "url": "https://www.myjoyonline.com/19-year-old-amputee-begins-shs-journey-at-wa-technical-institute-appeals-for-standard-wheelchair-laptop/",
+          "published_at": "2026-10-20T16:22:54Z",
+          "excerpt": "Kofi David has no legs. He has no father. But on Monday, he had something many take for granted — a chance to attend senior high school."
+        }
+      ],
+      "path": "story/378/19-year-old-amputee-begins-shs-journey-at-wa-technical-institute-appeals-for/"
+    },
+    {
+      "id": 377,
+      "title": "Cedar Impact Network partners KNUST Basic School to combat textbook shortage in underserved communities",
+      "summary": "The Cedar Impact Network, in collaboration with KNUST Basic School, is championing the reuse of learning materials to support deprived schools through its “Don’t Throw It Away, Donate It” initiative.",
+      "category": "higher_education",
+      "published_at": "2026-10-20T16:18:28Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/IMG-20261020-WA0009-1024x576.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Cedar Impact Network partners KNUST Basic School to combat textbook shortage in underserved communities",
+          "url": "https://www.adomonline.com/cedar-impact-network-partners-knust-basic-school-to-combat-textbook-shortage-in-underserved-communities/",
+          "published_at": "2026-10-20T16:18:28Z",
+          "excerpt": "The Cedar Impact Network, in collaboration with KNUST Basic School, is championing the reuse of learning materials to support deprived schools through its “Don’t Throw It Away, Donate It” initiative. The Educational Impact Project, under the theme “Every Old Textbook is Someone’s New Beginning,” seeks to improve access to learning materials by promoting the reuse […]"
+        }
+      ],
+      "path": "story/377/cedar-impact-network-partners-knust-basic-school-to-combat-textbook-shortage-in/"
     },
     {
       "id": 376,
