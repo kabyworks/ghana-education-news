@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:10:13Z",
+  "generated_at": "2026-10-20T18:40:15Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 90
+      "story_count": 91
     },
     {
       "name": "general",
@@ -69,6 +69,37 @@
         }
       ],
       "path": "story/365/ges-directs-ashanti-regional-and-obuasi-municipal-education-directors-to-step/"
+    },
+    {
+      "id": 366,
+      "title": "I’ll pursue all lawful avenues to clear my name – Embattled Obuasi SHTS headmaster",
+      "summary": "The headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, says he will devote his attention and resources to clearing his name following allegations of sexual abuse involving female students at the school.",
+      "category": "basic_schools",
+      "published_at": "2026-10-20T18:37:25Z",
+      "source_count": 2,
+      "sources": [
+        "3News",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://media.3news.com/Zakaria-738x411.webp",
+      "rank": 0.849,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "I’ll pursue all lawful avenues to clear my name – Embattled Obuasi SHTS headmaster",
+          "url": "https://www.myjoyonline.com/ill-pursue-all-lawful-avenues-to-clear-my-name-embattled-obuasi-shts-headmaster/",
+          "published_at": "2026-10-20T13:15:19Z",
+          "excerpt": "The headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, says he will devote his attention and resources to clearing his name following allegations of sexual abuse involving female students at the school. Mr Abdulai said this as he resigned as Secretary of the National Democratic Congress (NDC) in the Juaben Constituency and withdrew […]"
+        },
+        {
+          "source_name": "3News",
+          "title": "I intend to pursue all lawful avenues to clear my name - Obuasi SHTS headmaster",
+          "url": "https://3news.com/news/i-intend-to-pursue-all-lawful-avenues-to-clear-my-name-obuasi-shts-headmaster",
+          "published_at": "2026-10-20T18:37:25Z",
+          "excerpt": "The interdicted headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, has pledged to pursue all lawful avenues to clear his name amid ongoing investigations into allegations of sexual misconduct involving female students."
+        }
+      ],
+      "path": "story/366/ill-pursue-all-lawful-avenues-to-clear-my-name-embattled-obuasi-shts-headmaster/"
     },
     {
       "id": 375,
@@ -255,6 +286,29 @@
         }
       ],
       "path": "story/360/ndc-directs-accused-obuasi-shts-headmaster-to-step-aside-from-juaben/"
+    },
+    {
+      "id": 382,
+      "title": "NAGRAT accuses NDC of delaying action over Obuasi SHTS abuse allegations",
+      "summary": "The President of the National Association of Graduate Teachers (NAGRAT), Jacob Anaba, has accused the ruling National Democratic Congress (NDC) of failing to act promptly on alleged abuse at Obuasi Senior High Technical School (SHTS), despite claims that party officials knew about the matter before it became a natio...",
+      "category": "teachers",
+      "published_at": "2026-10-20T18:26:08Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-15-3.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "NAGRAT accuses NDC of delaying action over Obuasi SHTS abuse allegations",
+          "url": "https://www.myjoyonline.com/nagrat-accuses-ndc-of-delaying-action-over-obuasi-shts-abuse-allegations/",
+          "published_at": "2026-10-20T18:26:08Z",
+          "excerpt": "The President of the National Association of Graduate Teachers (NAGRAT), Jacob Anaba, has accused the ruling National Democratic Congress (NDC) of failing to act promptly on alleged abuse at Obuasi Senior High Technical School (SHTS), despite claims that party officials knew about the matter before it became a national scandal. Speaking on JoyNews’ Top Story on Tuesday, October 20, 2026, Mr Anaba described the party’s decision to direct the school’s headmaster, Zakaria Abdulai, to step aside from the Juaben Constituency Chairmanship race as “very, very late”. He argued that action should have been taken when the allegations first emerged, rather than after the issue attracted widespread public attention. Mr Anaba cited details he said were contained in an investigative video by journalist Manasseh Azure Awuni, alleging that the Municipal Chief Executive (MCE) had visited the school at night to collect a girl who had reportedly been assaulted. He said the housemistress had invited the s"
+        }
+      ],
+      "path": "story/382/nagrat-accuses-ndc-of-delaying-action-over-obuasi-shts-abuse-allegations/"
     },
     {
       "id": 352,
@@ -639,29 +693,6 @@
         }
       ],
       "path": "story/358/obuasi-shts-sex-scandal-nagrat-demands-dismissal-of-headmaster-district-ges/"
-    },
-    {
-      "id": 366,
-      "title": "I’ll pursue all lawful avenues to clear my name – Embattled Obuasi SHTS headmaster",
-      "summary": "The headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, says he will devote his attention and resources to clearing his name following allegations of sexual abuse involving female students at the school.",
-      "category": "basic_schools",
-      "published_at": "2026-10-20T13:15:19Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/hotline-documentary-inside-the-d.jpg",
-      "rank": 0.685,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "I’ll pursue all lawful avenues to clear my name – Embattled Obuasi SHTS headmaster",
-          "url": "https://www.myjoyonline.com/ill-pursue-all-lawful-avenues-to-clear-my-name-embattled-obuasi-shts-headmaster/",
-          "published_at": "2026-10-20T13:15:19Z",
-          "excerpt": "The headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, says he will devote his attention and resources to clearing his name following allegations of sexual abuse involving female students at the school. Mr Abdulai said this as he resigned as Secretary of the National Democratic Congress (NDC) in the Juaben Constituency and withdrew […]"
-        }
-      ],
-      "path": "story/366/ill-pursue-all-lawful-avenues-to-clear-my-name-embattled-obuasi-shts-headmaster/"
     },
     {
       "id": 364,
