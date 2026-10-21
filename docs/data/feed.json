@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-21T18:10:31Z",
+  "generated_at": "2026-10-21T18:40:16Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 121
+      "story_count": 122
     },
     {
       "name": "higher_education",
-      "story_count": 111
+      "story_count": 112
     },
     {
       "name": "teachers",
@@ -23,7 +23,7 @@
     },
     {
       "name": "examinations",
-      "story_count": 14
+      "story_count": 15
     },
     {
       "name": "scholarships",
@@ -156,6 +156,29 @@
       "path": "story/404/obuasi-shts-abuse-allegations-education-ministry-knew-nothing-until-expos-dr/"
     },
     {
+      "id": 423,
+      "title": "Ghana, UK make progress in talks to secure IELTS exemption for students, professionals – Ablakwa",
+      "summary": "Foreign Affairs Minister Samuel Okudzeto Ablakwa says Ghana has made significant progress in negotiations with the United Kingdom to exempt Ghanaian students and professionals from the International English Language Testing System (IELTS) examinations.",
+      "category": "examinations",
+      "published_at": "2026-10-21T18:35:23Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/857698007_1104186265580605_5967213694152377010_n-1024x731.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ghana, UK make progress in talks to secure IELTS exemption for students, professionals – Ablakwa",
+          "url": "https://www.myjoyonline.com/ghana-uk-make-progress-in-talks-to-secure-ielts-exemption-for-students-professionals-ablakwa/",
+          "published_at": "2026-10-21T18:35:23Z",
+          "excerpt": "Foreign Affairs Minister Samuel Okudzeto Ablakwa says Ghana has made significant progress in negotiations with the United Kingdom to exempt Ghanaian students and professionals from the International English Language Testing System (IELTS) examinations."
+        }
+      ],
+      "path": "story/423/ghana-uk-make-progress-in-talks-to-secure-ielts-exemption-for-students/"
+    },
+    {
       "id": 200,
       "title": "Obuasi SHTS headmaster arrested over alleged sexual misconduct – Muntaka",
       "summary": "The Headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, has been arrested in connection with sexual misconduct allegations involving female students, Interior Minister Mohammed Mubarak Muntaka has disclosed.",
@@ -200,6 +223,52 @@
         }
       ],
       "path": "story/200/obuasi-shts-headmaster-arrested-over-alleged-sexual-misconduct-muntaka/"
+    },
+    {
+      "id": 424,
+      "title": "NACOC takes drug education campaign to Diabene SHS",
+      "summary": "The Western Regional Command of the Narcotics Control Commission (NACOC) has launched a drug education and sensitisation campaign targeting newly admitted Senior High School (SHS) students to raise awareness of the dangers of drug use.",
+      "category": "basic_schools",
+      "published_at": "2026-10-21T18:35:49Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/7a0adb04-8b9b-49c8-a33a-e896cc48c727-800x600-1.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "NACOC takes drug education campaign to Diabene SHS",
+          "url": "https://www.myjoyonline.com/nacoc-takes-drug-education-campaign-to-diabene-shs/",
+          "published_at": "2026-10-21T18:35:49Z",
+          "excerpt": "The Western Regional Command of the Narcotics Control Commission (NACOC) has launched a drug education and sensitisation campaign targeting newly admitted Senior High School (SHS) students to raise awareness of the dangers of drug use."
+        }
+      ],
+      "path": "story/424/nacoc-takes-drug-education-campaign-to-diabene-shs/"
+    },
+    {
+      "id": 422,
+      "title": "KNUST Engineering College launches 75th anniversary, eyes Gh¢40m innovation building",
+      "summary": "The College of Engineering at the Kwame Nkrumah University of Science and Technology (KNUST) is seeking to deepen collaboration with industry and transform academic research into practical solutions, hinting at the construction of a GH¢40 million Technology and Innovation Building.",
+      "category": "higher_education",
+      "published_at": "2026-10-21T18:35:10Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-17.30.36-1024x576.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "KNUST Engineering College launches 75th anniversary, eyes Gh¢40m innovation building",
+          "url": "https://www.myjoyonline.com/knust-engineering-college-launches-75th-anniversary-eyes-gh%c2%a240m-innovation-building/",
+          "published_at": "2026-10-21T18:35:10Z",
+          "excerpt": "The College of Engineering at the Kwame Nkrumah University of Science and Technology (KNUST) is seeking to deepen collaboration with industry and transform academic research into practical solutions, hinting at the construction of a GH¢40 million Technology and Innovation Building."
+        }
+      ],
+      "path": "story/422/knust-engineering-college-launches-75th-anniversary-eyes-gh-40m-innovation/"
     },
     {
       "id": 421,
