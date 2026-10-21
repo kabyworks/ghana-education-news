@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T13:11:04Z",
+  "generated_at": "2026-10-21T13:40:38Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 114
+      "story_count": 115
     },
     {
       "name": "higher_education",
@@ -19,7 +19,7 @@
     },
     {
       "name": "policy",
-      "story_count": 19
+      "story_count": 20
     },
     {
       "name": "examinations",
@@ -200,6 +200,52 @@
         }
       ],
       "path": "story/409/how-was-a-teacher-facing-sexual-misconduct-allegations-promoted-to-headmaster/"
+    },
+    {
+      "id": 412,
+      "title": "Students, parents to report abuse directly to Education Ministry – Apaak",
+      "summary": "Deputy Education Minister Dr Clement Apaak has announced plans to introduce a direct reporting channel to enable students, parents and other stakeholders to report sexual abuse and other forms of misconduct in educational institutions directly to the Education Ministry.",
+      "category": "policy",
+      "published_at": "2026-10-21T13:35:51Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-30-at-09.43.20-1024x781.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Students, parents to report abuse directly to Education Ministry – Apaak",
+          "url": "https://www.adomonline.com/students-parents-to-report-abuse-directly-to-education-ministry-apaak/",
+          "published_at": "2026-10-21T13:35:51Z",
+          "excerpt": "Deputy Education Minister Dr Clement Apaak has announced plans to introduce a direct reporting channel to enable students, parents and other stakeholders to report sexual abuse and other forms of misconduct in educational institutions directly to the Education Ministry. The proposed mechanism will allow complainants to bypass established reporting structures where they believe school authorities […]"
+        }
+      ],
+      "path": "story/412/students-parents-to-report-abuse-directly-to-education-ministry-apaak/"
+    },
+    {
+      "id": 411,
+      "title": "Education Minister acted promptly on Obuasi SHTS abuse allegations – Hashmin Mohammed",
+      "summary": "Spokesperson to the Education Minister, Hashmin Mohammed, has defended Haruna Iddrisu’s handling of the alleged sexual abuse at Obuasi Senior High Technical School (SHTS), insisting that the Minister took prompt steps to facilitate investigations into the matter.",
+      "category": "basic_schools",
+      "published_at": "2026-10-21T13:22:18Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/11824c27-e45d-463b-877d-522c896ace09-1024x565.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Education Minister acted promptly on Obuasi SHTS abuse allegations – Hashmin Mohammed",
+          "url": "https://www.myjoyonline.com/education-minister-acted-promptly-on-obuasi-shts-abuse-allegations-hashmin-mohammed/",
+          "published_at": "2026-10-21T13:22:18Z",
+          "excerpt": "Spokesperson to the Education Minister, Hashmin Mohammed, has defended Haruna Iddrisu’s handling of the alleged sexual abuse at Obuasi Senior High Technical School (SHTS), insisting that the Minister took prompt steps to facilitate investigations into the matter."
+        }
+      ],
+      "path": "story/411/education-minister-acted-promptly-on-obuasi-shts-abuse-allegations-hashmin/"
     },
     {
       "id": 410,
