@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T11:10:17Z",
+  "generated_at": "2026-10-21T11:40:26Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 112
+      "story_count": 114
     },
     {
       "name": "higher_education",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 51
+      "story_count": 52
     },
     {
       "name": "policy",
@@ -184,6 +184,75 @@
         }
       ],
       "path": "story/401/ges-gives-committee-two-weeks-to-probe-obuasi-shts-scandal/"
+    },
+    {
+      "id": 408,
+      "title": "YEA to deploy 6,000 community teaching assistants by November – Basintale",
+      "summary": "The Youth Employment Agency (YEA) plans to onboard and deploy 6,000 community teaching assistants by the end of November 2026 under an agreement with the Ghana Education Service (GES).",
+      "category": "general",
+      "published_at": "2026-10-21T11:26:16Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/839048032_1526770682818358_4979656707748641213_n-1024x684.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "YEA to deploy 6,000 community teaching assistants by November – Basintale",
+          "url": "https://www.myjoyonline.com/yea-to-deploy-6000-community-teaching-assistants-by-november-basintale/",
+          "published_at": "2026-10-21T11:26:16Z",
+          "excerpt": "The Youth Employment Agency (YEA) plans to onboard and deploy 6,000 community teaching assistants by the end of November 2026 under an agreement with the Ghana Education Service (GES)."
+        }
+      ],
+      "path": "story/408/yea-to-deploy-6-000-community-teaching-assistants-by-november-basintale/"
+    },
+    {
+      "id": 407,
+      "title": "Who protects the dreamer? (Part II) — Reflections on the vulnerability of the Girl Child in the Obuasi Senior High Technical School Scandal",
+      "summary": "There is something sickeningly cruel about a society that encourages a girl to dream, sends her to school to build that dream, and then leaves her vulnerable to the very people entrusted with protecting her.",
+      "category": "basic_schools",
+      "published_at": "2026-10-21T11:17:43Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Red_Wednesday.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Who protects the dreamer? (Part II) — Reflections on the vulnerability of the Girl Child in the Obuasi Senior High Technical School Scandal",
+          "url": "https://www.myjoyonline.com/who-protects-the-dreamer-part-ii-reflections-on-the-vulnerability-of-the-girl-child-in-the-obuasi-senior-high-technical-school-scandal/",
+          "published_at": "2026-10-21T11:17:43Z",
+          "excerpt": "There is something sickeningly cruel about a society that encourages a girl to dream, sends her to school to build that dream, and then leaves her vulnerable to the very people entrusted with protecting her. The allegations emerging from Obuasi Senior High Technical School against its headmaster, Zakaria Abdulai, involving sexual abuse, including rape, are deeply disturbing. If established, these allegations would represent not merely a crime, but a monstrous betrayal of trust, authority and the sacred responsibility of educating children."
+        }
+      ],
+      "path": "story/407/who-protects-the-dreamer-part-ii-reflections-on-the-vulnerability-of-the-girl/"
+    },
+    {
+      "id": 406,
+      "title": "Obuasi SHTS students remain at home nearly 3 months after closure over headmaster’s sexual abuse claims",
+      "summary": "The academic fate of many final-year and second-year students of Obuasi Senior High and Technical School remains uncertain as the school has been closed indefinitely to continuing students for nearly three months now.",
+      "category": "basic_schools",
+      "published_at": "2026-10-21T11:17:21Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Obuasi-SHTS.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS students remain at home nearly 3 months after closure over headmaster’s sexual abuse claims",
+          "url": "https://www.myjoyonline.com/obuasi-shts-students-remain-at-home-nearly-3-months-after-closure-over-headmasters-sexual-abuse-claims/",
+          "published_at": "2026-10-21T11:17:21Z",
+          "excerpt": "The academic fate of many final-year and second-year students of Obuasi Senior High and Technical School remains uncertain as the school has been closed indefinitely to continuing students for nearly three months now."
+        }
+      ],
+      "path": "story/406/obuasi-shts-students-remain-at-home-nearly-3-months-after-closure-over/"
     },
     {
       "id": 405,
