@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:10:20Z",
+  "generated_at": "2026-10-21T12:40:48Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -23,7 +23,7 @@
     },
     {
       "name": "examinations",
-      "story_count": 13
+      "story_count": 14
     },
     {
       "name": "scholarships",
@@ -200,6 +200,29 @@
         }
       ],
       "path": "story/409/how-was-a-teacher-facing-sexual-misconduct-allegations-promoted-to-headmaster/"
+    },
+    {
+      "id": 410,
+      "title": "Obuasi SHTS closure leaves final-year students facing uncertainty ahead of WASSCE",
+      "summary": "The academic future of final-year and second-year students of Obuasi Senior High and Technical School (SHTS) remains uncertain, as the school has stayed closed to continuing students for nearly three months following a student riot in August.",
+      "category": "examinations",
+      "published_at": "2026-10-21T12:07:50Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-15-5.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS closure leaves final-year students facing uncertainty ahead of WASSCE",
+          "url": "https://www.myjoyonline.com/obuasi-shts-closure-leaves-final-year-students-facing-uncertainty-ahead-of-wassce/",
+          "published_at": "2026-10-21T12:07:50Z",
+          "excerpt": "The academic future of final-year and second-year students of Obuasi Senior High and Technical School (SHTS) remains uncertain, as the school has stayed closed to continuing students for nearly three months following a student riot in August. The school was shut down on August 5 after the municipal assembly ordered its closure following a disturbance in which students reportedly attacked the headmaster, Zakaria Abdulai, amid allegations of sexual abuse involving female students. Despite the start of the new academic calendar for senior high schools, academic activities at Obuasi SHTS have yet to resume for continuing students."
+        }
+      ],
+      "path": "story/410/obuasi-shts-closure-leaves-final-year-students-facing-uncertainty-ahead-of/"
     },
     {
       "id": 403,
