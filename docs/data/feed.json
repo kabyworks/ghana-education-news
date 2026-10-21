@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T14:10:16Z",
+  "generated_at": "2026-10-21T14:40:20Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 118
+      "story_count": 119
     },
     {
       "name": "higher_education",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 52
+      "story_count": 53
     },
     {
       "name": "policy",
@@ -140,6 +140,29 @@
       "path": "story/200/obuasi-shts-headmaster-arrested-over-alleged-sexual-misconduct-muntaka/"
     },
     {
+      "id": 417,
+      "title": "YEA, GES sign MoU to recruit 6,000 community teaching assistants in November",
+      "summary": "The Youth Employment Agency (YEA) plans to recruit and deploy 6,000 young people as community teaching assistants by November 2026 under an initiative aimed at supporting basic education across the country.",
+      "category": "general",
+      "published_at": "2026-10-21T14:14:28Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/Basintale YEA-750x376.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "YEA, GES sign MoU to recruit 6,000 community teaching assistants in November",
+          "url": "https://3news.com/news/yea-ges-sign-mou-to-recruit-6-000-community-teaching-assistants-in-november",
+          "published_at": "2026-10-21T14:14:28Z",
+          "excerpt": "The Youth Employment Agency (YEA) plans to recruit and deploy 6,000 young people as community teaching assistants by November 2026 under an initiative aimed at supporting basic education across the country."
+        }
+      ],
+      "path": "story/417/yea-ges-sign-mou-to-recruit-6-000-community-teaching-assistants-in-november/"
+    },
+    {
       "id": 365,
       "title": "GES directs Ashanti Regional and Obuasi Municipal education directors to step aside over Obuasi SHTS probe",
       "summary": "The Ghana Education Service (GES) has directed the Ashanti Regional Director of Education, Dr William Amankrah Appiah, and the Obuasi Municipal Director of Education, Kwamena Owusu-Nketiah, to step aside with immediate effect as investigations continue into allegations of sexual misconduct involving the headmaster o...",
@@ -177,6 +200,29 @@
         }
       ],
       "path": "story/365/ges-directs-ashanti-regional-and-obuasi-municipal-education-directors-to-step/"
+    },
+    {
+      "id": 416,
+      "title": "Miracles Aboagye criticises Veep over silence on alleged sexual abuse at Obuasi SHTS",
+      "summary": "New Patriotic Party (NPP) Director of Communications, Dennis Miracles Aboagye, has criticised Vice-President Professor Naana Jane Opoku-Agyemang for not publicly commenting on allegations of sexual misconduct involving the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai.",
+      "category": "basic_schools",
+      "published_at": "2026-10-21T14:09:56Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2106.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Miracles Aboagye criticises Veep over silence on alleged sexual abuse at Obuasi SHTS",
+          "url": "https://www.myjoyonline.com/miracles-aboagye-criticises-veep-over-silence-on-alleged-sexual-abuse-at-obuasi-shts/",
+          "published_at": "2026-10-21T14:09:56Z",
+          "excerpt": "New Patriotic Party (NPP) Director of Communications, Dennis Miracles Aboagye, has criticised Vice-President Professor Naana Jane Opoku-Agyemang for not publicly commenting on allegations of sexual misconduct involving the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai."
+        }
+      ],
+      "path": "story/416/miracles-aboagye-criticises-veep-over-silence-on-alleged-sexual-abuse-at-obuasi/"
     },
     {
       "id": 415,
