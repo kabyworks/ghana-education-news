@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:10:18Z",
+  "generated_at": "2026-10-21T21:40:18Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 112
+      "story_count": 113
     },
     {
       "name": "teachers",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 55
+      "story_count": 56
     },
     {
       "name": "policy",
@@ -92,6 +92,52 @@
         }
       ],
       "path": "story/418/94-7-of-shss-named-in-sexual-abuse-reports-are-category-b-or-c-amid-soaring/"
+    },
+    {
+      "id": 426,
+      "title": "Cargill Cares Ghana celebrates World Food Day with Cape Coast School for the Deaf and Blind",
+      "summary": "Cargill Cares Ghana has celebrated World Food Day with the students and staff of the Cape Coast School for the Deaf and Blind, reaffirming its commitment to community wellbeing, inclusion and the fight against hunger.",
+      "category": "general",
+      "published_at": "2026-10-21T21:27:42Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG-20261021-WA0012-1024x683.jpg",
+      "rank": 0.755,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Cargill Cares Ghana celebrates World Food Day with Cape Coast School for the Deaf and Blind",
+          "url": "https://www.myjoyonline.com/cargill-cares-ghana-celebrates-world-food-day-with-cape-coast-school-for-the-deaf-and-blind/",
+          "published_at": "2026-10-21T21:27:42Z",
+          "excerpt": "Cargill Cares Ghana has celebrated World Food Day with the students and staff of the Cape Coast School for the Deaf and Blind, reaffirming its commitment to community wellbeing, inclusion and the fight against hunger."
+        }
+      ],
+      "path": "story/426/cargill-cares-ghana-celebrates-world-food-day-with-cape-coast-school-for-the/"
+    },
+    {
+      "id": 427,
+      "title": "KNUST, MTN sign MoU to strengthen industry-academia collaboration and develop AI talent",
+      "summary": "Kwame Nkrumah University of Science and Technology (KNUST) has signed a Memorandum of Understanding (MoU) with telecommunications company MTN Ghana to strengthen industry-academia collaboration, equip students with practical skills and develop homegrown solutions to Ghana’s technological challenges.",
+      "category": "higher_education",
+      "published_at": "2026-10-21T21:28:38Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-20.33.15.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "KNUST, MTN sign MoU to strengthen industry-academia collaboration and develop AI talent",
+          "url": "https://www.myjoyonline.com/knust-mtn-sign-mou-to-strengthen-industry-academia-collaboration-and-develop-ai-talent/",
+          "published_at": "2026-10-21T21:28:38Z",
+          "excerpt": "Kwame Nkrumah University of Science and Technology (KNUST) has signed a Memorandum of Understanding (MoU) with telecommunications company MTN Ghana to strengthen industry-academia collaboration, equip students with practical skills and develop homegrown solutions to Ghana’s technological challenges."
+        }
+      ],
+      "path": "story/427/knust-mtn-sign-mou-to-strengthen-industry-academia-collaboration-and-develop-ai/"
     },
     {
       "id": 405,
