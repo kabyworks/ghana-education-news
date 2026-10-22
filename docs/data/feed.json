@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:10:46Z",
+  "generated_at": "2026-10-22T14:40:09Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 113
+      "story_count": 114
     },
     {
       "name": "teachers",
@@ -92,6 +92,29 @@
         }
       ],
       "path": "story/435/ges-mourns-four-pupils-killed-in-aboabo-junction-accident/"
+    },
+    {
+      "id": 439,
+      "title": "UMaT introduces three-instalment school fees payment plan for students",
+      "summary": "The University of Mines and Technology (UMaT) has introduced a flexible school fees payment arrangement allowing students to pay their approved fees in three instalments instead of settling the full amount upfront.",
+      "category": "higher_education",
+      "published_at": "2026-10-22T14:28:17Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/images-2.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "UMaT introduces three-instalment school fees payment plan for students",
+          "url": "https://www.adomonline.com/umat-introduces-three-instalment-school-fees-payment-plan-for-students/",
+          "published_at": "2026-10-22T14:28:17Z",
+          "excerpt": "The University of Mines and Technology (UMaT) has introduced a flexible school fees payment arrangement allowing students to pay their approved fees in three instalments instead of settling the full amount upfront. The arrangement, announced in a communiqué dated October 20, 2026, and signed by the Registrar, Dr Theophilus Andoh-Robertson, is intended to ease the […]"
+        }
+      ],
+      "path": "story/439/umat-introduces-three-instalment-school-fees-payment-plan-for-students/"
     },
     {
       "id": 438,
