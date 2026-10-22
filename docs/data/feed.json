@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:10:23Z",
+  "generated_at": "2026-10-22T19:40:13Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -31,6 +31,37 @@
     }
   ],
   "stories": [
+    {
+      "id": 450,
+      "title": "Obuasi SHTS to reopen to continuing students next week – GES",
+      "summary": "The Ghana Education Service (GES) says continuing students of Obuasi Senior High Technical School (SHTS) are expected to return to school next week, following a temporary closure that began in August.",
+      "category": "basic_schools",
+      "published_at": "2026-10-22T19:24:07Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/images-1.jpg",
+      "rank": 0.867,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS to reopen to continuing students next week – GES",
+          "url": "https://www.myjoyonline.com/obuasi-shts-to-reopen-to-continuing-students-next-week-ges/",
+          "published_at": "2026-10-22T18:49:41Z",
+          "excerpt": "The Ghana Education Service (GES) says continuing students of Obuasi Senior High Technical School (SHTS) are expected to return to school next week, following a temporary closure that began in August. In a press release issued on Thursday, October 22, 2026, and signed by its Head of Public Relations, Daniel Fenyi, the Service said preparations were far advanced for the resumption of academic work. The school was temporarily closed to continuing students on August 5 following disturbances on campus. “Management assures that preparations are far advanced for continuing students to return to school sometime next week,” the statement said."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "Obuasi SHTS to reopen for continuing students next week – GES",
+          "url": "https://www.adomonline.com/obuasi-shts-to-reopen-for-continuing-students-next-week-ges/",
+          "published_at": "2026-10-22T19:24:07Z",
+          "excerpt": "The Ghana Education Service (GES) says preparations are far advanced for the reopening of Obuasi Senior High Technical School for continuing students, with academic work expected to resume next week. In a statement signed by Daniel Fenyi, Head of Public Relations at the GES on Thursday, October 22, 2026, the Service said efforts were underway […]"
+        }
+      ],
+      "path": "story/450/obuasi-shts-to-reopen-to-continuing-students-next-week-ges/"
+    },
     {
       "id": 437,
       "title": "GES warns teachers against GH¢210 promotion scam",
@@ -92,29 +123,6 @@
         }
       ],
       "path": "story/435/ges-mourns-four-pupils-killed-in-aboabo-junction-accident/"
-    },
-    {
-      "id": 450,
-      "title": "Obuasi SHTS to reopen to continuing students next week – GES",
-      "summary": "The Ghana Education Service (GES) says continuing students of Obuasi Senior High Technical School (SHTS) are expected to return to school next week, following a temporary closure that began in August.",
-      "category": "basic_schools",
-      "published_at": "2026-10-22T18:49:41Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2217.png",
-      "rank": 0.7644,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Obuasi SHTS to reopen to continuing students next week – GES",
-          "url": "https://www.myjoyonline.com/obuasi-shts-to-reopen-to-continuing-students-next-week-ges/",
-          "published_at": "2026-10-22T18:49:41Z",
-          "excerpt": "The Ghana Education Service (GES) says continuing students of Obuasi Senior High Technical School (SHTS) are expected to return to school next week, following a temporary closure that began in August. In a press release issued on Thursday, October 22, 2026, and signed by its Head of Public Relations, Daniel Fenyi, the Service said preparations were far advanced for the resumption of academic work. The school was temporarily closed to continuing students on August 5 following disturbances on campus. “Management assures that preparations are far advanced for continuing students to return to school sometime next week,” the statement said."
-        }
-      ],
-      "path": "story/450/obuasi-shts-to-reopen-to-continuing-students-next-week-ges/"
     },
     {
       "id": 445,
