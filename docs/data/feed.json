@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-22T17:10:06Z",
+  "generated_at": "2026-10-22T17:40:14Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 132
+      "story_count": 134
     },
     {
       "name": "higher_education",
@@ -138,6 +138,52 @@
         }
       ],
       "path": "story/444/protect-vulnerable-girls-not-ges-reputation-dr-kwabena-tandoh/"
+    },
+    {
+      "id": 447,
+      "title": "NDC will not interfere with investigations into Obuasi SHS Headmaster sexual assault probe - Fiifi Kwetey",
+      "summary": "The National Democratic Congress (NDC) has said it will not interfere with investigations into sexual misconduct allegations against Zakaria Abdulai, headmaster of Obuasi Senior High Technical School and a former Juaben constituency secretary of the party.",
+      "category": "basic_schools",
+      "published_at": "2026-10-22T17:16:25Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/NDC Fiavi Kwetey-768x557.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "NDC will not interfere with investigations into Obuasi SHS Headmaster sexual assault probe - Fiifi Kwetey",
+          "url": "https://3news.com/news/ndc-will-not-interfere-with-investigations-into-obuasi-shs-headmaster-sexual-assault-probe-fiifi-kwetey",
+          "published_at": "2026-10-22T17:16:25Z",
+          "excerpt": "The National Democratic Congress (NDC) has said it will not interfere with investigations into sexual misconduct allegations against Zakaria Abdulai, headmaster of Obuasi Senior High Technical School and a former Juaben constituency secretary of the party."
+        }
+      ],
+      "path": "story/447/ndc-will-not-interfere-with-investigations-into-obuasi-shs-headmaster-sexual/"
+    },
+    {
+      "id": 446,
+      "title": "Obuasi SHTS headmaster says rape accuser is 20 to 21 years old and has a child",
+      "summary": "Suspended Obuasi Senior High Technical School (SHTS) Headmaster, Zakaria Abdulai, has revealed that the girl who accused him of rape is between 20 and 21 years old and has a child.",
+      "category": "basic_schools",
+      "published_at": "2026-10-22T17:13:17Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1015202640045-m5htk8v331-mg-1-660x424-1.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS headmaster says rape accuser is 20 to 21 years old and has a child",
+          "url": "https://www.myjoyonline.com/obuasi-shts-headmaster-says-rape-accuser-is-20-to-21-years-old-and-has-a-child/",
+          "published_at": "2026-10-22T17:13:17Z",
+          "excerpt": "Suspended Obuasi Senior High Technical School (SHTS) Headmaster, Zakaria Abdulai, has revealed that the girl who accused him of rape is between 20 and 21 years old and has a child."
+        }
+      ],
+      "path": "story/446/obuasi-shts-headmaster-says-rape-accuser-is-20-to-21-years-old-and-has-a-child/"
     },
     {
       "id": 443,
