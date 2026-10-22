@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T23:10:08Z",
+  "generated_at": "2026-10-22T23:40:11Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 60
+      "story_count": 61
     },
     {
       "name": "policy",
@@ -69,6 +69,29 @@
         }
       ],
       "path": "story/450/obuasi-shts-to-reopen-to-continuing-students-next-week-ges/"
+    },
+    {
+      "id": 453,
+      "title": "Student accused of stealing Bishop Obinim’s GH¢1.5m granted bail",
+      "summary": "An Adenta Circuit Court has granted bail to a 23-year-old student accused of stealing GH¢1.5 million belonging to Bishop Daniel Obinim, founder of the International Godsway Church.",
+      "category": "general",
+      "published_at": "2026-10-22T23:14:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2020/05/obinim-1.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Student accused of stealing Bishop Obinim’s GH¢1.5m granted bail",
+          "url": "https://www.myjoyonline.com/student-accused-of-stealing-bishop-obinims-gh%c2%a21-5m-granted-bail/",
+          "published_at": "2026-10-22T23:14:00Z",
+          "excerpt": "An Adenta Circuit Court has granted bail to a 23-year-old student accused of stealing GH¢1.5 million belonging to Bishop Daniel Obinim, founder of the International Godsway Church."
+        }
+      ],
+      "path": "story/453/student-accused-of-stealing-bishop-obinims-gh-1-5m-granted-bail/"
     },
     {
       "id": 437,
