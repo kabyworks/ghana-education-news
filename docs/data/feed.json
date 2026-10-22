@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-22T16:10:04Z",
+  "generated_at": "2026-10-22T16:40:07Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 131
+      "story_count": 132
     },
     {
       "name": "higher_education",
@@ -23,7 +23,7 @@
     },
     {
       "name": "examinations",
-      "story_count": 15
+      "story_count": 16
     },
     {
       "name": "scholarships",
@@ -92,6 +92,52 @@
         }
       ],
       "path": "story/435/ges-mourns-four-pupils-killed-in-aboabo-junction-accident/"
+    },
+    {
+      "id": 444,
+      "title": "Protect vulnerable girls, not GES reputation – Dr Kwabena Tandoh",
+      "summary": "Former Deputy Director-General of the Ghana Education Service (GES), Dr Kwabena B. Tandoh, has urged educational leaders to prioritise protecting vulnerable girls in schools rather than focus on safeguarding the reputation of the service and other educational institutions.",
+      "category": "examinations",
+      "published_at": "2026-10-22T16:35:09Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-16.43.37-1024x910.jpeg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Protect vulnerable girls, not GES reputation – Dr Kwabena Tandoh",
+          "url": "https://www.myjoyonline.com/protect-vulnerable-girls-not-ges-reputation-dr-kwabena-tandoh/",
+          "published_at": "2026-10-22T16:35:09Z",
+          "excerpt": "Former Deputy Director-General of the Ghana Education Service (GES), Dr Kwabena B. Tandoh, has urged educational leaders to prioritise protecting vulnerable girls in schools rather than focus on safeguarding the reputation of the service and other educational institutions. Speaking on The Pulse with Faustina Sarfo, he said allegations of abuse exposed through documentaries should prompt a broader examination of the systems responsible for protecting children in schools. “I think I first need to state clearly that our responsibility as educational leaders is not to protect the GES or educational institutions, but to protect the vulnerable girls who sit in our classrooms,” he said."
+        }
+      ],
+      "path": "story/444/protect-vulnerable-girls-not-ges-reputation-dr-kwabena-tandoh/"
+    },
+    {
+      "id": 443,
+      "title": "Otiko Djaba throws challenge to Veep over Obuasi SHTS scandal",
+      "summary": "Former Gender Minister Otiko Afisa Djaba has challenged Vice President Professor Naana Jane Opoku-Agyemang to take concrete action to protect the girls allegedly affected by the sexual abuse scandal at Obuasi Senior High Technical School (SHTS).",
+      "category": "basic_schools",
+      "published_at": "2026-10-22T16:12:52Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2025/10/Veep.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Otiko Djaba throws challenge to Veep over Obuasi SHTS scandal",
+          "url": "https://www.adomonline.com/otiko-djaba-throws-challenge-to-veep-over-obuasi-shts-scandal/",
+          "published_at": "2026-10-22T16:12:52Z",
+          "excerpt": "Former Gender Minister Otiko Afisa Djaba has challenged Vice President Professor Naana Jane Opoku-Agyemang to take concrete action to protect the girls allegedly affected by the sexual abuse scandal at Obuasi Senior High Technical School (SHTS). She says the Vice President, as the highest-ranking woman in Ghana’s political leadership, must demonstrate a firm commitment to […]"
+        }
+      ],
+      "path": "story/443/otiko-djaba-throws-challenge-to-veep-over-obuasi-shts-scandal/"
     },
     {
       "id": 442,
