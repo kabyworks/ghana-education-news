@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T12:15:35Z",
+  "generated_at": "2026-10-22T12:40:07Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -32,6 +32,37 @@
   ],
   "stories": [
     {
+      "id": 437,
+      "title": "GES warns teachers against GH¢210 promotion scam",
+      "summary": "The Ghana Education Service (GES) has warned teachers applying for promotion to disregard demands for GH¢210 from individuals claiming they can facilitate their applications.",
+      "category": "teachers",
+      "published_at": "2026-10-22T12:25:20Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-01.32.52.jpeg",
+      "rank": 0.867,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GES warns teachers against GH¢210 promotion scam",
+          "url": "https://www.myjoyonline.com/ges-warns-teachers-against-gh%c2%a2210-promotion-scam/",
+          "published_at": "2026-10-22T11:40:00Z",
+          "excerpt": "The Ghana Education Service (GES) has warned teachers applying for promotion to disregard demands for GH¢210 from individuals claiming they can facilitate their applications."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "GES cautions teachers against GH¢210 promotion scam",
+          "url": "https://www.adomonline.com/ges-cautions-teachers-against-gh%c2%a2210-promotion-scam/",
+          "published_at": "2026-10-22T12:25:20Z",
+          "excerpt": "The Ghana Education Service (GES) has cautioned teachers seeking promotion against paying GH¢210 to individuals who claim they can help secure approval for their applications. The Service said it had received reports of persons demanding the amount from applicants under the guise of facilitating their promotion. In a notice published on Facebook on Wednesday, October […]"
+        }
+      ],
+      "path": "story/437/ges-warns-teachers-against-gh-210-promotion-scam/"
+    },
+    {
       "id": 435,
       "title": "GES mourns four pupils killed in Aboabo Junction accident",
       "summary": "The Ghana Education Service (GES) has expressed condolences to the families of four pupils of Mahad Islamic School at Akotosu who died in a road accident at Aboabo Extension Junction in the Ashanti Region.",
@@ -61,29 +92,6 @@
         }
       ],
       "path": "story/435/ges-mourns-four-pupils-killed-in-aboabo-junction-accident/"
-    },
-    {
-      "id": 437,
-      "title": "GES warns teachers against GH¢210 promotion scam",
-      "summary": "The Ghana Education Service (GES) has warned teachers applying for promotion to disregard demands for GH¢210 from individuals claiming they can facilitate their applications.",
-      "category": "teachers",
-      "published_at": "2026-10-22T11:40:00Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2020/08/fraud.jpg",
-      "rank": 0.762,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "GES warns teachers against GH¢210 promotion scam",
-          "url": "https://www.myjoyonline.com/ges-warns-teachers-against-gh%c2%a2210-promotion-scam/",
-          "published_at": "2026-10-22T11:40:00Z",
-          "excerpt": "The Ghana Education Service (GES) has warned teachers applying for promotion to disregard demands for GH¢210 from individuals claiming they can facilitate their applications."
-        }
-      ],
-      "path": "story/437/ges-warns-teachers-against-gh-210-promotion-scam/"
     },
     {
       "id": 434,
