@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-23T17:10:24Z",
+  "generated_at": "2026-10-23T17:40:09Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 144
+      "story_count": 145
     },
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 104
+      "story_count": 105
     },
     {
       "name": "general",
@@ -146,6 +146,52 @@
         }
       ],
       "path": "story/450/obuasi-shts-to-reopen-to-continuing-students-next-week-ges/"
+    },
+    {
+      "id": 470,
+      "title": "Technical University Vice-Chancellors appeal to TUTAG to call off strike",
+      "summary": "The Vice-Chancellors of Technical Universities of Ghana (VCTU-G) have appealed to the Technical Universities Teachers Association of Ghana (TUTAG) to call off its strike, warning that the industrial action could further disrupt academic calendars and affect students.",
+      "category": "teachers",
+      "published_at": "2026-10-23T17:20:40Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2292.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Technical University Vice-Chancellors appeal to TUTAG to call off strike",
+          "url": "https://www.myjoyonline.com/technical-university-vice-chancellors-appeal-to-tutag-to-call-off-strike/",
+          "published_at": "2026-10-23T17:20:40Z",
+          "excerpt": "The Vice-Chancellors of Technical Universities of Ghana (VCTU-G) have appealed to the Technical Universities Teachers Association of Ghana (TUTAG) to call off its strike, warning that the industrial action could further disrupt academic calendars and affect students."
+        }
+      ],
+      "path": "story/470/technical-university-vice-chancellors-appeal-to-tutag-to-call-off-strike/"
+    },
+    {
+      "id": 469,
+      "title": "NPP-aligned group calls for independent investigation into Obuasi SHTS headmaster allegations",
+      "summary": "An NPP-aligned group in the Ashanti Region has called for an independent investigation into allegations of misconduct involving the Headmaster of Obuasi Senior High School, Zakaria Abdulai, citing concerns about student safety and the credibility of the inquiry.",
+      "category": "basic_schools",
+      "published_at": "2026-10-23T17:20:25Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-23-at-18.08.55-1.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "NPP-aligned group calls for independent investigation into Obuasi SHTS headmaster allegations",
+          "url": "https://www.myjoyonline.com/npp-aligned-group-calls-for-independent-investigation-into-obuasi-shts-headmaster-allegations/",
+          "published_at": "2026-10-23T17:20:25Z",
+          "excerpt": "An NPP-aligned group in the Ashanti Region has called for an independent investigation into allegations of misconduct involving the Headmaster of Obuasi Senior High School, Zakaria Abdulai, citing concerns about student safety and the credibility of the inquiry. The group is also urging the Ghana Police Service to investigate possible criminal offences, preserve relevant evidence and protect students and witnesses from intimidation. In a statement issued on Friday, October 23, 2026, and signed by its Regional Coordinator, Kwabena Nsenkyire, the group condemned the alleged misconduct and called for accountability if the allegations are substantiated."
+        }
+      ],
+      "path": "story/469/npp-aligned-group-calls-for-independent-investigation-into-obuasi-shts/"
     },
     {
       "id": 468,
