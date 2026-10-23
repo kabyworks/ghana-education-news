@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-23T14:10:11Z",
+  "generated_at": "2026-10-23T14:40:13Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 141
+      "story_count": 143
     },
     {
       "name": "higher_education",
@@ -115,6 +115,52 @@
         }
       ],
       "path": "story/450/obuasi-shts-to-reopen-to-continuing-students-next-week-ges/"
+    },
+    {
+      "id": 466,
+      "title": "CSJ demands independent probe into alleged sexual abuse at Obuasi SHTS",
+      "summary": "The Centre for Social Justice (CSJ) has called for a swift, independent investigation into allegations of sexual abuse involving female students at Obuasi Senior High Technical School (SHTS) in the Ashanti Region, reportedly implicating the school's headmaster.",
+      "category": "basic_schools",
+      "published_at": "2026-10-23T14:24:08Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Obuasi-SHTS.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "CSJ demands independent probe into alleged sexual abuse at Obuasi SHTS",
+          "url": "https://www.myjoyonline.com/csj-demands-independent-probe-into-alleged-sexual-abuse-at-obuasi-shts/",
+          "published_at": "2026-10-23T14:24:08Z",
+          "excerpt": "The Centre for Social Justice (CSJ) has called for a swift, independent investigation into allegations of sexual abuse involving female students at Obuasi Senior High Technical School (SHTS) in the Ashanti Region, reportedly implicating the school's headmaster."
+        }
+      ],
+      "path": "story/466/csj-demands-independent-probe-into-alleged-sexual-abuse-at-obuasi-shts/"
+    },
+    {
+      "id": 465,
+      "title": "Obuasi SHTS abuse allegations: Gender Ministry deploys team to support affected students",
+      "summary": "The Ministry of Gender, Children and Social Protection (MoGCSP) has deployed an advance team to Obuasi in the Ashanti Region to provide psychosocial and social welfare support to students affected by alleged sexual abuse at Obuasi Senior High Technical School (OSECTEC).",
+      "category": "basic_schools",
+      "published_at": "2026-10-23T14:09:40Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2278-1024x538.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS abuse allegations: Gender Ministry deploys team to support affected students",
+          "url": "https://www.myjoyonline.com/obuasi-shts-abuse-allegations-gender-ministry-deploys-team-to-support-affected-students/",
+          "published_at": "2026-10-23T14:09:40Z",
+          "excerpt": "The Ministry of Gender, Children and Social Protection (MoGCSP) has deployed an advance team to Obuasi in the Ashanti Region to provide psychosocial and social welfare support to students affected by alleged sexual abuse at Obuasi Senior High Technical School (OSECTEC)."
+        }
+      ],
+      "path": "story/465/obuasi-shts-abuse-allegations-gender-ministry-deploys-team-to-support-affected/"
     },
     {
       "id": 464,
