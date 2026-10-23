@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T20:10:13Z",
+  "generated_at": "2026-10-23T20:40:19Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -76,6 +76,37 @@
         }
       ],
       "path": "story/458/university-of-ghana-orders-students-with-cgpa-below-1-00-to-withdraw/"
+    },
+    {
+      "id": 472,
+      "title": "GTEC summons technical university leaders, TUTAG for talks over strike",
+      "summary": "The Ghana Tertiary Education Commission (GTEC) has invited management of all technical universities and national leaders of the Technical University Teachers’ Association of Ghana (TUTAG) to a meeting to address concerns raised by the association amid its ongoing industrial action.",
+      "category": "teachers",
+      "published_at": "2026-10-23T20:15:27Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2024/08/Prof-Ahmed-Jinapor-Abdulai-Acting-Director-General-of-the-Ghana-Tertiary-Education-Commission-GTEC-703x424-Copy.jpg",
+      "rank": 0.867,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GTEC summons technical university leaders, TUTAG for talks over strike",
+          "url": "https://www.myjoyonline.com/gtec-summons-technical-university-leaders-tutag-for-talks-over-strike/",
+          "published_at": "2026-10-23T18:44:43Z",
+          "excerpt": "The Ghana Tertiary Education Commission (GTEC) has invited management of all technical universities and national leaders of the Technical University Teachers’ Association of Ghana (TUTAG) to a meeting to address concerns raised by the association amid its ongoing industrial action."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "GTEC to meet Technical University management, TUTAG leaders over strike",
+          "url": "https://www.adomonline.com/gtec-to-meet-technical-university-management-tutag-leaders-over-strike/",
+          "published_at": "2026-10-23T20:15:27Z",
+          "excerpt": "The Ghana Tertiary Education Commission (GTEC) has invited vice-chancellors, finance directors and registrars of technical universities, alongside national leaders of the Technical University Teachers’ Association of Ghana (TUTAG), to a meeting to discuss concerns underlying the ongoing strike. The meeting, scheduled for Wednesday, October 28, 2026, is expected to provide a platform for university management […]"
+        }
+      ],
+      "path": "story/472/gtec-summons-technical-university-leaders-tutag-for-talks-over-strike/"
     },
     {
       "id": 471,
@@ -231,29 +262,6 @@
         }
       ],
       "path": "story/450/obuasi-shts-to-reopen-to-continuing-students-next-week-ges/"
-    },
-    {
-      "id": 472,
-      "title": "GTEC summons technical university leaders, TUTAG for talks over strike",
-      "summary": "The Ghana Tertiary Education Commission (GTEC) has invited management of all technical universities and national leaders of the Technical University Teachers’ Association of Ghana (TUTAG) to a meeting to address concerns raised by the association amid its ongoing industrial action.",
-      "category": "teachers",
-      "published_at": "2026-10-23T18:44:43Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/prof-jinapor-gtec.jpg",
-      "rank": 0.7485,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "GTEC summons technical university leaders, TUTAG for talks over strike",
-          "url": "https://www.myjoyonline.com/gtec-summons-technical-university-leaders-tutag-for-talks-over-strike/",
-          "published_at": "2026-10-23T18:44:43Z",
-          "excerpt": "The Ghana Tertiary Education Commission (GTEC) has invited management of all technical universities and national leaders of the Technical University Teachers’ Association of Ghana (TUTAG) to a meeting to address concerns raised by the association amid its ongoing industrial action."
-        }
-      ],
-      "path": "story/472/gtec-summons-technical-university-leaders-tutag-for-talks-over-strike/"
     },
     {
       "id": 473,
