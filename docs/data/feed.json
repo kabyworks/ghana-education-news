@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-23T23:10:16Z",
+  "generated_at": "2026-10-23T23:40:15Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 146
+      "story_count": 147
     },
     {
       "name": "higher_education",
@@ -200,6 +200,29 @@
         }
       ],
       "path": "story/466/csj-demands-independent-probe-into-alleged-sexual-abuse-at-obuasi-shts/"
+    },
+    {
+      "id": 476,
+      "title": "Obuasi SHTS sex scandal: Second complainant alleges pressure to withdraw",
+      "summary": "Pressure is mounting on a second complainant in the alleged sexual abuse case involving the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, to withdraw her complaint, as police sources confirm that the first of two former rape complainants has withdrawn her case.",
+      "category": "basic_schools",
+      "published_at": "2026-10-23T22:33:25Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Obuasi-SHTS.jpg",
+      "rank": 0.7423,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS sex scandal: Second complainant alleges pressure to withdraw",
+          "url": "https://www.myjoyonline.com/obuasi-shts-sex-scandal-second-complainant-alleges-pressure-to-withdraw/",
+          "published_at": "2026-10-23T22:33:25Z",
+          "excerpt": "Pressure is mounting on a second complainant in the alleged sexual abuse case involving the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, to withdraw her complaint, as police sources confirm that the first of two former rape complainants has withdrawn her case."
+        }
+      ],
+      "path": "story/476/obuasi-shts-sex-scandal-second-complainant-alleges-pressure-to-withdraw/"
     },
     {
       "id": 450,
