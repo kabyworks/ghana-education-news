@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:10:16Z",
+  "generated_at": "2026-10-23T19:40:27Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 107
+      "story_count": 108
     },
     {
       "name": "general",
@@ -169,6 +169,29 @@
         }
       ],
       "path": "story/466/csj-demands-independent-probe-into-alleged-sexual-abuse-at-obuasi-shts/"
+    },
+    {
+      "id": 474,
+      "title": "National PTA Council commends GES for steps to reopen Obuasi SHTS",
+      "summary": "The National Council of Parents Teachers Association (PTA) of Ghana has expressed appreciation to the Ghana Education Service (GES) for taking steps towards reopening Obuasi Senior High Technical School (SHTS).",
+      "category": "teachers",
+      "published_at": "2026-10-23T19:15:36Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/safeimagekit-kofi gapson-1200x675.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "National PTA Council commends GES for steps to reopen Obuasi SHTS",
+          "url": "https://3news.com/news/national-pta-council-commends-ges-for-steps-to-reopen-obuasi-shts",
+          "published_at": "2026-10-23T19:15:36Z",
+          "excerpt": "The National Council of Parents Teachers Association (PTA) of Ghana has expressed appreciation to the Ghana Education Service (GES) for taking steps towards reopening Obuasi Senior High Technical School (SHTS)."
+        }
+      ],
+      "path": "story/474/national-pta-council-commends-ges-for-steps-to-reopen-obuasi-shts/"
     },
     {
       "id": 472,
