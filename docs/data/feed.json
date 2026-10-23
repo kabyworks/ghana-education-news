@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-23T15:10:11Z",
+  "generated_at": "2026-10-23T15:40:11Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 143
+      "story_count": 144
     },
     {
       "name": "higher_education",
@@ -78,6 +78,37 @@
       "path": "story/458/university-of-ghana-orders-students-with-cgpa-below-1-00-to-withdraw/"
     },
     {
+      "id": 466,
+      "title": "CSJ demands independent probe into alleged sexual abuse at Obuasi SHTS",
+      "summary": "The Centre for Social Justice (CSJ) has called for a swift, independent investigation into allegations of sexual abuse involving female students at Obuasi Senior High Technical School (SHTS) in the Ashanti Region, reportedly implicating the school's headmaster.",
+      "category": "basic_schools",
+      "published_at": "2026-10-23T15:21:46Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/images-1.jpg",
+      "rank": 0.849,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "CSJ demands independent probe into alleged sexual abuse at Obuasi SHTS",
+          "url": "https://www.myjoyonline.com/csj-demands-independent-probe-into-alleged-sexual-abuse-at-obuasi-shts/",
+          "published_at": "2026-10-23T14:24:08Z",
+          "excerpt": "The Centre for Social Justice (CSJ) has called for a swift, independent investigation into allegations of sexual abuse involving female students at Obuasi Senior High Technical School (SHTS) in the Ashanti Region, reportedly implicating the school's headmaster."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "CSJ demands accountability over alleged abuse at Obuasi SHTS",
+          "url": "https://www.adomonline.com/csj-demands-accountability-over-alleged-abuse-at-obuasi-shts/",
+          "published_at": "2026-10-23T15:21:46Z",
+          "excerpt": "The Centre for Social Justice (CSJ) has called for a swift and independent investigation into allegations of sexual abuse involving female students at Obuasi Senior High Technical School (SHTS) in the Ashanti Region. The organisation has also urged authorities to protect affected students and witnesses from intimidation, retaliation and victim-blaming, stressing that the safety and […]"
+        }
+      ],
+      "path": "story/466/csj-demands-independent-probe-into-alleged-sexual-abuse-at-obuasi-shts/"
+    },
+    {
       "id": 450,
       "title": "Obuasi SHTS to reopen to continuing students next week – GES",
       "summary": "The Ghana Education Service (GES) says continuing students of Obuasi Senior High Technical School (SHTS) are expected to return to school next week, following a temporary closure that began in August.",
@@ -117,27 +148,27 @@
       "path": "story/450/obuasi-shts-to-reopen-to-continuing-students-next-week-ges/"
     },
     {
-      "id": 466,
-      "title": "CSJ demands independent probe into alleged sexual abuse at Obuasi SHTS",
-      "summary": "The Centre for Social Justice (CSJ) has called for a swift, independent investigation into allegations of sexual abuse involving female students at Obuasi Senior High Technical School (SHTS) in the Ashanti Region, reportedly implicating the school's headmaster.",
+      "id": 467,
+      "title": "Illegal miner remanded in custody for stealing school properties",
+      "summary": "A 21-year-old illegal miner has been remanded into prison custody by the Nkawie Circuit Court in the Atwima Nwabiagya South Municipality of the Ashanti Region for allegedly stealing property of the Asuowin D/A Junior High School.",
       "category": "basic_schools",
-      "published_at": "2026-10-23T14:24:08Z",
+      "published_at": "2026-10-23T15:10:08Z",
       "source_count": 1,
       "sources": [
         "MyJoyOnline Education"
       ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Obuasi-SHTS.jpg",
-      "rank": 0.74,
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/03/Jail-e1786146732936.png",
+      "rank": 0.749,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
-          "title": "CSJ demands independent probe into alleged sexual abuse at Obuasi SHTS",
-          "url": "https://www.myjoyonline.com/csj-demands-independent-probe-into-alleged-sexual-abuse-at-obuasi-shts/",
-          "published_at": "2026-10-23T14:24:08Z",
-          "excerpt": "The Centre for Social Justice (CSJ) has called for a swift, independent investigation into allegations of sexual abuse involving female students at Obuasi Senior High Technical School (SHTS) in the Ashanti Region, reportedly implicating the school's headmaster."
+          "title": "Illegal miner remanded in custody for stealing school properties",
+          "url": "https://www.myjoyonline.com/illegal-miner-remanded-in-custody-for-stealing-school-properties/",
+          "published_at": "2026-10-23T15:10:08Z",
+          "excerpt": "A 21-year-old illegal miner has been remanded into prison custody by the Nkawie Circuit Court in the Atwima Nwabiagya South Municipality of the Ashanti Region for allegedly stealing property of the Asuowin D/A Junior High School."
         }
       ],
-      "path": "story/466/csj-demands-independent-probe-into-alleged-sexual-abuse-at-obuasi-shts/"
+      "path": "story/467/illegal-miner-remanded-in-custody-for-stealing-school-properties/"
     },
     {
       "id": 465,
