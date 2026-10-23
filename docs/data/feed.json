@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T13:10:13Z",
+  "generated_at": "2026-10-23T13:40:27Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 116
+      "story_count": 117
     },
     {
       "name": "teachers",
@@ -34,17 +34,17 @@
     {
       "id": 458,
       "title": "University of Ghana orders students with CGPA below 1.00 to withdraw",
-      "summary": "The University of Ghana (UG) has directed undergraduate students who obtained a Cumulative Grade Point Average (CGPA) below 1.00 at the end of the 2025/2026 academic year to withdraw from their programmes.",
+      "summary": "Reference is made to the MyJoyOnline news publication of 23 October 2026 on the above. According to the report, the University of Ghana has once again ordered undergraduate students who obtained a Cumulative Grade Point Average (CGPA) below 1.00 at the end of the 2025/2026 academic year to withdraw from the University.",
       "category": "higher_education",
-      "published_at": "2026-10-23T06:53:43Z",
+      "published_at": "2026-10-23T13:10:31Z",
       "source_count": 3,
       "sources": [
         "3News",
         "Adom Online Education",
         "MyJoyOnline Education"
       ],
-      "image_url": "https://media.3news.com/WhatsApp Image 2026-08-03 at 23.15.08-800x600.webp",
-      "rank": 0.8873,
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1-86-683x1024.jpg",
+      "rank": 0.967,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -66,6 +66,13 @@
           "url": "https://3news.com/education/university-of-ghana-tells-students-with-cgpa-below-1-00-to-withdraw",
           "published_at": "2026-10-23T06:53:43Z",
           "excerpt": "The University of Ghana says undergraduates with a CGPA below 1.00 at the end of 2025/2026 must withdraw, with no probation. See how to start the process."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Re: University of Ghana orders students with CGPA below 1.00 to withdraw",
+          "url": "https://www.myjoyonline.com/re-university-of-ghana-orders-students-with-cgpa-below-1-00-to-withdraw/",
+          "published_at": "2026-10-23T13:10:31Z",
+          "excerpt": "Reference is made to the MyJoyOnline news publication of 23 October 2026 on the above. According to the report, the University of Ghana has once again ordered undergraduate students who obtained a Cumulative Grade Point Average (CGPA) below 1.00 at the end of the 2025/2026 academic year to withdraw from the University. The story, culled […]"
         }
       ],
       "path": "story/458/university-of-ghana-orders-students-with-cgpa-below-1-00-to-withdraw/"
@@ -108,6 +115,29 @@
         }
       ],
       "path": "story/450/obuasi-shts-to-reopen-to-continuing-students-next-week-ges/"
+    },
+    {
+      "id": 464,
+      "title": "Akatsico, UNCG deepen partnership for academic development",
+      "summary": "Akatsi College of Education (Akatsico) and the University of North Carolina Greensboro (UNCG) in the United States have deepened their institutional partnership, with both institutions exploring opportunities in research, academic exchanges, professional development and international collaboration.",
+      "category": "higher_education",
+      "published_at": "2026-10-23T13:19:08Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-23-at-9.14.21-AM-1024x768.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Akatsico, UNCG deepen partnership for academic development",
+          "url": "https://www.myjoyonline.com/akatsico-uncg-deepen-partnership-for-academic-development/",
+          "published_at": "2026-10-23T13:19:08Z",
+          "excerpt": "Akatsi College of Education (Akatsico) and the University of North Carolina Greensboro (UNCG) in the United States have deepened their institutional partnership, with both institutions exploring opportunities in research, academic exchanges, professional development and international collaboration."
+        }
+      ],
+      "path": "story/464/akatsico-uncg-deepen-partnership-for-academic-development/"
     },
     {
       "id": 463,
