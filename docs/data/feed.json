@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-24T10:10:13Z",
+  "generated_at": "2026-10-24T10:40:19Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 149
+      "story_count": 152
     },
     {
       "name": "higher_education",
-      "story_count": 120
+      "story_count": 121
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 484,
+      "title": "University of Ghana honours distinguished educational administrator Dr. Alex Dadey Snr",
+      "summary": "As a student of the University of Ghana, he benefited directly from the mentorship of the distinguished Professor Alexander Kwapong.",
+      "category": "higher_education",
+      "published_at": "2026-10-24T10:34:39Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-24 at 09.55.26-800x759.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "University of Ghana honours distinguished educational administrator Dr. Alex Dadey Snr",
+          "url": "https://3news.com/news/university-of-ghana-honours-distinguished-educational-administrator-dr-alex-dadey-snr",
+          "published_at": "2026-10-24T10:34:39Z",
+          "excerpt": "As a student of the University of Ghana, he benefited directly from the mentorship of the distinguished Professor Alexander Kwapong."
+        }
+      ],
+      "path": "story/484/university-of-ghana-honours-distinguished-educational-administrator-dr-alex/"
+    },
     {
       "id": 458,
       "title": "University of Ghana orders students with CGPA below 1.00 to withdraw",
@@ -76,6 +99,75 @@
         }
       ],
       "path": "story/458/university-of-ghana-orders-students-with-cgpa-below-1-00-to-withdraw/"
+    },
+    {
+      "id": 483,
+      "title": "Obuasi SHTS sexual abuse: FIDA Ghana calls offence first-degree felony, says it’s not bailable",
+      "summary": "The President of the International Federation of Women Lawyers (FIDA) Ghana, Gloria Ofori-Boadu, has described the alleged sexual abuse involving the headmaster of Obuasi Senior High Technical School as a “first degree felony” and argued that the offence should not be bailable.",
+      "category": "basic_schools",
+      "published_at": "2026-10-24T10:26:44Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Obuasi-SHTS.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS sexual abuse: FIDA Ghana calls offence first-degree felony, says it’s not bailable",
+          "url": "https://www.myjoyonline.com/obuasi-shts-sexual-abuse-fida-ghana-calls-offence-first-degree-felony-says-its-not-bailable/",
+          "published_at": "2026-10-24T10:26:44Z",
+          "excerpt": "The President of the International Federation of Women Lawyers (FIDA) Ghana, Gloria Ofori-Boadu, has described the alleged sexual abuse involving the headmaster of Obuasi Senior High Technical School as a “first degree felony” and argued that the offence should not be bailable."
+        }
+      ],
+      "path": "story/483/obuasi-shts-sexual-abuse-fida-ghana-calls-offence-first-degree-felony-says-its/"
+    },
+    {
+      "id": 482,
+      "title": "Obuasi SHTS scandal: Prioritise victims’ welfare, not just investigations – Felicity Nelson",
+      "summary": "The Deputy Chief Executive Officer of the Ghana Tourism Development Company, Felicity Nelson, has called for the psychological, emotional and physical well-being of alleged victims to be prioritised as investigations continue into sexual abuse allegations involving the headmaster of Obuasi Senior High Technical School.",
+      "category": "basic_schools",
+      "published_at": "2026-10-24T10:16:37Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-26-1024x576.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS scandal: Prioritise victims’ welfare, not just investigations – Felicity Nelson",
+          "url": "https://www.myjoyonline.com/obuasi-shts-scandal-prioritise-victims-welfare-not-just-investigations-felicity-nelson/",
+          "published_at": "2026-10-24T10:16:37Z",
+          "excerpt": "The Deputy Chief Executive Officer of the Ghana Tourism Development Company, Felicity Nelson, has called for the psychological, emotional and physical well-being of alleged victims to be prioritised as investigations continue into sexual abuse allegations involving the headmaster of Obuasi Senior High Technical School."
+        }
+      ],
+      "path": "story/482/obuasi-shts-scandal-prioritise-victims-welfare-not-just-investigations-felicity/"
+    },
+    {
+      "id": 481,
+      "title": "NDC goofed with initial Obuasi school sexual abuse statement; I’m glad we corrected it – Felicity Nelson",
+      "summary": "The Deputy Chief Executive Officer of the Ghana Tourism Development Company, Felicity Nelson, has admitted that the National Democratic Congress (NDC) erred in its initial statement on the sexual abuse allegations involving the headmaster of Obuasi Senior High Technical School.",
+      "category": "basic_schools",
+      "published_at": "2026-10-24T10:16:18Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-41-e1792836469590-1024x515.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "NDC goofed with initial Obuasi school sexual abuse statement; I’m glad we corrected it – Felicity Nelson",
+          "url": "https://www.myjoyonline.com/ndc-goofed-with-initial-obuasi-school-sexual-abuse-statement-im-glad-we-corrected-it-felicity-nelson/",
+          "published_at": "2026-10-24T10:16:18Z",
+          "excerpt": "The Deputy Chief Executive Officer of the Ghana Tourism Development Company, Felicity Nelson, has admitted that the National Democratic Congress (NDC) erred in its initial statement on the sexual abuse allegations involving the headmaster of Obuasi Senior High Technical School."
+        }
+      ],
+      "path": "story/481/ndc-goofed-with-initial-obuasi-school-sexual-abuse-statement-im-glad-we/"
     },
     {
       "id": 480,
