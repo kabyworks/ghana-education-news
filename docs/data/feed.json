@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-24T09:10:21Z",
+  "generated_at": "2026-10-24T09:40:19Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 148
+      "story_count": 149
     },
     {
       "name": "higher_education",
@@ -76,6 +76,29 @@
         }
       ],
       "path": "story/458/university-of-ghana-orders-students-with-cgpa-below-1-00-to-withdraw/"
+    },
+    {
+      "id": 479,
+      "title": "Obuasi SHTS scandal: Manasseh concerned about political interference, attempts to suppress allegations",
+      "summary": "Investigative journalist Manasseh Azure Awuni has alleged that some political figures in the Ashanti Region interfered in sexual abuse allegations involving the headmaster of Obuasi Senior High Technical School, with attempts allegedly made to settle complaints privately and pressure victims' families into withdrawi...",
+      "category": "basic_schools",
+      "published_at": "2026-10-24T09:22:36Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-23-1024x576.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS scandal: Manasseh concerned about political interference, attempts to suppress allegations",
+          "url": "https://www.myjoyonline.com/obuasi-shts-scandal-manasseh-concerned-about-political-interference-attempts-to-suppress-allegations/",
+          "published_at": "2026-10-24T09:22:36Z",
+          "excerpt": "Investigative journalist Manasseh Azure Awuni has alleged that some political figures in the Ashanti Region interfered in sexual abuse allegations involving the headmaster of Obuasi Senior High Technical School, with attempts allegedly made to settle complaints privately and pressure victims' families into withdrawing police cases."
+        }
+      ],
+      "path": "story/479/obuasi-shts-scandal-manasseh-concerned-about-political-interference-attempts-to/"
     },
     {
       "id": 477,
