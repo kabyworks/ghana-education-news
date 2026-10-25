@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T19:10:25Z",
+  "generated_at": "2026-10-25T19:40:24Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 123
+      "story_count": 124
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 500,
+      "title": "EPA takes Styrofoam ban campaign to five northern regions ahead of 1 January 2027 deadline",
+      "summary": "The EPA is taking its Styrofoam ban campaign to five northern regions from 26 October to 1 November 2026 with durbars, a schools quiz, and a university debate.",
+      "category": "higher_education",
+      "published_at": "2026-10-25T19:17:22Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/IMG_2270.JPG-1200x800.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "EPA takes Styrofoam ban campaign to five northern regions ahead of 1 January 2027 deadline",
+          "url": "https://3news.com/news/epa-takes-styrofoam-ban-campaign-to-five-northern-regions-ahead-of-1-january-2027-deadline",
+          "published_at": "2026-10-25T19:17:22Z",
+          "excerpt": "The EPA is taking its Styrofoam ban campaign to five northern regions from 26 October to 1 November 2026 with durbars, a schools quiz, and a university debate."
+        }
+      ],
+      "path": "story/500/epa-takes-styrofoam-ban-campaign-to-five-northern-regions-ahead-of-1-january/"
+    },
     {
       "id": 499,
       "title": "Include private universities in national funding plans — Catholic University VC",
