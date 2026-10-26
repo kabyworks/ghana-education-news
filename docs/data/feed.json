@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-26T15:10:23Z",
+  "generated_at": "2026-10-26T15:40:29Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 166
+      "story_count": 168
     },
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 114
+      "story_count": 115
     },
     {
       "name": "general",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 522,
+      "title": "No student should perform domestic duties for teachers – GES directed",
+      "summary": "The Minister for Education, Haruna Iddrisu, has directed the Director-General of the Ghana Education Service (GES) to ensure that students are not made to perform domestic duties for headmasters and teachers.",
+      "category": "teachers",
+      "published_at": "2026-10-26T15:34:18Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Obuasi-SHTS.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "No student should perform domestic duties for teachers – GES directed",
+          "url": "https://www.myjoyonline.com/no-student-should-perform-domestic-duties-for-teachers-ges-directed/",
+          "published_at": "2026-10-26T15:34:18Z",
+          "excerpt": "The Minister for Education, Haruna Iddrisu, has directed the Director-General of the Ghana Education Service (GES) to ensure that students are not made to perform domestic duties for headmasters and teachers. He said students must be protected from practices that treat them as domestic servants, stressing the need for stronger safeguards within schools. “The Director-General […]"
+        }
+      ],
+      "path": "story/522/no-student-should-perform-domestic-duties-for-teachers-ges-directed/"
+    },
     {
       "id": 505,
       "title": "Gender Minister and GES Director-General to visit Obuasi SHS ahead of reopening",
@@ -63,6 +86,52 @@
       "path": "story/505/gender-minister-and-ges-director-general-to-visit-obuasi-shs-ahead-of-reopening/"
     },
     {
+      "id": 521,
+      "title": "Obuasi SHTS case: Haruna Iddrisu assures public of non-interference",
+      "summary": "Education Minister Haruna Iddrisu has assured the public that political affiliation will not shield the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, from investigations into allegations of sexual misconduct involving female students.",
+      "category": "basic_schools",
+      "published_at": "2026-10-26T15:24:41Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/image-2026-08-07T042641.024.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Obuasi SHTS case: Haruna Iddrisu assures public of non-interference",
+          "url": "https://www.adomonline.com/obuasi-shts-case-haruna-iddrisu-assures-public-of-non-interference/",
+          "published_at": "2026-10-26T15:24:41Z",
+          "excerpt": "Education Minister Haruna Iddrisu has assured the public that political affiliation will not shield the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, from investigations into allegations of sexual misconduct involving female students. He said the government would ensure that due process was followed and that the investigations proceeded without political interference, despite […]"
+        }
+      ],
+      "path": "story/521/obuasi-shts-case-haruna-iddrisu-assures-public-of-non-interference/"
+    },
+    {
+      "id": 520,
+      "title": "Obuasi SHTS scandal will not fade from public attention – Education Minister",
+      "summary": "Education Minister Haruna Iddrisu has vowed that the sexual abuse allegations at Obuasi Senior High Technical School (SHTS) will not be allowed to fade from public attention without a resolution.",
+      "category": "basic_schools",
+      "published_at": "2026-10-26T15:18:09Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-26-145111-1024x470.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS scandal will not fade from public attention – Education Minister",
+          "url": "https://www.myjoyonline.com/obuasi-shts-scandal-will-not-fade-from-public-attention-education-minister/",
+          "published_at": "2026-10-26T15:18:09Z",
+          "excerpt": "Education Minister Haruna Iddrisu has vowed that the sexual abuse allegations at Obuasi Senior High Technical School (SHTS) will not be allowed to fade from public attention without a resolution. Speaking at a press conference in Accra on Monday, October 26, 2026, the Minister said the case would not follow the pattern of other major public controversies that attract intense media attention before gradually disappearing from the national conversation. “Amid the calls from various sections of society for a full-scale investigation of similar malpractices in other educational institutions in the country, this scandal won't suffer the same fate as other burning issues which are normal to be discussed with gusto in the media over a period and then go out with a whimper. That won't happen in respect of this matter,” he said."
+        }
+      ],
+      "path": "story/520/obuasi-shts-scandal-will-not-fade-from-public-attention-education-minister/"
+    },
+    {
       "id": 519,
       "title": "No political interference in Obuasi SHTS sexual abuse investigation – Minister",
       "summary": "Education Minister, Haruna Iddrisu, has assured the public that political affiliations will not influence investigations into sexual misconduct allegations involving the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai.",
@@ -79,6 +148,13 @@
           "source_name": "MyJoyOnline Education",
           "title": "No political interference in Obuasi SHTS sexual abuse investigation – Minister",
           "url": "https://www.myjoyonline.com/no-political-interference-in-obuasi-shts-sexual-abuse-investigation-minister/",
+          "published_at": "2026-10-26T15:04:47Z",
+          "excerpt": "Education Minister, Haruna Iddrisu, has assured the public that political affiliations will not influence investigations into sexual misconduct allegations involving the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "No political interference in Obuasi SHTS sexual abuse investigation – Minister assures",
+          "url": "https://www.myjoyonline.com/no-political-interference-in-obuasi-shts-sexual-abuse-investigation-minister-assures/",
           "published_at": "2026-10-26T15:04:47Z",
           "excerpt": "Education Minister, Haruna Iddrisu, has assured the public that political affiliations will not influence investigations into sexual misconduct allegations involving the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai."
         }
