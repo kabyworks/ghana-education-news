@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-26T16:10:27Z",
+  "generated_at": "2026-10-26T16:40:17Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 169
+      "story_count": 170
     },
     {
       "name": "higher_education",
-      "story_count": 129
+      "story_count": 130
     },
     {
       "name": "teachers",
@@ -19,7 +19,7 @@
     },
     {
       "name": "policy",
-      "story_count": 20
+      "story_count": 21
     },
     {
       "name": "examinations",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 525,
+      "title": "Due process will be followed - Education Minister assures as GES D-G and Gender Minister storm Obuasi SHTS",
+      "summary": "The directive forms part of efforts to investigate the allegations, protect students and ensure that anyone found culpable is held accountable.",
+      "category": "policy",
+      "published_at": "2026-10-26T16:25:03Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/yt-ennQARp1vmI-1200x675.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Due process will be followed - Education Minister assures as GES D-G and Gender Minister storm Obuasi SHTS",
+          "url": "https://3news.com/news/due-process-will-be-followed-education-minister-assures-as-ges-d-g-and-gender-minister-storm-obuasi-shts",
+          "published_at": "2026-10-26T16:25:03Z",
+          "excerpt": "The directive forms part of efforts to investigate the allegations, protect students and ensure that anyone found culpable is held accountable."
+        }
+      ],
+      "path": "story/525/due-process-will-be-followed-education-minister-assures-as-ges-d-g-and-gender/"
+    },
     {
       "id": 522,
       "title": "No student should perform domestic duties for teachers – GES directed",
@@ -84,6 +107,52 @@
         }
       ],
       "path": "story/505/gender-minister-and-ges-director-general-to-visit-obuasi-shs-ahead-of-reopening/"
+    },
+    {
+      "id": 526,
+      "title": "Ghana risks industrial stagnation if research fails to reach industry – Zanetor",
+      "summary": "Environment, Science and Technology Minister Zanetor Agyeman-Rawlings has warned that Ghana risks industrial stagnation if universities and research institutions fail to translate scientific discoveries into practical solutions for businesses and industry.",
+      "category": "higher_education",
+      "published_at": "2026-10-26T16:30:11Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-26-at-16.25.22-1024x576.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ghana risks industrial stagnation if research fails to reach industry – Zanetor",
+          "url": "https://www.myjoyonline.com/ghana-risks-industrial-stagnation-if-research-fails-to-reach-industry-zanetor/",
+          "published_at": "2026-10-26T16:30:11Z",
+          "excerpt": "Environment, Science and Technology Minister Zanetor Agyeman-Rawlings has warned that Ghana risks industrial stagnation if universities and research institutions fail to translate scientific discoveries into practical solutions for businesses and industry. She said the disconnect between academic research and commercial application was limiting the country’s ability to turn scientific knowledge into industrial growth, job creation and economic development. Dr Agyeman-Rawlings was speaking at the opening of the 2026 Oliver Reginald (O.R.) Tambo Chairs Initiative (ORTARChI) Conference at the West African Genetic Medicine Centre (WAGMC), University of Ghana, Legon."
+        }
+      ],
+      "path": "story/526/ghana-risks-industrial-stagnation-if-research-fails-to-reach-industry-zanetor/"
+    },
+    {
+      "id": 524,
+      "title": "Obuasi SHTS: We’ll use all legal, administrative measures to protect students – Haruna Iddrisu",
+      "summary": "Education Minister Haruna Iddrisu has assured parents and the public that the government will take all necessary legal and administrative steps to strengthen the protection of students following allegations of sexual abuse involving the headmaster of Obuasi Senior High Technical School (SHTS).",
+      "category": "basic_schools",
+      "published_at": "2026-10-26T16:22:23Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/obuasi-shts-we-intend-to-deploy-.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Obuasi SHTS: We’ll use all legal, administrative measures to protect students – Haruna Iddrisu",
+          "url": "https://www.adomonline.com/obuasi-shts-well-use-all-legal-administrative-measures-to-protect-students-haruna-iddrisu/",
+          "published_at": "2026-10-26T16:22:23Z",
+          "excerpt": "Education Minister Haruna Iddrisu has assured parents and the public that the government will take all necessary legal and administrative steps to strengthen the protection of students following allegations of sexual abuse involving the headmaster of Obuasi Senior High Technical School (SHTS). He said the Ministry of Education and the Ghana Education Service (GES) were […]"
+        }
+      ],
+      "path": "story/524/obuasi-shts-well-use-all-legal-administrative-measures-to-protect-students/"
     },
     {
       "id": 523,
