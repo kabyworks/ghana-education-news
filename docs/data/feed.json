@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:10:26Z",
+  "generated_at": "2026-10-26T20:40:34Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 68
+      "story_count": 69
     },
     {
       "name": "policy",
@@ -61,6 +61,29 @@
         }
       ],
       "path": "story/523/well-get-trauma-support-for-all-obuasi-shts-sexual-assault-victims-and-protect/"
+    },
+    {
+      "id": 535,
+      "title": "Gender Data Ghana calls for GES policy on child abuse investigations to be scrapped",
+      "summary": "Gender Data Ghana (GDG), a think tank focused on gender equality through research and advocacy, has called for the abolition of the Ghana Education Service (GES) policy that allows it to investigate allegations of abuse internally and transfer accused staff to other communities.",
+      "category": "general",
+      "published_at": "2026-10-26T20:05:58Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG-20261026-WA0013-1024x683.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Gender Data Ghana calls for GES policy on child abuse investigations to be scrapped",
+          "url": "https://www.myjoyonline.com/gender-data-ghana-calls-for-ges-policy-on-child-abuse-investigations-to-be-scrapped/",
+          "published_at": "2026-10-26T20:05:58Z",
+          "excerpt": "Gender Data Ghana (GDG), a think tank focused on gender equality through research and advocacy, has called for the abolition of the Ghana Education Service (GES) policy that allows it to investigate allegations of abuse internally and transfer accused staff to other communities."
+        }
+      ],
+      "path": "story/535/gender-data-ghana-calls-for-ges-policy-on-child-abuse-investigations-to-be/"
     },
     {
       "id": 534,
