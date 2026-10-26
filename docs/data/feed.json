@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-26T14:10:29Z",
+  "generated_at": "2026-10-26T14:40:22Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 162
+      "story_count": 163
     },
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 113
+      "story_count": 114
     },
     {
       "name": "general",
@@ -61,6 +61,52 @@
         }
       ],
       "path": "story/505/gender-minister-and-ges-director-general-to-visit-obuasi-shs-ahead-of-reopening/"
+    },
+    {
+      "id": 516,
+      "title": "Obuasi SHTS: Plan International demands justice, nationwide school safeguarding reforms",
+      "summary": "Plan International Ghana has called for independent investigations into allegations of sexual abuse involving female students of Obuasi Senior High Technical School (SHTS) and the school’s headmaster, demanding justice for affected students and urgent reforms to strengthen child protection in schools.",
+      "category": "basic_schools",
+      "published_at": "2026-10-26T14:33:10Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/images-1.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Obuasi SHTS: Plan International demands justice, nationwide school safeguarding reforms",
+          "url": "https://www.adomonline.com/obuasi-shts-plan-international-demands-justice-nationwide-school-safeguarding-reforms/",
+          "published_at": "2026-10-26T14:33:10Z",
+          "excerpt": "Plan International Ghana has called for independent investigations into allegations of sexual abuse involving female students of Obuasi Senior High Technical School (SHTS) and the school’s headmaster, demanding justice for affected students and urgent reforms to strengthen child protection in schools. The organisation expressed concern over the allegations, warning that they raise serious questions about […]"
+        }
+      ],
+      "path": "story/516/obuasi-shts-plan-international-demands-justice-nationwide-school-safeguarding/"
+    },
+    {
+      "id": 515,
+      "title": "Education Directors will be held accountable for mishandling sexual abuse cases – Deputy Education Minister",
+      "summary": "He said every allegation must be reported through the appropriate channels, while accused teachers must be removed from contact with learners pending investigations.",
+      "category": "teachers",
+      "published_at": "2026-10-26T14:09:30Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-26 at 07.53.28-800x685.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Education Directors will be held accountable for mishandling sexual abuse cases – Deputy Education Minister",
+          "url": "https://3news.com/news/education-directors-will-be-held-accountable-for-mishandling-sexual-abuse-cases-deputy-education-minister",
+          "published_at": "2026-10-26T14:09:30Z",
+          "excerpt": "He said every allegation must be reported through the appropriate channels, while accused teachers must be removed from contact with learners pending investigations."
+        }
+      ],
+      "path": "story/515/education-directors-will-be-held-accountable-for-mishandling-sexual-abuse-cases/"
     },
     {
       "id": 514,
