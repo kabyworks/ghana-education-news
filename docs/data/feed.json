@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:10:18Z",
+  "generated_at": "2026-10-26T19:40:32Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 116
+      "story_count": 117
     },
     {
       "name": "general",
@@ -61,6 +61,29 @@
         }
       ],
       "path": "story/523/well-get-trauma-support-for-all-obuasi-shts-sexual-assault-victims-and-protect/"
+    },
+    {
+      "id": 531,
+      "title": "Teacher trainee allowances: TTAG explains payment delays at three colleges, assures affected students",
+      "summary": "The Teacher Trainees’ Association of Ghana (TTAG) has attributed delays in the payment of allowances to students at three colleges of education to outstanding clearance requirements.",
+      "category": "teachers",
+      "published_at": "2026-10-26T19:21:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2021/05/WhatsApp-Image-2021-05-20-at-10.55.02-1024x461.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Teacher trainee allowances: TTAG explains payment delays at three colleges, assures affected students",
+          "url": "https://www.myjoyonline.com/teacher-trainee-allowances-ttag-explains-payment-delays-at-three-colleges-assures-affected-students/",
+          "published_at": "2026-10-26T19:21:00Z",
+          "excerpt": "The Teacher Trainees’ Association of Ghana (TTAG) has attributed delays in the payment of allowances to students at three colleges of education to outstanding clearance requirements."
+        }
+      ],
+      "path": "story/531/teacher-trainee-allowances-ttag-explains-payment-delays-at-three-colleges/"
     },
     {
       "id": 528,
