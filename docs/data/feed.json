@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T17:10:18Z",
+  "generated_at": "2026-10-26T17:40:23Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -31,6 +31,37 @@
     }
   ],
   "stories": [
+    {
+      "id": 523,
+      "title": "We’ll get trauma support for all Obuasi SHTS sexual assault victims and protect whistleblowers —Haruna Iddrisu",
+      "summary": "Education Minister Haruna Iddrisu has promised trauma-informed support for 19 students affected by the alleged sexual abuse case at Obuasi Senior High Technical School (SHTS), while announcing measures to protect students and make it easier for them to report abuse.",
+      "category": "basic_schools",
+      "published_at": "2026-10-26T17:38:13Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/we-will-get-trauma-support-for-a.jpg",
+      "rank": 0.849,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "We’ll get trauma support for all Obuasi SHTS sexual assault victims and protect whistleblowers —Haruna Iddrisu",
+          "url": "https://www.myjoyonline.com/well-get-trauma-support-for-all-obuasi-shts-sexual-assault-victims-and-protect-whistleblowers-haruna-iddrisu/",
+          "published_at": "2026-10-26T15:58:04Z",
+          "excerpt": "Education Minister Haruna Iddrisu has promised trauma-informed support for 19 students affected by the alleged sexual abuse case at Obuasi Senior High Technical School (SHTS), while announcing measures to protect students and make it easier for them to report abuse."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "Obuasi SHTS sexual assault victims to receive trauma support – Haruna Iddrisu",
+          "url": "https://www.adomonline.com/obuasi-shts-sexual-assault-victims-to-receive-trauma-support-haruna-iddrisu/",
+          "published_at": "2026-10-26T17:38:13Z",
+          "excerpt": "Education Minister Haruna Iddrisu has announced plans to provide trauma-informed support to 19 students affected by the alleged sexual abuse scandal at Obuasi Senior High Technical School (SHTS). He said the intervention forms part of broader measures being introduced by the Ministry of Education to protect students, support victims of abuse and strengthen reporting mechanisms […]"
+        }
+      ],
+      "path": "story/523/well-get-trauma-support-for-all-obuasi-shts-sexual-assault-victims-and-protect/"
+    },
     {
       "id": 528,
       "title": "Ghana-US TVET partnership tackles youth unemployment through skills training",
@@ -222,29 +253,6 @@
         }
       ],
       "path": "story/524/obuasi-shts-well-use-all-legal-administrative-measures-to-protect-students/"
-    },
-    {
-      "id": 523,
-      "title": "We’ll get trauma support for all Obuasi SHTS sexual assault victims and protect whistleblowers —Haruna Iddrisu",
-      "summary": "Education Minister Haruna Iddrisu has promised trauma-informed support for 19 students affected by the alleged sexual abuse case at Obuasi Senior High Technical School (SHTS), while announcing measures to protect students and make it easier for them to report abuse.",
-      "category": "basic_schools",
-      "published_at": "2026-10-26T15:58:04Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2460.png",
-      "rank": 0.7337,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "We’ll get trauma support for all Obuasi SHTS sexual assault victims and protect whistleblowers —Haruna Iddrisu",
-          "url": "https://www.myjoyonline.com/well-get-trauma-support-for-all-obuasi-shts-sexual-assault-victims-and-protect-whistleblowers-haruna-iddrisu/",
-          "published_at": "2026-10-26T15:58:04Z",
-          "excerpt": "Education Minister Haruna Iddrisu has promised trauma-informed support for 19 students affected by the alleged sexual abuse case at Obuasi Senior High Technical School (SHTS), while announcing measures to protect students and make it easier for them to report abuse."
-        }
-      ],
-      "path": "story/523/well-get-trauma-support-for-all-obuasi-shts-sexual-assault-victims-and-protect/"
     },
     {
       "id": 521,
