@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:10:09Z",
+  "generated_at": "2026-10-27T13:40:13Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 71
+      "story_count": 72
     },
     {
       "name": "policy",
@@ -61,6 +61,29 @@
         }
       ],
       "path": "story/545/education-minister-to-meet-teacher-unions-today-over-payment-of-promotion/"
+    },
+    {
+      "id": 549,
+      "title": "Mahama pledges improved quality of education, stronger technical training",
+      "summary": "President John Dramani Mahama has reaffirmed his government’s commitment to improving the quality of education in Ghana, with particular emphasis on technical and vocational training, scientific research and digital skills.",
+      "category": "general",
+      "published_at": "2026-10-27T13:10:01Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/853566758_1794412805037865_4311765064490957821_n-594x424-1.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Mahama pledges improved quality of education, stronger technical training",
+          "url": "https://www.adomonline.com/mahama-pledges-improved-quality-of-education-stronger-technical-training/",
+          "published_at": "2026-10-27T13:10:01Z",
+          "excerpt": "President John Dramani Mahama has reaffirmed his government’s commitment to improving the quality of education in Ghana, with particular emphasis on technical and vocational training, scientific research and digital skills. He said the government’s priority was not only to expand access to education but also to ensure that students acquire practical skills and relevant knowledge […]"
+        }
+      ],
+      "path": "story/549/mahama-pledges-improved-quality-of-education-stronger-technical-training/"
     },
     {
       "id": 548,
