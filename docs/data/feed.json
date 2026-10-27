@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:10:16Z",
+  "generated_at": "2026-10-27T17:40:12Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 125
+      "story_count": 126
     },
     {
       "name": "general",
@@ -92,6 +92,29 @@
         }
       ],
       "path": "story/545/education-minister-to-meet-teacher-unions-today-over-payment-of-promotion/"
+    },
+    {
+      "id": 558,
+      "title": "Please teacher- Just teach them",
+      "summary": "Back in 2021, I broke the news on air that 19 boys of Kulpi Junior High School in the East Gonja Municipality had been defiled and sodomised by their Social Studies teacher, Natonma Otabil.",
+      "category": "teachers",
+      "published_at": "2026-10-27T17:33:06Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-27 at 17.28.50-600x400.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Please teacher- Just teach them",
+          "url": "https://3news.com/news/please-teacher-just-teach-them",
+          "published_at": "2026-10-27T17:33:06Z",
+          "excerpt": "Back in 2021, I broke the news on air that 19 boys of Kulpi Junior High School in the East Gonja Municipality had been defiled and sodomised by their Social Studies teacher, Natonma Otabil."
+        }
+      ],
+      "path": "story/558/please-teacher-just-teach-them/"
     },
     {
       "id": 557,
