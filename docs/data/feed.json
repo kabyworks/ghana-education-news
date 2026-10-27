@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-27T12:10:08Z",
+  "generated_at": "2026-10-27T12:40:39Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 173
+      "story_count": 174
     },
     {
       "name": "higher_education",
-      "story_count": 134
+      "story_count": 135
     },
     {
       "name": "teachers",
@@ -61,6 +61,52 @@
         }
       ],
       "path": "story/545/education-minister-to-meet-teacher-unions-today-over-payment-of-promotion/"
+    },
+    {
+      "id": 548,
+      "title": "UPSA Banking and Finance students learn to prepare wills as part of financial literacy drive",
+      "summary": "Level 400 Banking and Finance students at the University of Professional Studies, Accra (UPSA), have been guided to write their first wills as part of efforts to promote early estate planning and responsible wealth management among young people.",
+      "category": "higher_education",
+      "published_at": "2026-10-27T12:30:58Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-25-at-12.54.48-AM-1024x683.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "UPSA Banking and Finance students learn to prepare wills as part of financial literacy drive",
+          "url": "https://www.myjoyonline.com/upsa-banking-and-finance-students-learn-to-prepare-wills-as-part-of-financial-literacy-drive/",
+          "published_at": "2026-10-27T12:30:58Z",
+          "excerpt": "Level 400 Banking and Finance students at the University of Professional Studies, Accra (UPSA), have been guided to write their first wills as part of efforts to promote early estate planning and responsible wealth management among young people."
+        }
+      ],
+      "path": "story/548/upsa-banking-and-finance-students-learn-to-prepare-wills-as-part-of-financial/"
+    },
+    {
+      "id": 547,
+      "title": "Education Minister commends JoyNews, Manasseh Azure for Obuasi SHTS investigation",
+      "summary": "The Education Minister, Haruna Iddrisu, has commended the Multimedia Group Limited and its investigative journalist Manasseh Azure Awuni for their report on the sexual misconduct allegations at Obuasi Senior High Technical School (SHTS).",
+      "category": "basic_schools",
+      "published_at": "2026-10-27T12:05:09Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/07/reforms-represent-one-of-most-si.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Education Minister commends JoyNews, Manasseh Azure for Obuasi SHTS investigation",
+          "url": "https://www.myjoyonline.com/education-minister-commends-joynews-manasseh-azure-for-obuasi-shts-investigation/",
+          "published_at": "2026-10-27T12:05:09Z",
+          "excerpt": "The Education Minister, Haruna Iddrisu, has commended the Multimedia Group Limited and its investigative journalist Manasseh Azure Awuni for their report on the sexual misconduct allegations at Obuasi Senior High Technical School (SHTS)."
+        }
+      ],
+      "path": "story/547/education-minister-commends-joynews-manasseh-azure-for-obuasi-shts-investigation/"
     },
     {
       "id": 546,
