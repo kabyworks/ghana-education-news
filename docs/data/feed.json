@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:10:09Z",
+  "generated_at": "2026-10-27T15:40:10Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 121
+      "story_count": 123
     },
     {
       "name": "general",
@@ -84,6 +84,52 @@
         }
       ],
       "path": "story/551/ghana-risks-missing-sdg-4-target-as-hidden-costs-of-free-basic-education-burden/"
+    },
+    {
+      "id": 553,
+      "title": "Adutwum wants sex offenders register to screen teachers and school workers",
+      "summary": "Former Education Minister Dr Yaw Osei Adutwum has called for mandatory fingerprint background checks as a condition for teacher licensing, arguing that stronger vetting is needed to prevent individuals with relevant criminal records from working in schools.",
+      "category": "teachers",
+      "published_at": "2026-10-27T15:28:47Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-142452-1024x539.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Adutwum wants sex offenders register to screen teachers and school workers",
+          "url": "https://www.myjoyonline.com/adutwum-wants-sex-offenders-register-to-screen-teachers-and-school-workers/",
+          "published_at": "2026-10-27T15:28:47Z",
+          "excerpt": "Former Education Minister Dr Yaw Osei Adutwum has called for mandatory fingerprint background checks as a condition for teacher licensing, arguing that stronger vetting is needed to prevent individuals with relevant criminal records from working in schools. He has also proposed establishing a sex offenders register that would be checked against the fingerprints of teachers and other education workers before they are allowed to work in public or private schools. Speaking in an interview on JoyNews’ The Pulse, Dr Adutwum questioned the effectiveness of existing background checks, claiming that the current teacher licensing process does not adequately establish whether applicants have criminal records."
+        }
+      ],
+      "path": "story/553/adutwum-wants-sex-offenders-register-to-screen-teachers-and-school-workers/"
+    },
+    {
+      "id": 552,
+      "title": "Adutwum proposes criminal sanctions for teachers who fail to report child abuse",
+      "summary": "Former Education Minister Dr Yaw Osei Adutwum has called for mandatory reporting laws requiring teachers, medical professionals and other relevant professionals to report suspected child sexual abuse, with criminal sanctions for those who fail to do so.",
+      "category": "teachers",
+      "published_at": "2026-10-27T15:22:32Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-142452-1024x539.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Adutwum proposes criminal sanctions for teachers who fail to report child abuse",
+          "url": "https://www.myjoyonline.com/adutwum-proposes-criminal-sanctions-for-teachers-who-fail-to-report-child-abuse/",
+          "published_at": "2026-10-27T15:22:32Z",
+          "excerpt": "Former Education Minister Dr Yaw Osei Adutwum has called for mandatory reporting laws requiring teachers, medical professionals and other relevant professionals to report suspected child sexual abuse, with criminal sanctions for those who fail to do so. He argues that Ghana’s current system relies too heavily on the Ghana Education Service (GES) to handle abuse cases, making stronger legal obligations and enforcement necessary to protect students. Speaking in an interview on JoyNews’ The Pulse, Dr Adutwum said reporting suspected abuse should be a legal duty rather than a matter of personal discretion. “As a medical doctor who gets wind of this, a child comes and you know that he has been abused, it's not optional for you to say I'm not reporting. A teacher who observes something going on, it's not optional. You have to report. So it becomes part of the law,” he said."
+        }
+      ],
+      "path": "story/552/adutwum-proposes-criminal-sanctions-for-teachers-who-fail-to-report-child-abuse/"
     },
     {
       "id": 550,
