@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T08:10:26Z",
+  "generated_at": "2026-10-27T08:40:23Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 118
+      "story_count": 119
     },
     {
       "name": "general",
@@ -53,6 +53,29 @@
         }
       ],
       "path": "story/542/university-of-ghana-students-to-protest-over-rising-accommodation-fees/"
+    },
+    {
+      "id": 543,
+      "title": "Gov’t pays 52,000 teachers’ promotion arrears, 28,000 pending",
+      "summary": "The government has paid the promotion salary arrears of 52,000 teachers, with payments for the remaining 28,000 still outstanding, the Education Minister, Haruna Iddrisu, has disclosed.",
+      "category": "teachers",
+      "published_at": "2026-10-27T08:25:35Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/03/Haruna-Iddrisu.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Gov’t pays 52,000 teachers’ promotion arrears, 28,000 pending",
+          "url": "https://www.myjoyonline.com/govt-pays-52000-teachers-promotion-arrears-28000-pending/",
+          "published_at": "2026-10-27T08:25:35Z",
+          "excerpt": "The government has paid the promotion salary arrears of 52,000 teachers, with payments for the remaining 28,000 still outstanding, the Education Minister, Haruna Iddrisu, has disclosed."
+        }
+      ],
+      "path": "story/543/govt-pays-52-000-teachers-promotion-arrears-28-000-pending/"
     },
     {
       "id": 541,
