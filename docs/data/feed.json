@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T09:10:31Z",
+  "generated_at": "2026-10-27T09:40:33Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -32,6 +32,37 @@
   ],
   "stories": [
     {
+      "id": 545,
+      "title": "Education Minister to meet teacher unions today over payment of promotion arrears for 28,000 teachers",
+      "summary": "The Education Minister, Haruna Iddrisu, says his office will meet the leadership of teacher unions today, Tuesday, October 27, to resolve outstanding validation issues affecting 28,000 teachers awaiting payment of their promotion salary arrears.",
+      "category": "teachers",
+      "published_at": "2026-10-27T09:31:57Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-24-at-16.46.35-3-1024x869.jpeg",
+      "rank": 0.849,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Education Minister to meet teacher unions today over payment of promotion arrears for 28,000 teachers",
+          "url": "https://www.myjoyonline.com/education-minister-to-meet-teacher-unions-today-over-payment-of-promotion-arrears-for-28000-teachers/",
+          "published_at": "2026-10-27T09:02:47Z",
+          "excerpt": "The Education Minister, Haruna Iddrisu, says his office will meet the leadership of teacher unions today, Tuesday, October 27, to resolve outstanding validation issues affecting 28,000 teachers awaiting payment of their promotion salary arrears."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "Education Minister to meet teacher unions over payment of promotion arrears for 28,000 teachers",
+          "url": "https://www.adomonline.com/education-minister-to-meet-teacher-unions-over-payment-of-promotion-arrears-for-28000-teachers/",
+          "published_at": "2026-10-27T09:31:57Z",
+          "excerpt": "The Education Minister, Haruna Iddrisu, says his office will meet the leadership of teacher unions today, Tuesday, October 27, to resolve outstanding validation issues affecting 28,000 teachers awaiting payment of their promotion salary arrears. The meeting is expected to address concerns that have prevented the affected teachers from successfully completing the validation process and receiving […]"
+        }
+      ],
+      "path": "story/545/education-minister-to-meet-teacher-unions-today-over-payment-of-promotion/"
+    },
+    {
       "id": 542,
       "title": "University of Ghana students to protest over rising accommodation fees",
       "summary": "Students at the University of Ghana are set to stage a march and rally on Friday, October 30, 2026, to protest rising accommodation charges and what they describe as the commercialisation of student housing.",
@@ -53,29 +84,6 @@
         }
       ],
       "path": "story/542/university-of-ghana-students-to-protest-over-rising-accommodation-fees/"
-    },
-    {
-      "id": 545,
-      "title": "Education Minister to meet teacher unions today over payment of promotion arrears for 28,000 teachers",
-      "summary": "The Education Minister, Haruna Iddrisu, says his office will meet the leadership of teacher unions today, Tuesday, October 27, to resolve outstanding validation issues affecting 28,000 teachers awaiting payment of their promotion salary arrears.",
-      "category": "teachers",
-      "published_at": "2026-10-27T09:02:47Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/10/Haruna-Iddrisu1-e1761047194398.jpg",
-      "rank": 0.749,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Education Minister to meet teacher unions today over payment of promotion arrears for 28,000 teachers",
-          "url": "https://www.myjoyonline.com/education-minister-to-meet-teacher-unions-today-over-payment-of-promotion-arrears-for-28000-teachers/",
-          "published_at": "2026-10-27T09:02:47Z",
-          "excerpt": "The Education Minister, Haruna Iddrisu, says his office will meet the leadership of teacher unions today, Tuesday, October 27, to resolve outstanding validation issues affecting 28,000 teachers awaiting payment of their promotion salary arrears."
-        }
-      ],
-      "path": "story/545/education-minister-to-meet-teacher-unions-today-over-payment-of-promotion/"
     },
     {
       "id": 544,
