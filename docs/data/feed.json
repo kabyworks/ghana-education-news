@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T14:10:25Z",
+  "generated_at": "2026-10-27T14:40:39Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 135
+      "story_count": 136
     },
     {
       "name": "teachers",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 72
+      "story_count": 73
     },
     {
       "name": "policy",
@@ -61,6 +61,52 @@
         }
       ],
       "path": "story/545/education-minister-to-meet-teacher-unions-today-over-payment-of-promotion/"
+    },
+    {
+      "id": 551,
+      "title": "Ghana risks missing SDG 4 target as hidden costs of free basic education burden parents",
+      "summary": "Ghana risks missing the 2030 Sustainable Development Goal 4 (SDG 4) target of ensuring inclusive and equitable quality education for all, as out-of-pocket expenses continue to burden parents despite the Free Compulsory Universal Basic Education (FCUBE) policy.",
+      "category": "general",
+      "published_at": "2026-10-27T14:38:17Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-06.42.58-1024x576.jpeg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Ghana risks missing SDG 4 target as hidden costs of free basic education burden parents",
+          "url": "https://www.adomonline.com/ghana-risks-missing-sdg-4-target-as-hidden-costs-of-free-basic-education-burden-parents/",
+          "published_at": "2026-10-27T14:38:17Z",
+          "excerpt": "Ghana risks missing the 2030 Sustainable Development Goal 4 (SDG 4) target of ensuring inclusive and equitable quality education for all, as out-of-pocket expenses continue to burden parents despite the Free Compulsory Universal Basic Education (FCUBE) policy. The concern was raised at the Africa Education Watch (EDUWATCH) Policy Dialogue on Out-of-Pocket Costs of Free Basic […]"
+        }
+      ],
+      "path": "story/551/ghana-risks-missing-sdg-4-target-as-hidden-costs-of-free-basic-education-burden/"
+    },
+    {
+      "id": 550,
+      "title": "President Mahama conferred honorary doctorate by Russia’s RUDN University",
+      "summary": "President John Mahama has been conferred with an honorary doctorate degree by the RUDN University of Russia, also known as Patrice Lumumba University, in Moscow.",
+      "category": "higher_education",
+      "published_at": "2026-10-27T14:18:31Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-1.51.16-PM1-1024x760.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "President Mahama conferred honorary doctorate by Russia’s RUDN University",
+          "url": "https://www.myjoyonline.com/president-mahama-conferred-honorary-doctorate-by-russias-rudn-university/",
+          "published_at": "2026-10-27T14:18:31Z",
+          "excerpt": "President John Mahama has been conferred with an honorary doctorate degree by the RUDN University of Russia, also known as Patrice Lumumba University, in Moscow."
+        }
+      ],
+      "path": "story/550/president-mahama-conferred-honorary-doctorate-by-russias-rudn-university/"
     },
     {
       "id": 549,
