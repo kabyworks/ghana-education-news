@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T16:10:06Z",
+  "generated_at": "2026-10-27T16:40:06Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 73
+      "story_count": 74
     },
     {
       "name": "policy",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 556,
+      "title": "GES sets November 16 deadline for payment of outstanding 2025 promotion arrears",
+      "summary": "The Ghana Education Service (GES) has announced that outstanding promotion arrears for staff promoted in 2025 are expected to be paid on November 16, 2026.",
+      "category": "general",
+      "published_at": "2026-10-27T16:15:08Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-11-2.jpeg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GES sets November 16 deadline for payment of outstanding 2025 promotion arrears",
+          "url": "https://www.myjoyonline.com/ges-sets-november-16-deadline-for-payment-of-outstanding-2025-promotion-arrears/",
+          "published_at": "2026-10-27T16:15:08Z",
+          "excerpt": "The Ghana Education Service (GES) has announced that outstanding promotion arrears for staff promoted in 2025 are expected to be paid on November 16, 2026."
+        }
+      ],
+      "path": "story/556/ges-sets-november-16-deadline-for-payment-of-outstanding-2025-promotion-arrears/"
+    },
     {
       "id": 545,
       "title": "Education Minister to meet teacher unions today over payment of promotion arrears for 28,000 teachers",
