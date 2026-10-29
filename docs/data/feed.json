@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:18:44Z",
+  "generated_at": "2026-10-29T15:40:11Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,11 +7,11 @@
     },
     {
       "name": "higher_education",
-      "story_count": 141
+      "story_count": 142
     },
     {
       "name": "teachers",
-      "story_count": 130
+      "story_count": 131
     },
     {
       "name": "general",
@@ -61,6 +61,52 @@
         }
       ],
       "path": "story/575/tutag-to-suspend-strike-after-talks-with-gtec-technical-university-vice/"
+    },
+    {
+      "id": 579,
+      "title": "Accra Metropolitan University postpones Dzenten Festival amid Tema-Nungua land dispute",
+      "summary": "Accra Metropolitan University has postponed the Dzenten Festival, scheduled for Sunday, November 1, 2026, citing security concerns arising from a dispute between the traditional authorities of Tema and Nungua over ownership of land and the Meridian Rock.",
+      "category": "higher_education",
+      "published_at": "2026-10-29T14:22:23Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Accra-Metro-University-1024x433.png",
+      "rank": 0.7576,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Accra Metropolitan University postpones Dzenten Festival amid Tema-Nungua land dispute",
+          "url": "https://www.myjoyonline.com/accra-metropolitan-university-postpones-dzenten-festival-amid-tema-nungua-land-dispute/",
+          "published_at": "2026-10-29T14:22:23Z",
+          "excerpt": "Accra Metropolitan University has postponed the Dzenten Festival, scheduled for Sunday, November 1, 2026, citing security concerns arising from a dispute between the traditional authorities of Tema and Nungua over ownership of land and the Meridian Rock. In a statement issued on Thursday, October 29, signed by Mr Ebenezer T. Hanson, Head of Public Relations and Communications at Accra Metropolitan University, the University said the decision was taken as a precautionary measure until the concerns surrounding the dispute had been addressed."
+        }
+      ],
+      "path": "story/579/accra-metropolitan-university-postpones-dzenten-festival-amid-tema-nungua-land/"
+    },
+    {
+      "id": 580,
+      "title": "APSU ’88 gives back to St. Augustine’s College; donates beds, educates teachers on cancer awareness",
+      "summary": "The 1988 Year Group of St. Augustine’s College, popularly known as APSU ’88, has returned to its alma mater in Cape Coast for a memorable homecoming to honour the past, strengthen lifelong bonds, and give back to the institution that shaped its members.",
+      "category": "teachers",
+      "published_at": "2026-10-29T15:24:31Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2704.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "APSU ’88 gives back to St. Augustine’s College; donates beds, educates teachers on cancer awareness",
+          "url": "https://www.myjoyonline.com/apsu-88-gives-back-to-st-augustines-college-donates-beds-educates-teachers-on-cancer-awareness/",
+          "published_at": "2026-10-29T15:24:31Z",
+          "excerpt": "The 1988 Year Group of St. Augustine’s College, popularly known as APSU ’88, has returned to its alma mater in Cape Coast for a memorable homecoming to honour the past, strengthen lifelong bonds, and give back to the institution that shaped its members."
+        }
+      ],
+      "path": "story/580/apsu-88-gives-back-to-st-augustines-college-donates-beds-educates-teachers-on/"
     },
     {
       "id": 578,
