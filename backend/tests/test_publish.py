@@ -54,7 +54,11 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
     assert "data/feed.json" in (destination / "app.js").read_text(encoding="utf-8")
 
     worker = (destination / "sw.js").read_text(encoding="utf-8")
-    assert "ghanaed-phone-3" in worker
+    assert "ghanaed-phone-4" in worker
+    privacy = (destination / "privacy" / "index.html").read_text(encoding="utf-8")
+    assert "Privacy policy" in privacy
+    assert "com.edulens360.app" in privacy
+    assert 'href="privacy/"' in (destination / "index.html").read_text(encoding="utf-8")
     assert "./data/feed.json" in worker
 
     manifest = json.loads((destination / "manifest.webmanifest").read_text(encoding="utf-8"))

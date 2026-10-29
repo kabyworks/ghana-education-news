@@ -16,17 +16,18 @@ from app.services.feed_service import list_categories, list_feed, story_image
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "7"
+SHELL_VERSION = "8"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-3";
+PHONE_SW = """const CACHE = "ghanaed-phone-4";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=7",
-  "./app.js?v=7",
+  "./styles.css?v=8",
+  "./app.js?v=8",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
   "./logo.svg",
+  "./privacy/",
   "./data/feed.json",
 ];
 
@@ -149,6 +150,11 @@ def _write_shell(destination: Path) -> None:
     (destination / "index.html").write_text(html, encoding="utf-8")
     for name in ("styles.css", "app.js", "icon-192.png", "icon-512.png", "logo.svg"):
         shutil.copyfile(READER_DIR / name, destination / name)
+    privacy_source = READER_DIR / "privacy" / "index.html"
+    privacy_dest = destination / "privacy"
+    privacy_dest.mkdir(exist_ok=True)
+    privacy_html = privacy_source.read_text(encoding="utf-8").replace("/app/", "../")
+    (privacy_dest / "index.html").write_text(privacy_html, encoding="utf-8")
     manifest = json.loads((READER_DIR / "manifest.webmanifest").read_text(encoding="utf-8"))
     manifest["start_url"] = "./"
     manifest["scope"] = "./"
