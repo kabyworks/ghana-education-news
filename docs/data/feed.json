@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:10:39Z",
+  "generated_at": "2026-10-29T22:40:45Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 145
+      "story_count": 146
     },
     {
       "name": "teachers",
@@ -53,6 +53,29 @@
         }
       ],
       "path": "story/584/47-university-students-attend-first-unmute-yoself-public-speaking-event-in-accra/"
+    },
+    {
+      "id": 585,
+      "title": "UPSA Graduates 1,314 Students at 18th Congregation",
+      "summary": "The University of Professional Studies, Accra (UPSA), on Wednesday held the third session of its 18th Congregation at the Kofi Ohene Konadu Auditorium, where 1,314 students from the Faculty of Management Studies graduated. Various awards were presented to students who excelled.",
+      "category": "higher_education",
+      "published_at": "2026-10-29T22:17:25Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG_3778_2.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "UPSA Graduates 1,314 Students at 18th Congregation",
+          "url": "https://www.myjoyonline.com/upsa-graduates-1314-students-at-18th-congregation/",
+          "published_at": "2026-10-29T22:17:25Z",
+          "excerpt": "The University of Professional Studies, Accra (UPSA), on Wednesday held the third session of its 18th Congregation at the Kofi Ohene Konadu Auditorium, where 1,314 students from the Faculty of Management Studies graduated. Various awards were presented to students who excelled."
+        }
+      ],
+      "path": "story/585/upsa-graduates-1-314-students-at-18th-congregation/"
     },
     {
       "id": 575,
