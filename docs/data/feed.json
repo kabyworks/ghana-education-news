@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:10:11Z",
+  "generated_at": "2026-10-29T16:56:41Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -27,7 +27,7 @@
     },
     {
       "name": "scholarships",
-      "story_count": 11
+      "story_count": 12
     }
   ],
   "stories": [
@@ -61,6 +61,29 @@
         }
       ],
       "path": "story/575/tutag-to-suspend-strike-after-talks-with-gtec-technical-university-vice/"
+    },
+    {
+      "id": 581,
+      "title": "MTN Bright Scholarship supports 500 students and teachers for 2026/2027 academic year",
+      "summary": "MTN Ghana has awarded scholarships to 500 students and teachers for the 2026/2027 academic year under its flagship MTN Bright Scholarship initiative, aimed at supporting brilliant but financially needy individuals to pursue their educational ambitions.",
+      "category": "scholarships",
+      "published_at": "2026-10-29T16:13:39Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2729-1024x576.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "MTN Bright Scholarship supports 500 students and teachers for 2026/2027 academic year",
+          "url": "https://www.myjoyonline.com/mtn-bright-scholarship-supports-500-students-and-teachers-for-2026-2027-academic-year/",
+          "published_at": "2026-10-29T16:13:39Z",
+          "excerpt": "MTN Ghana has awarded scholarships to 500 students and teachers for the 2026/2027 academic year under its flagship MTN Bright Scholarship initiative, aimed at supporting brilliant but financially needy individuals to pursue their educational ambitions."
+        }
+      ],
+      "path": "story/581/mtn-bright-scholarship-supports-500-students-and-teachers-for-2026-2027/"
     },
     {
       "id": 579,
