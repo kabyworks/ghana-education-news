@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T17:27:34Z",
+  "generated_at": "2026-10-29T17:42:36Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 142
+      "story_count": 143
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 582,
+      "title": "Ghanaian neuroscientist honoured at Millennium Excellence Awards USA for Alzheimer’s blood test discovery",
+      "summary": "Thomas Karikari, associate professor of psychiatry and clinical and translational science at the University of Pittsburgh’s School of Medicine in the United States, was a proud recipient of the Excellence in Scientific Research award at the recent Millennium Excellence Awards ceremony in Washington, DC, under the ro...",
+      "category": "higher_education",
+      "published_at": "2026-10-29T17:24:14Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2746-819x1024.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ghanaian neuroscientist honoured at Millennium Excellence Awards USA for Alzheimer’s blood test discovery",
+          "url": "https://www.myjoyonline.com/ghanaian-neuroscientist-honoured-at-millennium-excellence-awards-usa-for-alzheimers-blood-test-discovery/",
+          "published_at": "2026-10-29T17:24:14Z",
+          "excerpt": "Thomas Karikari, associate professor of psychiatry and clinical and translational science at the University of Pittsburgh’s School of Medicine in the United States, was a proud recipient of the Excellence in Scientific Research award at the recent Millennium Excellence Awards ceremony in Washington, DC, under the royal patronage of Otumfuo Osei Tutu II, the Asantehene."
+        }
+      ],
+      "path": "story/582/ghanaian-neuroscientist-honoured-at-millennium-excellence-awards-usa-for/"
+    },
     {
       "id": 575,
       "title": "TUTAG to suspend strike after talks with GTEC, technical university vice-chancellors",
