@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:10:04Z",
+  "generated_at": "2026-10-30T14:40:01Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -31,6 +31,37 @@
     }
   ],
   "stories": [
+    {
+      "id": 514,
+      "title": "Gender Minister engages Obuasi SHTS authorities, community leaders over alleged sexual abuse",
+      "summary": "The Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has engaged authorities of Obuasi Senior High Technical School (SHTS) and community leaders on measures to protect students and support those affected by allegations of sexual abuse at the school.",
+      "category": "basic_schools",
+      "published_at": "2026-10-30T14:32:09Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/865314763_1510545457569196_7975550782272128265_n-1024x683.jpg",
+      "rank": 0.849,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Gender Minister engages Obuasi SHTS authorities over alleged sexual abuse",
+          "url": "https://www.adomonline.com/gender-minister-engages-obuasi-shts-authorities-over-alleged-sexual-abuse/",
+          "published_at": "2026-10-26T13:50:01Z",
+          "excerpt": "The Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has visited Obuasi Senior High Technical School (SHTS) to engage school authorities over allegations of sexual misconduct involving the suspended headmaster and some female students. The visit comes amid growing public concern over the allegations and calls for accountability and stronger measures […]"
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Gender Minister engages Obuasi SHTS authorities, community leaders over alleged sexual abuse",
+          "url": "https://www.myjoyonline.com/gender-minister-engages-obuasi-shts-authorities-community-leaders-over-alleged-sexual-abuse/",
+          "published_at": "2026-10-30T14:32:09Z",
+          "excerpt": "The Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has engaged authorities of Obuasi Senior High Technical School (SHTS) and community leaders on measures to protect students and support those affected by allegations of sexual abuse at the school."
+        }
+      ],
+      "path": "story/514/gender-minister-engages-obuasi-shts-authorities-community-leaders-over-alleged/"
+    },
     {
       "id": 591,
       "title": "Nearly 2 million young Ghanaians not in employment, education or training – GSS",
@@ -3884,29 +3915,6 @@
         }
       ],
       "path": "story/515/education-directors-will-be-held-accountable-for-mishandling-sexual-abuse-cases/"
-    },
-    {
-      "id": 514,
-      "title": "Gender Minister engages Obuasi SHTS authorities over alleged sexual abuse",
-      "summary": "The Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has visited Obuasi Senior High Technical School (SHTS) to engage school authorities over allegations of sexual misconduct involving the suspended headmaster and some female students.",
-      "category": "basic_schools",
-      "published_at": "2026-10-26T13:50:01Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/03/image-628-956x1024.png",
-      "rank": 0.3488,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "Gender Minister engages Obuasi SHTS authorities over alleged sexual abuse",
-          "url": "https://www.adomonline.com/gender-minister-engages-obuasi-shts-authorities-over-alleged-sexual-abuse/",
-          "published_at": "2026-10-26T13:50:01Z",
-          "excerpt": "The Minister for Gender, Children and Social Protection, Dr Agnes Naa Momo Lartey, has visited Obuasi Senior High Technical School (SHTS) to engage school authorities over allegations of sexual misconduct involving the suspended headmaster and some female students. The visit comes amid growing public concern over the allegations and calls for accountability and stronger measures […]"
-        }
-      ],
-      "path": "story/514/gender-minister-engages-obuasi-shts-authorities-over-alleged-sexual-abuse/"
     },
     {
       "id": 513,
