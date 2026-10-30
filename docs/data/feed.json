@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T12:10:04Z",
+  "generated_at": "2026-10-30T12:40:09Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,11 +7,11 @@
     },
     {
       "name": "higher_education",
-      "story_count": 146
+      "story_count": 147
     },
     {
       "name": "teachers",
-      "story_count": 131
+      "story_count": 132
     },
     {
       "name": "general",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 589,
+      "title": "TUTAG suspends strike, teaching to resume November 2",
+      "summary": "The Technical University Teachers’ Association of Ghana (TUTAG) has suspended its nationwide strike following a decision by its congress on Thursday, October 29 after members deliberated on the matter.",
+      "category": "teachers",
+      "published_at": "2026-10-30T12:32:55Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/strike-1-600x400.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "TUTAG suspends strike, teaching to resume November 2",
+          "url": "https://3news.com/news/tutag-suspends-strike-teaching-to-resume-november-2",
+          "published_at": "2026-10-30T12:32:55Z",
+          "excerpt": "The Technical University Teachers’ Association of Ghana (TUTAG) has suspended its nationwide strike following a decision by its congress on Thursday, October 29 after members deliberated on the matter."
+        }
+      ],
+      "path": "story/589/tutag-suspends-strike-teaching-to-resume-november-2/"
+    },
+    {
+      "id": 588,
+      "title": "University of Gold Coast matriculates first PhD cohort, inducts doctoral fellows",
+      "summary": "University of Gold Coast matriculates its first PhD students and inducts doctoral fellows, as leaders urge research that drives Ghana’s national development.",
+      "category": "higher_education",
+      "published_at": "2026-10-30T12:12:41Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-30 at 11.01.55 AM (1)-1200x800.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "University of Gold Coast matriculates first PhD cohort, inducts doctoral fellows",
+          "url": "https://3news.com/education/university-of-gold-coast-matriculates-first-phd-cohort-inducts-doctoral-fellows",
+          "published_at": "2026-10-30T12:12:41Z",
+          "excerpt": "University of Gold Coast matriculates its first PhD students and inducts doctoral fellows, as leaders urge research that drives Ghana’s national development."
+        }
+      ],
+      "path": "story/588/university-of-gold-coast-matriculates-first-phd-cohort-inducts-doctoral-fellows/"
+    },
     {
       "id": 587,
       "title": "Coalition condemns alleged sexual misconduct at Obuasi SHTS, calls for urgent action",
