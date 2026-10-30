@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T22:10:23Z",
+  "generated_at": "2026-10-30T22:40:09Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 133
+      "story_count": 134
     },
     {
       "name": "general",
@@ -61,6 +61,29 @@
         }
       ],
       "path": "story/514/gender-minister-engages-obuasi-shts-authorities-community-leaders-over-alleged/"
+    },
+    {
+      "id": 599,
+      "title": "Savannah College of Education teachers decry 19 months without payroll migration",
+      "summary": "About one hundred and seventy striking workers of two local associations at the Savannah College of Education, namely, the Colleges of Education Teachers Association of Ghana [CETAG] and the Colleges of Education Non-Teaching Staff Association of Ghana (CENTSAG), say the unresolved issues surrounding staff remunerat...",
+      "category": "teachers",
+      "published_at": "2026-10-30T22:18:19Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-16.41.09-e1793398283530.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Savannah College of Education teachers decry 19 months without payroll migration",
+          "url": "https://www.myjoyonline.com/savannah-college-of-education-teachers-decry-19-months-without-payroll-migration/",
+          "published_at": "2026-10-30T22:18:19Z",
+          "excerpt": "About one hundred and seventy striking workers of two local associations at the Savannah College of Education, namely, the Colleges of Education Teachers Association of Ghana [CETAG] and the Colleges of Education Non-Teaching Staff Association of Ghana (CENTSAG), say the unresolved issues surrounding staff remuneration, recruitment and migration of members to the government payroll are a threat to their welfare and the smooth administration of the college."
+        }
+      ],
+      "path": "story/599/savannah-college-of-education-teachers-decry-19-months-without-payroll-migration/"
     },
     {
       "id": 598,
