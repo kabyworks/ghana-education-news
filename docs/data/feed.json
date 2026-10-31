@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T18:10:08Z",
+  "generated_at": "2026-10-31T18:40:05Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 136
+      "story_count": 137
     },
     {
       "name": "general",
@@ -53,6 +53,29 @@
         }
       ],
       "path": "story/608/gtec-cautions-universities-against-compromising-quality-in-doctoral-admissions/"
+    },
+    {
+      "id": 609,
+      "title": "Bekwai SHS headmaster laments inadequate teachers and logistics",
+      "summary": "The headmaster of Sefwi Bekwai Senior High School, Prince Abubarkar Djibo, has raised concern about the school’s limited number of teachers. Speaking at the matriculation of new students, he said the school has been doing its best despite the shortage.",
+      "category": "teachers",
+      "published_at": "2026-10-31T18:23:42Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/bekwai-shs.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Bekwai SHS headmaster laments inadequate teachers and logistics",
+          "url": "https://www.adomonline.com/bekwai-shs-headmaster-laments-inadequate-teachers-and-logistics/",
+          "published_at": "2026-10-31T18:23:42Z",
+          "excerpt": "The headmaster of Sefwi Bekwai Senior High School, Prince Abubarkar Djibo, has raised concern about the school’s limited number of teachers. Speaking at the matriculation of new students, he said the school has been doing its best despite the shortage. But he said the number of teachers is inadequate, and that the school also lacks […]"
+        }
+      ],
+      "path": "story/609/bekwai-shs-headmaster-laments-inadequate-teachers-and-logistics/"
     },
     {
       "id": 607,
