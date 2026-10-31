@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:10:14Z",
+  "generated_at": "2026-10-31T12:40:19Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 85
+      "story_count": 86
     },
     {
       "name": "policy",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 606,
+      "title": "Stroke increasingly affecting young people; over 1,000 admissions recorded annually - KATH",
+      "summary": "According to her, nearly half of the more than 1,000 stroke admissions recorded annually at the hospital involve people below the age of 45.",
+      "category": "general",
+      "published_at": "2026-10-31T12:21:55Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-31 at 09.21.18 (1)-800x442.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Stroke increasingly affecting young people; over 1,000 admissions recorded annually - KATH",
+          "url": "https://3news.com/news/stroke-increasingly-affecting-young-people-over-1-000-admissions-recorded-annually-kath",
+          "published_at": "2026-10-31T12:21:55Z",
+          "excerpt": "According to her, nearly half of the more than 1,000 stroke admissions recorded annually at the hospital involve people below the age of 45."
+        }
+      ],
+      "path": "story/606/stroke-increasingly-affecting-young-people-over-1-000-admissions-recorded/"
+    },
     {
       "id": 605,
       "title": "‘The state itself is complicit in galamsey fight’ – Bokpin",
