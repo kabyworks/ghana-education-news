@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:10:02Z",
+  "generated_at": "2026-10-31T05:40:02Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 84
+      "story_count": 85
     },
     {
       "name": "policy",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 603,
+      "title": "Don’t deny HIV patients jobs, school admission — AIDS Commission",
+      "summary": "Describing the practice as shameful and regrettable, he said it amounted to discrimination and stigmatisation, which the GAC had constantly been fighting against, adding that HIV was not a disability that prevented people from working in any environment.",
+      "category": "general",
+      "published_at": "2026-10-31T02:42:18Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/Screenshot-2026-01-08-at-5.24.46-AM-1024x621.png",
+      "rank": 0.716,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Don’t deny HIV patients jobs, school admission — AIDS Commission",
+          "url": "https://www.myjoyonline.com/dont-deny-hiv-patients-jobs-school-admission-aids-commission/",
+          "published_at": "2026-10-31T02:42:18Z",
+          "excerpt": "Describing the practice as shameful and regrettable, he said it amounted to discrimination and stigmatisation, which the GAC had constantly been fighting against, adding that HIV was not a disability that prevented people from working in any environment."
+        }
+      ],
+      "path": "story/603/dont-deny-hiv-patients-jobs-school-admission-aids-commission/"
+    },
     {
       "id": 514,
       "title": "Gender Minister engages Obuasi SHTS authorities, community leaders over alleged sexual abuse",
