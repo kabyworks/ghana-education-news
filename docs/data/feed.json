@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T21:10:24Z",
+  "generated_at": "2026-10-31T21:40:29Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 139
+      "story_count": 140
     },
     {
       "name": "general",
@@ -31,6 +31,37 @@
     }
   ],
   "stories": [
+    {
+      "id": 611,
+      "title": "GES investigates alleged assault on student by two Techiman SHS teachers",
+      "summary": "The Ghana Education Service (GES) has launched an investigation into a video circulating on social media that appears to show two teachers of Techiman Senior High School (SHS) assaulting a student.",
+      "category": "teachers",
+      "published_at": "2026-10-31T21:31:49Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-31-at-21.29.57.png",
+      "rank": 0.876,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "GES investigating alleged assault of student by two teachers at Techiman SHS",
+          "url": "https://www.adomonline.com/ges-investigating-alleged-assault-of-student-by-two-teachers-at-techiman-shs/",
+          "published_at": "2026-10-31T20:02:18Z",
+          "excerpt": "The Ghana Education Service (GES) says it is investigating an alleged assault on a student by two teachers at Techiman Senior High School, after a video of the incident began circulating in the media. In a statement dated October 31, 2026, GES called the video “disturbing” and identified the teachers as Mr Jerry Jones Owusu […]"
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GES investigates alleged assault on student by two Techiman SHS teachers",
+          "url": "https://www.myjoyonline.com/ges-investigates-alleged-assault-on-student-by-two-techiman-shs-teachers/",
+          "published_at": "2026-10-31T21:31:49Z",
+          "excerpt": "The Ghana Education Service (GES) has launched an investigation into a video circulating on social media that appears to show two teachers of Techiman Senior High School (SHS) assaulting a student. In a press release issued on Saturday, October 31, 2026, the Service identified the teachers as Mr Jerry Jones Owusu Bekoe and Mr Adusa Ameyaw. The statement, signed by the Head of Public Relations, Daniel Fenyi, said the school's disciplinary committee had held an initial hearing into the incident. \"The committee's findings are expected to be submitted to Management through the Regional Directorate in the coming days to inform further action and decisions,\" the GES said."
+        }
+      ],
+      "path": "story/611/ges-investigates-alleged-assault-on-student-by-two-techiman-shs-teachers/"
+    },
     {
       "id": 608,
       "title": "GTEC cautions universities against compromising quality in doctoral admissions",
@@ -63,27 +94,27 @@
       "path": "story/608/gtec-cautions-universities-against-compromising-quality-in-doctoral-admissions/"
     },
     {
-      "id": 611,
-      "title": "GES investigating alleged assault of student by two teachers at Techiman SHS",
-      "summary": "The Ghana Education Service (GES) says it is investigating an alleged assault on a student by two teachers at Techiman Senior High School, after a video of the incident began circulating in the media.",
+      "id": 615,
+      "title": "Video captures teachers stepping on a student’s head in violent Techiman SHS incident",
+      "summary": "A disturbing video circulating on social media has revealed a violent incident at Techiman Senior High School (SHS) in the Bono East Region, showing two teachers assaulting a final-year student.",
       "category": "teachers",
-      "published_at": "2026-10-31T20:02:18Z",
+      "published_at": "2026-10-31T21:37:39Z",
       "source_count": 1,
       "sources": [
-        "Adom Online Education"
+        "MyJoyOnline Education"
       ],
-      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/Techiman_Senior_High_School-1024x610.jpg",
-      "rank": 0.7617,
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-31-at-21.37.04.png",
+      "rank": 0.767,
       "articles": [
         {
-          "source_name": "Adom Online Education",
-          "title": "GES investigating alleged assault of student by two teachers at Techiman SHS",
-          "url": "https://www.adomonline.com/ges-investigating-alleged-assault-of-student-by-two-teachers-at-techiman-shs/",
-          "published_at": "2026-10-31T20:02:18Z",
-          "excerpt": "The Ghana Education Service (GES) says it is investigating an alleged assault on a student by two teachers at Techiman Senior High School, after a video of the incident began circulating in the media. In a statement dated October 31, 2026, GES called the video “disturbing” and identified the teachers as Mr Jerry Jones Owusu […]"
+          "source_name": "MyJoyOnline Education",
+          "title": "Video captures teachers stepping on a student’s head in violent Techiman SHS incident",
+          "url": "https://www.myjoyonline.com/video-captures-teachers-stepping-on-a-students-head-in-violent-techiman-shs-incident/",
+          "published_at": "2026-10-31T21:37:39Z",
+          "excerpt": "A disturbing video circulating on social media has revealed a violent incident at Techiman Senior High School (SHS) in the Bono East Region, showing two teachers assaulting a final-year student. The video footage, which has sparked outrage, shows the two men assaulting the student, including stepping on the student's head. The teachers involved have been identified as Mr Jerry Jones Owusu Bekoe and Mr Adusa Ameyaw."
         }
       ],
-      "path": "story/611/ges-investigating-alleged-assault-of-student-by-two-teachers-at-techiman-shs/"
+      "path": "story/615/video-captures-teachers-stepping-on-a-students-head-in-violent-techiman-shs/"
     },
     {
       "id": 614,
@@ -102,6 +133,13 @@
           "source_name": "MyJoyOnline Education",
           "title": "NYC Mayor Mamdani secures Trump’s approval for visa for mother of slain Ghanaian teenager in Bronx",
           "url": "https://www.myjoyonline.com/nyc-mayor-mamdani-secures-trumps-approval-for-visa-for-mother-of-slain-ghanaian-teenager-in-bronx/",
+          "published_at": "2026-10-31T21:06:48Z",
+          "excerpt": "The mother of 15-year-old Ghanaian student Javits Frimpong, who was fatally shot while walking to school in New York, will be granted a visa to travel to the United States following an intervention by President Donald Trump, New York City Mayor Zohran Kwame Mamdani has announced. Mr Mamdani disclosed the development in a post on X on Saturday, October 31, 2026, after a telephone conversation with President Trump. He said the arrangement would allow the bereaved mother, who is in Ghana, to travel to New York and say goodbye to her son in person. “The murder of a child is a pain no parent should have to endure, let alone from thousands of miles away. Javits Frimpong’s mother deserves to say goodbye to her son in person. I just got off the phone with President Trump and he has agreed to grant her visa immediately. All of New York City is mourning this tragedy,” he wrote. The mayor did not specify the type of visa to be issued or the arrangements for its processing."
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "New York City Mayor Mamdani secures Trump’s approval for visa for mother of slain Ghanaian teenager in Bronx",
+          "url": "https://www.myjoyonline.com/new-york-city-mayor-mamdani-secures-trumps-approval-for-visa-for-mother-of-slain-ghanaian-teenager-in-bronx/",
           "published_at": "2026-10-31T21:06:48Z",
           "excerpt": "The mother of 15-year-old Ghanaian student Javits Frimpong, who was fatally shot while walking to school in New York, will be granted a visa to travel to the United States following an intervention by President Donald Trump, New York City Mayor Zohran Kwame Mamdani has announced. Mr Mamdani disclosed the development in a post on X on Saturday, October 31, 2026, after a telephone conversation with President Trump. He said the arrangement would allow the bereaved mother, who is in Ghana, to travel to New York and say goodbye to her son in person. “The murder of a child is a pain no parent should have to endure, let alone from thousands of miles away. Javits Frimpong’s mother deserves to say goodbye to her son in person. I just got off the phone with President Trump and he has agreed to grant her visa immediately. All of New York City is mourning this tragedy,” he wrote. The mayor did not specify the type of visa to be issued or the arrangements for its processing."
         }
