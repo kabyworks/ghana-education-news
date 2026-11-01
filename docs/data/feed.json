@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T19:10:08Z",
+  "generated_at": "2026-11-01T19:40:13Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,11 +7,11 @@
     },
     {
       "name": "higher_education",
-      "story_count": 162
+      "story_count": 163
     },
     {
       "name": "teachers",
-      "story_count": 141
+      "story_count": 142
     },
     {
       "name": "general",
@@ -69,6 +69,52 @@
         }
       ],
       "path": "story/608/gtec-cautions-universities-against-compromising-quality-in-doctoral-admissions/"
+    },
+    {
+      "id": 626,
+      "title": "GTEC intervenes in Savannah College dispute over payroll, governance",
+      "summary": "The Ghana Tertiary Education Commission (GTEC) has summoned stakeholders in the ongoing strike at the Savannah College of Education (SAVCE) for a meeting aimed at resolving the dispute, which has disrupted academic activities and left students without food for seven days and counting.",
+      "category": "higher_education",
+      "published_at": "2026-11-01T19:02:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-18.02.59.jpeg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GTEC intervenes in Savannah College dispute over payroll, governance",
+          "url": "https://www.myjoyonline.com/gtec-intervenes-in-savannah-college-dispute-over-payroll-governance/",
+          "published_at": "2026-11-01T19:02:00Z",
+          "excerpt": "The Ghana Tertiary Education Commission (GTEC) has summoned stakeholders in the ongoing strike at the Savannah College of Education (SAVCE) for a meeting aimed at resolving the dispute, which has disrupted academic activities and left students without food for seven days and counting."
+        }
+      ],
+      "path": "story/626/gtec-intervenes-in-savannah-college-dispute-over-payroll-governance/"
+    },
+    {
+      "id": 627,
+      "title": "Savannah College of Education staff resume duties after strike suspension",
+      "summary": "The Colleges of Education Teachers Association of Ghana (CETAG) and the Colleges of Education Non-Teaching Staff Association of Ghana (CENTSAG) have suspended their sit-down strike at the Savannah College of Education in Daboya, effective November 1, 2026.",
+      "category": "teachers",
+      "published_at": "2026-11-01T19:21:25Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-7.02.15-PM-e1793561065901.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Savannah College of Education staff resume duties after strike suspension",
+          "url": "https://www.myjoyonline.com/savannah-college-of-education-staff-resume-duties-after-strike-suspension/",
+          "published_at": "2026-11-01T19:21:25Z",
+          "excerpt": "The Colleges of Education Teachers Association of Ghana (CETAG) and the Colleges of Education Non-Teaching Staff Association of Ghana (CENTSAG) have suspended their sit-down strike at the Savannah College of Education in Daboya, effective November 1, 2026. The industrial action was triggered by delays in the migration of staff, an issue the two unions say […]"
+        }
+      ],
+      "path": "story/627/savannah-college-of-education-staff-resume-duties-after-strike-suspension/"
     },
     {
       "id": 624,
