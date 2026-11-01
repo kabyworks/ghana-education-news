@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-01T17:23:51Z",
+  "generated_at": "2026-11-01T17:40:15Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 179
+      "story_count": 180
     },
     {
       "name": "higher_education",
@@ -92,6 +92,29 @@
         }
       ],
       "path": "story/624/harmful-peer-associations-in-universities-lead-to-academic-failure-presbyterian/"
+    },
+    {
+      "id": 625,
+      "title": "Seven students identified as suspected ringleaders in YIKROSEC–Somanya Technical Institute clash",
+      "summary": "Seven male students have been identified as suspected ringleaders following a violent confrontation involving students of Yilo Krobo Senior High School (YIKROSEC) and Somanya Technical Institute (STI) on Saturday, October 31, 2026.",
+      "category": "basic_schools",
+      "published_at": "2026-11-01T17:27:16Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": null,
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Seven students identified as suspected ringleaders in YIKROSEC–Somanya Technical Institute clash",
+          "url": "https://www.adomonline.com/seven-students-identified-as-suspected-ringleaders-in-yikrosec-somanya-technical-institute-clash/",
+          "published_at": "2026-11-01T17:27:16Z",
+          "excerpt": "Seven male students have been identified as suspected ringleaders following a violent confrontation involving students of Yilo Krobo Senior High School (YIKROSEC) and Somanya Technical Institute (STI) on Saturday, October 31, 2026. The clash occurred on the YIKROSEC campus in Somanya in the Eastern Region after an earlier misunderstanding between a student of the school […]"
+        }
+      ],
+      "path": "story/625/seven-students-identified-as-suspected-ringleaders-in-yikrosec-somanya/"
     },
     {
       "id": 623,
