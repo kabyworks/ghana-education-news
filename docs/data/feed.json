@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T19:10:12Z",
+  "generated_at": "2026-11-02T19:40:22Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 167
+      "story_count": 168
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 640,
+      "title": "Energy Commission Renewable Energy Challenge: Government urged to fund TVET students to develop renewable energy prototypes",
+      "summary": "There are heightened calls for the government to prioritise funding for students in the technical and vocational education and training sector to develop more innovative prototypes and contribute to sustainable energy solutions in Ghana.",
+      "category": "higher_education",
+      "published_at": "2026-11-02T19:30:14Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-02-at-7.22.14-PM-1024x576.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Energy Commission Renewable Energy Challenge: Government urged to fund TVET students to develop renewable energy prototypes",
+          "url": "https://www.myjoyonline.com/energy-commission-renewable-energy-challenge-government-urged-to-fund-tvet-students-to-develop-renewable-energy-prototypes/",
+          "published_at": "2026-11-02T19:30:14Z",
+          "excerpt": "There are heightened calls for the government to prioritise funding for students in the technical and vocational education and training sector to develop more innovative prototypes and contribute to sustainable energy solutions in Ghana. The appeal was made during the seventh edition of the Energy Commission Renewable Energy Challenge held in the Ashanti Region. Technical […]"
+        }
+      ],
+      "path": "story/640/energy-commission-renewable-energy-challenge-government-urged-to-fund-tvet/"
+    },
     {
       "id": 639,
       "title": "UG to expand student accommodation as 2026/27 freshmen matriculate",
