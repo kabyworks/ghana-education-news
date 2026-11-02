@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://media.3news.com/NDC%20Fiavi%20Kwetey-768x557.webp">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "NDC will not interfere with investigations into Obuasi SHS Headmaster sexual assault probe - Fiifi Kwetey", "description": "The National Democratic Congress (NDC) has said it will not interfere with investigations into sexual misconduct allegations against Zakaria Abdulai, headmaster of Obuasi Senior…", "datePublished": "2026-10-22T17:16:25Z", "mainEntityOfPage": "https://edulens360.com/story/447/ndc-will-not-interfere-with-investigations-into-obuasi-shs-headmaster-sexual/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://media.3news.com/NDC%20Fiavi%20Kwetey-768x557.webp"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 22 Oct 2026 · 1 source</p>
       <div class="headline"><h1>NDC will not interfere with investigations into Obuasi SHS Headmaster sexual assault probe - Fiifi Kwetey</h1><img class="card-photo" alt="" src="https://media.3news.com/NDC%20Fiavi%20Kwetey-768x557.webp" referrerpolicy="no-referrer"></div>
       <p class="summary">The National Democratic Congress (NDC) has said it will not interfere with investigations into sexual misconduct allegations against Zakaria Abdulai, headmaster of Obuasi Senior High Technical School and a former Juaben constituency secretary of the party.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>3News</h3><p class="summary">The National Democratic Congress (NDC) has said it will not interfere with investigations into sexual misconduct allegations against Zakaria Abdulai, headmaster of Obuasi Senior High Technical School and a former Juaben constituency secretary of the party.</p><a class="link-button secondary" href="https://3news.com/news/ndc-will-not-interfere-with-investigations-into-obuasi-shs-headmaster-sexual-assault-probe-fiifi-kwetey" target="_blank" rel="noreferrer">Read at 3News</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

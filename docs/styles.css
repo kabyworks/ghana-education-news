@@ -271,7 +271,40 @@ main h1 {
 
 .story-card .summary,
 .story-card .meta {
-  padding-right: 1.6rem;
+  padding-right: 4.2rem;
+}
+
+.story-card.is-new {
+  border-color: #c5d8cc;
+  box-shadow: inset 3px 0 0 var(--green);
+}
+
+.new-mark {
+  display: inline-block;
+  color: var(--green);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+}
+
+.feed-status {
+  font-weight: 650;
+}
+
+.share-toast {
+  position: absolute;
+  right: 0.45rem;
+  bottom: 2.55rem;
+  z-index: 3;
+  padding: 0.35rem 0.55rem;
+  border-radius: 8px;
+  background: var(--green);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 650;
+  white-space: nowrap;
+  pointer-events: none;
 }
 
 .story-card .meta {
@@ -315,13 +348,13 @@ main h1 {
   display: block;
 }
 
+.story-card button.card-share,
 .story-card button.card-save {
   position: absolute;
-  right: 0.45rem;
   bottom: 0.45rem;
-  width: 26px;
-  height: 26px;
-  min-height: 26px;
+  width: 32px;
+  height: 32px;
+  min-height: 32px;
   padding: 0;
   border-radius: 999px;
   border: 1px solid var(--line);
@@ -329,6 +362,18 @@ main h1 {
   color: var(--green);
   justify-content: center;
   box-shadow: none;
+}
+
+.story-card button.card-share {
+  right: 2.75rem;
+}
+
+.story-card button.card-save {
+  right: 0.45rem;
+}
+
+.story-card button.card-share:active {
+  background: var(--green-soft);
 }
 
 .story-card button.card-save path {

@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-27-at-1.46.58-PM-434x1024.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Techiman-Krobo Nursing School principal was ‘saving humanity’ – Health Ministry Spokesperson", "description": "The Ministry of Health says the Principal of the Techiman-Krobo Nursing and Midwifery Training College, Hellen Dwamena, was justified in taking a firm approach to academic…", "datePublished": "2026-10-06T13:01:03Z", "mainEntityOfPage": "https://edulens360.com/story/65/techiman-krobo-nursing-school-principal-was-saving-humanity-health-ministry/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-27-at-1.46.58-PM-434x1024.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">University · 6 Oct 2026 · 1 source</p>
       <div class="headline"><h1>Techiman-Krobo Nursing School principal was ‘saving humanity’ – Health Ministry Spokesperson</h1><img class="card-photo" alt="" src="https://www.adomonline.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-27-at-1.46.58-PM-434x1024.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">The Ministry of Health says the Principal of the Techiman-Krobo Nursing and Midwifery Training College, Hellen Dwamena, was justified in taking a firm approach to academic discipline because of the potential consequences of allowing poorly performing students to progress into the healthcare system.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Adom Online Education</h3><p class="summary">The Ministry of Health says the Principal of the Techiman-Krobo Nursing and Midwifery Training College, Hellen Dwamena, was justified in taking a firm approach to academic discipline because of the potential consequences of allowing poorly performing students to progress into the healthcare system. According to the Ministry’s spokesperson, Tony Goodman, although some of the concerns […]</p><a class="link-button secondary" href="https://www.adomonline.com/techiman-krobo-nursing-school-principal-was-saving-humanity-health-ministry-spokesperson/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

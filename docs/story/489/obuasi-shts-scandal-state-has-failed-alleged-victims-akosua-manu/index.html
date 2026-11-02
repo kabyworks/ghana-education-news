@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-56-1024x576.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Obuasi SHTS scandal: State has failed alleged victims – Akosua Manu", "description": "The Adviser on Gender and Social Protection to former Vice-President Dr Mahamudu Bawumia, Akosua Manu, has criticised state institutions over what she describes as their failure…", "datePublished": "2026-10-24T12:33:59Z", "mainEntityOfPage": "https://edulens360.com/story/489/obuasi-shts-scandal-state-has-failed-alleged-victims-akosua-manu/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-56-1024x576.png"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 24 Oct 2026 · 1 source</p>
       <div class="headline"><h1>Obuasi SHTS scandal: State has failed alleged victims – Akosua Manu</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-56-1024x576.png" referrerpolicy="no-referrer"></div>
       <p class="summary">The Adviser on Gender and Social Protection to former Vice-President Dr Mahamudu Bawumia, Akosua Manu, has criticised state institutions over what she describes as their failure to adequately protect female students allegedly sexually abused by the headmaster of Obuasi Senior High Technical School.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Adviser on Gender and Social Protection to former Vice-President Dr Mahamudu Bawumia, Akosua Manu, has criticised state institutions over what she describes as their failure to adequately protect female students allegedly sexually abused by the headmaster of Obuasi Senior High Technical School.</p><a class="link-button secondary" href="https://www.myjoyonline.com/obuasi-shts-scandal-state-has-failed-alleged-victims-akosua-manu/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

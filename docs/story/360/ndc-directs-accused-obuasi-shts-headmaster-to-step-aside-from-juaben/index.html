@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://media.3news.com/DC%20Cha-800x504.webp">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "NDC directs accused Obuasi SHTS headmaster to step aside from Juaben chairmanship race", "description": "The National Democratic Congress (NDC) has directed Zakaria Abdulai, the suspended headmaster of Obuasi Senior High Technical School (SHTS), to step aside from the Juaben…", "datePublished": "2026-10-20T12:41:03Z", "mainEntityOfPage": "https://edulens360.com/story/360/ndc-directs-accused-obuasi-shts-headmaster-to-step-aside-from-juaben/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://media.3news.com/DC%20Cha-800x504.webp"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 20 Oct 2026 · 2 sources</p>
       <div class="headline"><h1>NDC directs accused Obuasi SHTS headmaster to step aside from Juaben chairmanship race</h1><img class="card-photo" alt="" src="https://media.3news.com/DC%20Cha-800x504.webp" referrerpolicy="no-referrer"></div>
       <p class="summary">The National Democratic Congress (NDC) has directed Zakaria Abdulai, the suspended headmaster of Obuasi Senior High Technical School (SHTS), to step aside from the Juaben Constituency Chairmanship race pending an investigation by the Criminal Investigations Department (CID) of the Ghana Police Service.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>3News</h3><p class="summary">The party said the decision was taken in the interest of transparency and accountability, stressing that it did not amount to a determination of the merits of the allegations against Mr Abdulai.</p><a class="link-button secondary" href="https://3news.com/politics/ndc-rescinds-clearance-of-obuasi-shts-headmaster-to-contest-juaben-race" target="_blank" rel="noreferrer">Read at 3News</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The National Democratic Congress (NDC) has directed Zakaria Abdulai, the suspended headmaster of Obuasi Senior High Technical School (SHTS), to step aside from the Juaben Constituency Chairmanship race pending an investigation by the Criminal Investigations Department (CID) of the Ghana Police Service. In a statement issued on Tuesday, October 20, 2026, and signed by General Secretary Fifi Fiavi Kwetey, the party said its Functional Executive Committee (FEC) took the decision after further consideration. “FEC has directed that Mr Zakaria Abdulai step aside, in the overriding interest of transparency and accountability, to allow for an unhindered investigation by the Criminal Investigations Department (CID) of the Ghana Police Service,” the statement said.</p><a class="link-button secondary" href="https://www.myjoyonline.com/ndc-directs-accused-obuasi-shts-headmaster-to-step-aside-from-juaben-chairmanship-race/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
@@ -50,6 +60,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -71,6 +82,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

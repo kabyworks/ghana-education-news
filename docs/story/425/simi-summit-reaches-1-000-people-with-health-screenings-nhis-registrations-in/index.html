@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-19.38.33-1024x819.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "SIMI summit reaches 1,000 people with health screenings, NHIS registrations in Bono", "description": "Sustainable Impact Makers International (SIMI) says its 2026 Health Equity Summit reached more than 1,000 people in the Bono Region, combining community advocacy, health…", "datePublished": "2026-10-21T19:43:04Z", "mainEntityOfPage": "https://edulens360.com/story/425/simi-summit-reaches-1-000-people-with-health-screenings-nhis-registrations-in/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-19.38.33-1024x819.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">General · 21 Oct 2026 · 1 source</p>
       <div class="headline"><h1>SIMI summit reaches 1,000 people with health screenings, NHIS registrations in Bono</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-19.38.33-1024x819.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">Sustainable Impact Makers International (SIMI) says its 2026 Health Equity Summit reached more than 1,000 people in the Bono Region, combining community advocacy, health education and preventive services to address barriers to healthcare access.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">Sustainable Impact Makers International (SIMI) says its 2026 Health Equity Summit reached more than 1,000 people in the Bono Region, combining community advocacy, health education and preventive services to address barriers to healthcare access. The three-day initiative, held in Sunyani from July 23 to 25 under the theme “Health Equity in Action: From Periods to Parenthood, For All,” recorded more than 420 screening encounters across 13 service categories and completed over 500 National Health Insurance Scheme (NHIS) registrations. About 800 secondary school students also participated in a film screening and facilitated discussion on issues including menstrual health, consent, early marriage and school retention.</p><a class="link-button secondary" href="https://www.myjoyonline.com/simi-summit-reaches-1000-people-with-health-screenings-nhis-registrations-in-bono/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

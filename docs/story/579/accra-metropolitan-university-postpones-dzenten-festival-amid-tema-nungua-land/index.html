@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/Accra-Metro-University-1024x433.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Accra Metropolitan University postpones Dzenten Festival amid Tema-Nungua land dispute", "description": "Accra Metropolitan University has postponed the Dzenten Festival, scheduled for Sunday, November 1, 2026, citing security concerns arising from a dispute between the traditional…", "datePublished": "2026-10-29T14:22:23Z", "mainEntityOfPage": "https://edulens360.com/story/579/accra-metropolitan-university-postpones-dzenten-festival-amid-tema-nungua-land/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Accra-Metro-University-1024x433.png"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">University · 29 Oct 2026 · 1 source</p>
       <div class="headline"><h1>Accra Metropolitan University postpones Dzenten Festival amid Tema-Nungua land dispute</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/Accra-Metro-University-1024x433.png" referrerpolicy="no-referrer"></div>
       <p class="summary">Accra Metropolitan University has postponed the Dzenten Festival, scheduled for Sunday, November 1, 2026, citing security concerns arising from a dispute between the traditional authorities of Tema and Nungua over ownership of land and the Meridian Rock.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">Accra Metropolitan University has postponed the Dzenten Festival, scheduled for Sunday, November 1, 2026, citing security concerns arising from a dispute between the traditional authorities of Tema and Nungua over ownership of land and the Meridian Rock. In a statement issued on Thursday, October 29, signed by Mr Ebenezer T. Hanson, Head of Public Relations and Communications at Accra Metropolitan University, the University said the decision was taken as a precautionary measure until the concerns surrounding the dispute had been addressed.</p><a class="link-button secondary" href="https://www.myjoyonline.com/accra-metropolitan-university-postpones-dzenten-festival-amid-tema-nungua-land-dispute/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

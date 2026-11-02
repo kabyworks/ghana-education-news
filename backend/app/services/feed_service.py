@@ -94,7 +94,16 @@ def _ranked(session: Session, *, category: str | None, now: datetime) -> list[Fe
         return []
     articles_by_story = _articles_for([story.id for story in stories], session)
     ranked = [_rank_one(story, articles_by_story.get(story.id, []), now=now) for story in stories]
-    ranked.sort(key=lambda item: (item.rank, item.source_count, _sort_time(item.published_at), item.id), reverse=True)
+    # Newest calendar time first. Rank only breaks ties when times match.
+    ranked.sort(
+        key=lambda item: (
+            _sort_time(item.published_at).timestamp(),
+            item.rank,
+            item.source_count,
+            item.id,
+        ),
+        reverse=True,
+    )
     return ranked
 
 

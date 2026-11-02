@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-174349.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Government directs GTEC to prepare public universities for weekend reopening as it intensifies efforts to end GAUA strike", "description": "Education Minister Haruna Iddrisu has directed the Ghana Tertiary Education Commission (GTEC) to ask public universities to announce their reopening dates towards the weekend, as…", "datePublished": "2026-10-12T16:47:19Z", "mainEntityOfPage": "https://edulens360.com/story/172/government-directs-gtec-to-prepare-public-universities-for-weekend-reopening-as/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-174349.png"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">University · 12 Oct 2026 · 1 source</p>
       <div class="headline"><h1>Government directs GTEC to prepare public universities for weekend reopening as it intensifies efforts to end GAUA strike</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-174349.png" referrerpolicy="no-referrer"></div>
       <p class="summary">Education Minister Haruna Iddrisu has directed the Ghana Tertiary Education Commission (GTEC) to ask public universities to announce their reopening dates towards the weekend, as the government intensifies efforts to end the Ghana Association of University Administrators (GAUA) strike.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">Education Minister Haruna Iddrisu has directed the Ghana Tertiary Education Commission (GTEC) to ask public universities to announce their reopening dates towards the weekend, as the government intensifies efforts to end the Ghana Association of University Administrators (GAUA) strike. He expressed optimism that the association would suspend the industrial action in the coming days to allow academic activities to resume across public universities. Mr Iddrisu made the remarks on Monday, October 12, 2026, after a meeting with the leadership of GAUA and the Technical University Senior Administrators Association of Ghana (TUSAAG), alongside GTEC. The strike has disrupted administrative operations at public universities, forcing the Universi</p><a class="link-button secondary" href="https://www.myjoyonline.com/government-directs-gtec-to-prepare-public-universities-for-weekend-reopening-as-it-intensifies-efforts-to-end-gaua-strike/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

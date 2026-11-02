@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG_7788.JPG-1-1024x383.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Sex therapist calls for national sexuality education policy in Ghana", "description": "A US-trained sex therapist, Joshua Kwame Yeboah, has called on the government and stakeholders to develop a national sexuality education policy to address gaps in public…", "datePublished": "2026-10-22T16:40:50Z", "mainEntityOfPage": "https://edulens360.com/story/445/sex-therapist-calls-for-national-sexuality-education-policy-in-ghana/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG_7788.JPG-1-1024x383.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">General · 22 Oct 2026 · 1 source</p>
       <div class="headline"><h1>Sex therapist calls for national sexuality education policy in Ghana</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG_7788.JPG-1-1024x383.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">A US-trained sex therapist, Joshua Kwame Yeboah, has called on the government and stakeholders to develop a national sexuality education policy to address gaps in public understanding and strengthen professional practice in Ghana.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">A US-trained sex therapist, Joshua Kwame Yeboah, has called on the government and stakeholders to develop a national sexuality education policy to address gaps in public understanding and strengthen professional practice in Ghana. Mr Yeboah, Founder and Chief Executive Officer of the Institute of Sexuality, Marriage and Family Life Research and Training (iSMART), said sexuality remained difficult to discuss constructively in many homes, schools, churches and communities. “In some homes, schools, churches and communities, sexuality remains too uncomfortable to discuss constructively. Young people may be warned against sexual activity without being adequately equipped to understand puberty, personal boundaries, consent, abuse prevention and responsible decision-making,” he said.</p><a class="link-button secondary" href="https://www.myjoyonline.com/sex-therapist-calls-for-national-sexuality-education-policy-in-ghana/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

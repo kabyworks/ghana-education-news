@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-14.09.30-875x1024.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Mfantsipim @150 gala honours Alex Apau Dadey and other distinguished alumni", "description": "Mfantsipim School has honoured distinguished alumni, members of staff and corporate partners at its 150th anniversary Awards and Fundraising Dinner, held on Saturday, October 31,…", "datePublished": "2026-11-01T15:08:25Z", "mainEntityOfPage": "https://edulens360.com/story/623/mfantsipim-150-gala-honours-alex-apau-dadey-and-other-distinguished-alumni/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-14.09.30-875x1024.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">General · 1 Nov 2026 · 1 source</p>
       <div class="headline"><h1>Mfantsipim @150 gala honours Alex Apau Dadey and other distinguished alumni</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-14.09.30-875x1024.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">Mfantsipim School has honoured distinguished alumni, members of staff and corporate partners at its 150th anniversary Awards and Fundraising Dinner, held on Saturday, October 31, 2026.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">Mfantsipim School has honoured distinguished alumni, members of staff and corporate partners at its 150th anniversary Awards and Fundraising Dinner, held on Saturday, October 31, 2026. The event brought together old boys, invited guests, institutional partners and corporate leaders to celebrate the school&#x27;s 150-year contribution to education and national development while raising funds towards its long-term development priorities. A major highlight of the evening was the recognition of individuals whose achievements and contributions reflect the school&#x27;s values and traditions. Executive Chairman of KGL Group, Alex Apau Dadey, received two honours — the Partner of Impact Award and a special category award recognising his contributions to Mfantsipim.</p><a class="link-button secondary" href="https://www.myjoyonline.com/mfantsipim-150-gala-honours-alex-apau-dadey-and-other-distinguished-alumni/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

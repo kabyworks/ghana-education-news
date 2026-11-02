@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/10/we-will-get-trauma-support-for-a.jpg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "We’ll get trauma support for all Obuasi SHTS sexual assault victims and protect whistleblowers —Haruna Iddrisu", "description": "Education Minister Haruna Iddrisu has promised trauma-informed support for 19 students affected by the alleged sexual abuse case at Obuasi Senior High Technical School (SHTS),…", "datePublished": "2026-10-26T17:38:13Z", "mainEntityOfPage": "https://edulens360.com/story/523/well-get-trauma-support-for-all-obuasi-shts-sexual-assault-victims-and-protect/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/10/we-will-get-trauma-support-for-a.jpg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 26 Oct 2026 · 2 sources</p>
       <div class="headline"><h1>We’ll get trauma support for all Obuasi SHTS sexual assault victims and protect whistleblowers —Haruna Iddrisu</h1><img class="card-photo" alt="" src="https://www.adomonline.com/wp-content/uploads/2026/10/we-will-get-trauma-support-for-a.jpg" referrerpolicy="no-referrer"></div>
       <p class="summary">Education Minister Haruna Iddrisu has promised trauma-informed support for 19 students affected by the alleged sexual abuse case at Obuasi Senior High Technical School (SHTS), while announcing measures to protect students and make it easier for them to report abuse.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Adom Online Education</h3><p class="summary">Education Minister Haruna Iddrisu has announced plans to provide trauma-informed support to 19 students affected by the alleged sexual abuse scandal at Obuasi Senior High Technical School (SHTS). He said the intervention forms part of broader measures being introduced by the Ministry of Education to protect students, support victims of abuse and strengthen reporting mechanisms […]</p><a class="link-button secondary" href="https://www.adomonline.com/obuasi-shts-sexual-assault-victims-to-receive-trauma-support-haruna-iddrisu/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">Education Minister Haruna Iddrisu has promised trauma-informed support for 19 students affected by the alleged sexual abuse case at Obuasi Senior High Technical School (SHTS), while announcing measures to protect students and make it easier for them to report abuse.</p><a class="link-button secondary" href="https://www.myjoyonline.com/well-get-trauma-support-for-all-obuasi-shts-sexual-assault-victims-and-protect-whistleblowers-haruna-iddrisu/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
@@ -50,6 +60,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -71,6 +82,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

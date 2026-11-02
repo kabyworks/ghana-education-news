@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-23-at-18.08.55-1.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "NPP-aligned group calls for independent investigation into Obuasi SHTS headmaster allegations", "description": "An NPP-aligned group in the Ashanti Region has called for an independent investigation into allegations of misconduct involving the Headmaster of Obuasi Senior High School,…", "datePublished": "2026-10-23T17:20:25Z", "mainEntityOfPage": "https://edulens360.com/story/469/npp-aligned-group-calls-for-independent-investigation-into-obuasi-shts/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-23-at-18.08.55-1.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 23 Oct 2026 · 1 source</p>
       <div class="headline"><h1>NPP-aligned group calls for independent investigation into Obuasi SHTS headmaster allegations</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-23-at-18.08.55-1.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">An NPP-aligned group in the Ashanti Region has called for an independent investigation into allegations of misconduct involving the Headmaster of Obuasi Senior High School, Zakaria Abdulai, citing concerns about student safety and the credibility of the inquiry.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">An NPP-aligned group in the Ashanti Region has called for an independent investigation into allegations of misconduct involving the Headmaster of Obuasi Senior High School, Zakaria Abdulai, citing concerns about student safety and the credibility of the inquiry. The group is also urging the Ghana Police Service to investigate possible criminal offences, preserve relevant evidence and protect students and witnesses from intimidation. In a statement issued on Friday, October 23, 2026, and signed by its Regional Coordinator, Kwabena Nsenkyire, the group condemned the alleged misconduct and called for accountability if the allegations are substantiated.</p><a class="link-button secondary" href="https://www.myjoyonline.com/npp-aligned-group-calls-for-independent-investigation-into-obuasi-shts-headmaster-allegations/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

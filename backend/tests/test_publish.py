@@ -54,7 +54,7 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
     assert "data/feed.json" in (destination / "app.js").read_text(encoding="utf-8")
 
     worker = (destination / "sw.js").read_text(encoding="utf-8")
-    assert "ghanaed-phone-4" in worker
+    assert "ghanaed-phone-6" in worker
     privacy = (destination / "privacy" / "index.html").read_text(encoding="utf-8")
     assert "Privacy policy" in privacy
     assert "com.edulens360.app" in privacy
@@ -70,8 +70,11 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
     feed = json.loads((destination / "data" / "feed.json").read_text(encoding="utf-8"))
     assert feed["generated_at"]
     assert {item["name"] for item in feed["categories"]} == {"teachers", "basic_schools"}
-    assert [story["category"] for story in feed["stories"]] == ["teachers", "basic_schools"]
-    strike = feed["stories"][0]
+    assert [story["category"] for story in feed["stories"]] == ["basic_schools", "teachers"]
+    strike = next(story for story in feed["stories"] if "strike" in story["title"].lower())
+    story_html = (destination / strike["path"] / "index.html").read_text(encoding="utf-8")
+    assert 'id="share-story"' in story_html
+    assert 'href="../../../#/saved"' in story_html
     assert {article["title"] for article in strike["articles"]} >= {
         "Teacher unions declare a nationwide strike",
         "Abosamso assemblyman takes over a classroom during the teacher strike",
@@ -106,8 +109,9 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
     with Session(get_engine()) as session:
         publish_snapshot(session, destination)
     updated = json.loads((destination / "data" / "feed.json").read_text(encoding="utf-8"))
-    assert updated["stories"][0]["title"] == "Edited for the phone"
-    edited_path = updated["stories"][0]["path"]
+    edited_story = next(story for story in updated["stories"] if story["id"] == story_id)
+    assert edited_story["title"] == "Edited for the phone"
+    edited_path = edited_story["path"]
     assert (destination / edited_path / "index.html").is_file()
     assert "Edited for the phone" in (destination / "index.html").read_text(encoding="utf-8")
     assert not (destination / strike["path"]).exists()
@@ -118,5 +122,5 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
         with pytest.raises(SnapshotRefused):
             publish_snapshot(session, destination)
     kept = json.loads((destination / "data" / "feed.json").read_text(encoding="utf-8"))
-    assert kept["stories"][0]["title"] == "Edited for the phone"
+    assert next(story for story in kept["stories"] if story["id"] == story_id)["title"] == "Edited for the phone"
     assert len(kept["stories"]) == 2

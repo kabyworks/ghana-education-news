@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://media.3news.com/Obuasi%20SecTec-720x378.webp">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Obuasi SHTS to reopen to continuing students next week – GES", "description": "The Ghana Education Service (GES) says continuing students of Obuasi Senior High Technical School (SHTS) are expected to return to school next week, following a temporary closure…", "datePublished": "2026-10-22T20:26:36Z", "mainEntityOfPage": "https://edulens360.com/story/450/obuasi-shts-to-reopen-to-continuing-students-next-week-ges/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://media.3news.com/Obuasi%20SecTec-720x378.webp"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 22 Oct 2026 · 3 sources</p>
       <div class="headline"><h1>Obuasi SHTS to reopen to continuing students next week – GES</h1><img class="card-photo" alt="" src="https://media.3news.com/Obuasi%20SecTec-720x378.webp" referrerpolicy="no-referrer"></div>
       <p class="summary">The Ghana Education Service (GES) says continuing students of Obuasi Senior High Technical School (SHTS) are expected to return to school next week, following a temporary closure that began in August.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>3News</h3><p class="summary">The Ghana Education Service (GES) has said the Obuasi Senior High Technical School is expected to reopen to continuing students next week following its temporary closure in August 2026.</p><a class="link-button secondary" href="https://3news.com/news/obuasi-shs-to-reopen-to-continuing-students-next-week-ges" target="_blank" rel="noreferrer">Read at 3News</a></section>
 <section class="source"><h3>Adom Online Education</h3><p class="summary">The Ghana Education Service (GES) says preparations are far advanced for the reopening of Obuasi Senior High Technical School for continuing students, with academic work expected to resume next week. In a statement signed by Daniel Fenyi, Head of Public Relations at the GES on Thursday, October 22, 2026, the Service said efforts were underway […]</p><a class="link-button secondary" href="https://www.adomonline.com/obuasi-shts-to-reopen-for-continuing-students-next-week-ges/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Ghana Education Service (GES) says continuing students of Obuasi Senior High Technical School (SHTS) are expected to return to school next week, following a temporary closure that began in August. In a press release issued on Thursday, October 22, 2026, and signed by its Head of Public Relations, Daniel Fenyi, the Service said preparations were far advanced for the resumption of academic work. The school was temporarily closed to continuing students on August 5 following disturbances on campus. “Management assures that preparations are far advanced for continuing students to return to school sometime next week,” the statement said.</p><a class="link-button secondary" href="https://www.myjoyonline.com/obuasi-shts-to-reopen-to-continuing-students-next-week-ges/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
@@ -51,6 +61,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -72,6 +83,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

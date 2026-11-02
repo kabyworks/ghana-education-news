@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-07.34.27-1024x454.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "US Embassy commissions six-unit classroom block at Anfoega Wademaxe", "description": "A six-unit classroom block at Anfoega Wademaxe in the North Dayi District of the Volta Region has been renovated and furnished with support from the United States Embassy’s…", "datePublished": "2026-10-28T14:45:38Z", "mainEntityOfPage": "https://edulens360.com/story/567/us-embassy-commissions-six-unit-classroom-block-at-anfoega-wademaxe/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-07.34.27-1024x454.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 28 Oct 2026 · 1 source</p>
       <div class="headline"><h1>US Embassy commissions six-unit classroom block at Anfoega Wademaxe</h1><img class="card-photo" alt="" src="https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-07.34.27-1024x454.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">A six-unit classroom block at Anfoega Wademaxe in the North Dayi District of the Volta Region has been renovated and furnished with support from the United States Embassy’s Ambassador’s Special Self-Help Programme.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Adom Online Education</h3><p class="summary">A six-unit classroom block at Anfoega Wademaxe in the North Dayi District of the Volta Region has been renovated and furnished with support from the United States Embassy’s Ambassador’s Special Self-Help Programme. The project, funded with an $8,000 grant, is expected to transform teaching and learning in Anfoega Wademaxe and surrounding communities, where pupils had […]</p><a class="link-button secondary" href="https://www.adomonline.com/us-embassy-commissions-six-unit-classroom-block-at-anfoega-wademaxe/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

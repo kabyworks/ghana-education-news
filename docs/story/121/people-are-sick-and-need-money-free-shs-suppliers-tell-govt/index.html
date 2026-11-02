@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/10/Mahama-housing-1024x531.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "People are sick and need money – Free SHS suppliers tell gov’t", "description": "President of the Free Senior High School (SHS) Suppliers Association, Agnes Abedua, has appealed to the government to urgently settle outstanding debts owed them, saying some…", "datePublished": "2026-10-08T15:21:28Z", "mainEntityOfPage": "https://edulens360.com/story/121/people-are-sick-and-need-money-free-shs-suppliers-tell-govt/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/10/Mahama-housing-1024x531.png"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 8 Oct 2026 · 1 source</p>
       <div class="headline"><h1>People are sick and need money – Free SHS suppliers tell gov’t</h1><img class="card-photo" alt="" src="https://www.adomonline.com/wp-content/uploads/2026/10/Mahama-housing-1024x531.png" referrerpolicy="no-referrer"></div>
       <p class="summary">President of the Free Senior High School (SHS) Suppliers Association, Agnes Abedua, has appealed to the government to urgently settle outstanding debts owed them, saying some members are now battling illness, financial hardship, and even deaths in their families.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Adom Online Education</h3><p class="summary">President of the Free Senior High School (SHS) Suppliers Association, Agnes Abedua, has appealed to the government to urgently settle outstanding debts owed them, saying some members are now battling illness, financial hardship, and even deaths in their families. According to her, suppliers have been waiting for payment since 2024 despite financing food supplies through […]</p><a class="link-button secondary" href="https://www.adomonline.com/people-are-sick-and-need-money-free-shs-suppliers-tell-govt/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

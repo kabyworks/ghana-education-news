@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-08.20.27-820x1024.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Education Ministry welcomes suspension of teachers’ strike", "description": "The Minority Caucus in Parliament has welcomed the suspension of the nationwide teachers’ strike by the Ghana National Association of Teachers (GNAT), the National Association of…", "datePublished": "2026-10-14T10:08:40Z", "mainEntityOfPage": "https://edulens360.com/story/13/education-ministry-welcomes-suspension-of-teachers-strike/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-08.20.27-820x1024.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Examinations · 14 Oct 2026 · 3 sources</p>
       <div class="headline"><h1>Education Ministry welcomes suspension of teachers’ strike</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-08.20.27-820x1024.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">The Minority Caucus in Parliament has welcomed the suspension of the nationwide teachers’ strike by the Ghana National Association of Teachers (GNAT), the National Association of Graduate Teachers (NAGRAT) and the Pre-Tertiary Teachers Association of Ghana (PRETAG), while urging the government to honour its commitme...</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>3News</h3><p class="summary">“There should be a learning recovery plan from the government to aid the students so that what the schools have lost, we can recover,” he said.</p><a class="link-button secondary" href="https://3news.com/news/teachers-strike-offinso-north-mp-pushes-for-learning-recovery-plan" target="_blank" rel="noreferrer">Read at 3News</a></section>
 <section class="source"><h3>Adom Online Education</h3><p class="summary">The Headmistress of Dichemso M/A School, Helena Amponsah, says teachers are going house-to-house in the Dichemso suburb of Kumasi to encourage pupils to return to the classroom following the suspension of the teachers’ strike. According to her, although teachers reported to school in full on the first day after the suspension, pupil attendance remained low. […]</p><a class="link-button secondary" href="https://www.adomonline.com/dichemso-m-a-school-teachers-go-house-to-house-to-get-pupils-back-to-class-after-strike-suspension/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Minority Caucus in Parliament has welcomed the suspension of the nationwide teachers’ strike by the Ghana National Association of Teachers (GNAT), the National Association of Graduate Teachers (NAGRAT) and the Pre-Tertiary Teachers Association of Ghana (PRETAG), while urging the government to honour its commitments to the unions. In a statement issued on Wednesday, October 14, 2026, the Minority commended teachers for returning to the classroom despite their outstanding grievances, saying they had prioritised the education of Ghanaian children. “Their return is an act of patriotism and good faith,” the statement said. The caucus also commended the union leadership, parents and the National Council of Parent-Teacher Associations, and acknowledged the roles of the Council of State and the Fair Wages and Salaries Commission in facilitating discussions. The Minority argued that the strike could have been prevented if the government had implemented previously agreed conditions of servic</p><a class="link-button secondary" href="https://www.myjoyonline.com/minority-welcomes-suspension-of-teachers-strike-demands-timely-payment-of-promotion-arrears/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
@@ -51,6 +61,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -72,6 +83,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

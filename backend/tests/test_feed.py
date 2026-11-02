@@ -55,18 +55,21 @@ def test_feed_ranks_coverage_and_search_stays_on_headlines(client):
         run_ingestion(session, MapFeedClient(feeds), force=True)
 
     feed = client.get("/feed").json()
-    assert [item["source_count"] for item in feed] == [2, 1]
-    assert feed[0]["rank"] > feed[1]["rank"]
-    assert feed[0]["category"] == "teachers"
+    assert [item["category"] for item in feed] == ["basic_schools", "teachers"]
+    assert feed[0]["published_at"] >= feed[1]["published_at"]
+    assert [item["published_at"] for item in feed] == sorted(
+        (item["published_at"] for item in feed), reverse=True
+    )
     assert feed[0]["published_at"].startswith("2026-10-05")
-    assert set(feed[0]["sources"]) == {"Desk One", "Desk Two"}
+    assert feed[1]["source_count"] == 2
+    assert set(feed[1]["sources"]) == {"Desk One", "Desk Two"}
     assert "excerpt" not in feed[0]
     assert "content" not in feed[0]
     assert "relevance_reason" not in feed[0]
 
     teachers = client.get("/feed?category=teachers").json()
     assert len(teachers) == 1
-    assert teachers[0]["id"] == feed[0]["id"]
+    assert teachers[0]["id"] == feed[1]["id"]
     assert client.get("/feed?category=nope").status_code == 422
     assert client.get("/feed?offset=1").json()[0]["id"] == feed[1]["id"]
 
@@ -77,7 +80,7 @@ def test_feed_ranks_coverage_and_search_stays_on_headlines(client):
 
     by_member_headline = client.get("/feed/search?q=abosamso").json()
     assert len(by_member_headline) == 1
-    assert by_member_headline[0]["id"] == feed[0]["id"]
+    assert by_member_headline[0]["id"] == feed[1]["id"]
     assert "Abosamso" not in by_member_headline[0]["title"]
 
     kindergarten = client.get("/feed/search?q=kindergarten").json()
@@ -85,8 +88,8 @@ def test_feed_ranks_coverage_and_search_stays_on_headlines(client):
     assert kindergarten[0]["category"] == "basic_schools"
     assert client.get("/feed/search?q=a").status_code == 422
 
-    detail = client.get(f"/feed/{feed[0]['id']}").json()
-    assert detail["rank"] == feed[0]["rank"]
+    detail = client.get(f"/feed/{feed[1]['id']}").json()
+    assert detail["rank"] == feed[1]["rank"]
     assert len(detail["articles"]) == 2
     assert {item["source_name"] for item in detail["articles"]} == {"Desk One", "Desk Two"}
     for article in detail["articles"]:

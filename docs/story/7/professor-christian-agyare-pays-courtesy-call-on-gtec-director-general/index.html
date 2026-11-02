@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://gtec.edu.gh/wp-content/uploads/2026/08/199faf31-237e-4d92-af2b-30236854ec97-e1787746429537.jpg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Professor Christian Agyare Pays Courtesy Call on GTEC Director-General", "description": "The newly appointed Vice-Chancellor of the Kwame Nkrumah University of Science and Technology (KNUST), Professor Christian Agyare, has paid a courtesy call on the…", "datePublished": "2026-08-26T11:50:11Z", "mainEntityOfPage": "https://edulens360.com/story/7/professor-christian-agyare-pays-courtesy-call-on-gtec-director-general/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://gtec.edu.gh/wp-content/uploads/2026/08/199faf31-237e-4d92-af2b-30236854ec97-e1787746429537.jpg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">University · 26 Aug 2026 · 1 source</p>
       <div class="headline"><h1>Professor Christian Agyare Pays Courtesy Call on GTEC Director-General</h1><img class="card-photo" alt="" src="https://gtec.edu.gh/wp-content/uploads/2026/08/199faf31-237e-4d92-af2b-30236854ec97-e1787746429537.jpg" referrerpolicy="no-referrer"></div>
       <p class="summary">The newly appointed Vice-Chancellor of the Kwame Nkrumah University of Science and Technology (KNUST), Professor Christian Agyare, has paid a courtesy call on the Director-General of the Ghana Tertiary Education Commission (GTEC), Professor Jinapor, as part of efforts to strengthen the collaborative relationship bet...</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Ghana Tertiary Education Commission</h3><p class="summary">The newly appointed Vice-Chancellor of the Kwame Nkrumah University of Science and Technology (KNUST), Professor Christian Agyare, has paid a courtesy call on the Director-General of the Ghana Tertiary Education Commission (GTEC), Professor Jinapor, as part of efforts to strengthen the collaborative relationship between the University and the Commission. The Vice-Chancellor of KNUST, Professor Christian […] The post Professor Christian Agyare Pays Courtesy Call on GTEC Director-General appeared first on GTEC.</p><a class="link-button secondary" href="https://gtec.edu.gh/professor-christian-agyare-pays-courtesy-call-on-gtec-director-general/" target="_blank" rel="noreferrer">Read at Ghana Tertiary Education Commission</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

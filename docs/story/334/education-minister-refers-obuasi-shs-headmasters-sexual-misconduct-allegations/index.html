@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-5.56.10-AM.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Education Minister refers Obuasi SHS headmaster’s sexual misconduct allegations to CID", "description": "The Minister for Education, Haruna Iddrisu, has referred allegations of sexual misconduct involving the headmaster of Obuasi Senior High Technical School, Zakaria Abdulai, and…", "datePublished": "2026-10-19T19:34:13Z", "mainEntityOfPage": "https://edulens360.com/story/334/education-minister-refers-obuasi-shs-headmasters-sexual-misconduct-allegations/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-5.56.10-AM.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 19 Oct 2026 · 2 sources</p>
       <div class="headline"><h1>Education Minister refers Obuasi SHS headmaster’s sexual misconduct allegations to CID</h1><img class="card-photo" alt="" src="https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-5.56.10-AM.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">The Minister for Education, Haruna Iddrisu, has referred allegations of sexual misconduct involving the headmaster of Obuasi Senior High Technical School, Zakaria Abdulai, and female students to the Criminal Investigations Department (CID) for investigation.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Adom Online Education</h3><p class="summary">The Minister for Education, Haruna Iddrisu, has referred allegations of sexual misconduct involving the headmaster of Obuasi Senior High Technical School and female students to the Criminal Investigations Department (CID) for investigation. The move is intended to allow the police to investigate the criminal aspects of the case while the education authorities conduct separate administrative […]</p><a class="link-button secondary" href="https://www.adomonline.com/education-minister-refers-obuasi-shts-headmaster-sexual-misconduct-allegations-to-cid/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Minister for Education, Haruna Iddrisu, has referred allegations of sexual misconduct involving the headmaster of Obuasi Senior High Technical School, Zakaria Abdulai, and female students to the Criminal Investigations Department (CID) for investigation.</p><a class="link-button secondary" href="https://www.myjoyonline.com/education-minister-refers-obuasi-shs-headmasters-sexual-misconduct-allegations-to-cid/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
@@ -50,6 +60,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -71,6 +82,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

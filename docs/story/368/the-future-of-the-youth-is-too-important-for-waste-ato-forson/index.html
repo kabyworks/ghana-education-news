@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-12.22.33-1024x731.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "The future of the youth is too important for waste — Ato Forson", "description": "Finance Minister Dr. Cassiel Ato Forson has placed value for money at the heart of the New Economy agenda, saying Ghana cannot afford to waste resources needed to create…", "datePublished": "2026-10-20T17:33:46Z", "mainEntityOfPage": "https://edulens360.com/story/368/the-future-of-the-youth-is-too-important-for-waste-ato-forson/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-12.22.33-1024x731.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">University · 20 Oct 2026 · 2 sources</p>
       <div class="headline"><h1>The future of the youth is too important for waste — Ato Forson</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-12.22.33-1024x731.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">Finance Minister Dr. Cassiel Ato Forson has placed value for money at the heart of the New Economy agenda, saying Ghana cannot afford to waste resources needed to create opportunities for its young people.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>3News</h3><p class="summary">Finance Minister Ato Forson tells University of Ghana students every New Economy project must pass five value-for-money tests on jobs, exports and growth.</p><a class="link-button secondary" href="https://3news.com/news/the-future-of-young-people-is-too-important-for-waste-ato-forson" target="_blank" rel="noreferrer">Read at 3News</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">Finance Minister Dr. Cassiel Ato Forson has placed value for money at the heart of the New Economy agenda, saying Ghana cannot afford to waste resources needed to create opportunities for its young people. Addressing faculty and students at the University of Ghana, Dr Forson said the programme’s investments must be judged by their ability […]</p><a class="link-button secondary" href="https://www.myjoyonline.com/the-future-of-the-youth-is-too-important-for-waste-ato-forson/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
@@ -50,6 +60,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -71,6 +82,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-08-at-14.51.58.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "TUTAG to suspend strike after talks with GTEC, technical university vice-chancellors", "description": "The Technical University Teachers’ Association of Ghana (TUTAG) is set to suspend its strike following discussions with the Ghana Tertiary Education Commission (GTEC) and the…", "datePublished": "2026-10-29T06:23:06Z", "mainEntityOfPage": "https://edulens360.com/story/575/tutag-to-suspend-strike-after-talks-with-gtec-technical-university-vice/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-08-at-14.51.58.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Teachers · 29 Oct 2026 · 2 sources</p>
       <div class="headline"><h1>TUTAG to suspend strike after talks with GTEC, technical university vice-chancellors</h1><img class="card-photo" alt="" src="https://www.adomonline.com/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-08-at-14.51.58.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">The Technical University Teachers’ Association of Ghana (TUTAG) is set to suspend its strike following discussions with the Ghana Tertiary Education Commission (GTEC) and the Vice-Chancellors of Technical Universities of Ghana (VCTU-G) to resolve concerns that triggered the industrial action.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Adom Online Education</h3><p class="summary">The Technical University Teachers’ Association of Ghana (TUTAG) is expected to suspend its ongoing industrial action following an agreement reached with the Ghana Tertiary Education Commission (GTEC) and the Vice-Chancellors of Technical Universities of Ghana (VCTU-G). The development follows a meeting held on Wednesday, October 28, 2026, during which the parties discussed outstanding concerns affecting […]</p><a class="link-button secondary" href="https://www.adomonline.com/tutag-agrees-to-suspend-strike-after-talks-with-gtec-technical-university-vice-chancellors/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Technical University Teachers’ Association of Ghana (TUTAG) is set to suspend its strike following discussions with the Ghana Tertiary Education Commission (GTEC) and the Vice-Chancellors of Technical Universities of Ghana (VCTU-G) to resolve concerns that triggered the industrial action.</p><a class="link-button secondary" href="https://www.myjoyonline.com/tutag-to-suspend-strike-after-talks-with-gtec-technical-university-vice-chancellors/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
@@ -50,6 +60,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -71,6 +82,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

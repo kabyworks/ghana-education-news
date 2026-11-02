@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-11.55.05-1024x576.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "15 years of waiting: Inside La Presec’s desperate fight for classrooms, computers and dignity", "description": "For more than a decade, the walls of an unfinished three-storey classroom block at La Presec have stood as a painful reminder of a promise yet to be fulfilled. The concrete…", "datePublished": "2026-09-30T07:07:08Z", "mainEntityOfPage": "https://edulens360.com/story/32/15-years-of-waiting-inside-la-presecs-desperate-fight-for-classrooms-computers/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-11.55.05-1024x576.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 30 Sep 2026 · 1 source</p>
       <div class="headline"><h1>15 years of waiting: Inside La Presec’s desperate fight for classrooms, computers and dignity</h1><img class="card-photo" alt="" src="https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-11.55.05-1024x576.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">For more than a decade, the walls of an unfinished three-storey classroom block at La Presec have stood as a painful reminder of a promise yet to be fulfilled. The concrete structure was expected to provide much-needed classroom space for the school.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Adom Online Education</h3><p class="summary">For more than a decade, the walls of an unfinished three-storey classroom block at La Presec have stood as a painful reminder of a promise yet to be fulfilled. The concrete structure was expected to provide much-needed classroom space for the school. Fifteen years later, it remains unfinished. Sections of the structure have become weathered […]</p><a class="link-button secondary" href="https://www.adomonline.com/15-years-of-waiting-inside-la-presecs-desperate-fight-for-classrooms-computers-and-dignity/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

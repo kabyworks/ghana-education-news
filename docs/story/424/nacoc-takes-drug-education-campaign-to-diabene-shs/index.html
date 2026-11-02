@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/7a0adb04-8b9b-49c8-a33a-e896cc48c727-800x600-1.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "NACOC takes drug education campaign to Diabene SHS", "description": "The Western Regional Command of the Narcotics Control Commission (NACOC) has launched a drug education and sensitisation campaign targeting newly admitted Senior High School…", "datePublished": "2026-10-21T18:35:49Z", "mainEntityOfPage": "https://edulens360.com/story/424/nacoc-takes-drug-education-campaign-to-diabene-shs/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/7a0adb04-8b9b-49c8-a33a-e896cc48c727-800x600-1.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 21 Oct 2026 · 1 source</p>
       <div class="headline"><h1>NACOC takes drug education campaign to Diabene SHS</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/7a0adb04-8b9b-49c8-a33a-e896cc48c727-800x600-1.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">The Western Regional Command of the Narcotics Control Commission (NACOC) has launched a drug education and sensitisation campaign targeting newly admitted Senior High School (SHS) students to raise awareness of the dangers of drug use.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Western Regional Command of the Narcotics Control Commission (NACOC) has launched a drug education and sensitisation campaign targeting newly admitted Senior High School (SHS) students to raise awareness of the dangers of drug use.</p><a class="link-button secondary" href="https://www.myjoyonline.com/nacoc-takes-drug-education-campaign-to-diabene-shs/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

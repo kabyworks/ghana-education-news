@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/09/image-2026-09-25T045213.464.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Students in six Kwahu South SHSs forced to sleep on floors over furniture, bed shortages", "description": "Six Senior High and Technical Schools in the Kwahu South Municipality are facing severe shortages of beds, furniture, dining tables and chairs, forcing some students to sleep on…", "datePublished": "2026-09-25T12:08:52Z", "mainEntityOfPage": "https://edulens360.com/story/14/students-in-six-kwahu-south-shss-forced-to-sleep-on-floors-over-furniture-bed/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/09/image-2026-09-25T045213.464.png"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 25 Sep 2026 · 1 source</p>
       <div class="headline"><h1>Students in six Kwahu South SHSs forced to sleep on floors over furniture, bed shortages</h1><img class="card-photo" alt="" src="https://www.adomonline.com/wp-content/uploads/2026/09/image-2026-09-25T045213.464.png" referrerpolicy="no-referrer"></div>
       <p class="summary">Six Senior High and Technical Schools in the Kwahu South Municipality are facing severe shortages of beds, furniture, dining tables and chairs, forcing some students to sleep on classroom floors.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Adom Online Education</h3><p class="summary">Six Senior High and Technical Schools in the Kwahu South Municipality are facing severe shortages of beds, furniture, dining tables and chairs, forcing some students to sleep on classroom floors. The situation came to light when the Municipal Chief Executive (MCE) for Kwahu South, David Effah Osei Bonsu, popularly known as Ato Plane, visited the […]</p><a class="link-button secondary" href="https://www.adomonline.com/tears-in-damongo-court-as-accused-persons-show-alleged-torture-wounds-while-in-police-custody/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

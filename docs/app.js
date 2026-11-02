@@ -1,7 +1,9 @@
 const SAVED_KEY = "ghanaed.saved.v1";
 const PINNED_KEY = "ghanaed.categories.v1";
 const VISIT_KEY = "ghanaed.visit.v1";
+const SEEN_KEY = "ghanaed.seen.v1";
 const PAGE_SIZE = 20;
+let seenCutoff = null;
 
 const CATEGORY_LABELS = {
   teachers: "Teachers",
@@ -91,10 +93,6 @@ function formatWhen(value) {
   return date.toLocaleDateString(undefined, { day: "numeric", month: "short" });
 }
 
-function publishers(count) {
-  return count === 1 ? "1 publisher" : `${count} publishers`;
-}
-
 const SOURCE_DOMAINS = {
   "3News": "3news.com",
   "Adom Online Education": "adomonline.com",
@@ -164,7 +162,7 @@ function matchesStory(story, terms) {
   return terms.every((term) => new RegExp(`\\b${term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`).test(haystack));
 }
 
-function staticStories(current, offset) {
+function filterStories(current) {
   if (!catalog) throw new Error("The feed could not be loaded.");
   let stories = catalog.stories || [];
   if (current.category) stories = stories.filter((story) => story.category === current.category);
@@ -172,15 +170,138 @@ function staticStories(current, offset) {
     const terms = searchTerms(current.q);
     stories = terms.length ? stories.filter((story) => matchesStory(story, terms)) : [];
   }
-  return stories.slice(offset, offset + PAGE_SIZE);
+  return stories;
 }
 
-function updatedHeading() {
-  if (!STATIC || !catalog || !catalog.generated_at) return "";
-  const date = new Date(catalog.generated_at);
-  if (Number.isNaN(date.getTime())) return "";
-  const when = date.toLocaleString(undefined, { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
-  return `Latest update ${when}`;
+function staticStories(current, offset) {
+  return filterStories(current).slice(offset, offset + PAGE_SIZE);
+}
+
+function readSeenAt() {
+  const raw = localStorage.getItem(SEEN_KEY);
+  if (!raw) return null;
+  const when = Date.parse(raw);
+  return Number.isNaN(when) ? null : when;
+}
+
+function rememberVisit() {
+  localStorage.setItem(SEEN_KEY, new Date().toISOString());
+}
+
+function storyIsNew(story) {
+  if (seenCutoff == null) return false;
+  const when = Date.parse(story.published_at || "");
+  return !Number.isNaN(when) && when > seenCutoff;
+}
+
+function newCountFor(current, pageStories) {
+  if (STATIC) {
+    try {
+      return filterStories(current).filter(storyIsNew).length;
+    } catch {
+      return 0;
+    }
+  }
+  return (pageStories || []).filter(storyIsNew).length;
+}
+
+function updatedHeading(current, pageStories) {
+  const parts = [];
+  if (STATIC && catalog && catalog.generated_at) {
+    const date = new Date(catalog.generated_at);
+    if (!Number.isNaN(date.getTime())) {
+      const when = date.toLocaleString(undefined, {
+        day: "numeric",
+        month: "short",
+        hour: "numeric",
+        minute: "2-digit",
+      });
+      parts.push(`Latest update ${when}`);
+    }
+  }
+  if (!current.q) {
+    const fresh = newCountFor(current, pageStories);
+    if (fresh > 0) parts.push(fresh === 1 ? "1 new" : `${fresh} new`);
+  }
+  return parts.join(" · ");
+}
+
+function storyShareUrl(story) {
+  if (story.path) {
+    const path = String(story.path).replace(/^\/+/, "");
+    return `https://edulens360.com/${path}`;
+  }
+  return `https://edulens360.com/#/story/${story.id}`;
+}
+
+async function shareStory(story) {
+  const url = storyShareUrl(story);
+  const payload = {
+    title: story.title || "Edulens360",
+    text: story.summary || story.title || "Edulens360",
+    url,
+  };
+  if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+    try {
+      window.EdulensShare.share(payload.title, payload.text, url);
+      return "shared";
+    } catch {
+      // Fall through to browser share / copy.
+    }
+  }
+  if (typeof navigator.share === "function") {
+    try {
+      if (!navigator.canShare || navigator.canShare(payload)) {
+        await navigator.share(payload);
+        return "shared";
+      }
+    } catch (error) {
+      if (error && error.name === "AbortError") return "cancelled";
+    }
+  }
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      await navigator.clipboard.writeText(url);
+      return "copied";
+    }
+  } catch {
+    // Fall through to the prompt copy path.
+  }
+  try {
+    window.prompt("Copy this Edulens360 link:", url);
+    return "copied";
+  } catch {
+    return "failed";
+  }
+}
+
+function flashShareFeedback(host, message) {
+  if (!host) return;
+  host.querySelectorAll(".share-toast").forEach((node) => node.remove());
+  const tip = el("span", "share-toast", message);
+  host.append(tip);
+  window.setTimeout(() => tip.remove(), 1800);
+}
+
+function shareIcon() {
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("viewBox", "0 0 24 24");
+  svg.setAttribute("width", "14");
+  svg.setAttribute("height", "14");
+  svg.setAttribute("aria-hidden", "true");
+  svg.setAttribute("focusable", "false");
+  const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  path.setAttribute(
+    "d",
+    "M14 4h6v6M20 4l-9 9M10 5H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-3",
+  );
+  path.setAttribute("fill", "none");
+  path.setAttribute("stroke", "currentColor");
+  path.setAttribute("stroke-width", "1.8");
+  path.setAttribute("stroke-linecap", "round");
+  path.setAttribute("stroke-linejoin", "round");
+  svg.append(path);
+  return svg;
 }
 
 async function fetchJson(url) {
@@ -309,9 +430,10 @@ function categoryLink(name, active, pinned) {
 function renderCategories(active) {
   closeRemoveMenu();
   clear(categoriesEl);
+  categoriesEl.hidden = false;
   const current = route();
-  categoriesEl.hidden = current.name === "story";
-  if (current.name === "story") return;
+  const onStory = current.name === "story";
+  if (onStory) categoriesExpanded = false;
 
   const bar = el("div", "cat-bar");
   const latest = el("a", "", "Latest");
@@ -333,7 +455,7 @@ function renderCategories(active) {
   bar.append(saved);
   categoriesEl.append(bar);
 
-  if (!categoriesExpanded) return;
+  if (!categoriesExpanded || onStory) return;
   const hidden = categoryNames.filter((name) => !visibleCategories().includes(name));
   if (!hidden.length) return;
   const list = el("div", "category-list");
@@ -400,13 +522,30 @@ function storyHref(story) {
 function storyCard(story) {
   const card = el("article", "story-card");
   card.dataset.id = String(story.id);
+  if (storyIsNew(story)) card.classList.add("is-new");
   const link = el("a", "story-link");
   link.href = storyHref(story);
   const when = formatWhen(story.published_at);
-  if (when) link.append(el("p", "kicker", when));
+  if (when || storyIsNew(story)) {
+    const kicker = el("p", "kicker");
+    if (storyIsNew(story)) kicker.append(el("span", "new-mark", "New"));
+    if (when) kicker.append(document.createTextNode(storyIsNew(story) ? ` · ${when}` : when));
+    link.append(kicker);
+  }
   link.append(headline(story));
   link.append(el("p", "summary", story.summary));
   link.append(cardMeta(story));
+  const share = el("button", "card-share");
+  share.type = "button";
+  share.setAttribute("aria-label", "Share story");
+  share.append(shareIcon());
+  share.addEventListener("click", async (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    const result = await shareStory(story);
+    if (result === "copied") flashShareFeedback(card, "Link copied");
+    else if (result === "failed") flashShareFeedback(card, "Sharing unavailable");
+  });
   const save = el("button", "card-save");
   save.type = "button";
   save.append(bookmarkIcon());
@@ -427,7 +566,7 @@ function storyCard(story) {
     }
     apply(story);
   });
-  card.append(link, save);
+  card.append(link, share, save);
   return card;
 }
 
@@ -435,9 +574,10 @@ function itemHasArticles(story) {
   return Array.isArray(story.articles) && story.articles.length > 0;
 }
 
-function renderList(stories, { heading, more } = {}) {
+function renderList(stories, { heading, note, more } = {}) {
   clear(main);
-  if (heading) main.append(el("p", "meta", heading));
+  if (heading) main.append(el("p", "meta feed-status", heading));
+  if (note) main.append(el("p", "notice freshness", note));
   if (!stories.length) {
     const empty = heading && heading.startsWith("Results") ? "No stories match that search." : "No stories in this list.";
     main.append(el("p", "notice", empty));
@@ -454,24 +594,42 @@ function renderList(stories, { heading, more } = {}) {
 
 function renderStory(story, { offline = false } = {}) {
   clear(main);
+  renderCategories(story.category || "");
   const article = el("article", "story");
   const back = el("a", "back", "Back");
   back.href = "#/";
   back.setAttribute("aria-label", "Back to latest");
   article.append(back);
   document.title = story.title ? `${story.title} · Edulens360` : "Edulens360";
-  article.append(el("p", "kicker", `${label(story.category)} · ${formatWhen(story.published_at)} · ${publishers(story.source_count)}`));
+  article.append(
+    el(
+      "p",
+      "kicker",
+      `${label(story.category)} · ${formatWhen(story.published_at)} · ${sourceLabel(story.source_count)}`,
+    ),
+  );
   article.append(headline(story));
   article.append(el("p", "summary", story.summary));
   if (offline) article.append(el("p", "meta", "Saved on this device."));
   const actions = el("div", "actions");
+  const share = el("button", "secondary", "Share");
+  share.type = "button";
+  share.addEventListener("click", async () => {
+    const result = await shareStory(story);
+    if (result === "copied") {
+      share.textContent = "Link copied";
+      flashShareFeedback(article, "Link copied");
+    } else if (result === "failed") {
+      flashShareFeedback(article, "Sharing unavailable");
+    }
+  });
   const save = el("button", isSaved(story.id) ? "secondary" : "", isSaved(story.id) ? "Remove save" : "Save");
   save.type = "button";
   save.addEventListener("click", () => {
     toggleSaved(story);
     renderStory(story, { offline });
   });
-  actions.append(save);
+  actions.append(share, save);
   article.append(actions);
   for (const item of story.articles || []) {
     const block = el("section", "source");
@@ -510,7 +668,7 @@ async function showLatest(current, offset = 0) {
     }
     stories = await fetchJson(url);
   }
-  const heading = current.q ? `Results for “${current.q}”` : updatedHeading();
+  const heading = current.q ? `Results for “${current.q}”` : updatedHeading(current, stories);
   const existing = offset === 0 ? [] : [...main.querySelectorAll(".story-card")].map((card) => card.dataset.id);
   if (offset === 0) {
     renderList(stories, {
@@ -537,14 +695,17 @@ function showSaved() {
   renderCategories("");
   const stories = savedStories();
   if (!stories.length) {
-    renderMessage("Stories you save stay on this device.");
+    clear(main);
+    main.append(el("p", "notice", "Stories you save stay on this device."));
+    const latest = el("a", "link-button", "Browse latest");
+    latest.href = "#/";
+    main.append(latest);
     return;
   }
   renderList(stories, { heading: "Saved on this device" });
 }
 
 async function showStory(id) {
-  categoriesEl.hidden = true;
   try {
     let story;
     if (STATIC) {
@@ -611,6 +772,7 @@ searchForm.addEventListener("submit", (event) => {
 });
 
 function startVisit() {
+  seenCutoff = readSeenAt();
   const returning = !sessionStorage.getItem(VISIT_KEY);
   sessionStorage.setItem(VISIT_KEY, "1");
   const current = route();
@@ -619,6 +781,11 @@ function startVisit() {
     history.replaceState(null, "", `${location.pathname}${location.search}#/`);
   }
 }
+
+window.addEventListener("pagehide", rememberVisit);
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden") rememberVisit();
+});
 
 window.addEventListener("hashchange", () => {
   const current = route();

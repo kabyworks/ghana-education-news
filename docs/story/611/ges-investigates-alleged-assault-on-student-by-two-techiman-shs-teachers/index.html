@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-7.56.06-PM-1024x576.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "GES investigates alleged assault on student by two Techiman SHS teachers", "description": "The Ghana Education Service (GES) has launched an investigation into a video circulating on social media that appears to show two teachers of Techiman Senior High School (SHS)…", "datePublished": "2026-11-01T19:52:53Z", "mainEntityOfPage": "https://edulens360.com/story/611/ges-investigates-alleged-assault-on-student-by-two-techiman-shs-teachers/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-7.56.06-PM-1024x576.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Teachers · 1 Nov 2026 · 2 sources</p>
       <div class="headline"><h1>GES investigates alleged assault on student by two Techiman SHS teachers</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-7.56.06-PM-1024x576.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">The Ghana Education Service (GES) has launched an investigation into a video circulating on social media that appears to show two teachers of Techiman Senior High School (SHS) assaulting a student.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Adom Online Education</h3><p class="summary">The Ghana Education Service (GES) says it is investigating an alleged assault on a student by two teachers at Techiman Senior High School, after a video of the incident began circulating in the media. In a statement dated October 31, 2026, GES called the video “disturbing” and identified the teachers as Mr Jerry Jones Owusu […]</p><a class="link-button secondary" href="https://www.adomonline.com/ges-investigating-alleged-assault-of-student-by-two-teachers-at-techiman-shs/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Bono East Regional Police Command has arrested two teachers of Techiman Senior High School (SHS) following the circulation of a viral video allegedly showing them assaulting a 17-year-old male student.</p><a class="link-button secondary" href="https://www.myjoyonline.com/two-techiman-shs-teachers-arrested-over-alleged-assault-of-17-year-old-student/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
@@ -50,6 +60,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -71,6 +82,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG_0300.jpg-1024x851.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "AIT President Prof Clement Dzidonu urges lifelong learning as AI reshapes work and education", "description": "The President of the Accra Institute of Technology (AIT), Professor Clement K.", "datePublished": "2026-10-05T19:43:20Z", "mainEntityOfPage": "https://edulens360.com/story/48/ait-president-prof-clement-dzidonu-urges-lifelong-learning-as-ai-reshapes-work/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG_0300.jpg-1024x851.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">General · 5 Oct 2026 · 1 source</p>
       <div class="headline"><h1>AIT President Prof Clement Dzidonu urges lifelong learning as AI reshapes work and education</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG_0300.jpg-1024x851.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">The President of the Accra Institute of Technology (AIT), Professor Clement K.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The President of the Accra Institute of Technology (AIT), Professor Clement K. Dzidonu, has called for a fundamental shift in how individuals, educational institutions and society think about learning in the age of Artificial Intelligence (AI), arguing that graduation can no longer be regarded as the end of the learning journey. Professor Dzidonu is advocating what he describes as the Sovereign Lifelong Learner — the &quot;Sovereign Triple-L&quot;: an individual who takes ownership of continuing learning and assumes personal responsibility for continually renewing, deepening and extending their capabilities throughout professional and personal life. According to the AIT President, the traditional model in which people undergo intensive education, graduate, enter a profession and rely for many years on much of the knowledge acquired during formal education is rapidly becoming unsustainable.</p><a class="link-button secondary" href="https://www.myjoyonline.com/ait-president-prof-clement-dzidonu-urges-lifelong-learning-as-ai-reshapes-work-and-education/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

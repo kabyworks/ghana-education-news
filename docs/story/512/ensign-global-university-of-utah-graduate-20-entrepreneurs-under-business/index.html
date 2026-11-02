@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-26-at-08.46.09-1024x576.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Ensign Global, University of Utah graduate 20 entrepreneurs under business creation programme", "description": "Ensign Global University and the University of Utah have graduated 20 entrepreneurs from the second cohort of the Master of Business Creation (MBC) programme, an initiative…", "datePublished": "2026-10-26T12:22:47Z", "mainEntityOfPage": "https://edulens360.com/story/512/ensign-global-university-of-utah-graduate-20-entrepreneurs-under-business/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-26-at-08.46.09-1024x576.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">University · 26 Oct 2026 · 1 source</p>
       <div class="headline"><h1>Ensign Global, University of Utah graduate 20 entrepreneurs under business creation programme</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-26-at-08.46.09-1024x576.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">Ensign Global University and the University of Utah have graduated 20 entrepreneurs from the second cohort of the Master of Business Creation (MBC) programme, an initiative designed to help business owners strengthen their enterprises and create employment opportunities.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">Ensign Global University and the University of Utah have graduated 20 entrepreneurs from the second cohort of the Master of Business Creation (MBC) programme, an initiative designed to help business owners strengthen their enterprises and create employment opportunities. The programme takes a practical approach to entrepreneurship education, allowing participants to apply lessons in areas such as marketing, financial projections and human resource management directly to their businesses. President of Ensign Global University, Professor Stephen Alder, said the initiative could help address Africa’s employment challenges by equipping graduates to create jobs rather than rely solely on existing vacancies.</p><a class="link-button secondary" href="https://www.myjoyonline.com/ensign-global-university-of-utah-graduate-20-entrepreneurs-under-business-creation-programme/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

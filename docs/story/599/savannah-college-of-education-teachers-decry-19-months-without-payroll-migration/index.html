@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-16.41.09-e1793398283530.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Savannah College of Education teachers decry 19 months without payroll migration", "description": "About one hundred and seventy striking workers of two local associations at the Savannah College of Education, namely, the Colleges of Education Teachers Association of Ghana…", "datePublished": "2026-10-30T22:18:19Z", "mainEntityOfPage": "https://edulens360.com/story/599/savannah-college-of-education-teachers-decry-19-months-without-payroll-migration/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-16.41.09-e1793398283530.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Teachers · 30 Oct 2026 · 1 source</p>
       <div class="headline"><h1>Savannah College of Education teachers decry 19 months without payroll migration</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-16.41.09-e1793398283530.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">About one hundred and seventy striking workers of two local associations at the Savannah College of Education, namely, the Colleges of Education Teachers Association of Ghana [CETAG] and the Colleges of Education Non-Teaching Staff Association of Ghana (CENTSAG), say the unresolved issues surrounding staff remunerat...</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">About one hundred and seventy striking workers of two local associations at the Savannah College of Education, namely, the Colleges of Education Teachers Association of Ghana [CETAG] and the Colleges of Education Non-Teaching Staff Association of Ghana (CENTSAG), say the unresolved issues surrounding staff remuneration, recruitment and migration of members to the government payroll are a threat to their welfare and the smooth administration of the college.</p><a class="link-button secondary" href="https://www.myjoyonline.com/savannah-college-of-education-teachers-decry-19-months-without-payroll-migration/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

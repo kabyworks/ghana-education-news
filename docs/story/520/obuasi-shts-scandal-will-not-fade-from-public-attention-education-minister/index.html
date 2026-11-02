@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-26-145111-1024x470.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Obuasi SHTS scandal will not fade from public attention – Education Minister", "description": "Education Minister Haruna Iddrisu has vowed that the sexual abuse allegations at Obuasi Senior High Technical School (SHTS) will not be allowed to fade from public attention…", "datePublished": "2026-10-26T15:18:09Z", "mainEntityOfPage": "https://edulens360.com/story/520/obuasi-shts-scandal-will-not-fade-from-public-attention-education-minister/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-26-145111-1024x470.png"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 26 Oct 2026 · 1 source</p>
       <div class="headline"><h1>Obuasi SHTS scandal will not fade from public attention – Education Minister</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-26-145111-1024x470.png" referrerpolicy="no-referrer"></div>
       <p class="summary">Education Minister Haruna Iddrisu has vowed that the sexual abuse allegations at Obuasi Senior High Technical School (SHTS) will not be allowed to fade from public attention without a resolution.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">Education Minister Haruna Iddrisu has vowed that the sexual abuse allegations at Obuasi Senior High Technical School (SHTS) will not be allowed to fade from public attention without a resolution. Speaking at a press conference in Accra on Monday, October 26, 2026, the Minister said the case would not follow the pattern of other major public controversies that attract intense media attention before gradually disappearing from the national conversation. “Amid the calls from various sections of society for a full-scale investigation of similar malpractices in other educational institutions in the country, this scandal won&#x27;t suffer the same fate as other burning issues which are normal to be discussed with gusto in the media over a period and then go out with a whimper. That won&#x27;t happen in respect of this matter,” he said.</p><a class="link-button secondary" href="https://www.myjoyonline.com/obuasi-shts-scandal-will-not-fade-from-public-attention-education-minister/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

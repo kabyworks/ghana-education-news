@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/10/Obuasi-SHTS-Headmaster.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "GES recommended reposting of Obuasi SHTS headmaster after August 2026 campus riot", "description": "The Ghana Education Service (GES) has recommended that the headmaster of Obuasi Senior High Technical School (SHTS), Abdulai Zakaria, and other staff implicated in a violent…", "datePublished": "2026-10-15T14:54:10Z", "mainEntityOfPage": "https://edulens360.com/story/235/ges-recommended-reposting-of-obuasi-shts-headmaster-after-august-2026-campus/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/10/Obuasi-SHTS-Headmaster.png"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Basic schools · 15 Oct 2026 · 2 sources</p>
       <div class="headline"><h1>GES recommended reposting of Obuasi SHTS headmaster after August 2026 campus riot</h1><img class="card-photo" alt="" src="https://www.adomonline.com/wp-content/uploads/2026/10/Obuasi-SHTS-Headmaster.png" referrerpolicy="no-referrer"></div>
       <p class="summary">The Ghana Education Service (GES) has recommended that the headmaster of Obuasi Senior High Technical School (SHTS), Abdulai Zakaria, and other staff implicated in a violent campus disturbance be reposted to different institutions or duty stations.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Adom Online Education</h3><p class="summary">It has emerged that the Ghana Education Service (GES) has recommended that the headmaster of Obuasi Senior High Technical School (SHTS), Abdulai Zakaria, and other staff implicated in a violent campus disturbance be reposted to different institutions or duty stations. The recommendation follows a committee’s investigation into the August 5, 2026, riot during which some […]</p><a class="link-button secondary" href="https://www.adomonline.com/ges-recommended-reposting-of-obuasi-shts-headmaster-after-students-riot/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Ghana Education Service (GES) has recommended that the headmaster of Obuasi Senior High Technical School (SHTS), Abdulai Zakaria, and other staff implicated in a violent campus disturbance be reposted to different institutions or duty stations. The recommendation follows a committee’s investigation into the August 5, 2026, riot during which some students attacked the headmaster and vandalised property at his bungalow. Deputy Director-General of GES in charge of Quality and Access, Dr Issahaque Munawaru, disclosed the recommendation in a radio interview on Joy FM on Thursday, October 15, 2026. He said the committee’s report reached GES headquarters the previous week and that the Director-General had assigned officials to review its findings.</p><a class="link-button secondary" href="https://www.myjoyonline.com/ges-recommended-reposting-of-obuasi-shts-headmaster-after-august-2026-campus-riot/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
@@ -50,6 +60,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -71,6 +82,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

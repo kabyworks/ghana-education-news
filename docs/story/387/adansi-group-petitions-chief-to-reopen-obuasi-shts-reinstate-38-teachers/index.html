@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/images-15-4.jpg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Adansi group petitions chief to reopen Obuasi SHTS, reinstate 38 teachers", "description": "A group calling itself Concerned Citizens of Adansi has petitioned the Adansihene to intervene for the immediate reopening of Obuasi Senior High Technical School (SHTS), which…", "datePublished": "2026-10-20T21:57:16Z", "mainEntityOfPage": "https://edulens360.com/story/387/adansi-group-petitions-chief-to-reopen-obuasi-shts-reinstate-38-teachers/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-15-4.jpg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Teachers · 20 Oct 2026 · 1 source</p>
       <div class="headline"><h1>Adansi group petitions chief to reopen Obuasi SHTS, reinstate 38 teachers</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/images-15-4.jpg" referrerpolicy="no-referrer"></div>
       <p class="summary">A group calling itself Concerned Citizens of Adansi has petitioned the Adansihene to intervene for the immediate reopening of Obuasi Senior High Technical School (SHTS), which has remained closed for months following disturbances on campus.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">A group calling itself Concerned Citizens of Adansi has petitioned the Adansihene to intervene for the immediate reopening of Obuasi Senior High Technical School (SHTS), which has remained closed for months following disturbances on campus. The school was shut down after the Ashanti Regional Education Directorate and the Obuasi Municipal Assembly ordered its closure following a riot in which students reportedly attacked the headmaster, Zakaria Abdulai, over allegations of sexual abuse involving female students. Abdulai is currently under investigation following a recent JoyNews exposé that further examined allegations of sexual encounters with about 19 girls at the school. The allegations have not been established, and investigations are ongoing. Despite the commencement of the new academic calendar in senior high schools, academic activities at Obuasi SHTS have yet to resume.</p><a class="link-button secondary" href="https://www.myjoyonline.com/adansi-group-petitions-chief-to-reopen-obuasi-shts-reinstate-38-teachers/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

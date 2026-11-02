@@ -16,13 +16,13 @@ from app.services.feed_service import list_categories, list_feed, story_image
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "8"
+SHELL_VERSION = "10"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-4";
+PHONE_SW = """const CACHE = "ghanaed-phone-6";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=8",
-  "./app.js?v=8",
+  "./styles.css?v=10",
+  "./app.js?v=10",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -332,6 +332,13 @@ def _story_page(story: dict) -> str:
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -339,7 +346,10 @@ def _story_page(story: dict) -> str:
       <p class="kicker">{label} · {when} · {sources}</p>
       <div class="headline"><h1>{title}</h1>{photo}</div>
       <p class="summary">{summary}</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       {blocks}
     </article>
   </main>
@@ -347,6 +357,7 @@ def _story_page(story: dict) -> str:
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {{
       try {{
@@ -368,6 +379,24 @@ def _story_page(story: dict) -> str:
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    }});
+    share.addEventListener("click", async () => {{
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = {{ title: story.title, text: story.title, url }};
+      if (navigator.share) {{
+        try {{
+          await navigator.share(payload);
+          return;
+        }} catch (error) {{
+          if (error && error.name === "AbortError") return;
+        }}
+      }}
+      try {{
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      }} catch (error) {{}}
     }});
     paintSaved();
   </script>

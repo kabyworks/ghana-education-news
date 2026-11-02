@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-24-at-16.46.35-3-1024x869.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Education Minister to meet teacher unions today over payment of promotion arrears for 28,000 teachers", "description": "The Education Minister, Haruna Iddrisu, says his office will meet the leadership of teacher unions today, Tuesday, October 27, to resolve outstanding validation issues affecting…", "datePublished": "2026-10-27T09:31:57Z", "mainEntityOfPage": "https://edulens360.com/story/545/education-minister-to-meet-teacher-unions-today-over-payment-of-promotion/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-24-at-16.46.35-3-1024x869.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Teachers · 27 Oct 2026 · 2 sources</p>
       <div class="headline"><h1>Education Minister to meet teacher unions today over payment of promotion arrears for 28,000 teachers</h1><img class="card-photo" alt="" src="https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-24-at-16.46.35-3-1024x869.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">The Education Minister, Haruna Iddrisu, says his office will meet the leadership of teacher unions today, Tuesday, October 27, to resolve outstanding validation issues affecting 28,000 teachers awaiting payment of their promotion salary arrears.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Adom Online Education</h3><p class="summary">The Education Minister, Haruna Iddrisu, says his office will meet the leadership of teacher unions today, Tuesday, October 27, to resolve outstanding validation issues affecting 28,000 teachers awaiting payment of their promotion salary arrears. The meeting is expected to address concerns that have prevented the affected teachers from successfully completing the validation process and receiving […]</p><a class="link-button secondary" href="https://www.adomonline.com/education-minister-to-meet-teacher-unions-over-payment-of-promotion-arrears-for-28000-teachers/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Education Minister, Haruna Iddrisu, says his office will meet the leadership of teacher unions today, Tuesday, October 27, to resolve outstanding validation issues affecting 28,000 teachers awaiting payment of their promotion salary arrears.</p><a class="link-button secondary" href="https://www.myjoyonline.com/education-minister-to-meet-teacher-unions-today-over-payment-of-promotion-arrears-for-28000-teachers/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
@@ -50,6 +60,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -71,6 +82,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

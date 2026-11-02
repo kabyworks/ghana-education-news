@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/f0e01c1b-b185-4fc8-b169-b7d187e946f6-1024x596.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Include private universities in national funding plans — Catholic University VC", "description": "The Vice-Chancellor of the Catholic University of Ghana (CUG), Prof.", "datePublished": "2026-10-25T15:04:16Z", "mainEntityOfPage": "https://edulens360.com/story/499/include-private-universities-in-national-funding-plans-catholic-university-vc/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/f0e01c1b-b185-4fc8-b169-b7d187e946f6-1024x596.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">University · 25 Oct 2026 · 1 source</p>
       <div class="headline"><h1>Include private universities in national funding plans — Catholic University VC</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/f0e01c1b-b185-4fc8-b169-b7d187e946f6-1024x596.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">The Vice-Chancellor of the Catholic University of Ghana (CUG), Prof.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Vice-Chancellor of the Catholic University of Ghana (CUG), Prof. Matthew Glover Addo, has urged the government to establish a dedicated fund to support private universities, warning that current interventions for first-year students in public universities could undermine enrolment prospects in the private tertiary education sector.</p><a class="link-button secondary" href="https://www.myjoyonline.com/include-private-universities-in-national-funding-plans-catholic-university-vc/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

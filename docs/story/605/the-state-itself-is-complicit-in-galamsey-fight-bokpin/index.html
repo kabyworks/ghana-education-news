@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2025/07/Bokpin1.jpg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "‘The state itself is complicit in galamsey fight’ – Bokpin", "description": "Economist and Professor of Finance at the University of Ghana Business School, Professor Godfred Bokpin, has accused the state of complicity in the fight against illegal mining,…", "datePublished": "2026-10-31T11:52:25Z", "mainEntityOfPage": "https://edulens360.com/story/605/the-state-itself-is-complicit-in-galamsey-fight-bokpin/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2025/07/Bokpin1.jpg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">University · 31 Oct 2026 · 1 source</p>
       <div class="headline"><h1>‘The state itself is complicit in galamsey fight’ – Bokpin</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2025/07/Bokpin1.jpg" referrerpolicy="no-referrer"></div>
       <p class="summary">Economist and Professor of Finance at the University of Ghana Business School, Professor Godfred Bokpin, has accused the state of complicity in the fight against illegal mining, arguing that political interference and a lack of leadership have allowed the menace to escalate.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">Economist and Professor of Finance at the University of Ghana Business School, Professor Godfred Bokpin, has accused the state of complicity in the fight against illegal mining, arguing that political interference and a lack of leadership have allowed the menace to escalate.</p><a class="link-button secondary" href="https://www.myjoyonline.com/the-state-itself-is-complicit-in-galamsey-fight-bokpin/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

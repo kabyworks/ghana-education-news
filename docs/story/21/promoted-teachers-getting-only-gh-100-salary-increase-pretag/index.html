@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/09/Screenshot-2026-09-25-084949.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Promoted teachers getting only GH¢100 salary increase – PRETAG", "description": "The President of the Pre-Tertiary Education Teachers Association of Ghana (PRETAG), King Ali Awudu, has said some teachers who have recently been promoted are receiving as little…", "datePublished": "2026-09-26T06:52:03Z", "mainEntityOfPage": "https://edulens360.com/story/21/promoted-teachers-getting-only-gh-100-salary-increase-pretag/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/09/Screenshot-2026-09-25-084949.png"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Teachers · 26 Sep 2026 · 1 source</p>
       <div class="headline"><h1>Promoted teachers getting only GH¢100 salary increase – PRETAG</h1><img class="card-photo" alt="" src="https://www.adomonline.com/wp-content/uploads/2026/09/Screenshot-2026-09-25-084949.png" referrerpolicy="no-referrer"></div>
       <p class="summary">The President of the Pre-Tertiary Education Teachers Association of Ghana (PRETAG), King Ali Awudu, has said some teachers who have recently been promoted are receiving as little as GH¢100 increase in their monthly salaries.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>Adom Online Education</h3><p class="summary">The President of the Pre-Tertiary Education Teachers Association of Ghana (PRETAG), King Ali Awudu, has said some teachers who have recently been promoted are receiving as little as GH¢100 increase in their monthly salaries. He said the situation, coupled with outstanding arrears and unresolved concerns over teachers’ conditions of service, has pushed the unions to […]</p><a class="link-button secondary" href="https://www.adomonline.com/promoted-teachers-getting-only-gh%c2%a2100-salary-increase-pretag/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>

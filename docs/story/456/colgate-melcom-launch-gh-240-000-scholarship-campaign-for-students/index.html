@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-23-at-8.27.48-AM-1024x682.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=8">
+  <link rel="stylesheet" href="../../../styles.css?v=10">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Colgate, Melcom launch GH¢240,000 scholarship campaign for students", "description": "Colgate Ghana has launched an eight-week scholarship campaign in partnership with Melcom Supermarkets, offering a total of GH¢240,000 in educational support and GH¢120,000 in…", "datePublished": "2026-10-23T04:29:00Z", "mainEntityOfPage": "https://edulens360.com/story/456/colgate-melcom-launch-gh-240-000-scholarship-campaign-for-students/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-23-at-8.27.48-AM-1024x682.jpeg"}
   </script>
@@ -34,6 +34,13 @@
         Search
       </button>
     </form>
+    <div class="categories">
+      <div class="cat-bar">
+        <a href="../../../">Latest</a>
+        <a href="../../../">Categories</a>
+        <a href="../../../#/saved">Saved</a>
+      </div>
+    </div>
   </header>
   <main id="main">
     <article class="story">
@@ -41,7 +48,10 @@
       <p class="kicker">Scholarships · 23 Oct 2026 · 1 source</p>
       <div class="headline"><h1>Colgate, Melcom launch GH¢240,000 scholarship campaign for students</h1><img class="card-photo" alt="" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-23-at-8.27.48-AM-1024x682.jpeg" referrerpolicy="no-referrer"></div>
       <p class="summary">Colgate Ghana has launched an eight-week scholarship campaign in partnership with Melcom Supermarkets, offering a total of GH¢240,000 in educational support and GH¢120,000 in shopping vouchers to customers and nominated students.</p>
-      <div class="actions"><button type="button" id="save-story">Save</button></div>
+      <div class="actions">
+        <button type="button" class="secondary" id="share-story">Share</button>
+        <button type="button" id="save-story">Save</button>
+      </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">Colgate Ghana has launched an eight-week scholarship campaign in partnership with Melcom Supermarkets, offering a total of GH¢240,000 in educational support and GH¢120,000 in shopping vouchers to customers and nominated students. The campaign, running from October to December 18, 2026, is aimed at helping Ghanaians turn everyday household purchases into educational opportunities for students across […]</p><a class="link-button secondary" href="https://www.myjoyonline.com/colgate-melcom-launch-gh%c2%a2240000-scholarship-campaign-for-students/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -49,6 +59,7 @@
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
     const button = document.getElementById("save-story");
+    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
     function readSaved() {
       try {
@@ -70,6 +81,24 @@
         : [story, ...current];
       localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
+    });
+    share.addEventListener("click", async () => {
+      const url = story.path
+        ? new URL(story.path, "https://edulens360.com/").href
+        : location.href;
+      const payload = { title: story.title, text: story.title, url };
+      if (navigator.share) {
+        try {
+          await navigator.share(payload);
+          return;
+        } catch (error) {
+          if (error && error.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        share.textContent = "Link copied";
+      } catch (error) {}
     });
     paintSaved();
   </script>
