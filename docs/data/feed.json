@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T20:10:21Z",
+  "generated_at": "2026-11-02T20:40:38Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 168
+      "story_count": 170
     },
     {
       "name": "teachers",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 642,
+      "title": "Deputy Foreign Affairs Minister consoles mother of Bronx shooting victim Javits Frimpong",
+      "summary": "Javits had relocated to the United States about a year ago to join his father, Thomas Frimpong, 60, and was a student of DreamYard Preparatory School. He was a former student of Adisadel College in Cape Coast.",
+      "category": "higher_education",
+      "published_at": "2026-11-02T20:32:18Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-11-02 at 20.24.15-600x400.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Deputy Foreign Affairs Minister consoles mother of Bronx shooting victim Javits Frimpong",
+          "url": "https://3news.com/news/deputy-foreign-affairs-minister-consoles-mother-of-bronx-shooting-victim-javits-frimpong",
+          "published_at": "2026-11-02T20:32:18Z",
+          "excerpt": "Javits had relocated to the United States about a year ago to join his father, Thomas Frimpong, 60, and was a student of DreamYard Preparatory School. He was a former student of Adisadel College in Cape Coast."
+        }
+      ],
+      "path": "story/642/deputy-foreign-affairs-minister-consoles-mother-of-bronx-shooting-victim-javits/"
+    },
+    {
+      "id": 641,
+      "title": "Health expert proposes a One Health approach, towards resolving global health ecosystem challenges",
+      "summary": "The Head of the Global Health Department of the School of Public Health at the Kwame Nkrumah University of Science and Technology, Prof John Humphrey Amuasi, has suggested the One Health approach, for resolving challenges in the rapidly changing global health ecosystem.",
+      "category": "higher_education",
+      "published_at": "2026-11-02T20:29:49Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Prof-John-Humphrey-Amuasi-1024x683.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Health expert proposes a One Health approach, towards resolving global health ecosystem challenges",
+          "url": "https://www.myjoyonline.com/health-expert-proposes-a-one-health-approach-towards-resolving-global-health-ecosystem-challenges/",
+          "published_at": "2026-11-02T20:29:49Z",
+          "excerpt": "The Head of the Global Health Department of the School of Public Health at the Kwame Nkrumah University of Science and Technology, Prof John Humphrey Amuasi, has suggested the One Health approach, for resolving challenges in the rapidly changing global health ecosystem. According to him, this would ensure a rebuilding approach that would move beyond […]"
+        }
+      ],
+      "path": "story/641/health-expert-proposes-a-one-health-approach-towards-resolving-global-health/"
+    },
     {
       "id": 639,
       "title": "UG to expand student accommodation as 2026/27 freshmen matriculate",
