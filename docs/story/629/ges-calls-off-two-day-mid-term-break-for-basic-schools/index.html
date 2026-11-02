@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2019/06/12069406-Copy-Copy.jpg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "GES calls off two-day mid-term break for basic schools", "description": "The Ghana Education Service (GES) has cancelled the two-day mid-term break scheduled for basic schools on November 5 and 6, 2026, as part of efforts to make up for instructional…", "datePublished": "2026-11-02T08:19:54Z", "mainEntityOfPage": "https://edulens360.com/story/629/ges-calls-off-two-day-mid-term-break-for-basic-schools/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2019/06/12069406-Copy-Copy.jpg"}
   </script>
@@ -86,10 +86,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

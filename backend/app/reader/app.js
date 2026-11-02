@@ -751,11 +751,42 @@ async function draw() {
   }
 }
 
+const FEED_CACHE_KEY = "ghanaed.feed.cache.v1";
+
+function applyCatalog(next) {
+  catalog = next;
+  categoryNames = (next.categories || []).map((item) => item.name);
+}
+
+function rememberCatalog(next) {
+  try {
+    sessionStorage.setItem(FEED_CACHE_KEY, JSON.stringify(next));
+  } catch {
+    // Session storage can be full on some phones; the live fetch still works.
+  }
+}
+
 async function loadCategories() {
   try {
     if (STATIC) {
-      catalog = await fetchJson("data/feed.json");
-      categoryNames = (catalog.categories || []).map((item) => item.name);
+      if (catalog) return;
+      try {
+        const cached = sessionStorage.getItem(FEED_CACHE_KEY);
+        if (cached) {
+          applyCatalog(JSON.parse(cached));
+          fetchJson("data/feed.json")
+            .then((fresh) => {
+              applyCatalog(fresh);
+              rememberCatalog(fresh);
+            })
+            .catch(() => {});
+          return;
+        }
+      } catch {
+        // Ignore bad cached JSON and load from the network.
+      }
+      applyCatalog(await fetchJson("data/feed.json"));
+      rememberCatalog(catalog);
       return;
     }
     const categories = await fetchJson("/feed/categories");

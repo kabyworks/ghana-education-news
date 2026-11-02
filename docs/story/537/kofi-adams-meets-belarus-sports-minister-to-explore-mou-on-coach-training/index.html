@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://media.3news.com/0685cc07-0b90-4099-bc7c-43cbf3213fdb-1200x938.webp">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Kofi Adams meets Belarus sports minister to explore MoU on coach training, scholarships and sports science", "description": "The Minister for Sports and Recreation, Hon. Kofi Iddie Adams, has held discussions with the Minister of Sports of Belarus, Sergey Kovalchuk, on a proposed Memorandum of…", "datePublished": "2026-10-26T20:49:58Z", "mainEntityOfPage": "https://edulens360.com/story/537/kofi-adams-meets-belarus-sports-minister-to-explore-mou-on-coach-training/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://media.3news.com/0685cc07-0b90-4099-bc7c-43cbf3213fdb-1200x938.webp"}
   </script>
@@ -86,10 +86,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

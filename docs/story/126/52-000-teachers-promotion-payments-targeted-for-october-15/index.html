@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/OIP-2026-10-08T175413.737.webp">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "52,000 teachers’ promotion payments targeted for October 15", "description": "Teachers whose promotions have been delayed could begin receiving their salary adjustments and arrears by October 15, as the Controller and Accountant-General’s Department works…", "datePublished": "2026-10-09T05:40:00Z", "mainEntityOfPage": "https://edulens360.com/story/126/52-000-teachers-promotion-payments-targeted-for-october-15/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/OIP-2026-10-08T175413.737.webp"}
   </script>
@@ -86,10 +86,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://media.3news.com/WhatsApp%20Image%202026-10-14%20at%2019.21.04-1200x800.webp">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Akra Reads 2026: SSB Memorial School wins Ladé Wosornu Students Poetry Contest", "description": "The contest featured participants, mainly students drawn from Accra, in thrilling and exciting sessions.", "datePublished": "2026-10-17T06:00:00Z", "mainEntityOfPage": "https://edulens360.com/story/288/akra-reads-2026-ssb-memorial-school-wins-lad-wosornu-students-poetry-contest/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://media.3news.com/WhatsApp%20Image%202026-10-14%20at%2019.21.04-1200x800.webp"}
   </script>
@@ -86,10 +86,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

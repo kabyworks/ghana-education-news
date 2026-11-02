@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/08/Hashmin-Mohammed-Education-Ministry.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Government mobilises GH¢400m for book and research allowances – Education Ministry", "description": "Government has mobilised approximately GH¢400 million to facilitate the payment of book and research allowances to eligible institutions across the country, the Ministry of…", "datePublished": "2026-10-19T20:03:12Z", "mainEntityOfPage": "https://edulens360.com/story/338/government-mobilises-gh-400m-for-book-and-research-allowances-education-ministry/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/08/Hashmin-Mohammed-Education-Ministry.png"}
   </script>
@@ -86,10 +86,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

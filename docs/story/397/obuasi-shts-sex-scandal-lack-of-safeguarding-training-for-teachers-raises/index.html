@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/the-lack-of-formal-safeguarding-.jpg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Obuasi SHTS sex scandal: Lack of safeguarding training for teachers raises concern — Father", "description": "A father of five girls has expressed concern about the apparent lack of formal safeguarding training for teachers, saying it raises serious questions about how students are…", "datePublished": "2026-10-21T04:11:00Z", "mainEntityOfPage": "https://edulens360.com/story/397/obuasi-shts-sex-scandal-lack-of-safeguarding-training-for-teachers-raises/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/the-lack-of-formal-safeguarding-.jpg"}
   </script>
@@ -86,10 +86,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

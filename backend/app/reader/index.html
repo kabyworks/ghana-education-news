@@ -34,7 +34,7 @@
   <link rel="manifest" href="/app/manifest.webmanifest">
   <link rel="icon" href="/app/icon-192.png">
   <link rel="apple-touch-icon" href="/app/icon-192.png">
-  <link rel="stylesheet" href="/app/styles.css?v=10">
+  <link rel="stylesheet" href="/app/styles.css?v=11">
 </head>
 <body>
   <header>
@@ -57,16 +57,6 @@
   <footer class="site-foot">
     <a href="/app/privacy/">Privacy</a>
   </footer>
-  <script>
-    if ("serviceWorker" in navigator) {
-      let refreshing = false;
-      navigator.serviceWorker.addEventListener("controllerchange", () => {
-        if (refreshing) return;
-        refreshing = true;
-        location.reload();
-      });
-    }
-  </script>
-  <script src="/app/app.js?v=10"></script>
+  <script src="/app/app.js?v=11"></script>
 </body>
 </html>

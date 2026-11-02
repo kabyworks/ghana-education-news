@@ -16,13 +16,13 @@ from app.services.feed_service import list_categories, list_feed, story_image
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "10"
+SHELL_VERSION = "11"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-6";
+PHONE_SW = """const CACHE = "ghanaed-phone-7";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=10",
-  "./app.js?v=10",
+  "./styles.css?v=11",
+  "./app.js?v=11",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -46,25 +46,29 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (event.request.method !== "GET" || url.origin !== self.location.origin) return;
-  event.respondWith(
-    fetch(new Request(event.request, { cache: "reload" }))
+  event.respondWith((async () => {
+    const cached = await caches.match(event.request);
+    const fetching = fetch(event.request)
       .then((response) => {
-        if (response.ok) {
+        if (response && response.ok) {
           const copy = response.clone();
           caches.open(CACHE).then((cache) => cache.put(event.request, copy));
         }
         return response;
       })
-      .catch(async () => {
-        const cached = await caches.match(event.request);
-        if (cached) return cached;
-        if (event.request.mode === "navigate") {
-          const page = await caches.match("./index.html");
-          if (page) return page;
-        }
-        return Response.error();
-      }),
-  );
+      .catch(() => undefined);
+    if (cached) {
+      fetching.catch(() => {});
+      return cached;
+    }
+    const network = await fetching;
+    if (network) return network;
+    if (event.request.mode === "navigate") {
+      const page = await caches.match("./index.html");
+      if (page) return page;
+    }
+    return Response.error();
+  })());
 });
 """
 
@@ -384,10 +388,17 @@ def _story_page(story: dict) -> str:
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = {{ title: story.title, text: story.title, url }};
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {{
+        try {{
+          window.EdulensShare.share(title, text, url);
+          return;
+        }} catch (error) {{}}
+      }}
       if (navigator.share) {{
         try {{
-          await navigator.share(payload);
+          await navigator.share({{ title, text, url }});
           return;
         }} catch (error) {{
           if (error && error.name === "AbortError") return;

@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-7.13.37-PM.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Asunafo South MP commissions classroom block, teachers’ quarters at Adomakokrom", "description": "The Member of Parliament for Asunafo South in the Ahafo Region, Eric Opoku, has commissioned a three-unit classroom block and teachers’ quarters at Adomakokrom to improve…", "datePublished": "2026-10-30T12:54:52Z", "mainEntityOfPage": "https://edulens360.com/story/590/asunafo-south-mp-commissions-classroom-block-teachers-quarters-at-adomakokrom/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-7.13.37-PM.jpeg"}
   </script>
@@ -86,10 +86,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

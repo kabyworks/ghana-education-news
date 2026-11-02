@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2806-1024x683.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Nearly 2 million young Ghanaians not in employment, education or training – GSS", "description": "Nearly two million Ghanaians aged between 15 and 35 were neither employed nor enrolled in education or training in the third quarter of 2025, according to the Ghana Statistical…", "datePublished": "2026-10-30T14:06:45Z", "mainEntityOfPage": "https://edulens360.com/story/591/nearly-2-million-young-ghanaians-not-in-employment-education-or-training-gss/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2806-1024x683.png"}
   </script>
@@ -86,10 +86,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

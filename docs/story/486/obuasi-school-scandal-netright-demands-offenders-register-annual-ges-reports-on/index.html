@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-46-1024x576.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Obuasi school scandal: NETRIGHT demands offenders’ register, annual GES reports on abuse cases", "description": "The Convener of the Network for Women's Rights in Ghana (NETRIGHT), Professor Akosua Darkwah, has called on the Ghana Education Service (GES) to establish an offenders’ register…", "datePublished": "2026-10-24T11:07:36Z", "mainEntityOfPage": "https://edulens360.com/story/486/obuasi-school-scandal-netright-demands-offenders-register-annual-ges-reports-on/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-46-1024x576.png"}
   </script>
@@ -86,10 +86,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

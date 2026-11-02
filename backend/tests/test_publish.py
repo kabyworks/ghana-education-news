@@ -54,7 +54,8 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
     assert "data/feed.json" in (destination / "app.js").read_text(encoding="utf-8")
 
     worker = (destination / "sw.js").read_text(encoding="utf-8")
-    assert "ghanaed-phone-6" in worker
+    assert "ghanaed-phone-7" in worker
+    assert 'cache: "reload"' not in worker
     privacy = (destination / "privacy" / "index.html").read_text(encoding="utf-8")
     assert "Privacy policy" in privacy
     assert "com.edulens360.app" in privacy
@@ -74,6 +75,7 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
     strike = next(story for story in feed["stories"] if "strike" in story["title"].lower())
     story_html = (destination / strike["path"] / "index.html").read_text(encoding="utf-8")
     assert 'id="share-story"' in story_html
+    assert "EdulensShare" in story_html
     assert 'href="../../../#/saved"' in story_html
     assert {article["title"] for article in strike["articles"]} >= {
         "Teacher unions declare a nationwide strike",

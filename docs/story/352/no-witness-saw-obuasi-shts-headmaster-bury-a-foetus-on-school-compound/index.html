@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/10/obuasi-shts-rped-silenced-with-g-1-1024x576.jpg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "No witness saw Obuasi SHTS headmaster bury a foetus on school compound – Investigative report", "description": "A committee that investigated the August 2026 disturbances at Obuasi Senior High Technical School has found that none of the students or teachers who appeared before it witnessed…", "datePublished": "2026-10-20T09:52:18Z", "mainEntityOfPage": "https://edulens360.com/story/352/no-witness-saw-obuasi-shts-headmaster-bury-a-foetus-on-school-compound/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/10/obuasi-shts-rped-silenced-with-g-1-1024x576.jpg"}
   </script>
@@ -87,10 +87,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

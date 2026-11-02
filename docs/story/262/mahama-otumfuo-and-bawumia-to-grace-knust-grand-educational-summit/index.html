@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://www.adomonline.com/wp-content/uploads/2026/10/image-2026-10-16T025715.983.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "Mahama, Otumfuo, and Bawumia to grace KNUST grand educational summit", "description": "The Asantehene, His Majesty Otumfuor Osei Tutu II, President John Dramani Mahama, and former Vice-President Dr. Mahamudu Bawumia are among the high-profile personalities expected…", "datePublished": "2026-10-16T09:58:19Z", "mainEntityOfPage": "https://edulens360.com/story/262/mahama-otumfuo-and-bawumia-to-grace-knust-grand-educational-summit/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://www.adomonline.com/wp-content/uploads/2026/10/image-2026-10-16T025715.983.png"}
   </script>
@@ -86,10 +86,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

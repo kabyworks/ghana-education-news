@@ -1,8 +1,8 @@
-const CACHE = "ghanaed-phone-6";
+const CACHE = "ghanaed-phone-7";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=10",
-  "./app.js?v=10",
+  "./styles.css?v=11",
+  "./app.js?v=11",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -26,23 +26,27 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (event.request.method !== "GET" || url.origin !== self.location.origin) return;
-  event.respondWith(
-    fetch(new Request(event.request, { cache: "reload" }))
+  event.respondWith((async () => {
+    const cached = await caches.match(event.request);
+    const fetching = fetch(event.request)
       .then((response) => {
-        if (response.ok) {
+        if (response && response.ok) {
           const copy = response.clone();
           caches.open(CACHE).then((cache) => cache.put(event.request, copy));
         }
         return response;
       })
-      .catch(async () => {
-        const cached = await caches.match(event.request);
-        if (cached) return cached;
-        if (event.request.mode === "navigate") {
-          const page = await caches.match("./index.html");
-          if (page) return page;
-        }
-        return Response.error();
-      }),
-  );
+      .catch(() => undefined);
+    if (cached) {
+      fetching.catch(() => {});
+      return cached;
+    }
+    const network = await fetching;
+    if (network) return network;
+    if (event.request.mode === "navigate") {
+      const page = await caches.match("./index.html");
+      if (page) return page;
+    }
+    return Response.error();
+  })());
 });

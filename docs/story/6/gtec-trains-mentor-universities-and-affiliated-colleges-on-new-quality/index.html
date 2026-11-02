@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://gtec.edu.gh/wp-content/uploads/2026/08/Image-2026-753x424-1.jpeg">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "GTEC Trains Mentor Universities and Affiliated Colleges on New Quality Assurance Framework", "description": "The Ghana Tertiary Education Commission (GTEC) has trained officials of mentor universities and affiliated Colleges of Education on a new Affiliation Quality Assurance Framework…", "datePublished": "2026-08-25T11:07:54Z", "mainEntityOfPage": "https://edulens360.com/story/6/gtec-trains-mentor-universities-and-affiliated-colleges-on-new-quality/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://gtec.edu.gh/wp-content/uploads/2026/08/Image-2026-753x424-1.jpeg"}
   </script>
@@ -86,10 +86,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://media.3news.com/DC%20Cha-800x504.webp">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "NDC directs accused Obuasi SHTS headmaster to step aside from Juaben chairmanship race", "description": "The National Democratic Congress (NDC) has directed Zakaria Abdulai, the suspended headmaster of Obuasi Senior High Technical School (SHTS), to step aside from the Juaben…", "datePublished": "2026-10-20T12:41:03Z", "mainEntityOfPage": "https://edulens360.com/story/360/ndc-directs-accused-obuasi-shts-headmaster-to-step-aside-from-juaben/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://media.3news.com/DC%20Cha-800x504.webp"}
   </script>
@@ -87,10 +87,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;

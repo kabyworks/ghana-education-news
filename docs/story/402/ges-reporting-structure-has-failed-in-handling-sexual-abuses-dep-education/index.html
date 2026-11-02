@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://media.3news.com/clement%20apaak-800x793.webp">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=10">
+  <link rel="stylesheet" href="../../../styles.css?v=11">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "GES reporting structure has failed in handling sexual abuses - Dep. Education Minister", "description": "Deputy Education Minister Dr. Clement Abas Apaak admits a systemic reporting failure in the GES following the Obuasi SHTS sex scandal and regional directors' suspensions.", "datePublished": "2026-10-21T10:18:03Z", "mainEntityOfPage": "https://edulens360.com/story/402/ges-reporting-structure-has-failed-in-handling-sexual-abuses-dep-education/", "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "image": "https://media.3news.com/clement%20apaak-800x793.webp"}
   </script>
@@ -86,10 +86,17 @@
       const url = story.path
         ? new URL(story.path, "https://edulens360.com/").href
         : location.href;
-      const payload = { title: story.title, text: story.title, url };
+      const title = story.title || "Edulens360";
+      const text = story.summary || story.title || "Edulens360";
+      if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
+        try {
+          window.EdulensShare.share(title, text, url);
+          return;
+        } catch (error) {}
+      }
       if (navigator.share) {
         try {
-          await navigator.share(payload);
+          await navigator.share({ title, text, url });
           return;
         } catch (error) {
           if (error && error.name === "AbortError") return;
