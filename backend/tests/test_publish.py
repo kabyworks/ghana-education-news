@@ -72,6 +72,11 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
     assert feed["generated_at"]
     assert {item["name"] for item in feed["categories"]} == {"teachers", "basic_schools"}
     assert [story["category"] for story in feed["stories"]] == ["basic_schools", "teachers"]
+    notify = json.loads((destination / "data" / "notify.json").read_text(encoding="utf-8"))
+    assert notify["updated_at"] == feed["generated_at"]
+    assert notify["latest"]["id"] == feed["stories"][0]["id"]
+    assert notify["latest"]["title"] == feed["stories"][0]["title"]
+    assert notify["latest"]["path"] == feed["stories"][0]["path"]
     strike = next(story for story in feed["stories"] if "strike" in story["title"].lower())
     story_html = (destination / strike["path"] / "index.html").read_text(encoding="utf-8")
     assert 'id="share-story"' in story_html

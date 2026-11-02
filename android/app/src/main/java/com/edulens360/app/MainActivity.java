@@ -1,8 +1,10 @@
 package com.edulens360.app;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
@@ -23,8 +25,13 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
 public class MainActivity extends Activity {
-    private static final String HOME = "https://edulens360.com/";
+    static final String HOME = "https://edulens360.com/";
+    private static final int REQUEST_NOTIFY = 360;
+
     private FrameLayout root;
     private WebView webView;
     private int rendererCrashes;
@@ -36,9 +43,62 @@ public class MainActivity extends Activity {
         setContentView(root);
         paintSystemBars();
         nameTheTask();
+        askNotificationPermission();
+        NotifyScheduler.ensureScheduled(this);
         if (!attachWebView(savedInstanceState)) {
             showFallback();
+        } else {
+            openFromIntent(getIntent());
         }
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        setIntent(intent);
+        openFromIntent(intent);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        NotifyScheduler.checkNow(this);
+    }
+
+    private void askNotificationPermission() {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU) {
+            return;
+        }
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
+                == PackageManager.PERMISSION_GRANTED) {
+            return;
+        }
+        ActivityCompat.requestPermissions(
+                this,
+                new String[]{Manifest.permission.POST_NOTIFICATIONS},
+                REQUEST_NOTIFY);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(
+            int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == REQUEST_NOTIFY) {
+            NotifyScheduler.ensureScheduled(this);
+            NotifyScheduler.checkNow(this);
+        }
+    }
+
+    private void openFromIntent(Intent intent) {
+        if (intent == null || webView == null) {
+            return;
+        }
+        String openUrl = intent.getStringExtra(FeedNotifyWorker.EXTRA_OPEN_URL);
+        if (openUrl == null || openUrl.isEmpty()) {
+            return;
+        }
+        intent.removeExtra(FeedNotifyWorker.EXTRA_OPEN_URL);
+        webView.loadUrl(openUrl);
     }
 
     private boolean attachWebView(Bundle savedInstanceState) {

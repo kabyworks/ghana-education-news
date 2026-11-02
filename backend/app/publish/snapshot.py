@@ -93,7 +93,29 @@ def publish_snapshot(session: Session, destination: Path) -> dict:
     temporary = data_dir / "feed.json.tmp"
     temporary.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     temporary.replace(data_dir / "feed.json")
+    _write_notify(data_dir, catalog)
     return catalog
+
+
+def _write_notify(data_dir: Path, catalog: dict) -> None:
+    """Small file the Android app polls for new-story alerts."""
+    stories = catalog.get("stories") or []
+    latest = stories[0] if stories else None
+    payload = {
+        "updated_at": catalog.get("generated_at"),
+        "latest": None
+        if latest is None
+        else {
+            "id": latest["id"],
+            "title": latest["title"],
+            "path": latest.get("path") or story_path(latest["id"], latest["title"]),
+            "published_at": latest.get("published_at"),
+        },
+    }
+    path = data_dir / "notify.json"
+    temporary = data_dir / "notify.json.tmp"
+    temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temporary.replace(path)
 
 
 def build_catalog(session: Session) -> dict:
