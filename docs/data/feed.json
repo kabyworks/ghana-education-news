@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-02T23:10:20Z",
+  "generated_at": "2026-11-02T23:40:18Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 182
+      "story_count": 183
     },
     {
       "name": "higher_education",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 645,
+      "title": "GJA President calls on Education Minister to address impunity in schools",
+      "summary": "\"The alleged sexual abuse of the SHS female student by the interdicted headmaster is deeply troubling. The GJA finds these allegations very shocking and calls for swift investigation into the matter by the relevant investigative agencies,\" he said.",
+      "category": "basic_schools",
+      "published_at": "2026-11-02T23:27:58Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-11-02 at 18.07.34-800x450.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "GJA President calls on Education Minister to address impunity in schools",
+          "url": "https://3news.com/news/gja-president-calls-on-education-minister-to-address-impunity-in-schools",
+          "published_at": "2026-11-02T23:27:58Z",
+          "excerpt": "\"The alleged sexual abuse of the SHS female student by the interdicted headmaster is deeply troubling. The GJA finds these allegations very shocking and calls for swift investigation into the matter by the relevant investigative agencies,\" he said."
+        }
+      ],
+      "path": "story/645/gja-president-calls-on-education-minister-to-address-impunity-in-schools/"
+    },
     {
       "id": 644,
       "title": "Sheffield researcher helps shape global policy on school meals and child health",
