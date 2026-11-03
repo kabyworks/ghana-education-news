@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:10:18Z",
+  "generated_at": "2026-11-03T10:40:19Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 149
+      "story_count": 150
     },
     {
       "name": "general",
@@ -84,6 +84,29 @@
         }
       ],
       "path": "story/651/free-shs-food-suppliers-threaten-five-day-protest-over-unpaid-2024-debts/"
+    },
+    {
+      "id": 654,
+      "title": "Rosebank honours teachers, says: ‘Their welfare is investment, not cost’",
+      "summary": "Before dawn breaks in towns and villages across Ghana, thousands of teachers are already awake. Some are marking exercise books under dim light.",
+      "category": "teachers",
+      "published_at": "2026-11-03T06:14:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-05.41.16-984x1024.jpeg",
+      "rank": 0.6969,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Rosebank honours teachers, says: ‘Their welfare is investment, not cost’",
+          "url": "https://www.myjoyonline.com/rosebank-honours-teachers-says-their-welfare-is-investment-not-cost/",
+          "published_at": "2026-11-03T06:14:00Z",
+          "excerpt": "Before dawn breaks in towns and villages across Ghana, thousands of teachers are already awake. Some are marking exercise books under dim light."
+        }
+      ],
+      "path": "story/654/rosebank-honours-teachers-says-their-welfare-is-investment-not-cost/"
     },
     {
       "id": 652,
