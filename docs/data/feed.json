@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T11:10:14Z",
+  "generated_at": "2026-11-03T11:40:21Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -32,6 +32,45 @@
   ],
   "stories": [
     {
+      "id": 651,
+      "title": "Free SHS food suppliers threaten five-day protest over unpaid 2024 debts",
+      "summary": "The Controlled Food Suppliers Association (CFSA) has announced plans to embark on a five-day demonstration at the Ghana Commodity Exchange (GCX) in Accra over outstanding payments for food items supplied under the Free Senior High School (Free SHS) programme in 2024.",
+      "category": "basic_schools",
+      "published_at": "2026-11-03T11:16:58Z",
+      "source_count": 3,
+      "sources": [
+        "3News",
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://media.3news.com/Free SHS food suppliers-640x375.webp",
+      "rank": 0.967,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Free SHS food suppliers threaten five-day protest over unpaid 2024 debts",
+          "url": "https://www.myjoyonline.com/free-shs-food-suppliers-threaten-five-day-protest-over-unpaid-2024-debts/",
+          "published_at": "2026-11-03T05:24:00Z",
+          "excerpt": "The Controlled Food Suppliers Association (CFSA) has announced plans to embark on a five-day demonstration at the Ghana Commodity Exchange (GCX) in Accra over outstanding payments for food items supplied under the Free Senior High School (Free SHS) programme in 2024."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "Free SHS food suppliers threaten five-day protest over unpaid debts",
+          "url": "https://www.adomonline.com/free-shs-food-suppliers-threaten-five-day-protest-over-unpaid-debts/",
+          "published_at": "2026-11-03T08:53:11Z",
+          "excerpt": "The Controlled Food Suppliers Association (CFSA) has announced plans to stage a five-day demonstration at the Ghana Commodity Exchange (GCX) in Accra over unpaid debts for food supplies delivered under the Free Senior High School (Free SHS) programme in 2024. The protest is scheduled to take place from November 16 to 20, 2026, as the […]"
+        },
+        {
+          "source_name": "3News",
+          "title": "Free SHS food suppliers plan five-day protest over unpaid 2024 debts",
+          "url": "https://3news.com/news/free-shs-food-suppliers-plan-five-day-protest-over-unpaid-2024-debts",
+          "published_at": "2026-11-03T11:16:58Z",
+          "excerpt": "The Controlled Food Suppliers Association (CFSA) has announced plans to stage a five-day demonstration at the Ghana Commodity Exchange (GCX) in Accra over outstanding payments for food items supplied under the Free Senior High School (Free SHS) programme in 2024."
+        }
+      ],
+      "path": "story/651/free-shs-food-suppliers-threaten-five-day-protest-over-unpaid-2024-debts/"
+    },
+    {
       "id": 653,
       "title": "Newborn baby found abandoned in classroom at Dadieso",
       "summary": "Police in the Suaman District of the Western North Region are investigating the abandonment of a newborn baby boy at Dadieso D/A Junior High School.",
@@ -53,37 +92,6 @@
         }
       ],
       "path": "story/653/newborn-baby-found-abandoned-in-classroom-at-dadieso/"
-    },
-    {
-      "id": 651,
-      "title": "Free SHS food suppliers threaten five-day protest over unpaid 2024 debts",
-      "summary": "The Controlled Food Suppliers Association (CFSA) has announced plans to embark on a five-day demonstration at the Ghana Commodity Exchange (GCX) in Accra over outstanding payments for food items supplied under the Free Senior High School (Free SHS) programme in 2024.",
-      "category": "basic_schools",
-      "published_at": "2026-11-03T08:53:11Z",
-      "source_count": 2,
-      "sources": [
-        "Adom Online Education",
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.adomonline.com/wp-content/uploads/2023/07/Food-Suppliers-Picketing-Copy.jpg",
-      "rank": 0.8365,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Free SHS food suppliers threaten five-day protest over unpaid 2024 debts",
-          "url": "https://www.myjoyonline.com/free-shs-food-suppliers-threaten-five-day-protest-over-unpaid-2024-debts/",
-          "published_at": "2026-11-03T05:24:00Z",
-          "excerpt": "The Controlled Food Suppliers Association (CFSA) has announced plans to embark on a five-day demonstration at the Ghana Commodity Exchange (GCX) in Accra over outstanding payments for food items supplied under the Free Senior High School (Free SHS) programme in 2024."
-        },
-        {
-          "source_name": "Adom Online Education",
-          "title": "Free SHS food suppliers threaten five-day protest over unpaid debts",
-          "url": "https://www.adomonline.com/free-shs-food-suppliers-threaten-five-day-protest-over-unpaid-debts/",
-          "published_at": "2026-11-03T08:53:11Z",
-          "excerpt": "The Controlled Food Suppliers Association (CFSA) has announced plans to stage a five-day demonstration at the Ghana Commodity Exchange (GCX) in Accra over unpaid debts for food supplies delivered under the Free Senior High School (Free SHS) programme in 2024. The protest is scheduled to take place from November 16 to 20, 2026, as the […]"
-        }
-      ],
-      "path": "story/651/free-shs-food-suppliers-threaten-five-day-protest-over-unpaid-2024-debts/"
     },
     {
       "id": 654,
