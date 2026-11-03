@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-03T13:10:12Z",
+  "generated_at": "2026-11-03T13:42:48Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 186
+      "story_count": 187
     },
     {
       "name": "higher_education",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 656,
+      "title": "Sefwi Bekwai SHS appeals for support to address infrastructure deficit",
+      "summary": "Sefwi Bekwai Senior High School in the Western North Region is facing infrastructure challenges, with the school appealing for support to provide a science laboratory, a befitting library and additional dormitory facilities.",
+      "category": "basic_schools",
+      "published_at": "2026-11-03T13:13:02Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/Sefwi Bekwai SHS-722x425.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Sefwi Bekwai SHS appeals for support to address infrastructure deficit",
+          "url": "https://3news.com/news/sefwi-bekwai-shs-appeals-for-support-to-address-infrastructure-deficit",
+          "published_at": "2026-11-03T13:13:02Z",
+          "excerpt": "Sefwi Bekwai Senior High School in the Western North Region is facing infrastructure challenges, with the school appealing for support to provide a science laboratory, a befitting library and additional dormitory facilities."
+        }
+      ],
+      "path": "story/656/sefwi-bekwai-shs-appeals-for-support-to-address-infrastructure-deficit/"
+    },
     {
       "id": 655,
       "title": "Two Techiman SHS teachers granted bail following arrest over student assault",
