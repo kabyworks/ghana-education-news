@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T14:10:07Z",
+  "generated_at": "2026-11-03T14:40:16Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -27,10 +27,33 @@
     },
     {
       "name": "scholarships",
-      "story_count": 14
+      "story_count": 15
     }
   ],
   "stories": [
+    {
+      "id": 658,
+      "title": "Ten new scholars join Drive to Inspire – Africa, continuing scholars receive laptops",
+      "summary": "Ten new tertiary students have joined the Drive to Inspire – Africa LBG (DTI-A) scholarship programme, while some continuing scholars have received laptops to support their academic work.",
+      "category": "scholarships",
+      "published_at": "2026-11-03T14:19:52Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-13.38.15-1-1024x683.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ten new scholars join Drive to Inspire – Africa, continuing scholars receive laptops",
+          "url": "https://www.myjoyonline.com/ten-new-scholars-join-drive-to-inspire-africa-continuing-scholars-receive-laptops/",
+          "published_at": "2026-11-03T14:19:52Z",
+          "excerpt": "Ten new tertiary students have joined the Drive to Inspire – Africa LBG (DTI-A) scholarship programme, while some continuing scholars have received laptops to support their academic work. The awards were presented at a scholarship ceremony in Accra on October 30, 2026, organised by DTI-A in partnership with the Sanjeev Mansotra Foundation (SMF). The new beneficiaries were selected through a competitive process based on academic excellence and financial need. Their scholarships were funded by SMF under a partnership announced on April 21, 2026. The latest cohort marks the first time male tertiary students have been admitted to the DTI-A scholarship programme, which previously supported young women. The additional 10 beneficiaries bring the total number of scholarships awarded under the SMF-DTI-A partnership to 20."
+        }
+      ],
+      "path": "story/658/ten-new-scholars-join-drive-to-inspire-africa-continuing-scholars-receive/"
+    },
     {
       "id": 657,
       "title": "Sanjeev Mansotra Foundation awards 10 more scholarships to African students under Drive to Inspire partnership",
