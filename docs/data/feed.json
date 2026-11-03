@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-03T09:10:18Z",
+  "generated_at": "2026-11-03T09:40:31Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 185
+      "story_count": 186
     },
     {
       "name": "higher_education",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 653,
+      "title": "Newborn baby found abandoned in classroom at Dadieso",
+      "summary": "Police in the Suaman District of the Western North Region are investigating the abandonment of a newborn baby boy at Dadieso D/A Junior High School.",
+      "category": "basic_schools",
+      "published_at": "2026-11-03T09:29:57Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/safeimagekit-Dadieso abandoned baby-1200x675.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Newborn baby found abandoned in classroom at Dadieso",
+          "url": "https://3news.com/news/newborn-baby-found-abandoned-in-classroom-at-dadieso",
+          "published_at": "2026-11-03T09:29:57Z",
+          "excerpt": "Police in the Suaman District of the Western North Region are investigating the abandonment of a newborn baby boy at Dadieso D/A Junior High School."
+        }
+      ],
+      "path": "story/653/newborn-baby-found-abandoned-in-classroom-at-dadieso/"
+    },
     {
       "id": 651,
       "title": "Free SHS food suppliers threaten five-day protest over unpaid 2024 debts",
