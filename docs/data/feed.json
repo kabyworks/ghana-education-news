@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:10:14Z",
+  "generated_at": "2026-11-04T18:40:13Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 96
+      "story_count": 97
     },
     {
       "name": "policy",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 677,
+      "title": "School is your biggest networking opportunity; make the most of it – MC Kabutey",
+      "summary": "Ghanaian event host MC Kabutey has urged students to look beyond academic work and take advantage of the relationships and experiences available to them while in school, saying these could open doors to opportunities later in life.",
+      "category": "general",
+      "published_at": "2026-11-04T18:29:39Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/career-trail-episode-11-from-bio-1.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "School is your biggest networking opportunity; make the most of it – MC Kabutey",
+          "url": "https://www.myjoyonline.com/school-is-your-biggest-networking-opportunity-make-the-most-of-it-mc-kabutey/",
+          "published_at": "2026-11-04T18:29:39Z",
+          "excerpt": "Ghanaian event host MC Kabutey has urged students to look beyond academic work and take advantage of the relationships and experiences available to them while in school, saying these could open doors to opportunities later in life."
+        }
+      ],
+      "path": "story/677/school-is-your-biggest-networking-opportunity-make-the-most-of-it-mc-kabutey/"
+    },
     {
       "id": 676,
       "title": "OMSU 2006 donates 200 desks and projectors to Mawuli School",
