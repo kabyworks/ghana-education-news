@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-04T21:10:24Z",
+  "generated_at": "2026-11-04T21:40:18Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 191
+      "story_count": 192
     },
     {
       "name": "higher_education",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 680,
+      "title": "NACOC raises alarm over drug use among children as young as seven-years-old",
+      "summary": "Head of Demand Reduction at NACOC's Western Regional Command, SNCO Godlove Vanden-Bossche, made these disclosures during a youth emotional development workshop at Diabene Senior High Technical School near Sekondi on Wednesday, November 4, 2026.",
+      "category": "basic_schools",
+      "published_at": "2026-11-04T21:25:51Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-11-04 at 20.23.07-1200x675.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "NACOC raises alarm over drug use among children as young as seven-years-old",
+          "url": "https://3news.com/news/nacoc-raises-alarm-over-drug-use-among-children-as-young-as-seven-years-old",
+          "published_at": "2026-11-04T21:25:51Z",
+          "excerpt": "Head of Demand Reduction at NACOC's Western Regional Command, SNCO Godlove Vanden-Bossche, made these disclosures during a youth emotional development workshop at Diabene Senior High Technical School near Sekondi on Wednesday, November 4, 2026."
+        }
+      ],
+      "path": "story/680/nacoc-raises-alarm-over-drug-use-among-children-as-young-as-seven-years-old/"
+    },
     {
       "id": 679,
       "title": "I had a great experience at Pope John Senior High School – MC Kabutey reveals",
