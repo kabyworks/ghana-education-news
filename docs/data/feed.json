@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:24:42Z",
+  "generated_at": "2026-11-04T17:40:12Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 95
+      "story_count": 96
     },
     {
       "name": "policy",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 676,
+      "title": "OMSU 2006 donates 200 desks and projectors to Mawuli School",
+      "summary": "The Old Mawuli Students Union 2006 year group donated 200 mono desks, five projectors, and five screens to Mawuli School in Ho on its 20th anniversary.",
+      "category": "general",
+      "published_at": "2026-11-04T17:37:31Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/OMSU 1.jpg-1200x801.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "OMSU 2006 donates 200 desks and projectors to Mawuli School",
+          "url": "https://3news.com/education/omsu-2006-donates-200-desks-and-projectors-to-mawuli-school",
+          "published_at": "2026-11-04T17:37:31Z",
+          "excerpt": "The Old Mawuli Students Union 2006 year group donated 200 mono desks, five projectors, and five screens to Mawuli School in Ho on its 20th anniversary."
+        }
+      ],
+      "path": "story/676/omsu-2006-donates-200-desks-and-projectors-to-mawuli-school/"
+    },
     {
       "id": 675,
       "title": "KNUST, Norwegian consulting firm explore partnership on student exchange, research",
