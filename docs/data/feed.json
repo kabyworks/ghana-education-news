@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T10:10:14Z",
+  "generated_at": "2026-11-05T10:40:10Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -27,10 +27,33 @@
     },
     {
       "name": "scholarships",
-      "story_count": 17
+      "story_count": 18
     }
   ],
   "stories": [
+    {
+      "id": 689,
+      "title": "Slavery reparations: Ghana, Trinidad and Tobago push joint Africa-Caribbean body for UK talks",
+      "summary": "Ablakwa and Sobers say reparatory justice must go beyond cash, with Trinidad and Tobago pushing for scholarships, hospitals and better schools.",
+      "category": "scholarships",
+      "published_at": "2026-11-05T10:24:23Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/Okudzeto-2-1200x858.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Slavery reparations: Ghana, Trinidad and Tobago push joint Africa-Caribbean body for UK talks",
+          "url": "https://3news.com/politics/reparations-ghana-trinidad-tobago-au-caricom-mechanism",
+          "published_at": "2026-11-05T10:24:23Z",
+          "excerpt": "Ablakwa and Sobers say reparatory justice must go beyond cash, with Trinidad and Tobago pushing for scholarships, hospitals and better schools."
+        }
+      ],
+      "path": "story/689/slavery-reparations-ghana-trinidad-and-tobago-push-joint-africa-caribbean-body/"
+    },
     {
       "id": 688,
       "title": "Akpene Tetteh: Gov't backs family seeking justice for PhD student shot dead in US",
