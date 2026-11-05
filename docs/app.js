@@ -812,8 +812,12 @@ function rememberCatalog(next) {
   }
 }
 
+function feedDataUrl() {
+  return `data/feed.json?v=${encodeURIComponent((catalog && catalog.generated_at) || "14")}`;
+}
+
 function refreshStaticCatalog() {
-  return fetchJson("data/feed.json")
+  return fetchJson(feedDataUrl())
     .then((fresh) => {
       if (applyCatalog(fresh, { redraw: true })) rememberCatalog(fresh);
     })
@@ -837,7 +841,7 @@ async function loadCategories() {
       } catch {
         // Ignore bad cached JSON and load from the network.
       }
-      applyCatalog(await fetchJson("data/feed.json"));
+      applyCatalog(await fetchJson(feedDataUrl()));
       rememberCatalog(catalog);
       return;
     }
@@ -874,6 +878,10 @@ window.addEventListener("hashchange", () => {
   const current = route();
   if (current.category) pinCategory(current.category);
   draw();
+});
+
+window.addEventListener("pageshow", () => {
+  if (STATIC) refreshStaticCatalog();
 });
 
 if ("serviceWorker" in navigator) {

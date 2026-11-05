@@ -55,11 +55,15 @@ def create_original_post(
     body: str,
     category: str = "general",
     published_at: datetime | None = None,
+    image_url: str | None = None,
 ) -> Story:
     """Insert one original tip as a visible story with a short card summary and full body."""
     clean_title = _one_line(title, 500)
     clean_summary = _one_line(summary, 500)
     clean_body = body.strip()
+    clean_image = (image_url or "").strip() or None
+    if clean_image and not clean_image.startswith(("http://", "https://")):
+        raise ValueError("image_url must be an http(s) URL")
     if not clean_title:
         raise ValueError("title is required")
     if not clean_summary:
@@ -99,7 +103,7 @@ def create_original_post(
         published_at=now,
         discovered_at=now,
         excerpt=clean_body,
-        image_url=None,
+        image_url=clean_image,
         content_hash=_content_hash(canonical, clean_title, clean_body),
         language="en",
         processing_status=PROCESSING_PUBLISHED,
@@ -113,6 +117,40 @@ def create_original_post(
         updated_at=now,
     )
     session.add(article)
+    session.commit()
+    session.refresh(story)
+    return story
+
+
+def refresh_original_post(
+    session: Session,
+    story_id: int,
+    *,
+    published_at: datetime | None = None,
+    image_url: str | None = None,
+) -> Story:
+    """Bump an original tip so it stays visible in the latest feed."""
+    story = session.get(Story, story_id)
+    if story is None:
+        raise ValueError(f"story {story_id} not found")
+    article = session.scalar(select(Article).where(Article.story_id == story_id))
+    if article is None:
+        raise ValueError(f"story {story_id} has no article")
+    source = session.get(Source, article.source_id)
+    if source is None or source.discovery_method != "manual":
+        raise ValueError(f"story {story_id} is not an original Edulens post")
+    now = published_at or datetime.now(timezone.utc)
+    if now.tzinfo is None:
+        now = now.replace(tzinfo=timezone.utc)
+    if image_url is not None:
+        clean_image = image_url.strip() or None
+        if clean_image and not clean_image.startswith(("http://", "https://")):
+            raise ValueError("image_url must be an http(s) URL")
+        article.image_url = clean_image
+    article.published_at = now
+    article.updated_at = now
+    story.first_published_at = now
+    story.updated_at = now
     session.commit()
     session.refresh(story)
     return story

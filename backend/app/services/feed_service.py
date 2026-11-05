@@ -150,7 +150,14 @@ def _rank_one(story: Story, articles: list[tuple[Article, str]], *, now: datetim
 
 
 def _matches(story: FeedStory, terms: list[str]) -> bool:
-    haystack = " ".join([story.title, story.summary, *(article.title for article, _name in story.articles)]).casefold()
+    haystack = " ".join(
+        [
+            story.title,
+            story.summary,
+            *(article.title for article, _name in story.articles),
+            *((article.excerpt or "") for article, _name in story.articles),
+        ]
+    ).casefold()
     return all(re.search(rf"\b{re.escape(term)}\b", haystack) is not None for term in terms)
 
 

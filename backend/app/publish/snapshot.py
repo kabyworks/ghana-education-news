@@ -16,13 +16,13 @@ from app.services.feed_service import list_categories, list_feed, story_image
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "13"
+SHELL_VERSION = "14"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-9";
+PHONE_SW = """const CACHE = "ghanaed-phone-10";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=13",
-  "./app.js?v=13",
+  "./styles.css?v=14",
+  "./app.js?v=14",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -188,6 +188,12 @@ def _write_shell(destination: Path) -> None:
     (destination / "index.html").write_text(html, encoding="utf-8")
     for name in ("styles.css", "app.js", "icon-192.png", "icon-512.png", "logo.svg"):
         shutil.copyfile(READER_DIR / name, destination / name)
+    images_source = READER_DIR / "images"
+    if images_source.is_dir():
+        images_dest = destination / "images"
+        if images_dest.exists():
+            shutil.rmtree(images_dest)
+        shutil.copytree(images_source, images_dest)
     privacy_source = READER_DIR / "privacy" / "index.html"
     privacy_dest = destination / "privacy"
     privacy_dest.mkdir(exist_ok=True)
