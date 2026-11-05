@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T21:10:52Z",
+  "generated_at": "2026-11-05T21:40:08Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -31,6 +31,37 @@
     }
   ],
   "stories": [
+    {
+      "id": 700,
+      "title": "Kwadaso Agric College students turn ideas into market-ready agribusiness under CB-VET Ghana project",
+      "summary": "Innovation, entrepreneurship and practical skills are increasingly becoming the foundation of modern Agricultural Technical and Vocational Education and Training (ATVET) in Ghana, a shift clearly demonstrated by the CB-VET Ghana Project.",
+      "category": "higher_education",
+      "published_at": "2026-11-05T21:06:20Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-19.31.53.jpeg",
+      "rank": 0.867,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Kwadaso Agric College students turn ideas to market-ready agribusiness under CB-VET Ghana project",
+          "url": "https://www.adomonline.com/kwadaso-agric-college-students-turn-ideas-to-market-ready-agribusiness-under-cb-vet-ghana-project/",
+          "published_at": "2026-11-05T18:53:31Z",
+          "excerpt": "Innovation, entrepreneurship and practical skills are increasingly becoming the foundation of modern Agricultural Technical and Vocational Education and Training (ATVET) in Ghana, a shift clearly demonstrated by the CB-VET Ghana Project. For the past three years, over 500 students of Kwadaso Agricultural College, under the VET Ecosystems for Employability in Ghana (CB-VET) initiative, have embarked […]"
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Kwadaso Agric College students turn ideas into market-ready agribusiness under CB-VET Ghana project",
+          "url": "https://www.myjoyonline.com/kwadaso-agric-college-students-turn-ideas-into-market-ready-agribusiness-under-cb-vet-ghana-project/",
+          "published_at": "2026-11-05T21:06:20Z",
+          "excerpt": "Innovation, entrepreneurship and practical skills are increasingly becoming the foundation of modern Agricultural Technical and Vocational Education and Training (ATVET) in Ghana, a shift clearly demonstrated by the CB-VET Ghana Project."
+        }
+      ],
+      "path": "story/700/kwadaso-agric-college-students-turn-ideas-into-market-ready-agribusiness-under/"
+    },
     {
       "id": 697,
       "title": "7 exam mistakes that quietly steal students' grades (even when they know the answers)",
@@ -99,29 +130,6 @@
         }
       ],
       "path": "story/701/obuasi-shts-abuse-case-alleged-victim-moved-to-new-school-as-npp-sets-14-day/"
-    },
-    {
-      "id": 700,
-      "title": "Kwadaso Agric College students turn ideas to market-ready agribusiness under CB-VET Ghana project",
-      "summary": "Innovation, entrepreneurship and practical skills are increasingly becoming the foundation of modern Agricultural Technical and Vocational Education and Training (ATVET) in Ghana, a shift clearly demonstrated by the CB-VET Ghana Project.",
-      "category": "higher_education",
-      "published_at": "2026-11-05T18:53:31Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/IMG-20261105-WA0007.jpg",
-      "rank": 0.7366,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "Kwadaso Agric College students turn ideas to market-ready agribusiness under CB-VET Ghana project",
-          "url": "https://www.adomonline.com/kwadaso-agric-college-students-turn-ideas-to-market-ready-agribusiness-under-cb-vet-ghana-project/",
-          "published_at": "2026-11-05T18:53:31Z",
-          "excerpt": "Innovation, entrepreneurship and practical skills are increasingly becoming the foundation of modern Agricultural Technical and Vocational Education and Training (ATVET) in Ghana, a shift clearly demonstrated by the CB-VET Ghana Project. For the past three years, over 500 students of Kwadaso Agricultural College, under the VET Ecosystems for Employability in Ghana (CB-VET) initiative, have embarked […]"
-        }
-      ],
-      "path": "story/700/kwadaso-agric-college-students-turn-ideas-to-market-ready-agribusiness-under-cb/"
     },
     {
       "id": 693,
