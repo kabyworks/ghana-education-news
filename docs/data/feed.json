@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:10:06Z",
+  "generated_at": "2026-11-05T15:40:21Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -23,7 +23,7 @@
     },
     {
       "name": "examinations",
-      "story_count": 18
+      "story_count": 19
     },
     {
       "name": "scholarships",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 692,
+      "title": "Over 60,000 teachers complete GES promotion examinations",
+      "summary": "More than 60,000 teachers nationwide have completed the Ghana Education Service (GES) three-day promotion exercise, which is expected to create greater opportunities for professional advancement within the Service.",
+      "category": "examinations",
+      "published_at": "2026-11-05T15:18:50Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/image-2026-11-05T070708.686-1024x768.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Over 60,000 teachers complete GES promotion examinations",
+          "url": "https://www.adomonline.com/over-60000-teachers-complete-ges-promotion-examinations/",
+          "published_at": "2026-11-05T15:18:50Z",
+          "excerpt": "More than 60,000 teachers nationwide have completed the Ghana Education Service (GES) three-day promotion exercise, which is expected to create greater opportunities for professional advancement within the Service. The exercise, which ended on Wednesday, November 5, was conducted across examination centres nationwide and was described by monitoring officers as generally smooth and free of major […]"
+        }
+      ],
+      "path": "story/692/over-60-000-teachers-complete-ges-promotion-examinations/"
+    },
     {
       "id": 691,
       "title": "Javits murder & Obuasi SHTS: Napo calls for safe schools, action against bullying and abuse",
