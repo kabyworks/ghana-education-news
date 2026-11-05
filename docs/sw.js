@@ -1,15 +1,18 @@
-const CACHE = "ghanaed-phone-8";
+const CACHE = "ghanaed-phone-9";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=12",
-  "./app.js?v=12",
+  "./styles.css?v=13",
+  "./app.js?v=13",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
   "./logo.svg",
   "./privacy/",
-  "./data/feed.json",
 ];
+
+function isFeedData(url) {
+  return url.pathname.endsWith("/data/feed.json") || url.pathname.endsWith("/data/notify.json");
+}
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(SHELL)));
@@ -37,6 +40,15 @@ self.addEventListener("fetch", (event) => {
         return response;
       })
       .catch(() => undefined);
+
+    // Feed data must stay fresh so new Edulens tips do not vanish behind an old cache.
+    if (isFeedData(url)) {
+      const network = await fetching;
+      if (network) return network;
+      if (cached) return cached;
+      return Response.error();
+    }
+
     if (cached) {
       fetching.catch(() => {});
       return cached;

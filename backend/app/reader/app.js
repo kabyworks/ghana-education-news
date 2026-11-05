@@ -183,7 +183,11 @@ function searchTerms(query) {
 }
 
 function matchesStory(story, terms) {
-  const haystack = [story.title, story.summary, ...(story.articles || []).map((article) => article.title)]
+  const haystack = [
+    story.title,
+    story.summary,
+    ...(story.articles || []).flatMap((article) => [article.title, article.excerpt || ""]),
+  ]
     .join(" ")
     .toLowerCase();
   return terms.every((term) => new RegExp(`\\b${term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`).test(haystack));
@@ -785,9 +789,19 @@ async function draw() {
 
 const FEED_CACHE_KEY = "ghanaed.feed.cache.v1";
 
-function applyCatalog(next) {
+function catalogStamp(value) {
+  const raw = value && value.generated_at;
+  const when = Date.parse(raw || "");
+  return Number.isNaN(when) ? 0 : when;
+}
+
+function applyCatalog(next, { redraw = false } = {}) {
+  if (!next || !Array.isArray(next.stories)) return false;
+  if (catalog && catalogStamp(next) < catalogStamp(catalog)) return false;
   catalog = next;
   categoryNames = (next.categories || []).map((item) => item.name);
+  if (redraw) draw().catch(showFailure);
+  return true;
 }
 
 function rememberCatalog(next) {
@@ -798,20 +812,26 @@ function rememberCatalog(next) {
   }
 }
 
+function refreshStaticCatalog() {
+  return fetchJson("data/feed.json")
+    .then((fresh) => {
+      if (applyCatalog(fresh, { redraw: true })) rememberCatalog(fresh);
+    })
+    .catch(() => {});
+}
+
 async function loadCategories() {
   try {
     if (STATIC) {
-      if (catalog) return;
+      if (catalog) {
+        refreshStaticCatalog();
+        return;
+      }
       try {
         const cached = sessionStorage.getItem(FEED_CACHE_KEY);
         if (cached) {
           applyCatalog(JSON.parse(cached));
-          fetchJson("data/feed.json")
-            .then((fresh) => {
-              applyCatalog(fresh);
-              rememberCatalog(fresh);
-            })
-            .catch(() => {});
+          refreshStaticCatalog();
           return;
         }
       } catch {
