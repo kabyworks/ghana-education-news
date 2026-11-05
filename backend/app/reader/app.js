@@ -112,12 +112,17 @@ function tipBody(excerpt) {
   for (const raw of blocks) {
     const block = raw.trim();
     if (!block) continue;
+    let body = block;
     if (block.startsWith("### ")) {
-      section.append(el("h3", "", block.slice(4).trim()));
-      continue;
+      const newline = block.indexOf("\n");
+      const heading = newline === -1 ? block.slice(4).trim() : block.slice(4, newline).trim();
+      section.append(el("h3", "", heading));
+      if (newline === -1) continue;
+      body = block.slice(newline + 1).trim();
+      if (!body) continue;
     }
     const paragraph = el("p", "summary");
-    const lines = block.split("\n");
+    const lines = body.split("\n");
     lines.forEach((line, index) => {
       if (index) paragraph.append(document.createElement("br"));
       paragraph.append(document.createTextNode(line));

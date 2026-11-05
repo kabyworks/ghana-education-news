@@ -170,8 +170,11 @@ def format_tip_body_html(body: str) -> str:
         if not block:
             continue
         if block.startswith("### "):
-            blocks.append(f"<h3>{escape(block[4:].strip())}</h3>")
-            continue
+            heading, _, rest = block.partition("\n")
+            blocks.append(f"<h3>{escape(heading[4:].strip())}</h3>")
+            block = rest.strip()
+            if not block:
+                continue
         lines = [escape(line) for line in block.split("\n")]
         blocks.append(f'<p class="summary">{("<br>".join(lines))}</p>')
     return "\n".join(blocks)
