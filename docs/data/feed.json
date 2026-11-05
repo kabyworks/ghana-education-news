@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-05T18:08:35Z",
+  "generated_at": "2026-11-05T18:10:32Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 195
+      "story_count": 196
     },
     {
       "name": "higher_education",
@@ -76,6 +76,29 @@
         }
       ],
       "path": "story/696/asutifi-south-members-raise-concerns-over-300-teacher-deficit-at-basic-schools/"
+    },
+    {
+      "id": 698,
+      "title": "Afua Kobi Ampem SHS wins Ashanti NHIS inter-school quiz",
+      "summary": "Afua Kobi Ampem Senior High School has emerged winner of the Ashanti Regional edition of the National Health Insurance Authority’s (NHIA) inter-school quiz competition, beating Ibadur Rahman Academy SHS and Opoku Ware School.",
+      "category": "basic_schools",
+      "published_at": "2026-11-05T17:36:11Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-172954-1024x572.png",
+      "rank": 0.761,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Afua Kobi Ampem SHS wins Ashanti NHIS inter-school quiz",
+          "url": "https://www.myjoyonline.com/afua-kobi-ampem-shs-wins-ashanti-nhis-inter-school-quiz/",
+          "published_at": "2026-11-05T17:36:11Z",
+          "excerpt": "Afua Kobi Ampem Senior High School has emerged winner of the Ashanti Regional edition of the National Health Insurance Authority’s (NHIA) inter-school quiz competition, beating Ibadur Rahman Academy SHS and Opoku Ware School. The competition forms part of a nationwide public education initiative aimed at improving students’ understanding of the National Health Insurance Scheme (NHIS), including its benefits, entitlements and operations. Organised under the auspices of NHIA Chief Executive, Dr Victor Asare Bampoe, the initiative involves 48 schools across the country. Participating schools were provided with study materials and sensitisation to strengthen their knowledge of the scheme ahead of the regional contests."
+        }
+      ],
+      "path": "story/698/afua-kobi-ampem-shs-wins-ashanti-nhis-inter-school-quiz/"
     },
     {
       "id": 695,
