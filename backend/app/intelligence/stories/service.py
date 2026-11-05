@@ -33,8 +33,29 @@ class _Group:
 
 def build_stories(session: Session, *, force: bool = False) -> StoryReport:
     if force:
-        session.execute(update(Article).values(story_id=None))
-        session.execute(delete(Story))
+        # Keep original Edulens posts (manual source). Wipe aggregated news stories only.
+        manual_ids = {
+            story_id
+            for story_id in session.scalars(
+                select(Article.story_id)
+                .join(Source, Article.source_id == Source.id)
+                .where(
+                    Source.discovery_method == "manual",
+                    Article.story_id.is_not(None),
+                )
+            ).all()
+            if story_id is not None
+        }
+        if manual_ids:
+            session.execute(
+                update(Article)
+                .where(Article.story_id.is_not(None), Article.story_id.not_in(manual_ids))
+                .values(story_id=None)
+            )
+            session.execute(delete(Story).where(Story.id.not_in(manual_ids)))
+        else:
+            session.execute(update(Article).values(story_id=None))
+            session.execute(delete(Story))
         session.flush()
 
     pending = _publish_rows(session, unassigned_only=True)

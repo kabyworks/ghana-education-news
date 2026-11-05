@@ -439,6 +439,21 @@ h2 {
   line-height: 1.5;
 }
 
+.tip-body {
+  margin-top: 1rem;
+}
+
+.tip-body h3 {
+  margin: 1.1rem 0 0.35rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  color: var(--green);
+}
+
+.tip-body .summary {
+  margin: 0 0 0.65rem;
+}
+
 .story-card .summary {
   display: -webkit-box;
   -webkit-line-clamp: 3;

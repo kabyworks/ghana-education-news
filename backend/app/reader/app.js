@@ -96,9 +96,36 @@ function formatWhen(value) {
 const SOURCE_DOMAINS = {
   "3News": "3news.com",
   "Adom Online Education": "adomonline.com",
+  "Edulens360": "edulens360.com",
   "Ghana Tertiary Education Commission": "gtec.edu.gh",
   "MyJoyOnline Education": "myjoyonline.com",
 };
+
+function isOriginalTip(story) {
+  const names = sourceNames(story);
+  return names.length === 1 && names[0] === "Edulens360";
+}
+
+function tipBody(excerpt) {
+  const section = el("section", "tip-body");
+  const blocks = String(excerpt || "").replace(/\r\n/g, "\n").split(/\n\n+/);
+  for (const raw of blocks) {
+    const block = raw.trim();
+    if (!block) continue;
+    if (block.startsWith("### ")) {
+      section.append(el("h3", "", block.slice(4).trim()));
+      continue;
+    }
+    const paragraph = el("p", "summary");
+    const lines = block.split("\n");
+    lines.forEach((line, index) => {
+      if (index) paragraph.append(document.createElement("br"));
+      paragraph.append(document.createTextNode(line));
+    });
+    section.append(paragraph);
+  }
+  return section;
+}
 
 function sourceNames(story) {
   if (Array.isArray(story.sources) && story.sources.length) return story.sources;
@@ -142,8 +169,8 @@ function sourceLabel(count) {
 
 function cardMeta(story) {
   const row = el("p", "meta");
-  row.append(el("span", "", sourceLabel(story.source_count)));
   const names = sourceNames(story);
+  row.append(el("span", "", isOriginalTip(story) ? "Edulens360 tip" : sourceLabel(story.source_count)));
   if (!names.length) return row;
   const marks = el("span", "source-marks");
   for (const name of names) marks.append(sourceMark(name));
@@ -601,11 +628,12 @@ function renderStory(story, { offline = false } = {}) {
   back.setAttribute("aria-label", "Back to latest");
   article.append(back);
   document.title = story.title ? `${story.title} · Edulens360` : "Edulens360";
+  const originLabel = isOriginalTip(story) ? "Edulens360 tip" : sourceLabel(story.source_count);
   article.append(
     el(
       "p",
       "kicker",
-      `${label(story.category)} · ${formatWhen(story.published_at)} · ${sourceLabel(story.source_count)}`,
+      `${label(story.category)} · ${formatWhen(story.published_at)} · ${originLabel}`,
     ),
   );
   article.append(headline(story));
@@ -632,6 +660,10 @@ function renderStory(story, { offline = false } = {}) {
   actions.append(share, save);
   article.append(actions);
   for (const item of story.articles || []) {
+    if (item.source_name === "Edulens360") {
+      article.append(tipBody(item.excerpt));
+      continue;
+    }
     const block = el("section", "source");
     block.append(el("h3", "", item.source_name));
     if (item.excerpt) block.append(el("p", "summary", item.excerpt));

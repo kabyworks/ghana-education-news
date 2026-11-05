@@ -16,13 +16,13 @@ from app.services.feed_service import list_categories, list_feed, story_image
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "11"
+SHELL_VERSION = "12"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-7";
+PHONE_SW = """const CACHE = "ghanaed-phone-8";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=11",
-  "./app.js?v=11",
+  "./styles.css?v=12",
+  "./app.js?v=12",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -314,7 +314,8 @@ def _story_page(story: dict) -> str:
     label = escape(CATEGORY_LABELS.get(story.get("category") or "", "") or "Education")
     when = escape(_format_when(story.get("published_at")))
     count = int(story.get("source_count") or 0)
-    sources = "1 source" if count == 1 else f"{count} sources"
+    original = _is_original_story(story)
+    sources = "Edulens360 tip" if original else ("1 source" if count == 1 else f"{count} sources")
     image = _http_url(story.get("image_url"))
     photo = ""
     if image:
@@ -454,17 +455,30 @@ def _public_articles(story: dict) -> list[dict]:
 
 
 def _source_block(article: dict) -> str:
-    name = escape(article.get("source_name") or "Source")
-    excerpt = escape(article.get("excerpt") or "")
+    from app.services.original_post import format_tip_body_html, is_original_source_name
+
+    name = article.get("source_name") or "Source"
+    excerpt = article.get("excerpt") or ""
+    if is_original_source_name(name):
+        body = format_tip_body_html(excerpt) if excerpt else ""
+        return f'<section class="tip-body">{body}</section>'
+    safe_name = escape(name)
+    text = f'<p class="summary">{escape(excerpt)}</p>' if excerpt else ""
     url = escape(article.get("url") or "", quote=True)
-    text = f"<p class=\"summary\">{excerpt}</p>" if excerpt else ""
     return (
-        "<section class=\"source\">"
-        f"<h3>{name}</h3>"
+        '<section class="source">'
+        f"<h3>{safe_name}</h3>"
         f"{text}"
-        f'<a class="link-button secondary" href="{url}" target="_blank" rel="noreferrer">Read at {name}</a>'
+        f'<a class="link-button secondary" href="{url}" target="_blank" rel="noreferrer">Read at {safe_name}</a>'
         "</section>"
     )
+
+
+def _is_original_story(story: dict) -> bool:
+    from app.services.original_post import is_original_source_name
+
+    sources = story.get("sources") or []
+    return len(sources) == 1 and is_original_source_name(sources[0])
 
 
 def _article_schema(story: dict, image: str) -> dict:
