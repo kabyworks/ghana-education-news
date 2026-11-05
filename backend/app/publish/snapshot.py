@@ -341,6 +341,7 @@ def _story_page(story: dict) -> str:
     blocks = "\n".join(_source_block(article) for article in _public_articles(story))
     data = json.dumps(_saved_copy(story), ensure_ascii=False).replace("<", "\\u003c")
     image_meta = f'<meta property="og:image" content="{escape(image, quote=True)}">' if image else ""
+    twitter_card = "summary_large_image" if image else "summary"
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -350,12 +351,16 @@ def _story_page(story: dict) -> str:
   <title>{title} · Edulens360</title>
   <meta name="description" content="{description}">
   <link rel="canonical" href="{canonical}">
+  <meta property="og:site_name" content="Edulens360">
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{description}">
   <meta property="og:url" content="{canonical}">
   <meta property="og:type" content="article">
   {image_meta}
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="{twitter_card}">
+  <meta name="twitter:title" content="{title}">
+  <meta name="twitter:description" content="{description}">
+  {f'<meta name="twitter:image" content="{escape(image, quote=True)}">' if image else ""}
   <link rel="icon" href="../../../icon-192.png">
   <link rel="stylesheet" href="../../../styles.css?v={SHELL_VERSION}">
   <script type="application/ld+json">
@@ -500,18 +505,47 @@ def _is_original_story(story: dict) -> bool:
 
 
 def _article_schema(story: dict, image: str) -> dict:
+    published = _iso_date(story.get("published_at"))
+    original = _is_original_story(story)
     schema = {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": story["title"],
         "description": _plain(story.get("summary") or "", 180),
-        "datePublished": story.get("published_at"),
+        "datePublished": published,
+        "dateModified": published,
         "mainEntityOfPage": f"{SITE}/{story['path']}",
-        "publisher": {"@type": "Organization", "name": "Edulens360", "url": SITE + "/"},
+        "author": {
+            "@type": "Organization",
+            "name": "Edulens360" if original else (story.get("sources") or ["Edulens360"])[0],
+            "url": SITE + "/",
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Edulens360",
+            "url": SITE + "/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": f"{SITE}/icon-512.png",
+            },
+        },
+        "isAccessibleForFree": True,
     }
     if image:
-        schema["image"] = image
+        schema["image"] = [image]
     return schema
+
+
+def _iso_date(value: object) -> str | None:
+    if not isinstance(value, str) or not value.strip():
+        return None
+    try:
+        when = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return value.strip()
+    if when.tzinfo is None:
+        when = when.replace(tzinfo=timezone.utc)
+    return when.astimezone(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
 def _saved_copy(story: dict) -> dict:
