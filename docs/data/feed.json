@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-05T17:10:07Z",
+  "generated_at": "2026-11-05T17:40:11Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 194
+      "story_count": 195
     },
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 154
+      "story_count": 156
     },
     {
       "name": "general",
@@ -31,6 +31,75 @@
     }
   ],
   "stories": [
+    {
+      "id": 696,
+      "title": "Asutifi South members raise concerns over 300 teacher deficit at basic schools",
+      "summary": "Assembly members in the Asutifi South District of the Ahafo Region have raised concern over a shortage of teachers in basic schools, warning that the situation is undermining efforts to provide quality education.",
+      "category": "teachers",
+      "published_at": "2026-11-05T17:38:11Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-02-at-7.04.08-AM-1024x580.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Asutifi South members raise concerns over 300 teacher deficit at basic schools",
+          "url": "https://www.adomonline.com/asutifi-south-members-raise-concerns-over-300-teacher-deficit-at-basic-schools/",
+          "published_at": "2026-11-05T17:38:11Z",
+          "excerpt": "Assembly members in the Asutifi South District of the Ahafo Region have raised concern over a shortage of teachers in basic schools, warning that the situation is undermining efforts to provide quality education. The concern was raised during a general assembly meeting at Hwidiem, where members called for urgent government intervention to address the staffing […]"
+        }
+      ],
+      "path": "story/696/asutifi-south-members-raise-concerns-over-300-teacher-deficit-at-basic-schools/"
+    },
+    {
+      "id": 695,
+      "title": "Ngmayem Festival: 14 schools showcase Krobo traditions at third Mock Durbar",
+      "summary": "The grounds of the Odumase Anglican School Park came alive with colour, royalty and youthful pride on Tuesday, October 27, 2026, as 14 basic and senior high schools participated in the third edition of the Manya Krobo Ngmayem Festival Mock Durbar.",
+      "category": "basic_schools",
+      "published_at": "2026-11-05T17:29:46Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-516-1024x683.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ngmayem Festival: 14 schools showcase Krobo traditions at third Mock Durbar",
+          "url": "https://www.myjoyonline.com/ngmayem-festival-14-schools-showcase-krobo-traditions-at-third-mock-durbar/",
+          "published_at": "2026-11-05T17:29:46Z",
+          "excerpt": "The grounds of the Odumase Anglican School Park came alive with colour, royalty and youthful pride on Tuesday, October 27, 2026, as 14 basic and senior high schools participated in the third edition of the Manya Krobo Ngmayem Festival Mock Durbar."
+        }
+      ],
+      "path": "story/695/ngmayem-festival-14-schools-showcase-krobo-traditions-at-third-mock-durbar/"
+    },
+    {
+      "id": 694,
+      "title": "Over 60,000 teachers complete GES promotion exams under new rank-decoupling policy",
+      "summary": "More than 60,000 teachers sat the November 2–4 GES promotion exams under a reform projected to boost Director II promotions by 1,500 per cent.",
+      "category": "teachers",
+      "published_at": "2026-11-05T17:16:14Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/TKD-Education-COMEU-Conference--e1787749994195-1024x623-800x487.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Over 60,000 teachers complete GES promotion exams under new rank-decoupling policy",
+          "url": "https://3news.com/education/over-60000-teachers-complete-ges-promotion-exams-policy",
+          "published_at": "2026-11-05T17:16:14Z",
+          "excerpt": "More than 60,000 teachers sat the November 2–4 GES promotion exams under a reform projected to boost Director II promotions by 1,500 per cent."
+        }
+      ],
+      "path": "story/694/over-60-000-teachers-complete-ges-promotion-exams-under-new-rank-decoupling/"
+    },
     {
       "id": 693,
       "title": "GES dismisses reports of student death at Ghana National College",
