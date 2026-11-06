@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-06T19:09:49Z",
+  "generated_at": "2026-11-06T19:40:11Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 203
+      "story_count": 204
     },
     {
       "name": "higher_education",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 719,
+      "title": "Akosua Manu calls out Mahama for silence on Obuasi SHTS abuse allegations",
+      "summary": "The Advisor on Gender and Social Protection to former Vice President Dr Mahamudu Bawumia, Akosua Manu, has criticised President John Mahama for not publicly addressing the alleged sexual abuse of 19 female students at Obuasi Senior High Technical School (SHTS).",
+      "category": "basic_schools",
+      "published_at": "2026-11-06T19:20:36Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-18-at-14.25.04_7f8af8a3-768x1024.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Akosua Manu calls out Mahama for silence on Obuasi SHTS abuse allegations",
+          "url": "https://www.adomonline.com/akosua-manu-calls-out-mahama-for-silence-on-obuasi-shts-abuse-allegations/",
+          "published_at": "2026-11-06T19:20:36Z",
+          "excerpt": "The Advisor on Gender and Social Protection to former Vice President Dr Mahamudu Bawumia, Akosua Manu, has criticised President John Mahama for not publicly addressing the alleged sexual abuse of 19 female students at Obuasi Senior High Technical School (SHTS). Speaking on JoyNews’ The Pulse on Friday, November 6, 2026, Ms Manu said the President’s […]"
+        }
+      ],
+      "path": "story/719/akosua-manu-calls-out-mahama-for-silence-on-obuasi-shts-abuse-allegations/"
+    },
     {
       "id": 715,
       "title": "It was clear gov’t wanted to cover up Obuasi SHTS sexual abuse – Akosua Manu",
