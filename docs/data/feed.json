@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T18:10:26Z",
+  "generated_at": "2026-11-06T18:40:14Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -31,6 +31,37 @@
     }
   ],
   "stories": [
+    {
+      "id": 715,
+      "title": "It was clear gov’t wanted to cover up Obuasi SHTS sexual abuse – Akosua Manu",
+      "summary": "The Advisor on Gender and Social Protection to former Vice President Dr Mahamudu Bawumia has accused state institutions of failing to act promptly on the alleged sexual abuse of 19 female students of the Obuasi Senior High Technical School (SHTS).",
+      "category": "basic_schools",
+      "published_at": "2026-11-06T18:14:49Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/Akosua-Manu.png",
+      "rank": 0.849,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "It was clear gov’t wanted to cover up Obuasi SHTS sexual abuse – Akosua Manu",
+          "url": "https://www.myjoyonline.com/it-was-clear-the-govt-wanted-t-cover-up-the-obuasi-shts-sexual-abuse-akosua-manu/",
+          "published_at": "2026-11-06T17:18:35Z",
+          "excerpt": "The Advisor on Gender and Social Protection to former Vice President Dr Mahamudu Bawumia has accused state institutions of failing to act promptly on the alleged sexual abuse of 19 female students of the Obuasi Senior High Technical School (SHTS)."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "It was clear gov’t wanted to cover up Obuasi SHTS sexual abuse – Akosua Manu",
+          "url": "https://www.adomonline.com/it-was-clear-govt-wanted-to-cover-up-obuasi-shts-sexual-abuse-akosua-manu/",
+          "published_at": "2026-11-06T18:14:49Z",
+          "excerpt": "The Advisor on Gender and Social Protection to former Vice President Dr Mahamudu Bawumia has accused state institutions of failing to act promptly on the alleged sexual abuse of 19 female students of the Obuasi Senior High Technical School (SHTS). According to Akosua Manu, the response by the Ghana Education Service (GES), including its decision […]"
+        }
+      ],
+      "path": "story/715/it-was-clear-govt-wanted-to-cover-up-obuasi-shts-sexual-abuse-akosua-manu/"
+    },
     {
       "id": 718,
       "title": "Savannah College of Education authorities apologise to stakeholders for 'illegal Sit-Down Strike'",
@@ -99,29 +130,6 @@
         }
       ],
       "path": "story/716/ges-denies-clearing-obuasi-shts-headmaster-says-probe-is-still-on/"
-    },
-    {
-      "id": 715,
-      "title": "It was clear gov’t wanted to cover up Obuasi SHTS sexual abuse – Akosua Manu",
-      "summary": "The Advisor on Gender and Social Protection to former Vice President Dr Mahamudu Bawumia has accused state institutions of failing to act promptly on the alleged sexual abuse of 19 female students of the Obuasi Senior High Technical School (SHTS).",
-      "category": "basic_schools",
-      "published_at": "2026-11-06T17:18:35Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/09/image-1914-e1758627398358.png",
-      "rank": 0.7387,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "It was clear gov’t wanted to cover up Obuasi SHTS sexual abuse – Akosua Manu",
-          "url": "https://www.myjoyonline.com/it-was-clear-the-govt-wanted-t-cover-up-the-obuasi-shts-sexual-abuse-akosua-manu/",
-          "published_at": "2026-11-06T17:18:35Z",
-          "excerpt": "The Advisor on Gender and Social Protection to former Vice President Dr Mahamudu Bawumia has accused state institutions of failing to act promptly on the alleged sexual abuse of 19 female students of the Obuasi Senior High Technical School (SHTS)."
-        }
-      ],
-      "path": "story/715/it-was-clear-govt-wanted-to-cover-up-obuasi-shts-sexual-abuse-akosua-manu/"
     },
     {
       "id": 714,
