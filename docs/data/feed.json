@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:10:07Z",
+  "generated_at": "2026-11-06T12:40:21Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -31,6 +31,37 @@
     }
   ],
   "stories": [
+    {
+      "id": 669,
+      "title": "NPP Women’s Wing protest in Obuasi over alleged sexual abuse at Obuasi SHTS",
+      "summary": "Some supporters of the New Patriotic Party (NPP) have staged a demonstration in Obuasi in the Ashanti Region to demand justice for female students of Obuasi Senior High Technical School (SHTS) allegedly sexually molested by the school's headmaster, Zakaria Abdulai.",
+      "category": "basic_schools",
+      "published_at": "2026-11-06T12:07:56Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-595-1024x510.png",
+      "rank": 0.849,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "NPP Women’s wing to stage demo over alleged sexual abuse at Obuasi SHTS",
+          "url": "https://www.adomonline.com/npp-womens-wing-to-stage-demo-over-alleged-sexual-abuse-at-obuasi-shts/",
+          "published_at": "2026-11-04T09:28:00Z",
+          "excerpt": "The Women’s Wing of the New Patriotic Party (NPP) has announced plans to stage a peaceful demonstration in Obuasi on Friday, November 6, 2026, to demand justice for 19 students allegedly sexually abused by the headmaster of Obuasi Senior High Technical School(SHTS). The National Women’s Organiser of the NPP, Mavis Hawa Koomson, said the demonstration […]"
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "NPP Women’s Wing protest in Obuasi over alleged sexual abuse at Obuasi SHTS",
+          "url": "https://www.myjoyonline.com/npp-womens-wing-protest-in-obuasi-over-alleged-sexual-abuse-at-obuasi-shts/",
+          "published_at": "2026-11-06T12:07:56Z",
+          "excerpt": "Some supporters of the New Patriotic Party (NPP) have staged a demonstration in Obuasi in the Ashanti Region to demand justice for female students of Obuasi Senior High Technical School (SHTS) allegedly sexually molested by the school's headmaster, Zakaria Abdulai."
+        }
+      ],
+      "path": "story/669/npp-womens-wing-protest-in-obuasi-over-alleged-sexual-abuse-at-obuasi-shts/"
+    },
     {
       "id": 706,
       "title": "No student has died at Ghana National College recently - GES clarifies",
@@ -904,29 +935,6 @@
         }
       ],
       "path": "story/670/yeji-nursing-and-midwifery-training-college-matriculates-311-student-launches/"
-    },
-    {
-      "id": 669,
-      "title": "NPP Women’s wing to stage demo over alleged sexual abuse at Obuasi SHTS",
-      "summary": "The Women’s Wing of the New Patriotic Party (NPP) has announced plans to stage a peaceful demonstration in Obuasi on Friday, November 6, 2026, to demand justice for 19 students allegedly sexually abused by the headmaster of Obuasi Senior High Technical School(SHTS).",
-      "category": "basic_schools",
-      "published_at": "2026-11-04T09:28:00Z",
-      "source_count": 1,
-      "sources": [
-        "Adom Online Education"
-      ],
-      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/IMG_6744.jpg-1024x683.jpeg",
-      "rank": 0.4278,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "NPP Women’s wing to stage demo over alleged sexual abuse at Obuasi SHTS",
-          "url": "https://www.adomonline.com/npp-womens-wing-to-stage-demo-over-alleged-sexual-abuse-at-obuasi-shts/",
-          "published_at": "2026-11-04T09:28:00Z",
-          "excerpt": "The Women’s Wing of the New Patriotic Party (NPP) has announced plans to stage a peaceful demonstration in Obuasi on Friday, November 6, 2026, to demand justice for 19 students allegedly sexually abused by the headmaster of Obuasi Senior High Technical School(SHTS). The National Women’s Organiser of the NPP, Mavis Hawa Koomson, said the demonstration […]"
-        }
-      ],
-      "path": "story/669/npp-womens-wing-to-stage-demo-over-alleged-sexual-abuse-at-obuasi-shts/"
     },
     {
       "id": 668,
