@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-06T17:10:19Z",
+  "generated_at": "2026-11-06T17:40:16Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 200
+      "story_count": 203
     },
     {
       "name": "higher_education",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 103
+      "story_count": 104
     },
     {
       "name": "policy",
@@ -31,6 +31,98 @@
     }
   ],
   "stories": [
+    {
+      "id": 717,
+      "title": "Obuasi SHTS sexual abuse: The president has been on public platforms multiple times and has never addressed it – Akosua Manu",
+      "summary": "The Advisor on Gender and Social Protection to former Vice President Dr Mahamudu Bawumia has criticised President John Mahama for failing to publicly address the alleged sexual abuse of 19 female students at the Obuasi Senior High Technical School (SHTS).",
+      "category": "basic_schools",
+      "published_at": "2026-11-06T17:21:32Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/06/image-519-e1793984315283-1024x704.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS sexual abuse: The president has been on public platforms multiple times and has never addressed it – Akosua Manu",
+          "url": "https://www.myjoyonline.com/obuasi-shts-sexual-abuse-the-president-has-been-on-public-platforms-multiple-times-and-has-never-addressed-it-akosua-manu/",
+          "published_at": "2026-11-06T17:21:32Z",
+          "excerpt": "The Advisor on Gender and Social Protection to former Vice President Dr Mahamudu Bawumia has criticised President John Mahama for failing to publicly address the alleged sexual abuse of 19 female students at the Obuasi Senior High Technical School (SHTS)."
+        }
+      ],
+      "path": "story/717/obuasi-shts-sexual-abuse-the-president-has-been-on-public-platforms-multiple/"
+    },
+    {
+      "id": 716,
+      "title": "GES denies clearing Obuasi SHTS headmaster, says probe is still on",
+      "summary": "The Ghana Education Service (GES) has clarified that the Headmaster of Obuasi Senior High Technical School, Abdulai Zakaria, has not been cleared of allegations of sexual abuse involving female students.",
+      "category": "basic_schools",
+      "published_at": "2026-11-06T17:19:52Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/obuasi-shts.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "GES denies clearing Obuasi SHTS headmaster, says probe is still on",
+          "url": "https://www.adomonline.com/ges-denies-clearing-obuasi-shts-headmaster-says-probe-is-still-on/",
+          "published_at": "2026-11-06T17:19:52Z",
+          "excerpt": "The Ghana Education Service (GES) has clarified that the Headmaster of Obuasi Senior High Technical School, Abdulai Zakaria, has not been cleared of allegations of sexual abuse involving female students. The Service says its Disciplinary Committee is still investigating the matter and has not completed its work, contrary to reports suggesting that the headmaster had […]"
+        }
+      ],
+      "path": "story/716/ges-denies-clearing-obuasi-shts-headmaster-says-probe-is-still-on/"
+    },
+    {
+      "id": 715,
+      "title": "It was clear gov’t wanted to cover up Obuasi SHTS sexual abuse – Akosua Manu",
+      "summary": "The Advisor on Gender and Social Protection to former Vice President Dr Mahamudu Bawumia has accused state institutions of failing to act promptly on the alleged sexual abuse of 19 female students of the Obuasi Senior High Technical School (SHTS).",
+      "category": "basic_schools",
+      "published_at": "2026-11-06T17:18:35Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/09/image-1914-e1758627398358.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "It was clear gov’t wanted to cover up Obuasi SHTS sexual abuse – Akosua Manu",
+          "url": "https://www.myjoyonline.com/it-was-clear-the-govt-wanted-t-cover-up-the-obuasi-shts-sexual-abuse-akosua-manu/",
+          "published_at": "2026-11-06T17:18:35Z",
+          "excerpt": "The Advisor on Gender and Social Protection to former Vice President Dr Mahamudu Bawumia has accused state institutions of failing to act promptly on the alleged sexual abuse of 19 female students of the Obuasi Senior High Technical School (SHTS)."
+        }
+      ],
+      "path": "story/715/it-was-clear-govt-wanted-to-cover-up-obuasi-shts-sexual-abuse-akosua-manu/"
+    },
+    {
+      "id": 714,
+      "title": "Dreams Championship brings back high school rivalry",
+      "summary": "The competition, formerly known as Sprite Ball, which focused exclusively on basketball, has been rebranded and expanded to include multiple sporting disciplines in a move organisers say will provide greater opportunities for students to showcase their talents.",
+      "category": "general",
+      "published_at": "2026-11-06T17:14:43Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Dreams-Championship-1024x1024.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Dreams Championship brings back high school rivalry",
+          "url": "https://www.myjoyonline.com/dreams-championship-brings-back-high-school-rivalry/",
+          "published_at": "2026-11-06T17:14:43Z",
+          "excerpt": "The competition, formerly known as Sprite Ball, which focused exclusively on basketball, has been rebranded and expanded to include multiple sporting disciplines in a move organisers say will provide greater opportunities for students to showcase their talents."
+        }
+      ],
+      "path": "story/714/dreams-championship-brings-back-high-school-rivalry/"
+    },
     {
       "id": 713,
       "title": "Nkoranza North Assembly honours 42 teachers for dedication to education",
