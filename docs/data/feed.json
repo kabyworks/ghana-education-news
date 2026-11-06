@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-06T16:10:15Z",
+  "generated_at": "2026-11-06T16:40:26Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 199
+      "story_count": 200
     },
     {
       "name": "higher_education",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 711,
+      "title": "Obuasi SHTS headmaster has not been cleared of sexual abuse allegations – GES",
+      "summary": "The Ghana Education Service (GES) has clarified that the Headmaster of Obuasi Senior High Technical School, Abdulai Zakaria, has not been cleared of allegations of sexual abuse involving female students.",
+      "category": "basic_schools",
+      "published_at": "2026-11-06T16:16:51Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/obuasi-SHTS-headmaster.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi SHTS headmaster has not been cleared of sexual abuse allegations – GES",
+          "url": "https://www.myjoyonline.com/obuasi-shts-headmaster-has-not-been-cleared-of-sexual-abuse-allegations-ges/",
+          "published_at": "2026-11-06T16:16:51Z",
+          "excerpt": "The Ghana Education Service (GES) has clarified that the Headmaster of Obuasi Senior High Technical School, Abdulai Zakaria, has not been cleared of allegations of sexual abuse involving female students."
+        }
+      ],
+      "path": "story/711/obuasi-shts-headmaster-has-not-been-cleared-of-sexual-abuse-allegations-ges/"
+    },
     {
       "id": 710,
       "title": "Obuasi SHTS Abuse: Hawa Koomson gives Government November ending deadline to deliver justice",
