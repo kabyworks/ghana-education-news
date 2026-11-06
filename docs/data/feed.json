@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-06T13:10:06Z",
+  "generated_at": "2026-11-06T13:40:04Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 197
+      "story_count": 198
     },
     {
       "name": "higher_education",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 102
+      "story_count": 103
     },
     {
       "name": "policy",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 708,
+      "title": "GES extends Obuasi SHTS sexual misconduct probe by seven days – Daniel Fenyi",
+      "summary": "The Ghana Education Service (GES) has granted its committee investigating allegations of sexual misconduct involving the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, a seven-day extension to complete its investigations.",
+      "category": "basic_schools",
+      "published_at": "2026-11-06T13:34:51Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/Daniel-Fenyi.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GES extends Obuasi SHTS sexual misconduct probe by seven days – Daniel Fenyi",
+          "url": "https://www.myjoyonline.com/ges-extends-obuasi-shts-sexual-misconduct-probe-by-seven-days-daniel-fenyi/",
+          "published_at": "2026-11-06T13:34:51Z",
+          "excerpt": "The Ghana Education Service (GES) has granted its committee investigating allegations of sexual misconduct involving the headmaster of Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, a seven-day extension to complete its investigations."
+        }
+      ],
+      "path": "story/708/ges-extends-obuasi-shts-sexual-misconduct-probe-by-seven-days-daniel-fenyi/"
+    },
+    {
+      "id": 707,
+      "title": "Obuasi SHTS: NPP demands headmaster's arrest as Women's Wing marches",
+      "summary": "The NPP Women's Wing marched in Obuasi on Friday under the banner Justice For Our Girls, demanding action if Zakaria Abdulai is found culpable.",
+      "category": "general",
+      "published_at": "2026-11-06T13:21:51Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-10-26 at 17.52.01-800x439.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Obuasi SHTS: NPP demands headmaster's arrest as Women's Wing marches",
+          "url": "https://3news.com/education/obuasi-shts-npp-demands-arrest",
+          "published_at": "2026-11-06T13:21:51Z",
+          "excerpt": "The NPP Women's Wing marched in Obuasi on Friday under the banner Justice For Our Girls, demanding action if Zakaria Abdulai is found culpable."
+        }
+      ],
+      "path": "story/707/obuasi-shts-npp-demands-headmasters-arrest-as-womens-wing-marches/"
+    },
     {
       "id": 669,
       "title": "NPP Women’s Wing protest in Obuasi over alleged sexual abuse at Obuasi SHTS",
