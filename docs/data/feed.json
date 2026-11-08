@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T19:10:14Z",
+  "generated_at": "2026-11-08T19:40:05Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 190
+      "story_count": 191
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 728,
+      "title": "KNUST student dies after diving from 17.6-foot platform into swimming pool",
+      "summary": "A student of the Kwame Nkrumah University of Science and Technology (KNUST) in Kumasi has died after diving from a 17.6-foot-high platform into a swimming pool on campus.",
+      "category": "higher_education",
+      "published_at": "2026-11-08T19:10:40Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/KNUST-student-e1794165001389.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "KNUST student dies after diving from 17.6-foot platform into swimming pool",
+          "url": "https://www.myjoyonline.com/knust-student-dies-after-diving-from-17-6-foot-platform-into-swimming-pool/",
+          "published_at": "2026-11-08T19:10:40Z",
+          "excerpt": "A student of the Kwame Nkrumah University of Science and Technology (KNUST) in Kumasi has died after diving from a 17.6-foot-high platform into a swimming pool on campus. The deceased, identified as David Osei Oppong, was said to have gone swimming with some friends when he attempted a dive from the highest platform at the […]"
+        }
+      ],
+      "path": "story/728/knust-student-dies-after-diving-from-17-6-foot-platform-into-swimming-pool/"
+    },
     {
       "id": 727,
       "title": "Injunction bid by 72 students against AUCB graduation fails",
