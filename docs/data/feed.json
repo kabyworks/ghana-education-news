@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T20:10:23Z",
+  "generated_at": "2026-11-08T20:40:09Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 191
+      "story_count": 192
     },
     {
       "name": "teachers",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 108
+      "story_count": 109
     },
     {
       "name": "policy",
@@ -32,17 +32,41 @@
   ],
   "stories": [
     {
-      "id": 728,
-      "title": "KNUST student dies after diving from 17.6-foot platform into swimming pool",
-      "summary": "A student of the Kwame Nkrumah University of Science and Technology (KNUST) in Kumasi has died after diving from a 17.6-foot-high platform into a swimming pool on campus.",
-      "category": "higher_education",
-      "published_at": "2026-11-08T19:10:40Z",
+      "id": 730,
+      "title": "Ghana loses landmark human rights case over menstruation taboo that denies girls education",
+      "summary": "Ghana has been found guilty of violating the rights of schoolgirls who are forbidden from crossing the River Offin on Tuesdays and during menstruation, a cultural practice that forces some girls to miss up to 12 school days every month.",
+      "category": "general",
+      "published_at": "2026-11-08T20:22:23Z",
       "source_count": 1,
       "sources": [
         "MyJoyOnline Education"
       ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/KNUST-student-e1794165001389.jpg",
-      "rank": 0.7367,
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/menstruating-girls-old-river-off.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ghana loses landmark human rights case over menstruation taboo that denies girls education",
+          "url": "https://www.myjoyonline.com/ghana-loses-landmark-human-rights-case-over-menstruation-taboo-that-denies-girls-education/",
+          "published_at": "2026-11-08T20:22:23Z",
+          "excerpt": "Ghana has been found guilty of violating the rights of schoolgirls who are forbidden from crossing the River Offin on Tuesdays and during menstruation, a cultural practice that forces some girls to miss up to 12 school days every month. In a landmark decision, the African Committee of Experts on the Rights and Welfare of […]"
+        }
+      ],
+      "path": "story/730/ghana-loses-landmark-human-rights-case-over-menstruation-taboo-that-denies/"
+    },
+    {
+      "id": 728,
+      "title": "KNUST student dies after diving from 17.6-foot platform into swimming pool",
+      "summary": "A student of the Kwame Nkrumah University of Science and Technology (KNUST) in Kumasi has died after diving from a 17.6-foot-high platform into a swimming pool on campus.",
+      "category": "higher_education",
+      "published_at": "2026-11-08T19:59:26Z",
+      "source_count": 2,
+      "sources": [
+        "3News",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://media.3news.com/KNUST student-610x424.webp",
+      "rank": 0.8489,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -50,9 +74,39 @@
           "url": "https://www.myjoyonline.com/knust-student-dies-after-diving-from-17-6-foot-platform-into-swimming-pool/",
           "published_at": "2026-11-08T19:10:40Z",
           "excerpt": "A student of the Kwame Nkrumah University of Science and Technology (KNUST) in Kumasi has died after diving from a 17.6-foot-high platform into a swimming pool on campus. The deceased, identified as David Osei Oppong, was said to have gone swimming with some friends when he attempted a dive from the highest platform at the […]"
+        },
+        {
+          "source_name": "3News",
+          "title": "Level 300 KNUST student dies after diving from 17.6-foot platform into swimming pool",
+          "url": "https://3news.com/news/level-300-knust-student-dies-after-diving-from-17-6-foot-platform-into-swimming-pool",
+          "published_at": "2026-11-08T19:59:26Z",
+          "excerpt": "A level 300 student of the Kwame Nkrumah University of Science and Technology (KNUST) in Kumasi has died after diving from a 17.6-foot-high platform into a swimming pool on campus."
         }
       ],
       "path": "story/728/knust-student-dies-after-diving-from-17-6-foot-platform-into-swimming-pool/"
+    },
+    {
+      "id": 729,
+      "title": "KNUST Level 300 student dies after jump from 17.6-foot platform into campus pool",
+      "summary": "A third-year chemical engineering student at KNUST could not be revived after plunging from the highest platform at the campus swimming pool on Saturday.",
+      "category": "higher_education",
+      "published_at": "2026-11-08T19:47:31Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/knust-dndi-lab-test-100-molecules-schist-1200x675.webp",
+      "rank": 0.7458,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "KNUST Level 300 student dies after jump from 17.6-foot platform into campus pool",
+          "url": "https://3news.com/education/knust-student-dies-jump-campus-swimming-pool",
+          "published_at": "2026-11-08T19:47:31Z",
+          "excerpt": "A third-year chemical engineering student at KNUST could not be revived after plunging from the highest platform at the campus swimming pool on Saturday."
+        }
+      ],
+      "path": "story/729/knust-level-300-student-dies-after-jump-from-17-6-foot-platform-into-campus-pool/"
     },
     {
       "id": 727,
