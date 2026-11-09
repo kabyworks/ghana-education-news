@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T12:10:05Z",
+  "generated_at": "2026-11-09T12:40:05Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,11 +7,11 @@
     },
     {
       "name": "higher_education",
-      "story_count": 195
+      "story_count": 197
     },
     {
       "name": "teachers",
-      "story_count": 158
+      "story_count": 159
     },
     {
       "name": "general",
@@ -31,6 +31,75 @@
     }
   ],
   "stories": [
+    {
+      "id": 740,
+      "title": "Teachers who abuse students’ trust must be identified and punished – Deputy Education Minister",
+      "summary": "Deputy Education Minister Clement Abass Apaak has cautioned teachers against engaging in sexual abuse and other forms of misconduct involving students, warning that those found culpable will face disciplinary action.",
+      "category": "teachers",
+      "published_at": "2026-11-09T12:31:56Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-775.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Teachers who abuse students’ trust must be identified and punished – Deputy Education Minister",
+          "url": "https://www.myjoyonline.com/teachers-who-abuse-students-trust-must-be-identified-and-punished-deputy-education-minister/",
+          "published_at": "2026-11-09T12:31:56Z",
+          "excerpt": "Deputy Education Minister Clement Abass Apaak has cautioned teachers against engaging in sexual abuse and other forms of misconduct involving students, warning that those found culpable will face disciplinary action."
+        }
+      ],
+      "path": "story/740/teachers-who-abuse-students-trust-must-be-identified-and-punished-deputy/"
+    },
+    {
+      "id": 739,
+      "title": "UCC warns students of arrest, suspension and dismissal for unauthorised processions",
+      "summary": "Students of the University of Cape Coast (UCC) risk arrest, suspension or dismissal if they take part in processions organised without management’s authorisation, the university has warned.",
+      "category": "higher_education",
+      "published_at": "2026-11-09T12:17:12Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/5876-Education-UCC-Matriculation-4-1024x682.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "UCC warns students of arrest, suspension and dismissal for unauthorised processions",
+          "url": "https://www.myjoyonline.com/ucc-warns-students-of-arrest-suspension-and-dismissal-for-unauthorised-processions/",
+          "published_at": "2026-11-09T12:17:12Z",
+          "excerpt": "Students of the University of Cape Coast (UCC) risk arrest, suspension or dismissal if they take part in processions organised without management’s authorisation, the university has warned."
+        }
+      ],
+      "path": "story/739/ucc-warns-students-of-arrest-suspension-and-dismissal-for-unauthorised/"
+    },
+    {
+      "id": 738,
+      "title": "KNUST closes swimming pool after death of Level 300 student",
+      "summary": "The Kwame Nkrumah University of Science and Technology (KNUST) has closed its swimming pool temporarily following the death of a Level 300 student, David Osei Agyapong.",
+      "category": "higher_education",
+      "published_at": "2026-11-09T12:12:58Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-814-e1794225393933.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "KNUST closes swimming pool after death of Level 300 student",
+          "url": "https://www.myjoyonline.com/knust-closes-swimming-pool-after-death-of-level-300-student/",
+          "published_at": "2026-11-09T12:12:58Z",
+          "excerpt": "The Kwame Nkrumah University of Science and Technology (KNUST) has closed its swimming pool temporarily following the death of a Level 300 student, David Osei Agyapong."
+        }
+      ],
+      "path": "story/738/knust-closes-swimming-pool-after-death-of-level-300-student/"
+    },
     {
       "id": 737,
       "title": "Youth urged to value education and learn to earn - Jerome Kuseoh",
