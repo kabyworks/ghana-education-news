@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T13:10:06Z",
+  "generated_at": "2026-11-09T13:40:08Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 199
+      "story_count": 200
     },
     {
       "name": "teachers",
@@ -27,10 +27,87 @@
     },
     {
       "name": "scholarships",
-      "story_count": 18
+      "story_count": 19
     }
   ],
   "stories": [
+    {
+      "id": 736,
+      "title": "KNUST shuts down swimming pool as nine-member committee investigates Level 300 student's death",
+      "summary": "The Kwame Nkrumah University of Science and Technology (KNUST) has temporarily suspended activities at its swimming pool following the death of a third-year student, David Osei Agyapong.",
+      "category": "higher_education",
+      "published_at": "2026-11-09T13:23:07Z",
+      "source_count": 2,
+      "sources": [
+        "3News",
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/03/7646c2d3-ade3-403c-a988-79f86601542f-1024x573.jpg",
+      "rank": 0.849,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "KNUST shuts down swimming pool as nine-member committee investigates Level 300 student's death",
+          "url": "https://3news.com/news/knust-shuts-down-swimming-pool-as-nine-member-committee-investigates-level-300-students-death",
+          "published_at": "2026-11-09T10:57:15Z",
+          "excerpt": "The third-year Chemical Engineering student died on Saturday, November 7, 2026, after reportedly entering the water from one of the upper diving boards at the university's swimming pool and failing to resurface."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "KNUST shuts swimming pool; probes death of Level 300 student",
+          "url": "https://www.adomonline.com/knust-shuts-swimming-pool-probes-death-of-level-300-student/",
+          "published_at": "2026-11-09T13:23:07Z",
+          "excerpt": "The Kwame Nkrumah University of Science and Technology (KNUST) has temporarily suspended activities at its swimming pool following the death of a third-year student, David Osei Agyapong. The Chemical Engineering student died on Saturday, November 7, 2026, after reportedly jumping into the pool from an upper diving board but failing to resurface. The University said […]"
+        }
+      ],
+      "path": "story/736/knust-shuts-down-swimming-pool-as-nine-member-committee-investigates-level-300/"
+    },
+    {
+      "id": 744,
+      "title": "Videos: Legon students protest hostel fee hike, demand UGEL exit",
+      "summary": "Legon students demonstrated over a 15% hostel fee hike and demanded UGEL’s dismissal, while University of Ghana management says it is still engaging them.",
+      "category": "higher_education",
+      "published_at": "2026-11-09T13:10:49Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/Screenshot 2026-11-09 at 1.10.07 PM-800x431.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Videos: Legon students protest hostel fee hike, demand UGEL exit",
+          "url": "https://3news.com/education/videos-legon-students-protest-hostel-fee-hike-demand-ugel-exit",
+          "published_at": "2026-11-09T13:10:49Z",
+          "excerpt": "Legon students demonstrated over a 15% hostel fee hike and demanded UGEL’s dismissal, while University of Ghana management says it is still engaging them."
+        }
+      ],
+      "path": "story/744/videos-legon-students-protest-hostel-fee-hike-demand-ugel-exit/"
+    },
+    {
+      "id": 743,
+      "title": "Tano North MCE awards scholarships to 80 tertiary students, secures support for 40 more",
+      "summary": "The Municipal Chief Executive (MCE) for Tano North, Pius Sampson Opoku, in a major boost to human capital development in the area, on Friday awarded educational scholarships to 80 tertiary students pursuing higher education across key academic disciplines, with a primary focus on Science, Technology, Engineering, an...",
+      "category": "scholarships",
+      "published_at": "2026-11-09T13:08:16Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-815-1024x576.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Tano North MCE awards scholarships to 80 tertiary students, secures support for 40 more",
+          "url": "https://www.myjoyonline.com/tano-north-mce-awards-scholarships-to-80-tertiary-students-secures-support-for-40-more/",
+          "published_at": "2026-11-09T13:08:16Z",
+          "excerpt": "The Municipal Chief Executive (MCE) for Tano North, Pius Sampson Opoku, in a major boost to human capital development in the area, on Friday awarded educational scholarships to 80 tertiary students pursuing higher education across key academic disciplines, with a primary focus on Science, Technology, Engineering, and Mathematics (STEM)."
+        }
+      ],
+      "path": "story/743/tano-north-mce-awards-scholarships-to-80-tertiary-students-secures-support-for/"
+    },
     {
       "id": 742,
       "title": "University of Ghana students protest 26% hostel fee increase, demand UGEL system scrapping",
@@ -168,29 +245,6 @@
         }
       ],
       "path": "story/737/youth-urged-to-value-education-and-learn-to-earn-jerome-kuseoh/"
-    },
-    {
-      "id": 736,
-      "title": "KNUST shuts down swimming pool as nine-member committee investigates Level 300 student's death",
-      "summary": "The third-year Chemical Engineering student died on Saturday, November 7, 2026, after reportedly entering the water from one of the upper diving boards at the university's swimming pool and failing to resurface.",
-      "category": "higher_education",
-      "published_at": "2026-11-09T10:57:15Z",
-      "source_count": 1,
-      "sources": [
-        "3News"
-      ],
-      "image_url": "https://media.3news.com/pool-650x472.webp",
-      "rank": 0.7194,
-      "articles": [
-        {
-          "source_name": "3News",
-          "title": "KNUST shuts down swimming pool as nine-member committee investigates Level 300 student's death",
-          "url": "https://3news.com/news/knust-shuts-down-swimming-pool-as-nine-member-committee-investigates-level-300-students-death",
-          "published_at": "2026-11-09T10:57:15Z",
-          "excerpt": "The third-year Chemical Engineering student died on Saturday, November 7, 2026, after reportedly entering the water from one of the upper diving boards at the university's swimming pool and failing to resurface."
-        }
-      ],
-      "path": "story/736/knust-shuts-down-swimming-pool-as-nine-member-committee-investigates-level-300/"
     },
     {
       "id": 735,
