@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T11:10:02Z",
+  "generated_at": "2026-11-10T11:40:04Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 206
+      "story_count": 208
     },
     {
       "name": "teachers",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 759,
+      "title": "Students to get refund if… – University of Ghana on accommodation fees",
+      "summary": "The University of Ghana has assured students that the University of Ghana Enterprises Limited (UGEL) will refund any excess accommodation fees if required, following ongoing engagements with the Rent Control Department. Director of the Public Affairs Directorate at the University of Ghana, Dr.",
+      "category": "higher_education",
+      "published_at": "2026-11-10T11:37:39Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/image-2026-11-09T043627.034.png",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Students to get refund if… – University of Ghana on accommodation fees",
+          "url": "https://www.adomonline.com/students-to-get-refund-if-university-of-ghana-on-accommodation-fees/",
+          "published_at": "2026-11-10T11:37:39Z",
+          "excerpt": "The University of Ghana has assured students that the University of Ghana Enterprises Limited (UGEL) will refund any excess accommodation fees if required, following ongoing engagements with the Rent Control Department. Director of the Public Affairs Directorate at the University of Ghana, Dr. Elizier Taiba Ameyaw-Buronyah, said the university was committed to complying with the […]"
+        }
+      ],
+      "path": "story/759/students-to-get-refund-if-university-of-ghana-on-accommodation-fees/"
+    },
+    {
+      "id": 758,
+      "title": "We’re creating conducive environment, not making students’ lives miserable – UG on accommodation fees",
+      "summary": "The University of Ghana says it is committed to providing students with a comfortable and conducive living environment, insisting that its accommodation policies are not intended to make life difficult for residents.",
+      "category": "higher_education",
+      "published_at": "2026-11-10T11:36:15Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/06/university-of-ghana.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "We’re creating conducive environment, not making students’ lives miserable – UG on accommodation fees",
+          "url": "https://www.adomonline.com/were-creating-conducive-environment-not-making-students-lives-miserable-ug-on-accommodation-fees/",
+          "published_at": "2026-11-10T11:36:15Z",
+          "excerpt": "The University of Ghana says it is committed to providing students with a comfortable and conducive living environment, insisting that its accommodation policies are not intended to make life difficult for residents. Director of the Public Affairs Directorate at the University of Ghana, Dr Elizier Taiba Ameyaw-Buronyah, said the university incurs significant costs in maintaining […]"
+        }
+      ],
+      "path": "story/758/were-creating-conducive-environment-not-making-students-lives-miserable-ug-on/"
+    },
     {
       "id": 757,
       "title": "UMaT students kick against GH¢2.79m SRC budget as app line bills Apple's yearly fee monthly",
