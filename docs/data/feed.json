@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-10T14:10:21Z",
+  "generated_at": "2026-11-10T14:40:16Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 210
+      "story_count": 211
     },
     {
       "name": "higher_education",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 112
+      "story_count": 113
     },
     {
       "name": "policy",
@@ -31,6 +31,91 @@
     }
   ],
   "stories": [
+    {
+      "id": 762,
+      "title": "'Even poultry farms get electricity': Funsi SHS student's video on three-year dormitory blackout",
+      "summary": "A final-year student at Funsi Senior High School in the Wa East District has challenged school authorities over a three-year boys' dormitory power outage.",
+      "category": "basic_schools",
+      "published_at": "2026-11-10T14:20:30Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/r22-funsi-shs-student-video-obscured-1200x675.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "'Even poultry farms get electricity': Funsi SHS student's video on three-year dormitory blackout",
+          "url": "https://3news.com/education/funsi-shs-student-video-dormitory-no-electricity",
+          "published_at": "2026-11-10T14:20:30Z",
+          "excerpt": "A final-year student at Funsi Senior High School in the Wa East District has challenged school authorities over a three-year boys' dormitory power outage."
+        }
+      ],
+      "path": "story/762/even-poultry-farms-get-electricity-funsi-shs-students-video-on-three-year/"
+    },
+    {
+      "id": 756,
+      "title": "Final-year Peki SHS student dies after alleged altercation with colleague in dormitory",
+      "summary": "A 19-year-old final-year student of Peki Senior High School in the Volta Region has died following an alleged altercation with a colleague in one of the school’s dormitories.",
+      "category": "basic_schools",
+      "published_at": "2026-11-10T14:20:27Z",
+      "source_count": 3,
+      "sources": [
+        "3News",
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://media.3news.com/r22-peki-shs-signboard-652x381.webp",
+      "rank": 0.949,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Final-year Peki SHS student dies after alleged altercation with colleague in dormitory",
+          "url": "https://www.adomonline.com/final-year-peki-shs-student-dies-after-alleged-altercation-with-colleague-in-dormitory/",
+          "published_at": "2026-11-10T09:53:43Z",
+          "excerpt": "A 19-year-old final-year student of Peki Senior High School in the Volta Region has died following an alleged altercation with a colleague in one of the school’s dormitories. The deceased, identified as Joseph Tsetsekple, reportedly became unconscious after he was allegedly pushed against a wall during a disagreement over a schoolbag on his bed. He […]"
+        },
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Final-year Peki SHS student dies after alleged altercation with colleague in dormitory",
+          "url": "https://www.myjoyonline.com/final-year-peki-shs-student-dies-after-alleged-altercation-with-colleague-in-dormitory/",
+          "published_at": "2026-11-10T10:57:21Z",
+          "excerpt": "A 19-year-old final-year student of Peki Senior High School in the Volta Region has died following an alleged altercation with a colleague in one of the school’s dormitories."
+        },
+        {
+          "source_name": "3News",
+          "title": "Peki SHS final-year student dies after alleged dormitory altercation",
+          "url": "https://3news.com/education/peki-shs-student-dies-dormitory-altercation",
+          "published_at": "2026-11-10T14:20:27Z",
+          "excerpt": "Police have detained a fellow student after 19-year-old Joseph Tsetsekple collapsed during a dormitory dispute and died at Peki Government Hospital."
+        }
+      ],
+      "path": "story/756/final-year-peki-shs-student-dies-after-alleged-altercation-with-colleague-in/"
+    },
+    {
+      "id": 761,
+      "title": "Fire hits room at UG's Evandy Hostel; students and staff put it out",
+      "summary": "Video shows flames in a room at the Legon hostel's Annex B on Monday evening. Posts online blamed an electrical fault on the balcony where students cook.",
+      "category": "general",
+      "published_at": "2026-11-10T14:13:25Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/r22-evandy-hostel-fire-legon-1200x675.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Fire hits room at UG's Evandy Hostel; students and staff put it out",
+          "url": "https://3news.com/news/evandy-hostel-fire-legon-students-put-out",
+          "published_at": "2026-11-10T14:13:25Z",
+          "excerpt": "Video shows flames in a room at the Legon hostel's Annex B on Monday evening. Posts online blamed an electrical fault on the balcony where students cook."
+        }
+      ],
+      "path": "story/761/fire-hits-room-at-ugs-evandy-hostel-students-and-staff-put-it-out/"
+    },
     {
       "id": 760,
       "title": "Makeup Ghana, University of Ghana launch first beauty and wellness industry report",
@@ -122,37 +207,6 @@
         }
       ],
       "path": "story/757/umat-students-kick-against-gh-2-79m-src-budget-as-app-line-bills-apples-yearly/"
-    },
-    {
-      "id": 756,
-      "title": "Final-year Peki SHS student dies after alleged altercation with colleague in dormitory",
-      "summary": "A 19-year-old final-year student of Peki Senior High School in the Volta Region has died following an alleged altercation with a colleague in one of the school’s dormitories.",
-      "category": "basic_schools",
-      "published_at": "2026-11-10T10:57:21Z",
-      "source_count": 2,
-      "sources": [
-        "Adom Online Education",
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-898.png",
-      "rank": 0.8061,
-      "articles": [
-        {
-          "source_name": "Adom Online Education",
-          "title": "Final-year Peki SHS student dies after alleged altercation with colleague in dormitory",
-          "url": "https://www.adomonline.com/final-year-peki-shs-student-dies-after-alleged-altercation-with-colleague-in-dormitory/",
-          "published_at": "2026-11-10T09:53:43Z",
-          "excerpt": "A 19-year-old final-year student of Peki Senior High School in the Volta Region has died following an alleged altercation with a colleague in one of the school’s dormitories. The deceased, identified as Joseph Tsetsekple, reportedly became unconscious after he was allegedly pushed against a wall during a disagreement over a schoolbag on his bed. He […]"
-        },
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Final-year Peki SHS student dies after alleged altercation with colleague in dormitory",
-          "url": "https://www.myjoyonline.com/final-year-peki-shs-student-dies-after-alleged-altercation-with-colleague-in-dormitory/",
-          "published_at": "2026-11-10T10:57:21Z",
-          "excerpt": "A 19-year-old final-year student of Peki Senior High School in the Volta Region has died following an alleged altercation with a colleague in one of the school’s dormitories."
-        }
-      ],
-      "path": "story/756/final-year-peki-shs-student-dies-after-alleged-altercation-with-colleague-in/"
     },
     {
       "id": 755,
