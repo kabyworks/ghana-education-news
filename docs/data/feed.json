@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T16:10:05Z",
+  "generated_at": "2026-11-10T16:40:03Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 209
+      "story_count": 210
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 764,
+      "title": "Ghana’s Ambassador to US, Victor Smith, visits Fisk University to strengthen historic ties",
+      "summary": "Ghana’s Ambassador to the United States, Victor Emmanuel Smith, has visited Fisk University in Nashville, Tennessee, to strengthen the longstanding academic and cultural relationship between Ghana and the historically Black institution.",
+      "category": "higher_education",
+      "published_at": "2026-11-10T16:06:26Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-14.55.21-2-1024x768.jpeg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ghana’s Ambassador to US, Victor Smith, visits Fisk University to strengthen historic ties",
+          "url": "https://www.myjoyonline.com/ghanas-ambassador-to-us-victor-smith-visits-fisk-university-to-strengthen-historic-ties/",
+          "published_at": "2026-11-10T16:06:26Z",
+          "excerpt": "Ghana’s Ambassador to the United States, Victor Emmanuel Smith, has visited Fisk University in Nashville, Tennessee, to strengthen the longstanding academic and cultural relationship between Ghana and the historically Black institution."
+        }
+      ],
+      "path": "story/764/ghanas-ambassador-to-us-victor-smith-visits-fisk-university-to-strengthen/"
+    },
     {
       "id": 763,
       "title": "Obuasi SHTS sexual abuse: Domestic Violence Coalition demands independent probe, accountability",
