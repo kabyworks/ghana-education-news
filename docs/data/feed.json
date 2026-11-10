@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-10T20:10:20Z",
+  "generated_at": "2026-11-10T20:40:22Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 214
+      "story_count": 215
     },
     {
       "name": "higher_education",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 773,
+      "title": "Ho Central MP provides mechanised borehole for Housing M.A. Basic School",
+      "summary": "The Member of Parliament for Ho Central, Richmond Edem Kpotosu, has provided a mechanised borehole facility for Housing M.A. Basic School in Ho.",
+      "category": "basic_schools",
+      "published_at": "2026-11-10T20:23:12Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Ho-Central-MP-Benjamin-Kpotosu-provides-a-mechanised-borehole-for-Housing-M.A.-Basic-School-1024x768.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ho Central MP provides mechanised borehole for Housing M.A. Basic School",
+          "url": "https://www.myjoyonline.com/ho-central-mp-provides-mechanised-borehole-for-housing-m-a-basic-school/",
+          "published_at": "2026-11-10T20:23:12Z",
+          "excerpt": "The Member of Parliament for Ho Central, Richmond Edem Kpotosu, has provided a mechanised borehole facility for Housing M.A. Basic School in Ho. The project, financed with the MP’s share of the Common Fund, ended era of water scarcity at the school. The provision of the GH¢75,000 borehole facility is part of an initiative aimed […]"
+        }
+      ],
+      "path": "story/773/ho-central-mp-provides-mechanised-borehole-for-housing-m-a-basic-school/"
+    },
     {
       "id": 772,
       "title": "Gov’t considers legal backing for GES Code of Conduct – Education Minister",
