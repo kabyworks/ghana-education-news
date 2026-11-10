@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-10T19:10:08Z",
+  "generated_at": "2026-11-10T19:40:14Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 213
+      "story_count": 214
     },
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 163
+      "story_count": 165
     },
     {
       "name": "general",
@@ -22,15 +22,107 @@
       "story_count": 27
     },
     {
-      "name": "examinations",
-      "story_count": 20
+      "name": "scholarships",
+      "story_count": 21
     },
     {
-      "name": "scholarships",
+      "name": "examinations",
       "story_count": 20
     }
   ],
   "stories": [
+    {
+      "id": 771,
+      "title": "Ashanti GES investigates two Pepease D/A JHS teachers over fight – Haruna Iddrisu",
+      "summary": "The Ashanti Regional Directorate of Education has opened an investigation into the conduct of two teachers at Pepease D/A Junior High School (JHS) following an incident in which they allegedly fought on the school premises.",
+      "category": "teachers",
+      "published_at": "2026-11-10T19:32:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Pepease-teachers-fight.png",
+      "rank": 0.776,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ashanti GES investigates two Pepease D/A JHS teachers over fight – Haruna Iddrisu",
+          "url": "https://www.myjoyonline.com/ashanti-ges-investigates-two-pepease-d-a-jhs-teachers-over-fight-haruna-iddrisu/",
+          "published_at": "2026-11-10T19:32:00Z",
+          "excerpt": "The Ashanti Regional Directorate of Education has opened an investigation into the conduct of two teachers at Pepease D/A Junior High School (JHS) following an incident in which they allegedly fought on the school premises."
+        }
+      ],
+      "path": "story/771/ashanti-ges-investigates-two-pepease-d-a-jhs-teachers-over-fight-haruna-iddrisu/"
+    },
+    {
+      "id": 770,
+      "title": "Gov't to upgrade SHS science labs under US$300m World Bank project – Haruna Iddrisu",
+      "summary": "The Ministry of Education will invite competitive bids within 14 days to build and upgrade secondary school laboratories and special needs units.",
+      "category": "basic_schools",
+      "published_at": "2026-11-10T19:19:03Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/Haruna Iddrisu-2-1200x801.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Gov't to upgrade SHS science labs under US$300m World Bank project – Haruna Iddrisu",
+          "url": "https://3news.com/education/shs-science-labs-300m-world-bank-haruna",
+          "published_at": "2026-11-10T19:19:03Z",
+          "excerpt": "The Ministry of Education will invite competitive bids within 14 days to build and upgrade secondary school laboratories and special needs units."
+        }
+      ],
+      "path": "story/770/govt-to-upgrade-shs-science-labs-under-us-300m-world-bank-project-haruna-iddrisu/"
+    },
+    {
+      "id": 769,
+      "title": "Commonwealth Shared Scholarships and Obama Leaders Africa open: how Ghanaians can apply",
+      "summary": "Check eligibility, monthly stipends and December 2026 deadlines for the UK's Commonwealth Shared Scholarships and the Obama Foundation Leaders Africa cohort.",
+      "category": "scholarships",
+      "published_at": "2026-11-10T19:12:38Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/r24-obamala-a-participant-speaks-at-an-obama-foundation-lead-1200x801.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Commonwealth Shared Scholarships and Obama Leaders Africa open: how Ghanaians can apply",
+          "url": "https://3news.com/diaspora/commonwealth-shared-scholarships-obama-leaders-africa-apply",
+          "published_at": "2026-11-10T19:12:38Z",
+          "excerpt": "Check eligibility, monthly stipends and December 2026 deadlines for the UK's Commonwealth Shared Scholarships and the Obama Foundation Leaders Africa cohort."
+        }
+      ],
+      "path": "story/769/commonwealth-shared-scholarships-and-obama-leaders-africa-open-how-ghanaians/"
+    },
+    {
+      "id": 768,
+      "title": "Pepease D/A JHS teachers in viral fight video to face disciplinary action – Education Minister",
+      "summary": "The Ghana Education Service (GES) has begun investigating two teachers at Pepease D/A Junior High School in the Ashanti Region after a video of them fighting went viral. Education Minister Haruna Iddrisu announced this in Parliament on Tuesday, November 10, 2026.",
+      "category": "teachers",
+      "published_at": "2026-11-10T19:10:17Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2025/12/Screenshot-2025-12-03-175303.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Pepease D/A JHS teachers in viral fight video to face disciplinary action – Education Minister",
+          "url": "https://www.adomonline.com/pepease-d-a-jhs-teachers-in-viral-fight-video-to-face-disciplinary-action-education-minister/",
+          "published_at": "2026-11-10T19:10:17Z",
+          "excerpt": "The Ghana Education Service (GES) has begun investigating two teachers at Pepease D/A Junior High School in the Ashanti Region after a video of them fighting went viral. Education Minister Haruna Iddrisu announced this in Parliament on Tuesday, November 10, 2026. “Regarding the incident at the Pepease D/A JHS, the Ashanti Regional Education Director has […]"
+        }
+      ],
+      "path": "story/768/pepease-d-a-jhs-teachers-in-viral-fight-video-to-face-disciplinary-action/"
+    },
     {
       "id": 767,
       "title": "Obuasi SHS sexual abuse probe nears completion; headteacher faces possible prosecution - Education Minister",
