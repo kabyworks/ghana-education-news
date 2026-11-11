@@ -1,6 +1,7 @@
 """Write the installable reader and the current feed as static files."""
 
 import json
+import os
 import re
 import shutil
 from datetime import datetime, timezone
@@ -12,17 +13,24 @@ from sqlalchemy.orm import Session
 
 from app.schemas.feed import FeedArticleRead, FeedCategoryRead, FeedDetailRead
 from app.services.feed_service import list_categories, list_feed, story_image
+from app.services.original_post import (
+    blog_path,
+    format_tip_body_html,
+    is_original_source_name,
+    tip_body_without_related,
+    tip_lead,
+)
 
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "14"
+SHELL_VERSION = "15"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-10";
+PHONE_SW = """const CACHE = "ghanaed-phone-11";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=14",
-  "./app.js?v=14",
+  "./styles.css?v=15",
+  "./app.js?v=15",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -98,12 +106,15 @@ def publish_snapshot(session: Session, destination: Path) -> dict:
 
     destination.mkdir(parents=True, exist_ok=True)
     _write_shell(destination)
+    originals = [story for story in catalog["stories"] if _is_original_story(story)]
+    _attach_blog_urls(catalog["stories"])
     _write_story_pages(destination, catalog["stories"])
-    _write_discovery(destination, catalog)
+    _write_blog_pages(destination, originals)
+    _write_discovery(destination, catalog, originals)
     data_dir = destination / "data"
     data_dir.mkdir(exist_ok=True)
     temporary = data_dir / "feed.json.tmp"
-    temporary.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    _write_text(temporary, json.dumps(catalog, ensure_ascii=False, indent=2) + "\n")
     temporary.replace(data_dir / "feed.json")
     _write_notify(data_dir, catalog)
     return catalog
@@ -126,7 +137,7 @@ def _write_notify(data_dir: Path, catalog: dict) -> None:
     }
     path = data_dir / "notify.json"
     temporary = data_dir / "notify.json.tmp"
-    temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    _write_text(temporary, json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
     temporary.replace(path)
 
 
@@ -235,6 +246,29 @@ def story_path(story_id: int, title: str) -> str:
     return f"story/{story_id}/{story_slug(title)}/"
 
 
+def _write_text(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if os.name == "nt":
+        target = str(path.resolve())
+        if not target.startswith("\\\\?\\"):
+            target = "\\\\?\\" + target
+        with open(target, "w", encoding="utf-8", newline="\n") as handle:
+            handle.write(text)
+        return
+    path.write_text(text, encoding="utf-8")
+
+
+def _attach_blog_urls(stories: list[dict]) -> None:
+    for story in stories:
+        if not _is_original_story(story):
+            continue
+        href = f"{SITE}/{blog_path(story['id'], story['title'])}"
+        story["blog_path"] = blog_path(story["id"], story["title"])
+        for article in story.get("articles") or []:
+            if is_original_source_name(article.get("source_name")):
+                article["url"] = href
+
+
 def _write_story_pages(destination: Path, stories: list[dict]) -> None:
     root = destination / "story"
     root.mkdir(exist_ok=True)
@@ -252,15 +286,30 @@ def _write_story_pages(destination: Path, stories: list[dict]) -> None:
                 child.unlink()
         page = folder / slug / "index.html"
         page.parent.mkdir(exist_ok=True)
-        page.write_text(_story_page(story), encoding="utf-8")
-        (folder / "index.html").write_text(_story_redirect(story, slug), encoding="utf-8")
+        _write_text(page, _story_page(story))
+        _write_text(folder / "index.html", _story_redirect(story, slug))
     for child in list(root.iterdir()):
         if child.is_dir() and child.name not in keep:
             shutil.rmtree(child)
 
 
-def _write_discovery(destination: Path, catalog: dict) -> None:
+def _write_blog_pages(destination: Path, originals: list[dict]) -> None:
+    root = destination / "blog"
+    if root.exists():
+        shutil.rmtree(root)
+    root.mkdir(parents=True, exist_ok=True)
+    _write_text(root / "index.html", _blog_index_page(originals))
+    for story in originals:
+        slug = story_slug(story["title"])
+        folder = root / str(story["id"]) / slug
+        folder.mkdir(parents=True, exist_ok=True)
+        _write_text(folder / "index.html", _blog_article_page(story, originals))
+        _write_text(root / str(story["id"]) / "index.html", _blog_redirect(story, slug))
+
+
+def _write_discovery(destination: Path, catalog: dict, originals: list[dict] | None = None) -> None:
     stories = catalog["stories"]
+    originals = originals if originals is not None else [story for story in stories if _is_original_story(story)]
     index = destination / "index.html"
     page = index.read_text(encoding="utf-8")
     if HOME_MARKER not in page:
@@ -277,13 +326,17 @@ def _write_discovery(destination: Path, catalog: dict) -> None:
         "  </ul>\n"
         "</main>"
     )
-    index.write_text(page.replace(HOME_MARKER, listing, 1), encoding="utf-8")
+    _write_text(index, page.replace(HOME_MARKER, listing, 1))
     updated = (catalog.get("generated_at") or "")[:10]
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
         "  <url>",
         f"    <loc>{SITE}/</loc>",
+        f"    <lastmod>{escape(updated)}</lastmod>" if updated else "",
+        "  </url>",
+        "  <url>",
+        f"    <loc>{SITE}/blog/</loc>",
         f"    <lastmod>{escape(updated)}</lastmod>" if updated else "",
         "  </url>",
     ]
@@ -297,11 +350,22 @@ def _write_discovery(destination: Path, catalog: dict) -> None:
                 "  </url>",
             ]
         )
+    for story in originals:
+        published = str(story.get("published_at") or "")[:10]
+        path = story.get("blog_path") or blog_path(story["id"], story["title"])
+        lines.extend(
+            [
+                "  <url>",
+                f"    <loc>{SITE}/{escape(path, quote=True)}</loc>",
+                f"    <lastmod>{escape(published)}</lastmod>" if published else "",
+                "  </url>",
+            ]
+        )
     lines.append("</urlset>")
-    (destination / "sitemap.xml").write_text("\n".join(line for line in lines if line) + "\n", encoding="utf-8")
-    (destination / "robots.txt").write_text(
+    _write_text(destination / "sitemap.xml", "\n".join(line for line in lines if line) + "\n")
+    _write_text(
+        destination / "robots.txt",
         "User-agent: *\nAllow: /\n\nSitemap: https://edulens360.com/sitemap.xml\n",
-        encoding="utf-8",
     )
 
 
@@ -484,15 +548,14 @@ def _public_articles(story: dict) -> list[dict]:
 
 
 def _source_block(article: dict) -> str:
-    from app.services.original_post import format_tip_body_html, is_original_source_name
-
     name = article.get("source_name") or "Source"
     excerpt = article.get("excerpt") or ""
     if is_original_source_name(name):
-        body = format_tip_body_html(excerpt) if excerpt else ""
-        return f'<section class="tip-body">{body}</section>'
+        lead = tip_lead(excerpt) if excerpt else ""
+        text = f'<p class="summary">{escape(lead)}</p>' if lead else ""
+    else:
+        text = f'<p class="summary">{escape(excerpt)}</p>' if excerpt else ""
     safe_name = escape(name)
-    text = f'<p class="summary">{escape(excerpt)}</p>' if excerpt else ""
     url = escape(article.get("url") or "", quote=True)
     return (
         '<section class="source">'
@@ -504,10 +567,187 @@ def _source_block(article: dict) -> str:
 
 
 def _is_original_story(story: dict) -> bool:
-    from app.services.original_post import is_original_source_name
-
     sources = story.get("sources") or []
     return len(sources) == 1 and is_original_source_name(sources[0])
+
+
+def _original_excerpt(story: dict) -> str:
+    for article in story.get("articles") or []:
+        if is_original_source_name(article.get("source_name")):
+            return article.get("excerpt") or ""
+    return ""
+
+
+def _blog_redirect(story: dict, slug: str) -> str:
+    title = escape(story["title"])
+    target = escape(slug + "/", quote=True)
+    path = story.get("blog_path") or blog_path(story["id"], story["title"])
+    canonical = escape(f"{SITE}/{path}", quote=True)
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url={target}">
+  <link rel="canonical" href="{canonical}">
+  <title>{title} · Edulens360</title>
+</head>
+<body>
+  <p><a href="{target}">{title}</a></p>
+</body>
+</html>
+"""
+
+
+def _blog_index_page(originals: list[dict]) -> str:
+    items = []
+    for story in originals:
+        path = story.get("blog_path") or blog_path(story["id"], story["title"])
+        when = escape(_format_when(story.get("published_at")))
+        items.append(
+            "<li>"
+            f'<a href="{escape(path.removeprefix("blog/"), quote=True)}">{escape(story["title"])}</a>'
+            f'<span class="meta">{when}</span>'
+            "</li>"
+        )
+    listing = "\n        ".join(items) if items else "<li>No tips published yet.</li>"
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c3d2e">
+  <title>Edulens360 tips · Edulens360</title>
+  <meta name="description" content="Practical education tips from Edulens360 for students, teachers, and parents in Ghana.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="{SITE}/blog/">
+  <meta property="og:site_name" content="Edulens360">
+  <meta property="og:title" content="Edulens360 tips">
+  <meta property="og:description" content="Practical education tips from Edulens360 for students, teachers, and parents in Ghana.">
+  <meta property="og:url" content="{SITE}/blog/">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="../icon-192.png">
+  <link rel="stylesheet" href="../styles.css?v={SHELL_VERSION}">
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="brand" href="../"><img src="../logo.svg" alt="Edulens360" width="64" height="56"></a>
+    </div>
+  </header>
+  <main id="main">
+    <article class="story">
+      <a class="back" href="../" aria-label="Back to latest">Back</a>
+      <p class="kicker">Edulens360 · Tips</p>
+      <div class="headline"><h1>Edulens360 tips</h1></div>
+      <p class="summary">Practical guidance for students, teachers, and parents in Ghana.</p>
+      <ul class="blog-index">
+        {listing}
+      </ul>
+    </article>
+  </main>
+</body>
+</html>
+"""
+
+
+def _blog_article_page(story: dict, originals: list[dict]) -> str:
+    title = escape(story["title"])
+    summary = escape(story.get("summary") or "")
+    path = story.get("blog_path") or blog_path(story["id"], story["title"])
+    canonical = escape(f"{SITE}/{path}", quote=True)
+    description = escape(_plain(story.get("summary") or "", 180), quote=True)
+    label = escape(CATEGORY_LABELS.get(story.get("category") or "", "") or "Education")
+    when = escape(_format_when(story.get("published_at")))
+    image = _http_url(story.get("image_url"))
+    photo = ""
+    if image:
+        photo = (
+            f'<img class="card-photo" alt="{title}" '
+            f'src="{escape(image, quote=True)}" referrerpolicy="no-referrer">'
+        )
+    body = format_tip_body_html(tip_body_without_related(_original_excerpt(story)))
+    related = []
+    for other in originals:
+        if other["id"] == story["id"]:
+            continue
+        other_path = other.get("blog_path") or blog_path(other["id"], other["title"])
+        href = escape("../../" + other_path.removeprefix("blog/"), quote=True)
+        related.append(f'<li><a href="{href}">{escape(other["title"])}</a></li>')
+    more = "\n          ".join(related[:8])
+    more_block = (
+        '<section class="blog-more">'
+        "<h2>More from Edulens360</h2>"
+        f"<ul>\n          {more}\n        </ul>"
+        '<p class="blog-links">'
+        '<a href="../../">All Edulens360 tips</a>'
+        " · "
+        '<a href="../../../">Latest education news</a>'
+        "</p>"
+        "</section>"
+        if related
+        else (
+            '<section class="blog-more">'
+            '<p class="blog-links">'
+            '<a href="../../">All Edulens360 tips</a>'
+            " · "
+            '<a href="../../../">Latest education news</a>'
+            "</p>"
+            "</section>"
+        )
+    )
+    image_meta = f'<meta property="og:image" content="{escape(image, quote=True)}">' if image else ""
+    twitter_card = "summary_large_image" if image else "summary"
+    schema = dict(_article_schema(story, image))
+    schema["mainEntityOfPage"] = f"{SITE}/{path}"
+    schema["author"] = {"@type": "Organization", "name": "Edulens360", "url": SITE + "/"}
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c3d2e">
+  <title>{title} · Edulens360</title>
+  <meta name="description" content="{description}">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="{canonical}">
+  <meta property="og:site_name" content="Edulens360">
+  <meta property="og:title" content="{title}">
+  <meta property="og:description" content="{description}">
+  <meta property="og:url" content="{canonical}">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_GH">
+  {image_meta}
+  <meta name="twitter:card" content="{twitter_card}">
+  <meta name="twitter:title" content="{title}">
+  <meta name="twitter:description" content="{description}">
+  {f'<meta name="twitter:image" content="{escape(image, quote=True)}">' if image else ""}
+  <link rel="icon" href="../../../icon-192.png">
+  <link rel="stylesheet" href="../../../styles.css?v={SHELL_VERSION}">
+  <script type="application/ld+json">
+    {json.dumps(schema, ensure_ascii=False).replace("<", "\\u003c")}
+  </script>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="brand" href="../../../"><img src="../../../logo.svg" alt="Edulens360" width="64" height="56"></a>
+    </div>
+  </header>
+  <main id="main">
+    <article class="story">
+      <a class="back" href="../../../" aria-label="Back to latest">Back</a>
+      <p class="kicker">{label} · {when} · Edulens360 tip</p>
+      <div class="headline"><h1>{title}</h1>{photo}</div>
+      <p class="summary">{summary}</p>
+      <section class="tip-body">
+        {body}
+      </section>
+      {more_block}
+    </article>
+  </main>
+</body>
+</html>
+"""
 
 
 def _article_schema(story: dict, image: str) -> dict:

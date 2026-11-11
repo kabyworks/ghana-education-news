@@ -93,18 +93,18 @@ def create_original_post(
     session.add(story)
     session.flush()
 
-    canonical = f"{ORIGINAL_SOURCE_BASE}{_story_path(story.id, clean_title)}"
+    blog = f"{ORIGINAL_SOURCE_BASE}{_blog_path(story.id, clean_title)}"
     article = Article(
         source_id=source.id,
-        url=canonical,
-        canonical_url=canonical,
+        url=blog,
+        canonical_url=blog,
         title=clean_title,
         author=ORIGINAL_SOURCE_NAME,
         published_at=now,
         discovered_at=now,
         excerpt=clean_body,
         image_url=clean_image,
-        content_hash=_content_hash(canonical, clean_title, clean_body),
+        content_hash=_content_hash(blog, clean_title, clean_body),
         language="en",
         processing_status=PROCESSING_PUBLISHED,
         ghana_relevance=1.0,
@@ -184,14 +184,46 @@ def _one_line(value: str, limit: int) -> str:
     return " ".join(value.split())[:limit].strip()
 
 
-def _story_path(story_id: int, title: str) -> str:
+def tip_slug(title: str) -> str:
     folded = title.casefold().replace("'", "").replace("\u2019", "").replace("\u2018", "")
     slug = re.sub(r"[^a-z0-9]+", "-", folded).strip("-")
     if len(slug) > 80:
         trimmed = slug[:80]
         slug = trimmed.rsplit("-", 1)[0] if "-" in trimmed else trimmed
-    slug = slug.strip("-") or "story"
-    return f"story/{story_id}/{slug}/"
+    return slug.strip("-") or "tip"
+
+
+def _story_path(story_id: int, title: str) -> str:
+    return f"story/{story_id}/{tip_slug(title)}/"
+
+
+def blog_path(story_id: int, title: str) -> str:
+    return f"blog/{story_id}/{tip_slug(title)}/"
+
+
+def _blog_path(story_id: int, title: str) -> str:
+    return blog_path(story_id, title)
+
+
+def tip_lead(body: str, limit: int = 280) -> str:
+    """Short source-card excerpt from the tip body."""
+    text = (body or "").replace("\r\n", "\n")
+    if "### Related Edulens360 tips" in text:
+        text = text.split("### Related Edulens360 tips", 1)[0]
+    chunks = [part.strip() for part in text.split("\n\n") if part.strip() and not part.strip().startswith("### ")]
+    lead = chunks[0] if chunks else text.strip()
+    lead = " ".join(lead.split())
+    if len(lead) <= limit:
+        return lead
+    trimmed = lead[: limit - 1].rsplit(" ", 1)[0]
+    return (trimmed or lead[: limit - 1]).rstrip() + "…"
+
+
+def tip_body_without_related(body: str) -> str:
+    text = (body or "").replace("\r\n", "\n")
+    if "### Related Edulens360 tips" in text:
+        text = text.split("### Related Edulens360 tips", 1)[0]
+    return text.strip()
 
 
 def _content_hash(canonical_url: str, title: str, excerpt: str) -> str:

@@ -106,30 +106,18 @@ function isOriginalTip(story) {
   return names.length === 1 && names[0] === "Edulens360";
 }
 
-function tipBody(excerpt) {
-  const section = el("section", "tip-body");
-  const blocks = String(excerpt || "").replace(/\r\n/g, "\n").split(/\n\n+/);
-  for (const raw of blocks) {
-    const block = raw.trim();
-    if (!block) continue;
-    let body = block;
-    if (block.startsWith("### ")) {
-      const newline = block.indexOf("\n");
-      const heading = newline === -1 ? block.slice(4).trim() : block.slice(4, newline).trim();
-      section.append(el("h3", "", heading));
-      if (newline === -1) continue;
-      body = block.slice(newline + 1).trim();
-      if (!body) continue;
-    }
-    const paragraph = el("p", "summary");
-    const lines = body.split("\n");
-    lines.forEach((line, index) => {
-      if (index) paragraph.append(document.createElement("br"));
-      paragraph.append(document.createTextNode(line));
-    });
-    section.append(paragraph);
-  }
-  return section;
+function tipLead(excerpt, limit = 280) {
+  let text = String(excerpt || "").replace(/\r\n/g, "\n");
+  const marker = "### Related Edulens360 tips";
+  if (text.includes(marker)) text = text.split(marker)[0];
+  const chunks = text
+    .split(/\n\n+/)
+    .map((part) => part.trim())
+    .filter((part) => part && !part.startsWith("### "));
+  let lead = (chunks[0] || text.trim()).replace(/\s+/g, " ").trim();
+  if (lead.length <= limit) return lead;
+  const trimmed = lead.slice(0, limit - 1).replace(/\s+\S*$/, "");
+  return `${(trimmed || lead.slice(0, limit - 1)).replace(/\s+$/, "")}…`;
 }
 
 function sourceNames(story) {
@@ -669,13 +657,11 @@ function renderStory(story, { offline = false } = {}) {
   actions.append(share, save);
   article.append(actions);
   for (const item of story.articles || []) {
-    if (item.source_name === "Edulens360") {
-      article.append(tipBody(item.excerpt));
-      continue;
-    }
     const block = el("section", "source");
     block.append(el("h3", "", item.source_name));
-    if (item.excerpt) block.append(el("p", "summary", item.excerpt));
+    const excerpt =
+      item.source_name === "Edulens360" ? tipLead(item.excerpt) : item.excerpt;
+    if (excerpt) block.append(el("p", "summary", excerpt));
     const link = el("a", "link-button secondary", `Read at ${item.source_name}`);
     link.href = item.url;
     link.target = "_blank";

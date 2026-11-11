@@ -454,6 +454,60 @@ h2 {
   margin: 0 0 0.65rem;
 }
 
+.blog-index {
+  margin: 1.1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.blog-index li {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.blog-index a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.blog-index .meta {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.blog-more {
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.blog-more h2 {
+  margin: 0 0 0.65rem;
+  font-size: 1.15rem;
+}
+
+.blog-more ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.blog-more li {
+  margin: 0.35rem 0;
+}
+
+.blog-more a {
+  color: var(--green);
+}
+
+.blog-links {
+  margin: 0.9rem 0 0;
+  color: var(--muted);
+}
+
 .story-card .summary {
   display: -webkit-box;
   -webkit-line-clamp: 3;
