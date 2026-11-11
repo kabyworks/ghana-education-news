@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T13:10:17Z",
+  "generated_at": "2026-11-11T13:40:27Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 216
+      "story_count": 217
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 789,
+      "title": "Ennobled Foundation recognises Female Accounting Graduate to encourage more women in the profession",
+      "summary": "Ennobled Foundation has presented its Best Graduating Female Accounting Student Award to Matilda Dede Angmortey at the 18th Congregation of the University of Professional Studies, Accra (UPSA), as part of its continued efforts to encourage more women to pursue careers in accounting.",
+      "category": "higher_education",
+      "published_at": "2026-11-11T13:10:38Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-2.42.37-AM-1024x677.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ennobled Foundation recognises Female Accounting Graduate to encourage more women in the profession",
+          "url": "https://www.myjoyonline.com/ennobled-foundation-recognises-female-accounting-graduate-to-encourage-more-women-in-the-profession/",
+          "published_at": "2026-11-11T13:10:38Z",
+          "excerpt": "Ennobled Foundation has presented its Best Graduating Female Accounting Student Award to Matilda Dede Angmortey at the 18th Congregation of the University of Professional Studies, Accra (UPSA), as part of its continued efforts to encourage more women to pursue careers in accounting. The award forms part of the Foundation’s commitment under its Memorandum of Understanding […]"
+        }
+      ],
+      "path": "story/789/ennobled-foundation-recognises-female-accounting-graduate-to-encourage-more/"
+    },
     {
       "id": 788,
       "title": "Government to realign education investment towards foundational learning – Education Minister",
