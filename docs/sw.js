@@ -1,8 +1,8 @@
-const CACHE = "ghanaed-phone-11";
+const CACHE = "ghanaed-phone-12";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=15",
-  "./app.js?v=15",
+  "./styles.css?v=16",
+  "./app.js?v=16",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",

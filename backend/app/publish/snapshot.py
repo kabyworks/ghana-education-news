@@ -24,13 +24,13 @@ from app.services.original_post import (
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "15"
+SHELL_VERSION = "16"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-11";
+PHONE_SW = """const CACHE = "ghanaed-phone-12";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=15",
-  "./app.js?v=15",
+  "./styles.css?v=16",
+  "./app.js?v=16",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -598,18 +598,34 @@ def _blog_redirect(story: dict, slug: str) -> str:
 """
 
 
+def _blog_card(story: dict, href: str) -> str:
+    title = escape(story["title"])
+    summary = escape(story.get("summary") or "")
+    when = escape(_format_when(story.get("published_at")))
+    image = _http_url(story.get("image_url"))
+    photo = ""
+    if image:
+        photo = (
+            f'<img class="card-photo" alt="" '
+            f'src="{escape(image, quote=True)}" referrerpolicy="no-referrer">'
+        )
+    return (
+        '<article class="story-card">'
+        f'<a class="story-link" href="{escape(href, quote=True)}">'
+        f'<p class="kicker">Edulens360 tip · {when}</p>'
+        f'<div class="headline"><h2>{title}</h2>{photo}</div>'
+        f'<p class="summary">{summary}</p>'
+        "</a>"
+        "</article>"
+    )
+
+
 def _blog_index_page(originals: list[dict]) -> str:
-    items = []
+    cards = []
     for story in originals:
         path = story.get("blog_path") or blog_path(story["id"], story["title"])
-        when = escape(_format_when(story.get("published_at")))
-        items.append(
-            "<li>"
-            f'<a href="{escape(path.removeprefix("blog/"), quote=True)}">{escape(story["title"])}</a>'
-            f'<span class="meta">{when}</span>'
-            "</li>"
-        )
-    listing = "\n        ".join(items) if items else "<li>No tips published yet.</li>"
+        cards.append(_blog_card(story, path.removeprefix("blog/")))
+    listing = "\n      ".join(cards) if cards else '<p class="notice">No tips published yet.</p>'
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -640,10 +656,10 @@ def _blog_index_page(originals: list[dict]) -> str:
       <p class="kicker">Edulens360 · Tips</p>
       <div class="headline"><h1>Edulens360 tips</h1></div>
       <p class="summary">Practical guidance for students, teachers, and parents in Ghana.</p>
-      <ul class="blog-index">
-        {listing}
-      </ul>
     </article>
+    <div class="blog-feed">
+      {listing}
+    </div>
   </main>
 </body>
 </html>
@@ -659,32 +675,33 @@ def _blog_article_page(story: dict, originals: list[dict]) -> str:
     label = escape(CATEGORY_LABELS.get(story.get("category") or "", "") or "Education")
     when = escape(_format_when(story.get("published_at")))
     image = _http_url(story.get("image_url"))
-    photo = ""
+    hero = ""
     if image:
-        photo = (
-            f'<img class="card-photo" alt="{title}" '
+        hero = (
+            f'<img class="hero-photo" alt="{title}" '
             f'src="{escape(image, quote=True)}" referrerpolicy="no-referrer">'
         )
     body = format_tip_body_html(tip_body_without_related(_original_excerpt(story)))
-    related = []
+    related_cards = []
     for other in originals:
         if other["id"] == story["id"]:
             continue
         other_path = other.get("blog_path") or blog_path(other["id"], other["title"])
-        href = escape("../../" + other_path.removeprefix("blog/"), quote=True)
-        related.append(f'<li><a href="{href}">{escape(other["title"])}</a></li>')
-    more = "\n          ".join(related[:8])
+        related_cards.append(_blog_card(other, "../../" + other_path.removeprefix("blog/")))
+        if len(related_cards) >= 8:
+            break
+    related_html = "\n        ".join(related_cards)
     more_block = (
         '<section class="blog-more">'
         "<h2>More from Edulens360</h2>"
-        f"<ul>\n          {more}\n        </ul>"
+        f'<div class="blog-feed">\n        {related_html}\n      </div>'
         '<p class="blog-links">'
         '<a href="../../">All Edulens360 tips</a>'
         " · "
         '<a href="../../../">Latest education news</a>'
         "</p>"
         "</section>"
-        if related
+        if related_cards
         else (
             '<section class="blog-more">'
             '<p class="blog-links">'
@@ -737,7 +754,8 @@ def _blog_article_page(story: dict, originals: list[dict]) -> str:
     <article class="story">
       <a class="back" href="../../../" aria-label="Back to latest">Back</a>
       <p class="kicker">{label} · {when} · Edulens360 tip</p>
-      <div class="headline"><h1>{title}</h1>{photo}</div>
+      <div class="headline"><h1>{title}</h1></div>
+      {hero}
       <p class="summary">{summary}</p>
       <section class="tip-body">
         {body}
