@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T20:10:09Z",
+  "generated_at": "2026-11-11T20:40:06Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 118
+      "story_count": 119
     },
     {
       "name": "policy",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 800,
+      "title": "Ayawaso North MP presents cabinets to schools to support STEM education",
+      "summary": "The Member of Parliament for Ayawaso North, Yussif Jajah, has presented cabinets to schools across the municipality to support the safe storage of Science, Technology, Engineering and Mathematics (STEM) equipment donated by the government.",
+      "category": "general",
+      "published_at": "2026-11-11T20:12:12Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/902191746_1442201494668233_3127601250516258308_n-1024x682.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Ayawaso North MP presents cabinets to schools to support STEM education",
+          "url": "https://www.adomonline.com/ayawaso-north-mp-presents-cabinets-to-schools-to-support-stem-education/",
+          "published_at": "2026-11-11T20:12:12Z",
+          "excerpt": "The Member of Parliament for Ayawaso North, Yussif Jajah, has presented cabinets to schools across the municipality to support the safe storage of Science, Technology, Engineering and Mathematics (STEM) equipment donated by the government. The presentation was made on Tuesday, November 10, 2026, as part of efforts to strengthen STEM education and improve the teaching […]"
+        }
+      ],
+      "path": "story/800/ayawaso-north-mp-presents-cabinets-to-schools-to-support-stem-education/"
+    },
     {
       "id": 797,
       "title": "Gov’t launches Foundational Learning Programme 2026-20240 to improve early childhood education",
