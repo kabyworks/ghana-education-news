@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-11T21:10:31Z",
+  "generated_at": "2026-11-11T21:40:22Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 224
+      "story_count": 225
     },
     {
       "name": "higher_education",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 801,
+      "title": "WASEC 1984 year group donates 80 tables and 160 benches worth GH¢96,000 to alma mater",
+      "summary": "The 1984 year group of Wa Senior High School (WASEC) has donated dining hall furniture worth GH¢96,000 to the school.",
+      "category": "basic_schools",
+      "published_at": "2026-11-11T21:28:21Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-17.16.30-1024x768.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "WASEC 1984 year group donates 80 tables and 160 benches worth GH¢96,000 to alma mater",
+          "url": "https://www.myjoyonline.com/wasec-1984-year-group-donates-80-tables-and-160-benches-worth-gh%c2%a296000-to-alma-mater/",
+          "published_at": "2026-11-11T21:28:21Z",
+          "excerpt": "The 1984 year group of Wa Senior High School (WASEC) has donated dining hall furniture worth GH¢96,000 to the school."
+        }
+      ],
+      "path": "story/801/wasec-1984-year-group-donates-80-tables-and-160-benches-worth-gh-96-000-to-alma/"
+    },
     {
       "id": 800,
       "title": "Ayawaso North MP presents cabinets to schools to support STEM education",
