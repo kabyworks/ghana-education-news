@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:10:20Z",
+  "generated_at": "2026-11-11T19:40:11Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 168
+      "story_count": 169
     },
     {
       "name": "general",
@@ -31,6 +31,60 @@
     }
   ],
   "stories": [
+    {
+      "id": 797,
+      "title": "Gov’t launches Foundational Learning Programme 2026-20240 to improve early childhood education",
+      "summary": "The government has launched a flagship foundational learning programme aimed at improving the quality of early childhood education and strengthening literacy and numeracy skills among preschoolers and young learners across the country.",
+      "category": "general",
+      "published_at": "2026-11-11T19:32:48Z",
+      "source_count": 2,
+      "sources": [
+        "Adom Online Education",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/jane.png",
+      "rank": 0.849,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Gov’t launches Foundational Learning Programme 2026-20240 to improve early childhood education",
+          "url": "https://www.myjoyonline.com/govt-launches-foundational-learning-programme-2026-20240-to-improve-early-childhood-education/",
+          "published_at": "2026-11-11T18:44:24Z",
+          "excerpt": "The government has launched a flagship foundational learning programme aimed at improving the quality of early childhood education and strengthening literacy and numeracy skills among preschoolers and young learners across the country."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "Gov’t launches Foundational Learning Programme 2026-20240 to improve early childhood education",
+          "url": "https://www.adomonline.com/govt-launches-foundational-learning-programme-2026-20240-to-improve-early-childhood-education/",
+          "published_at": "2026-11-11T19:32:48Z",
+          "excerpt": "The government has launched a flagship foundational learning programme aimed at improving the quality of early childhood education and strengthening literacy and numeracy skills among preschoolers and young learners across the country. She said the target formed part of the government’s 2026–2040 Foundational Learning Agenda, which seeks to address learning gaps and ensure that children […]"
+        }
+      ],
+      "path": "story/797/govt-launches-foundational-learning-programme-2026-20240-to-improve-early/"
+    },
+    {
+      "id": 799,
+      "title": "ENNY Foundation wins award for autism advocacy and special needs support",
+      "summary": "The ENNY Foundation has received the Paragon of Autism Advocacy and Special Needs Excellence award at the fifth edition of the Eminent Awards, in recognition of its work supporting children with diverse learning needs and promoting inclusive education.",
+      "category": "teachers",
+      "published_at": "2026-11-11T19:31:44Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-19.26.19-1024x819.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "ENNY Foundation wins award for autism advocacy and special needs support",
+          "url": "https://www.myjoyonline.com/enny-foundation-wins-award-for-autism-advocacy-and-special-needs-support/",
+          "published_at": "2026-11-11T19:31:44Z",
+          "excerpt": "The ENNY Foundation has received the Paragon of Autism Advocacy and Special Needs Excellence award at the fifth edition of the Eminent Awards, in recognition of its work supporting children with diverse learning needs and promoting inclusive education. The award was presented on October 31, 2026, at the National Theatre in Accra during the awards' fifth anniversary celebration, known as the Quintessence Edition. According to the foundation, the recognition reflects years of work providing intervention and support for children and families, training parents, teachers and caregivers, and promoting more inclusive learning environments. The citation traced the foundation's beginnings to the volunteer work of its founder, Emmanuel Ntow Nyarko, who worked with children requiring additional educational support before establishing ENNY as a platform for intervention, training and advocacy. The foundation provides home- and school-based support to children, with programmes targeting communicati"
+        }
+      ],
+      "path": "story/799/enny-foundation-wins-award-for-autism-advocacy-and-special-needs-support/"
+    },
     {
       "id": 798,
       "title": "GES assures prompt action over water and electricity challenges at Funsi SHS",
@@ -53,29 +107,6 @@
         }
       ],
       "path": "story/798/ges-assures-prompt-action-over-water-and-electricity-challenges-at-funsi-shs/"
-    },
-    {
-      "id": 797,
-      "title": "Gov’t launches Foundational Learning Programme 2026-20240 to improve early childhood education",
-      "summary": "The government has launched a flagship foundational learning programme aimed at improving the quality of early childhood education and strengthening literacy and numeracy skills among preschoolers and young learners across the country.",
-      "category": "general",
-      "published_at": "2026-11-11T18:44:24Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/02/Screenshot-2026-02-12-at-4.49.43-AM-1024x611.png",
-      "rank": 0.7451,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Gov’t launches Foundational Learning Programme 2026-20240 to improve early childhood education",
-          "url": "https://www.myjoyonline.com/govt-launches-foundational-learning-programme-2026-20240-to-improve-early-childhood-education/",
-          "published_at": "2026-11-11T18:44:24Z",
-          "excerpt": "The government has launched a flagship foundational learning programme aimed at improving the quality of early childhood education and strengthening literacy and numeracy skills among preschoolers and young learners across the country."
-        }
-      ],
-      "path": "story/797/govt-launches-foundational-learning-programme-2026-20240-to-improve-early/"
     },
     {
       "id": 796,
