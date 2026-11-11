@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-11T23:10:08Z",
+  "generated_at": "2026-11-11T23:40:01Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 226
+      "story_count": 227
     },
     {
       "name": "higher_education",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 803,
+      "title": "Jimmy Aglah takes the fight against galamsey into Ghanaian classrooms",
+      "summary": "Kumasi, Ghana — Ghanaian author and media executive Jimmy Aglah is taking the national conversation on illegal mining, environmental destruction and responsible citizenship into the classroom following the approval of his novel, When the River Testified, by the National Council for Curriculum and Assessment (NaCCA)...",
+      "category": "basic_schools",
+      "published_at": "2026-11-11T23:20:20Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/When-the-River-testified_Jimmy-Aglah-1024x576.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Jimmy Aglah takes the fight against galamsey into Ghanaian classrooms",
+          "url": "https://www.myjoyonline.com/jimmy-aglah-takes-the-fight-against-galamsey-into-ghanaian-classrooms/",
+          "published_at": "2026-11-11T23:20:20Z",
+          "excerpt": "Kumasi, Ghana — Ghanaian author and media executive Jimmy Aglah is taking the national conversation on illegal mining, environmental destruction and responsible citizenship into the classroom following the approval of his novel, When the River Testified, by the National Council for Curriculum and Assessment (NaCCA) as supplementary reading material for Ghanaian students. The NaCCA verification system lists the book as officially approved, identifying it as a supplementary reader for JHS/SHS and confirming that it meets the Council’s standards."
+        }
+      ],
+      "path": "story/803/jimmy-aglah-takes-the-fight-against-galamsey-into-ghanaian-classrooms/"
+    },
     {
       "id": 802,
       "title": "GES promises action as Wiyaala appeals to Mahama over Funsi SHS dormitory blackout",
