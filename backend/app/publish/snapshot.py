@@ -337,11 +337,15 @@ def _story_page(story: dict) -> str:
     image = _http_url(story.get("image_url"))
     photo = ""
     if image:
-        photo = f'<img class="card-photo" alt="" src="{escape(image, quote=True)}" referrerpolicy="no-referrer">'
+        photo = (
+            f'<img class="card-photo" alt="{title}" '
+            f'src="{escape(image, quote=True)}" referrerpolicy="no-referrer">'
+        )
     blocks = "\n".join(_source_block(article) for article in _public_articles(story))
     data = json.dumps(_saved_copy(story), ensure_ascii=False).replace("<", "\\u003c")
     image_meta = f'<meta property="og:image" content="{escape(image, quote=True)}">' if image else ""
     twitter_card = "summary_large_image" if image else "summary"
+    robots = '<meta name="robots" content="index,follow,max-image-preview:large">'
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -350,12 +354,14 @@ def _story_page(story: dict) -> str:
   <meta name="theme-color" content="#1c3d2e">
   <title>{title} · Edulens360</title>
   <meta name="description" content="{description}">
+  {robots}
   <link rel="canonical" href="{canonical}">
   <meta property="og:site_name" content="Edulens360">
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{description}">
   <meta property="og:url" content="{canonical}">
   <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_GH">
   {image_meta}
   <meta name="twitter:card" content="{twitter_card}">
   <meta name="twitter:title" content="{title}">
