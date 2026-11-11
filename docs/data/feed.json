@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-11T16:10:16Z",
+  "generated_at": "2026-11-11T16:40:17Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 221
+      "story_count": 222
     },
     {
       "name": "higher_education",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 795,
+      "title": "Kojoheneba M/A Basic School faces severe infrastructure and water challenges",
+      "summary": "Kojoheneba M/A Basic School in the Nkwanta South Municipality of the Oti Region is facing severe infrastructural and logistical challenges, compelling school authorities to call for immediate support from the government, the Municipal Assembly, non-governmental organisations and philanthropists.",
+      "category": "basic_schools",
+      "published_at": "2026-11-11T16:15:44Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-06.55.02-1024x564.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Kojoheneba M/A Basic School faces severe infrastructure and water challenges",
+          "url": "https://www.adomonline.com/kojoheneba-m-a-basic-school-faces-severe-infrastructure-and-water-challenges/",
+          "published_at": "2026-11-11T16:15:44Z",
+          "excerpt": "Kojoheneba M/A Basic School in the Nkwanta South Municipality of the Oti Region is facing severe infrastructural and logistical challenges, compelling school authorities to call for immediate support from the government, the Municipal Assembly, non-governmental organisations and philanthropists. Quality education depends not only on effective teaching but also on the availability of safe classrooms, furniture […]"
+        }
+      ],
+      "path": "story/795/kojoheneba-m-a-basic-school-faces-severe-infrastructure-and-water-challenges/"
+    },
     {
       "id": 794,
       "title": "Funsi SHS students endure years without electricity, struggle for water amid poor dormitory conditions",
