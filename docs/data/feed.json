@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-11T18:10:10Z",
+  "generated_at": "2026-11-11T18:40:27Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 222
+      "story_count": 223
     },
     {
       "name": "higher_education",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 796,
+      "title": "GES engages Funsi SHS authorities over lack of water, electricity in boys’ dormitory",
+      "summary": "The Ghana Education Service (GES) says it is working with the authorities of Funsi Senior High School (SHS) and relevant government agencies to address concerns over the lack of electricity and water supply in the school's boys’ dormitory.",
+      "category": "basic_schools",
+      "published_at": "2026-11-11T18:25:36Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1048.png",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "GES engages Funsi SHS authorities over lack of water, electricity in boys’ dormitory",
+          "url": "https://www.myjoyonline.com/ges-engages-funsi-shs-authorities-over-lack-of-water-electricity-in-boys-dormitory/",
+          "published_at": "2026-11-11T18:25:36Z",
+          "excerpt": "The Ghana Education Service (GES) says it is working with the authorities of Funsi Senior High School (SHS) and relevant government agencies to address concerns over the lack of electricity and water supply in the school's boys’ dormitory."
+        }
+      ],
+      "path": "story/796/ges-engages-funsi-shs-authorities-over-lack-of-water-electricity-in-boys/"
+    },
     {
       "id": 795,
       "title": "Kojoheneba M/A Basic School faces severe infrastructure and water challenges",
