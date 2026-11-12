@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:10:05Z",
+  "generated_at": "2026-11-12T17:40:15Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 120
+      "story_count": 121
     },
     {
       "name": "policy",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 815,
+      "title": "Accra High wins Greater Accra NHIS inter-school quiz",
+      "summary": "Accra High School has emerged winner of the Greater Accra Regional National Health Insurance Scheme (NHIS) Inter-School Quiz Competition, organised by the National Health Insurance Authority (NHIA) to promote health insurance awareness among students.",
+      "category": "general",
+      "published_at": "2026-11-12T17:08:34Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1143-e1794502471426-1024x645.png",
+      "rank": 0.755,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Accra High wins Greater Accra NHIS inter-school quiz",
+          "url": "https://www.myjoyonline.com/accra-high-wins-greater-accra-nhis-inter-school-quiz/",
+          "published_at": "2026-11-12T17:08:34Z",
+          "excerpt": "Accra High School has emerged winner of the Greater Accra Regional National Health Insurance Scheme (NHIS) Inter-School Quiz Competition, organised by the National Health Insurance Authority (NHIA) to promote health insurance awareness among students."
+        }
+      ],
+      "path": "story/815/accra-high-wins-greater-accra-nhis-inter-school-quiz/"
+    },
     {
       "id": 814,
       "title": "GES interdicts two Aduman SHS male teachers over alleged sexual misconduct against male student",
