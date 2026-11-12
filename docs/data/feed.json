@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T20:10:44Z",
+  "generated_at": "2026-11-12T20:40:24Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -19,7 +19,7 @@
     },
     {
       "name": "policy",
-      "story_count": 29
+      "story_count": 30
     },
     {
       "name": "examinations",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 816,
+      "title": "2027 Budget: Government allocates GH¢48bn to education, GH¢1.37bn to end double track",
+      "summary": "The government has allocated GH¢48 billion to the Ministry of Education in the 2027 Budget to support teaching, learning and access to education.",
+      "category": "policy",
+      "published_at": "2026-11-12T20:24:47Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/image-782.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "2027 Budget: Government allocates GH¢48bn to education, GH¢1.37bn to end double track",
+          "url": "https://www.adomonline.com/2027-budget-government-allocates-gh%c2%a248bn-to-education-gh%c2%a21-37bn-to-end-double-track/",
+          "published_at": "2026-11-12T20:24:47Z",
+          "excerpt": "The government has allocated GH¢48 billion to the Ministry of Education in the 2027 Budget to support teaching, learning and access to education. Presenting the 2027 Budget Statement and Economic Policy to Parliament on Thursday, November 12, 2026, Finance Minister Dr Cassiel Ato Forson said the allocation would fund key interventions across the education sector. […]"
+        }
+      ],
+      "path": "story/816/2027-budget-government-allocates-gh-48bn-to-education-gh-1-37bn-to-end-double/"
+    },
     {
       "id": 815,
       "title": "Accra High wins Greater Accra NHIS inter-school quiz",
