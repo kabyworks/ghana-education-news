@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T00:10:02Z",
+  "generated_at": "2026-11-12T00:40:00Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 219
+      "story_count": 221
     },
     {
       "name": "teachers",
@@ -170,6 +170,29 @@
       "path": "story/800/ayawaso-north-mp-presents-cabinets-to-schools-to-support-stem-education/"
     },
     {
+      "id": 807,
+      "title": "We have increased school enrolment but not jobs for graduates – Prof Ayeetey",
+      "summary": "Professor of Development Economics at the Institute of Statistical, Social and Economic Research (ISSER) at the University of Ghana, Legon, Professor Ernest Ayeetey, says Ghana has expanded access to education without creating enough jobs to absorb the growing number of graduates.",
+      "category": "higher_education",
+      "published_at": "2026-11-11T20:09:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Prof-Ernest-Ayiteey.jpg",
+      "rank": 0.6959,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "We have increased school enrolment but not jobs for graduates – Prof Ayeetey",
+          "url": "https://www.myjoyonline.com/we-have-increased-school-enrolment-but-not-jobs-for-graduates-prof-ayeetey/",
+          "published_at": "2026-11-11T20:09:00Z",
+          "excerpt": "Professor of Development Economics at the Institute of Statistical, Social and Economic Research (ISSER) at the University of Ghana, Legon, Professor Ernest Ayeetey, says Ghana has expanded access to education without creating enough jobs to absorb the growing number of graduates."
+        }
+      ],
+      "path": "story/807/we-have-increased-school-enrolment-but-not-jobs-for-graduates-prof-ayeetey/"
+    },
+    {
       "id": 797,
       "title": "Gov’t launches Foundational Learning Programme 2026-20240 to improve early childhood education",
       "summary": "The government has launched a flagship foundational learning programme aimed at improving the quality of early childhood education and strengthening literacy and numeracy skills among preschoolers and young learners across the country.",
@@ -222,6 +245,29 @@
         }
       ],
       "path": "story/799/enny-foundation-wins-award-for-autism-advocacy-and-special-needs-support/"
+    },
+    {
+      "id": 806,
+      "title": "You can’t fix school system without fixing what children will do after graduation – Prof Ernest Ayeetey",
+      "summary": "Professor of Development Economics at the Institute of Statistical, Social and Economic Research (ISSER) at the University of Ghana, Legon, Professor Ernest Ayeetey says Ghana's efforts to reform its education system will remain incomplete unless the economy creates opportunities for young people after they leave sc...",
+      "category": "higher_education",
+      "published_at": "2026-11-11T19:14:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Prof-Ernest-Aryeetey-jpg-749x424-1.webp",
+      "rank": 0.6847,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "You can’t fix school system without fixing what children will do after graduation – Prof Ernest Ayeetey",
+          "url": "https://www.myjoyonline.com/you-cant-fix-school-system-without-fixing-what-children-will-do-after-graduation-prof-ernest-ayeetey/",
+          "published_at": "2026-11-11T19:14:00Z",
+          "excerpt": "Professor of Development Economics at the Institute of Statistical, Social and Economic Research (ISSER) at the University of Ghana, Legon, Professor Ernest Ayeetey says Ghana's efforts to reform its education system will remain incomplete unless the economy creates opportunities for young people after they leave school."
+        }
+      ],
+      "path": "story/806/you-cant-fix-school-system-without-fixing-what-children-will-do-after/"
     },
     {
       "id": 798,
