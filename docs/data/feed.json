@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-12T21:10:25Z",
+  "generated_at": "2026-11-12T21:40:30Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 229
+      "story_count": 230
     },
     {
       "name": "higher_education",
@@ -23,7 +23,7 @@
     },
     {
       "name": "examinations",
-      "story_count": 21
+      "story_count": 22
     },
     {
       "name": "scholarships",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 818,
+      "title": "Teacher trainees, BECE candidates and basic schools get GH¢562m in 2027 Budget",
+      "summary": "The government has allocated a combined GH¢562 million to support teacher trainee allowances, Basic Education Certificate Examination (BECE) fees and the Capitation Grant in the 2027 Budget.",
+      "category": "examinations",
+      "published_at": "2026-11-12T21:26:54Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Ato-Forson-e1794510107657-1024x766.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Teacher trainees, BECE candidates and basic schools get GH¢562m in 2027 Budget",
+          "url": "https://www.myjoyonline.com/teacher-trainees-bece-candidates-and-basic-schools-get-gh%c2%a2562m-in-2027-budget/",
+          "published_at": "2026-11-12T21:26:54Z",
+          "excerpt": "The government has allocated a combined GH¢562 million to support teacher trainee allowances, Basic Education Certificate Examination (BECE) fees and the Capitation Grant in the 2027 Budget."
+        }
+      ],
+      "path": "story/818/teacher-trainees-bece-candidates-and-basic-schools-get-gh-562m-in-2027-budget/"
+    },
+    {
+      "id": 817,
+      "title": "Ato Forson announces GH¢3.4bn for Gender Ministry, GH¢2.1bn for School Feeding Programme",
+      "summary": "The government has allocated GH¢3.4 billion to the Ministry of Gender, Children and Social Protection in the 2027 Budget to strengthen social protection programmes and support vulnerable individuals and households across the country.",
+      "category": "basic_schools",
+      "published_at": "2026-11-12T21:11:56Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1160-1024x1024.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Ato Forson announces GH¢3.4bn for Gender Ministry, GH¢2.1bn for School Feeding Programme",
+          "url": "https://www.myjoyonline.com/ato-forson-announces-gh%c2%a23-4bn-for-gender-ministry-gh%c2%a22-1bn-for-school-feeding-programme/",
+          "published_at": "2026-11-12T21:11:56Z",
+          "excerpt": "The government has allocated GH¢3.4 billion to the Ministry of Gender, Children and Social Protection in the 2027 Budget to strengthen social protection programmes and support vulnerable individuals and households across the country."
+        }
+      ],
+      "path": "story/817/ato-forson-announces-gh-3-4bn-for-gender-ministry-gh-2-1bn-for-school-feeding/"
+    },
     {
       "id": 816,
       "title": "2027 Budget: Government allocates GH¢48bn to education, GH¢1.37bn to end double track",
