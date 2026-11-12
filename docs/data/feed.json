@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:10:19Z",
+  "generated_at": "2026-11-12T14:40:11Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,7 +7,7 @@
     },
     {
       "name": "higher_education",
-      "story_count": 224
+      "story_count": 225
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 813,
+      "title": "UEW partners universities in Togo, Côte d’Ivoire and Benin on PhD training and research",
+      "summary": "The University of Education, Winneba (UEW), is pursuing stronger academic collaboration with three West African universities to promote joint supervision of doctoral students, research development and language proficiency programmes.",
+      "category": "higher_education",
+      "published_at": "2026-11-12T14:07:05Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-1.29.10-PM-1024x768.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "UEW partners universities in Togo, Côte d’Ivoire and Benin on PhD training and research",
+          "url": "https://www.myjoyonline.com/uew-partners-universities-in-togo-cote-divoire-and-benin-on-phd-training-and-research/",
+          "published_at": "2026-11-12T14:07:05Z",
+          "excerpt": "The University of Education, Winneba (UEW), is pursuing stronger academic collaboration with three West African universities to promote joint supervision of doctoral students, research development and language proficiency programmes."
+        }
+      ],
+      "path": "story/813/uew-partners-universities-in-togo-c-te-divoire-and-benin-on-phd-training-and/"
+    },
     {
       "id": 812,
       "title": "Lack of funding makes PhD sponsorship difficult in Ghanaian universities – UEW VC",
