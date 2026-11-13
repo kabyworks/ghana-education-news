@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T11:10:08Z",
+  "generated_at": "2026-11-13T11:40:10Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -7,11 +7,11 @@
     },
     {
       "name": "higher_education",
-      "story_count": 226
+      "story_count": 227
     },
     {
       "name": "teachers",
-      "story_count": 173
+      "story_count": 174
     },
     {
       "name": "general",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 825,
+      "title": "Mahama intervenes in UTAG-GTEC dispute over university autonomy",
+      "summary": "President John Dramani Mahama has pledged to engage the University Teachers Association of Ghana (UTAG) and the Ghana Tertiary Education Commission (GTEC) to address concerns over the regulation and governance of universities.",
+      "category": "teachers",
+      "published_at": "2026-11-13T11:37:57Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/Mahama-UTAG-TEC-1024x682.jpeg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Mahama intervenes in UTAG-GTEC dispute over university autonomy",
+          "url": "https://www.adomonline.com/mahama-intervenes-in-utag-gtec-dispute-over-university-autonomy/",
+          "published_at": "2026-11-13T11:37:57Z",
+          "excerpt": "President John Dramani Mahama has pledged to engage the University Teachers Association of Ghana (UTAG) and the Ghana Tertiary Education Commission (GTEC) to address concerns over the regulation and governance of universities. He said his administration would facilitate dialogue between the two institutions to ensure that regulatory measures in the tertiary education sector respect the […]"
+        }
+      ],
+      "path": "story/825/mahama-intervenes-in-utag-gtec-dispute-over-university-autonomy/"
+    },
+    {
+      "id": 824,
+      "title": "Prof. Bokpin urges gov’t to use PPPs to fund major road projects and free up resources for social infrastructure",
+      "summary": "Professor of Finance and Economics at the University of Ghana Business School, Prof.",
+      "category": "higher_education",
+      "published_at": "2026-11-13T11:19:20Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2021/06/Godfred_Bokpin.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Prof. Bokpin urges gov’t to use PPPs to fund major road projects and free up resources for social infrastructure",
+          "url": "https://www.myjoyonline.com/prof-bokpin-urges-govt-to-use-ppps-to-fund-major-road-projects-and-free-up-resources-for-social-infrastructure/",
+          "published_at": "2026-11-13T11:19:20Z",
+          "excerpt": "Professor of Finance and Economics at the University of Ghana Business School, Prof. Godfred Bokpin, has urged the government to adopt Public-Private Partnerships (PPPs) to finance major road infrastructure projects, saying that the approach would ease pressure on public finances and free up funds for schools, hospitals and other essential services across the country."
+        }
+      ],
+      "path": "story/824/prof-bokpin-urges-govt-to-use-ppps-to-fund-major-road-projects-and-free-up/"
+    },
     {
       "id": 823,
       "title": "Mahama pledges dialogue to resolve UTAG-GTEC dispute",
