@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-13T14:10:24Z",
+  "generated_at": "2026-11-13T14:40:08Z",
   "categories": [
     {
       "name": "basic_schools",
-      "story_count": 230
+      "story_count": 231
     },
     {
       "name": "higher_education",
-      "story_count": 228
+      "story_count": 229
     },
     {
       "name": "teachers",
@@ -31,6 +31,83 @@
     }
   ],
   "stories": [
+    {
+      "id": 830,
+      "title": "Nigerian university in mourning after four students die at post-exam party",
+      "summary": "Four Nigerian students have died after attending a party in the south-eastern town of Nsukka to celebrate the end of their final exams.",
+      "category": "higher_education",
+      "published_at": "2026-11-13T14:19:48Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/b4c3ec80-df51-11f1-8364-2717a13d3b08.jpg.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Nigerian university in mourning after four students die at post-exam party",
+          "url": "https://www.myjoyonline.com/nigerian-university-in-mourning-after-four-students-die-at-post-exam-party/",
+          "published_at": "2026-11-13T14:19:48Z",
+          "excerpt": "Four Nigerian students have died after attending a party in the south-eastern town of Nsukka to celebrate the end of their final exams."
+        }
+      ],
+      "path": "story/830/nigerian-university-in-mourning-after-four-students-die-at-post-exam-party/"
+    },
+    {
+      "id": 823,
+      "title": "Mahama pledges dialogue to resolve UTAG-GTEC dispute",
+      "summary": "President John Mahama says the government is prepared to engage the University Teachers Association of Ghana (UTAG) and the Ghana Tertiary Education Commission (GTEC) to resolve disagreements over the regulation of tertiary institutions.",
+      "category": "teachers",
+      "published_at": "2026-11-13T14:11:33Z",
+      "source_count": 2,
+      "sources": [
+        "3News",
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://media.3news.com/r18-y16-university-of-ghana-sign-at-the-legon-campus-600x350.webp",
+      "rank": 0.867,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Mahama pledges dialogue to resolve UTAG-GTEC dispute",
+          "url": "https://www.myjoyonline.com/mahama-pledges-dialogue-to-resolve-utag-gtec-dispute/",
+          "published_at": "2026-11-13T05:33:00Z",
+          "excerpt": "President John Mahama says the government is prepared to engage the University Teachers Association of Ghana (UTAG) and the Ghana Tertiary Education Commission (GTEC) to resolve disagreements over the regulation of tertiary institutions."
+        },
+        {
+          "source_name": "3News",
+          "title": "Mahama pledges dialogue to settle UTAG-GTEC dispute over university autonomy",
+          "url": "https://3news.com/news/education/mahama-utag-gtec-dispute-university-autonomy",
+          "published_at": "2026-11-13T14:11:33Z",
+          "excerpt": "President Mahama has promised government-facilitated dialogue between UTAG and GTEC after meeting the lecturers' leadership at the Presidency on November 12."
+        }
+      ],
+      "path": "story/823/mahama-pledges-dialogue-to-resolve-utag-gtec-dispute/"
+    },
+    {
+      "id": 829,
+      "title": "Achimota School is the only SHS on Ghana's new Heritage cedi notes",
+      "summary": "Achimota School has welcomed its place on the new GH¢5 note, the only senior high school on Ghana's Heritage currency.",
+      "category": "basic_schools",
+      "published_at": "2026-11-13T14:11:23Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/cn1media-c05b-back-of-the-new-gh-5-note-showing-achimota-sch-1200x814.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Achimota School is the only SHS on Ghana's new Heritage cedi notes",
+          "url": "https://3news.com/news/education/achimota-school-new-cedi-notes",
+          "published_at": "2026-11-13T14:11:23Z",
+          "excerpt": "Achimota School has welcomed its place on the new GH¢5 note, the only senior high school on Ghana's Heritage currency."
+        }
+      ],
+      "path": "story/829/achimota-school-is-the-only-shs-on-ghanas-new-heritage-cedi-notes/"
+    },
     {
       "id": 828,
       "title": "GES processes 347 salary arrears cases for 2024 recruited teachers; 119 staff ID applications unverified",
@@ -145,29 +222,6 @@
         }
       ],
       "path": "story/824/prof-bokpin-urges-govt-to-use-ppps-to-fund-major-road-projects-and-free-up/"
-    },
-    {
-      "id": 823,
-      "title": "Mahama pledges dialogue to resolve UTAG-GTEC dispute",
-      "summary": "President John Mahama says the government is prepared to engage the University Teachers Association of Ghana (UTAG) and the Ghana Tertiary Education Commission (GTEC) to resolve disagreements over the regulation of tertiary institutions.",
-      "category": "teachers",
-      "published_at": "2026-11-13T05:33:00Z",
-      "source_count": 1,
-      "sources": [
-        "MyJoyOnline Education"
-      ],
-      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/903909914_1162139302917397_7076782025149911803_n.jpeg",
-      "rank": 0.6624,
-      "articles": [
-        {
-          "source_name": "MyJoyOnline Education",
-          "title": "Mahama pledges dialogue to resolve UTAG-GTEC dispute",
-          "url": "https://www.myjoyonline.com/mahama-pledges-dialogue-to-resolve-utag-gtec-dispute/",
-          "published_at": "2026-11-13T05:33:00Z",
-          "excerpt": "President John Mahama says the government is prepared to engage the University Teachers Association of Ghana (UTAG) and the Ghana Tertiary Education Commission (GTEC) to resolve disagreements over the regulation of tertiary institutions."
-        }
-      ],
-      "path": "story/823/mahama-pledges-dialogue-to-resolve-utag-gtec-dispute/"
     },
     {
       "id": 822,
