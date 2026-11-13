@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T15:10:39Z",
+  "generated_at": "2026-11-13T15:40:10Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 176
+      "story_count": 177
     },
     {
       "name": "general",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 832,
+      "title": "Mfantsipim celebrates 150 years with unveiling of major infrastructure projects, memorial park",
+      "summary": "Mfantsipim School has marked its 150th anniversary with the commissioning of an anniversary monument and several projects undertaken by its alumni to support teaching, learning and student welfare.",
+      "category": "teachers",
+      "published_at": "2026-11-13T15:23:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-13-at-15.06.18-2-1024x576.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Mfantsipim celebrates 150 years with unveiling of major infrastructure projects, memorial park",
+          "url": "https://www.myjoyonline.com/mfantsipim-celebrates-150-years-with-unveiling-of-major-infrastructure-projects-memorial-park/",
+          "published_at": "2026-11-13T15:23:00Z",
+          "excerpt": "Mfantsipim School has marked its 150th anniversary with the commissioning of an anniversary monument and several projects undertaken by its alumni to support teaching, learning and student welfare. The projects were unveiled during the school's sesquicentennial celebrations at Victoria Park on Friday, November 13, 2026, as generations of old boys and other members of the school community gathered to commemorate its 150-year history. The celebrations opened with a ceremonial parade honouring the institution's heritage and the generations of students, teachers and alumni who have contributed to its development. Beyond the anniversary festivities, the commissioning of the projects highlighted efforts by the old boys' fraternity to preserve the school's legacy while improving facilities for current students."
+        }
+      ],
+      "path": "story/832/mfantsipim-celebrates-150-years-with-unveiling-of-major-infrastructure-projects/"
+    },
     {
       "id": 828,
       "title": "GES processes 347 salary arrears cases for 2024 recruited teachers; 119 staff ID applications unverified",
