@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-14T14:10:07Z",
+  "generated_at": "2026-11-14T14:40:13Z",
   "categories": [
+    {
+      "name": "higher_education",
+      "story_count": 234
+    },
     {
       "name": "basic_schools",
       "story_count": 233
     },
     {
-      "name": "higher_education",
-      "story_count": 233
-    },
-    {
       "name": "teachers",
-      "story_count": 183
+      "story_count": 184
     },
     {
       "name": "general",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 854,
+      "title": "GNECC raises concerns over education budget, calls for increased investment in basic education and TVET",
+      "summary": "National Coordinator of the Ghana National Education Campaign Coalition (GNECC), Bernice Mpere-Gyekye, has expressed concerns over the government’s allocation to the education sector in the 2027 Budget, describing it as inadequate despite acknowledging that the amount allocated was commendable.",
+      "category": "higher_education",
+      "published_at": "2026-11-14T14:37:50Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/IMG-20261114-WA0005-1024x576.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "GNECC raises concerns over education budget, calls for increased investment in basic education and TVET",
+          "url": "https://www.adomonline.com/gnecc-raises-concerns-over-education-budget-calls-for-increased-investment-in-basic-education-and-tvet/",
+          "published_at": "2026-11-14T14:37:50Z",
+          "excerpt": "National Coordinator of the Ghana National Education Campaign Coalition (GNECC), Bernice Mpere-Gyekye, has expressed concerns over the government’s allocation to the education sector in the 2027 Budget, describing it as inadequate despite acknowledging that the amount allocated was commendable. According to her, Ghana has a benchmark of allocating approximately 5.8 per cent of its Gross […]"
+        }
+      ],
+      "path": "story/854/gnecc-raises-concerns-over-education-budget-calls-for-increased-investment-in/"
+    },
+    {
+      "id": 853,
+      "title": "Obuasi Sexual Abuse Case: No teacher will be shielded if evidence proves wrongdoing – Haruna Iddrisu",
+      "summary": "The Minister of Education, Haruna Iddrisu, has assured that no teacher implicated in the allegations of sexual misconduct at Obuasi Senior High School (SHS) will be shielded from prosecution if evidence establishes their culpability.",
+      "category": "teachers",
+      "published_at": "2026-11-14T14:23:02Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/03/Haruna-Iddrisu-6.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Obuasi Sexual Abuse Case: No teacher will be shielded if evidence proves wrongdoing – Haruna Iddrisu",
+          "url": "https://www.myjoyonline.com/obuasi-sexual-abuse-case-no-teacher-will-be-shielded-if-evidence-proves-wrongdoing-haruna-iddrisu/",
+          "published_at": "2026-11-14T14:23:02Z",
+          "excerpt": "The Minister of Education, Haruna Iddrisu, has assured that no teacher implicated in the allegations of sexual misconduct at Obuasi Senior High School (SHS) will be shielded from prosecution if evidence establishes their culpability."
+        }
+      ],
+      "path": "story/853/obuasi-sexual-abuse-case-no-teacher-will-be-shielded-if-evidence-proves/"
+    },
     {
       "id": 849,
       "title": "Education Minister promises Mfantsipim School a 66-seater bus as part of its 150th anniversary celebration",
