@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T17:10:06Z",
+  "generated_at": "2026-11-14T17:40:02Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -15,11 +15,11 @@
     },
     {
       "name": "general",
-      "story_count": 125
+      "story_count": 127
     },
     {
       "name": "policy",
-      "story_count": 32
+      "story_count": 33
     },
     {
       "name": "examinations",
@@ -31,6 +31,75 @@
     }
   ],
   "stories": [
+    {
+      "id": 860,
+      "title": "Mfantsipim School has a distinguished place in Ghana’s educational history – Vice President",
+      "summary": "Vice President Professor Naana Jane Opoku-Agyemang has praised Mfantsipim School for its significant contribution to Ghana's educational development, describing the institution as an integral part of the country's formal secondary education history.",
+      "category": "general",
+      "published_at": "2026-11-14T17:23:10Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-111-1024x576.png",
+      "rank": 0.755,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Mfantsipim School has a distinguished place in Ghana’s educational history – Vice President",
+          "url": "https://www.myjoyonline.com/mfantsipim-school-has-a-distinguished-place-in-ghanas-educational-history-vice-president/",
+          "published_at": "2026-11-14T17:23:10Z",
+          "excerpt": "Vice President Professor Naana Jane Opoku-Agyemang has praised Mfantsipim School for its significant contribution to Ghana's educational development, describing the institution as an integral part of the country's formal secondary education history."
+        }
+      ],
+      "path": "story/860/mfantsipim-school-has-a-distinguished-place-in-ghanas-educational-history-vice/"
+    },
+    {
+      "id": 859,
+      "title": "Education Minister appeals to Otumfuo to lead nationwide campaign against indiscipline in schools",
+      "summary": "Minister for Education, Haruna Iddrisu, has called on the Asantehene, Otumfuo Osei Tutu II, to lead a nationwide campaign against growing indiscipline in schools, urging traditional rulers to join efforts to restore discipline in Ghana’s educational institutions.",
+      "category": "policy",
+      "published_at": "2026-11-14T17:18:38Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1406.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Education Minister appeals to Otumfuo to lead nationwide campaign against indiscipline in schools",
+          "url": "https://www.myjoyonline.com/education-minister-appeals-to-otumfuo-to-lead-nationwide-campaign-against-indiscipline-in-schools/",
+          "published_at": "2026-11-14T17:18:38Z",
+          "excerpt": "Minister for Education, Haruna Iddrisu, has called on the Asantehene, Otumfuo Osei Tutu II, to lead a nationwide campaign against growing indiscipline in schools, urging traditional rulers to join efforts to restore discipline in Ghana’s educational institutions."
+        }
+      ],
+      "path": "story/859/education-minister-appeals-to-otumfuo-to-lead-nationwide-campaign-against/"
+    },
+    {
+      "id": 858,
+      "title": "Vice President urges Mfantsipim to uphold founding values amid changing global demands",
+      "summary": "Vice President Professor Naana Jane Opoku-Agyemang has urged Mfantsipim School to preserve the values established by its founders while preparing students to navigate the rapidly changing demands of the modern world.",
+      "category": "general",
+      "published_at": "2026-11-14T17:11:25Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-111-1024x576.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Vice President urges Mfantsipim to uphold founding values amid changing global demands",
+          "url": "https://www.myjoyonline.com/vice-president-urges-mfantsipim-to-uphold-founding-values-amid-changing-global-demands/",
+          "published_at": "2026-11-14T17:11:25Z",
+          "excerpt": "Vice President Professor Naana Jane Opoku-Agyemang has urged Mfantsipim School to preserve the values established by its founders while preparing students to navigate the rapidly changing demands of the modern world."
+        }
+      ],
+      "path": "story/858/vice-president-urges-mfantsipim-to-uphold-founding-values-amid-changing-global/"
+    },
     {
       "id": 857,
       "title": "Mfantsipim@150: Vice President Prof. Opoku-Agyemang urges stakeholders to sustain the school’s legacy",
