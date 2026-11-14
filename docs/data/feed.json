@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T11:10:15Z",
+  "generated_at": "2026-11-14T11:40:07Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 182
+      "story_count": 183
     },
     {
       "name": "general",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 846,
+      "title": "Abuakwa State College appeals for help as GETFund dormitory, ICT lab and teachers’ block stall",
+      "summary": "The challenges include an uncompleted ICT laboratory block, inadequate classrooms, the absence of a library, a boys’ dormitory and a clinic, as well as shortages of furniture, computers and teaching and learning materials.",
+      "category": "teachers",
+      "published_at": "2026-11-14T11:22:06Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/Hanson.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Abuakwa State College appeals for help as GETFund dormitory, ICT lab and teachers’ block stall",
+          "url": "https://www.adomonline.com/abuakwa-state-college-appeals-for-help-as-getfund-dormitory-ict-lab-and-teachers-block-stall/",
+          "published_at": "2026-11-14T11:22:06Z",
+          "excerpt": "The challenges include an uncompleted ICT laboratory block, inadequate classrooms, the absence of a library, a boys’ dormitory and a clinic, as well as shortages of furniture, computers and teaching and learning materials. The school is also grappling with inadequate staff accommodation, a shortage of 23 teachers and illegal mining activities close to the campus, […]"
+        }
+      ],
+      "path": "story/846/abuakwa-state-college-appeals-for-help-as-getfund-dormitory-ict-lab-and/"
+    },
     {
       "id": 845,
       "title": "Tertiary Education can be made free in Ghana, think about it",
