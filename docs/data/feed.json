@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T20:10:14Z",
+  "generated_at": "2026-11-14T20:40:18Z",
   "categories": [
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 127
+      "story_count": 128
     },
     {
       "name": "policy",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 861,
+      "title": "Veep Opoku-Agyemang calls for quality-driven secondary education as Mfantsipim Marks 150 years",
+      "summary": "She made the call on Saturday, November 14, 2026, when she addressed the grand durbar marking the 150th anniversary of Mfantsipim School in Cape Coast.",
+      "category": "general",
+      "published_at": "2026-11-14T20:24:18Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/yt-Nvq-id-FnKA-1200x675.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Veep Opoku-Agyemang calls for quality-driven secondary education as Mfantsipim Marks 150 years",
+          "url": "https://3news.com/news/veep-opoku-agyemang-calls-for-quality-driven-secondary-education-as-mfantsipim-marks-150-years",
+          "published_at": "2026-11-14T20:24:18Z",
+          "excerpt": "She made the call on Saturday, November 14, 2026, when she addressed the grand durbar marking the 150th anniversary of Mfantsipim School in Cape Coast."
+        }
+      ],
+      "path": "story/861/veep-opoku-agyemang-calls-for-quality-driven-secondary-education-as-mfantsipim/"
+    },
     {
       "id": 860,
       "title": "Mfantsipim School has a distinguished place in Ghana’s educational history – Vice President",
