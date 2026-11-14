@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T13:02:04Z",
+  "generated_at": "2026-11-14T13:10:05Z",
   "categories": [
     {
       "name": "higher_education",
@@ -19,7 +19,7 @@
     },
     {
       "name": "policy",
-      "story_count": 30
+      "story_count": 31
     },
     {
       "name": "examinations",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 849,
+      "title": "Haruna Iddrisu promises Mfantsipim School a 66-seater bus as part of 150th anniversary",
+      "summary": "The Minister of Education, Haruna Iddrisu, has pledged to provide Mfantsipim School with a 66-seater bus as part of activities marking the institution’s 150th anniversary.",
+      "category": "policy",
+      "published_at": "2026-11-14T13:05:04Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/03/Haruna-Iddrisu-4.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Haruna Iddrisu promises Mfantsipim School a 66-seater bus as part of 150th anniversary",
+          "url": "https://www.myjoyonline.com/haruna-iddrisu-promises-mfantsipim-school-a-66-seater-bus-as-part-of-150th-anniversary/",
+          "published_at": "2026-11-14T13:05:04Z",
+          "excerpt": "The Minister of Education, Haruna Iddrisu, has pledged to provide Mfantsipim School with a 66-seater bus as part of activities marking the institution’s 150th anniversary."
+        }
+      ],
+      "path": "story/849/haruna-iddrisu-promises-mfantsipim-school-a-66-seater-bus-as-part-of-150th/"
+    },
     {
       "id": 848,
       "title": "KGL Foundation commits $2m to maintain Mfantsipim’s Alex Dadey Sports Centre",
