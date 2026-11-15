@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T14:10:04Z",
+  "generated_at": "2026-11-15T14:40:18Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,7 +11,7 @@
     },
     {
       "name": "teachers",
-      "story_count": 186
+      "story_count": 187
     },
     {
       "name": "general",
@@ -76,6 +76,29 @@
         }
       ],
       "path": "story/865/obuasi-shs-case-nobody-will-be-shielded-haruna-iddrisu/"
+    },
+    {
+      "id": 867,
+      "title": "Gideon Boako questions Mahama’s $10bn ambition over unpaid teachers’ salaries",
+      "summary": "Tano North MP Dr Gideon Boako has questioned the credibility of President John Dramani Mahama’s US$10 billion New Economy Programme, citing delays in the payment of salaries and arrears owed to teachers.",
+      "category": "teachers",
+      "published_at": "2026-11-15T12:19:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-15-at-13.46.09.jpeg",
+      "rank": 0.7244,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Gideon Boako questions Mahama’s $10bn ambition over unpaid teachers’ salaries",
+          "url": "https://www.myjoyonline.com/gideon-boako-questions-mahamas-10bn-ambition-over-unpaid-teachers-salaries/",
+          "published_at": "2026-11-15T12:19:00Z",
+          "excerpt": "Tano North MP Dr Gideon Boako has questioned the credibility of President John Dramani Mahama’s US$10 billion New Economy Programme, citing delays in the payment of salaries and arrears owed to teachers. He made this known in a write-up issued on Sunday, November 15, in which he argued that the government’s inability to resolve outstanding […]"
+        }
+      ],
+      "path": "story/867/gideon-boako-questions-mahamas-10bn-ambition-over-unpaid-teachers-salaries/"
     },
     {
       "id": 864,
