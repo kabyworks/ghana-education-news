@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T12:10:07Z",
+  "generated_at": "2026-11-16T12:40:05Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 236
+      "story_count": 237
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 874,
+      "title": "Bawumia reiterates his commitment to ensure faith-based organisations take over management of mission schools",
+      "summary": "I noted that, as stated in our 2024 Manifesto, government should institutionalize a partnership with faith-based organisations in the areas of education (where I reiterated my commitment to partner with them to take over the management of the mission schools) and healthcare delivery.",
+      "category": "basic_schools",
+      "published_at": "2026-11-16T12:35:35Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/Dr Bawumia B-718x501.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Bawumia reiterates his commitment to ensure faith-based organisations take over management of mission schools",
+          "url": "https://3news.com/news/bawumia-reiterates-commitment-to-ensure-faith-based-organisations-take-over-management-of-mission-schools",
+          "published_at": "2026-11-16T12:35:35Z",
+          "excerpt": "I noted that, as stated in our 2024 Manifesto, government should institutionalize a partnership with faith-based organisations in the areas of education (where I reiterated my commitment to partner with them to take over the management of the mission schools) and healthcare delivery."
+        }
+      ],
+      "path": "story/874/bawumia-reiterates-his-commitment-to-ensure-faith-based-organisations-take-over/"
+    },
     {
       "id": 870,
       "title": "GES warns public against fake teacher recruitment links circulating on social media",
