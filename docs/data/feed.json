@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T18:10:17Z",
+  "generated_at": "2026-11-17T18:40:22Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 241
+      "story_count": 242
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 897,
+      "title": "Bank of Ghana takes financial literacy campaign to Kpandai SHS, donates GH¢25,000",
+      "summary": "The Bank of Ghana (BoG) has taken its financial literacy campaign to Kpandai Senior High School in the Kpandai District of the Northern Region, as part of efforts to equip students and communities with essential financial knowledge and promote consumer protection.",
+      "category": "basic_schools",
+      "published_at": "2026-11-17T18:12:38Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/6d7d621d-45bc-4f30-9d3e-89cf59719fca.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Bank of Ghana takes financial literacy campaign to Kpandai SHS, donates GH¢25,000",
+          "url": "https://www.adomonline.com/bank-of-ghana-takes-financial-literacy-campaign-to-kpandai-shs-donates-gh%c2%a225000/",
+          "published_at": "2026-11-17T18:12:38Z",
+          "excerpt": "The Bank of Ghana (BoG) has taken its financial literacy campaign to Kpandai Senior High School in the Kpandai District of the Northern Region, as part of efforts to equip students and communities with essential financial knowledge and promote consumer protection. The programme is part of a broader educational campaign targeting 10 schools, including Kpandai […]"
+        }
+      ],
+      "path": "story/897/bank-of-ghana-takes-financial-literacy-campaign-to-kpandai-shs-donates-gh-25-000/"
+    },
     {
       "id": 896,
       "title": "Sunyani Technical University VC calls for tax incentives, policy reforms to promote recycled construction materials",
