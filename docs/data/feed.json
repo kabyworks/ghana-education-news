@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-17T13:10:16Z",
+  "generated_at": "2026-11-17T13:40:23Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 245
+      "story_count": 247
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 896,
+      "title": "Sunyani Technical University VC calls for tax incentives, policy reforms to promote recycled construction materials",
+      "summary": "The Vice-Chancellor of Sunyani Technical University (STU), Ing. Prof.",
+      "category": "higher_education",
+      "published_at": "2026-11-17T13:31:26Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-17-at-11.29.20-AM1-1024x688.jpeg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Sunyani Technical University VC calls for tax incentives, policy reforms to promote recycled construction materials",
+          "url": "https://www.myjoyonline.com/sunyani-technical-university-vc-calls-for-tax-incentives-policy-reforms-to-promote-recycled-construction-materials/",
+          "published_at": "2026-11-17T13:31:26Z",
+          "excerpt": "The Vice-Chancellor of Sunyani Technical University (STU), Ing. Prof. Kwadwo Adinkrah-Appiah, has called on the government to introduce tax incentives, regulatory reforms and targeted public procurement policies to promote the use of recycled and recovered materials in Ghana’s construction industry."
+        }
+      ],
+      "path": "story/896/sunyani-technical-university-vc-calls-for-tax-incentives-policy-reforms-to/"
+    },
+    {
+      "id": 895,
+      "title": "Rent Commission threatens legal action against University of Ghana over hostel fee hikes",
+      "summary": "The Rent Commission has threatened legal action against the University of Ghana (UG) over its failure to comply with a directive to suspend recent hostel fee increases and refund affected students.",
+      "category": "higher_education",
+      "published_at": "2026-11-17T13:21:37Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-2226.png",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Rent Commission threatens legal action against University of Ghana over hostel fee hikes",
+          "url": "https://www.myjoyonline.com/rent-commission-threatens-legal-action-against-university-of-ghana-over-hostel-fee-hikes/",
+          "published_at": "2026-11-17T13:21:37Z",
+          "excerpt": "The Rent Commission has threatened legal action against the University of Ghana (UG) over its failure to comply with a directive to suspend recent hostel fee increases and refund affected students. Acting Rent Commissioner, Frederick Opoku, led a team of officials to the university on an enforcement and inspection exercise, insisting that the institution was […]"
+        }
+      ],
+      "path": "story/895/rent-commission-threatens-legal-action-against-university-of-ghana-over-hostel/"
+    },
     {
       "id": 894,
       "title": "Education Minister pushes student innovation to power Ghana’s green economy",
