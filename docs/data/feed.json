@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T21:10:14Z",
+  "generated_at": "2026-11-17T21:40:30Z",
   "categories": [
     {
       "name": "higher_education",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 134
+      "story_count": 135
     },
     {
       "name": "policy",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 899,
+      "title": "3 prisoners graduate with first class under 'Think Prison 360 Initiative' - Director General of Prisons Service",
+      "summary": "She also revealed that the 2026 third-quarter report indicates that 1,584 inmates across 27 prison establishments participated in educational and skills training programmes, covering basic, secondary, non-formal, vocational, trade and ICT education.",
+      "category": "general",
+      "published_at": "2026-11-17T21:39:10Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-11-17 at 16.02.11-1200x800.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "3 prisoners graduate with first class under 'Think Prison 360 Initiative' - Director General of Prisons Service",
+          "url": "https://3news.com/news/3-prisoners-graduate-with-first-class-under-think-prison-360-initiative-director-general-of-prisons-service",
+          "published_at": "2026-11-17T21:39:10Z",
+          "excerpt": "She also revealed that the 2026 third-quarter report indicates that 1,584 inmates across 27 prison establishments participated in educational and skills training programmes, covering basic, secondary, non-formal, vocational, trade and ICT education."
+        }
+      ],
+      "path": "story/899/3-prisoners-graduate-with-first-class-under-think-prison-360-initiative/"
+    },
     {
       "id": 898,
       "title": "Post-retirement contract: Haruna Iddrisu appeals to President Mahama to guarantee automatic transition of university lecturers, other senior academics",
