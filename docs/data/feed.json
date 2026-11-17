@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:10:11Z",
+  "generated_at": "2026-11-17T11:40:15Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 240
+      "story_count": 241
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 892,
+      "title": "Timothy Bentum announces five-year anti-drug tour targeting 252 SHSs across Ghana",
+      "summary": "Media personality and Lead Pastor of Grace Avenue Ministry, Timothy Bentum, has announced a five-year anti-drug abuse campaign targeting 252 senior high schools across Ghana's 16 regions to educate students on substance abuse, peer pressure and the dangers of addiction.",
+      "category": "basic_schools",
+      "published_at": "2026-11-17T11:39:07Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-112-e1794912166163-1024x575.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Timothy Bentum announces five-year anti-drug tour targeting 252 SHSs across Ghana",
+          "url": "https://www.myjoyonline.com/timothy-bentum-announces-five-year-anti-drug-tour-targeting-252-shss-across-ghana/",
+          "published_at": "2026-11-17T11:39:07Z",
+          "excerpt": "Media personality and Lead Pastor of Grace Avenue Ministry, Timothy Bentum, has announced a five-year anti-drug abuse campaign targeting 252 senior high schools across Ghana's 16 regions to educate students on substance abuse, peer pressure and the dangers of addiction."
+        }
+      ],
+      "path": "story/892/timothy-bentum-announces-five-year-anti-drug-tour-targeting-252-shss-across/"
+    },
     {
       "id": 891,
       "title": "Do not increase hall fees by more than 10% - GTEC to Public universities",
