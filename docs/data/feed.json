@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T22:10:22Z",
+  "generated_at": "2026-11-17T22:40:25Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 242
+      "story_count": 243
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 900,
+      "title": "Let’s empower our children through education — Alhaji Fuzak",
+      "summary": "Ghanaian businessman and philanthropist based in Tamale Alhaji Fuseini Yushaw, popularly known as Alhaji Fuzak, has called on the government and other institutions to invest in school infrastructure to empower the next generation. “The best cement is for classrooms, not mansions.",
+      "category": "basic_schools",
+      "published_at": "2026-11-17T22:25:02Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-17-at-09.09.08.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "Let’s empower our children through education — Alhaji Fuzak",
+          "url": "https://www.adomonline.com/lets-empower-our-children-through-education-alhaji-fuzak/",
+          "published_at": "2026-11-17T22:25:02Z",
+          "excerpt": "Ghanaian businessman and philanthropist based in Tamale Alhaji Fuseini Yushaw, popularly known as Alhaji Fuzak, has called on the government and other institutions to invest in school infrastructure to empower the next generation. “The best cement is for classrooms, not mansions. The school we are commissioning today will help curb illiteracy and produce future leaders,” […]"
+        }
+      ],
+      "path": "story/900/lets-empower-our-children-through-education-alhaji-fuzak/"
+    },
     {
       "id": 899,
       "title": "3 prisoners graduate with first class under 'Think Prison 360 Initiative' - Director General of Prisons Service",
