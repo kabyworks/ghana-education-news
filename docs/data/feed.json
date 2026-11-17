@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-17T10:10:22Z",
+  "generated_at": "2026-11-17T10:52:11Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 243
+      "story_count": 245
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 891,
+      "title": "Do not increase hall fees by more than 10% - GTEC to Public universities",
+      "summary": "The Ghana Tertiary Education Commission (GTEC) has directed public universities not to increase residential fees in publicly funded halls of residence by more than 10% of the amount charged in the preceding academic year.",
+      "category": "higher_education",
+      "published_at": "2026-11-17T10:34:42Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/onuaonline-2e48fe72d0a952958f285f17b9bc83be-733x418.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Do not increase hall fees by more than 10% - GTEC to Public universities",
+          "url": "https://3news.com/news/do-not-increase-hall-fees-by-more-than-10-gtec-to-public-universities",
+          "published_at": "2026-11-17T10:34:42Z",
+          "excerpt": "The Ghana Tertiary Education Commission (GTEC) has directed public universities not to increase residential fees in publicly funded halls of residence by more than 10% of the amount charged in the preceding academic year."
+        }
+      ],
+      "path": "story/891/do-not-increase-hall-fees-by-more-than-10-gtec-to-public-universities/"
+    },
+    {
+      "id": 890,
+      "title": "Academic City, BoG, IIPGH explore ways to secure Ghana’s digital financial ecosystem",
+      "summary": "Academic City University, in partnership with the Bank of Ghana and the Institute of ICT Professionals Ghana (IIPGH), has called for stronger collaboration among financial institutions, technology companies and academia",
+      "category": "higher_education",
+      "published_at": "2026-11-17T10:20:32Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-2214-1024x502.png",
+      "rank": 0.755,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Academic City, BoG, IIPGH explore ways to secure Ghana’s digital financial ecosystem",
+          "url": "https://www.myjoyonline.com/academic-city-bog-iipgh-explore-ways-to-secure-ghanas-digital-financial-ecosystem/",
+          "published_at": "2026-11-17T10:20:32Z",
+          "excerpt": "Academic City University, in partnership with the Bank of Ghana and the Institute of ICT Professionals Ghana (IIPGH), has called for stronger collaboration among financial institutions, technology companies and academia"
+        }
+      ],
+      "path": "story/890/academic-city-bog-iipgh-explore-ways-to-secure-ghanas-digital-financial/"
+    },
     {
       "id": 889,
       "title": "Father says Peki SHS son was brought in dead before school called to say he was sick",
