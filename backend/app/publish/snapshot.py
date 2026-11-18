@@ -24,13 +24,13 @@ from app.services.original_post import (
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "16"
+SHELL_VERSION = "17"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-12";
+PHONE_SW = """const CACHE = "ghanaed-phone-13";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=16",
-  "./app.js?v=16",
+  "./styles.css?v=17",
+  "./app.js?v=17",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -340,16 +340,8 @@ def _write_discovery(destination: Path, catalog: dict, originals: list[dict] | N
         f"    <lastmod>{escape(updated)}</lastmod>" if updated else "",
         "  </url>",
     ]
-    for story in stories:
-        published = str(story.get("published_at") or "")[:10]
-        lines.extend(
-            [
-                "  <url>",
-                f"    <loc>{SITE}/{escape(story['path'], quote=True)}</loc>",
-                f"    <lastmod>{escape(published)}</lastmod>" if published else "",
-                "  </url>",
-            ]
-        )
+    # Only ask Google to index Edulens-owned pages (home + tips/blog).
+    # Borrowed news summaries stay on the site for the app, but are noindex.
     for story in originals:
         published = str(story.get("published_at") or "")[:10]
         path = story.get("blog_path") or blog_path(story["id"], story["title"])
@@ -372,11 +364,17 @@ def _write_discovery(destination: Path, catalog: dict, originals: list[dict] | N
 def _story_redirect(story: dict, slug: str) -> str:
     title = escape(story["title"])
     target = escape(slug + "/", quote=True)
-    canonical = escape(f"{SITE}/{story['path']}", quote=True)
+    original = _is_original_story(story)
+    if original:
+        blog = story.get("blog_path") or blog_path(story["id"], story["title"])
+        canonical = escape(f"{SITE}/{blog}", quote=True)
+    else:
+        canonical = escape(f"{SITE}/{story['path']}", quote=True)
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="robots" content="noindex,follow">
   <meta http-equiv="refresh" content="0; url={target}">
   <link rel="canonical" href="{canonical}">
   <title>{title} · Edulens360</title>
@@ -391,13 +389,18 @@ def _story_redirect(story: dict, slug: str) -> str:
 def _story_page(story: dict) -> str:
     title = escape(story["title"])
     summary = escape(story.get("summary") or "")
-    canonical = escape(f"{SITE}/{story['path']}", quote=True)
     description = escape(_plain(story.get("summary") or "", 180), quote=True)
     label = escape(CATEGORY_LABELS.get(story.get("category") or "", "") or "Education")
     when = escape(_format_when(story.get("published_at")))
     count = int(story.get("source_count") or 0)
     original = _is_original_story(story)
     sources = "Edulens360 tip" if original else ("1 source" if count == 1 else f"{count} sources")
+    # Borrowed news: noindex. Original tips: noindex on /story/ and point canonical at /blog/.
+    if original:
+        blog = story.get("blog_path") or blog_path(story["id"], story["title"])
+        canonical = escape(f"{SITE}/{blog}", quote=True)
+    else:
+        canonical = escape(f"{SITE}/{story['path']}", quote=True)
     image = _http_url(story.get("image_url"))
     photo = ""
     if image:
@@ -409,7 +412,7 @@ def _story_page(story: dict) -> str:
     data = json.dumps(_saved_copy(story), ensure_ascii=False).replace("<", "\\u003c")
     image_meta = f'<meta property="og:image" content="{escape(image, quote=True)}">' if image else ""
     twitter_card = "summary_large_image" if image else "summary"
-    robots = '<meta name="robots" content="index,follow,max-image-preview:large">'
+    robots = '<meta name="robots" content="noindex,follow">'
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -433,9 +436,6 @@ def _story_page(story: dict) -> str:
   {f'<meta name="twitter:image" content="{escape(image, quote=True)}">' if image else ""}
   <link rel="icon" href="../../../icon-192.png">
   <link rel="stylesheet" href="../../../styles.css?v={SHELL_VERSION}">
-  <script type="application/ld+json">
-    {json.dumps(_article_schema(story, image), ensure_ascii=False).replace("<", "\\u003c")}
-  </script>
 </head>
 <body>
   <header>
@@ -587,6 +587,7 @@ def _blog_redirect(story: dict, slug: str) -> str:
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="robots" content="noindex,follow">
   <meta http-equiv="refresh" content="0; url={target}">
   <link rel="canonical" href="{canonical}">
   <title>{title} · Edulens360</title>

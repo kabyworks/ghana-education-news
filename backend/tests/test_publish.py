@@ -54,13 +54,14 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
     assert "data/feed.json" in (destination / "app.js").read_text(encoding="utf-8")
 
     worker = (destination / "sw.js").read_text(encoding="utf-8")
-    assert "ghanaed-phone-7" in worker
+    assert "ghanaed-phone-13" in worker
     assert 'cache: "reload"' not in worker
     privacy = (destination / "privacy" / "index.html").read_text(encoding="utf-8")
     assert "Privacy policy" in privacy
     assert "com.edulens360.app" in privacy
     assert 'href="privacy/"' in (destination / "index.html").read_text(encoding="utf-8")
-    assert "./data/feed.json" in worker
+    assert "isFeedData" in worker
+    assert "/data/feed.json" in worker
 
     manifest = json.loads((destination / "manifest.webmanifest").read_text(encoding="utf-8"))
     assert manifest["display"] == "standalone"
@@ -106,9 +107,13 @@ def test_publish_writes_the_phone_site_and_keeps_the_last_good_copy(client, tmp_
     assert f'https://edulens360.com/{strike["path"]}' in story_html
     assert (destination / "robots.txt").read_text(encoding="utf-8").count("sitemap.xml") == 1
     sitemap = (destination / "sitemap.xml").read_text(encoding="utf-8")
-    assert f"https://edulens360.com/{strike['path']}" in sitemap
+    assert "https://edulens360.com/" in sitemap
+    assert "https://edulens360.com/blog/" in sitemap
+    assert f"https://edulens360.com/{strike['path']}" not in sitemap
+    assert 'name="robots" content="noindex,follow"' in story_html
     redirect = (destination / "story" / str(strike["id"]) / "index.html").read_text(encoding="utf-8")
     assert strike["path"].rsplit("/", 2)[-2] in redirect
+    assert 'name="robots" content="noindex,follow"' in redirect
 
     story_id = strike["id"]
     edited = client.patch(f"/review/stories/{story_id}", json={"title": "Edited for the phone"})
