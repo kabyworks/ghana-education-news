@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-18T19:10:13Z",
+  "generated_at": "2026-11-18T19:40:09Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 264
+      "story_count": 266
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 926,
+      "title": "Gov’t considers PPP to build affordable hostels for tertiary students – Education Minister reveals",
+      "summary": "The government is considering a Public-Private Partnership (PPP) arrangement to facilitate the construction of additional hostel facilities at affordable rates for tertiary students.",
+      "category": "higher_education",
+      "published_at": "2026-11-18T19:21:18Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-17.06.13-2-1024x683.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Gov’t considers PPP to build affordable hostels for tertiary students – Education Minister reveals",
+          "url": "https://www.myjoyonline.com/govt-considers-ppp-to-build-affordable-hostels-for-tertiary-students-education-minister-reveals/",
+          "published_at": "2026-11-18T19:21:18Z",
+          "excerpt": "The government is considering a Public-Private Partnership (PPP) arrangement to facilitate the construction of additional hostel facilities at affordable rates for tertiary students."
+        }
+      ],
+      "path": "story/926/govt-considers-ppp-to-build-affordable-hostels-for-tertiary-students-education/"
+    },
+    {
+      "id": 925,
+      "title": "Rent Commissioner disputes UGEL’s claim of student consultation over 15% rent increase",
+      "summary": "The Acting Rent Control Commissioner, Frederick Opoku, has disputed claims by the University of Ghana Enterprise Limited (UGEL) that its 15 per cent rent increment was reached through consultation and agreement with students.",
+      "category": "higher_education",
+      "published_at": "2026-11-18T19:08:11Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/ugel-ceo-threatened-me-with-tres-2.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Rent Commissioner disputes UGEL’s claim of student consultation over 15% rent increase",
+          "url": "https://www.myjoyonline.com/rent-commissioner-disputes-ugels-claim-of-student-consultation-over-15-rent-increase/",
+          "published_at": "2026-11-18T19:08:11Z",
+          "excerpt": "The Acting Rent Control Commissioner, Frederick Opoku, has disputed claims by the University of Ghana Enterprise Limited (UGEL) that its 15 per cent rent increment was reached through consultation and agreement with students."
+        }
+      ],
+      "path": "story/925/rent-commissioner-disputes-ugels-claim-of-student-consultation-over-15-rent/"
+    },
     {
       "id": 924,
       "title": "Businessman and philanthropist Alhaji Fuzak calls for community support for schools",
