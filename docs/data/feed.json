@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-18T17:22:27Z",
+  "generated_at": "2026-11-18T17:57:28Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 259
+      "story_count": 261
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 920,
+      "title": "Education Minister engages Rent Control Commission, GTEC over rising hostel fees",
+      "summary": "During the engagement, the Education Minister directed GTEC to work closely with the Rent Control Commission to explore measures to address the rising cost of student accommodation.",
+      "category": "higher_education",
+      "published_at": "2026-11-18T17:47:43Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-11-18 at 17.10.44-1200x763.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Education Minister engages Rent Control Commission, GTEC over rising hostel fees",
+          "url": "https://3news.com/news/education/education-minister-engages-rent-control-commission-gtec-over-rising-hostel-fees",
+          "published_at": "2026-11-18T17:47:43Z",
+          "excerpt": "During the engagement, the Education Minister directed GTEC to work closely with the Rent Control Commission to explore measures to address the rising cost of student accommodation."
+        }
+      ],
+      "path": "story/920/education-minister-engages-rent-control-commission-gtec-over-rising-hostel-fees/"
+    },
+    {
+      "id": 919,
+      "title": "University hostels and rent control: Examining the Law and its limitations",
+      "summary": "Back in 1963, when Ghana passed its Rent Act, university accommodation was nothing like the commercial hostels we have today. It was mostly halls of residence, institutional, part of the educational experience.",
+      "category": "higher_education",
+      "published_at": "2026-11-18T17:34:42Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/images-3-4.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "University hostels and rent control: Examining the Law and its limitations",
+          "url": "https://www.myjoyonline.com/university-hostels-and-rent-control-examining-the-law-and-its-limitations/",
+          "published_at": "2026-11-18T17:34:42Z",
+          "excerpt": "Back in 1963, when Ghana passed its Rent Act, university accommodation was nothing like the commercial hostels we have today. It was mostly halls of residence, institutional, part of the educational experience. Sixty years on, that has changed. Hostels built for purpose, decent fees, private capital and company management systems have turned student hostels into big business. But the legislation that regulates residential tenancies has not changed. And so, the question of whether university hostels are covered by the Rent Act has come up recently. If you pay for a hostel, are you a tenant? Does the Rent Control Department have the same regulatory powers as it does over other tenancies? And, most importantly, can we use 60-year-old legislation to regulate something its drafters could not have imagined? THE STATUTORY FRAMEWORK In Ghana there is the Rent Act, 1963 (Act 220) and the Rent Control Law, 1986 (P.N.D.C.L 138). Under Act 220, Section 1 makes the Act applicable to all premises in"
+        }
+      ],
+      "path": "story/919/university-hostels-and-rent-control-examining-the-law-and-its-limitations/"
+    },
     {
       "id": 918,
       "title": "UGEL hostels not renovated to justify higher fees – GRASAG-UG president",
