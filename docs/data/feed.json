@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-18T18:10:30Z",
+  "generated_at": "2026-11-18T18:40:23Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 261
+      "story_count": 263
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 922,
+      "title": "Zenith Law Faculty strengthens practical training with visits to Parliament, Supreme Court",
+      "summary": "The Law Faculty of Zenith University College is expanding its practical approach to legal education through a series of institutional visits designed to expose students to the workings of key legal and governance institutions in Ghana.",
+      "category": "higher_education",
+      "published_at": "2026-11-18T18:23:28Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/1-55-1024x576.jpg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Zenith Law Faculty strengthens practical training with visits to Parliament, Supreme Court",
+          "url": "https://www.myjoyonline.com/zenith-law-faculty-strengthens-practical-training-with-visits-to-parliament-supreme-court/",
+          "published_at": "2026-11-18T18:23:28Z",
+          "excerpt": "The Law Faculty of Zenith University College is expanding its practical approach to legal education through a series of institutional visits designed to expose students to the workings of key legal and governance institutions in Ghana. The programme includes educational visits to the Ghana Copyright Office, the Ghana Music Rights Organisation (GHAMRO), Parliament and the […]"
+        }
+      ],
+      "path": "story/922/zenith-law-faculty-strengthens-practical-training-with-visits-to-parliament/"
+    },
+    {
+      "id": 921,
+      "title": "KNUST launches AI winter school to advance responsible healthcare innovation in Africa",
+      "summary": "The Kwame Nkrumah University of Science and Technology (KNUST) has launched a winter school focused on developing responsible, African-led artificial intelligence solutions for healthcare, with researchers already testing AI tools to support stroke diagnosis using brain scans from Ghanaian patients.",
+      "category": "higher_education",
+      "published_at": "2026-11-18T18:21:17Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-18.11.19.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "KNUST launches AI winter school to advance responsible healthcare innovation in Africa",
+          "url": "https://www.myjoyonline.com/knust-launches-ai-winter-school-to-advance-responsible-healthcare-innovation-in-africa/",
+          "published_at": "2026-11-18T18:21:17Z",
+          "excerpt": "The Kwame Nkrumah University of Science and Technology (KNUST) has launched a winter school focused on developing responsible, African-led artificial intelligence solutions for healthcare, with researchers already testing AI tools to support stroke diagnosis using brain scans from Ghanaian patients. The RAIL-DATAIA Winter School, organised by the university’s Responsible Artificial Intelligence Lab (RAIL), brings together researchers, students, health professionals and international partners from Ghana and France to explore practical applications of AI in healthcare. The programme forms part of the Africa Forward AI Clusters initiative, a collaboration between African universities and French institutions aimed at strengthening AI research, training and entrepreneurship across the continent. Speaking at the launch, RAIL Scientific Director, Professor Jerry John Kponyo, said AI could help extend the reach of health professionals, particularly in rural and underserved communities where ac"
+        }
+      ],
+      "path": "story/921/knust-launches-ai-winter-school-to-advance-responsible-healthcare-innovation-in/"
+    },
     {
       "id": 920,
       "title": "Education Minister engages Rent Control Commission, GTEC over rising hostel fees",
