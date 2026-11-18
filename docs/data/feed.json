@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T12:10:50Z",
+  "generated_at": "2026-11-18T12:40:08Z",
   "categories": [
     {
       "name": "higher_education",
@@ -11,11 +11,11 @@
     },
     {
       "name": "teachers",
-      "story_count": 191
+      "story_count": 192
     },
     {
       "name": "general",
-      "story_count": 138
+      "story_count": 139
     },
     {
       "name": "policy",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 913,
+      "title": "Schools across Ghana lack safe, private changing rooms – School for Life",
+      "summary": "School for Life Ghana says schools across the country, specifically basic and secondary institutions, lack safe and private changing rooms, raising concerns about the provision of inclusive and supportive learning environments for pupils.",
+      "category": "general",
+      "published_at": "2026-11-18T12:14:46Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/national-dialogue-on-leaving-no-.jpg",
+      "rank": 0.755,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Schools across Ghana lack safe, private changing rooms – School for Life",
+          "url": "https://www.myjoyonline.com/schools-across-ghana-lack-safe-private-changing-rooms-school-for-life/",
+          "published_at": "2026-11-18T12:14:46Z",
+          "excerpt": "School for Life Ghana says schools across the country, specifically basic and secondary institutions, lack safe and private changing rooms, raising concerns about the provision of inclusive and supportive learning environments for pupils."
+        }
+      ],
+      "path": "story/913/schools-across-ghana-lack-safe-private-changing-rooms-school-for-life/"
+    },
+    {
+      "id": 912,
+      "title": "TTAG urges gov’t to prioritise 2023 teacher trainees in recruitment exercise",
+      "summary": "The Teacher Trainees' Association of Ghana (TTAG) has called on the government, the Ministry of Education and the Ghana Education Service (GES) to ensure that the upcoming teacher recruitment exercise is conducted in a fair, transparent and orderly manner.",
+      "category": "teachers",
+      "published_at": "2026-11-18T12:13:31Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-13-at-4.31.02-AM-1024x594.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "TTAG urges gov’t to prioritise 2023 teacher trainees in recruitment exercise",
+          "url": "https://www.myjoyonline.com/ttag-urges-govt-to-prioritise-2023-teacher-trainees-in-recruitment-exercise/",
+          "published_at": "2026-11-18T12:13:31Z",
+          "excerpt": "The Teacher Trainees' Association of Ghana (TTAG) has called on the government, the Ministry of Education and the Ghana Education Service (GES) to ensure that the upcoming teacher recruitment exercise is conducted in a fair, transparent and orderly manner."
+        }
+      ],
+      "path": "story/912/ttag-urges-govt-to-prioritise-2023-teacher-trainees-in-recruitment-exercise/"
+    },
     {
       "id": 911,
       "title": "Ghana Energy Awards inspires over 600 Western Region students to explore energy careers",
