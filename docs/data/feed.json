@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:40:14Z",
+  "generated_at": "2026-11-18T21:10:11Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 245
+      "story_count": 246
     },
     {
       "name": "teachers",
@@ -32,6 +32,60 @@
   ],
   "stories": [
     {
+      "id": 928,
+      "title": "Eastern Region: 85 visually impaired students receive digital skills training",
+      "summary": "The beneficiaries are from the Akropong School for the Blind and Okuapemman Senior High School.",
+      "category": "basic_schools",
+      "published_at": "2026-11-18T20:53:53Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/WhatsApp Image 2026-11-17 at 16.20.50-1200x900.webp",
+      "rank": 0.7474,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Eastern Region: 85 visually impaired students receive digital skills training",
+          "url": "https://3news.com/news/eastern-region-85-visually-impaired-students-receive-digital-skills-training",
+          "published_at": "2026-11-18T20:53:53Z",
+          "excerpt": "The beneficiaries are from the Akropong School for the Blind and Okuapemman Senior High School."
+        }
+      ],
+      "path": "story/928/eastern-region-85-visually-impaired-students-receive-digital-skills-training/"
+    },
+    {
+      "id": 920,
+      "title": "Education Minister engages Rent Control Commission, GTEC over rising hostel fees",
+      "summary": "Education Minister Haruna Iddrisu has directed the Ghana Tertiary Education Commission (GTEC) to collaborate with the Rent Control Commission to find ways of addressing increasing hostel accommodation charges faced by tertiary students.",
+      "category": "higher_education",
+      "published_at": "2026-11-18T20:51:34Z",
+      "source_count": 2,
+      "sources": [
+        "3News",
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-17.06.28-1140x570-1-1024x512.jpeg",
+      "rank": 0.8649,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "Education Minister engages Rent Control Commission, GTEC over rising hostel fees",
+          "url": "https://3news.com/news/education/education-minister-engages-rent-control-commission-gtec-over-rising-hostel-fees",
+          "published_at": "2026-11-18T17:47:43Z",
+          "excerpt": "During the engagement, the Education Minister directed GTEC to work closely with the Rent Control Commission to explore measures to address the rising cost of student accommodation."
+        },
+        {
+          "source_name": "Adom Online Education",
+          "title": "Education Minister tasks GTEC, Rent Control to address rising hostel fees",
+          "url": "https://www.adomonline.com/education-minister-tasks-gtec-rent-control-to-address-rising-hostel-fees/",
+          "published_at": "2026-11-18T20:51:34Z",
+          "excerpt": "Education Minister Haruna Iddrisu has directed the Ghana Tertiary Education Commission (GTEC) to collaborate with the Rent Control Commission to find ways of addressing increasing hostel accommodation charges faced by tertiary students. The directive follows a meeting involving the Minister, Acting Rent Commissioner Frederick Opoku and GTEC Director-General, Professor Ahmed Jinapor, to discuss the rising […]"
+        }
+      ],
+      "path": "story/920/education-minister-engages-rent-control-commission-gtec-over-rising-hostel-fees/"
+    },
+    {
       "id": 927,
       "title": "Relief for ASWAJ Islamic SHS as Techiman South MP donates 200 desks",
       "summary": "The ASWAJ Islamic Senior High School in Techiman South has received a major boost to its infrastructure, with the delivery of 200 mono desks promised by the Member of Parliament, Martin Adjei Mensah Korsah.",
@@ -42,7 +96,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/a9a395e8-5012-4248-b3a3-992a0ee2b026-1024x562.jpg",
-      "rank": 0.767,
+      "rank": 0.7558,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -65,7 +119,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-17.06.13-2-1024x683.jpeg",
-      "rank": 0.7393,
+      "rank": 0.725,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -88,7 +142,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/ugel-ceo-threatened-me-with-tres-2.jpg",
-      "rank": 0.7361,
+      "rank": 0.7219,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -111,7 +165,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/1-56-e1795028469708.jpg",
-      "rank": 0.7347,
+      "rank": 0.7206,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -134,7 +188,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-17.06.11-1-1024x651.jpeg",
-      "rank": 0.7484,
+      "rank": 0.7345,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -157,7 +211,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/1-55-1024x576.jpg",
-      "rank": 0.7255,
+      "rank": 0.7118,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -180,7 +234,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-18.11.19.jpeg",
-      "rank": 0.725,
+      "rank": 0.7114,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -193,29 +247,6 @@
       "path": "story/921/knust-launches-ai-winter-school-to-advance-responsible-healthcare-innovation-in/"
     },
     {
-      "id": 920,
-      "title": "Education Minister engages Rent Control Commission, GTEC over rising hostel fees",
-      "summary": "During the engagement, the Education Minister directed GTEC to work closely with the Rent Control Commission to explore measures to address the rising cost of student accommodation.",
-      "category": "higher_education",
-      "published_at": "2026-11-18T17:47:43Z",
-      "source_count": 1,
-      "sources": [
-        "3News"
-      ],
-      "image_url": "https://media.3news.com/WhatsApp Image 2026-11-18 at 17.10.44-1200x763.webp",
-      "rank": 0.7353,
-      "articles": [
-        {
-          "source_name": "3News",
-          "title": "Education Minister engages Rent Control Commission, GTEC over rising hostel fees",
-          "url": "https://3news.com/news/education/education-minister-engages-rent-control-commission-gtec-over-rising-hostel-fees",
-          "published_at": "2026-11-18T17:47:43Z",
-          "excerpt": "During the engagement, the Education Minister directed GTEC to work closely with the Rent Control Commission to explore measures to address the rising cost of student accommodation."
-        }
-      ],
-      "path": "story/920/education-minister-engages-rent-control-commission-gtec-over-rising-hostel-fees/"
-    },
-    {
       "id": 919,
       "title": "University hostels and rent control: Examining the Law and its limitations",
       "summary": "Back in 1963, when Ghana passed its Rent Act, university accommodation was nothing like the commercial hostels we have today. It was mostly halls of residence, institutional, part of the educational experience.",
@@ -226,7 +257,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/images-3-4.jpeg",
-      "rank": 0.7143,
+      "rank": 0.7013,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -249,7 +280,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/grasag-ug-1-1024x493.jpg",
-      "rank": 0.7044,
+      "rank": 0.6919,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -272,7 +303,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/generation_ghana_logo.jpeg",
-      "rank": 0.681,
+      "rank": 0.6696,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -296,7 +327,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2025/12/image_2025-12-15_055754204.png",
-      "rank": 0.7777,
+      "rank": 0.7664,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -327,7 +358,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/Free SHS food suppliers-640x375.webp",
-      "rank": 0.7904,
+      "rank": 0.7793,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -357,7 +388,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/kofi-asare.jpg",
-      "rank": 0.6714,
+      "rank": 0.6604,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -380,7 +411,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-1.01.17-PM-1024x682.jpeg",
-      "rank": 0.6804,
+      "rank": 0.6698,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -403,7 +434,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/national-dialogue-on-leaving-no-.jpg",
-      "rank": 0.6575,
+      "rank": 0.6474,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -426,7 +457,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-13-at-4.31.02-AM-1024x594.png",
-      "rank": 0.6513,
+      "rank": 0.6412,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -449,7 +480,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-18 at 11.41.56-1200x645.webp",
-      "rank": 0.6672,
+      "rank": 0.6572,
       "articles": [
         {
           "source_name": "3News",
@@ -472,7 +503,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-113-1024x576.png",
-      "rank": 0.6486,
+      "rank": 0.6386,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -495,7 +526,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/1-3-e1795000717396.png",
-      "rank": 0.6422,
+      "rank": 0.6325,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -518,7 +549,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-7.34.04-AM.jpeg",
-      "rank": 0.6412,
+      "rank": 0.6315,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -541,7 +572,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-18 at 08.03.25-800x800.webp",
-      "rank": 0.625,
+      "rank": 0.616,
       "articles": [
         {
           "source_name": "3News",
@@ -564,7 +595,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-7.34.04-AM.jpeg",
-      "rank": 0.6196,
+      "rank": 0.6108,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -587,7 +618,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Prof-Fred-Newton-Binka.png",
-      "rank": 0.6154,
+      "rank": 0.6068,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -610,7 +641,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-2270-819x1024.png",
-      "rank": 0.6253,
+      "rank": 0.617,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -633,7 +664,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-16-at-18.22.20-e1794978565268-1024x515.jpeg",
-      "rank": 0.5917,
+      "rank": 0.584,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -656,7 +687,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-17-at-4.55.37-PM-754x424-2.webp",
-      "rank": 0.5749,
+      "rank": 0.5679,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -679,7 +710,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-17-at-09.09.08.jpeg",
-      "rank": 0.5429,
+      "rank": 0.537,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -702,7 +733,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-17 at 16.02.11-1200x800.webp",
-      "rank": 0.5383,
+      "rank": 0.5326,
       "articles": [
         {
           "source_name": "3News",
@@ -725,7 +756,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-2233.png",
-      "rank": 0.5233,
+      "rank": 0.5181,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -755,7 +786,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/6d7d621d-45bc-4f30-9d3e-89cf59719fca.jpg",
-      "rank": 0.5374,
+      "rank": 0.5323,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -778,7 +809,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-17-at-11.29.20-AM1-1024x688.jpeg",
-      "rank": 0.5149,
+      "rank": 0.5104,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -801,7 +832,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-2226.png",
-      "rank": 0.5141,
+      "rank": 0.5097,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -824,7 +855,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/11/Haruna-Iddrisu.png",
-      "rank": 0.5122,
+      "rank": 0.5078,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -847,7 +878,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/image-26-1024x512.jpg",
-      "rank": 0.4898,
+      "rank": 0.4856,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -870,7 +901,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-112-e1794912166163-1024x575.png",
-      "rank": 0.4887,
+      "rank": 0.4845,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -893,7 +924,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/onuaonline-2e48fe72d0a952958f285f17b9bc83be-733x418.webp",
-      "rank": 0.5022,
+      "rank": 0.4982,
       "articles": [
         {
           "source_name": "3News",
@@ -916,7 +947,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-2214-1024x502.png",
-      "rank": 0.4892,
+      "rank": 0.4852,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -939,7 +970,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r22-peki-shs-signboard-652x381.webp",
-      "rank": 0.4786,
+      "rank": 0.4747,
       "articles": [
         {
           "source_name": "3News",
@@ -962,7 +993,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-17-at-07.29.21-1024x662.jpeg",
-      "rank": 0.4746,
+      "rank": 0.4708,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -985,7 +1016,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/AB Tunisia-1200x800.webp",
-      "rank": 0.4853,
+      "rank": 0.4817,
       "articles": [
         {
           "source_name": "3News",
@@ -1008,7 +1039,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-2026-11-17-at-5.00.08-AM-1024x613.png",
-      "rank": 0.4631,
+      "rank": 0.4596,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1031,7 +1062,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/onuaonline-3251faeb3ed139f8caa4ce84f715bedf-720x702.webp",
-      "rank": 0.4557,
+      "rank": 0.4529,
       "articles": [
         {
           "source_name": "3News",
@@ -1054,7 +1085,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-16 at 16.25.00-800x600.webp",
-      "rank": 0.455,
+      "rank": 0.4522,
       "articles": [
         {
           "source_name": "3News",
@@ -1077,7 +1108,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/IMG-20261116-WA0031-1024x498.jpg",
-      "rank": 0.4358,
+      "rank": 0.433,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1100,7 +1131,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/image_2026-09-14_150110459-1024x512.png",
-      "rank": 0.4527,
+      "rank": 0.45,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1123,7 +1154,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-16-at-16.12.36.jpeg",
-      "rank": 0.431,
+      "rank": 0.4283,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1147,7 +1178,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/907785642_953934024255194_8957024201125229280_n-1024x683.jpg",
-      "rank": 0.5572,
+      "rank": 0.5545,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1177,7 +1208,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1831-1024x576.png",
-      "rank": 0.4294,
+      "rank": 0.4268,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1200,7 +1231,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/onuaonline-cdb432188da4f33c691aac1f21472ab6-1200x540.webp",
-      "rank": 0.4271,
+      "rank": 0.4245,
       "articles": [
         {
           "source_name": "3News",
@@ -1223,7 +1254,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/IMG-20261116-WA0019-1024x580.jpg",
-      "rank": 0.4234,
+      "rank": 0.4208,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1246,7 +1277,7 @@
         "3News"
       ],
       "image_url": "https://3news.com/default_featured.png",
-      "rank": 0.4229,
+      "rank": 0.4204,
       "articles": [
         {
           "source_name": "3News",
@@ -1269,7 +1300,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/910054264_2195956357651074_3832701950535023748_n-1024x683.jpg",
-      "rank": 0.4217,
+      "rank": 0.4192,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1292,7 +1323,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1816-1024x576.png",
-      "rank": 0.4212,
+      "rank": 0.4187,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1315,7 +1346,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Dr Bawumia B-718x501.webp",
-      "rank": 0.4156,
+      "rank": 0.4133,
       "articles": [
         {
           "source_name": "3News",
@@ -1339,7 +1370,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/GES-office-750x375-Copy-800x400-800x400.webp",
-      "rank": 0.5235,
+      "rank": 0.5213,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1369,7 +1400,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-15-at-11.49.55-1024x576.jpeg",
-      "rank": 0.4044,
+      "rank": 0.4023,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1392,7 +1423,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/Akrofuom-schs.jpg",
-      "rank": 0.4027,
+      "rank": 0.4006,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1415,7 +1446,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-15-at-15.37.42-1024x574.jpeg",
-      "rank": 0.379,
+      "rank": 0.3773,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1439,7 +1470,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2019/06/12069406-Copy-Copy.jpg",
-      "rank": 0.4919,
+      "rank": 0.4904,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1469,7 +1500,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/GES building-1200x675.webp",
-      "rank": 0.3917,
+      "rank": 0.3902,
       "articles": [
         {
           "source_name": "3News",
@@ -1492,7 +1523,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/onuaonline-c37d6094b63e2e3ea8973600918ad876-800x413.webp",
-      "rank": 0.3706,
+      "rank": 0.3692,
       "articles": [
         {
           "source_name": "3News",
@@ -1515,7 +1546,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-15-at-13.46.09.jpeg",
-      "rank": 0.3702,
+      "rank": 0.3687,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1538,7 +1569,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/UMAT Vice Chancellor-800x448.webp",
-      "rank": 0.3699,
+      "rank": 0.3684,
       "articles": [
         {
           "source_name": "3News",
@@ -1561,7 +1592,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1366-1024x576.png",
-      "rank": 0.3648,
+      "rank": 0.3634,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1584,7 +1615,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Haruna-800x539.webp",
-      "rank": 0.3498,
+      "rank": 0.3487,
       "articles": [
         {
           "source_name": "3News",
@@ -1607,7 +1638,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/yt-Nvq-id-FnKA-1200x675.webp",
-      "rank": 0.3495,
+      "rank": 0.3483,
       "articles": [
         {
           "source_name": "3News",
@@ -1630,7 +1661,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-111-1024x576.png",
-      "rank": 0.3521,
+      "rank": 0.351,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1653,7 +1684,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1406.png",
-      "rank": 0.346,
+      "rank": 0.3449,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1676,7 +1707,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-111-1024x576.png",
-      "rank": 0.3459,
+      "rank": 0.3448,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1699,7 +1730,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-111-1024x576.png",
-      "rank": 0.3457,
+      "rank": 0.3446,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1722,7 +1753,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-24-at-16.46.35-3-1024x869.jpeg",
-      "rank": 0.3434,
+      "rank": 0.3424,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1745,7 +1776,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-14 at 13.42.02-750x375.webp",
-      "rank": 0.3433,
+      "rank": 0.3422,
       "articles": [
         {
           "source_name": "3News",
@@ -1768,7 +1799,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/IMG-20261114-WA0005-1024x576.jpg",
-      "rank": 0.3611,
+      "rank": 0.3601,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1791,7 +1822,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/03/Haruna-Iddrisu-6.jpg",
-      "rank": 0.3429,
+      "rank": 0.3418,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1815,7 +1846,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/07/Haruna-Iddrisu.png",
-      "rank": 0.4423,
+      "rank": 0.4413,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1852,7 +1883,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/04/Haruna-Iddrisu-1.png",
-      "rank": 0.3423,
+      "rank": 0.3412,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1875,7 +1906,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/06/image-1165.png",
-      "rank": 0.342,
+      "rank": 0.3409,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1898,7 +1929,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/04/Haruna-Iddrisu.png",
-      "rank": 0.3417,
+      "rank": 0.3407,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1921,7 +1952,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/images-1.png",
-      "rank": 0.3412,
+      "rank": 0.3402,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1944,7 +1975,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1370-1024x576.png",
-      "rank": 0.3404,
+      "rank": 0.3394,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -1967,7 +1998,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/Hanson.jpg",
-      "rank": 0.3398,
+      "rank": 0.3388,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -1990,7 +2021,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-09-03 at 17.30.14-800x533.webp",
-      "rank": 0.3564,
+      "rank": 0.3554,
       "articles": [
         {
           "source_name": "3News",
@@ -2013,7 +2044,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2022/05/Mfantsipim-School-2-1024x683.jpg",
-      "rank": 0.331,
+      "rank": 0.3301,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2036,7 +2067,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-13-at-16.44.09.jpeg",
-      "rank": 0.3275,
+      "rank": 0.3267,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2059,7 +2090,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-09-28 at 08.37.33-800x409.webp",
-      "rank": 0.3436,
+      "rank": 0.3428,
       "articles": [
         {
           "source_name": "3News",
@@ -2084,7 +2115,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/TKD-Education-COMEU-Conference--e1787749994195-1024x623-800x487.webp",
-      "rank": 0.5436,
+      "rank": 0.5428,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2121,7 +2152,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-05-09 at 05.48.29 (1)-800x455.webp",
-      "rank": 0.3249,
+      "rank": 0.3241,
       "articles": [
         {
           "source_name": "3News",
@@ -2144,7 +2175,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1264-e1794588859543-1024x646.png",
-      "rank": 0.3235,
+      "rank": 0.3228,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2174,7 +2205,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Aduman SHS SODOMY SUSPECTS-800x489.webp",
-      "rank": 0.3235,
+      "rank": 0.3228,
       "articles": [
         {
           "source_name": "3News",
@@ -2197,7 +2228,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1260-e1794587544208.png",
-      "rank": 0.3233,
+      "rank": 0.3225,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2220,7 +2251,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-13 at 1.00.12 PM-800x643.webp",
-      "rank": 0.3232,
+      "rank": 0.3224,
       "articles": [
         {
           "source_name": "3News",
@@ -2243,7 +2274,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-13 at 16.23.34-600x400.webp",
-      "rank": 0.3232,
+      "rank": 0.3224,
       "articles": [
         {
           "source_name": "3News",
@@ -2266,7 +2297,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2020/08/download-1-Copy-3.jpg",
-      "rank": 0.3288,
+      "rank": 0.328,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2289,7 +2320,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/Nagrat-1024x576.jpeg",
-      "rank": 0.3408,
+      "rank": 0.34,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2312,7 +2343,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/cadavers.jpg",
-      "rank": 0.3286,
+      "rank": 0.3279,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2335,7 +2366,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-13-at-15.06.18-2-1024x576.jpeg",
-      "rank": 0.3223,
+      "rank": 0.3215,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2358,7 +2389,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/a38a24ca-a979-49b8-b0ee-a0378ea15c88-1024x768.jpeg",
-      "rank": 0.328,
+      "rank": 0.3272,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2381,7 +2412,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/b4c3ec80-df51-11f1-8364-2717a13d3b08.jpg.webp",
-      "rank": 0.3215,
+      "rank": 0.3207,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2405,7 +2436,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/r18-y16-university-of-ghana-sign-at-the-legon-campus-600x350.webp",
-      "rank": 0.4394,
+      "rank": 0.4386,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2435,7 +2466,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/cn1media-c05b-back-of-the-new-gh-5-note-showing-achimota-sch-1200x814.webp",
-      "rank": 0.3394,
+      "rank": 0.3386,
       "articles": [
         {
           "source_name": "3News",
@@ -2458,7 +2489,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-13-at-11.35.59-1024x768.jpeg",
-      "rank": 0.3255,
+      "rank": 0.3248,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2481,7 +2512,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2020/09/PROF.-BOKPIN.jpg",
-      "rank": 0.3195,
+      "rank": 0.3188,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2504,7 +2535,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/Mahama-UTAG-TEC-1024x682.jpeg",
-      "rank": 0.3375,
+      "rank": 0.3367,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2527,7 +2558,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2021/06/Godfred_Bokpin.jpg",
-      "rank": 0.3192,
+      "rank": 0.3185,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2550,7 +2581,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/903846373_1911596486867224_679182136537045800_n.jpeg",
-      "rank": 0.3144,
+      "rank": 0.3138,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2573,7 +2604,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-9.12.12-AM-1024x683.png",
-      "rank": 0.3143,
+      "rank": 0.3136,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2596,7 +2627,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-30 at 11.01.56 AM (1)-1200x800.webp",
-      "rank": 0.3108,
+      "rank": 0.3102,
       "articles": [
         {
           "source_name": "3News",
@@ -2619,7 +2650,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/nurses-800x455.webp",
-      "rank": 0.3108,
+      "rank": 0.3102,
       "articles": [
         {
           "source_name": "3News",
@@ -2642,7 +2673,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Ato-Forson-e1794510107657-1024x766.jpeg",
-      "rank": 0.3099,
+      "rank": 0.3093,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2665,7 +2696,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1160-1024x1024.png",
-      "rank": 0.3097,
+      "rank": 0.3091,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2688,7 +2719,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/image-782.png",
-      "rank": 0.3093,
+      "rank": 0.3086,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2712,7 +2743,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/image-393.png",
-      "rank": 0.4148,
+      "rank": 0.4142,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2744,7 +2775,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/image_2026-11-12_155445468-1024x558.png",
-      "rank": 0.5187,
+      "rank": 0.5181,
       "articles": [
         {
           "source_name": "3News",
@@ -2781,7 +2812,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-1.29.10-PM-1024x768.jpeg",
-      "rank": 0.3055,
+      "rank": 0.3049,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2811,7 +2842,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/two_photo_collage_600x400.jpg",
-      "rank": 0.3234,
+      "rank": 0.3228,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2834,7 +2865,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1079.png",
-      "rank": 0.3049,
+      "rank": 0.3043,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2857,7 +2888,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r33-nc12-dr-nana-kwame-osei-fordjour-assistant-professor-of-800x600.webp",
-      "rank": 0.3046,
+      "rank": 0.304,
       "articles": [
         {
           "source_name": "3News",
@@ -2887,7 +2918,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-23.17.09-1024x576.jpeg",
-      "rank": 0.302,
+      "rank": 0.3014,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -2911,7 +2942,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/Professor-Ernest-Ayeetey.png",
-      "rank": 0.4076,
+      "rank": 0.407,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2941,7 +2972,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/07/Issa.jpg",
-      "rank": 0.2988,
+      "rank": 0.2983,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2964,7 +2995,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/When-the-River-testified_Jimmy-Aglah-1024x576.jpg",
-      "rank": 0.3157,
+      "rank": 0.3152,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -2987,7 +3018,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r31-ln10-wiyaala-at-the-boys-dormitory-block-of-funsi-senior-1200x611.webp",
-      "rank": 0.3155,
+      "rank": 0.315,
       "articles": [
         {
           "source_name": "3News",
@@ -3010,7 +3041,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-17.16.30-1024x768.jpeg",
-      "rank": 0.2968,
+      "rank": 0.2963,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3033,7 +3064,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Prof-Ernest-Ayitey.png",
-      "rank": 0.2964,
+      "rank": 0.2959,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3056,7 +3087,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/902191746_1442201494668233_3127601250516258308_n-1024x682.jpg",
-      "rank": 0.2962,
+      "rank": 0.2957,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3079,7 +3110,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Prof-Ernest-Ayiteey.jpg",
-      "rank": 0.2961,
+      "rank": 0.2957,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3103,7 +3134,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/jane.png",
-      "rank": 0.3958,
+      "rank": 0.3954,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3133,7 +3164,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-19.26.19-1024x819.jpeg",
-      "rank": 0.2958,
+      "rank": 0.2954,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3156,7 +3187,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Prof-Ernest-Aryeetey-jpg-749x424-1.webp",
-      "rank": 0.2957,
+      "rank": 0.2952,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3179,7 +3210,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/ZAATU-Web-Art-3313-3351.jpg",
-      "rank": 0.3135,
+      "rank": 0.313,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3202,7 +3233,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1048.png",
-      "rank": 0.3133,
+      "rank": 0.3128,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3225,7 +3256,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-06.55.02-1024x564.jpeg",
-      "rank": 0.2943,
+      "rank": 0.2939,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3248,7 +3279,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/Community-Struggles_-Crowd-Water-Damage-1024x1024.png",
-      "rank": 0.2943,
+      "rank": 0.2938,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3271,7 +3302,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-1035-1024x575.png",
-      "rank": 0.2942,
+      "rank": 0.2937,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3294,7 +3325,7 @@
         "Edulens360"
       ],
       "image_url": "https://edulens360.com/images/tips/wassce-essay.png?v=3",
-      "rank": 0.3447,
+      "rank": 0.3442,
       "articles": [
         {
           "source_name": "Edulens360",
@@ -3318,7 +3349,7 @@
         "Edulens360"
       ],
       "image_url": "https://edulens360.com/images/tips/ges-promotion.png?v=3",
-      "rank": 0.3447,
+      "rank": 0.3442,
       "articles": [
         {
           "source_name": "Edulens360",
@@ -3342,7 +3373,7 @@
         "Edulens360"
       ],
       "image_url": "https://edulens360.com/images/tips/cssps-placement.png?v=3",
-      "rank": 0.3447,
+      "rank": 0.3442,
       "articles": [
         {
           "source_name": "Edulens360",
@@ -3366,7 +3397,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-2.42.37-AM-1024x677.jpeg",
-      "rank": 0.2929,
+      "rank": 0.2925,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3396,7 +3427,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-09-28 at 16.29.50-794x449.webp",
-      "rank": 0.2924,
+      "rank": 0.292,
       "articles": [
         {
           "source_name": "3News",
@@ -3419,7 +3450,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-976-1024x693.png",
-      "rank": 0.2919,
+      "rank": 0.2914,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3442,7 +3473,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-2026-11-11-at-10.40.58-am-1024x607.png",
-      "rank": 0.3098,
+      "rank": 0.3094,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3465,7 +3496,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/two_photo_collage_600x400.jpg",
-      "rank": 0.2914,
+      "rank": 0.291,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3488,7 +3519,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/1-11.jpg",
-      "rank": 0.2913,
+      "rank": 0.2909,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3511,7 +3542,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/two_photo_collage_600x400.jpg",
-      "rank": 0.2912,
+      "rank": 0.2907,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3534,7 +3565,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Haruna Iddrisu-2-1200x801.webp",
-      "rank": 0.309,
+      "rank": 0.3085,
       "articles": [
         {
           "source_name": "3News",
@@ -3557,7 +3588,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r26m2-fifa-lecturer-peter-auf-der-heyde-who-is-seeking-nomin-1200x630.webp",
-      "rank": 0.2909,
+      "rank": 0.2905,
       "articles": [
         {
           "source_name": "3News",
@@ -3581,7 +3612,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-24-at-16.46.35-3.jpeg",
-      "rank": 0.4085,
+      "rank": 0.4081,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3612,7 +3643,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-27 at 22.52.25-1200x686.webp",
-      "rank": 0.3904,
+      "rank": 0.39,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3642,7 +3673,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Haruna-800x539.webp",
-      "rank": 0.2901,
+      "rank": 0.2897,
       "articles": [
         {
           "source_name": "3News",
@@ -3665,7 +3696,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/MPS-800x476.webp",
-      "rank": 0.29,
+      "rank": 0.2896,
       "articles": [
         {
           "source_name": "3News",
@@ -3688,7 +3719,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-10.23.50-1024x683.jpeg",
-      "rank": 0.289,
+      "rank": 0.2885,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3711,7 +3742,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-935-1024x576.png",
-      "rank": 0.2873,
+      "rank": 0.2869,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3734,7 +3765,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-18.43.31-1-1024x576.jpeg",
-      "rank": 0.2866,
+      "rank": 0.2862,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3757,7 +3788,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/ekypuxjpg_1585563099.jpeg",
-      "rank": 0.2862,
+      "rank": 0.2858,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3780,7 +3811,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Ho-Central-MP-Benjamin-Kpotosu-provides-a-mechanised-borehole-for-Housing-M.A.-Basic-School-1024x768.jpg",
-      "rank": 0.286,
+      "rank": 0.2856,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3803,7 +3834,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Pepease-teachers-fight.png",
-      "rank": 0.3127,
+      "rank": 0.3123,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3826,7 +3857,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Haruna Iddrisu-2-1200x801.webp",
-      "rank": 0.2856,
+      "rank": 0.2852,
       "articles": [
         {
           "source_name": "3News",
@@ -3849,7 +3880,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r24-obamala-a-participant-speaks-at-an-obama-foundation-lead-1200x801.webp",
-      "rank": 0.3035,
+      "rank": 0.3032,
       "articles": [
         {
           "source_name": "3News",
@@ -3872,7 +3903,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2025/12/Screenshot-2025-12-03-175303.png",
-      "rank": 0.2855,
+      "rank": 0.2852,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3895,7 +3926,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Haruna Iddrisu-2-1200x801.webp",
-      "rank": 0.2855,
+      "rank": 0.2851,
       "articles": [
         {
           "source_name": "3News",
@@ -3918,7 +3949,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Haruna-Iddrisu.png",
-      "rank": 0.2855,
+      "rank": 0.2851,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3948,7 +3979,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-5.56.10-AM.jpeg",
-      "rank": 0.2851,
+      "rank": 0.2847,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -3971,7 +4002,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-14.55.21-2-1024x768.jpeg",
-      "rank": 0.3024,
+      "rank": 0.302,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -3994,7 +4025,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Obuasi-SHTS.jpg",
-      "rank": 0.2843,
+      "rank": 0.284,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4017,7 +4048,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r22-funsi-shs-student-video-obscured-1200x675.webp",
-      "rank": 0.2837,
+      "rank": 0.2834,
       "articles": [
         {
           "source_name": "3News",
@@ -4042,7 +4073,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/r22-peki-shs-signboard-652x381.webp",
-      "rank": 0.4837,
+      "rank": 0.4834,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -4079,7 +4110,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r22-evandy-hostel-fire-legon-1200x675.webp",
-      "rank": 0.2837,
+      "rank": 0.2833,
       "articles": [
         {
           "source_name": "3News",
@@ -4102,7 +4133,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/IMG_4435_2-1.jpg",
-      "rank": 0.3008,
+      "rank": 0.3005,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4125,7 +4156,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/image-2026-11-09T043627.034.png",
-      "rank": 0.3008,
+      "rank": 0.3004,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -4148,7 +4179,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/06/university-of-ghana.jpg",
-      "rank": 0.2828,
+      "rank": 0.2824,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -4171,7 +4202,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/umat-src-president-listowell-apochi-boade-800x623.webp",
-      "rank": 0.2826,
+      "rank": 0.2822,
       "articles": [
         {
           "source_name": "3News",
@@ -4194,7 +4225,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r21-damian-marley-uwi-honorary-doctorate-1200x800.webp",
-      "rank": 0.2818,
+      "rank": 0.2814,
       "articles": [
         {
           "source_name": "3News",
@@ -4217,7 +4248,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-09-at-07.46.42-1024x576.jpeg",
-      "rank": 0.2996,
+      "rank": 0.2993,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -4240,7 +4271,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r20-ug-students-protest-hostel-fees-644x358.webp",
-      "rank": 0.2813,
+      "rank": 0.281,
       "articles": [
         {
           "source_name": "3News",
@@ -4263,7 +4294,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-825.webp",
-      "rank": 0.2793,
+      "rank": 0.2789,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4286,7 +4317,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-09-at-18.58.36y-1024x584.jpeg",
-      "rank": 0.2785,
+      "rank": 0.2782,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4309,7 +4340,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-09-at-22.35.04-1024x576.jpeg",
-      "rank": 0.2784,
+      "rank": 0.278,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4332,7 +4363,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r18-y16-university-of-ghana-sign-at-the-legon-campus-600x350.webp",
-      "rank": 0.2779,
+      "rank": 0.2776,
       "articles": [
         {
           "source_name": "3News",
@@ -4356,7 +4387,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/r19-q18c-university-of-cape-coast-vice-chancellor-1200x630.webp",
-      "rank": 0.3779,
+      "rank": 0.3776,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4386,7 +4417,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r19-q18b-deputy-education-minister-dr-clement-aba-1200x675.webp",
-      "rank": 0.2779,
+      "rank": 0.2776,
       "articles": [
         {
           "source_name": "3News",
@@ -4409,7 +4440,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r19-q18a-teacher-trainees-seated-in-a-college-of--800x360.webp",
-      "rank": 0.2779,
+      "rank": 0.2776,
       "articles": [
         {
           "source_name": "3News",
@@ -4432,7 +4463,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-839-1024x673.png",
-      "rank": 0.2764,
+      "rank": 0.2761,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4455,7 +4486,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2021/02/Education-College-Admission-3-1024x461.jpg",
-      "rank": 0.2759,
+      "rank": 0.2756,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4479,7 +4510,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/03/7646c2d3-ade3-403c-a988-79f86601542f-1024x573.jpg",
-      "rank": 0.3756,
+      "rank": 0.3753,
       "articles": [
         {
           "source_name": "3News",
@@ -4509,7 +4540,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Screenshot 2026-11-09 at 1.10.07 PM-800x431.webp",
-      "rank": 0.2755,
+      "rank": 0.2752,
       "articles": [
         {
           "source_name": "3News",
@@ -4532,7 +4563,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-815-1024x576.png",
-      "rank": 0.2755,
+      "rank": 0.2752,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4555,7 +4586,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-825.png",
-      "rank": 0.2934,
+      "rank": 0.2931,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4578,7 +4609,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/image-2026-11-09T043627.034.png",
-      "rank": 0.2934,
+      "rank": 0.2931,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -4601,7 +4632,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-775.png",
-      "rank": 0.2753,
+      "rank": 0.275,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4624,7 +4655,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-814-e1794225393933.png",
-      "rank": 0.2752,
+      "rank": 0.2749,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4647,7 +4678,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/B_C 1_43-1200x1500.webp",
-      "rank": 0.2752,
+      "rank": 0.2749,
       "articles": [
         {
           "source_name": "3News",
@@ -4670,7 +4701,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/r18-y16-university-of-ghana-sign-at-the-legon-campus-600x350.webp",
-      "rank": 0.2747,
+      "rank": 0.2744,
       "articles": [
         {
           "source_name": "3News",
@@ -4693,7 +4724,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/05/ghana-police.jpg",
-      "rank": 0.2743,
+      "rank": 0.274,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4717,7 +4748,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/Gemini_Generated_Image_qylf1vqylf1vqylf-1200x670.webp",
-      "rank": 0.3743,
+      "rank": 0.374,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4747,7 +4778,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2022/08/image_2022-08-19_140053036-1024x633.png",
-      "rank": 0.2741,
+      "rank": 0.2738,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -4770,7 +4801,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-09 at 08.53.58-600x400.webp",
-      "rank": 0.2732,
+      "rank": 0.2729,
       "articles": [
         {
           "source_name": "3News",
@@ -4793,7 +4824,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2022/05/Adamus-Resources-Limited.jpg",
-      "rank": 0.2729,
+      "rank": 0.2727,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4816,7 +4847,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/menstruating-girls-old-river-off.jpg",
-      "rank": 0.2888,
+      "rank": 0.2886,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4840,7 +4871,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/KNUST student-610x424.webp",
-      "rank": 0.3707,
+      "rank": 0.3705,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4870,7 +4901,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/knust-dndi-lab-test-100-molecules-schist-1200x675.webp",
-      "rank": 0.2707,
+      "rank": 0.2704,
       "articles": [
         {
           "source_name": "3News",
@@ -4893,7 +4924,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-07 at 8.45.31 AM-800x800.webp",
-      "rank": 0.2678,
+      "rank": 0.2675,
       "articles": [
         {
           "source_name": "3News",
@@ -4916,7 +4947,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-18.41.54-1024x808.jpeg",
-      "rank": 0.2653,
+      "rank": 0.265,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4939,7 +4970,7 @@
         "Ghana Tertiary Education Commission"
       ],
       "image_url": "https://gtec.edu.gh/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-07-at-13.15.44.jpeg",
-      "rank": 0.2832,
+      "rank": 0.283,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -4962,7 +4993,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-07-at-15.44.30-1-1024x576.jpeg",
-      "rank": 0.2644,
+      "rank": 0.2642,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -4985,7 +5016,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Mahama-1-e1792497332528-1024x576.jpg",
-      "rank": 0.2641,
+      "rank": 0.2639,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5008,7 +5039,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-07 at 11.40.31 (1)-1200x604.webp",
-      "rank": 0.2633,
+      "rank": 0.2631,
       "articles": [
         {
           "source_name": "3News",
@@ -5032,7 +5063,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-16.41.09-e1793398283530.jpeg",
-      "rank": 0.3752,
+      "rank": 0.375,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5071,7 +5102,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-649-1024x709.png",
-      "rank": 0.4899,
+      "rank": 0.4897,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5109,7 +5140,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-26 at 17.52.01-800x439.webp",
-      "rank": 0.3802,
+      "rank": 0.38,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5139,7 +5170,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/sekondi stadium 1-1200x632.webp",
-      "rank": 0.2802,
+      "rank": 0.28,
       "articles": [
         {
           "source_name": "3News",
@@ -5162,7 +5193,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2025/09/WhatsApp-Image-2025-09-18-at-14.25.04_7f8af8a3-768x1024.jpg",
-      "rank": 0.26,
+      "rank": 0.2598,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5186,7 +5217,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/Akosua-Manu.png",
-      "rank": 0.3598,
+      "rank": 0.3596,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5216,7 +5247,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-06 at 17.43.21-600x400.webp",
-      "rank": 0.2597,
+      "rank": 0.2595,
       "articles": [
         {
           "source_name": "3News",
@@ -5239,7 +5270,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/06/image-519-e1793984315283-1024x704.png",
-      "rank": 0.2596,
+      "rank": 0.2594,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5262,7 +5293,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/obuasi-shts.jpg",
-      "rank": 0.2776,
+      "rank": 0.2774,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5285,7 +5316,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Dreams-Championship-1024x1024.jpeg",
-      "rank": 0.2596,
+      "rank": 0.2594,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5308,7 +5339,7 @@
         "Adom Online Education"
       ],
       "image_url": null,
-      "rank": 0.2595,
+      "rank": 0.2594,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5331,7 +5362,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-614.png",
-      "rank": 0.2595,
+      "rank": 0.2593,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5354,7 +5385,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Hawa-800x431.webp",
-      "rank": 0.2592,
+      "rank": 0.259,
       "articles": [
         {
           "source_name": "3News",
@@ -5377,7 +5408,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Hawa-Koomson.png",
-      "rank": 0.259,
+      "rank": 0.2588,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5400,7 +5431,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Obuasi-SHTS.jpg",
-      "rank": 0.2769,
+      "rank": 0.2767,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5430,7 +5461,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-26 at 17.52.01-800x439.webp",
-      "rank": 0.2589,
+      "rank": 0.2587,
       "articles": [
         {
           "source_name": "3News",
@@ -5454,7 +5485,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-595-1024x510.png",
-      "rank": 0.3587,
+      "rank": 0.3585,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5484,7 +5515,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Ghana National College-678x452.webp",
-      "rank": 0.2854,
+      "rank": 0.2852,
       "articles": [
         {
           "source_name": "3News",
@@ -5507,7 +5538,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/M-1024x576.jpg",
-      "rank": 0.2756,
+      "rank": 0.2754,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5530,7 +5561,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-10.32.07-AM-1-1024x683.jpeg",
-      "rank": 0.2573,
+      "rank": 0.2571,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5553,7 +5584,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Obuasi-SHTS.jpg",
-      "rank": 0.2572,
+      "rank": 0.257,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5577,7 +5608,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-19.31.53.jpeg",
-      "rank": 0.3741,
+      "rank": 0.3739,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5607,7 +5638,7 @@
         "Edulens360"
       ],
       "image_url": "https://edulens360.com/images/tips/exam-mistakes-v3.png",
-      "rank": 0.3069,
+      "rank": 0.3067,
       "articles": [
         {
           "source_name": "Edulens360",
@@ -5631,7 +5662,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/yt-ennQARp1vmI-1200x675.webp",
-      "rank": 0.2738,
+      "rank": 0.2737,
       "articles": [
         {
           "source_name": "3News",
@@ -5654,7 +5685,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/yt-WDaMlFoToPA-1200x675.webp",
-      "rank": 0.2557,
+      "rank": 0.2556,
       "articles": [
         {
           "source_name": "3News",
@@ -5677,7 +5708,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-527.png",
-      "rank": 0.2556,
+      "rank": 0.2555,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5700,7 +5731,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-02-at-7.04.08-AM-1024x580.jpeg",
-      "rank": 0.2555,
+      "rank": 0.2554,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5723,7 +5754,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-172954-1024x572.png",
-      "rank": 0.2735,
+      "rank": 0.2733,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5746,7 +5777,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-516-1024x683.png",
-      "rank": 0.2555,
+      "rank": 0.2553,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5769,7 +5800,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/TKD-Education-COMEU-Conference--e1787749994195-1024x623-800x487.webp",
-      "rank": 0.2735,
+      "rank": 0.2733,
       "articles": [
         {
           "source_name": "3News",
@@ -5792,7 +5823,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/image-2026-11-05T070708.686-1024x768.jpg",
-      "rank": 0.2731,
+      "rank": 0.273,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5815,7 +5846,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/01/IMG_2692.jpg-1024x683.jpeg",
-      "rank": 0.2546,
+      "rank": 0.2545,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5838,7 +5869,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-459-975x1024.png",
-      "rank": 0.2725,
+      "rank": 0.2723,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5861,7 +5892,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Okudzeto-2-1200x858.webp",
-      "rank": 0.2544,
+      "rank": 0.2542,
       "articles": [
         {
           "source_name": "3News",
@@ -5884,7 +5915,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/akpene-tetteh-savannah-shooting-foreign--1200x675.webp",
-      "rank": 0.2543,
+      "rank": 0.2542,
       "articles": [
         {
           "source_name": "3News",
@@ -5907,7 +5938,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-450-1024x682.png",
-      "rank": 0.2543,
+      "rank": 0.2542,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -5930,7 +5961,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/obuasi-shts.jpg",
-      "rank": 0.2542,
+      "rank": 0.254,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5953,7 +5984,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/MixCollage-01-Nov-2026-10-22-PM-4301-1024x1024.jpg",
-      "rank": 0.2719,
+      "rank": 0.2717,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -5976,7 +6007,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/King-800x533.webp",
-      "rank": 0.2538,
+      "rank": 0.2536,
       "articles": [
         {
           "source_name": "3News",
@@ -5999,7 +6030,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/image-69-1200x790.webp",
-      "rank": 0.2717,
+      "rank": 0.2716,
       "articles": [
         {
           "source_name": "3News",
@@ -6022,7 +6053,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-4.42.01-AM-1024x608.png",
-      "rank": 0.2535,
+      "rank": 0.2534,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6045,7 +6076,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": null,
-      "rank": 0.2527,
+      "rank": 0.2525,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6075,7 +6106,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-04 at 20.23.07-1200x675.webp",
-      "rank": 0.2524,
+      "rank": 0.2523,
       "articles": [
         {
           "source_name": "3News",
@@ -6098,7 +6129,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-394.png",
-      "rank": 0.2523,
+      "rank": 0.2521,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6121,7 +6152,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/images-6.jpeg",
-      "rank": 0.252,
+      "rank": 0.2519,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6144,7 +6175,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/career-trail-episode-11-from-bio-1.jpg",
-      "rank": 0.252,
+      "rank": 0.2519,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6167,7 +6198,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/OMSU 1.jpg-1200x801.webp",
-      "rank": 0.2519,
+      "rank": 0.2517,
       "articles": [
         {
           "source_name": "3News",
@@ -6190,7 +6221,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/KNUST-1024x683.jpeg",
-      "rank": 0.2518,
+      "rank": 0.2517,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6213,7 +6244,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Haruna Iddrisu-2-1200x801.webp",
-      "rank": 0.2693,
+      "rank": 0.2691,
       "articles": [
         {
           "source_name": "3News",
@@ -6236,7 +6267,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/express way-1200x619.webp",
-      "rank": 0.2513,
+      "rank": 0.2511,
       "articles": [
         {
           "source_name": "3News",
@@ -6259,7 +6290,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-02.29.15.jpeg",
-      "rank": 0.2509,
+      "rank": 0.2508,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6282,7 +6313,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-07.21.15-1024x768.jpeg",
-      "rank": 0.2509,
+      "rank": 0.2507,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6305,7 +6336,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-01.43.13.jpeg",
-      "rank": 0.2509,
+      "rank": 0.2507,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6328,7 +6359,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2020/11/Ghana-Education-Service-GES-Copy-1024x585.png",
-      "rank": 0.2671,
+      "rank": 0.267,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -6351,7 +6382,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-301-1024x576.png",
-      "rank": 0.249,
+      "rank": 0.2489,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6374,7 +6405,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-19.55.15-1024x682.jpeg",
-      "rank": 0.249,
+      "rank": 0.2489,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6397,7 +6428,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-19.54.06-1024x576.jpeg",
-      "rank": 0.249,
+      "rank": 0.2489,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6420,7 +6451,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-03 at 14.15.55-1200x675.webp",
-      "rank": 0.2489,
+      "rank": 0.2488,
       "articles": [
         {
           "source_name": "3News",
@@ -6443,7 +6474,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-10.26.41-e1793730538833-1024x885.jpeg",
-      "rank": 0.2488,
+      "rank": 0.2487,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6466,7 +6497,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-16.23.57-1024x683.jpeg",
-      "rank": 0.2486,
+      "rank": 0.2485,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6489,7 +6520,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/1-3-e1793723538687.jpg",
-      "rank": 0.2486,
+      "rank": 0.2484,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6512,7 +6543,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-14.36.39-1-1024x768.jpg",
-      "rank": 0.2486,
+      "rank": 0.2484,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6535,7 +6566,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/IMG_4083_2.jpg",
-      "rank": 0.2484,
+      "rank": 0.2482,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6558,7 +6589,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-13.38.15-1-1024x683.jpeg",
-      "rank": 0.2483,
+      "rank": 0.2482,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6581,7 +6612,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-13.38.16-1024x535.jpeg",
-      "rank": 0.2483,
+      "rank": 0.2481,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6604,7 +6635,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Sefwi Bekwai SHS-722x425.webp",
-      "rank": 0.2482,
+      "rank": 0.248,
       "articles": [
         {
           "source_name": "3News",
@@ -6627,7 +6658,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-278-1024x576.png",
-      "rank": 0.2661,
+      "rank": 0.266,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6652,7 +6683,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/Free SHS food suppliers-640x375.webp",
-      "rank": 0.4659,
+      "rank": 0.4658,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6689,7 +6720,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/safeimagekit-Dadieso abandoned baby-1200x675.webp",
-      "rank": 0.2477,
+      "rank": 0.2476,
       "articles": [
         {
           "source_name": "3News",
@@ -6712,7 +6743,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-05.41.16-984x1024.jpeg",
-      "rank": 0.2473,
+      "rank": 0.2472,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6735,7 +6766,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/02/Jacob-Anabah.jpg",
-      "rank": 0.2653,
+      "rank": 0.2651,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6758,7 +6789,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-237.png",
-      "rank": 0.2471,
+      "rank": 0.247,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6781,7 +6812,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/obuasisectech-1.jpg",
-      "rank": 0.2468,
+      "rank": 0.2467,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6804,7 +6835,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2024/03/NAGRAT.jpg",
-      "rank": 0.2648,
+      "rank": 0.2647,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6827,7 +6858,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Anaba.png",
-      "rank": 0.2645,
+      "rank": 0.2644,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6850,7 +6881,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Anaba.png",
-      "rank": 0.2645,
+      "rank": 0.2644,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6873,7 +6904,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-02 at 18.07.34-800x450.webp",
-      "rank": 0.2465,
+      "rank": 0.2464,
       "articles": [
         {
           "source_name": "3News",
@@ -6896,7 +6927,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-224-1024x576.png",
-      "rank": 0.2463,
+      "rank": 0.2462,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6919,7 +6950,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-12 at 21.53.03-600x400.webp",
-      "rank": 0.2462,
+      "rank": 0.2461,
       "articles": [
         {
           "source_name": "3News",
@@ -6942,7 +6973,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-02 at 20.24.15-600x400.webp",
-      "rank": 0.2462,
+      "rank": 0.2461,
       "articles": [
         {
           "source_name": "3News",
@@ -6965,7 +6996,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/Prof-John-Humphrey-Amuasi-1024x683.jpeg",
-      "rank": 0.2462,
+      "rank": 0.2461,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -6989,7 +7020,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/image-218-1024x579.png",
-      "rank": 0.3461,
+      "rank": 0.346,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7019,7 +7050,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-02-at-7.22.14-PM-1024x576.jpeg",
-      "rank": 0.2461,
+      "rank": 0.246,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7042,7 +7073,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-198-1024x683.png",
-      "rank": 0.2458,
+      "rank": 0.2457,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7066,7 +7097,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-11-02 at 14.28.20-800x641.webp",
-      "rank": 0.3456,
+      "rank": 0.3455,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7096,7 +7127,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-02-at-07.02.28.jpeg",
-      "rank": 0.2456,
+      "rank": 0.2455,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7119,7 +7150,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2761.png",
-      "rank": 0.2456,
+      "rank": 0.2455,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7142,7 +7173,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/image-50-1024x576.png",
-      "rank": 0.2456,
+      "rank": 0.2455,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7165,7 +7196,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/edi-1024x683.jpg",
-      "rank": 0.2635,
+      "rank": 0.2634,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7188,7 +7219,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-187-1024x473.png",
-      "rank": 0.2454,
+      "rank": 0.2453,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7211,7 +7242,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-02-at-09.30.58-1024x923.jpeg",
-      "rank": 0.2453,
+      "rank": 0.2452,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7234,7 +7265,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/images-40.jpg",
-      "rank": 0.2633,
+      "rank": 0.2632,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7257,7 +7288,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2019/06/12069406-Copy-Copy.jpg",
-      "rank": 0.2629,
+      "rank": 0.2628,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7281,7 +7312,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/IMG-20261101-WA0011-1024x682.jpg",
-      "rank": 0.3526,
+      "rank": 0.3525,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7312,7 +7343,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-7.56.06-PM-1024x576.jpeg",
-      "rank": 0.3676,
+      "rank": 0.3675,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7349,7 +7380,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-7.02.15-PM-e1793561065901.jpeg",
-      "rank": 0.2435,
+      "rank": 0.2434,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7372,7 +7403,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-18.02.59.jpeg",
-      "rank": 0.2615,
+      "rank": 0.2614,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7395,7 +7426,7 @@
         "Adom Online Education"
       ],
       "image_url": null,
-      "rank": 0.2433,
+      "rank": 0.2432,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7420,7 +7451,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://gtec.edu.gh/wp-content/uploads/2026/11/IMG_6651.JPG.jpeg",
-      "rank": 0.4612,
+      "rank": 0.4611,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7457,7 +7488,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-14.09.30-875x1024.jpeg",
-      "rank": 0.2431,
+      "rank": 0.243,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7480,7 +7511,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-01-at-10.10.22-1024x576.jpeg",
-      "rank": 0.243,
+      "rank": 0.2429,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7503,7 +7534,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Dr. Apaak-678x452.webp",
-      "rank": 0.2696,
+      "rank": 0.2695,
       "articles": [
         {
           "source_name": "3News",
@@ -7526,7 +7557,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Education-PhD-Quality-1-750x375-750x375.webp",
-      "rank": 0.2605,
+      "rank": 0.2604,
       "articles": [
         {
           "source_name": "3News",
@@ -7549,7 +7580,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-26 at 07.53.28-800x685.webp",
-      "rank": 0.2605,
+      "rank": 0.2604,
       "articles": [
         {
           "source_name": "3News",
@@ -7572,7 +7603,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/09/image-2527.png",
-      "rank": 0.2424,
+      "rank": 0.2423,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7595,7 +7626,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/ORGANIC-PLASTIC-WASTE-70-1024x683.jpg",
-      "rank": 0.2475,
+      "rank": 0.2474,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7618,7 +7649,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/ORGANIC-PLASTIC-WASTE-121-1024x683.jpg",
-      "rank": 0.2475,
+      "rank": 0.2474,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7641,7 +7672,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-31-at-21.37.04.png",
-      "rank": 0.2595,
+      "rank": 0.2594,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7664,7 +7695,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-5-2.jpeg",
-      "rank": 0.2414,
+      "rank": 0.2413,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7694,7 +7725,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/08/Prof.-Kwadwo-Appiagyei-Atua-1024x591.png",
-      "rank": 0.2414,
+      "rank": 0.2413,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7717,7 +7748,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2022/06/Dr-Kwadwo-Appiagyei-Atua.jpeg",
-      "rank": 0.2413,
+      "rank": 0.2412,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7740,7 +7771,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/IMG-20261031-WA0005-1024x768.jpg",
-      "rank": 0.2413,
+      "rank": 0.2412,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7763,7 +7794,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/bekwai-shs.png",
-      "rank": 0.2412,
+      "rank": 0.2411,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7786,7 +7817,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/07/Galamsey-1.webp",
-      "rank": 0.2407,
+      "rank": 0.2406,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7809,7 +7840,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-31 at 09.21.18 (1)-800x442.webp",
-      "rank": 0.2406,
+      "rank": 0.2405,
       "articles": [
         {
           "source_name": "3News",
@@ -7832,7 +7863,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/07/Bokpin1.jpg",
-      "rank": 0.2406,
+      "rank": 0.2405,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7878,7 +7909,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/Screenshot-2026-01-08-at-5.24.46-AM-1024x621.png",
-      "rank": 0.2398,
+      "rank": 0.2397,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7901,7 +7932,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Tony.png",
-      "rank": 0.2396,
+      "rank": 0.2395,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -7924,7 +7955,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/image-1019-1024x576.png",
-      "rank": 0.2395,
+      "rank": 0.2394,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7947,7 +7978,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-09.39.52-1024x576.jpeg",
-      "rank": 0.2575,
+      "rank": 0.2574,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -7993,7 +8024,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-16.41.13-768x1024.jpeg",
-      "rank": 0.2394,
+      "rank": 0.2393,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8016,7 +8047,7 @@
         "Ghana Tertiary Education Commission"
       ],
       "image_url": "https://gtec.edu.gh/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-18.27.00-1.jpeg",
-      "rank": 0.2572,
+      "rank": 0.2571,
       "articles": [
         {
           "source_name": "Ghana Tertiary Education Commission",
@@ -8039,7 +8070,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-30-at-11.21.08-1-1024x682.jpeg",
-      "rank": 0.239,
+      "rank": 0.2389,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8062,7 +8093,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2020/05/obinim-1-e1793379389728.jpg",
-      "rank": 0.239,
+      "rank": 0.2389,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8085,7 +8116,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-30 at 15.02.44-800x511.webp",
-      "rank": 0.239,
+      "rank": 0.2389,
       "articles": [
         {
           "source_name": "3News",
@@ -8131,7 +8162,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/864787636_1021142894332035_3909368632236841746_n-2-1024x683.jpg",
-      "rank": 0.2388,
+      "rank": 0.2387,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8155,7 +8186,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/865314763_1510545457569196_7975550782272128265_n-1024x683.jpg",
-      "rank": 0.3388,
+      "rank": 0.3387,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -8185,7 +8216,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2806-1024x683.png",
-      "rank": 0.2568,
+      "rank": 0.2567,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8208,7 +8239,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-7.13.37-PM.jpeg",
-      "rank": 0.2387,
+      "rank": 0.2386,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -8254,7 +8285,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-30 at 11.01.55 AM (1)-1200x800.webp",
-      "rank": 0.2386,
+      "rank": 0.2385,
       "articles": [
         {
           "source_name": "3News",
@@ -8277,7 +8308,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-30-at-4.30.42-AM-1024x620.png",
-      "rank": 0.238,
+      "rank": 0.2379,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8300,7 +8331,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/MMMMM-1024x768.jpeg",
-      "rank": 0.238,
+      "rank": 0.2379,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8346,7 +8377,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-21.07.06-1024x683.jpeg",
-      "rank": 0.2555,
+      "rank": 0.2554,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8392,7 +8423,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2746-819x1024.png",
-      "rank": 0.2372,
+      "rank": 0.2371,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8415,7 +8446,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2729-1024x576.png",
-      "rank": 0.2371,
+      "rank": 0.237,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8461,7 +8492,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Accra-Metro-University-1024x433.png",
-      "rank": 0.255,
+      "rank": 0.2549,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8508,7 +8539,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-08-at-14.51.58.jpeg",
-      "rank": 0.3544,
+      "rank": 0.3543,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8538,7 +8569,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/JM award-800x450.webp",
-      "rank": 0.2364,
+      "rank": 0.2363,
       "articles": [
         {
           "source_name": "3News",
@@ -8584,7 +8615,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-29-at-4.51.52-AM-1024x609.png",
-      "rank": 0.2363,
+      "rank": 0.2362,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8630,7 +8661,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2021/06/free-shs.jpg",
-      "rank": 0.2542,
+      "rank": 0.2541,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8653,7 +8684,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/06/university-of-ghana.jpg",
-      "rank": 0.2357,
+      "rank": 0.2356,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -8699,7 +8730,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-28 at 16.29.30-800x534.webp",
-      "rank": 0.2535,
+      "rank": 0.2534,
       "articles": [
         {
           "source_name": "3News",
@@ -8745,7 +8776,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-07.34.27-1024x454.jpeg",
-      "rank": 0.2353,
+      "rank": 0.2352,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -8791,7 +8822,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/870827076_1810434733513324_7438935277960477914_n-1024x683.jpg",
-      "rank": 0.2343,
+      "rank": 0.2342,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8837,7 +8868,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-15.12.38-1024x605.jpeg",
-      "rank": 0.2341,
+      "rank": 0.234,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8860,7 +8891,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-19.52.46-768x1024.jpeg",
-      "rank": 0.2341,
+      "rank": 0.234,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8883,7 +8914,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-30-1.jpg",
-      "rank": 0.2341,
+      "rank": 0.234,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8906,7 +8937,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-17.25.44-768x1024.jpeg",
-      "rank": 0.234,
+      "rank": 0.2339,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8936,7 +8967,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-13.26.28-1024x581.jpeg",
-      "rank": 0.234,
+      "rank": 0.2339,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -8959,7 +8990,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-27 at 17.28.50-600x400.webp",
-      "rank": 0.234,
+      "rank": 0.2339,
       "articles": [
         {
           "source_name": "3News",
@@ -8982,7 +9013,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/image_2026-10-27_163419041.png",
-      "rank": 0.2339,
+      "rank": 0.2338,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -9006,7 +9037,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2024/04/GES-office-750x375-Copy.jpg",
-      "rank": 0.3519,
+      "rank": 0.3518,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9036,7 +9067,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-142452-1-1024x539.png",
-      "rank": 0.2339,
+      "rank": 0.2338,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9059,7 +9090,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2025/11/IMG_2304-683x1024.jpg",
-      "rank": 0.2339,
+      "rank": 0.2338,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -9128,7 +9159,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-06.42.58-1024x576.jpeg",
-      "rank": 0.2518,
+      "rank": 0.2517,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -9151,7 +9182,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-27-at-1.51.16-PM1-1024x760.jpeg",
-      "rank": 0.2338,
+      "rank": 0.2337,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9174,7 +9205,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/853566758_1794412805037865_4311765064490957821_n-594x424-1.jpeg",
-      "rank": 0.2337,
+      "rank": 0.2336,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -9243,7 +9274,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/07/image-2351.png",
-      "rank": 0.2336,
+      "rank": 0.2335,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9267,7 +9298,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-24-at-16.46.35-3-1024x869.jpeg",
-      "rank": 0.3335,
+      "rank": 0.3334,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9320,7 +9351,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/03/Haruna-Iddrisu.jpg",
-      "rank": 0.2334,
+      "rank": 0.2333,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9343,7 +9374,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/06/university-of-ghana.jpg",
-      "rank": 0.2514,
+      "rank": 0.2513,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -9366,7 +9397,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-27-at-4.37.32-AM-1024x619.png",
-      "rank": 0.2512,
+      "rank": 0.2511,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9412,7 +9443,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Obuasi-SHTS.jpg",
-      "rank": 0.2331,
+      "rank": 0.233,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9535,7 +9566,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG-20261026-WA0013-1024x683.jpg",
-      "rank": 0.2507,
+      "rank": 0.2506,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9558,7 +9589,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-26-at-19.31.31-1024x556.jpeg",
-      "rank": 0.2327,
+      "rank": 0.2326,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9581,7 +9612,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-26-at-19.32.54-1024x682.jpeg",
-      "rank": 0.2327,
+      "rank": 0.2326,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9627,7 +9658,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-26 at 17.51.23-800x487.webp",
-      "rank": 0.2326,
+      "rank": 0.2325,
       "articles": [
         {
           "source_name": "3News",
@@ -9681,7 +9712,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2024/12/Joe-Mettle-smile.jpg",
-      "rank": 0.2325,
+      "rank": 0.2324,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9704,7 +9735,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-26 at 14.12.59-1200x471.webp",
-      "rank": 0.2505,
+      "rank": 0.2504,
       "articles": [
         {
           "source_name": "3News",
@@ -9727,7 +9758,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-5.56.10-AM.jpeg",
-      "rank": 0.2325,
+      "rank": 0.2324,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -9750,7 +9781,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-26-at-16.25.22-1024x576.jpeg",
-      "rank": 0.2325,
+      "rank": 0.2324,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9773,7 +9804,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/yt-ennQARp1vmI-1200x675.webp",
-      "rank": 0.2505,
+      "rank": 0.2504,
       "articles": [
         {
           "source_name": "3News",
@@ -9796,7 +9827,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/obuasi-shts-we-intend-to-deploy-.jpg",
-      "rank": 0.2325,
+      "rank": 0.2324,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -9911,7 +9942,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2459-1024x548.png",
-      "rank": 0.2324,
+      "rank": 0.2323,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9941,7 +9972,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2458-1024x469.png",
-      "rank": 0.2324,
+      "rank": 0.2323,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -9964,7 +9995,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2451-1024x628.png",
-      "rank": 0.2324,
+      "rank": 0.2323,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10102,7 +10133,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2401-1024x576.png",
-      "rank": 0.2322,
+      "rank": 0.2321,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10171,7 +10202,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Npp.jpeg",
-      "rank": 0.232,
+      "rank": 0.2319,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10225,7 +10256,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-5.05.25-AM-1024x610.png",
-      "rank": 0.2319,
+      "rank": 0.2318,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10248,7 +10279,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Josephine-Oppong-Yeboah_2026.png",
-      "rank": 0.2499,
+      "rank": 0.2498,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10294,7 +10325,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2359.png",
-      "rank": 0.2317,
+      "rank": 0.2316,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10340,7 +10371,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/f0e01c1b-b185-4fc8-b169-b7d187e946f6-1024x596.jpeg",
-      "rank": 0.2311,
+      "rank": 0.231,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10370,7 +10401,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Essiama SHS  accomodation crisis-1200x653.webp",
-      "rank": 0.231,
+      "rank": 0.2309,
       "articles": [
         {
           "source_name": "3News",
@@ -10393,7 +10424,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/safeimagekit-safeimagekit-Dr Seidu Moomin, Council Secretary of the fund-1200x675.webp",
-      "rank": 0.231,
+      "rank": 0.2309,
       "articles": [
         {
           "source_name": "3News",
@@ -10416,7 +10447,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-25-at-11.11.49-AM.jpeg",
-      "rank": 0.2309,
+      "rank": 0.2308,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10439,7 +10470,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Elder Clark G. Gilbert, a member of the Quorum of the Twelve Apostles of The Church of Jesus Christ addressing the youth at BYU Pathway conferen (4)-1200x800.webp",
-      "rank": 0.2489,
+      "rank": 0.2488,
       "articles": [
         {
           "source_name": "3News",
@@ -10531,7 +10562,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Convener-for-Network-for-Womens-Rights-NETRIGHT-Prof-Akosua-A-Adarkwa-.png",
-      "rank": 0.2298,
+      "rank": 0.2297,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10554,7 +10585,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-51-1024x576.png",
-      "rank": 0.2298,
+      "rank": 0.2297,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10577,7 +10608,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-56-1024x576.png",
-      "rank": 0.2298,
+      "rank": 0.2297,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10600,7 +10631,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/9d657e47-4ab0-435b-a808-cb77b66d70bf-1200x900.webp",
-      "rank": 0.2298,
+      "rank": 0.2297,
       "articles": [
         {
           "source_name": "3News",
@@ -10692,7 +10723,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-10-24 at 09.55.26-800x759.webp",
-      "rank": 0.2477,
+      "rank": 0.2476,
       "articles": [
         {
           "source_name": "3News",
@@ -10715,7 +10746,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Obuasi-SHTS.jpg",
-      "rank": 0.2297,
+      "rank": 0.2296,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10738,7 +10769,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-26-1024x576.png",
-      "rank": 0.2297,
+      "rank": 0.2296,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10761,7 +10792,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-41-e1792836469590-1024x515.png",
-      "rank": 0.2297,
+      "rank": 0.2296,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10830,7 +10861,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/live-newsfile-24-10-26-obuasi-sh.jpg",
-      "rank": 0.2296,
+      "rank": 0.2295,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -10967,7 +10998,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/safeimagekit-kofi gapson-1200x675.webp",
-      "rank": 0.247,
+      "rank": 0.2469,
       "articles": [
         {
           "source_name": "3News",
@@ -10991,7 +11022,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-08-at-14.51.58.jpeg",
-      "rank": 0.329,
+      "rank": 0.3289,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11075,7 +11106,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-23-at-18.08.55-1.jpeg",
-      "rank": 0.2289,
+      "rank": 0.2288,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11098,7 +11129,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2289-1024x576.png",
-      "rank": 0.2289,
+      "rank": 0.2288,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11122,7 +11153,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/images-1.jpg",
-      "rank": 0.3288,
+      "rank": 0.3287,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11152,7 +11183,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/03/Jail-e1786146732936.png",
-      "rank": 0.2288,
+      "rank": 0.2287,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11223,7 +11254,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1-86-683x1024.jpg",
-      "rank": 0.4467,
+      "rank": 0.4466,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11267,7 +11298,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2275.png",
-      "rank": 0.2287,
+      "rank": 0.2286,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11290,7 +11321,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-23-112153.png",
-      "rank": 0.2287,
+      "rank": 0.2286,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11389,7 +11420,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-23-at-5.19.52-AM-1024x615.png",
-      "rank": 0.2284,
+      "rank": 0.2283,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11481,7 +11512,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2020/05/obinim-1.jpg",
-      "rank": 0.2281,
+      "rank": 0.228,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11506,7 +11537,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/Obuasi SecTec-720x378.webp",
-      "rank": 0.446,
+      "rank": 0.4459,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11589,7 +11620,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-15-6.jpg",
-      "rank": 0.2279,
+      "rank": 0.2278,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11612,7 +11643,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Daniel-Nortey.png",
-      "rank": 0.2279,
+      "rank": 0.2278,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11727,7 +11758,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2025/10/Veep.png",
-      "rank": 0.2278,
+      "rank": 0.2277,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -11750,7 +11781,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/image-2026-10-20T050447.153.jpg",
-      "rank": 0.2278,
+      "rank": 0.2277,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -11773,7 +11804,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-162334.png",
-      "rank": 0.2278,
+      "rank": 0.2277,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11950,7 +11981,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Michael_Akagbor.png",
-      "rank": 0.2456,
+      "rank": 0.2455,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -11973,7 +12004,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/images-1.jpg",
-      "rank": 0.2456,
+      "rank": 0.2455,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -11996,7 +12027,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2197.png",
-      "rank": 0.2276,
+      "rank": 0.2275,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -12157,7 +12188,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-19.38.33-1024x819.jpeg",
-      "rank": 0.227,
+      "rank": 0.2269,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -12249,7 +12280,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1343-1024x517.png",
-      "rank": 0.2269,
+      "rank": 0.2268,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -12350,7 +12381,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/image_2026-10-20_202919900.png",
-      "rank": 0.3448,
+      "rank": 0.3447,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -12541,7 +12572,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-15-5.jpg",
-      "rank": 0.2267,
+      "rank": 0.2266,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -12565,7 +12596,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2025/12/image_2025-12-15_055754204.png",
-      "rank": 0.3267,
+      "rank": 0.3266,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -12596,7 +12627,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2107-1024x683.png",
-      "rank": 0.3267,
+      "rank": 0.3266,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -12718,7 +12749,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/clement apaak-800x793.webp",
-      "rank": 0.2446,
+      "rank": 0.2445,
       "articles": [
         {
           "source_name": "3News",
@@ -12741,7 +12772,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/05/image-558.png",
-      "rank": 0.2446,
+      "rank": 0.2445,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -12787,7 +12818,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1015202640045-m5htk8v331-mg-1.webp",
-      "rank": 0.2265,
+      "rank": 0.2264,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -12833,7 +12864,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/the-lack-of-formal-safeguarding-.jpg",
-      "rank": 0.2264,
+      "rank": 0.2263,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -12948,7 +12979,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/there-is-no-enabling-environment.jpg",
-      "rank": 0.2263,
+      "rank": 0.2262,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -12971,7 +13002,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/the-ghana-education-service-has-1-1.jpg",
-      "rank": 0.2263,
+      "rank": 0.2262,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -12994,7 +13025,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2049-1024x576.png",
-      "rank": 0.2263,
+      "rank": 0.2262,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13109,7 +13140,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-15.31.05-683x1024.jpeg",
-      "rank": 0.2261,
+      "rank": 0.226,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13132,7 +13163,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/court verdict.jpg",
-      "rank": 0.2261,
+      "rank": 0.226,
       "articles": [
         {
           "source_name": "3News",
@@ -13287,7 +13318,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-12.22.33-1024x731.jpeg",
-      "rank": 0.326,
+      "rank": 0.3259,
       "articles": [
         {
           "source_name": "3News",
@@ -13517,7 +13548,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/20261020_121133-1024x1024.jpg",
-      "rank": 0.2439,
+      "rank": 0.2438,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13540,7 +13571,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-2-2.png",
-      "rank": 0.2259,
+      "rank": 0.2258,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13563,7 +13594,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/IMG_0735-1024x683.jpeg",
-      "rank": 0.2439,
+      "rank": 0.2438,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13586,7 +13617,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-15-2.jpg",
-      "rank": 0.2259,
+      "rank": 0.2258,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13609,7 +13640,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/525x350fred-swaniker-e1792506915122.png",
-      "rank": 0.2259,
+      "rank": 0.2258,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13756,7 +13787,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1015202640045-m5htk8v331-mg-1.webp",
-      "rank": 0.2258,
+      "rank": 0.2257,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13779,7 +13810,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/WhatsApp Image 2026-05-13 at 15.27.32.jpg",
-      "rank": 0.2258,
+      "rank": 0.2257,
       "articles": [
         {
           "source_name": "3News",
@@ -13803,7 +13834,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/DC Cha-800x504.webp",
-      "rank": 0.3258,
+      "rank": 0.3257,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13833,7 +13864,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2009-1024x576.png",
-      "rank": 0.2258,
+      "rank": 0.2257,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13856,7 +13887,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/images-22-678x452.webp",
-      "rank": 0.2438,
+      "rank": 0.2437,
       "articles": [
         {
           "source_name": "3News",
@@ -13879,7 +13910,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2003-1024x768.png",
-      "rank": 0.2258,
+      "rank": 0.2257,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13926,7 +13957,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/obuasi-shts-rped-silenced-with-g-1-1024x576.jpg",
-      "rank": 0.3257,
+      "rank": 0.3256,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13956,7 +13987,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/RISE-Ghana.png",
-      "rank": 0.2437,
+      "rank": 0.2436,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -13979,7 +14010,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2020/11/Ghana-Education-Service-GES.png",
-      "rank": 0.2437,
+      "rank": 0.2436,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -14009,7 +14040,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1019202613606-h41o266fea-1019202611428-zakaria-abdulai-1.jpg",
-      "rank": 0.2437,
+      "rank": 0.2436,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -14079,7 +14110,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/05/image-558.png",
-      "rank": 0.3436,
+      "rank": 0.3435,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -14109,7 +14140,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Screenshot 2026-10-20 at 6.39.44 AM-1200x967.webp",
-      "rank": 0.2256,
+      "rank": 0.2255,
       "articles": [
         {
           "source_name": "3News",
@@ -14132,7 +14163,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-25-at-07.27.33-1024x576.jpeg",
-      "rank": 0.2436,
+      "rank": 0.2435,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -14316,7 +14347,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/obuasisectech-1.jpg",
-      "rank": 0.2253,
+      "rank": 0.2252,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -14339,7 +14370,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/the-ndc-is-very-committed-to-the.jpg",
-      "rank": 0.2253,
+      "rank": 0.2252,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -14408,7 +14439,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/images-11-1.jpg",
-      "rank": 0.2432,
+      "rank": 0.2431,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -14432,7 +14463,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-5.56.10-AM.jpeg",
-      "rank": 0.3252,
+      "rank": 0.3251,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -14463,7 +14494,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/inside-the-dreaded-headmasters-b-4-1024x576.jpg",
-      "rank": 0.3252,
+      "rank": 0.3251,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -14677,7 +14708,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-19-at-12.54.32-PM-1024x777.jpeg",
-      "rank": 0.2251,
+      "rank": 0.225,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -14815,7 +14846,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Dr-Jerry-Joe-Harrison.jpg",
-      "rank": 0.225,
+      "rank": 0.2249,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -14976,7 +15007,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/inside-the-dreaded-headmasters-b.jpg",
-      "rank": 0.2248,
+      "rank": 0.2247,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -15000,7 +15031,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/06/image-863.png",
-      "rank": 0.3248,
+      "rank": 0.3247,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -15076,7 +15107,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1343-1024x517.png",
-      "rank": 0.2245,
+      "rank": 0.2244,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -15099,7 +15130,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/ndc-gives-obuasi-shts-headmaster.jpg",
-      "rank": 0.2245,
+      "rank": 0.2244,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -15375,7 +15406,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/Screenshot-2026-01-05-at-07.25.38-1024x578.png",
-      "rank": 0.2236,
+      "rank": 0.2235,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -15398,7 +15429,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/09/image-1914-e1758627398358.png",
-      "rank": 0.2236,
+      "rank": 0.2235,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -15467,7 +15498,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1-68-e1792250312462-1024x704.jpg",
-      "rank": 0.2235,
+      "rank": 0.2234,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -15582,7 +15613,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-16-at-22.01.42-1024x1024.jpeg",
-      "rank": 0.223,
+      "rank": 0.2229,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -15682,7 +15713,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1655-1024x576.png",
-      "rank": 0.2409,
+      "rank": 0.2408,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -15827,7 +15858,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/IMG_3797.jpg-1024x683.jpeg",
-      "rank": 0.2408,
+      "rank": 0.2407,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -16226,7 +16257,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-19.38.52-1024x628.jpeg",
-      "rank": 0.2223,
+      "rank": 0.2222,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -16249,7 +16280,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Dr Angsongna B-800x920.webp",
-      "rank": 0.2223,
+      "rank": 0.2222,
       "articles": [
         {
           "source_name": "3News",
@@ -16273,7 +16304,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/images-1.jpg",
-      "rank": 0.3223,
+      "rank": 0.3222,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -16310,7 +16341,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1551-1024x576.png",
-      "rank": 0.2223,
+      "rank": 0.2222,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -16579,7 +16610,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/akosua-achiaa-sarpong-esq-reveal-1.jpg",
-      "rank": 0.2222,
+      "rank": 0.2221,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -16602,7 +16633,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/akosua-achiaa-sarpong-esq-reveal.jpg",
-      "rank": 0.2222,
+      "rank": 0.2221,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -16816,7 +16847,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1343-839x424-3.webp",
-      "rank": 0.2221,
+      "rank": 0.222,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -16839,7 +16870,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-1.40.19-pm-1024x636.png",
-      "rank": 0.2221,
+      "rank": 0.222,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -16862,7 +16893,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/DSC00299-joy-header.JPG-1024x683.jpeg",
-      "rank": 0.2281,
+      "rank": 0.228,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -16885,7 +16916,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-05-at-04.10.07-683x1024.jpeg",
-      "rank": 0.2221,
+      "rank": 0.222,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -16908,7 +16939,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Pay-attention-to-teachers-and-give-them-what-is-due-Ho-District-GNAT-tells-government-3-1024x576.png",
-      "rank": 0.2401,
+      "rank": 0.24,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -16931,7 +16962,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1343-839x424-2.webp",
-      "rank": 0.2221,
+      "rank": 0.222,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -16954,7 +16985,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1517-1024x795.png",
-      "rank": 0.2221,
+      "rank": 0.222,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -17000,7 +17031,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/CTX7073.jpg",
-      "rank": 0.222,
+      "rank": 0.2219,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -17261,7 +17292,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1446.png",
-      "rank": 0.2216,
+      "rank": 0.2215,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -17284,7 +17315,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-02-at-5.56.10-AM.jpeg",
-      "rank": 0.2216,
+      "rank": 0.2215,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -17470,7 +17501,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/03/7646c2d3-ade3-403c-a988-79f86601542f-1024x573.jpg",
-      "rank": 0.4275,
+      "rank": 0.4274,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -17528,7 +17559,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/08/Knust.jpg",
-      "rank": 0.2215,
+      "rank": 0.2214,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -17551,7 +17582,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-09.31.03-1-1-1024x640.jpeg",
-      "rank": 0.2395,
+      "rank": 0.2394,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -17574,7 +17605,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1343-839x424-1.webp",
-      "rank": 0.2215,
+      "rank": 0.2214,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -17597,7 +17628,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2025/04/ZUWERA_MOHAMMED_IBRAHIMAH_top.jpg",
-      "rank": 0.2215,
+      "rank": 0.2214,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -17643,7 +17674,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/08/image-2026-08-07T042641.024.jpg",
-      "rank": 0.2214,
+      "rank": 0.2213,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -18436,7 +18467,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://media.3news.com/safeimagekit-Obuasi Snr High Tech School-1200x675.webp",
-      "rank": 0.321,
+      "rank": 0.3209,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -18535,7 +18566,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1311-1024x569.png",
-      "rank": 0.2269,
+      "rank": 0.2268,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -18558,7 +18589,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1297.png",
-      "rank": 0.2209,
+      "rank": 0.2208,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -18627,7 +18658,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/06/image-795-1024x731.png",
-      "rank": 0.2208,
+      "rank": 0.2207,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -18650,7 +18681,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2020/11/Ghana-Education-Service-GES.png",
-      "rank": 0.2388,
+      "rank": 0.2387,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -18673,7 +18704,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Haruna-Iddrisu-1.jpeg",
-      "rank": 0.2388,
+      "rank": 0.2387,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -18980,7 +19011,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1221-1024x732.png",
-      "rank": 0.2204,
+      "rank": 0.2203,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -19003,7 +19034,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-174349.png",
-      "rank": 0.2384,
+      "rank": 0.2383,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -19233,7 +19264,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-10.51.52-682x1024.jpeg",
-      "rank": 0.2383,
+      "rank": 0.2382,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -19417,7 +19448,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/02/Teachers.avif",
-      "rank": 0.2201,
+      "rank": 0.22,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -19532,7 +19563,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/BCI.jpg",
-      "rank": 0.2196,
+      "rank": 0.2195,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -19624,7 +19655,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1063.png",
-      "rank": 0.2193,
+      "rank": 0.2192,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -19740,7 +19771,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2022/08/University-of-Ghana-Legon-646x424-Copy.jpg",
-      "rank": 0.3192,
+      "rank": 0.3191,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -19938,7 +19969,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/03/strike_1540x1050-696x475-1-621x424-1.jpg",
-      "rank": 0.2369,
+      "rank": 0.2368,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -20184,7 +20215,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-10.39.26-pm.png",
-      "rank": 0.2364,
+      "rank": 0.2363,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -20399,7 +20430,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/02/Teachers.avif",
-      "rank": 0.2183,
+      "rank": 0.2182,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -20422,7 +20453,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-871-1024x768.png",
-      "rank": 0.2183,
+      "rank": 0.2182,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -20445,7 +20476,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-857.png",
-      "rank": 0.2363,
+      "rank": 0.2362,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -20614,7 +20645,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/06/free-shs-1-750x375-1.jpeg",
-      "rank": 0.236,
+      "rank": 0.2359,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -20637,7 +20668,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/imagesss.jpg",
-      "rank": 0.218,
+      "rank": 0.2179,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -20660,7 +20691,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-7-1024x1024.jpeg",
-      "rank": 0.218,
+      "rank": 0.2179,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -20760,7 +20791,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Haruna Iddrisu-800x483.webp",
-      "rank": 0.2179,
+      "rank": 0.2178,
       "articles": [
         {
           "source_name": "3News",
@@ -20997,7 +21028,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/5-4-1024x768.jpg",
-      "rank": 0.2238,
+      "rank": 0.2237,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -21319,7 +21350,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Adanwomase-SHS-boys.jpg",
-      "rank": 0.2175,
+      "rank": 0.2174,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -21342,7 +21373,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/1-26-1024x742.jpg",
-      "rank": 0.1935,
+      "rank": 0.1934,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -21365,7 +21396,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/839594689_2733774290371088_4329097266163868572_n-1024x683.jpg",
-      "rank": 0.2175,
+      "rank": 0.2174,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -21388,7 +21419,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2024/03/NAGRAT-1024x585.jpg",
-      "rank": 0.2355,
+      "rank": 0.2354,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -21664,7 +21695,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2022/11/strike_1540x1050-1024x698.jpg",
-      "rank": 0.1934,
+      "rank": 0.1933,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -21687,7 +21718,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/10/TUTAG.jpg",
-      "rank": 0.2174,
+      "rank": 0.2173,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -21710,7 +21741,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-563-1024x576.png",
-      "rank": 0.2174,
+      "rank": 0.2173,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -21887,7 +21918,7 @@
         "MyJoyOnline Education"
       ],
       "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/01/teachers.jpg",
-      "rank": 0.2172,
+      "rank": 0.2171,
       "articles": [
         {
           "source_name": "MyJoyOnline Education",
@@ -22025,7 +22056,7 @@
         "3News"
       ],
       "image_url": "https://media.3news.com/Togbe-Afede-XIV-speaks-GFA-800x480.webp",
-      "rank": 0.2171,
+      "rank": 0.217,
       "articles": [
         {
           "source_name": "3News",
@@ -22209,7 +22240,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/news.jpg",
-      "rank": 0.2153,
+      "rank": 0.2152,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -22232,7 +22263,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-9.59.22-PM-1024x768.jpeg",
-      "rank": 0.2153,
+      "rank": 0.2152,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -22485,7 +22516,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2026/09/Education-Deaf-Learners-Language-1-565x424-1.jpg",
-      "rank": 0.2324,
+      "rank": 0.2323,
       "articles": [
         {
           "source_name": "Adom Online Education",
@@ -22600,7 +22631,7 @@
         "Adom Online Education"
       ],
       "image_url": "https://www.adomonline.com/wp-content/uploads/2020/11/1126201915229-h40o2s6fey-school-feeding-Copy.jpg",
-      "rank": 0.2319,
+      "rank": 0.2318,
       "articles": [
         {
           "source_name": "Adom Online Education",
