@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T21:10:11Z",
+  "generated_at": "2026-11-18T21:40:31Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 246
+      "story_count": 247
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 929,
+      "title": "Brifoh SHS gets new dining hall, headmaster’s bungalow after MP’s intervention",
+      "summary": "Work is progressing steadily on two major projects at Brifoh Senior High School in the Lawra Municipality, following lobbying by the Member of Parliament for the area, Bede Anwotaazuma Ziedeng.",
+      "category": "basic_schools",
+      "published_at": "2026-11-18T21:09:34Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-19.37.23-1024x576.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Brifoh SHS gets new dining hall, headmaster’s bungalow after MP’s intervention",
+          "url": "https://www.myjoyonline.com/brifoh-shs-gets-new-dining-hall-headmasters-bungalow-after-mps-intervention/",
+          "published_at": "2026-11-18T21:09:34Z",
+          "excerpt": "Work is progressing steadily on two major projects at Brifoh Senior High School in the Lawra Municipality, following lobbying by the Member of Parliament for the area, Bede Anwotaazuma Ziedeng."
+        }
+      ],
+      "path": "story/929/brifoh-shs-gets-new-dining-hall-headmasters-bungalow-after-mps-intervention/"
+    },
     {
       "id": 928,
       "title": "Eastern Region: 85 visually impaired students receive digital skills training",
