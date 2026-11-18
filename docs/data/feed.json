@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-18T11:10:21Z",
+  "generated_at": "2026-11-18T11:40:21Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 253
+      "story_count": 255
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 909,
+      "title": "We do not fall under the Rent Act; hostel occupants are not tenants – UGEL Chief Officer",
+      "summary": "The Chief Executive Officer of the University of Ghana Enterprise Limited (UGEL), Yawo Agbesi, has argued that the university's hostel facilities do not fall under the Rent Act of the Rent Control Commission of the Ministry of Works, Housing and Water Resources because students who occupy them are not tenants.",
+      "category": "higher_education",
+      "published_at": "2026-11-18T11:19:26Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/1-3-e1795000717396.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "We do not fall under the Rent Act; hostel occupants are not tenants – UGEL Chief Officer",
+          "url": "https://www.myjoyonline.com/we-do-not-fall-under-rent-act-hostel-occupants-are-not-tenants-ugel-chief-officer/",
+          "published_at": "2026-11-18T11:19:26Z",
+          "excerpt": "The Chief Executive Officer of the University of Ghana Enterprise Limited (UGEL), Yawo Agbesi, has argued that the university's hostel facilities do not fall under the Rent Act of the Rent Control Commission of the Ministry of Works, Housing and Water Resources because students who occupy them are not tenants."
+        }
+      ],
+      "path": "story/909/we-do-not-fall-under-the-rent-act-hostel-occupants-are-not-tenants-ugel-chief/"
+    },
+    {
+      "id": 908,
+      "title": "UGEL to seek court interpretation of Rent Act’s applicability to university hostels",
+      "summary": "The University of Ghana Enterprise Limited (UGEL) is preparing to take the Rent Control Commission to court to seek an interpretation of the Rent Act and establish whether university hostels fall under the law.",
+      "category": "higher_education",
+      "published_at": "2026-11-18T11:13:25Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-7.34.04-AM.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "UGEL to seek court interpretation of Rent Act’s applicability to university hostels",
+          "url": "https://www.myjoyonline.com/ugel-to-seek-court-interpretation-of-rent-acts-applicability-to-university-hostels/",
+          "published_at": "2026-11-18T11:13:25Z",
+          "excerpt": "The University of Ghana Enterprise Limited (UGEL) is preparing to take the Rent Control Commission to court to seek an interpretation of the Rent Act and establish whether university hostels fall under the law."
+        }
+      ],
+      "path": "story/908/ugel-to-seek-court-interpretation-of-rent-acts-applicability-to-university/"
+    },
     {
       "id": 907,
       "title": "From Mfantsipim at 9 to university at 12: The story of Diamond Lucas",
