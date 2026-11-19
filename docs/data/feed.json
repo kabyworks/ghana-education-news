@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-19T16:11:15Z",
+  "generated_at": "2026-11-19T16:41:03Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 276
+      "story_count": 278
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 948,
+      "title": "Dr. Hilla Limann Technical University matriculates 3,562 students for 2026/2027 academic year",
+      "summary": "The Dr. Hilla Limann Technical University has held its 7th Matriculation Ceremony for newly admitted students for the 2026/2027 academic year.",
+      "category": "higher_education",
+      "published_at": "2026-11-19T16:17:57Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-19-at-11.30.37-1024x768.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Dr. Hilla Limann Technical University matriculates 3,562 students for 2026/2027 academic year",
+          "url": "https://www.myjoyonline.com/dr-hilla-limann-technical-university-matriculates-3562-students-for-2026-2027-academic-year/",
+          "published_at": "2026-11-19T16:17:57Z",
+          "excerpt": "The Dr. Hilla Limann Technical University has held its 7th Matriculation Ceremony for newly admitted students for the 2026/2027 academic year."
+        }
+      ],
+      "path": "story/948/dr-hilla-limann-technical-university-matriculates-3-562-students-for-2026-2027/"
+    },
+    {
+      "id": 947,
+      "title": "University of Ghana admits concerns over UGEL hostel conditions, says phased renovations underway",
+      "summary": "The University of Ghana has acknowledged concerns about the condition of some residential facilities managed by the University of Ghana Enterprise Limited (UGEL), saying renovation works have started and will be carried out in phases.",
+      "category": "higher_education",
+      "published_at": "2026-11-19T16:10:01Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/images-5-4.jpeg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "University of Ghana admits concerns over UGEL hostel conditions, says phased renovations underway",
+          "url": "https://www.myjoyonline.com/university-of-ghana-admits-concerns-over-ugel-hostel-conditions-says-phased-renovations-underway/",
+          "published_at": "2026-11-19T16:10:01Z",
+          "excerpt": "The University of Ghana has acknowledged concerns about the condition of some residential facilities managed by the University of Ghana Enterprise Limited (UGEL), saying renovation works have started and will be carried out in phases. In a statement signed by Registrar Michael Opare Atuah, management said it took complaints about sanitation, maintenance and other deficiencies seriously, stressing that students deserved safe, decent and well-maintained accommodation. “Plans are in place and renovation has already started; this is being done in phases,” the statement said. The university explained that major rehabilitation works were traditionally undertaken during the long vacation, when the halls were largely unoccupied. However, it said recent changes to the academic calendar had shortened vacation periods, reducing the time available for extensive maintenance and construction."
+        }
+      ],
+      "path": "story/947/university-of-ghana-admits-concerns-over-ugel-hostel-conditions-says-phased/"
+    },
     {
       "id": 946,
       "title": "KNUST teams win top honours at 2026 Next Generation Digital Action programme in Denmark",
