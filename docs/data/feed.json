@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-19T01:10:06Z",
+  "generated_at": "2026-11-19T01:40:07Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 267
+      "story_count": 269
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 932,
+      "title": "Restoring Acheampong’s General rank would legitimise coup – Bomfeh",
+      "summary": "A senior lecturer at the University of Professional Studies, Accra (UPSA), Dr James Kwabena Bomfeh, has cautioned against efforts to reinstate the military rank of former Head of State General Ignatius Kutu Acheampong posthumously, arguing that it could give official recognition to a title he acquired after overthro...",
+      "category": "higher_education",
+      "published_at": "2026-11-18T23:04:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/79871864.jpg",
+      "rank": 0.721,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Restoring Acheampong’s General rank would legitimise coup – Bomfeh",
+          "url": "https://www.myjoyonline.com/restoring-acheampongs-general-rank-would-legitimise-coup-bomfeh/",
+          "published_at": "2026-11-18T23:04:00Z",
+          "excerpt": "A senior lecturer at the University of Professional Studies, Accra (UPSA), Dr James Kwabena Bomfeh, has cautioned against efforts to reinstate the military rank of former Head of State General Ignatius Kutu Acheampong posthumously, arguing that it could give official recognition to a title he acquired after overthrowing an elected government."
+        }
+      ],
+      "path": "story/932/restoring-acheampongs-general-rank-would-legitimise-coup-bomfeh/"
+    },
+    {
+      "id": 931,
+      "title": "Acheampong inherited housing, agriculture plans – Bomfeh",
+      "summary": "A Senior Lecturer at the University of Professional Studies, Accra (UPSA), Dr James Kwabena Bomfeh has challenged the attribution of some major development projects to the regime of former Head of State General Ignatius Kutu Acheampong, arguing that the administration built on initiatives conceived by earlier govern...",
+      "category": "higher_education",
+      "published_at": "2026-11-18T22:44:00Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/03/Screenshot-2026-03-30-at-8.35.38-AM-1024x595.png",
+      "rank": 0.7164,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Acheampong inherited housing, agriculture plans – Bomfeh",
+          "url": "https://www.myjoyonline.com/acheampong-inherited-housing-agriculture-plans-bomfeh/",
+          "published_at": "2026-11-18T22:44:00Z",
+          "excerpt": "A Senior Lecturer at the University of Professional Studies, Accra (UPSA), Dr James Kwabena Bomfeh has challenged the attribution of some major development projects to the regime of former Head of State General Ignatius Kutu Acheampong, arguing that the administration built on initiatives conceived by earlier governments."
+        }
+      ],
+      "path": "story/931/acheampong-inherited-housing-agriculture-plans-bomfeh/"
+    },
     {
       "id": 930,
       "title": "COPTI calls for stronger TVET-industry partnerships to drive Ghana’s industrial future",
