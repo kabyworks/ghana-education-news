@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-19T15:10:21Z",
+  "generated_at": "2026-11-19T15:45:03Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 274
+      "story_count": 275
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 945,
+      "title": "UG reduces proposed UGEL hostel fee increase from 26% to 15% after student consultations",
+      "summary": "The University of Ghana has reduced its proposed fee increase for standard four-bed rooms in its UGEL-managed halls from 26% to 15% for the 2026/2027 academic year following consultations with student leadership.",
+      "category": "higher_education",
+      "published_at": "2026-11-19T15:39:01Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/images-4-5.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "UG reduces proposed UGEL hostel fee increase from 26% to 15% after student consultations",
+          "url": "https://www.myjoyonline.com/ug-reduces-proposed-ugel-hostel-fee-increase-from-26-to-15-after-student-consultations/",
+          "published_at": "2026-11-19T15:39:01Z",
+          "excerpt": "The University of Ghana has reduced its proposed fee increase for standard four-bed rooms in its UGEL-managed halls from 26% to 15% for the 2026/2027 academic year following consultations with student leadership. In a statement signed by Registrar Michael Opare Atuah on Thursday, November 19, 2026, the university said the revised rate brings the annual accommodation fee in the four Diaspora halls to GH¢8,050 per student, up from GH¢7,000. Management said the adjustment followed engagement with student representatives and was intended to address concerns over the proposed increase while ensuring the financial sustainability of the accommodation facilities. The university explained that, unlike traditional halls, several UGEL residential facilities were constructed using commercial loans secured to expand student accommodation at a time when public funding was inadequate."
+        }
+      ],
+      "path": "story/945/ug-reduces-proposed-ugel-hostel-fee-increase-from-26-to-15-after-student/"
+    },
     {
       "id": 944,
       "title": "Bolt steps up ride-hailing safety education in Ghana ahead of festive season",
