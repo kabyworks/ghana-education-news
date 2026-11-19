@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-19T19:10:21Z",
+  "generated_at": "2026-11-19T19:40:44Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 278
+      "story_count": 279
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 951,
+      "title": "University of Ghana regrets UGEL's clash with Rent Control officers, orders review",
+      "summary": "UG says the UGEL–Rent Control hostel clash will be reviewed, defends the GH¢8,050 fee and admits some halls need repairs.",
+      "category": "higher_education",
+      "published_at": "2026-11-19T19:10:24Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/onuaonline-592f540897b4e4e81ff213f7fd68d0db-800x431.webp",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "University of Ghana regrets UGEL's clash with Rent Control officers, orders review",
+          "url": "https://3news.com/news/education/ug-apologises-ugel-rent-control-confrontation-review",
+          "published_at": "2026-11-19T19:10:24Z",
+          "excerpt": "UG says the UGEL–Rent Control hostel clash will be reviewed, defends the GH¢8,050 fee and admits some halls need repairs."
+        }
+      ],
+      "path": "story/951/university-of-ghana-regrets-ugels-clash-with-rent-control-officers-orders-review/"
+    },
     {
       "id": 950,
       "title": "GCTU fresher who gave matriculation speech dies in accident days later",
