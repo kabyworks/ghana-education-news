@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:10:21Z",
+  "generated_at": "2026-11-19T14:40:17Z",
   "categories": [
     {
       "name": "higher_education",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 144
+      "story_count": 145
     },
     {
       "name": "policy",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 943,
+      "title": "NYA to hold first apprenticeship graduation at State House on Friday",
+      "summary": "The first NAP cohort graduates at the State House forecourt on Friday, with Mahama expected.",
+      "category": "general",
+      "published_at": "2026-11-19T14:30:23Z",
+      "source_count": 1,
+      "sources": [
+        "3News"
+      ],
+      "image_url": "https://media.3news.com/onuaonline-6878630a8796f1c626cfa0132335c69a-1200x800.webp",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "3News",
+          "title": "NYA to hold first apprenticeship graduation at State House on Friday",
+          "url": "https://3news.com/news/education/nya-first-national-apprenticeship-programme-graduation",
+          "published_at": "2026-11-19T14:30:23Z",
+          "excerpt": "The first NAP cohort graduates at the State House forecourt on Friday, with Mahama expected."
+        }
+      ],
+      "path": "story/943/nya-to-hold-first-apprenticeship-graduation-at-state-house-on-friday/"
+    },
     {
       "id": 942,
       "title": "“Stop abusing students” – GES PRO on UGEL’s GH¢8,000 Hostel fee",
