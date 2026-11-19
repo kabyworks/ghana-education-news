@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-19T11:10:17Z",
+  "generated_at": "2026-11-19T11:40:16Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 272
+      "story_count": 273
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 938,
+      "title": "GES PRO criticises UGEL over GH¢8,000 hostel fee, calls it exploitative",
+      "summary": "The Public Relations Officer of the Ghana Education Service (GES), Daniel Fenyi, has criticised the University of Ghana Enterprise Limited (UGEL) over its reported decision to charge students GH¢8,000 annually for accommodation in a four-in-a-room hostel facility.",
+      "category": "higher_education",
+      "published_at": "2026-11-19T11:32:45Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/image-7-2.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "GES PRO criticises UGEL over GH¢8,000 hostel fee, calls it exploitative",
+          "url": "https://www.adomonline.com/ges-pro-criticises-ugel-over-gh%c2%a28000-hostel-fee-calls-it-exploitative/",
+          "published_at": "2026-11-19T11:32:45Z",
+          "excerpt": "The Public Relations Officer of the Ghana Education Service (GES), Daniel Fenyi, has criticised the University of Ghana Enterprise Limited (UGEL) over its reported decision to charge students GH¢8,000 annually for accommodation in a four-in-a-room hostel facility. Mr Fenyi has described the fee as exploitative, arguing that it places an excessive financial burden on students […]"
+        }
+      ],
+      "path": "story/938/ges-pro-criticises-ugel-over-gh-8-000-hostel-fee-calls-it-exploitative/"
+    },
     {
       "id": 937,
       "title": "KsTU Built Environment Faculty receives GH10,000 for Best Student Awards, hosts UK Professor’s Safety Seminar",
