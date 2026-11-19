@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-19T20:10:28Z",
+  "generated_at": "2026-11-19T20:40:45Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 279
+      "story_count": 280
     },
     {
       "name": "basic_schools",
@@ -15,7 +15,7 @@
     },
     {
       "name": "general",
-      "story_count": 147
+      "story_count": 148
     },
     {
       "name": "policy",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 954,
+      "title": "Road construction diversion linked to fresh crash at Kasoa- Winneba Highway",
+      "summary": "Several people, including students travelling to school, have sustained injuries following an accident involving a Benz Sprinter at Gomoa Potsin Junction on the Kasoa–Winneba Highway in the Central Region.",
+      "category": "general",
+      "published_at": "2026-11-19T20:24:35Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image_2026-11-19_180916599-1024x501-1.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Road construction diversion linked to fresh crash at Kasoa- Winneba Highway",
+          "url": "https://www.myjoyonline.com/road-construction-diversion-linked-to-fresh-crash-at-kasoa-winneba-highway/",
+          "published_at": "2026-11-19T20:24:35Z",
+          "excerpt": "Several people, including students travelling to school, have sustained injuries following an accident involving a Benz Sprinter at Gomoa Potsin Junction on the Kasoa–Winneba Highway in the Central Region."
+        }
+      ],
+      "path": "story/954/road-construction-diversion-linked-to-fresh-crash-at-kasoa-winneba-highway/"
+    },
+    {
+      "id": 953,
+      "title": "24-hour economy job claims need evidence for independent verification – Bokpin",
+      "summary": "Economist and Professor at the University of Ghana Business School, Professor Godfred Bokpin, has urged the government to provide verifiable data to support its claims of jobs created under the 24-hour economy programme.",
+      "category": "higher_education",
+      "published_at": "2026-11-19T20:20:11Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-4.28.09-AM-1024x615.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "24-hour economy job claims need evidence for independent verification – Bokpin",
+          "url": "https://www.myjoyonline.com/24-hour-economy-job-claims-need-evidence-for-independent-verification-bokpin/",
+          "published_at": "2026-11-19T20:20:11Z",
+          "excerpt": "Economist and Professor at the University of Ghana Business School, Professor Godfred Bokpin, has urged the government to provide verifiable data to support its claims of jobs created under the 24-hour economy programme."
+        }
+      ],
+      "path": "story/953/24-hour-economy-job-claims-need-evidence-for-independent-verification-bokpin/"
+    },
     {
       "id": 952,
       "title": "Apam, Aggrey Memorial SHS students among passengers injured in Kasoa-Winneba Highway crash",
