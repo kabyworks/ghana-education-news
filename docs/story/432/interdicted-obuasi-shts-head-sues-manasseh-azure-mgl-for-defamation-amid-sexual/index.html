@@ -20,22 +20,19 @@
   <meta name="twitter:description" content="The interdicted headmaster of the Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, has sued JoyNews investigative correspondent, Manasseh Azure Awuni and the…">
   <meta name="twitter:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2197.png">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=18">
+  <link rel="stylesheet" href="../../../styles.css?v=19">
 </head>
 <body>
   <header>
     <div class="bar">
       <a class="brand" href="../../../"><img src="../../../logo.svg" alt="Edulens360" width="52" height="45"></a>
     </div>
-    <form id="search" role="search" action="../../../" method="get">
-      <input id="search-input" type="search" name="q" placeholder="Search headlines" enterkeyhint="search" aria-label="Search headlines">
-      <button type="submit">
-        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
-          <circle cx="10.5" cy="10.5" r="6.25" fill="none" stroke="currentColor" stroke-width="2"></circle>
-          <path d="M15.2 15.2L20.5 20.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-        </svg>
-        Search
-      </button>
+    <form id="search" class="search-wrap" role="search" action="../../../" method="get" aria-label="Search">
+      <label class="search-field">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+        <input id="search-input" type="search" name="q" placeholder="Search headlines (e.g. teachers, GES, WASSCE)" enterkeyhint="search" aria-label="Search headlines (e.g. teachers, GES, WASSCE)">
+      </label>
+      <button class="search-go" type="submit">Search</button>
     </form>
     <div class="categories">
       <div class="cat-bar">
@@ -51,19 +48,33 @@
       <p class="kicker">Basic schools · 22 Oct 2026 · 1 source</p>
       <div class="headline"><h1>Interdicted Obuasi SHTS head sues Manasseh Azure, MGL for defamation amid sexual abuse allegations</h1><img class="card-photo" alt="Interdicted Obuasi SHTS head sues Manasseh Azure, MGL for defamation amid sexual abuse allegations" src="https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2197.png" referrerpolicy="no-referrer"></div>
       <p class="summary">The interdicted headmaster of the Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, has sued JoyNews investigative correspondent, Manasseh Azure Awuni and the Multimedia Group Ghana Limited over allegations of sexual abuse involving female students in the school.</p>
-      <div class="actions">
-        <button type="button" class="secondary" id="share-story">Share</button>
-        <button type="button" id="save-story">Save</button>
+      <div class="share-row" aria-label="Share this story">
+        <button type="button" class="share-btn primary" id="copy-link"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> Copy link</button>
+        <button type="button" class="share-btn" id="share-story"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 3.9M15.4 6.6l-6.8 3.9"></path></svg> Share</button>
+        <button type="button" class="share-btn" id="save-story"><svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Save</button>
+      </div>
+      <div class="save-panel" id="save-panel" hidden role="status">
+        <div class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"></path></svg></div>
+        <div class="save-copy">
+          <h3>Saved to your tips</h3>
+          <p>Nice — you can open this again anytime from Saved.</p>
+        </div>
+        <button type="button" class="save-btn" id="unsave-story"><svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Saved</button>
       </div>
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The interdicted headmaster of the Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, has sued JoyNews investigative correspondent, Manasseh Azure Awuni and the Multimedia Group Ghana Limited over allegations of sexual abuse involving female students in the school.</p><a class="link-button secondary" href="https://www.myjoyonline.com/interdicted-obuasi-shts-head-sues-manasseh-azure-mgl-for-defamation-amid-sexual-abuse-allegations/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
+  <footer class="site-footer"><div class="top"><div class="brand-row"><img src="../../../icon-192.png" alt=""><strong>Edulens360</strong></div><nav aria-label="Footer"><a href="../../../blog/">Tips</a><a href="../../../">News</a><a href="#">WhatsApp</a><a href="../../../privacy/">Privacy</a></nav></div><p class="copy">Practical education tips and Ghana education news.</p></footer>
   <script type="application/json" id="story-data">{"id": 432, "title": "Interdicted Obuasi SHTS head sues Manasseh Azure, MGL for defamation amid sexual abuse allegations", "summary": "The interdicted headmaster of the Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, has sued JoyNews investigative correspondent, Manasseh Azure Awuni and the Multimedia Group Ghana Limited over allegations of sexual abuse involving female students in the school.", "category": "basic_schools", "published_at": "2026-10-22T10:29:04Z", "source_count": 1, "sources": ["MyJoyOnline Education"], "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/10/image-2197.png", "path": "story/432/interdicted-obuasi-shts-head-sues-manasseh-azure-mgl-for-defamation-amid-sexual/", "articles": [{"source_name": "MyJoyOnline Education", "title": "Interdicted Obuasi SHTS head sues Manasseh Azure, MGL for defamation amid sexual abuse allegations", "url": "https://www.myjoyonline.com/interdicted-obuasi-shts-head-sues-manasseh-azure-mgl-for-defamation-amid-sexual-abuse-allegations/", "published_at": "2026-10-22T10:29:04Z", "excerpt": "The interdicted headmaster of the Obuasi Senior High Technical School (SHTS), Zakaria Abdulai, has sued JoyNews investigative correspondent, Manasseh Azure Awuni and the Multimedia Group Ghana Limited over allegations of sexual abuse involving female students in the school."}]}</script>
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
-    const button = document.getElementById("save-story");
-    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
+    const copyBtn = document.getElementById("copy-link");
+    const share = document.getElementById("share-story");
+    const saveBtn = document.getElementById("save-story");
+    const unsaveBtn = document.getElementById("unsave-story");
+    const panel = document.getElementById("save-panel");
+    const copyHtml = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg> Copy link";
     function readSaved() {
       try {
         const parsed = JSON.parse(localStorage.getItem(key) || "[]");
@@ -74,21 +85,34 @@
     }
     function paintSaved() {
       const on = readSaved().some((item) => item.id === story.id);
-      button.textContent = on ? "Remove save" : "Save";
-      button.classList.toggle("secondary", on);
+      saveBtn.hidden = on;
+      panel.hidden = !on;
     }
-    button.addEventListener("click", () => {
-      const current = readSaved();
-      const next = current.some((item) => item.id === story.id)
-        ? current.filter((item) => item.id !== story.id)
-        : [story, ...current];
-      localStorage.setItem(key, JSON.stringify(next));
+    function storyUrl() {
+      return story.path
+        ? new URL(String(story.path).replace(/^\/+/, ""), "https://edulens360.com/").href
+        : location.href;
+    }
+    async function copyLink() {
+      try {
+        await navigator.clipboard.writeText(storyUrl());
+        copyBtn.textContent = "Link copied";
+        setTimeout(() => { copyBtn.innerHTML = copyHtml; }, 1600);
+      } catch (error) {
+        window.prompt("Copy this Edulens360 link:", storyUrl());
+      }
+    }
+    copyBtn.addEventListener("click", copyLink);
+    saveBtn.addEventListener("click", () => {
+      localStorage.setItem(key, JSON.stringify([story, ...readSaved().filter((item) => item.id !== story.id)]));
+      paintSaved();
+    });
+    unsaveBtn.addEventListener("click", () => {
+      localStorage.setItem(key, JSON.stringify(readSaved().filter((item) => item.id !== story.id)));
       paintSaved();
     });
     share.addEventListener("click", async () => {
-      const url = story.path
-        ? new URL(story.path, "https://edulens360.com/").href
-        : location.href;
+      const url = storyUrl();
       const title = story.title || "Edulens360";
       const text = story.summary || story.title || "Edulens360";
       if (window.EdulensShare && typeof window.EdulensShare.share === "function") {
@@ -105,10 +129,7 @@
           if (error && error.name === "AbortError") return;
         }
       }
-      try {
-        await navigator.clipboard.writeText(url);
-        share.textContent = "Link copied";
-      } catch (error) {}
+      copyLink();
     });
     paintSaved();
   </script>

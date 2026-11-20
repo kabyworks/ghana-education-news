@@ -51,29 +51,38 @@
   <link rel="manifest" href="/app/manifest.webmanifest">
   <link rel="icon" href="/app/icon-192.png">
   <link rel="apple-touch-icon" href="/app/icon-192.png">
-  <link rel="stylesheet" href="/app/styles.css?v=16">
+  <link rel="stylesheet" href="/app/styles.css?v=19">
 </head>
 <body>
   <header>
     <div class="bar">
-      <a class="brand" href="#/"><img src="/app/logo.svg" alt="Edulens360" width="64" height="56"></a>
+      <a class="brand" href="#/"><img src="/app/logo.svg" alt="Edulens360" width="52" height="45"></a>
     </div>
-    <form id="search" role="search">
-      <input id="search-input" type="search" name="q" placeholder="Search headlines" enterkeyhint="search" aria-label="Search headlines">
-      <button type="submit">
-        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
-          <circle cx="10.5" cy="10.5" r="6.25" fill="none" stroke="currentColor" stroke-width="2"></circle>
-          <path d="M15.2 15.2L20.5 20.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-        </svg>
-        Search
-      </button>
+    <form id="search" class="search-wrap" role="search" aria-label="Search headlines">
+      <label class="search-field">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+        <input id="search-input" type="search" name="q" placeholder="Search headlines (e.g. teachers, GES, WASSCE)" enterkeyhint="search" aria-label="Search headlines">
+      </label>
+      <button class="search-go" type="submit">Search</button>
     </form>
     <div id="categories" class="categories"></div>
   </header>
   <main id="main"><p class="notice">Loading stories…</p></main>
-  <footer class="site-foot">
-    <a href="/app/privacy/">Privacy</a>
+  <footer class="site-footer">
+    <div class="top">
+      <div class="brand-row">
+        <img src="/app/icon-192.png" alt="">
+        <strong>Edulens360</strong>
+      </div>
+      <nav aria-label="Footer">
+        <a href="/app/blog/">Tips</a>
+        <a href="#/">News</a>
+        <a href="#">WhatsApp</a>
+        <a href="/app/privacy/">Privacy</a>
+      </nav>
+    </div>
+    <p class="copy">Practical education tips and Ghana education news.</p>
   </footer>
-  <script src="/app/app.js?v=16"></script>
+  <script src="/app/app.js?v=19"></script>
 </body>
 </html>

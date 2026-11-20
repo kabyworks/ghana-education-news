@@ -24,13 +24,13 @@ from app.services.original_post import (
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "17"
+SHELL_VERSION = "19"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-13";
+PHONE_SW = """const CACHE = "ghanaed-phone-15";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=17",
-  "./app.js?v=17",
+  "./styles.css?v=19",
+  "./app.js?v=19",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -440,18 +440,9 @@ def _story_page(story: dict) -> str:
 <body>
   <header>
     <div class="bar">
-      <a class="brand" href="../../../"><img src="../../../logo.svg" alt="Edulens360" width="64" height="56"></a>
+      <a class="brand" href="../../../"><img src="../../../logo.svg" alt="Edulens360" width="52" height="45"></a>
     </div>
-    <form id="search" role="search" action="../../../" method="get">
-      <input id="search-input" type="search" name="q" placeholder="Search headlines" enterkeyhint="search" aria-label="Search headlines">
-      <button type="submit">
-        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
-          <circle cx="10.5" cy="10.5" r="6.25" fill="none" stroke="currentColor" stroke-width="2"></circle>
-          <path d="M15.2 15.2L20.5 20.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-        </svg>
-        Search
-      </button>
-    </form>
+    {_search_form("../../../")}
     <div class="categories">
       <div class="cat-bar">
         <a href="../../../">Latest</a>
@@ -462,23 +453,37 @@ def _story_page(story: dict) -> str:
   </header>
   <main id="main">
     <article class="story">
-      <a class="back" href="../../../" aria-label="Back to latest">Back</a>
+      {_back_link("../../../", "Back to latest")}
       <p class="kicker">{label} · {when} · {sources}</p>
       <div class="headline"><h1>{title}</h1>{photo}</div>
       <p class="summary">{summary}</p>
-      <div class="actions">
-        <button type="button" class="secondary" id="share-story">Share</button>
-        <button type="button" id="save-story">Save</button>
+      <div class="share-row" aria-label="Share this story">
+        <button type="button" class="share-btn primary" id="copy-link">{_SHARE_COPY_ICON} Copy link</button>
+        <button type="button" class="share-btn" id="share-story">{_SHARE_SHARE_ICON} Share</button>
+        <button type="button" class="share-btn" id="save-story">{_SAVE_BOOKMARK_ICON} Save</button>
+      </div>
+      <div class="save-panel" id="save-panel" hidden role="status">
+        <div class="check" aria-hidden="true">{_SAVE_CHECK_ICON}</div>
+        <div class="save-copy">
+          <h3>Saved to your tips</h3>
+          <p>Nice — you can open this again anytime from Saved.</p>
+        </div>
+        <button type="button" class="save-btn" id="unsave-story">{_SAVE_BOOKMARK_ICON} Saved</button>
       </div>
       {blocks}
     </article>
   </main>
+  {_site_footer("../../../")}
   <script type="application/json" id="story-data">{data}</script>
   <script>
     const story = JSON.parse(document.getElementById("story-data").textContent);
-    const button = document.getElementById("save-story");
-    const share = document.getElementById("share-story");
     const key = "ghanaed.saved.v1";
+    const copyBtn = document.getElementById("copy-link");
+    const share = document.getElementById("share-story");
+    const saveBtn = document.getElementById("save-story");
+    const unsaveBtn = document.getElementById("unsave-story");
+    const panel = document.getElementById("save-panel");
+    const copyHtml = {json.dumps(_SHARE_COPY_ICON + " Copy link")};
     function readSaved() {{
       try {{
         const parsed = JSON.parse(localStorage.getItem(key) || "[]");
@@ -489,21 +494,34 @@ def _story_page(story: dict) -> str:
     }}
     function paintSaved() {{
       const on = readSaved().some((item) => item.id === story.id);
-      button.textContent = on ? "Remove save" : "Save";
-      button.classList.toggle("secondary", on);
+      saveBtn.hidden = on;
+      panel.hidden = !on;
     }}
-    button.addEventListener("click", () => {{
-      const current = readSaved();
-      const next = current.some((item) => item.id === story.id)
-        ? current.filter((item) => item.id !== story.id)
-        : [story, ...current];
-      localStorage.setItem(key, JSON.stringify(next));
+    function storyUrl() {{
+      return story.path
+        ? new URL(String(story.path).replace(/^\\/+/, ""), "https://edulens360.com/").href
+        : location.href;
+    }}
+    async function copyLink() {{
+      try {{
+        await navigator.clipboard.writeText(storyUrl());
+        copyBtn.textContent = "Link copied";
+        setTimeout(() => {{ copyBtn.innerHTML = copyHtml; }}, 1600);
+      }} catch (error) {{
+        window.prompt("Copy this Edulens360 link:", storyUrl());
+      }}
+    }}
+    copyBtn.addEventListener("click", copyLink);
+    saveBtn.addEventListener("click", () => {{
+      localStorage.setItem(key, JSON.stringify([story, ...readSaved().filter((item) => item.id !== story.id)]));
+      paintSaved();
+    }});
+    unsaveBtn.addEventListener("click", () => {{
+      localStorage.setItem(key, JSON.stringify(readSaved().filter((item) => item.id !== story.id)));
       paintSaved();
     }});
     share.addEventListener("click", async () => {{
-      const url = story.path
-        ? new URL(story.path, "https://edulens360.com/").href
-        : location.href;
+      const url = storyUrl();
       const title = story.title || "Edulens360";
       const text = story.summary || story.title || "Edulens360";
       if (window.EdulensShare && typeof window.EdulensShare.share === "function") {{
@@ -520,10 +538,7 @@ def _story_page(story: dict) -> str:
           if (error && error.name === "AbortError") return;
         }}
       }}
-      try {{
-        await navigator.clipboard.writeText(url);
-        share.textContent = "Link copied";
-      }} catch (error) {{}}
+      copyLink();
     }});
     paintSaved();
   </script>
@@ -599,23 +614,212 @@ def _blog_redirect(story: dict, slug: str) -> str:
 """
 
 
+_BACK_CHEVRON = (
+    '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">'
+    '<path d="M14.5 5.5L8 12l6.5 6.5" fill="none" stroke="currentColor" '
+    'stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path>'
+    "</svg>"
+)
+
+
+def _back_link(href: str, aria_label: str = "Back") -> str:
+    return (
+        f'<a class="back" href="{escape(href, quote=True)}" '
+        f'aria-label="{escape(aria_label, quote=True)}">{_BACK_CHEVRON}</a>'
+    )
+
+
+def _search_form(action: str, placeholder: str = "Search headlines (e.g. teachers, GES, WASSCE)") -> str:
+    return f"""<form id="search" class="search-wrap" role="search" action="{escape(action, quote=True)}" method="get" aria-label="Search">
+      <label class="search-field">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+        <input id="search-input" type="search" name="q" placeholder="{escape(placeholder, quote=True)}" enterkeyhint="search" aria-label="{escape(placeholder, quote=True)}">
+      </label>
+      <button class="search-go" type="submit">Search</button>
+    </form>"""
+
+
+def _site_footer(root: str = "./") -> str:
+    """Library footer-nav. root is the site root relative to this page."""
+    base = root if root.endswith("/") else root + "/"
+    return (
+        '<footer class="site-footer">'
+        '<div class="top">'
+        '<div class="brand-row">'
+        f'<img src="{escape(base, quote=True)}icon-192.png" alt="">'
+        "<strong>Edulens360</strong>"
+        "</div>"
+        '<nav aria-label="Footer">'
+        f'<a href="{escape(base, quote=True)}blog/">Tips</a>'
+        f'<a href="{escape(base, quote=True)}">News</a>'
+        '<a href="#">WhatsApp</a>'
+        f'<a href="{escape(base, quote=True)}privacy/">Privacy</a>'
+        "</nav>"
+        "</div>"
+        '<p class="copy">Practical education tips and Ghana education news.</p>'
+        "</footer>"
+    )
+
+
+_SHARE_COPY_ICON = (
+    '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71">'
+    "</path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg>"
+)
+_SHARE_SHARE_ICON = (
+    '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle>'
+    '<circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle>'
+    '<path d="M8.6 13.5l6.8 3.9M15.4 6.6l-6.8 3.9"></path></svg>'
+)
+_SAVE_BOOKMARK_ICON = (
+    '<svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true">'
+    '<path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>'
+)
+_SAVE_CHECK_ICON = (
+    '<svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"></path></svg>'
+)
+
+
+def _tip_share_save_block(story: dict) -> str:
+    tip_id = int(story["id"])
+    path = story.get("blog_path") or blog_path(story["id"], story["title"])
+    payload = {
+        "id": tip_id,
+        "title": story["title"],
+        "summary": story.get("summary") or "",
+        "category": story.get("category") or "",
+        "published_at": story.get("published_at"),
+        "source_count": story.get("source_count") or 1,
+        "sources": story.get("sources") or ["Edulens360"],
+        "image_url": story.get("image_url"),
+        "path": path,
+        "blog_path": path,
+        "articles": [],
+    }
+    data = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
+    return f"""
+      <div class="share-row" aria-label="Share this tip">
+        <button type="button" class="share-btn primary" id="copy-link">{_SHARE_COPY_ICON} Copy link</button>
+        <button type="button" class="share-btn" id="share-tip">{_SHARE_SHARE_ICON} Share</button>
+        <button type="button" class="share-btn" id="save-tip">{_SAVE_BOOKMARK_ICON} Save</button>
+      </div>
+      <div class="save-panel" id="save-panel" hidden role="status">
+        <div class="check" aria-hidden="true">{_SAVE_CHECK_ICON}</div>
+        <div class="save-copy">
+          <h3>Saved to your tips</h3>
+          <p>Nice — you can open this again anytime from Saved.</p>
+        </div>
+        <button type="button" class="save-btn" id="unsave-tip">{_SAVE_BOOKMARK_ICON} Saved</button>
+      </div>
+      <script type="application/json" id="tip-data">{data}</script>
+      <script>
+        (function () {{
+          const tip = JSON.parse(document.getElementById("tip-data").textContent);
+          const key = "ghanaed.saved.v1";
+          const copyBtn = document.getElementById("copy-link");
+          const shareBtn = document.getElementById("share-tip");
+          const saveBtn = document.getElementById("save-tip");
+          const unsaveBtn = document.getElementById("unsave-tip");
+          const panel = document.getElementById("save-panel");
+          const url = new URL(tip.path.replace(/^\\/+/, ""), "https://edulens360.com/").href;
+          function readSaved() {{
+            try {{
+              const parsed = JSON.parse(localStorage.getItem(key) || "[]");
+              return Array.isArray(parsed) ? parsed : [];
+            }} catch (error) {{
+              return [];
+            }}
+          }}
+          function isOn() {{
+            return readSaved().some((item) => item.id === tip.id);
+          }}
+          function paint() {{
+            const on = isOn();
+            saveBtn.hidden = on;
+            panel.hidden = !on;
+          }}
+          function setSaved(on) {{
+            const current = readSaved();
+            const next = on
+              ? [tip, ...current.filter((item) => item.id !== tip.id)]
+              : current.filter((item) => item.id !== tip.id);
+            localStorage.setItem(key, JSON.stringify(next));
+            paint();
+          }}
+          async function copyLink() {{
+            try {{
+              await navigator.clipboard.writeText(url);
+              copyBtn.textContent = "Link copied";
+              setTimeout(() => {{ copyBtn.innerHTML = {json.dumps(_SHARE_COPY_ICON + " Copy link")}; }}, 1600);
+            }} catch (error) {{
+              window.prompt("Copy this Edulens360 link:", url);
+            }}
+          }}
+          copyBtn.addEventListener("click", copyLink);
+          shareBtn.addEventListener("click", async () => {{
+            const title = tip.title || "Edulens360";
+            const text = tip.summary || tip.title || "Edulens360";
+            if (navigator.share) {{
+              try {{
+                await navigator.share({{ title, text, url }});
+                return;
+              }} catch (error) {{
+                if (error && error.name === "AbortError") return;
+              }}
+            }}
+            copyLink();
+          }});
+          saveBtn.addEventListener("click", () => setSaved(true));
+          unsaveBtn.addEventListener("click", () => setSaved(false));
+          paint();
+        }})();
+      </script>
+"""
+
+
+def _card_photo(image: str) -> str:
+    if not image:
+        return ""
+    return (
+        f'<img class="card-photo" alt="" '
+        f'src="{escape(image, quote=True)}" referrerpolicy="no-referrer">'
+    )
+
+
 def _blog_card(story: dict, href: str) -> str:
+    """Index feed card: kicker, headline + summary in text column, photo top-aligned."""
     title = escape(story["title"])
     summary = escape(story.get("summary") or "")
     when = escape(_format_when(story.get("published_at")))
-    image = _http_url(story.get("image_url"))
-    photo = ""
-    if image:
-        photo = (
-            f'<img class="card-photo" alt="" '
-            f'src="{escape(image, quote=True)}" referrerpolicy="no-referrer">'
-        )
+    photo = _card_photo(_http_url(story.get("image_url")))
+    summary_html = f'<p class="summary">{summary}</p>' if summary else ""
     return (
         '<article class="story-card">'
         f'<a class="story-link" href="{escape(href, quote=True)}">'
         f'<p class="kicker">Edulens360 tip · {when}</p>'
-        f'<div class="headline"><h2>{title}</h2>{photo}</div>'
-        f'<p class="summary">{summary}</p>'
+        '<div class="card-row">'
+        f'<div class="card-copy"><h2>{title}</h2>{summary_html}</div>'
+        f"{photo}"
+        "</div>"
+        "</a>"
+        "</article>"
+    )
+
+
+def _related_card(story: dict, href: str) -> str:
+    """Related tip card: headline only, photo top-aligned with kicker."""
+    title = escape(story["title"])
+    when = escape(_format_when(story.get("published_at")))
+    photo = _card_photo(_http_url(story.get("image_url")))
+    return (
+        '<article class="story-card">'
+        f'<a class="story-link" href="{escape(href, quote=True)}">'
+        '<div class="card-row">'
+        '<div class="card-copy">'
+        f'<p class="kicker">Edulens360 tip · {when}</p>'
+        f"<h2>{title}</h2>"
+        "</div>"
+        f"{photo}"
+        "</div>"
         "</a>"
         "</article>"
     )
@@ -648,20 +852,34 @@ def _blog_index_page(originals: list[dict]) -> str:
 <body>
   <header>
     <div class="bar">
-      <a class="brand" href="../"><img src="../logo.svg" alt="Edulens360" width="64" height="56"></a>
+      <a class="brand" href="../"><img src="../logo.svg" alt="Edulens360" width="52" height="45"></a>
     </div>
   </header>
   <main id="main">
     <article class="story">
-      <a class="back" href="../" aria-label="Back to latest">Back</a>
+      {_back_link("../", "Back to latest")}
       <p class="kicker">Edulens360 · Tips</p>
       <div class="headline"><h1>Edulens360 tips</h1></div>
       <p class="summary">Practical guidance for students, teachers, and parents in Ghana.</p>
+      <form class="search-wrap tip-search" action="../" method="get" role="search" aria-label="Search tips">
+        <label class="search-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+          <input type="search" name="q" placeholder="Search tips (e.g. WASSCE, GES, CSSPS)" enterkeyhint="search">
+        </label>
+        <button class="search-go" type="submit">Search</button>
+      </form>
+      <div class="search-hints" aria-label="Suggested searches">
+        <a href="../?q=WASSCE">WASSCE</a>
+        <a href="../?q=GES%20promotion">GES promotion</a>
+        <a href="../?q=CSSPS">CSSPS</a>
+        <a href="../?q=BECE">BECE</a>
+      </div>
     </article>
     <div class="blog-feed">
       {listing}
     </div>
   </main>
+  {_site_footer("../")}
 </body>
 </html>
 """
@@ -673,7 +891,6 @@ def _blog_article_page(story: dict, originals: list[dict]) -> str:
     path = story.get("blog_path") or blog_path(story["id"], story["title"])
     canonical = escape(f"{SITE}/{path}", quote=True)
     description = escape(_plain(story.get("summary") or "", 180), quote=True)
-    label = escape(CATEGORY_LABELS.get(story.get("category") or "", "") or "Education")
     when = escape(_format_when(story.get("published_at")))
     image = _http_url(story.get("image_url"))
     hero = ""
@@ -688,30 +905,24 @@ def _blog_article_page(story: dict, originals: list[dict]) -> str:
         if other["id"] == story["id"]:
             continue
         other_path = other.get("blog_path") or blog_path(other["id"], other["title"])
-        related_cards.append(_blog_card(other, "../../" + other_path.removeprefix("blog/")))
+        related_cards.append(_related_card(other, "../../" + other_path.removeprefix("blog/")))
         if len(related_cards) >= 8:
             break
     related_html = "\n        ".join(related_cards)
+    exit_links = (
+        '<p class="blog-links">'
+        '<a class="blog-exit" href="../../">All Edulens360 tips</a>'
+        '<a class="blog-exit blog-exit-news" href="../../../">Latest education news</a>'
+        "</p>"
+    )
     more_block = (
         '<section class="blog-more">'
         "<h2>More from Edulens360</h2>"
         f'<div class="blog-feed">\n        {related_html}\n      </div>'
-        '<p class="blog-links">'
-        '<a href="../../">All Edulens360 tips</a>'
-        " · "
-        '<a href="../../../">Latest education news</a>'
-        "</p>"
+        f"{exit_links}"
         "</section>"
         if related_cards
-        else (
-            '<section class="blog-more">'
-            '<p class="blog-links">'
-            '<a href="../../">All Edulens360 tips</a>'
-            " · "
-            '<a href="../../../">Latest education news</a>'
-            "</p>"
-            "</section>"
-        )
+        else f'<section class="blog-more">{exit_links}</section>'
     )
     image_meta = f'<meta property="og:image" content="{escape(image, quote=True)}">' if image else ""
     twitter_card = "summary_large_image" if image else "summary"
@@ -748,22 +959,24 @@ def _blog_article_page(story: dict, originals: list[dict]) -> str:
 <body>
   <header>
     <div class="bar">
-      <a class="brand" href="../../../"><img src="../../../logo.svg" alt="Edulens360" width="64" height="56"></a>
+      <a class="brand" href="../../../"><img src="../../../logo.svg" alt="Edulens360" width="52" height="45"></a>
     </div>
   </header>
   <main id="main">
     <article class="story">
-      <a class="back" href="../../../" aria-label="Back to latest">Back</a>
-      <p class="kicker">{label} · {when} · Edulens360 tip</p>
+      {_back_link("../../", "Back to tips")}
+      <p class="kicker">{when} · Edulens360 tip</p>
       <div class="headline"><h1>{title}</h1></div>
       {hero}
       <p class="summary">{summary}</p>
+      {_tip_share_save_block(story)}
       <section class="tip-body">
         {body}
       </section>
       {more_block}
     </article>
   </main>
+  {_site_footer("../../../")}
 </body>
 </html>
 """

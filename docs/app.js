@@ -640,26 +640,72 @@ function renderStory(story, { offline = false } = {}) {
   article.append(headline(story));
   article.append(el("p", "summary", story.summary));
   if (offline) article.append(el("p", "meta", "Saved on this device."));
-  const actions = el("div", "actions");
-  const share = el("button", "secondary", "Share");
+  const shareRow = el("div", "share-row");
+  shareRow.setAttribute("aria-label", "Share this story");
+  const copyBtn = document.createElement("button");
+  copyBtn.type = "button";
+  copyBtn.className = "share-btn primary";
+  copyBtn.innerHTML =
+    '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> Copy link';
+  const copyHtml = copyBtn.innerHTML;
+  copyBtn.addEventListener("click", async () => {
+    const url = storyShareUrl(story);
+    try {
+      await navigator.clipboard.writeText(url);
+      copyBtn.textContent = "Link copied";
+      setTimeout(() => {
+        copyBtn.innerHTML = copyHtml;
+      }, 1600);
+      flashShareFeedback(article, "Link copied");
+    } catch {
+      window.prompt("Copy this Edulens360 link:", url);
+    }
+  });
+  const share = document.createElement("button");
   share.type = "button";
+  share.className = "share-btn";
+  share.innerHTML =
+    '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 3.9M15.4 6.6l-6.8 3.9"></path></svg> Share';
   share.addEventListener("click", async () => {
     const result = await shareStory(story);
     if (result === "copied") {
-      share.textContent = "Link copied";
       flashShareFeedback(article, "Link copied");
     } else if (result === "failed") {
       flashShareFeedback(article, "Sharing unavailable");
     }
   });
-  const save = el("button", isSaved(story.id) ? "secondary" : "", isSaved(story.id) ? "Remove save" : "Save");
+  const save = document.createElement("button");
   save.type = "button";
-  save.addEventListener("click", () => {
+  save.className = "share-btn";
+  save.innerHTML =
+    '<svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Save';
+  const panel = el("div", "save-panel");
+  panel.setAttribute("role", "status");
+  panel.innerHTML =
+    '<div class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"></path></svg></div>' +
+    '<div class="save-copy"><h3>Saved to your tips</h3><p>Nice — you can open this again anytime from Saved.</p></div>';
+  const unsave = document.createElement("button");
+  unsave.type = "button";
+  unsave.className = "save-btn";
+  unsave.innerHTML =
+    '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Saved';
+  unsave.addEventListener("click", () => {
     toggleSaved(story);
     renderStory(story, { offline });
   });
-  actions.append(share, save);
-  article.append(actions);
+  panel.append(unsave);
+  const paintSave = () => {
+    const on = isSaved(story.id);
+    save.hidden = on;
+    panel.hidden = !on;
+  };
+  save.addEventListener("click", () => {
+    toggleSaved(story);
+    paintSave();
+  });
+  shareRow.append(copyBtn, share, save);
+  article.append(shareRow, panel);
+  paintSave();
   for (const item of story.articles || []) {
     const block = el("section", "source");
     block.append(el("h3", "", item.source_name));
