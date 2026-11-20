@@ -110,6 +110,7 @@ header.feed-top {
   align-items: flex-start;
   justify-content: flex-start;
   gap: 0.7rem;
+  margin-bottom: 0.85rem;
 }
 
 .feed-brand-row .brand {
@@ -142,10 +143,11 @@ header.feed-top {
   background: transparent;
 }
 
+.feed-intro #search,
 .feed-intro #search.search-wrap,
 .feed-intro .search-wrap {
   margin-top: 0;
-  padding-top: 0.7rem;
+  padding-top: 0;
 }
 
 .search-field {
