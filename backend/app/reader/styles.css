@@ -52,9 +52,14 @@ header {
   position: sticky;
   top: 0;
   z-index: 2;
-  background: var(--green);
-  color: var(--paper);
+  background: var(--paper);
+  color: var(--ink);
   padding-top: env(safe-area-inset-top);
+}
+
+header.feed-top {
+  background: var(--paper);
+  color: var(--ink);
 }
 
 .bar {
@@ -88,6 +93,48 @@ header {
   display: block;
 }
 
+.feed-intro {
+  margin: 0.65rem 1rem 0.75rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.95rem 1rem;
+}
+
+.feed-brand-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+}
+
+.feed-brand-row .brand {
+  border: 1px solid var(--line);
+}
+
+.feed-brand-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.feed-intro .kicker {
+  margin: 0;
+  color: var(--green);
+  font-weight: 650;
+  font-size: 0.82rem;
+}
+
+.feed-intro .headline {
+  margin: 0.2rem 0 0;
+}
+
+.feed-intro .headline h1 {
+  margin: 0;
+  font-family: Georgia, "Iowan Old Style", serif;
+  font-size: 1.45rem;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
 #search,
 .search-wrap {
   display: flex;
@@ -96,8 +143,12 @@ header {
   width: 100%;
   min-width: 0;
   margin: 0;
-  padding: 0.55rem 1rem 0.55rem;
-  background: var(--paper);
+  padding: 0;
+  background: transparent;
+}
+
+.feed-intro .search-wrap {
+  margin-top: 0.75rem;
 }
 
 .search-field {
@@ -191,30 +242,41 @@ header {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.45rem;
-  padding: 0.35rem 1rem 0.85rem;
-  background: var(--paper);
+  gap: 0.35rem;
+  padding: 0;
+  margin-top: 0.55rem;
+  background: transparent;
   color: var(--ink);
 }
 
 .categories a {
   flex: 0 0 auto;
-  min-height: 40px;
+  min-height: 0;
   display: inline-flex;
   align-items: center;
-  padding: 0 0.8rem;
+  padding: 0.2rem 0.55rem;
   border-radius: 999px;
   border: 1px solid var(--line);
-  background: var(--card);
-  color: var(--ink);
+  background: #fff;
+  color: var(--green);
   text-decoration: none;
-  font-size: 0.92rem;
+  font-size: 0.78rem;
+  font-weight: 650;
 }
 
 .categories a[aria-current="true"] {
   background: var(--green);
-  color: var(--paper);
+  color: #fff;
   border-color: var(--green);
+}
+
+.categories button.categories-toggle {
+  min-height: 0;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.78rem;
+  font-weight: 650;
+  color: var(--green);
+  background: #fff;
 }
 
 .cat-bar, .category-list {
@@ -249,15 +311,9 @@ header {
 
 .categories button.categories-toggle {
   flex: 0 0 auto;
-  min-height: 40px;
-  padding: 0 0.8rem;
   border-radius: 999px;
   border: 1px solid var(--line);
-  background: var(--card);
-  color: var(--ink);
   font: inherit;
-  font-size: 0.92rem;
-  font-weight: 650;
   box-shadow: none;
   cursor: pointer;
 }
@@ -265,7 +321,7 @@ header {
 .categories button.categories-toggle[aria-expanded="true"],
 .categories button.categories-toggle.is-filtering {
   background: var(--green);
-  color: var(--paper);
+  color: #fff;
   border-color: var(--green);
 }
 
