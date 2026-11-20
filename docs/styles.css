@@ -64,6 +64,26 @@ header.feed-top {
   border-bottom: 1px solid var(--line);
 }
 
+/* Blog index + tip pages: full-bleed green bar across the screen. */
+header.blog-top {
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  background: var(--green);
+  color: var(--paper);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+header.blog-top .bar {
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+}
+
+header.blog-top .brand {
+  border-color: transparent;
+}
+
 .bar {
   display: flex;
   align-items: center;

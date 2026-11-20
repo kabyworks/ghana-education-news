@@ -24,13 +24,13 @@ from app.services.original_post import (
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "30"
+SHELL_VERSION = "31"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-26";
+PHONE_SW = """const CACHE = "ghanaed-phone-27";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=30",
-  "./app.js?v=30",
+  "./styles.css?v=31",
+  "./app.js?v=31",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -91,6 +91,8 @@ self.addEventListener("fetch", (event) => {
   })());
 });
 """
+
+WHATSAPP_CHANNEL = "https://whatsapp.com/channel/0029VbE24DXGE56cd6CUlA06"
 
 
 class SnapshotRefused(Exception):
@@ -645,7 +647,7 @@ def _site_footer(root: str = "./") -> str:
         '<nav aria-label="Footer">'
         f'<a href="{escape(base, quote=True)}blog/">Blogs</a>'
         f'<a href="{escape(base, quote=True)}">News</a>'
-        '<a href="#">WhatsApp</a>'
+        f'<a href="{escape(WHATSAPP_CHANNEL, quote=True)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>'
         f'<a href="{escape(base, quote=True)}privacy/">Privacy</a>'
         "</nav>"
         "</div>"
@@ -777,7 +779,7 @@ def _blog_card(story: dict, href: str) -> str:
     return (
         '<article class="story-card">'
         f'<a class="story-link" href="{escape(href, quote=True)}">'
-        f'<p class="kicker">Edulens360 tip · {when}</p>'
+        f'<p class="kicker">{when}</p>'
         '<div class="card-row">'
         f'<div class="card-copy"><h2>{title}</h2>{summary_html}</div>'
         f"{photo}"
@@ -797,7 +799,7 @@ def _related_card(story: dict, href: str) -> str:
         f'<a class="story-link" href="{escape(href, quote=True)}">'
         '<div class="card-row">'
         '<div class="card-copy">'
-        f'<p class="kicker">Edulens360 tip · {when}</p>'
+        f'<p class="kicker">{when}</p>'
         f"<h2>{title}</h2>"
         "</div>"
         f"{photo}"
@@ -819,20 +821,20 @@ def _blog_index_page(originals: list[dict]) -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#1c3d2e">
-  <title>Edulens360 tips · Edulens360</title>
-  <meta name="description" content="Practical education tips from Edulens360 for students, teachers, and parents in Ghana.">
+  <title>Edulens360 blogs · Edulens360</title>
+  <meta name="description" content="Practical education blogs from Edulens360 for students, teachers, and parents in Ghana.">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="{SITE}/blog/">
   <meta property="og:site_name" content="Edulens360">
-  <meta property="og:title" content="Edulens360 tips">
-  <meta property="og:description" content="Practical education tips from Edulens360 for students, teachers, and parents in Ghana.">
+  <meta property="og:title" content="Edulens360 blogs">
+  <meta property="og:description" content="Practical education blogs from Edulens360 for students, teachers, and parents in Ghana.">
   <meta property="og:url" content="{SITE}/blog/">
   <meta property="og:type" content="website">
   <link rel="icon" href="../icon-192.png">
   <link rel="stylesheet" href="../styles.css?v={SHELL_VERSION}">
 </head>
 <body>
-  <header>
+  <header class="blog-top">
     <div class="bar">
       <a class="brand" href="../"><img src="../logo.svg" alt="Edulens360" width="52" height="45"></a>
     </div>
@@ -840,13 +842,13 @@ def _blog_index_page(originals: list[dict]) -> str:
   <main id="main">
     <article class="story">
       {_back_link("../", "Back to latest")}
-      <p class="kicker">Edulens360 · Tips</p>
-      <div class="headline"><h1>Edulens360 tips</h1></div>
+      <p class="kicker">Edulens360 · Blogs</p>
+      <div class="headline"><h1>Edulens360 blogs</h1></div>
       <p class="summary">Practical guidance for students, teachers, and parents in Ghana.</p>
-      <form class="search-wrap tip-search" action="../" method="get" role="search" aria-label="Search tips">
+      <form class="search-wrap tip-search" action="../" method="get" role="search" aria-label="Search blogs">
         <label class="search-field">
           <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
-          <input type="search" name="q" placeholder="Search tips (e.g. WASSCE, GES, CSSPS)" enterkeyhint="search">
+          <input type="search" name="q" placeholder="Search blogs (e.g. WASSCE, GES, CSSPS)" enterkeyhint="search">
         </label>
         <button class="search-go" type="submit">Search</button>
       </form>
@@ -893,7 +895,7 @@ def _blog_article_page(story: dict, originals: list[dict]) -> str:
     related_html = "\n        ".join(related_cards)
     exit_links = (
         '<p class="blog-links">'
-        '<a class="blog-exit" href="../../">All Edulens360 tips</a>'
+        '<a class="blog-exit" href="../../">All Edulens360 blogs</a>'
         '<a class="blog-exit blog-exit-news" href="../../../">Latest education news</a>'
         "</p>"
     )
@@ -939,15 +941,15 @@ def _blog_article_page(story: dict, originals: list[dict]) -> str:
   </script>
 </head>
 <body>
-  <header>
+  <header class="blog-top">
     <div class="bar">
       <a class="brand" href="../../../"><img src="../../../logo.svg" alt="Edulens360" width="52" height="45"></a>
     </div>
   </header>
   <main id="main">
     <article class="story">
-      {_back_link("../../", "Back to tips")}
-      <p class="kicker">{when} · Edulens360 tip</p>
+      {_back_link("../../", "Back to blogs")}
+      <p class="kicker">{when}</p>
       <div class="headline"><h1>{title}</h1></div>
       {hero}
       <p class="summary">{summary}</p>
