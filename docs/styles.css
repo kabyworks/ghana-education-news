@@ -64,26 +64,6 @@ header.feed-top {
   border-bottom: 1px solid var(--line);
 }
 
-/* Blog index + tip pages: full-bleed green bar across the screen. */
-header.blog-top {
-  width: 100%;
-  max-width: none;
-  box-sizing: border-box;
-  background: var(--green);
-  color: var(--paper);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-}
-
-header.blog-top .bar {
-  width: 100%;
-  max-width: none;
-  box-sizing: border-box;
-}
-
-header.blog-top .brand {
-  border-color: transparent;
-}
-
 .bar {
   display: flex;
   align-items: center;
@@ -178,6 +158,17 @@ header.blog-top .brand {
     background: var(--gold);
     color: var(--green);
     border-color: var(--gold);
+  }
+
+  .feed-intro .search-hints a,
+  .feed-intro .search-hints span {
+    background: #fff;
+    color: var(--green);
+    border-color: #fff;
+  }
+
+  .feed-brand-row {
+    border-bottom-color: rgba(230, 197, 106, 0.55);
   }
 }
 
@@ -294,6 +285,10 @@ header.blog-top .brand {
   padding: 0;
   margin-top: 0.75rem;
   background: transparent;
+}
+
+.feed-intro .tip-search {
+  margin-top: 0;
 }
 
 .search-hints {
@@ -696,6 +691,15 @@ h2 {
 
 .tip-body .summary + h3 {
   margin-top: 1.55rem;
+}
+
+.blog-page-title {
+  font-family: Georgia, "Iowan Old Style", serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.25;
+  margin: 0.35rem 0 0.35rem;
+  color: var(--ink);
 }
 
 .blog-feed {

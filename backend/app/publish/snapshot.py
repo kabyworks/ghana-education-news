@@ -24,13 +24,13 @@ from app.services.original_post import (
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "31"
+SHELL_VERSION = "32"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-27";
+PHONE_SW = """const CACHE = "ghanaed-phone-28";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=31",
-  "./app.js?v=31",
+  "./styles.css?v=32",
+  "./app.js?v=32",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -834,17 +834,14 @@ def _blog_index_page(originals: list[dict]) -> str:
   <link rel="stylesheet" href="../styles.css?v={SHELL_VERSION}">
 </head>
 <body>
-  <header class="blog-top">
-    <div class="bar">
-      <a class="brand" href="../"><img src="../logo.svg" alt="Edulens360" width="52" height="45"></a>
-    </div>
-  </header>
-  <main id="main">
-    <article class="story">
-      {_back_link("../", "Back to latest")}
-      <p class="kicker">Edulens360 · Blogs</p>
-      <div class="headline"><h1>Edulens360 blogs</h1></div>
-      <p class="summary">Practical guidance for students, teachers, and parents in Ghana.</p>
+  <header class="feed-top">
+    <section class="feed-intro" aria-label="Blog header">
+      <div class="feed-brand-row">
+        <a class="brand" href="../"><img src="../logo.svg" alt="Edulens360" width="52" height="45"></a>
+        <div class="feed-brand-copy">
+          <p class="kicker">Edulens360 · Blogs</p>
+        </div>
+      </div>
       <form class="search-wrap tip-search" action="../" method="get" role="search" aria-label="Search blogs">
         <label class="search-field">
           <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
@@ -858,7 +855,12 @@ def _blog_index_page(originals: list[dict]) -> str:
         <a href="../?q=CSSPS">CSSPS</a>
         <a href="../?q=BECE">BECE</a>
       </div>
-    </article>
+    </section>
+  </header>
+  <main id="main">
+    {_back_link("../", "Back to latest")}
+    <h1 class="blog-page-title">Edulens360 blogs</h1>
+    <p class="summary">Practical guidance for students, teachers, and parents in Ghana.</p>
     <div class="blog-feed">
       {listing}
     </div>
@@ -941,10 +943,15 @@ def _blog_article_page(story: dict, originals: list[dict]) -> str:
   </script>
 </head>
 <body>
-  <header class="blog-top">
-    <div class="bar">
-      <a class="brand" href="../../../"><img src="../../../logo.svg" alt="Edulens360" width="52" height="45"></a>
-    </div>
+  <header class="feed-top">
+    <section class="feed-intro" aria-label="Blog header">
+      <div class="feed-brand-row">
+        <a class="brand" href="../../../"><img src="../../../logo.svg" alt="Edulens360" width="52" height="45"></a>
+        <div class="feed-brand-copy">
+          <p class="kicker">Edulens360 · Blogs</p>
+        </div>
+      </div>
+    </section>
   </header>
   <main id="main">
     <article class="story">
