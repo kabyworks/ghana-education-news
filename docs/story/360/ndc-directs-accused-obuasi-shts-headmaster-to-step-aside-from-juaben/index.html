@@ -20,7 +20,7 @@
   <meta name="twitter:description" content="The National Democratic Congress (NDC) has directed Zakaria Abdulai, the suspended headmaster of Obuasi Senior High Technical School (SHTS), to step aside from the Juaben…">
   <meta name="twitter:image" content="https://media.3news.com/DC%20Cha-800x504.webp">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=23">
+  <link rel="stylesheet" href="../../../styles.css?v=26">
 </head>
 <body>
   <header>
@@ -53,7 +53,6 @@
         <button type="button" class="share-btn" id="share-story"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 3.9M15.4 6.6l-6.8 3.9"></path></svg> Share</button>
         <button type="button" class="share-btn" id="save-story"><svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Save</button>
       </div>
-
       <section class="source"><h3>3News</h3><p class="summary">The party said the decision was taken in the interest of transparency and accountability, stressing that it did not amount to a determination of the merits of the allegations against Mr Abdulai.</p><a class="link-button secondary" href="https://3news.com/politics/ndc-rescinds-clearance-of-obuasi-shts-headmaster-to-contest-juaben-race" target="_blank" rel="noreferrer">Read at 3News</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The National Democratic Congress (NDC) has directed Zakaria Abdulai, the suspended headmaster of Obuasi Senior High Technical School (SHTS), to step aside from the Juaben Constituency Chairmanship race pending an investigation by the Criminal Investigations Department (CID) of the Ghana Police Service. In a statement issued on Tuesday, October 20, 2026, and signed by General Secretary Fifi Fiavi Kwetey, the party said its Functional Executive Committee (FEC) took the decision after further consideration. “FEC has directed that Mr Zakaria Abdulai step aside, in the overriding interest of transparency and accountability, to allow for an unhindered investigation by the Criminal Investigations Department (CID) of the Ghana Police Service,” the statement said.</p><a class="link-button secondary" href="https://www.myjoyonline.com/ndc-directs-accused-obuasi-shts-headmaster-to-step-aside-from-juaben-chairmanship-race/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
@@ -67,6 +66,7 @@
     const share = document.getElementById("share-story");
     const saveBtn = document.getElementById("save-story");
     const copyHtml = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg> Copy link";
+    const saveHtml = "<svg class=\"bookmark\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"></path></svg> ";
     function readSaved() {
       try {
         const parsed = JSON.parse(localStorage.getItem(key) || "[]");
@@ -79,10 +79,7 @@
       const on = readSaved().some((item) => item.id === story.id);
       saveBtn.classList.toggle("saved", on);
       saveBtn.setAttribute("aria-pressed", on ? "true" : "false");
-      saveBtn.setAttribute("aria-label", on ? "Remove save" : "Save");
-      const icon = saveBtn.querySelector("svg");
-      const iconHtml = icon ? icon.outerHTML + " " : "";
-      saveBtn.innerHTML = iconHtml + (on ? "Saved" : "Save");
+      saveBtn.innerHTML = saveHtml + (on ? "Saved" : "Save");
     }
     function storyUrl() {
       return story.path

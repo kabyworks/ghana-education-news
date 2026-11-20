@@ -20,7 +20,7 @@
   <meta name="twitter:description" content="A 19-year-old final-year student of Peki Senior High School in the Volta Region has died following an alleged altercation with a colleague in one of the school’s dormitories.">
   <meta name="twitter:image" content="https://media.3news.com/r22-peki-shs-signboard-652x381.webp">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=23">
+  <link rel="stylesheet" href="../../../styles.css?v=26">
 </head>
 <body>
   <header>
@@ -53,7 +53,6 @@
         <button type="button" class="share-btn" id="share-story"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 3.9M15.4 6.6l-6.8 3.9"></path></svg> Share</button>
         <button type="button" class="share-btn" id="save-story"><svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Save</button>
       </div>
-
       <section class="source"><h3>3News</h3><p class="summary">Police have detained a fellow student after 19-year-old Joseph Tsetsekple collapsed during a dormitory dispute and died at Peki Government Hospital.</p><a class="link-button secondary" href="https://3news.com/education/peki-shs-student-dies-dormitory-altercation" target="_blank" rel="noreferrer">Read at 3News</a></section>
 <section class="source"><h3>Adom Online Education</h3><p class="summary">A 19-year-old final-year student of Peki Senior High School in the Volta Region has died following an alleged altercation with a colleague in one of the school’s dormitories. The deceased, identified as Joseph Tsetsekple, reportedly became unconscious after he was allegedly pushed against a wall during a disagreement over a schoolbag on his bed. He […]</p><a class="link-button secondary" href="https://www.adomonline.com/final-year-peki-shs-student-dies-after-alleged-altercation-with-colleague-in-dormitory/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">A 19-year-old final-year student of Peki Senior High School in the Volta Region has died following an alleged altercation with a colleague in one of the school’s dormitories.</p><a class="link-button secondary" href="https://www.myjoyonline.com/final-year-peki-shs-student-dies-after-alleged-altercation-with-colleague-in-dormitory/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
@@ -68,6 +67,7 @@
     const share = document.getElementById("share-story");
     const saveBtn = document.getElementById("save-story");
     const copyHtml = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg> Copy link";
+    const saveHtml = "<svg class=\"bookmark\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"></path></svg> ";
     function readSaved() {
       try {
         const parsed = JSON.parse(localStorage.getItem(key) || "[]");
@@ -80,10 +80,7 @@
       const on = readSaved().some((item) => item.id === story.id);
       saveBtn.classList.toggle("saved", on);
       saveBtn.setAttribute("aria-pressed", on ? "true" : "false");
-      saveBtn.setAttribute("aria-label", on ? "Remove save" : "Save");
-      const icon = saveBtn.querySelector("svg");
-      const iconHtml = icon ? icon.outerHTML + " " : "";
-      saveBtn.innerHTML = iconHtml + (on ? "Saved" : "Save");
+      saveBtn.innerHTML = saveHtml + (on ? "Saved" : "Save");
     }
     function storyUrl() {
       return story.path

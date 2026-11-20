@@ -20,7 +20,7 @@
   <meta name="twitter:description" content="Some supporters of the New Patriotic Party (NPP) have staged a demonstration in Obuasi in the Ashanti Region to demand justice for female students of Obuasi Senior High Technical…">
   <meta name="twitter:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/11/image-595-1024x510.png">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=23">
+  <link rel="stylesheet" href="../../../styles.css?v=26">
 </head>
 <body>
   <header>
@@ -53,7 +53,6 @@
         <button type="button" class="share-btn" id="share-story"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 3.9M15.4 6.6l-6.8 3.9"></path></svg> Share</button>
         <button type="button" class="share-btn" id="save-story"><svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Save</button>
       </div>
-
       <section class="source"><h3>Adom Online Education</h3><p class="summary">The Women’s Wing of the New Patriotic Party (NPP) has announced plans to stage a peaceful demonstration in Obuasi on Friday, November 6, 2026, to demand justice for 19 students allegedly sexually abused by the headmaster of Obuasi Senior High Technical School(SHTS). The National Women’s Organiser of the NPP, Mavis Hawa Koomson, said the demonstration […]</p><a class="link-button secondary" href="https://www.adomonline.com/npp-womens-wing-to-stage-demo-over-alleged-sexual-abuse-at-obuasi-shts/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">Some supporters of the New Patriotic Party (NPP) have staged a demonstration in Obuasi in the Ashanti Region to demand justice for female students of Obuasi Senior High Technical School (SHTS) allegedly sexually molested by the school&#x27;s headmaster, Zakaria Abdulai.</p><a class="link-button secondary" href="https://www.myjoyonline.com/npp-womens-wing-protest-in-obuasi-over-alleged-sexual-abuse-at-obuasi-shts/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
@@ -67,6 +66,7 @@
     const share = document.getElementById("share-story");
     const saveBtn = document.getElementById("save-story");
     const copyHtml = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg> Copy link";
+    const saveHtml = "<svg class=\"bookmark\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"></path></svg> ";
     function readSaved() {
       try {
         const parsed = JSON.parse(localStorage.getItem(key) || "[]");
@@ -79,10 +79,7 @@
       const on = readSaved().some((item) => item.id === story.id);
       saveBtn.classList.toggle("saved", on);
       saveBtn.setAttribute("aria-pressed", on ? "true" : "false");
-      saveBtn.setAttribute("aria-label", on ? "Remove save" : "Save");
-      const icon = saveBtn.querySelector("svg");
-      const iconHtml = icon ? icon.outerHTML + " " : "";
-      saveBtn.innerHTML = iconHtml + (on ? "Saved" : "Save");
+      saveBtn.innerHTML = saveHtml + (on ? "Saved" : "Save");
     }
     function storyUrl() {
       return story.path

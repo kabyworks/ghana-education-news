@@ -20,7 +20,7 @@
   <meta name="twitter:description" content="The Ghana Tertiary Education Commission (GTEC) has directed all public universities to reopen their campuses for the 2026/2027 academic year by Friday, October 16, despite any…">
   <meta name="twitter:image" content="https://media.3news.com/Screenshot%202026-10-14%20at%209.20.51%E2%80%AFAM-800x606.webp">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=23">
+  <link rel="stylesheet" href="../../../styles.css?v=26">
 </head>
 <body>
   <header>
@@ -53,7 +53,6 @@
         <button type="button" class="share-btn" id="share-story"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 3.9M15.4 6.6l-6.8 3.9"></path></svg> Share</button>
         <button type="button" class="share-btn" id="save-story"><svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Save</button>
       </div>
-
       <section class="source"><h3>3News</h3><p class="summary">GTEC has directed public universities to reopen by 16 October and begin lectures on 19 October 2026, despite ongoing strikes by university administrators.</p><a class="link-button secondary" href="https://3news.com/education/gtec-directs-public-universities-to-reopen-by-october-16-lectures-start-october-19-despite-strikes" target="_blank" rel="noreferrer">Read at 3News</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Ghana Tertiary Education Commission (GTEC) has directed all public universities to reopen their campuses for the 2026/2027 academic year by Friday, October 16, despite any earlier decisions to postpone reopening. In a letter dated October 13, 2026, and signed by Deputy Director-General Prof. Augustine Ocloo on behalf of the Director-General, the Commission said academic activities, particularly lectures, must commence on Monday, October 19. The directive was issued on the authority of the Minister for Education. GTEC has also directed university managements to ensure that halls of residence, academic libraries, departmental registration desks and other essential student support facilities are fully staffed and operational by Thursday, October 15.</p><a class="link-button secondary" href="https://www.myjoyonline.com/gtec-directs-ghanas-public-universities-to-reopen-by-october-16-and-begin-lectures-on-october-19/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
@@ -67,6 +66,7 @@
     const share = document.getElementById("share-story");
     const saveBtn = document.getElementById("save-story");
     const copyHtml = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg> Copy link";
+    const saveHtml = "<svg class=\"bookmark\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"></path></svg> ";
     function readSaved() {
       try {
         const parsed = JSON.parse(localStorage.getItem(key) || "[]");
@@ -79,10 +79,7 @@
       const on = readSaved().some((item) => item.id === story.id);
       saveBtn.classList.toggle("saved", on);
       saveBtn.setAttribute("aria-pressed", on ? "true" : "false");
-      saveBtn.setAttribute("aria-label", on ? "Remove save" : "Save");
-      const icon = saveBtn.querySelector("svg");
-      const iconHtml = icon ? icon.outerHTML + " " : "";
-      saveBtn.innerHTML = iconHtml + (on ? "Saved" : "Save");
+      saveBtn.innerHTML = saveHtml + (on ? "Saved" : "Save");
     }
     function storyUrl() {
       return story.path
