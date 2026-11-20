@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-20T16:10:24Z",
+  "generated_at": "2026-11-20T16:40:22Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 294
+      "story_count": 295
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 976,
+      "title": "Takoradi Technical University admits 7,154 fresh students for 2026/2027 academic year",
+      "summary": "Takoradi Technical University (TTU) has admitted 7,154 fresh students for the 2026/2027 academic year after receiving 10,045 applications and offering admission to 8,900 applicants. The Vice-Chancellor, Rev.",
+      "category": "higher_education",
+      "published_at": "2026-11-20T16:38:30Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/4-7.jpg",
+      "rank": 0.767,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Takoradi Technical University admits 7,154 fresh students for 2026/2027 academic year",
+          "url": "https://www.myjoyonline.com/takoradi-technical-university-admits-7154-fresh-students-for-2026-2027-academic-year/",
+          "published_at": "2026-11-20T16:38:30Z",
+          "excerpt": "Takoradi Technical University (TTU) has admitted 7,154 fresh students for the 2026/2027 academic year after receiving 10,045 applications and offering admission to 8,900 applicants. The Vice-Chancellor, Rev. Prof. John Frank Eshun, disclosed this at the University’s 27th Matriculation Ceremony on Friday, November 20, 2026. He said the admitted students comprise 4,364 males, representing 61 per […]"
+        }
+      ],
+      "path": "story/976/takoradi-technical-university-admits-7-154-fresh-students-for-2026-2027/"
+    },
     {
       "id": 975,
       "title": "Wesley Girls’ graduate with eight A’s dies in motorcycle accident in Ablekuma",
