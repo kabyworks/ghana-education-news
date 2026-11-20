@@ -24,13 +24,13 @@ from app.services.original_post import (
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "28"
+SHELL_VERSION = "30"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-24";
+PHONE_SW = """const CACHE = "ghanaed-phone-26";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=28",
-  "./app.js?v=28",
+  "./styles.css?v=30",
+  "./app.js?v=30",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -643,7 +643,7 @@ def _site_footer(root: str = "./") -> str:
         "<strong>Edulens360</strong>"
         "</div>"
         '<nav aria-label="Footer">'
-        f'<a href="{escape(base, quote=True)}blog/">Tips</a>'
+        f'<a href="{escape(base, quote=True)}blog/">Blogs</a>'
         f'<a href="{escape(base, quote=True)}">News</a>'
         '<a href="#">WhatsApp</a>'
         f'<a href="{escape(base, quote=True)}privacy/">Privacy</a>'
