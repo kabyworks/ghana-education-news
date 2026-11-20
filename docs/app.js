@@ -639,7 +639,6 @@ function renderStory(story, { offline = false } = {}) {
   );
   article.append(headline(story));
   article.append(el("p", "summary", story.summary));
-  if (offline) article.append(el("p", "meta", "Saved on this device."));
   const shareRow = el("div", "share-row");
   shareRow.setAttribute("aria-label", "Share this story");
   const copyBtn = document.createElement("button");
@@ -674,6 +673,7 @@ function renderStory(story, { offline = false } = {}) {
       flashShareFeedback(article, "Sharing unavailable");
     }
   });
+  // In-story Save: button state only (no confirmation panel). Feed card-save is unchanged.
   const save = document.createElement("button");
   save.type = "button";
   save.className = "share-btn";
@@ -683,6 +683,7 @@ function renderStory(story, { offline = false } = {}) {
     const on = isSaved(story.id);
     save.classList.toggle("saved", on);
     save.setAttribute("aria-pressed", on ? "true" : "false");
+    save.setAttribute("aria-label", on ? "Remove save" : "Save");
     save.innerHTML = saveHtml + (on ? "Saved" : "Save");
   };
   save.addEventListener("click", () => {

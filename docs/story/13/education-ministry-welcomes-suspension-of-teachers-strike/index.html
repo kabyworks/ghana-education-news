@@ -20,7 +20,7 @@
   <meta name="twitter:description" content="The Minority Caucus in Parliament has welcomed the suspension of the nationwide teachers’ strike by the Ghana National Association of Teachers (GNAT), the National Association of…">
   <meta name="twitter:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-08.20.27-820x1024.jpeg">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=19">
+  <link rel="stylesheet" href="../../../styles.css?v=23">
 </head>
 <body>
   <header>
@@ -53,14 +53,7 @@
         <button type="button" class="share-btn" id="share-story"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 3.9M15.4 6.6l-6.8 3.9"></path></svg> Share</button>
         <button type="button" class="share-btn" id="save-story"><svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Save</button>
       </div>
-      <div class="save-panel" id="save-panel" hidden role="status">
-        <div class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"></path></svg></div>
-        <div class="save-copy">
-          <h3>Saved to your tips</h3>
-          <p>Nice — you can open this again anytime from Saved.</p>
-        </div>
-        <button type="button" class="save-btn" id="unsave-story"><svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Saved</button>
-      </div>
+
       <section class="source"><h3>3News</h3><p class="summary">“There should be a learning recovery plan from the government to aid the students so that what the schools have lost, we can recover,” he said.</p><a class="link-button secondary" href="https://3news.com/news/teachers-strike-offinso-north-mp-pushes-for-learning-recovery-plan" target="_blank" rel="noreferrer">Read at 3News</a></section>
 <section class="source"><h3>Adom Online Education</h3><p class="summary">The Headmistress of Dichemso M/A School, Helena Amponsah, says teachers are going house-to-house in the Dichemso suburb of Kumasi to encourage pupils to return to the classroom following the suspension of the teachers’ strike. According to her, although teachers reported to school in full on the first day after the suspension, pupil attendance remained low. […]</p><a class="link-button secondary" href="https://www.adomonline.com/dichemso-m-a-school-teachers-go-house-to-house-to-get-pupils-back-to-class-after-strike-suspension/" target="_blank" rel="noreferrer">Read at Adom Online Education</a></section>
 <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Minority Caucus in Parliament has welcomed the suspension of the nationwide teachers’ strike by the Ghana National Association of Teachers (GNAT), the National Association of Graduate Teachers (NAGRAT) and the Pre-Tertiary Teachers Association of Ghana (PRETAG), while urging the government to honour its commitments to the unions. In a statement issued on Wednesday, October 14, 2026, the Minority commended teachers for returning to the classroom despite their outstanding grievances, saying they had prioritised the education of Ghanaian children. “Their return is an act of patriotism and good faith,” the statement said. The caucus also commended the union leadership, parents and the National Council of Parent-Teacher Associations, and acknowledged the roles of the Council of State and the Fair Wages and Salaries Commission in facilitating discussions. The Minority argued that the strike could have been prevented if the government had implemented previously agreed conditions of servic</p><a class="link-button secondary" href="https://www.myjoyonline.com/minority-welcomes-suspension-of-teachers-strike-demands-timely-payment-of-promotion-arrears/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
@@ -74,8 +67,6 @@
     const copyBtn = document.getElementById("copy-link");
     const share = document.getElementById("share-story");
     const saveBtn = document.getElementById("save-story");
-    const unsaveBtn = document.getElementById("unsave-story");
-    const panel = document.getElementById("save-panel");
     const copyHtml = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg> Copy link";
     function readSaved() {
       try {
@@ -87,8 +78,12 @@
     }
     function paintSaved() {
       const on = readSaved().some((item) => item.id === story.id);
-      saveBtn.hidden = on;
-      panel.hidden = !on;
+      saveBtn.classList.toggle("saved", on);
+      saveBtn.setAttribute("aria-pressed", on ? "true" : "false");
+      saveBtn.setAttribute("aria-label", on ? "Remove save" : "Save");
+      const icon = saveBtn.querySelector("svg");
+      const iconHtml = icon ? icon.outerHTML + " " : "";
+      saveBtn.innerHTML = iconHtml + (on ? "Saved" : "Save");
     }
     function storyUrl() {
       return story.path
@@ -106,11 +101,12 @@
     }
     copyBtn.addEventListener("click", copyLink);
     saveBtn.addEventListener("click", () => {
-      localStorage.setItem(key, JSON.stringify([story, ...readSaved().filter((item) => item.id !== story.id)]));
-      paintSaved();
-    });
-    unsaveBtn.addEventListener("click", () => {
-      localStorage.setItem(key, JSON.stringify(readSaved().filter((item) => item.id !== story.id)));
+      const current = readSaved();
+      const on = current.some((item) => item.id === story.id);
+      const next = on
+        ? current.filter((item) => item.id !== story.id)
+        : [story, ...current];
+      localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
     });
     share.addEventListener("click", async () => {

@@ -106,6 +106,51 @@ header.feed-top {
   padding: 0.85rem 1rem 0.9rem;
 }
 
+/* Phone: restore the old deep-green header; keep cream card header on larger screens. */
+@media (max-width: 720px) {
+  header.feed-top {
+    background: var(--green);
+    color: var(--paper);
+    border-bottom-color: rgba(255, 255, 255, 0.12);
+  }
+
+  .feed-intro {
+    background: var(--green);
+  }
+
+  .feed-intro .kicker {
+    color: var(--paper);
+  }
+
+  .feed-brand-row .brand {
+    border-color: transparent;
+  }
+
+  .feed-intro .search-field {
+    border-color: #fff;
+  }
+
+  .feed-intro .search-go {
+    background: var(--gold);
+    color: var(--green);
+  }
+
+  .feed-intro .categories a,
+  .feed-intro .categories button.categories-toggle {
+    background: #fff;
+    color: var(--green);
+    border-color: #fff;
+  }
+
+  .feed-intro .categories a[aria-current="true"],
+  .feed-intro .categories button.categories-toggle[aria-expanded="true"],
+  .feed-intro .categories button.categories-toggle.is-filtering {
+    background: var(--gold);
+    color: var(--green);
+    border-color: var(--gold);
+  }
+}
+
 .feed-brand-row {
   display: flex;
   align-items: flex-start;

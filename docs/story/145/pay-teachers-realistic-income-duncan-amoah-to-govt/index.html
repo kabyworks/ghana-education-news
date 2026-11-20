@@ -20,7 +20,7 @@
   <meta name="twitter:description" content="The Executive Director of the Chamber of Petroleum Consumers (COPEC), Duncan Amoah, has called on the government to pay teachers realistic salaries and provide adequate funding…">
   <meta name="twitter:image" content="https://www.myjoyonline.com/wp-content/uploads/2026/10/image-1063.png">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=19">
+  <link rel="stylesheet" href="../../../styles.css?v=20">
 </head>
 <body>
   <header>
@@ -53,14 +53,7 @@
         <button type="button" class="share-btn" id="share-story"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 3.9M15.4 6.6l-6.8 3.9"></path></svg> Share</button>
         <button type="button" class="share-btn" id="save-story"><svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Save</button>
       </div>
-      <div class="save-panel" id="save-panel" hidden role="status">
-        <div class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"></path></svg></div>
-        <div class="save-copy">
-          <h3>Saved to your tips</h3>
-          <p>Nice — you can open this again anytime from Saved.</p>
-        </div>
-        <button type="button" class="save-btn" id="unsave-story"><svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Saved</button>
-      </div>
+
       <section class="source"><h3>MyJoyOnline Education</h3><p class="summary">The Executive Director of the Chamber of Petroleum Consumers (COPEC), Duncan Amoah, has called on the government to pay teachers realistic salaries and provide adequate funding for teaching and learning materials, arguing that investment in education must translate into improved outcomes for students and the wider economy.</p><a class="link-button secondary" href="https://www.myjoyonline.com/pay-teachers-realistic-income-duncan-amoah-to-govt/" target="_blank" rel="noreferrer">Read at MyJoyOnline Education</a></section>
     </article>
   </main>
@@ -72,8 +65,6 @@
     const copyBtn = document.getElementById("copy-link");
     const share = document.getElementById("share-story");
     const saveBtn = document.getElementById("save-story");
-    const unsaveBtn = document.getElementById("unsave-story");
-    const panel = document.getElementById("save-panel");
     const copyHtml = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg> Copy link";
     function readSaved() {
       try {
@@ -85,8 +76,12 @@
     }
     function paintSaved() {
       const on = readSaved().some((item) => item.id === story.id);
-      saveBtn.hidden = on;
-      panel.hidden = !on;
+      saveBtn.classList.toggle("saved", on);
+      saveBtn.setAttribute("aria-pressed", on ? "true" : "false");
+      saveBtn.setAttribute("aria-label", on ? "Remove save" : "Save");
+      const icon = saveBtn.querySelector("svg");
+      const iconHtml = icon ? icon.outerHTML + " " : "";
+      saveBtn.innerHTML = iconHtml + (on ? "Saved" : "Save");
     }
     function storyUrl() {
       return story.path
@@ -104,11 +99,12 @@
     }
     copyBtn.addEventListener("click", copyLink);
     saveBtn.addEventListener("click", () => {
-      localStorage.setItem(key, JSON.stringify([story, ...readSaved().filter((item) => item.id !== story.id)]));
-      paintSaved();
-    });
-    unsaveBtn.addEventListener("click", () => {
-      localStorage.setItem(key, JSON.stringify(readSaved().filter((item) => item.id !== story.id)));
+      const current = readSaved();
+      const on = current.some((item) => item.id === story.id);
+      const next = on
+        ? current.filter((item) => item.id !== story.id)
+        : [story, ...current];
+      localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
     });
     share.addEventListener("click", async () => {

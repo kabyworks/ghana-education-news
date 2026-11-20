@@ -24,13 +24,13 @@ from app.services.original_post import (
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "25"
+SHELL_VERSION = "26"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-21";
+PHONE_SW = """const CACHE = "ghanaed-phone-22";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=25",
-  "./app.js?v=25",
+  "./styles.css?v=26",
+  "./app.js?v=26",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
