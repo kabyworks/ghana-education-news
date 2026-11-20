@@ -122,17 +122,25 @@ header.feed-top {
     color: var(--paper);
   }
 
+  .feed-brand-row {
+    border-bottom-color: rgba(230, 197, 106, 0.42);
+  }
+
   .feed-brand-row .brand {
     border-color: transparent;
   }
 
   .feed-intro .search-field {
     border-color: #fff;
+    background: #fff;
   }
 
+  /* Search stays a clear pill button on green — white like Latest/Categories. */
   .feed-intro .search-go {
-    background: var(--gold);
+    background: #fff;
     color: var(--green);
+    border: 1.5px solid #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.12);
   }
 
   .feed-intro .categories a,
@@ -157,6 +165,8 @@ header.feed-top {
   justify-content: flex-start;
   gap: 0.7rem;
   margin-bottom: 0.85rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(28, 61, 46, 0.22);
 }
 
 .feed-brand-row .brand {
@@ -246,7 +256,7 @@ header.feed-top {
   min-height: 44px;
   margin: 0;
   padding: 0 1rem;
-  border: none;
+  border: 1.5px solid var(--green);
   border-radius: 999px;
   background: var(--green);
   color: #fff;
