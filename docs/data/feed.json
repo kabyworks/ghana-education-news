@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T18:10:07Z",
+  "generated_at": "2026-11-20T18:40:10Z",
   "categories": [
     {
       "name": "higher_education",
@@ -7,7 +7,7 @@
     },
     {
       "name": "basic_schools",
-      "story_count": 253
+      "story_count": 254
     },
     {
       "name": "teachers",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 981,
+      "title": "World Children’s Day: What replaced corporal punishment in schools? – Rev. Godson-Afful asks over decline in discipline",
+      "summary": "The Head Pastor of Rehoboth Network of Churches, Rev. Dr Henry Godson-Afful, has questioned the effectiveness of disciplinary measures in Ghanaian schools following the removal of corporal punishment from classrooms.",
+      "category": "basic_schools",
+      "published_at": "2026-11-20T18:24:41Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/image-2524.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "World Children’s Day: What replaced corporal punishment in schools? – Rev. Godson-Afful asks over decline in discipline",
+          "url": "https://www.myjoyonline.com/world-childrens-day-what-replaced-corporal-punishment-in-schools-rev-godson-afful-asks-over-decline-in-discipline/",
+          "published_at": "2026-11-20T18:24:41Z",
+          "excerpt": "The Head Pastor of Rehoboth Network of Churches, Rev. Dr Henry Godson-Afful, has questioned the effectiveness of disciplinary measures in Ghanaian schools following the removal of corporal punishment from classrooms."
+        }
+      ],
+      "path": "story/981/world-childrens-day-what-replaced-corporal-punishment-in-schools-rev-godson/"
+    },
     {
       "id": 980,
       "title": "Ghana’s Education Crossroads: Why Artificial Intelligence Must Become a Tool for Inclusive Learning and National Transformation",
