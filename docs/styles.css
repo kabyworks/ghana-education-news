@@ -123,7 +123,7 @@ header.feed-top {
   }
 
   .feed-brand-row {
-    border-bottom-color: rgba(230, 197, 106, 0.42);
+    border-bottom-color: rgba(230, 197, 106, 0.55);
   }
 
   .feed-brand-row .brand {
@@ -135,7 +135,9 @@ header.feed-top {
     background: #fff;
   }
 
-  /* Search stays a clear pill button on green — white like Latest/Categories. */
+  /* Beat #search .search-go so the pill is not green-on-green. */
+  .feed-intro #search .search-go,
+  .feed-intro .search-wrap .search-go,
   .feed-intro .search-go {
     background: #fff;
     color: var(--green);
