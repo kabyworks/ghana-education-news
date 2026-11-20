@@ -58,8 +58,10 @@ header {
 }
 
 header.feed-top {
-  background: var(--paper);
+  background: var(--card);
   color: var(--ink);
+  width: 100%;
+  border-bottom: 1px solid var(--line);
 }
 
 .bar {
@@ -100,7 +102,6 @@ header.feed-top {
   box-sizing: border-box;
   background: var(--card);
   border: 0;
-  border-bottom: 1px solid var(--line);
   border-radius: 0;
   padding: 0.85rem 1rem 0.9rem;
 }
@@ -812,6 +813,12 @@ button.secondary, a.secondary, .link-button.secondary {
 .share-btn.primary {
   background: var(--gold);
   border-color: #d4b45a;
+}
+
+.share-btn.saved {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
 }
 
 .share-btn svg {

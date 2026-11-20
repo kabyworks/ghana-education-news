@@ -20,7 +20,7 @@
   <meta name="twitter:description" content="CSSPS school placement help for students and parents in Ghana: confirm your placement, use official self-placement options, contact the right office, and avoid costly mistakes.">
   <meta name="twitter:image" content="https://edulens360.com/images/tips/cssps-placement.png?v=3">
   <link rel="icon" href="../../../icon-192.png">
-  <link rel="stylesheet" href="../../../styles.css?v=19">
+  <link rel="stylesheet" href="../../../styles.css?v=25">
   <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Article", "headline": "CSSPS school placement: what to do if you are not satisfied", "description": "CSSPS school placement help for students and parents in Ghana: confirm your placement, use official self-placement options, contact the right office, and avoid costly mistakes.", "datePublished": "2026-11-11T14:53:28Z", "dateModified": "2026-11-11T14:53:28Z", "mainEntityOfPage": "https://edulens360.com/blog/792/cssps-school-placement-what-to-do-if-you-are-not-satisfied/", "author": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/"}, "publisher": {"@type": "Organization", "name": "Edulens360", "url": "https://edulens360.com/", "logo": {"@type": "ImageObject", "url": "https://edulens360.com/icon-512.png"}}, "isAccessibleForFree": true, "image": ["https://edulens360.com/images/tips/cssps-placement.png?v=3"]}
   </script>
@@ -44,14 +44,6 @@
         <button type="button" class="share-btn" id="share-tip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 3.9M15.4 6.6l-6.8 3.9"></path></svg> Share</button>
         <button type="button" class="share-btn" id="save-tip"><svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Save</button>
       </div>
-      <div class="save-panel" id="save-panel" hidden role="status">
-        <div class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"></path></svg></div>
-        <div class="save-copy">
-          <h3>Saved to your tips</h3>
-          <p>Nice — you can open this again anytime from Saved.</p>
-        </div>
-        <button type="button" class="save-btn" id="unsave-tip"><svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Saved</button>
-      </div>
       <script type="application/json" id="tip-data">{"id": 792, "title": "CSSPS school placement: what to do if you are not satisfied", "summary": "CSSPS school placement help for students and parents in Ghana: confirm your placement, use official self-placement options, contact the right office, and avoid costly mistakes.", "category": "basic_schools", "published_at": "2026-11-11T14:53:28.538447Z", "source_count": 1, "sources": ["Edulens360"], "image_url": "https://edulens360.com/images/tips/cssps-placement.png?v=3", "path": "blog/792/cssps-school-placement-what-to-do-if-you-are-not-satisfied/", "blog_path": "blog/792/cssps-school-placement-what-to-do-if-you-are-not-satisfied/", "articles": []}</script>
       <script>
         (function () {
@@ -60,9 +52,8 @@
           const copyBtn = document.getElementById("copy-link");
           const shareBtn = document.getElementById("share-tip");
           const saveBtn = document.getElementById("save-tip");
-          const unsaveBtn = document.getElementById("unsave-tip");
-          const panel = document.getElementById("save-panel");
           const url = new URL(tip.path.replace(/^\/+/, ""), "https://edulens360.com/").href;
+          const saveHtml = "<svg class=\"bookmark\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"></path></svg> ";
           function readSaved() {
             try {
               const parsed = JSON.parse(localStorage.getItem(key) || "[]");
@@ -71,19 +62,18 @@
               return [];
             }
           }
-          function isOn() {
-            return readSaved().some((item) => item.id === tip.id);
-          }
           function paint() {
-            const on = isOn();
-            saveBtn.hidden = on;
-            panel.hidden = !on;
+            const on = readSaved().some((item) => item.id === tip.id);
+            saveBtn.classList.toggle("saved", on);
+            saveBtn.setAttribute("aria-pressed", on ? "true" : "false");
+            saveBtn.innerHTML = saveHtml + (on ? "Saved" : "Save");
           }
-          function setSaved(on) {
+          function toggleSaved() {
             const current = readSaved();
+            const on = current.some((item) => item.id === tip.id);
             const next = on
-              ? [tip, ...current.filter((item) => item.id !== tip.id)]
-              : current.filter((item) => item.id !== tip.id);
+              ? current.filter((item) => item.id !== tip.id)
+              : [tip, ...current];
             localStorage.setItem(key, JSON.stringify(next));
             paint();
           }
@@ -110,8 +100,7 @@
             }
             copyLink();
           });
-          saveBtn.addEventListener("click", () => setSaved(true));
-          unsaveBtn.addEventListener("click", () => setSaved(false));
+          saveBtn.addEventListener("click", toggleSaved);
           paint();
         })();
       </script>

@@ -677,35 +677,21 @@ function renderStory(story, { offline = false } = {}) {
   const save = document.createElement("button");
   save.type = "button";
   save.className = "share-btn";
-  save.innerHTML =
-    '<svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Save';
-  const panel = el("div", "save-panel");
-  panel.setAttribute("role", "status");
-  panel.innerHTML =
-    '<div class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"></path></svg></div>' +
-    '<div class="save-copy"><h3>Saved to your tips</h3><p>Nice — you can open this again anytime from Saved.</p></div>';
-  const unsave = document.createElement("button");
-  unsave.type = "button";
-  unsave.className = "save-btn";
-  unsave.innerHTML =
-    '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> Saved';
-  unsave.addEventListener("click", () => {
-    toggleSaved(story);
-    renderStory(story, { offline });
-  });
-  panel.append(unsave);
-  const paintSave = () => {
+  const saveHtml =
+    '<svg class="bookmark" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg> ';
+  const paintStorySave = () => {
     const on = isSaved(story.id);
-    save.hidden = on;
-    panel.hidden = !on;
+    save.classList.toggle("saved", on);
+    save.setAttribute("aria-pressed", on ? "true" : "false");
+    save.innerHTML = saveHtml + (on ? "Saved" : "Save");
   };
   save.addEventListener("click", () => {
     toggleSaved(story);
-    paintSave();
+    paintStorySave();
   });
   shareRow.append(copyBtn, share, save);
-  article.append(shareRow, panel);
-  paintSave();
+  article.append(shareRow);
+  paintStorySave();
   for (const item of story.articles || []) {
     const block = el("section", "source");
     block.append(el("h3", "", item.source_name));

@@ -24,13 +24,13 @@ from app.services.original_post import (
 READER_DIR = Path(__file__).resolve().parents[1] / "reader"
 
 SITE = "https://edulens360.com"
-SHELL_VERSION = "24"
+SHELL_VERSION = "25"
 
-PHONE_SW = """const CACHE = "ghanaed-phone-20";
+PHONE_SW = """const CACHE = "ghanaed-phone-21";
 const SHELL = [
   "./index.html",
-  "./styles.css?v=24",
-  "./app.js?v=24",
+  "./styles.css?v=25",
+  "./app.js?v=25",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",
@@ -462,14 +462,6 @@ def _story_page(story: dict) -> str:
         <button type="button" class="share-btn" id="share-story">{_SHARE_SHARE_ICON} Share</button>
         <button type="button" class="share-btn" id="save-story">{_SAVE_BOOKMARK_ICON} Save</button>
       </div>
-      <div class="save-panel" id="save-panel" hidden role="status">
-        <div class="check" aria-hidden="true">{_SAVE_CHECK_ICON}</div>
-        <div class="save-copy">
-          <h3>Saved to your tips</h3>
-          <p>Nice — you can open this again anytime from Saved.</p>
-        </div>
-        <button type="button" class="save-btn" id="unsave-story">{_SAVE_BOOKMARK_ICON} Saved</button>
-      </div>
       {blocks}
     </article>
   </main>
@@ -481,9 +473,8 @@ def _story_page(story: dict) -> str:
     const copyBtn = document.getElementById("copy-link");
     const share = document.getElementById("share-story");
     const saveBtn = document.getElementById("save-story");
-    const unsaveBtn = document.getElementById("unsave-story");
-    const panel = document.getElementById("save-panel");
     const copyHtml = {json.dumps(_SHARE_COPY_ICON + " Copy link")};
+    const saveHtml = {json.dumps(_SAVE_BOOKMARK_ICON + " ")};
     function readSaved() {{
       try {{
         const parsed = JSON.parse(localStorage.getItem(key) || "[]");
@@ -494,8 +485,9 @@ def _story_page(story: dict) -> str:
     }}
     function paintSaved() {{
       const on = readSaved().some((item) => item.id === story.id);
-      saveBtn.hidden = on;
-      panel.hidden = !on;
+      saveBtn.classList.toggle("saved", on);
+      saveBtn.setAttribute("aria-pressed", on ? "true" : "false");
+      saveBtn.innerHTML = saveHtml + (on ? "Saved" : "Save");
     }}
     function storyUrl() {{
       return story.path
@@ -513,11 +505,12 @@ def _story_page(story: dict) -> str:
     }}
     copyBtn.addEventListener("click", copyLink);
     saveBtn.addEventListener("click", () => {{
-      localStorage.setItem(key, JSON.stringify([story, ...readSaved().filter((item) => item.id !== story.id)]));
-      paintSaved();
-    }});
-    unsaveBtn.addEventListener("click", () => {{
-      localStorage.setItem(key, JSON.stringify(readSaved().filter((item) => item.id !== story.id)));
+      const current = readSaved();
+      const on = current.some((item) => item.id === story.id);
+      const next = on
+        ? current.filter((item) => item.id !== story.id)
+        : [story, ...current];
+      localStorage.setItem(key, JSON.stringify(next));
       paintSaved();
     }});
     share.addEventListener("click", async () => {{
@@ -702,14 +695,6 @@ def _tip_share_save_block(story: dict) -> str:
         <button type="button" class="share-btn" id="share-tip">{_SHARE_SHARE_ICON} Share</button>
         <button type="button" class="share-btn" id="save-tip">{_SAVE_BOOKMARK_ICON} Save</button>
       </div>
-      <div class="save-panel" id="save-panel" hidden role="status">
-        <div class="check" aria-hidden="true">{_SAVE_CHECK_ICON}</div>
-        <div class="save-copy">
-          <h3>Saved to your tips</h3>
-          <p>Nice — you can open this again anytime from Saved.</p>
-        </div>
-        <button type="button" class="save-btn" id="unsave-tip">{_SAVE_BOOKMARK_ICON} Saved</button>
-      </div>
       <script type="application/json" id="tip-data">{data}</script>
       <script>
         (function () {{
@@ -718,9 +703,8 @@ def _tip_share_save_block(story: dict) -> str:
           const copyBtn = document.getElementById("copy-link");
           const shareBtn = document.getElementById("share-tip");
           const saveBtn = document.getElementById("save-tip");
-          const unsaveBtn = document.getElementById("unsave-tip");
-          const panel = document.getElementById("save-panel");
           const url = new URL(tip.path.replace(/^\\/+/, ""), "https://edulens360.com/").href;
+          const saveHtml = {json.dumps(_SAVE_BOOKMARK_ICON + " ")};
           function readSaved() {{
             try {{
               const parsed = JSON.parse(localStorage.getItem(key) || "[]");
@@ -729,19 +713,18 @@ def _tip_share_save_block(story: dict) -> str:
               return [];
             }}
           }}
-          function isOn() {{
-            return readSaved().some((item) => item.id === tip.id);
-          }}
           function paint() {{
-            const on = isOn();
-            saveBtn.hidden = on;
-            panel.hidden = !on;
+            const on = readSaved().some((item) => item.id === tip.id);
+            saveBtn.classList.toggle("saved", on);
+            saveBtn.setAttribute("aria-pressed", on ? "true" : "false");
+            saveBtn.innerHTML = saveHtml + (on ? "Saved" : "Save");
           }}
-          function setSaved(on) {{
+          function toggleSaved() {{
             const current = readSaved();
+            const on = current.some((item) => item.id === tip.id);
             const next = on
-              ? [tip, ...current.filter((item) => item.id !== tip.id)]
-              : current.filter((item) => item.id !== tip.id);
+              ? current.filter((item) => item.id !== tip.id)
+              : [tip, ...current];
             localStorage.setItem(key, JSON.stringify(next));
             paint();
           }}
@@ -768,8 +751,7 @@ def _tip_share_save_block(story: dict) -> str:
             }}
             copyLink();
           }});
-          saveBtn.addEventListener("click", () => setSaved(true));
-          unsaveBtn.addEventListener("click", () => setSaved(false));
+          saveBtn.addEventListener("click", toggleSaved);
           paint();
         }})();
       </script>
