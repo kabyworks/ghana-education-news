@@ -620,9 +620,13 @@ function renderStory(story, { offline = false } = {}) {
   clear(main);
   renderCategories(story.category || "");
   const article = el("article", "story");
-  const back = el("a", "back", "Back");
+  const back = el("a", "back");
   back.href = "#/";
   back.setAttribute("aria-label", "Back to latest");
+  back.innerHTML =
+    '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
+    '<path d="M14.5 5.5L8 12l6.5 6.5" fill="none" stroke="currentColor" ' +
+    'stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>';
   article.append(back);
   document.title = story.title ? `${story.title} · Edulens360` : "Edulens360";
   const originLabel = isOriginalTip(story) ? "Edulens360 tip" : sourceLabel(story.source_count);
