@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-20T17:10:15Z",
+  "generated_at": "2026-11-20T17:40:11Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 295
+      "story_count": 296
     },
     {
       "name": "basic_schools",
-      "story_count": 252
+      "story_count": 253
     },
     {
       "name": "teachers",
@@ -31,6 +31,52 @@
     }
   ],
   "stories": [
+    {
+      "id": 978,
+      "title": "Krobo Girls’ Old Girls Association unveils Centenary Ambassadors ahead of 100th anniversary",
+      "summary": "The Krobo Old Girls’ Association (KOGA) is set to unveil six Centenary Ambassadors as part of activities leading up to the 100th anniversary celebration of Krobo Girls’ Presbyterian Senior High School.",
+      "category": "basic_schools",
+      "published_at": "2026-11-20T17:22:40Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-20-at-07.51.56-1024x682.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "Krobo Girls’ Old Girls Association unveils Centenary Ambassadors ahead of 100th anniversary",
+          "url": "https://www.myjoyonline.com/krobo-girls-old-girls-association-unveils-centenary-ambassadors-ahead-of-100th-anniversary/",
+          "published_at": "2026-11-20T17:22:40Z",
+          "excerpt": "The Krobo Old Girls’ Association (KOGA) is set to unveil six Centenary Ambassadors as part of activities leading up to the 100th anniversary celebration of Krobo Girls’ Presbyterian Senior High School. The unveiling ceremony is scheduled for Friday, November 20, 2026, at the Cecilia Obenewah Appiah Hall, beginning at 11 a.m. The initiative brings together […]"
+        }
+      ],
+      "path": "story/978/krobo-girls-old-girls-association-unveils-centenary-ambassadors-ahead-of-100th/"
+    },
+    {
+      "id": 977,
+      "title": "UG SRC warns hostel operators against excessive accommodation fee increment",
+      "summary": "The University of Ghana Students’ Representative Council (SRC) has warned private hostel operators against imposing excessive annual increases in accommodation fees, saying the rising cost of housing is threatening students’ welfare and academic performance.",
+      "category": "higher_education",
+      "published_at": "2026-11-20T17:16:23Z",
+      "source_count": 1,
+      "sources": [
+        "Adom Online Education"
+      ],
+      "image_url": "https://www.adomonline.com/wp-content/uploads/2026/11/UG-SRC-750x375-1.png",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "Adom Online Education",
+          "title": "UG SRC warns hostel operators against excessive accommodation fee increment",
+          "url": "https://www.adomonline.com/ug-src-warns-hostel-operators-against-excessive-accommodation-fee-increment/",
+          "published_at": "2026-11-20T17:16:23Z",
+          "excerpt": "The University of Ghana Students’ Representative Council (SRC) has warned private hostel operators against imposing excessive annual increases in accommodation fees, saying the rising cost of housing is threatening students’ welfare and academic performance. SRC President, Abraham Kofi, said accommodation charges must not be set at levels that make it difficult for students to access […]"
+        }
+      ],
+      "path": "story/977/ug-src-warns-hostel-operators-against-excessive-accommodation-fee-increment/"
+    },
     {
       "id": 976,
       "title": "Takoradi Technical University admits 7,154 fresh students for 2026/2027 academic year",
