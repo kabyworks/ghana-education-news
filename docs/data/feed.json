@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-21T10:28:48Z",
+  "generated_at": "2026-11-21T10:40:14Z",
   "categories": [
     {
       "name": "higher_education",
-      "story_count": 308
+      "story_count": 309
     },
     {
       "name": "basic_schools",
@@ -31,6 +31,29 @@
     }
   ],
   "stories": [
+    {
+      "id": 996,
+      "title": "UGEL cannot hide behind UG’s autonomy to evade Rent Commissioner – Appiagyei-Atua",
+      "summary": "Professor at the University of Ghana School of Law, Kwadwo Appiagyei-Atua, has challenged the University of Ghana Enterprise Limited (UGEL) to submit its accommodation charges to legal scrutiny.",
+      "category": "higher_education",
+      "published_at": "2026-11-21T10:30:29Z",
+      "source_count": 1,
+      "sources": [
+        "MyJoyOnline Education"
+      ],
+      "image_url": "https://www.myjoyonline.com/wp-content/uploads/2024/10/Dr-Kwadwo-Appiagyei-Atua.jpeg",
+      "rank": 0.749,
+      "articles": [
+        {
+          "source_name": "MyJoyOnline Education",
+          "title": "UGEL cannot hide behind UG’s autonomy to evade Rent Commissioner – Appiagyei-Atua",
+          "url": "https://www.myjoyonline.com/ugel-cannot-hide-behind-ugs-autonomy-to-evade-rent-commissioner-appiagyei-atua/",
+          "published_at": "2026-11-21T10:30:29Z",
+          "excerpt": "Professor at the University of Ghana School of Law, Kwadwo Appiagyei-Atua, has challenged the University of Ghana Enterprise Limited (UGEL) to submit its accommodation charges to legal scrutiny."
+        }
+      ],
+      "path": "story/996/ugel-cannot-hide-behind-ugs-autonomy-to-evade-rent-commissioner-appiagyei-atua/"
+    },
     {
       "id": 994,
       "title": "Universities charging students for accommodation must comply with rent laws – Abraham Amaliba",
